@@ -227,7 +227,7 @@ function WebsiteDevelopment() {
               delight your customers.
             </p>
             <Link to="/contact">
-              <button className="bg-[#0000FF] hover:bg-blue-800 transition-all duration-300 text-white font-semibold text-lg px-6 py-3 rounded-lg shadow-lg">
+              <button className="bg-[#fb9c24] transition-all duration-300 text-white font-semibold text-lg px-6 py-3 rounded-lg ">
                 Let's Talk
               </button>
             </Link>
@@ -276,7 +276,7 @@ function WebsiteDevelopment() {
         </div>
 
         {/* Right Form */}
-        <div className="lg:w-2/5 bg-blue-900 text-white rounded-xl p-6 mt-10 lg:mt-0">
+        <div className="lg:w-2/5 bg-white shadow-xl rounded-xl p-6 mt-10 lg:mt-0">
           <h2 className="text-xl font-bold text-center mb-4">
             Connect With Our Professional Website Developers And Build Your
             Dream Website Today!
@@ -312,7 +312,7 @@ function WebsiteDevelopment() {
             <span className="text-black font-bold">
               web{" "}
               <span className="relative inline-block px-2 py-1 rounded-md overflow-hidden">
-                <span className="absolute rounded-3xl inset-0 bg-gradient-to-r from-white to-green-200 animate-slide" />
+                <span className="absolute rounded-3xl inset-0 bg-gradient-to-r from-white to-[#fb9c24] animate-slide" />
                 <span className="relative text-black">development process</span>
               </span>
             </span>
@@ -378,7 +378,7 @@ function WebsiteDevelopment() {
 
       <section className="bg-gray-100 py-16 max-md:pt-12 px-4 text-center">
         <h2 className="text-3xl font-bold mb-2">
-          SEO- <span className="text-blue-800">Friendly Web Design</span>
+          SEO- <span className="text-[#fb9c24]">Friendly Web Design</span>
         </h2>
         <p className="text-gray-600 max-w-3xl mx-auto mb-12">
           Our clients nurture a passion for digital growth, and it shows in

@@ -32,7 +32,7 @@ const SingleItem = ({ title, price, features }) => (
       <hr />
     </ul>
     <Link to="/contact">
-      <button className="mb-4 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-2 rounded mt-4 w-[35%] max-md:w-[50%] flex m-auto justify-center">
+      <button className="mb-4 bg-[#fb9c24]  text-white font-semibold py-2 px-6 rounded-lg mt-4  max-md:w-[50%] flex m-auto justify-center">
         Buy Now
       </button>
     </Link>
@@ -162,7 +162,7 @@ useEffect(() => {
             </div>
           </div>
           <div className="m-auto mb-5 ">
-            <img src="/bulksms/banner.webp" alt="" />
+            <img src="/bulksms/officer.png" alt="" />
           </div>
         </div>
       </div>

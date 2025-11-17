@@ -9,3 +9,23 @@
     color: rgb(156 163 175) !important;
   }
 }
+
+/* Make AntD Select match Tailwind input border styles */
+.custom-select .ant-select-selector {
+  height: 50px !important;
+  padding: 10px !important;
+  border-radius: 0.5rem !important; /* rounded-lg */
+  border: 1px solid #9ca3af !important; /* gray-400 */
+  box-shadow: none !important;
+}
+
+/* On focus */
+.custom-select.ant-select-focused .ant-select-selector {
+  border-color: #4b5563 !important; /* gray-600 */
+  box-shadow: none !important;
+}
+
+/* Placeholder text color */
+.custom-select .ant-select-selection-placeholder {
+  color: #6b7280 !important; /* gray-500 */
+}

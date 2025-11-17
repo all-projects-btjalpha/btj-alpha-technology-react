@@ -4,7 +4,7 @@ import meta from "../../assets/images/meta-ads/hero/meta.png";
 import lead from "../../assets/images/meta-ads/lead.webp";
 import trends from "../../assets/images/meta-ads/trends.webp";
 import partner from "../../assets/images/meta-ads/partner.webp";
-import dedicated from "../../assets/images/meta-ads/dedicated.webp";
+import dedicated from "../../assets/images/meta-ads/hirringg.png";
 import audience from "../../assets/images/meta-ads/audience.webp";
 import growth from "../../assets/images/meta-ads/growth.webp";
 import target from "../../assets/images/meta-ads/target.webp";
@@ -58,7 +58,7 @@ function MetaAds() {
           </ul>
           <a
             href="tel:01204525483"
-            className="call-button inline-block bg-[#0000ff] max-md:ml-3 text-white py-3 px-5 rounded-3xl font-bold text-lg hover:bg-blue-800"
+            className="call-button inline-block bg-[#fb9c24] max-md:ml-3 text-white py-3 px-6 rounded-lg font-semibold "
           >
             Call 0120 4525483
           </a>
@@ -104,8 +104,8 @@ function MetaAds() {
         </div>
 
         {/* Right Section */}
-        <div className="relative right-section bg-gray-100 rounded-xl p-8 py-12 flex-1 max-w-[500px]  mr-10 mt-12 mb-16 max-lg:mx-2 ">
-          <h2 className="text-2xl font-bold text-[#0000ff] mb-6">
+        <div className="relative right-section bg-white rounded-xl p-8 py-12 flex-1 max-w-[500px]  mr-10 mt-12 mb-16 max-lg:mx-2 ">
+          <h2 className="text-2xl font-semibold  mb-6">
             How can we help you?
           </h2>
           <UserForm/>
@@ -249,7 +249,7 @@ function MetaAds() {
       {/* work section start here */}
 
       <section className="work text-center py-10 px-5">
-        <h1 className="text-5xl font-semibold text-blue-500 mb-7">
+        <h1 className="text-5xl font-semibold text-[#fb9c24] mb-7">
           We work for
         </h1>
         <p className="text-lg text-gray-600 mb-10">
@@ -279,7 +279,7 @@ function MetaAds() {
           Hire us as your dedicated team
         </h1>
         <div className="whole-content flex flex-col md:flex-row items-center max-lg:block max-lg:m-auto">
-          <div className="team-image mb-5 md:mb-0 md:mr-10 w-[45%] max-lg:w-[100%] ">
+          <div className="team-image mb-5 md:mb-0 md:mr-10 h-[50%] w-[45%] max-lg:w-[100%] ">
             <img
               src={dedicated}
               alt="Team working"
@@ -287,7 +287,7 @@ function MetaAds() {
             />
           </div>
           <div className="team-content max-w-2xl w-[55%] max-lg:w-[100%]">
-            <p className="text-[2rem] text-blue-600 mb-6 leading-10">
+            <p className="text-[2rem] text-[#fb9c24] mb-6 leading-10">
               We'll deploy a skilled team to build your product.
             </p>
             <ul className="list-none mb-5">
@@ -304,7 +304,7 @@ function MetaAds() {
               </li>
             </ul>
             <Link to="/contact">
-              <button className="know-more-btn bg-black text-white py-2 px-4 rounded-md hover:bg-gray-800 transition duration-300">
+              <button className="know-more-btn bg-[#fb9c24] text-white py-3 px-6 rounded-lg ">
                 Know More →
               </button>
             </Link>

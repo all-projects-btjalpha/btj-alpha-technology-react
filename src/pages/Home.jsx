@@ -1,13 +1,13 @@
 import video from "../assets/video/banner-video.mp4";
 import about from "../assets/images/Home-page/about.jpg";
-import SEO from "../assets/images/Home-page/SEO.jpg";
-import SMO from "../assets/images/Home-page/SMO.jpg";
-import CM from "../assets/images/Home-page/CM.jpg";
-import PPC from "../assets/images/Home-page/PPC.jpg";
+import SEO from "/SEO.jpg";
+import SMO from "/SMM.jpg";
+import CM from "/CONTENT.jpg";
+import PPC from "/PPC_.jpg";
 import step from "../assets/images/Home-page/step.webp";
 import agency from "../assets/images/Home-page/agency.webp";
 import { GoArrowRight } from "react-icons/go";
-import about_team from "../assets/images/Home-page/about-team.webp";
+import about_team from "/WEBSITE_WORK.jpg";
 import icon1 from "../assets/images/Home-page/14.webp";
 import icon2 from "../assets/images/Home-page/19.webp";
 import icon4 from "../assets/images/Home-page/22.webp";
@@ -71,7 +71,7 @@ function Home() {
           {/* Content */}
           <div className="relative flex flex-col md:flex-row py-[80px] items-center justify-center h-full text-white">
             <div className="text-white p-8 max-md:px-6 md:w-1/2">
-              <h2 className="text-[#fb9c24] text-lg max-md:text-base font-semibold ">
+              <h2 className="text-[#fb9c24] text-lg max-md:text-base  font-semibold ">
                 GET STARTED WITH US
               </h2>
               <h1 className="text-5xl max-md:text-4xl font-bold mt-2">
@@ -82,7 +82,8 @@ function Home() {
                 right audience and thrives faster.
               </p>
               <Link to="contact">
-                <button className="mt-6 bg-[#fb9c24] text-black px-6 py-3 rounded-lg font-semibold flex items-center">
+                <button 
+                className="w-[170px] flex font-semibold mt-5 bg-[#fb9c24]   justify-center h-12 rounded-lg text-white text-xl  items-center ">
                   Contact Us{" "}
                   <FaRegArrowAltCircleRight className="ml-2 text-lg" />
                 </button>
@@ -104,9 +105,9 @@ function Home() {
         <div className="p-5 flex mt-16 ml-4 mb-10 max-lg:block max-lg:ml-0 max-lg:p-0 max-lg:justify-center">
           <div className=" w-[50%] mr-20 max-lg:w-auto max-lg:mb-[30px] max-lg:pl-3 max-lg:flex max-lg:justify-center max-lg:mr-6">
             <img
-              src="/11.jpg"
+              src="/Team1.jpg"
               alt=""
-              className="w-full h-[75%] mt-12 ml-4 rounded-[20px] z-0 max-lg:mt-0"
+              className="w-full h-[90%] mt-12 ml-4 rounded-[20px]  z-0 max-lg:mt-0"
             />
           </div>
           <div className="w-[50%] ml-6 max-lg:w-[100%] max-lg:ml-0 max-lg:p-3">
@@ -125,11 +126,17 @@ function Home() {
                 ever-evolving digital landscape. With a focus on collaboration
                 and creativity, we transform ideas into impactful realities,
                 ensuring that our clients not only keep up but stand out. Let’s
-                build something extraordinary together!{" "}
-                <Link to="about">
-                  <span className="font-bold">Read More</span>
-                </Link>
+                build something extraordinary together!
               </p>
+                <Link to="about">
+                   {/* <span className="font-bold">About Us</span> */}
+                    <button 
+                      className="w-[170px]  flex font-semibold mt-5 bg-[#fb9c24]  text-xl justify-center h-12 rounded-lg text-white  items-center ">
+                      About Us
+                    </button>
+               
+                </Link>
+              
             </div>
             <div className="flex gap-10 max-md:gap-4 mt-5 justify-between w-[95%] max-lg:w-[100%]">
               <div>
@@ -197,14 +204,14 @@ function Home() {
                 key={index}
                 onMouseOver={() => handleMouseOver(index)}
                 onMouseOut={handleMouseOut}
-                className="relative z-10 h-[300px] border flex flex-col justify-center text-center hover:bg-[#3979f8] brightness-[100%] text-white transition-all duration-300 ease-in "
+                className="relative z-10 h-[300px] border flex flex-col justify-center text-center hover:bg-[#191970] brightness-[100%] text-white transition-all duration-300 ease-in "
               >
                 <h1 className="text-[1.6rem] mb-3">{item.heading}</h1>
                 {hoveredId === index && (
                   <>
                     <p className="ml-5 mr-5 text-[1rem]">{item.content}</p>
                     <Link to={item.url}>
-                      <button className="border w-[150px] h-[50px] self-center mt-4 text-[1.2rem] bg-white text-black hover:bg-[#3979f8] hover:text-white">
+                      <button className="border w-[150px] h-[50px] self-center mt-4 text-[20px] rounded-lg bg-[#191970]   hover:bg-[#fb9c24] text-white">
                         Learn More
                       </button>
                     </Link>
@@ -283,11 +290,11 @@ function Home() {
                   </div>
                 </div>
               </div>
-              <div className="m-5 w-[50%] max-lg:w-[100%] flex max-lg:self-center max-lg:p-4 max-lg:m-0">
+              <div className="m-5 w-[50%] max-lg:w-[100%] flex  max-lg:self-center max-lg:p-4 max-lg:m-0">
                 <img
                   src={about_team}
                   alt="image"
-                  className="w-[auto] ml-8 mt-8 rounded-[16px] mb-10 max-lg:m-[auto]"
+                  className="w-[auto] ml-8 mt-10 rounded-[16px] h-[90%] max-lg:m-[auto]"
                 />
               </div>
             </div>
@@ -315,47 +322,45 @@ function Home() {
             </button> */}
           </div>
           <hr className="h-[1.5px] bg-black" />
-          <div className="mt-10 flex max-lg:block ">
-            <div className="leading-10 ml-6 text-[18px] w-[25%] font-semibold max-lg:w-[100%] max-lg:ml-2 flex flex-col justify-start items-start mb-5  ">
-              <button
-                className="flex items-center "
-                onClick={() => handleTabClick("SEO")}
-              >
-                Search Engine Optimization
-                <RiArrowRightSLine className="text-xl mt-1" />
-              </button>
-              <button
-                className="flex items-center "
-                onClick={() => handleTabClick("SMO")}
-              >
-                Social Media Optimization
-                <RiArrowRightSLine className="text-xl mt-1" />
-              </button>
-              <button
-                className="flex items-center "
-                onClick={() => handleTabClick("CM")}
-              >
-                Content Marketing
-                <RiArrowRightSLine className="text-xl mt-1" />
-              </button>
-              <button
-                className="flex items-center "
-                onClick={() => handleTabClick("PPC")}
-              >
-                PPC Management Services
-                <RiArrowRightSLine className="text-xl mt-1" />
-              </button>
-            </div>
 
-            <div className="w-[75%] max-lg:w-[100%]  ">
+
+             
+
+
+          <div className="w-full bg-[#191970] rounded-md flex flex-wrap justify-around items-center ">
+  {[
+    { id: "SEO", label: "Search Engine Optimization" },
+    { id: "SMO", label: "Social Media Optimization" },
+    { id: "CM", label: "Content Marketing" },
+    { id: "PPC", label: "PPC Management Services" },
+  ].map((tab) => (
+    <div
+      key={tab.id}
+      onClick={() => handleTabClick(tab.id)}
+      className={`cursor-pointer font-semibold text-[16px] md:text-[18px] px-4 md:px-6 py-3 rounded-md transition-colors duration-200 
+        ${
+          activeTab === tab.id
+            ? "text-[#fb9c24]"
+            : "text-white hover:text-[#fb9c24]"
+        }`}
+    >
+      {tab.label}
+    </div>
+  ))}
+</div>
+
+
+          <div className="mt-10 flex  max-lg:block ">
+            
+            <div className="w-[100%] max-lg:w-[100%]  items-center ">
               {activeTab === "SEO" && (
-                <div className="flex max-md:block">
+                <div className="flex justify-between px-10 max-md:block">
                   <img
                     src={SEO}
                     alt=""
-                    className="w-[40%] rounded-tl-[150px] mr-8 max-md:w-[100%] max-md:mb-5"
+                    className="w-[40%]  rounded-tl-[150px] mr-8  max-md:w-[100%] max-md:mb-5"
                   />
-                  <div className="w-[60%] max-md:w-[100%]">
+                  <div className="w-[50%] max-md:w-[100%]">
                     <h2 className="text-[2rem] max-md:text-[1.8rem] font-semibold mb-3">
                       Search Engine Optimization
                     </h2>
@@ -373,7 +378,7 @@ function Home() {
                       increase in organic search engine ranking.
                     </p>
                     <Link to={"/search-engine-optimization"}>
-                      <p className="w-[300px] inline-flex items-center text-[1.4rem] text-red-500">
+                      <p className="w-[300px] inline-flex items-center text-[1.4rem] hover:text-[#191970] text-[#fb9c24]">
                         {" "}
                         Learn More <GoArrowRight className="ml-1" />
                       </p>
@@ -382,13 +387,13 @@ function Home() {
                 </div>
               )}
               {activeTab === "SMO" && (
-                <div className="flex max-md:block">
+                <div className="flex justify-between px-10 max-md:block">
                   <img
                     src={SMO}
                     alt=""
-                    className="w-[40%] rounded-tl-[150px] mr-8 max-md:w-[100%] max-md:mb-5"
+                    className="w-[40%] h-50 rounded-tl-[150px] mr-8 max-md:w-[100%] max-md:mb-5"
                   />
-                  <div className="w-[60%] max-md:w-[100%]">
+                  <div className="w-[50%] max-md:w-[100%]">
                     <h2 className="text-[2rem] max-md:text-[1.8rem] font-semibold mb-3">
                       Social Media Optimization
                     </h2>
@@ -411,7 +416,7 @@ function Home() {
                       process/large-volume sales.
                     </p>
                     <Link to={"/social-media-marketing"}>
-                      <p className="w-[300px] inline-flex items-center text-[1.4rem] text-red-500">
+                      <p className="w-[300px] inline-flex items-center text-[1.4rem] hover:text-[#191970] text-[#fb9c24]">
                         {" "}
                         Learn More <GoArrowRight className="ml-1" />
                       </p>
@@ -420,13 +425,13 @@ function Home() {
                 </div>
               )}
               {activeTab === "CM" && (
-                <div className="flex max-md:block">
+                <div className="flex justify-between px-10 max-md:block">
                   <img
                     src={CM}
                     alt=""
-                    className="w-[40%] rounded-tl-[150px] mr-8 max-md:w-[100%] max-md:mb-5"
+                    className="w-[40%] h-[400px] rounded-tl-[150px] mr-8 max-md:w-[100%] max-md:mb-5"
                   />
-                  <div className="w-[60%] max-md:w-[100%]">
+                  <div className="w-[50%] max-md:w-[100%]">
                     <h2 className="text-[2rem] max-md:text-[1.8rem] font-semibold mb-3">
                       Content Marketing
                     </h2>
@@ -450,7 +455,7 @@ function Home() {
                       process/large-volume sales.
                     </p>
                     <Link to={"/meta-ads"}>
-                      <p className="w-[300px] inline-flex items-center text-[1.4rem] text-red-500">
+                      <p className="w-[300px] inline-flex items-center text-[1.4rem] hover:text-[#191970] text-[#fb9c24]">
                         {" "}
                         Learn More <GoArrowRight className="ml-1" />
                       </p>
@@ -459,13 +464,13 @@ function Home() {
                 </div>
               )}
               {activeTab === "PPC" && (
-                <div className="flex max-md:block">
+                <div className="flex justify-between px-10 max-md:block">
                   <img
                     src={PPC}
                     alt=""
-                    className="w-[40%] rounded-tl-[150px] mr-8 max-md:w-[100%] max-md:mb-5"
+                    className="w-[40%] h-[400px] rounded-tl-[150px]  mr-8 max-md:w-[100%] max-md:mb-5"
                   />
-                  <div className="w-[60%] max-md:w-[100%]">
+                  <div className="w-[50%] max-md:w-[100%]">
                     <h2 className="text-[2rem] max-md:text-[1.8rem] font-semibold mb-3">
                       PPC Management Services
                     </h2>
@@ -489,7 +494,7 @@ function Home() {
                       ad is search engine advertisement.
                     </p>
                     <Link to={"/google-ads"}>
-                      <p className="w-[300px] inline-flex items-center text-[1.4rem] text-red-500">
+                      <p className="w-[300px] inline-flex items-center text-[1.4rem] hover:text-[#191970] text-[#fb9c24]">
                         {" "}
                         Learn More <GoArrowRight className="ml-1" />
                       </p>
@@ -548,12 +553,12 @@ function Home() {
 
         {/* Agency Section Start here */}
 
-        {/* Offering Section Start here */}
+        {/* Offering Section Start here             mt-5 pb-10           mb-5 max-md:mb-0      */}    
 
         <div className="bg-gray-100 py-10 pt-16 max-sm:py-5 max-sm:pt-10 pb-14">
           <div className="container mx-auto px-4 flex max-lg:flex-col-reverse">
             <div className="grid grid-cols-2 max-sm:grid-cols-1 max-lg:grid-cols-2 gap-6 w-[66%] max-lg:w-[100%] ">
-              <div className="bg-white shadow-md rounded-lg p-6 mt-5 pb-10">
+              <div className="bg-white shadow-md rounded-lg p-6 ">
                 <div className="flex  w-[100px] h-[100px] bg-zinc-100 rounded-full items-center justify-center mb-4">
                   <img
                     src={ecommerce}
@@ -585,7 +590,7 @@ function Home() {
                 </p>
               </div>
 
-              <div className="bg-white shadow-md rounded-lg p-6 mb-5 max-md:mb-0">
+              <div className="bg-white shadow-md rounded-lg p-6">
                 <div className="flex  w-[100px] h-[100px] bg-zinc-100 rounded-full  items-center justify-center mb-4">
                   <img
                     src={responsive}
@@ -603,7 +608,7 @@ function Home() {
                 </p>
               </div>
 
-              <div className="bg-white shadow-md rounded-lg p-6 mt-5 max-md:mt-0">
+              <div className="bg-white shadow-md rounded-lg p-6 ">
                 <div className="flex  w-[100px] h-[100px] bg-zinc-100 rounded-full  items-center justify-center mb-4">
                   <img
                     src={settings}
@@ -621,7 +626,9 @@ function Home() {
                 </p>
               </div>
             </div>
-
+            
+            
+            {/* image Part */}
             <div className="w-[34%] pl-10 max-lg:w-[100%] m-auto max-sm:pl-0">
               <div className="mt-8 flex justify-center">
                 <img

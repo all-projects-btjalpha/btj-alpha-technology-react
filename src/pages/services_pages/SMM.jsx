@@ -221,15 +221,15 @@ function SocialMediaMarketing() {
           </div>
           <a
             href="tel:01204525483"
-            className="call-button inline-block bg-[#0000ff] text-white py-3 px-5 rounded-3xl font-bold text-lg hover:bg-blue-800"
+            className="call-button inline-block bg-[#fb9c24] text-white py-3 px-5 rounded-lg font-bold text-lg hover:text-[#191970]"
           >
             Call 0120 4525483
           </a>
         </div>
 
         {/* Right Section */}
-        <div className="relative right-section bg-gray-100 rounded-xl p-8 py-12 flex-1 max-w-[450px]  mr-10 mt-12 mb-16 max-lg:mx-2 ">
-          <h2 className="text-2xl font-bold text-[#0000ff] mb-6">
+        <div className="relative right-section bg-white rounded-xl p-8 py-12 flex-1 max-w-[450px]  mr-10 mt-12 mb-16 max-lg:mx-2 ">
+          <h2 className="text-2xl font-semibold  mb-6">
             Get A Free Action Plan
           </h2>
           <UserForm/>
@@ -254,7 +254,7 @@ function SocialMediaMarketing() {
               .
             </p>
             <Link to="/contact">
-              <button className="bg-[#0000ff] text-white px-6 py-2 mb-6 rounded hover:bg-[#171769] transition">
+              <button className="bg-[#fb9c24] font-semibold text-white px-6 py-3 mb-6 rounded-lg hover:bg-[#fb9c30] transition">
                 CONTACT US NOW
               </button>
             </Link>
@@ -296,7 +296,7 @@ function SocialMediaMarketing() {
       </div>
 
       <div className="text-center py-12 bg-white">
-        <h2 className="text-2xl md:text-3xl font-bold text-blue-900 mb-10 max-md:mb-4">
+        <h2 className="text-2xl md:text-3xl font-bold text-[#fb9c24] mb-10 max-md:mb-4">
           WE CAN HELP YOU WITH
         </h2>
         <div className="flex flex-wrap justify-center gap-x-4 gap-y-10 px-6 max-md:px-0 w-[90%] max-md:w-full mx-auto">
@@ -337,7 +337,7 @@ function SocialMediaMarketing() {
         </p>
 
 <Link to="/contact">
-        <button className="bg-orange-500 text-white font-semibold px-6 py-3 rounded-full hover:bg-[#0000ff] transition">
+        <button className="bg-orange-500 text-white font-semibold px-6 py-3 rounded-lg hover:bg-[#191970] transition">
           GET A QUOTE
         </button>
         </Link>

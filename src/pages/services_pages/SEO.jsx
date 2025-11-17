@@ -1,5 +1,5 @@
-import hero from "../../assets/images/seo/Hero.webp";
-import main from "../../assets/images/seo/main section.webp";
+import hero from "../../assets/images/seo/hero1.jpg";
+import main from "../../assets/images/seo/main.jpg";
 import app from "../../assets/images/seo/expect-icons/app.webp";
 import brand from "../../assets/images/seo/expect-icons/brand-awareness.webp";
 import revenue from "../../assets/images/seo/expect-icons/increase-revenue.webp";
@@ -49,8 +49,8 @@ function SEO() {
         </div>
 
         {/* Form Section */}
-        <div className="w-full lg:w-2/5 bg-[#0A192F] p-6 max-md:px-0 rounded-lg shadow-md text-center">
-          <h2 className="text-3xl font-semibold mb-8">
+        <div className="w-full lg:w-2/5 bg-white text-black p-6 max-md:px-0 rounded-lg shadow-md text-center">
+          <h2 className="text-2xl font-semibold mb-8">
             Get a Free Website Audit From Our SEO Specialists
           </h2>
           <UserForm/>
@@ -66,7 +66,7 @@ function SEO() {
         <div className="text-center mb-8">
           <h1 className="text-2xl lg:text-4xl font-bold mb-6">
             Why Does Your Business Need{" "}
-            <span className="text-orange-500">SEO Services in Delhi</span>
+            <span className="text-[#fb9c24]">SEO Services in Delhi</span>
           </h1>
           <p className="text-base text-gray-600 px-4">
             Whether you are a small business or a medium-sized firm, without SEO

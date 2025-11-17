@@ -1,7 +1,7 @@
 import { BsArrowRight } from "react-icons/bs";
 import { BsArrowLeft } from "react-icons/bs";
 import React, { useRef } from "react";
-import team from "/11.jpg";
+import team from "/Team1.jpg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -164,31 +164,45 @@ function About() {
       {/* Who-we-are Section End here */}
 
       <section className="mx-14 mb-12 max-md:mx-3">
-        <h2 className="border w-[140px] p-2 pl-3 text-[20px] rounded-[12px] tracking-widest leading-7 bg-[#ecf1f1] text-[#191970] font-semibold">
-          ABOUT US{" "}
-        </h2>
-        <h1 className="mt-6 text-[30px] max-md:text-[22px] font-semibold text-gray-600 mb-10">
+      
+        {/* <h1 className="mt-6 text-[30px] max-md:text-[22px] font-semibold  mb-10">
           At BTJ ALPHA TECHNOLOGY PVT LTD, we specialize in digital marketing and website design,
           crafting solutions that empower businesses to stand out, engage, and
           grow in the digital world.
-        </h1>
+        </h1> */}
+
+
+
+        <div className="mb-5">
+              <h3 className="text-[20px] text-[#ffc422]  font-semibold">
+               About BTJ ALPHA TECHNOLOGY PVT LTD
+              </h3>
+              <h1 className="text-[42px] font-semibold mb-4 mt-0 leading-[4rem] max-lg:text-[36px] max-lg:leading-[3rem]">
+                Empowering Businesses Through Digital Innovation
+              </h1>
+              <p className="leading-8 max-md:leading-6 w-[95%] text-[17px] max-lg:w-[100%] max-lg:text-[14px]">
+               At BTJ ALPHA TECHNOLOGY PVT LTD, we are passionate about helping businesses thrive in the digital era.
+We specialize in digital marketing, website design, and IT solutions that empower brands to stand out, engage their audience, and grow with confidence.
+Our team combines creativity, technology, and strategy to deliver results-driven solutions that make your online presence truly impactful.{" "}
+                {/* <Link to="about">
+                  <span className="font-bold">Read More</span>
+                </Link> */}
+              </p>
+            </div>
         <div className="flex max-md:flex-col">
           <div className="flex flex-col w-1/2 pr-8 max-md:w-full max-md:pr-0">
             <h1 className="text-[35px] font-semibold mb-5">Our Mission</h1>
             <p className="text-[18px] leading-8">
-              Our mission is to elevate our clients’ online presence by
-              delivering innovative, results-driven digital solutions that boost
-              visibility, drive traffic, and create impactful connections with
-              their audiences.
+             Our mission is simple yet powerful — to elevate your online presence.
+We aim to deliver innovative, results-oriented digital marketing and web design solutions that increase visibility, drive targeted traffic, and help you build meaningful connections with your customers.
+Every strategy we craft is tailored to your business goals, ensuring measurable success and long-term growth.
             </p>
           </div>
           <div className="flex flex-col w-1/2 max-md:w-full">
             <h1 className="text-[35px] font-semibold mb-5">Our Vision</h1>
             <p className="text-[18px] leading-8">
-              Our vision is to be a leading force in digital transformation,
-              enabling businesses of all sizes to achieve sustainable growth
-              through cutting-edge digital strategies, effective website design,
-              and personalized customer experiences.
+              Our vision is to be a leading force in digital transformation, guiding businesses of all sizes toward sustainable success.
+We strive to set new standards in digital strategy, creative web design, and customer-focused marketing — helping our clients stay ahead in an ever-evolving digital landscape.
             </p>
           </div>
         </div>
@@ -265,8 +279,12 @@ function About() {
             innovative, customized digital solutions.
           </p>
           <Link to="/contact">
-            <button className="mt-8 bg-[#fb9c24] text-black px-6 py-3 rounded-lg font-semibold flex items-center mb-12">
-              Get Started <FaRegArrowAltCircleRight className="ml-2 text-lg" />
+            
+
+
+            <button 
+               className="w-[170px] mb-12  flex font-semibold mt-5 bg-[#fb9c24]  text-xl justify-center h-12 rounded-lg text-white  items-center ">
+                   Get Started <FaRegArrowAltCircleRight className="ml-2 text-lg" />
             </button>
           </Link>
           <hr className="h-[1px] bg-black mb-10 w-[90%]" />

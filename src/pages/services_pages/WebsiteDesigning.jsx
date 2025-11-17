@@ -195,11 +195,12 @@ function WebsiteDesigning() {
               Website Design Services Offered by BTJ ALPHA TECHNOLOGY PVT LTD
             </h1>
             <p className="leading-8 w-[95%] text-[18px] max-lg:w-[100%] max-lg:text-[16px]">
-              Welcome to BTJ ALPHA TECHNOLOGY PVT LTD, where the art of website design comes to
-              life. In the digital age, your website serves as the virtual
-              storefront of your brand. At BTJ ALPHA TECHNOLOGY PVT LTD, we specialize in
-              creating visually captivating and user-centric websites that not
-              only showcase your brand but also engage and convert visitors.
+              Welcome to BTJ ALPHA TECHNOLOGY PVT LTD, where the art of website
+              design comes to life. In the digital age, your website serves as
+              the virtual storefront of your brand. At BTJ ALPHA TECHNOLOGY PVT
+              LTD, we specialize in creating visually captivating and
+              user-centric websites that not only showcase your brand but also
+              engage and convert visitors.
             </p>
           </div>
         </div>
@@ -211,12 +212,14 @@ function WebsiteDesigning() {
             <h2 className="text-xl max-md:text-lg text-[#ffc422] font-semibold tracking-widest mb-2">
               HOW DO WE WORK
             </h2>
-            <h1 className="text-4xl font-semibold max-md:text-3xl">Our Work Process</h1>
+            <h1 className="text-4xl font-semibold max-md:text-3xl">
+              Our Work Process
+            </h1>
           </div>
           <div className="text-lg w-[40%] mt-2 max-md:mt-4 max-md:w-[100%] ">
-            Discover BTJ ALPHA TECHNOLOGY PVT LTD’s strategic approach to digital marketing and
-            website design, crafted to boost engagement, visibility, and
-            business growth.
+            Discover BTJ ALPHA TECHNOLOGY PVT LTD’s strategic approach to
+            digital marketing and website design, crafted to boost engagement,
+            visibility, and business growth.
           </div>
         </div>
         <div className="m-auto  pt-16 max-md:pt-6">
@@ -337,7 +340,7 @@ function WebsiteDesigning() {
               <p className="text-lg text-gray-600 mb-6">{card.description}</p>
               <button
                 onClick={openForm}
-                className="bg-transparent border-2 border-black rounded-full text-black px-6 py-2 text-lg hover:bg-yellow-500 hover:text-white transition mb-28 w-[40%] max-md:w-[50%]"
+                className="bg-[#fb9c24] rounded-lg text-white  py-3 text-lg  mb-28 font-semibold w-[30%] max-md:w-[50%]"
               >
                 Consult Now →
               </button>
@@ -358,19 +361,20 @@ function WebsiteDesigning() {
               <h3 className="text-3xl font-semibold mb-4 text-center">
                 Get a free consultation with our expert
               </h3>
-              <UserForm/>
+              <UserForm />
             </div>
           </div>
         )}
       </section>
 
       <section className="px-20 py-10 max-md:px-2 max-md:py-2">
+        <h1 className="text-center text-[35px]  font-bold mb-5">
+          OUR SERVICES
+        </h1>
+
         <div className="flex max-lg:flex-col justify-between  m-auto max-md:block">
-          <div className="w-[55%] max-lg:w-[100%]">
-            <h2 className="border w-[180px] p-2 pl-3 text-[20px] rounded-[12px] tracking-widest leading-7 bg-[#ecf1f1] text-[#191970] font-semibold mb-5">
-              OUR SERVICES
-            </h2>
-            <h1 className="text-[35px] max-md:text-[25px] font-semibold leading-[4rem] max-md:leading-[2rem]">
+          <div className="w-[55%] flex justify-between max-lg:w-[100%]">
+            <h1 className="text-[35px] mt-20 max-md:text-[25px] font-semibold leading-[4rem] max-md:leading-[2rem]">
               Why Choose BTJ ALPHA TECHNOLOGY PVT LTD for Website Design
             </h1>
           </div>
@@ -380,11 +384,11 @@ function WebsiteDesigning() {
           </div>
         </div>
         <div className=" flex mt-12 mb-10 max-lg:block max-lg:ml-0 max-lg:p-0 max-lg:justify-center">
-          <div className=" w-[45%] mr-20 max-lg:w-auto max-lg:mb-[30px] max-lg:pl-3 max-lg:flex max-lg:justify-center max-lg:mr-6 mt-8">
+          <div className=" w-[45%] mr-20 flex justify-center items-center max-lg:w-auto max-lg:mb-[30px] max-lg:pl-3 max-lg:flex max-lg:justify-center max-lg:mr-6 ">
             <img
-              src="/website-design/about-two-image.webp"
+              src="/website-design/verticals.jpg"
               alt=""
-              className="w-[100%] mt-5 ml-4 rounded-[20px] z-0 max-lg:mt-9 mb-6 "
+              className="w-[100%] mt-5  ml-4 rounded-[20px] z-0 max-lg:mt-9 mb-6 "
             />
           </div>
           <div className="w-[55%] max-lg:w-[100%] max-lg:ml-0 max-lg:p-3  ">

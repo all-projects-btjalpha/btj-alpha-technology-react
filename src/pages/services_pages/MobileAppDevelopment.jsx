@@ -168,7 +168,7 @@ const MobileAppDevelopment = () => {
           </p>
           <Link
             to="/contact"
-            className="inline-block bg-[#2f3d8f] text-white font-bold rounded-[15px] px-6 py-3 mb-8 w-[180px] text-center hover:bg-[#2f3d8f]"
+            className="inline-block bg-[#fb9c24] text-white font-semibold rounded-lg px-6 py-3 mb-8 w-[180px] text-center"
           >
             Let's Connect →
           </Link>
@@ -203,7 +203,7 @@ const MobileAppDevelopment = () => {
       </section>
 
       <section className="mt-[50px] w-[95%] max-md:w-full m-auto">
-        <h1 className="text-[#2b4eff] text-[40px] max-md:text-[30px] mb-[30px]  text-center font-semibold">
+        <h1 className="text-[#fb9c24] text-[40px] max-md:text-[30px] mb-[30px]  text-center font-semibold">
           Mobile App Development for All Industries
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-[30px] px-[30px]">
@@ -299,7 +299,7 @@ const MobileAppDevelopment = () => {
       <section className="flex flex-wrap p-2  w-[85%] max-md:w-full m-auto">
         <div className="flex-1 min-w-[300px] max-w-[50%] max-md:max-w-full">
           <img
-            src="/mobile-app/Untitled design.png"
+            src="/mobile-app/Team5.jpg"
             alt="Developer Working"
             className="w-full h-full object-cover"
           />
@@ -326,7 +326,7 @@ const MobileAppDevelopment = () => {
           </div>
 
           <div className="bg-[#f1f4ff] p-6 rounded-[10px] text-left">
-            <h2 className="text-[#2b4eff] text-2xl font-semibold mb-2">
+            <h2 className="text-[#fb9c24] text-2xl font-semibold mb-2">
               Hire Dedicated Developers
             </h2>
             <p className="mb-3">
@@ -336,7 +336,7 @@ const MobileAppDevelopment = () => {
             </p>
             <Link
               to="/contact"
-              className="inline-block bg-[#2b4eff] hover:bg-[#1a34cc] text-white font-bold py-2 px-4 rounded"
+              className="inline-block bg-[#fb9c39] hover:bg-[#fb9c00] text-white font-bold py-2 px-4 rounded"
             >
               Hire Developers
             </Link>

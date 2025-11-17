@@ -58,7 +58,7 @@ function GoogleAds() {
         <div className="max-w-full  text-center lg:text-left w-[40%] max-lg:w-[90%] ">
           <h1 className="text-5xl max-lg:text-4xl font-bold leading-[3.6rem] mb-8 text-black ">
             The Google Ads Agency for{" "}
-            <span className="text-purple-600">Predictable ROIs.</span>
+            <span className="text-[#fb9c24]">Predictable ROIs.</span>
           </h1>
           <p className="text-lg max-lg:text-lg mt-4 mb-8  lg:max-w-none mx-auto lg:mx-0">
             Build Google Ads campaigns that are exceptional! Boundary helps you
@@ -66,17 +66,17 @@ function GoogleAds() {
             sustainable growth and scale💸
           </p>
           <Link to="/contact">
-          <button className="px-6 py-3 text-lg font-medium bg-gray-200 text-purple-600 rounded-md hover:bg-blue-500 hover:text-white transition-transform duration-300 transform hover:-translate-y-1">
+          <button className="px-6 py-3 text-lg font-semibold bg-[#fb9c24] text-white rounded-lg  transition-transform ">
             See How We Run Ads
           </button>
           </Link>
         </div>
 
         {/* Form Section */}
-        <div className="bg-black p-8 rounded-lg shadow-lg mt-8 lg:mt-0 max-w-full lg:max-w-[40%]">
-          <h2 className="text-white text-4xl max-lg:text-4xl font-semibold mb-8 leading-[3.6rem]">
+        <div className="bg-white p-8 rounded-lg shadow-lg mt-8 lg:mt-0 max-w-full text-center lg:max-w-[40%]">
+          <h3 className=" text-2xl max-lg:text-2xl font-semibold mb-8  ">
             Your Google Ads Success Starts Here
-          </h2>
+          </h3>
           <UserForm/>
         </div>
       </section>
@@ -142,7 +142,7 @@ function GoogleAds() {
 
       {/* management section start here */}
 
-      <section className="flex items-center justify-between p-10 max-md:px-4 bg-gradient-to-r from-blue-900 to-blue-600 text-white  max-lg:flex-col  max-lg:m-auto">
+      <section className="flex items-center justify-between p-10 max-md:px-4 bg-gradient-to-r from-[#191970] to-blue-600 text-white  max-lg:flex-col  max-lg:m-auto">
         {/* Left Image Column */}
         <div className="flex-1 text-center  ">
           <img
@@ -295,7 +295,7 @@ function GoogleAds() {
           </p>
           <div className="flex gap-4">
             <Link to="/contact">
-              <button className="bg-white text-blue-600 font-semibold px-6 py-2 rounded-md hover:bg-gray-200 transition">
+              <button className="bg-[#fb9c24] text-white font-semibold px-6 py-3 rounded-lg ">
                 Connect With Us
               </button>
             </Link>
