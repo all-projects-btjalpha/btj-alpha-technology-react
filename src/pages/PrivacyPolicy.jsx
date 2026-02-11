@@ -1,101 +1,89 @@
-// PrivacyPolicy.jsx
-import React from 'react';
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 
 const PrivacyPolicy = () => {
-  
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, []);
+
   return (
-    <main className="mt-24 pb-8">
-      <div className="container mx-auto px-4 mt-10">
-        <div className="mt-10">
-          <h1 className="text-center text-3xl font-semibold mt-20">Privacy Policy</h1>
-          <p className="mt-4">
-            BTJ Alpha Technology Pvt. Ltd. respects your privacy and is committed to protecting
-            your personal data. This Privacy Policy explains how we collect, use, disclose, and safeguard your
-            information when you use our services, including our website, applications, and other offerings.
-          </p>
+    <main className="mt-24 pb-12">
+      <div className="container mx-auto px-4 mt-10 text-gray-800">
+        <h1 className="text-center text-3xl font-bold mt-20">
+          Privacy Policy (DPDP Act Compliant)
+        </h1>
 
-          <h3 className="mt-6 text-xl font-semibold">1. Information We Collect</h3>
-          <p className="mt-2">We may collect and process the following types of information:</p>
-          <p className="mt-2">
-            <strong>Personal Information:</strong> Name, email address, phone number, billing
-            details, etc., provided during account creation or communication with us.
-          </p>
-          <p className="mt-2">
-            <strong>Technical Data:</strong> IP address, browser type, operating system, device information, and
-            usage data collected automatically.
-          </p>
-          <p className="mt-2">
-            <strong>Transactional Data:</strong> Details of payments and purchases, if applicable.
-          </p>
-          <p className="mt-2">
-            <strong>Other Information:</strong> Any additional data provided by you through forms, surveys, or customer support.
-          </p>
+        <p className="mt-4">
+          BTJ Alpha Technology Pvt. Ltd. acts as a{" "}
+          <strong>Data Processor</strong> when developing applications for
+          clients and a <strong>Data Fiduciary</strong> regarding our direct
+          client information. This policy is aligned with the{" "}
+          <strong>Digital Personal Data Protection (DPDP) Act, 2023</strong>.
+        </p>
 
-          <h3 className="mt-6 text-xl font-semibold">2. How We Use Your Information</h3>
-          <p className="mt-2">We use your information for the following purposes:</p>
-          <ul className="list-disc ml-6 mt-2 space-y-1">
-            <li>To provide, operate, and maintain our services.</li>
-            <li>To process transactions and send related information.</li>
-            <li>To personalize your experience and improve our services.</li>
-            <li>To send you marketing and promotional communications, where permitted.</li>
-            <li>To respond to your inquiries and provide customer support.</li>
-            <li>To detect and prevent fraud, abuse, or other harmful activities.</li>
-          </ul>
+        <h3 className="mt-6 text-xl font-semibold">
+          1. Data Collection & Purpose
+        </h3>
+        <p className="mt-2">
+          We collect personal identifiers (Name, PAN, Aadhaar for eKYC, Email,
+          Phone) solely for the purpose of business verification, invoicing, and
+          project communication. We do not process data for any purpose other
+          than what is explicitly consented to by the client.
+        </p>
 
-          <h3 className="mt-6 text-xl font-semibold">3. Sharing Your Information</h3>
-          <p className="mt-2">We do not sell or rent your personal information. However, we may share your data with:</p>
-          <ul className="list-disc ml-6 mt-2 space-y-1">
-            <li><strong>Service Providers:</strong> For payment processing, hosting, analytics, or customer support.</li>
-            <li><strong>Legal Authorities:</strong> If required by law or to protect our legal rights.</li>
-            <li><strong>Business Transfers:</strong> In case of a merger, acquisition, or sale of assets.</li>
-          </ul>
+        <h3 className="mt-6 text-xl font-semibold">
+          2. Data Processing on Behalf of Clients
+        </h3>
+        <p className="mt-2">
+          For projects involving user data (e-commerce, apps), the Client is the
+          "Data Fiduciary" responsible for user consent. BTJ Alpha Technology
+          provides the technical infrastructure but does not "own" the end-user
+          data.
+        </p>
 
-          <h3 className="mt-6 text-xl font-semibold">4. Data Security</h3>
-          <p className="mt-2">
-            We implement industry-standard security measures to protect your data
-            from unauthorized access, disclosure, alteration, or destruction. However, no method
-            of transmission or storage is completely secure, and we cannot guarantee absolute security.
+        <h3 className="mt-6 text-xl font-semibold">
+          3. Data Retention & Erasure
+        </h3>
+        <p className="mt-2">
+          In compliance with Section 12 of the DPDP Act, we shall erase personal
+          data once the purpose of collection is fulfilled (i.e., project
+          completion and tax audit period), unless required otherwise by law.
+        </p>
+
+        <h3 className="mt-6 text-xl font-semibold text-red-700">
+          4. Grievance Redressal
+        </h3>
+        <p className="mt-2">
+          In accordance with the{" "}
+          <strong>Information Technology Act, 2000</strong> and the{" "}
+          <strong>Digital Personal Data Protection (DPDP) Act, 2023</strong>,
+          the contact details of the Grievance Officer for any complaints or
+          concerns regarding data processing and privacy are provided below:
+        </p>
+        <div className="mt-4 p-4 bg-gray-50 border-l-4 border-red-700 shadow-sm">
+          <p className="mb-1">
+            <strong>Name:</strong> Tanya Gupta
           </p>
-
-          <h3 className="mt-6 text-xl font-semibold">5. Your Rights</h3>
-          <p className="mt-2">Depending on your location, you may have the following rights regarding your personal data:</p>
-          <ul className="list-disc ml-6 mt-2 space-y-1">
-            <li>Access, correction, or deletion of your information.</li>
-            <li>Restriction or objection to processing.</li>
-            <li>Data portability.</li>
-            <li>Withdrawal of consent where processing is based on consent.</li>
-          </ul>
-          <p className="mt-2">To exercise your rights, contact us at: 0120-4525483, info@btjalphatechnology.com</p>
-
-          <h3 className="mt-6 text-xl font-semibold">6. Cookies and Tracking Technologies</h3>
-          <p className="mt-2">
-            We use cookies and similar technologies to enhance user experience, analyze traffic, and for advertising purposes.
-            You can manage your cookie preferences through your browser settings.
+          <p className="mb-1">
+            <strong>Designation:</strong> Managing Director & Grievance Officer
           </p>
-
-          <h3 className="mt-6 text-xl font-semibold">7. Third-Party Links</h3>
-          <p className="mt-2">
-            Our services may contain links to third-party websites. We are not responsible for
-            the privacy practices of such sites. Please review their policies separately.
+          <p className="mb-1">
+            <strong>Email:</strong> info@btjalphatechnology.com
           </p>
-
-          <h3 className="mt-6 text-xl font-semibold">8. Changes to This Privacy Policy</h3>
-          <p className="mt-2">
-            We may update this Privacy Policy from time to time. Changes will be notified via BTJ Alpha Technology Pvt. Ltd.
-            and the updated policy will be effective upon posting.
+          <p className="mb-1">
+            <strong>Address:</strong> BTJ Alpha Technology Private Limited, D
+            Block, Sector-2, Noida, UP, 201301
           </p>
-
-          <h3 className="mt-6 text-xl font-semibold">9. Contact Us</h3>
-          <p className="mt-2">If you have questions about this policy, contact us at:</p>
-          <p className="mt-2 font-medium">BTJ Alpha Technology Private Limited</p>
-          <p className="mt-1">Sector-2, Noida, UP, 201301</p>
-          <p className="mt-1">info@btjalphatechnology.com</p>
-          <p className="mt-1">0120-4525483</p>
         </div>
+        <p className="mt-4 text-sm text-gray-600 italic">
+          Note: We will acknowledge any grievance within 24 hours and aim to
+          resolve all valid concerns within 15 days of receipt.
+        </p>
+        <h3 className="mt-6 text-xl font-semibold">5. Security Practices</h3>
+        <p className="mt-2">
+          We follow ISO 27001 standards and Section 43A of the IT Act 2000 to
+          ensure "Reasonable Security Practices." However, clients are advised
+          to implement their own security audits post-deployment.
+        </p>
       </div>
     </main>
   );

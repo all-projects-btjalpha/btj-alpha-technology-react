@@ -1,73 +1,109 @@
-import React from 'react';
-import { useEffect } from "react";
-
+import React, { useEffect } from "react";
 
 const TermsAndConditions = () => {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, []);
+
   return (
-    <main className="mt-[100px] px-4 md:px-0 pb-8">
-      <div className="container mx-auto mt-10">
-        <h1 className="text-center text-3xl font-semibold mb-6">Terms and Conditions</h1>
-        <p className="mb-4">
-          BTJ Alpha Technology Pvt. Ltd. respects your privacy and is committed to protecting your personal data.
-          This Privacy Policy explains how we collect, use, disclose, and safeguard your information when
-          you use our services, including our website, applications, and other offerings.
-        </p>
-        <p className="mb-6">
-          By accessing or using our services, you agree to the practices described in this Privacy Policy. If
-          you do not agree with the terms, please refrain from using our services.
-        </p>
+    <main className="mt-[100px] px-4 md:px-0 pb-12">
+      <div className="container mx-auto mt-10 text-gray-800 leading-relaxed">
+        <h1 className="text-center text-3xl font-bold mb-8">
+          Terms and Conditions
+        </h1>
 
-        <h3 className="text-xl font-semibold mt-6">1. Information We Collect</h3>
-        <p className="mt-2">We may collect the following types of information:</p>
-        <p className="mt-2"><strong>Personal Information:</strong> Name, email address, phone number, mailing address, payment details, and other contact details.</p>
-        <p className="mt-2"><strong>Technical Data:</strong> IP address, browser type, device information, and usage statistics when you visit our website or use our applications.</p>
-        <p className="mt-2"><strong>Cookies & Tracking Technologies:</strong> We use cookies and similar technologies to enhance user experience and analyze site traffic.</p>
+        <section className="mb-6">
+          <h3 className="text-xl font-semibold">
+            1. Nature of Service & Mandatory eKYC
+          </h3>
+          <p className="mt-2">
+            BTJ Alpha Technology Pvt. Ltd. provides software development and
+            digital marketing services. Before project commencement, clients
+            must complete a <strong>Mandatory eKYC process</strong> by providing
+            Business PAN, GST, and Identity Proof of the Authorized Signatory.
+            We reserve the right to refuse service to any business that fails
+            verification or operates in prohibited industries.
+          </p>
+        </section>
 
-        <h3 className="text-xl font-semibold mt-6">2. How We Use Your Information</h3>
-        <p className="mt-2">We collect and use your data for the following purposes:</p>
-        <ul className="list-disc ml-5 mt-2 space-y-1">
-          <li>To provide, operate, and maintain our services.</li>
-          <li>To personalize and improve user experience.</li>
-          <li>To process transactions and send important communications.</li>
-          <li>To comply with legal obligations and enforce our policies.</li>
-          <li>To prevent fraud and enhance security.</li>
-        </ul>
+        <section className="mb-6">
+          <h3 className="text-xl font-semibold">
+            2. Client Responsibility & Legal Compliance
+          </h3>
+          <p className="mt-2">
+            The Client warrants that the business model, content, and data
+            processed through the developed platform are legal under Indian Law
+            (including but not limited to the IT Act 2000, DPDP Act 2023, and
+            RBI guidelines). The Client is solely responsible for obtaining
+            necessary licenses for fintech, gaming, healthcare, or e-commerce
+            operations.
+          </p>
+        </section>
 
-        <h3 className="text-xl font-semibold mt-6">3. Sharing Your Information</h3>
-        <p className="mt-2">We do not sell or rent your personal information. However, we may share your data with:</p>
-        <ul className="list-disc ml-5 mt-2 space-y-1">
-          <li>Service Providers: For payment processing, hosting, analytics, or customer support.</li>
-          <li>Legal Authorities: If required by law or to protect our legal rights.</li>
-          <li>Business Transfers: In case of a merger, acquisition, or sale of assets.</li>
-        </ul>
+        <section className="mb-6 bg-yellow-50 p-4 border-l-4 border-yellow-500">
+          <h3 className="text-xl font-semibold text-yellow-800">
+            3. Post-Deployment Liability Disclaimer (IMPORTANT)
+          </h3>
+          <p className="mt-2 font-medium">
+            Upon the final deployment and hand-over of the source
+            code/credentials, BTJ Alpha Technology Pvt. Ltd. shall have NO
+            responsibility or liability for:
+          </p>
+          <ul className="list-disc ml-6 mt-2 space-y-1">
+            <li>
+              Any illegal activity conducted by the Client or its users on the
+              platform.
+            </li>
+            <li>
+              Data breaches caused by the Client's hosting environment or
+              third-party APIs.
+            </li>
+            <li>
+              Financial losses, business outcomes, or regulatory penalties faced
+              by the Client.
+            </li>
+            <li>
+              Unauthorized modifications made to the code by the Client or third
+              parties after hand-over.
+            </li>
+          </ul>
+        </section>
 
-        <h3 className="text-xl font-semibold mt-6">4. Data Security</h3>
-        <p className="mt-2">We implement industry-standard security measures to protect your data from unauthorized access, disclosure, alteration, or destruction. However, no method of transmission or storage is completely secure, and we cannot guarantee absolute security.</p>
+        <section className="mb-6">
+          <h3 className="text-xl font-semibold">4. Intellectual Property</h3>
+          <p className="mt-2">
+            Ownership of the source code is transferred to the Client only upon
+            100% clearance of the agreed project fees. The Agency retains the
+            right to showcase the project in its portfolio unless a
+            Non-Disclosure Agreement (NDA) is signed separately.
+          </p>
+        </section>
 
-        <h3 className="text-xl font-semibold mt-6">5. Your Rights & Choices</h3>
-        <p className="mt-2">Depending on your location, you may have the following rights regarding your personal data:</p>
-        <ul className="list-disc ml-5 mt-2 space-y-1">
-          <li>Access, correction, or deletion of your information.</li>
-          <li>Opt-out of marketing communications.</li>
-          <li>Restrict or object to data processing.</li>
-          <li>Withdraw consent where applicable.</li>
-        </ul>
+        <section className="mb-6">
+          <h3 className="text-xl font-semibold">5. Indemnification</h3>
+          <p className="mt-2">
+            The Client agrees to indemnify, defend, and hold harmless BTJ Alpha
+            Technology Pvt. Ltd. and its directors from any legal claims,
+            lawsuits, or government actions arising from the Client's use of the
+            software for fraudulent, defamatory, or illegal purposes.
+          </p>
+        </section>
 
-        <h3 className="text-xl font-semibold mt-6">6. Third-Party Links & Services</h3>
-        <p className="mt-2">Our website or applications may contain links to third-party websites. We are not responsible for their privacy practices, and we encourage you to review their policies before sharing any personal data.</p>
+        <section className="mb-6">
+          <h3 className="text-xl font-semibold">
+            6. Governing Law & Jurisdiction
+          </h3>
+          <p className="mt-2">
+            These terms are governed by the laws of India. Any disputes shall be
+            subject to the exclusive jurisdiction of the courts in{" "}
+            <strong>Noida, Uttar Pradesh</strong>.
+          </p>
+        </section>
 
-        <h3 className="text-xl font-semibold mt-6">7. Changes to This Policy</h3>
-        <p className="mt-2">We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated "Effective Date." Continued use of our services after changes are made constitutes your acceptance of the revised policy.</p>
-
-        <h3 className="text-xl font-semibold mt-6">8. Contact Us</h3>
-        <p className="mt-2">If you have questions about this policy, contact us at:</p>
-        <p className="mt-1">BTJ Alpha Technology Private Limited</p>
-        <p className="mt-1">Sector-2, Noida, UP, 201301</p>
-        <p className="mt-1">info@btjalphatechnology.com</p>
-        <p className="mt-1">0120-4525483</p>
+        <div className="mt-10 p-4 border-t border-gray-300">
+          <p className="font-bold">Contact for Legal Inquiries:</p>
+          <p>Legal Dept: info@btjalphatechnology.com | 0120-4525483</p>
+        </div>
       </div>
     </main>
   );
