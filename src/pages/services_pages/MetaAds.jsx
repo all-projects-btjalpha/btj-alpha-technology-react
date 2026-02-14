@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import metabg from "../../assets/images/meta-ads/hero/metabg.png";
 import meta from "../../assets/images/meta-ads/hero/meta.png";
 import lead from "../../assets/images/meta-ads/lead.webp";
@@ -13,459 +13,602 @@ import marketing from "../../assets/images/meta-ads/marketing.webp";
 import Strategy from "../../assets/images/meta-ads/Strategy.webp";
 import { workItems, cards, progressItems } from "../../components/MetaAdsData";
 import { Link } from "react-router-dom";
-import { useEffect } from "react";
 import UserForm from "../../components/UserForm";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function MetaAds() {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
+    AOS.init({
+      duration: 1000,
+      once: false,
+      mirror: true,
+    });
   }, []);
-  return (
-    <main>
-      {/* Banner Section Start Here */}
 
-      <section className="relative agency flex max-lg:flex-col max-lg:justify-center  items-center w-full overflow-hidden shadow-lg bg-gradient-to-t from-black/50 to-black/50 bg-cover mt-[70px]  ">
+  return (
+    <main className="bg-gradient-to-b from-gray-50 to-white">
+      {/* Hero Banner Section - Enhanced */}
+      <section className="relative py-8 px-6 max-md:px-4 mt-20 max-md:mt-16 bg-gradient-to-br from-[#0A192F] via-[#0e2339] to-[#0A192F] overflow-hidden">
+        {/* Background Image with Overlay */}
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage: `url(${metabg})`,
           }}
         >
-          {/* Dull Overlay */}
-          <div className="absolute inset-0 bg-black opacity-50"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/60 to-black/70"></div>
         </div>
-        {/* Left Section */}
-        <div className="relative left-section bg-transparent p-10 !px-4 flex-1 text-white mt-4">
-          <h1 className="text-6xl max-md:text-4xl font-semibold max-md:ml-3 mb-10">Meta Ads Agency</h1>
-          <ul className="space-y-4 mb-8">
-            {[
-              "Get a Winning Facebook Ads Strategy",
-              "Fair Pricing & Flexible Agreements",
-              "Fully Measurable With Proven Results",
-              "Find New Customers & Scale",
-              "Increase Your Traffic, Leads & Sales",
-              "Work With Certified Facebook Ads Specialists!",
-            ].map((item, index) => (
-              <li
-                key={index}
-                className="flex items-center text-[1.4rem] max-md:text-[1rem] max-md:leading-5 leading-8"
+
+        {/* Background Decorative Elements */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <div className="absolute top-20 -left-10 w-64 h-64 bg-[#fb9c24]/10 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-10 -right-10 w-80 h-80 bg-[#ff8c00]/10 rounded-full blur-3xl"></div>
+        </div>
+
+        <div className="max-w-7xl mx-auto relative z-10">
+          <div className="flex items-center justify-between max-lg:flex-col gap-12">
+            {/* Left Content */}
+            <div className="w-full lg:w-[52%]" data-aos="fade-right">
+              <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] px-4 py-2 rounded-full mb-6 shadow-lg">
+                <div className="w-2 h-2 bg-white rounded-full animate-pulse"></div>
+                <span className="text-xs font-bold text-white tracking-[0.2em] uppercase">
+                  META ADS AGENCY
+                </span>
+              </div>
+
+              <h1 className="text-4xl max-md:text-3xl lg:text-5xl font-bold text-white mb-8 leading-tight">
+                Meta Ads{" "}
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#fb9c24] to-[#ff8c00]">
+                  Agency
+                </span>
+              </h1>
+
+              <div className="w-24 h-1 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] rounded-full mb-8"></div>
+
+              {/* Features List */}
+              <ul className="space-y-4 mb-8">
+                {[
+                  "Get a Winning Facebook Ads Strategy",
+                  "Fair Pricing & Flexible Agreements",
+                  "Fully Measurable With Proven Results",
+                  "Find New Customers & Scale",
+                  "Increase Your Traffic, Leads & Sales",
+                  "Work With Certified Facebook Ads Specialists!",
+                ].map((item, index) => (
+                  <li
+                    key={index}
+                    data-aos="fade-up"
+                    data-aos-delay={index * 50}
+                    className="flex items-center text-base text-gray-300"
+                  >
+                    <div className="flex-shrink-0 w-6 h-6 bg-gradient-to-br from-[#fb9c24] to-[#ff8c00] rounded-full flex items-center justify-center mr-3">
+                      <svg
+                        className="w-4 h-4 text-white"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M5 13l4 4L19 7"
+                        />
+                      </svg>
+                    </div>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+
+              <a
+                href="tel:01204525483"
+                className="inline-block bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] text-white py-3 px-8 rounded-lg font-bold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 mb-8"
               >
-                <span className="text-orange-500 max-md:ml-3 mr-3">●</span>
-                {item}
-              </li>
-            ))}
-          </ul>
-          <a
-            href="tel:01204525483"
-            className="call-button inline-block bg-[#fb9c24] max-md:ml-3 text-white py-3 px-6 rounded-lg font-semibold "
-          >
-            Call 0120 4525483
-          </a>
+                Call 0120 4525483
+              </a>
 
-          <div className="certifications flex mt-8">
-            <div className="certifications-div flex flex-col items-center justify-center bg-[#0000ff] rounded-full h-28 w-28 text-white mx-2">
-              <div className="content-image flex items-center justify-center bg-white h-[50%] mt-[-20px] w-[110px] mb-2  rounded-t-full">
-                <img
-                  src={meta}
-                  alt="Meta Certified"
-                  className="h-12 w-[70px] mt-2"
-                />
-              </div>
-              <p className="content-text text-center text-xs font-semibold">
-                Media Buying Professional
-              </p>
-            </div>
-            <div className="certifications-div flex flex-col items-center justify-center bg-[#0000ff] rounded-full h-28 w-28 text-white mx-2">
-              <div className="content-image flex items-center justify-center bg-white h-[50%] mt-[-20px] w-[110px] mb-2  rounded-t-full">
-                <img
-                  src={meta}
-                  alt="Meta Certified"
-                  className="h-12 w-[70px] mt-2"
-                />
-              </div>
-              <p className="content-text text-center text-xs font-semibold">
-                Media Planning Professional
-              </p>
-            </div>
-            <div className="certifications-div flex flex-col items-center justify-center bg-[#0000ff] rounded-full h-28 w-28 text-white mx-2">
-              <div className="content-image flex items-center justify-center bg-white h-[50%] mt-[-20px] w-[110px] mb-2  rounded-t-full">
-                <img
-                  src={meta}
-                  alt="Meta Certified"
-                  className="h-12 w-[70px] mt-2"
-                />
-              </div>
-              <p className="content-text text-center text-xs font-semibold">
-                Digital Marketing Associate
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* Right Section */}
-        <div className="relative right-section bg-white rounded-xl p-8 py-12 flex-1 max-w-[500px]  mr-10 mt-12 mb-16 max-lg:mx-2 ">
-          <h2 className="text-2xl font-semibold  mb-6">
-            How can we help you?
-          </h2>
-          <UserForm/>
-        </div>
-      </section>
-
-      {/* Banner Section End Here */}
-
-      {/* Who-we-are Section Start Here */}
-
-      <section className="partners flex flex-wrap items-center bg-black text-white py-10 px-5 mb-8 max-lg:flex-col-reverse">
-        {/* Text Content */}
-        <div className="text-content flex-1 mr-8 ml-8 mt-5 w-[55%] max-lg:w-[100%] max-lg:mx-2">
-          <h2 className="text-orange-500 uppercase mb-2 text-2xl">
-            Who We Are
-          </h2>
-          <h1 className="text-[2.9rem] max-md:text-[2rem] font-semibold leading-tight mb-8 w-[100%]">
-            Your Trusted Partner in Digital Transformation
-          </h1>
-          <p className="text-[1.2rem] mb-8 w-[95%]">
-            We're here to guide you through the ever-changing digital landscape,
-            helping you achieve unparalleled growth and success.
-          </p>
-
-          <div className=" flex flex-wrap w-[95%] max-lg:flex-col max-lg:w-[100%]">
-            {/* Features */}
-            <div className="features flex flex-col gap-5 mb-5 w-[50%] max-lg:w-[100%]">
-              <div className="feature flex items-center gap-4 mb-5">
-                <img
-                  src={lead}
-                  alt="Industry Insights Icon"
-                  className="w-20 h-20 mr-1"
-                />
-                <p className="text-2xl font-semibold mr-5">
-                  Industry Insights & Trends
-                </p>
-              </div>
-              <div className="feature flex items-center gap-4">
-                <img src={trends} alt="Focus Icon" className="w-20 h-20 mr-2" />
-                <p className="text-2xl font-semibold mr-5">
-                  Focus on Core Business Activities
-                </p>
-              </div>
-            </div>
-
-            {/* Details */}
-            <ul className="details list-none pl-0 space-y-4 w-[50%] max-lg:w-[100%]">
-              {[
-                "Detailed Market & Category Insight",
-                "People insight to reach the right audience",
-                "Strategic media planning & growth strategy",
-                "Robust execution methodology",
-                "Detailed insight & reporting",
-              ].map((detail, index) => (
-                <li key={index} className="flex text-lg w-[88%]  leading-6 ml-5 max-md:ml-1">
-                  <span className="text-orange-500 text-2xl mr-2">↗</span>
-                  {detail}
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-
-        {/* Image Content */}
-        <div className="image-content flex-1 w-[45%] mr-4 max-lg:w-[100%] ">
-          <img
-            src={partner}
-            alt="Team Presentation"
-            className="w-full rounded-xl "
-          />
-        </div>
-      </section>
-
-      {/* Who-we-are Section End Here */}
-
-      {/* Cards Section Start Here */}
-
-      <section className="cards-container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 p-10 max-md:p-4 mb-8">
-        {cards.map((card, index) => (
-          <div
-            key={index}
-            className="card bg-white rounded-lg shadow-lg border p-5 text-center"
-          >
-            <div className="icon text-3xl mb-3 text-red-500">{card.icon}</div>
-            <h3 className="text-xl font-semibold text-gray-800 mb-2">
-              {card.title}
-            </h3>
-            <p className="text-gray-600 text-base leading-relaxed">
-              {card.description}
-            </p>
-          </div>
-        ))}
-      </section>
-
-      {/* Cards Section End Here */}
-
-      {/* Commitment Section Start Here */}
-
-      <section className="commitment flex flex-col lg:flex-row justify-between items-start bg-black text-white px-10 max-md:px-4 py-12 my-8">
-        {/* Left Section */}
-        <div className="left-section flex-1 lg:pr-10">
-          <h4 className="text-[#fd9e1c] font-semibold text-2xl uppercase mb-3 mt-5">
-            Why Choose Us
-          </h4>
-          <h1 className="text-5xl max-lg:text-4xl font-semibold mb-7 leading-tight">
-            Commitment, Quality, & Results
-          </h1>
-          <p className="text-xl font-semibold mb-4">
-            We’re passionate about driving your business performance through
-            smart strategies.
-          </p>
-          <p className="text-xl max-lg:mb-10">
-            "Using data to create personalized, seamless experiences that lead
-            to meaningful business growth."
-          </p>
-        </div>
-
-        {/* Right Section */}
-        <div className="right-section flex-1 mt-12 max-lg:mt-0 max-lg:w-[100%]">
-          {progressItems.map((item, index) => (
-            <div key={index} className="progress-item mb-8">
-              <p className="text-base mb-2 ">{item.text}</p>
-              <div className="flex items-center">
-                <div className="progress-bar w-full bg-white h-1 rounded overflow-hidden">
+              {/* Certifications */}
+              <div className="flex gap-4 flex-wrap">
+                {[
+                  "Media Buying Professional",
+                  "Media Planning Professional",
+                  "Digital Marketing Associate",
+                ].map((cert, index) => (
                   <div
-                    className="progress bg-[#fd9e1c] h-full rounded-l"
-                    style={{ width: `${item.percentage}%` }}
-                  ></div>
-                </div>
-                <span className="percentage text-sm ml-2">
-                  {item.percentage}%
-                </span>
+                    key={index}
+                    data-aos="zoom-in"
+                    data-aos-delay={index * 100}
+                    className="group bg-[#0000ff] rounded-2xl p-4 flex flex-col items-center text-center w-28 hover:scale-105 transition-transform duration-300 shadow-lg"
+                  >
+                    <div className="bg-white rounded-t-full w-20 h-12 flex items-center justify-center mb-2 -mt-8">
+                      <img src={meta} alt="Meta Certified" className="h-10 w-16" />
+                    </div>
+                    <p className="text-white text-xs font-semibold">{cert}</p>
+                  </div>
+                ))}
               </div>
             </div>
-          ))}
-        </div>
-      </section>
 
-      {/* Commitment Section End Here */}
-
-      {/* work section start here */}
-
-      <section className="work text-center py-10 px-5">
-        <h1 className="text-5xl font-semibold text-[#fb9c24] mb-7">
-          We work for
-        </h1>
-        <p className="text-lg text-gray-600 mb-10">
-          Do you have a website in mind? Then, we're here for you! We work
-          around the clock to transform your ideas into reality.
-        </p>
-        <div className="grid grid-cols-6 gap-5 justify-items-center max-md:grid-cols-2">
-          {workItems.map((item, index) => (
-            <div key={index} className="text-center mb-6">
-              <img
-                src={item.src}
-                alt={item.alt}
-                className="w-36 h-36 mb-5 rounded-lg"
-              />
-              <p className="text-sm font-bold text-gray-800">{item.title}</p>
+            {/* Right Form */}
+            <div className="w-full lg:w-[45%]" data-aos="fade-left">
+              <div className="relative group">
+                <div className="absolute -inset-1 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] rounded-2xl opacity-20 group-hover:opacity-30 transition-opacity duration-500 blur-xl"></div>
+                <div className="relative bg-white rounded-2xl p-8 max-md:p-6 shadow-2xl border border-gray-100">
+                  <div className="text-center mb-6">
+                    <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-[#fb9c24] to-[#ff8c00] rounded-full mb-4 shadow-lg">
+                      <svg
+                        className="w-8 h-8 text-white"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+                    </div>
+                    <h2 className="text-2xl max-md:text-xl font-bold text-gray-900 mb-2">
+                      How can we help you?
+                    </h2>
+                    <p className="text-sm text-gray-600">
+                      Let's discuss your Meta Ads strategy
+                    </p>
+                  </div>
+                  <UserForm />
+                </div>
+              </div>
             </div>
-          ))}
+          </div>
         </div>
       </section>
 
-      {/* work section end here */}
-
-      {/* dedicated section start here */}
-
-      <section className="dedicated-team flex flex-col items-center justify-around p-5 gap-8 max-md:gap-4 max-w-7xl mx-auto mb-12 w-[80%] max-lg:w-[100%] max-lg:p-5">
-        <h1 className="text-5xl max-md:text-4xl font-semibold text-center mb-6">
-          Hire us as your dedicated team
-        </h1>
-        <div className="whole-content flex flex-col md:flex-row items-center max-lg:block max-lg:m-auto">
-          <div className="team-image mb-5 md:mb-0 md:mr-10 h-[50%] w-[45%] max-lg:w-[100%] ">
-            <img
-              src={dedicated}
-              alt="Team working"
-              className="w-auto rounded-lg shadow-md max-lg:mb-8"
-            />
-          </div>
-          <div className="team-content max-w-2xl w-[55%] max-lg:w-[100%]">
-            <p className="text-[2rem] text-[#fb9c24] mb-6 leading-10">
-              We'll deploy a skilled team to build your product.
-            </p>
-            <ul className="list-none mb-5">
-              <li className="text-xl mb-3 flex items-start">
-                <span>•</span>
-                <span className="ml-2">Time-centric pricing.</span>
-              </li>
-              <li className="text-xl mb-6 flex items-start">
-                <span>•</span>
-                <span className="ml-2">
-                  Works best for freelancers, business consultants, and agencies
-                  with already set processes.
+      {/* Who We Are Section - Enhanced */}
+      <section className="py-20 px-6 max-md:px-4 bg-gradient-to-br from-black via-gray-900 to-black">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            {/* Text Content */}
+            <div data-aos="fade-right">
+              <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] px-4 py-2 rounded-full mb-6 shadow-lg">
+                <span className="text-xs font-bold text-white tracking-[0.2em] uppercase">
+                  WHO WE ARE
                 </span>
-              </li>
-            </ul>
+              </div>
+
+              <h2 className="text-4xl max-md:text-2xl font-bold text-white mb-6 leading-tight">
+                Your Trusted Partner in{" "}
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#fb9c24] to-[#ff8c00]">
+                  Digital Transformation
+                </span>
+              </h2>
+
+              <div className="w-20 h-1 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] rounded-full mb-6"></div>
+
+              <p className="text-gray-300 text-lg mb-8 leading-relaxed">
+                We're here to guide you through the ever-changing digital
+                landscape, helping you achieve unparalleled growth and success.
+              </p>
+
+              {/* Features Grid */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
+                {[
+                  {
+                    img: lead,
+                    title: "Industry Insights & Trends",
+                  },
+                  {
+                    img: trends,
+                    title: "Focus on Core Business Activities",
+                  },
+                ].map((feature, index) => (
+                  <div
+                    key={index}
+                    data-aos="zoom-in"
+                    data-aos-delay={index * 100}
+                    className="group bg-white/10 backdrop-blur-sm rounded-xl p-4 flex items-center gap-4 border border-white/20 hover:border-[#fb9c24] hover:bg-white/20 transition-all duration-300"
+                  >
+                    <img
+                      src={feature.img}
+                      alt={feature.title}
+                      className="w-16 h-16 object-contain group-hover:scale-110 transition-transform duration-300"
+                    />
+                    <p className="text-white font-semibold text-sm">
+                      {feature.title}
+                    </p>
+                  </div>
+                ))}
+              </div>
+
+              {/* Details List */}
+              <ul className="space-y-3">
+                {[
+                  "Detailed Market & Category Insight",
+                  "People insight to reach the right audience",
+                  "Strategic media planning & growth strategy",
+                  "Robust execution methodology",
+                  "Detailed insight & reporting",
+                ].map((detail, index) => (
+                  <li
+                    key={index}
+                    data-aos="fade-up"
+                    data-aos-delay={index * 50}
+                    className="flex items-start text-gray-300"
+                  >
+                    <span className="text-[#fb9c24] text-2xl mr-3 flex-shrink-0">
+                      ↗
+                    </span>
+                    <span className="text-base">{detail}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Image Content */}
+            <div data-aos="fade-left">
+              <div className="relative group">
+                <div className="absolute -inset-4 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] rounded-3xl opacity-20 group-hover:opacity-30 transition-opacity duration-500 blur-xl"></div>
+                <img
+                  src={partner}
+                  alt="Team Presentation"
+                  className="relative w-full rounded-3xl shadow-2xl border-4 border-white/10 group-hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Cards Section - Enhanced */}
+      <section className="py-20 px-6 max-md:px-4 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {cards.map((card, index) => (
+              <div
+                key={index}
+                data-aos="fade-up"
+                data-aos-delay={index * 100}
+                className="group bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-2 border-transparent hover:border-[#fb9c24]"
+              >
+                <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">
+                  {card.icon}
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-[#fb9c24] group-hover:to-[#ff8c00] transition-all duration-300">
+                  {card.title}
+                </h3>
+                <div className="w-16 h-1 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] rounded-full mb-3"></div>
+                <p className="text-gray-600 leading-relaxed">{card.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Commitment Section - Enhanced */}
+      <section className="relative py-20 px-6 max-md:px-4 bg-gradient-to-br from-black via-gray-900 to-black overflow-hidden">
+        {/* Background Elements */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <div className="absolute top-20 left-10 w-64 h-64 bg-[#fb9c24]/10 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-10 right-10 w-80 h-80 bg-[#ff8c00]/10 rounded-full blur-3xl"></div>
+        </div>
+
+        <div className="max-w-7xl mx-auto relative z-10">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            {/* Left Section */}
+            <div data-aos="fade-right">
+              <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] px-4 py-2 rounded-full mb-6 shadow-lg">
+                <span className="text-xs font-bold text-white tracking-[0.2em] uppercase">
+                  WHY CHOOSE US
+                </span>
+              </div>
+
+              <h2 className="text-4xl max-md:text-2xl font-bold text-white mb-6 leading-tight">
+                Commitment, Quality, &{" "}
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#fb9c24] to-[#ff8c00]">
+                  Results
+                </span>
+              </h2>
+
+              <div className="w-20 h-1 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] rounded-full mb-6"></div>
+
+              <p className="text-xl text-gray-300 mb-4 font-semibold">
+                We're passionate about driving your business performance through
+                smart strategies.
+              </p>
+
+              <p className="text-lg text-gray-400 italic">
+                "Using data to create personalized, seamless experiences that
+                lead to meaningful business growth."
+              </p>
+            </div>
+
+            {/* Right Section - Progress Bars */}
+            <div data-aos="fade-left">
+              <div className="space-y-6">
+                {progressItems.map((item, index) => (
+                  <div
+                    key={index}
+                    data-aos="fade-up"
+                    data-aos-delay={index * 100}
+                    className="group bg-white/5 backdrop-blur-sm rounded-xl p-5 border border-white/10 hover:border-[#fb9c24] hover:bg-white/10 transition-all duration-300"
+                  >
+                    <p className="text-white mb-3 font-medium">{item.text}</p>
+                    <div className="flex items-center gap-3">
+                      <div className="flex-1 bg-white/20 h-2 rounded-full overflow-hidden">
+                        <div
+                          className="bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] h-full rounded-full transition-all duration-1000"
+                          style={{ width: `${item.percentage}%` }}
+                        ></div>
+                      </div>
+                      <span className="text-white font-bold text-sm w-12 text-right">
+                        {item.percentage}%
+                      </span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* We Work For Section - Enhanced */}
+      <section className="py-20 px-6 max-md:px-4 bg-gradient-to-br from-gray-50 via-white to-orange-50/20">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12" data-aos="fade-up">
+            <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] px-4 py-2 rounded-full mb-6 shadow-lg">
+              <span className="text-xs font-bold text-white tracking-[0.2em] uppercase">
+                OUR EXPERTISE
+              </span>
+            </div>
+            <h2 className="text-4xl max-md:text-2xl font-bold text-gray-900 mb-4">
+              We work for
+            </h2>
+            <p className="text-gray-600 text-lg max-w-3xl mx-auto">
+              Do you have a website in mind? Then, we're here for you! We work
+              around the clock to transform your ideas into reality.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6">
+            {workItems.map((item, index) => (
+              <div
+                key={index}
+                data-aos="zoom-in"
+                data-aos-delay={index * 50}
+                className="group flex flex-col items-center text-center bg-white rounded-xl p-4 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border-2 border-transparent hover:border-[#fb9c24]"
+              >
+                <img
+                  src={item.src}
+                  alt={item.alt}
+                  className="w-24 h-24 mb-3 rounded-lg object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+                <p className="text-sm font-bold text-gray-800 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-[#fb9c24] group-hover:to-[#ff8c00] transition-all duration-300">
+                  {item.title}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Hire Dedicated Team Section - Enhanced */}
+      <section className="py-20 px-6 max-md:px-4 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12" data-aos="fade-up">
+            <h2 className="text-4xl max-md:text-2xl font-bold text-gray-900 mb-4">
+              Hire us as your{" "}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#fb9c24] to-[#ff8c00]">
+                dedicated team
+              </span>
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            {/* Image */}
+            <div data-aos="fade-right">
+              <div className="relative group">
+                <div className="absolute -inset-4 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] rounded-3xl opacity-20 group-hover:opacity-30 transition-opacity duration-500 blur-xl"></div>
+                <img
+                  src={dedicated}
+                  alt="Team working"
+                  className="relative w-full rounded-3xl shadow-2xl group-hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+            </div>
+
+            {/* Content */}
+            <div data-aos="fade-left">
+              <p className="text-3xl text-transparent bg-clip-text bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] font-bold mb-6 leading-tight">
+                We'll deploy a skilled team to build your product.
+              </p>
+
+              <ul className="space-y-4 mb-8">
+                {[
+                  "Time-centric pricing.",
+                  "Works best for freelancers, business consultants, and agencies with already set processes.",
+                ].map((item, index) => (
+                  <li
+                    key={index}
+                    className="flex items-start text-gray-700 text-lg"
+                  >
+                    <div className="flex-shrink-0 w-6 h-6 bg-gradient-to-br from-[#fb9c24] to-[#ff8c00] rounded-full flex items-center justify-center mr-3 mt-1">
+                      <svg
+                        className="w-4 h-4 text-white"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M5 13l4 4L19 7"
+                        />
+                      </svg>
+                    </div>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+
+              <Link to="/contact">
+                <button className="bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] text-white px-8 py-3 rounded-lg font-bold hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center gap-2">
+                  Know More
+                  <svg
+                    className="w-5 h-5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M17 8l4 4m0 0l-4 4m4-4H3"
+                    />
+                  </svg>
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Meta Ads Services Section - Enhanced */}
+      <section className="py-20 px-6 max-md:px-4 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12" data-aos="fade-up">
+            <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] px-4 py-2 rounded-full mb-6 shadow-lg">
+              <span className="text-xs font-bold text-white tracking-[0.2em] uppercase">
+                OUR SERVICES
+              </span>
+            </div>
+            <h2 className="text-4xl max-md:text-2xl font-bold text-gray-900 mb-4">
+              Our Meta Ads Services
+            </h2>
+            <p className="text-gray-600 text-lg max-w-3xl mx-auto">
+              Harness the full spectrum of advertising opportunities within the
+              Meta ecosystem. Dive deep into the various facets of Meta
+              advertising, tailored to engage, resonate, and deliver.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+            {[
+              {
+                img: audience,
+                title: "Campaign Strategy & Execution",
+                description:
+                  "Crafting campaigns that don't just get seen, but get results. Every ad is a message, and we ensure yours is clear, compelling, and targeted.",
+                points: [
+                  "Campaign Strategy & Execution: Tailored strategies built around your unique goals.",
+                  "Ad Creative Design: Stunning visuals paired with compelling narratives.",
+                  "Performance Tracking & Reporting: Real-time insights to stay ahead of the curve.",
+                ],
+              },
+              {
+                img: growth,
+                title: "Content & Creative Optimization",
+                description:
+                  "We dive deep into analytics to refine, finesse, and elevate your campaigns.",
+                points: [
+                  "Ad Creative A/B Testing: Determine the most effective visuals and messages.",
+                  "Multimedia Content Guidance: Leverage visuals, videos, and interactive elements for deeper engagement.",
+                  "Ad Copywriting & Refinement: Words that inspire action and build brand loyalty.",
+                ],
+              },
+              {
+                img: target,
+                title: "Advanced Targeting & Retargeting",
+                description:
+                  "Ensuring your ads reach the people who matter most. From fresh faces to familiar ones, maximize every interaction.",
+                points: [
+                  "Audience Segmentation: Precise targeting based on behavior, interests, and more.",
+                  "Dynamic Retargeting: Reconnect with potential customers using data-driven strategies.",
+                  "Lookalike Audience Creation: Expand your reach to potential customers similar to your best ones.",
+                ],
+              },
+            ].map((service, index) => (
+              <div
+                key={index}
+                data-aos="fade-up"
+                data-aos-delay={index * 100}
+                className="group bg-gradient-to-br from-[#1c438d] to-[#0d2552] rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-white/10"
+              >
+                <img
+                  src={service.img}
+                  alt={service.title}
+                  className="w-40 h-40 mx-auto mb-6 group-hover:scale-110 transition-transform duration-300"
+                />
+                <h3 className="text-2xl font-bold text-white mb-4">
+                  {service.title}
+                </h3>
+                <div className="w-16 h-1 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] rounded-full mb-4"></div>
+                <p className="text-gray-300 mb-6 text-sm">{service.description}</p>
+                <ul className="space-y-3">
+                  {service.points.map((point, idx) => (
+                    <li key={idx} className="text-gray-300 text-sm leading-relaxed">
+                      <strong className="text-[#fb9c24]">
+                        {point.split(":")[0]}:
+                      </strong>
+                      {point.split(":")[1]}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+
+          <div className="text-center" data-aos="fade-up">
             <Link to="/contact">
-              <button className="know-more-btn bg-[#fb9c24] text-white py-3 px-6 rounded-lg ">
-                Know More →
+              <button className="bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] text-white px-10 py-4 rounded-lg font-bold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300">
+                Contact Us
               </button>
             </Link>
           </div>
         </div>
       </section>
 
-      {/* dedicated section end here */}
-
-      {/* services section start here */}
-
-      <section className="services text-center p-10 max-md:px-5 bg-black text-white mb-10">
-        <h1 className="text-[2.8rem] max-md:text-[2rem] font-semibold mb-5">
-          Our Meta Ads Services
-        </h1>
-        <p className="text-lg text-gray-300 mb-10">
-          Harness the full spectrum of advertising opportunities within the Meta
-          ecosystem. Dive deep into the various facets of Meta advertising,
-          tailored to engage, resonate, and deliver.
-        </p>
-        <div className="services-container flex flex-wrap justify-center gap-10 ">
-          <div className="service-card bg-[#1c438d] rounded-lg p-5 w-[350px] shadow-lg text-left transition-transform duration-300 ease-linear hover:translate-y-[-10px]">
-            <img
-              src={audience}
-              alt="Campaign Icon"
-              className="w-48 h-48 mx-auto mb-4"
-            />
-            <h3 className="text-3xl font-semibold mb-5 mt-3">
-              Campaign Strategy & Execution
-            </h3>
-            <p className="text-sm mb-4">
-              Crafting campaigns that don’t just get seen, but get results.
-              Every ad is a message, and we ensure yours is clear, compelling,
-              and targeted.
-            </p>
-            <ul className="list-none space-y-2 mt-5">
-              <li>
-                <b>Campaign Strategy & Execution:</b> Tailored strategies built
-                around your unique goals.
-              </li>
-              <li>
-                <b>Ad Creative Design:</b> Stunning visuals paired with
-                compelling narratives.
-              </li>
-              <li>
-                <b>Performance Tracking & Reporting:</b> Real-time insights to
-                stay ahead of the curve.
-              </li>
-            </ul>
-          </div>
-
-          <div className="service-card bg-[#1c438d] rounded-lg p-5 w-[350px] shadow-lg text-left transition-transform duration-300 ease-linear hover:translate-y-[-10px]">
-            <img
-              src={growth}
-              alt="Content Icon"
-              className="w-48 h-48 mx-auto mb-4"
-            />
-            <h3 className="text-3xl font-semibold mb-5 mt-3">
-              Content & Creative Optimization
-            </h3>
-            <p className="text-sm mb-4">
-              We dive deep into analytics to refine, finesse, and elevate your
-              campaigns.
-            </p>
-            <ul className="list-none space-y-2 mt-5">
-              <li>
-                <b>Ad Creative A/B Testing:</b> Determine the most effective
-                visuals and messages.
-              </li>
-              <li>
-                <b>Multimedia Content Guidance:</b> Leverage visuals, videos,
-                and interactive elements for deeper engagement.
-              </li>
-              <li>
-                <b>Ad Copywriting & Refinement:</b> Words that inspire action
-                and build brand loyalty.
-              </li>
-            </ul>
-          </div>
-
-          <div className="service-card bg-[#1c438d] rounded-lg p-5 w-[350px] shadow-lg text-left transition-transform duration-300 ease-linear hover:translate-y-[-10px]">
-            <img
-              src={target}
-              alt="Targeting Icon"
-              className="w-48 h-48 mx-auto mb-4"
-            />
-            <h3 className="text-3xl font-semibold mb-5 mt-3">
-              Advanced Targeting & Retargeting
-            </h3>
-            <p className="text-sm mb-4">
-              Ensuring your ads reach the people who matter most. From fresh
-              faces to familiar ones, maximize every interaction.
-            </p>
-            <ul className="list-none space-y-2 mt-5">
-              <li>
-                <b>Audience Segmentation:</b> Precise targeting based on
-                behavior, interests, and more.
-              </li>
-              <li>
-                <b>Dynamic Retargeting:</b> Reconnect with potential customers
-                using data-driven strategies.
-              </li>
-              <li>
-                <b>Lookalike Audience Creation:</b> Expand your reach to
-                potential customers similar to your best ones.
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className="cta-buttons flex justify-center gap-5 mt-10">
-          <Link to="/contact">
-            <button className="contact-btn bg-orange-500 text-white py-2 px-6 rounded-md text-lg hover:opacity-90 transition">
-              Contact Us
-            </button>
-          </Link>
-          {/* <button className="audit-btn bg-teal-500 text-white py-2 px-6 rounded-md text-lg hover:opacity-90 transition">
-            Get a Free Audit
-          </button> */}
-        </div>
-      </section>
-
-      {/* services section end here */}
-
-      {/* three-boxes section start here */}
-
-      <section className="pt-10 max-md:pt-4 pb-16 ">
-        <div className="grid w-[70%] max-md:w-[90%] grid-cols-3 m-auto gap-4 max-lg:grid-cols-1">
-          <div className="border h-[310px] rounded-xl bg-[#0073bf] transition-transform duration-300 ease-linear hover:scale-105">
-            <img src={arrow} alt="" className="w-40 h-40 mx-auto mb-2 mt-4" />
-            <p className="px-7 flex text-center text-[18px] text-white max-xl:text-[16px] ">
-              Improved Target Audience, Increased Brand Awareness, And Targeted
-              Drip Funnel Strategies: a Killer ROI
-            </p>
-          </div>
-          <div className="border h-[310px] rounded-xl bg-[#0073bf] transition-transform duration-300 ease-linear hover:scale-105">
-            <img
-              src={marketing}
-              alt=""
-              className="w-40 h-40 mx-auto mb-2 mt-4"
-            />
-            <p className="px-7 flex text-center text-[18px] text-white max-xl:text-[16px] ">
-              Out-of-the-box Strategies, Compelling Ad Copy, High-Quality Ads,
-              and Landing Pages: Skyrocket Conversions
-            </p>
-          </div>
-          <div className="border h-[310px] rounded-xl bg-[#0073bf] transition-transform duration-300 ease-linear hover:scale-105">
-            <img
-              src={Strategy}
-              alt=""
-              className="w-40 h-40 mx-auto mb-2 mt-4"
-            />
-            <p className="px-7 flex text-center text-[18px] text-white max-xl:text-[16px] ">
-              A/B Testing, Data-based Optimization, Tracking and Reporting:
-              Scalable Growth and Profits
-            </p>
+      {/* Three Boxes Section - Enhanced */}
+      <section className="py-20 px-6 max-md:px-4 bg-white">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {[
+              {
+                img: arrow,
+                text: "Improved Target Audience, Increased Brand Awareness, And Targeted Drip Funnel Strategies: a Killer ROI",
+              },
+              {
+                img: marketing,
+                text: "Out-of-the-box Strategies, Compelling Ad Copy, High-Quality Ads, and Landing Pages: Skyrocket Conversions",
+              },
+              {
+                img: Strategy,
+                text: "A/B Testing, Data-based Optimization, Tracking and Reporting: Scalable Growth and Profits",
+              },
+            ].map((box, index) => (
+              <div
+                key={index}
+                data-aos="zoom-in"
+                data-aos-delay={index * 100}
+                className="group bg-gradient-to-br from-[#0073bf] to-[#0056b3] rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-2 border-transparent hover:border-[#fb9c24] flex flex-col items-center text-center"
+              >
+                <div className="w-36 h-36 bg-white/10 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                  <img src={box.img} alt="" className="w-28 h-28" />
+                </div>
+                <p className="text-white text-base leading-relaxed">{box.text}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
-
-      {/* three-boxes section end here */}
     </main>
   );
 }
+
 export default MetaAds;
