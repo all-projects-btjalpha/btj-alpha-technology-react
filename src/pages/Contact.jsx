@@ -107,8 +107,55 @@ const Contact = () => {
             Have A Question
           </h3> */}
 
-          <div className="flex max-md:block gap-8  !max-md:gap-8 w-[75%] max-md:w-[100%] m-auto justify-around px-4 max-md:px-2">
-            {/* Chat with Us */}
+      {/* Map & Form Section */}
+      <section className="py-20 px-6 max-md:px-4 bg-gradient-to-br from-gray-50 via-white to-orange-50/20">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid lg:grid-cols-2 gap-12 items-start">
+            {/* Map */}
+            <div data-aos="fade-right">
+              <div className="relative group">
+                <div className="absolute -inset-1 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] rounded-2xl opacity-20 group-hover:opacity-30 transition-opacity duration-500 blur-xl"></div>
+                <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.430891875109!2d77.3130094!3d28.5868475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce4589e66cd21%3A0x74986f30f963e27!2sSector%202%2C%20Noida%2C%20Uttar%20Pradesh%20201301!5e0!3m2!1sen!2sin!4v1720000000000!5m2!1sen!2sin"
+                    width="100%"
+                    height="500"
+                    allowFullScreen=""
+                    loading="lazy"
+                    style={{ border: 0 }}
+                    referrerPolicy="no-referrer-when-downgrade"
+                  />
+                </div>
+              </div>
+            </div>
+
+            {/* Form */}
+            <div data-aos="fade-left">
+              <div className="bg-white rounded-2xl p-8 max-md:p-6 shadow-2xl border-2 border-gray-100">
+                <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] px-4 py-2 rounded-full mb-6 shadow-lg">
+                  <span className="text-xs font-bold text-white tracking-[0.2em] uppercase">
+                    CONTACT FORM
+                  </span>
+                </div>
+                <h2 className="text-3xl max-md:text-2xl font-bold text-gray-900 mb-4">
+                  Get in Touch
+                </h2>
+                <div className="w-20 h-1 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] rounded-full mb-6"></div>
+                <p className="mb-8 text-gray-600 leading-relaxed">
+                  Our team would love to hear from you. Write your message to us!
+                </p>
+                <UserForm />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Cards Section */}
+      <section className="py-16 px-6 max-md:px-4 bg-white">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Visit Us Card */}
             <a
               href="https://www.google.com/maps?q=Sector+2,+Noida,+UP,+201301"
               target="_blank"
@@ -131,8 +178,10 @@ const Contact = () => {
 
             {/* Call Us At */}
             <a
-              href="tel:01204525483"
-              className="flex flex-col items-center gap-2 self-center max-md:mb-6 hover:opacity-90 transition"
+              href="tel:+91-9310228489"
+              data-aos="fade-up"
+              data-aos-delay="100"
+              className="group bg-gradient-to-br from-white to-orange-50 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-2 border-transparent hover:border-[#fb9c24] text-center"
             >
               <PhoneCall
                 className="w-16 max-md:w-10 h-16 max-md:h-10 text-orange-500 mb-5 max-md:mb-2"
@@ -140,8 +189,8 @@ const Contact = () => {
               />
               <p className="text-[#191970] text-xl max-md:text-sm font-semibold">
                 Call Us At
-              </p>
-              <p className="text-base text-gray-700">0120-4525483</p>
+              </h3>
+              <p className="text-gray-600 leading-relaxed">+91-9310228489</p>
             </a>
 
             <div className="block w-px bg-gray-300 h-36 max-md:hidden self-center" />
@@ -170,34 +219,49 @@ const Contact = () => {
         </div>
       </div>
 
-      <section className="py-8 max-md:py-2 bg-white w-[85%] max-md:w-full m-auto">
-        <div className="mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-8 items-center">
-            <div className="">
-              <div className="rounded-xl overflow-hidden shadow-md ml-5 max-md:ml-0">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.430891875109!2d77.3130094!3d28.5868475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce4589e66cd21%3A0x74986f30f963e27!2sSector%202%2C%20Noida%2C%20Uttar%20Pradesh%20201301!5e0!3m2!1sen!2sin!4v1720000000000!5m2!1sen!2sin"
-                  width="100%"
-                  height="450"
-                  allowFullScreen=""
-                  loading="lazy"
-                  style={{ border: 0 }}
-                  referrerPolicy="no-referrer-when-downgrade"
-                />
+      {/* Map & Form Section */}
+      {/* <section className="py-20 px-6 max-md:px-4 bg-gradient-to-br from-gray-50 via-white to-orange-50/20">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid lg:grid-cols-2 gap-12 items-start">
+           
+            <div data-aos="fade-right">
+              <div className="relative group">
+                <div className="absolute -inset-1 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] rounded-2xl opacity-20 group-hover:opacity-30 transition-opacity duration-500 blur-xl"></div>
+                <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.430891875109!2d77.3130094!3d28.5868475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce4589e66cd21%3A0x74986f30f963e27!2sSector%202%2C%20Noida%2C%20Uttar%20Pradesh%20201301!5e0!3m2!1sen!2sin!4v1720000000000!5m2!1sen!2sin"
+                    width="100%"
+                    height="500"
+                    allowFullScreen=""
+                    loading="lazy"
+                    style={{ border: 0 }}
+                    referrerPolicy="no-referrer-when-downgrade"
+                  />
+                </div>
               </div>
             </div>
-            <div className="">
-              <h2 className="text-2xl max-md:text-center font-bold mb-4">
-                Get in touch
-              </h2>
-              <p className="mb-6 text-gray-600 max-md:text-center">
-                Our team would love to hear from you. Write your message to us!
-              </p>
-              <UserForm/>
+
+            
+            <div data-aos="fade-left">
+              <div className="bg-white rounded-2xl p-8 max-md:p-6 shadow-2xl border-2 border-gray-100">
+                <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] px-4 py-2 rounded-full mb-6 shadow-lg">
+                  <span className="text-xs font-bold text-white tracking-[0.2em] uppercase">
+                    CONTACT FORM
+                  </span>
+                </div>
+                <h2 className="text-3xl max-md:text-2xl font-bold text-gray-900 mb-4">
+                  Get in Touch
+                </h2>
+                <div className="w-20 h-1 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] rounded-full mb-6"></div>
+                <p className="mb-8 text-gray-600 leading-relaxed">
+                  Our team would love to hear from you. Write your message to us!
+                </p>
+                <UserForm />
+              </div>
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="bg-white py-10">
         <h3 className="text-3xl max-md:text-lg text-center font-semibold mb-12 max-md:mb-8">

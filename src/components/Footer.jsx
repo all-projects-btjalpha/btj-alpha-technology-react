@@ -196,8 +196,42 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Optional Divider */}
-        <hr className="w-full h-[1px] bg-white/30 border-0 mb-6" />
+          {/* Contact Info */}
+          <div>
+            <h3 className="text-lg sm:text-xl font-bold mb-4 relative inline-block">
+              Contact Us
+              <span className="absolute bottom-0 left-0 w-10 h-1 bg-white rounded-full"></span>
+            </h3>
+            <ul className="space-y-3">
+              <li className="flex items-start gap-2 group">
+                <FaMapMarkerAlt className="text-base mt-1 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" />
+                <div className="text-white/90 text-xs sm:text-sm">
+                  <p>Sector-2, Noida</p>
+                  <p>Gautam Buddha Nagar</p>
+                  <p>UP 201301</p>
+                </div>
+              </li>
+              <li className="flex items-start gap-2 group">
+                <FaEnvelope className="text-base mt-1 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" />
+                <a 
+                  href="mailto:info@btjalphatechnology.com" 
+                  className="text-white/90 hover:text-white transition-colors duration-300 text-xs sm:text-sm break-all"
+                >
+                  info@btjalphatechnology.com
+                </a>
+              </li>
+              <li className="flex items-center gap-2 group">
+                <FaPhone className="text-base flex-shrink-0 group-hover:scale-110 transition-transform duration-300" />
+                <a 
+                  href="tel:+91-9310228489" 
+                  className="text-white/90 hover:text-white transition-colors duration-300 text-xs sm:text-sm"
+                >
+                  +91-9310228489
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
 
         {/* Registered Office Info */}
         {/* Company Details Section */}
