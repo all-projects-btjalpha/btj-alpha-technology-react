@@ -134,78 +134,6 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* Contact Cards Section */}
-      <section className="py-16 px-6 max-md:px-4 bg-white">
-        <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Visit Us Card */}
-            <a
-              href="https://www.google.com/maps?q=Sector+2,+Noida,+UP,+201301"
-              target="_blank"
-              rel="noopener noreferrer"
-              data-aos="fade-up"
-              data-aos-delay="0"
-              className="group bg-gradient-to-br from-white to-orange-50 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-2 border-transparent hover:border-[#fb9c24] text-center"
-            >
-              <div className="w-20 h-20 bg-gradient-to-br from-[#fb9c24] to-[#ff8c00] rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
-                <MapPin className="w-10 h-10 text-white" strokeWidth={1.5} />
-              </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-[#fb9c24] group-hover:to-[#ff8c00] transition-all duration-300">
-                Visit Us
-              </h3>
-              <p className="text-gray-600 leading-relaxed">
-                Sector 2, Noida, UP, 201301
-              </p>
-            </a>
-
-            {/* Call Us Card */}
-            <a
-              href="tel:01204525483"
-              data-aos="fade-up"
-              data-aos-delay="100"
-              className="group bg-gradient-to-br from-white to-orange-50 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-2 border-transparent hover:border-[#fb9c24] text-center"
-            >
-              <div className="w-20 h-20 bg-gradient-to-br from-[#fb9c24] to-[#ff8c00] rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
-                <PhoneCall className="w-10 h-10 text-white" strokeWidth={1.5} />
-              </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-[#fb9c24] group-hover:to-[#ff8c00] transition-all duration-300">
-                Call Us At
-              </h3>
-              <p className="text-gray-600 leading-relaxed">0120-4525483</p>
-            </a>
-
-            {/* Email Us Card */}
-            <a
-              href="mailto:info@btjalphatechnology.com"
-              data-aos="fade-up"
-              data-aos-delay="200"
-              className="group bg-gradient-to-br from-white to-orange-50 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-2 border-transparent hover:border-[#fb9c24] text-center"
-            >
-              <div className="w-20 h-20 bg-gradient-to-br from-[#fb9c24] to-[#ff8c00] rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
-                <Mail className="w-10 h-10 text-white" strokeWidth={1.5} />
-              </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-[#fb9c24] group-hover:to-[#ff8c00] transition-all duration-300">
-                Write to Us
-              </h3>
-              <p className="text-gray-600 leading-relaxed break-words">
-                info@btjalphatechnology.com
-              </p>
-            </a>
-          </div>
-
-          {/* Availability Info */}
-          <div
-            data-aos="fade-up"
-            className="mt-8 text-center bg-gradient-to-r from-orange-50 to-orange-100 rounded-2xl p-6 border-2 border-[#fb9c24]/20"
-          >
-            <p className="text-gray-700 font-medium">
-              📅 We're available Monday to Friday, from{" "}
-              <span className="font-bold text-[#fb9c24]">9:30 AM to 6:30 PM</span>
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* Map & Form Section */}
       <section className="py-20 px-6 max-md:px-4 bg-gradient-to-br from-gray-50 via-white to-orange-50/20">
         <div className="max-w-7xl mx-auto">
@@ -249,6 +177,122 @@ const Contact = () => {
           </div>
         </div>
       </section>
+
+      {/* Contact Cards Section */}
+      <section className="py-16 px-6 max-md:px-4 bg-white">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Visit Us Card */}
+            <a
+              href="https://www.google.com/maps?q=Sector+2,+Noida,+UP,+201301"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-aos="fade-up"
+              data-aos-delay="0"
+              className="group bg-gradient-to-br from-white to-orange-50 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-2 border-transparent hover:border-[#fb9c24] text-center"
+            >
+              <div className="w-20 h-20 bg-gradient-to-br from-[#fb9c24] to-[#ff8c00] rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+                <MapPin className="w-10 h-10 text-white" strokeWidth={1.5} />
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-[#fb9c24] group-hover:to-[#ff8c00] transition-all duration-300">
+                Visit Us
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                Sector 2, Noida, UP, 201301
+              </p>
+            </a>
+
+            {/* Call Us Card */}
+            <a
+              href="tel:+91-9310228489"
+              data-aos="fade-up"
+              data-aos-delay="100"
+              className="group bg-gradient-to-br from-white to-orange-50 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-2 border-transparent hover:border-[#fb9c24] text-center"
+            >
+              <div className="w-20 h-20 bg-gradient-to-br from-[#fb9c24] to-[#ff8c00] rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+                <PhoneCall className="w-10 h-10 text-white" strokeWidth={1.5} />
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-[#fb9c24] group-hover:to-[#ff8c00] transition-all duration-300">
+                Call Us At
+              </h3>
+              <p className="text-gray-600 leading-relaxed">+91-9310228489</p>
+            </a>
+
+            {/* Email Us Card */}
+            <a
+              href="mailto:info@btjalphatechnology.com"
+              data-aos="fade-up"
+              data-aos-delay="200"
+              className="group bg-gradient-to-br from-white to-orange-50 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-2 border-transparent hover:border-[#fb9c24] text-center"
+            >
+              <div className="w-20 h-20 bg-gradient-to-br from-[#fb9c24] to-[#ff8c00] rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+                <Mail className="w-10 h-10 text-white" strokeWidth={1.5} />
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-[#fb9c24] group-hover:to-[#ff8c00] transition-all duration-300">
+                Write to Us
+              </h3>
+              <p className="text-gray-600 leading-relaxed break-words">
+                info@btjalphatechnology.com
+              </p>
+            </a>
+          </div>
+
+          {/* Availability Info */}
+          <div
+            data-aos="fade-up"
+            className="mt-8 text-center bg-gradient-to-r from-orange-50 to-orange-100 rounded-2xl p-6 border-2 border-[#fb9c24]/20"
+          >
+            <p className="text-gray-700 font-medium">
+              📅 We're available Monday to Friday, from{" "}
+              <span className="font-bold text-[#fb9c24]">9:30 AM to 6:30 PM</span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Map & Form Section */}
+      {/* <section className="py-20 px-6 max-md:px-4 bg-gradient-to-br from-gray-50 via-white to-orange-50/20">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid lg:grid-cols-2 gap-12 items-start">
+           
+            <div data-aos="fade-right">
+              <div className="relative group">
+                <div className="absolute -inset-1 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] rounded-2xl opacity-20 group-hover:opacity-30 transition-opacity duration-500 blur-xl"></div>
+                <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.430891875109!2d77.3130094!3d28.5868475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce4589e66cd21%3A0x74986f30f963e27!2sSector%202%2C%20Noida%2C%20Uttar%20Pradesh%20201301!5e0!3m2!1sen!2sin!4v1720000000000!5m2!1sen!2sin"
+                    width="100%"
+                    height="500"
+                    allowFullScreen=""
+                    loading="lazy"
+                    style={{ border: 0 }}
+                    referrerPolicy="no-referrer-when-downgrade"
+                  />
+                </div>
+              </div>
+            </div>
+
+            
+            <div data-aos="fade-left">
+              <div className="bg-white rounded-2xl p-8 max-md:p-6 shadow-2xl border-2 border-gray-100">
+                <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] px-4 py-2 rounded-full mb-6 shadow-lg">
+                  <span className="text-xs font-bold text-white tracking-[0.2em] uppercase">
+                    CONTACT FORM
+                  </span>
+                </div>
+                <h2 className="text-3xl max-md:text-2xl font-bold text-gray-900 mb-4">
+                  Get in Touch
+                </h2>
+                <div className="w-20 h-1 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] rounded-full mb-6"></div>
+                <p className="mb-8 text-gray-600 leading-relaxed">
+                  Our team would love to hear from you. Write your message to us!
+                </p>
+                <UserForm />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> */}
 
       {/* FAQ Section */}
       <section className="py-20 px-6 max-md:px-4 bg-white">
