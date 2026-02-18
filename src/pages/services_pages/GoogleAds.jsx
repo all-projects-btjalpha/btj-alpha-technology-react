@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import n2 from "../../assets/images/google-ads/n2.svg";
 import rect from "../../assets/images/google-ads/rect.webp";
 import education from "../../assets/images/google-ads/icons/education.webp";
@@ -17,19 +17,26 @@ import laptop from "../../assets/images/google-ads/laptop.webp";
 import laptop2 from "../../assets/images/google-ads/laptop2.webp";
 import google from "../../assets/images/google-ads/google.webp";
 import { Link } from "react-router-dom";
-import { useEffect } from "react";
 import UserForm from "../../components/UserForm";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function GoogleAds() {
   const [activeIndex, setActiveIndex] = useState(null);
+
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
+    AOS.init({
+      duration: 1000,
+      once: false,
+      mirror: true,
+    });
   }, []);
 
   const toggleAccordion = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
+
   const accordionData = [
     {
       header: "For Lead Generation",
@@ -37,7 +44,7 @@ function GoogleAds() {
     },
     {
       header: "For eCommerce Sites",
-      body: "For eCommerce businesses, Shopping Ads (now part of Performance Max) are highly effective. These campaigns use Google’s smart bidding and automation to optimize your ads, helping you drive more sales with less effort.",
+      body: "For eCommerce businesses, Shopping Ads (now part of Performance Max) are highly effective. These campaigns use Google's smart bidding and automation to optimize your ads, helping you drive more sales with less effort.",
     },
     {
       header: "For Mobile App Promotion",
@@ -50,252 +57,353 @@ function GoogleAds() {
   ];
 
   return (
-    <main className="bg-gradient-to-b from-[#f7f0ff] to-[#ffffff]">
-      {/* agency section start here */}
-
-      <section className="flex flex-col lg:flex-row justify-between items-center px-4 lg:px-16 py-12 max-w-screen-xl mx-auto pt-36 pb-20 ">
-        {/* Content Section */}
-        <div className="max-w-full  text-center lg:text-left w-[40%] max-lg:w-[90%] ">
-          <h1 className="text-5xl max-lg:text-4xl font-bold leading-[3.6rem] mb-8 text-black ">
-            The Google Ads Agency for{" "}
-            <span className="text-[#fb9c24]">Predictable ROIs.</span>
-          </h1>
-          <p className="text-lg max-lg:text-lg mt-4 mb-8  lg:max-w-none mx-auto lg:mx-0">
-            Build Google Ads campaigns that are exceptional! Boundary helps you
-            craft strategies that outperform the competition and drive
-            sustainable growth and scale💸
-          </p>
-          <Link to="/contact">
-          <button className="px-6 py-3 text-lg font-semibold bg-[#fb9c24] text-white rounded-lg  transition-transform ">
-            See How We Run Ads
-          </button>
-          </Link>
+    <main className="bg-gradient-to-b from-gray-50 to-white">
+      {/* Hero Banner Section - Enhanced */}
+      <section className="relative py-8 px-6 max-md:px-4 mt-20 max-md:mt-16 bg-gradient-to-br from-[#f7f0ff] via-[#fef5ff] to-[#f7f0ff] overflow-hidden">
+        {/* Background Decorative Elements */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <div className="absolute top-20 -left-10 w-64 h-64 bg-[#fb9c24]/10 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-10 -right-10 w-80 h-80 bg-[#ff8c00]/10 rounded-full blur-3xl"></div>
         </div>
 
-        {/* Form Section */}
-        <div className="bg-white p-8 rounded-lg shadow-lg mt-8 lg:mt-0 max-w-full text-center lg:max-w-[40%]">
-          <h3 className=" text-2xl max-lg:text-2xl font-semibold mb-8  ">
-            Your Google Ads Success Starts Here
-          </h3>
-          <UserForm/>
+        <div className="max-w-7xl mx-auto relative z-10">
+          <div className="flex items-center justify-between max-lg:flex-col gap-12">
+            {/* Left Content */}
+            <div className="w-full lg:w-[52%]" data-aos="fade-right">
+              <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] px-4 py-2 rounded-full mb-6 shadow-lg">
+                <div className="w-2 h-2 bg-white rounded-full animate-pulse"></div>
+                <span className="text-xs font-bold text-white tracking-[0.2em] uppercase">
+                  GOOGLE ADS AGENCY
+                </span>
+              </div>
+
+              <h1 className="text-4xl max-md:text-3xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                The Google Ads Agency for{" "}
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#fb9c24] to-[#ff8c00]">
+                  Predictable ROIs.
+                </span>
+              </h1>
+
+              <div className="w-24 h-1 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] rounded-full mb-6"></div>
+
+              <p className="text-base text-gray-600 leading-relaxed mb-8">
+                Build Google Ads campaigns that are exceptional! Boundary helps
+                you craft strategies that outperform the competition and drive
+                sustainable growth and scale💸
+              </p>
+
+              <Link to="/contact">
+                <button className="inline-block bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] text-white py-3 px-8 rounded-lg font-bold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300">
+                  See How We Run Ads
+                </button>
+              </Link>
+            </div>
+
+            {/* Right Form */}
+            <div className="w-full lg:w-[45%]" data-aos="fade-left">
+              <div className="relative group">
+                <div className="absolute -inset-1 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] rounded-2xl opacity-20 group-hover:opacity-30 transition-opacity duration-500 blur-xl"></div>
+                <div className="relative bg-white rounded-2xl p-8 max-md:p-6 shadow-2xl border border-gray-100">
+                  <div className="text-center mb-6">
+                    <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-[#fb9c24] to-[#ff8c00] rounded-full mb-4 shadow-lg">
+                      <svg
+                        className="w-8 h-8 text-white"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M13 10V3L4 14h7v7l9-11h-7z"
+                        />
+                      </svg>
+                    </div>
+                    <h2 className="text-2xl max-md:text-xl font-bold text-gray-900 mb-2">
+                      Your Google Ads Success Starts Here
+                    </h2>
+                    <p className="text-sm text-gray-600">
+                      Get your free consultation today
+                    </p>
+                  </div>
+                  <UserForm />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
-      {/* agency section end here */}
+      {/* Start with Search Section - Enhanced */}
+      <section className="py-20 px-6 max-md:px-4 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            {/* Phone Mockup */}
+            <div data-aos="fade-right">
+              <div className="relative group">
+                <div className="absolute -inset-4 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] rounded-3xl opacity-20 group-hover:opacity-30 transition-opacity duration-500 blur-xl"></div>
+                <div className="relative bg-gradient-to-br from-gray-100 to-gray-200 rounded-3xl shadow-2xl p-8 border-8 border-white">
+                  {/* Google Logo */}
+                  <div className="text-center mb-6">
+                    <div className="flex justify-center space-x-1">
+                      <h1 className="text-4xl font-bold text-blue-500">G</h1>
+                      <h1 className="text-4xl font-bold text-red-500">o</h1>
+                      <h1 className="text-4xl font-bold text-yellow-500">o</h1>
+                      <h1 className="text-4xl font-bold text-green-500">g</h1>
+                      <h1 className="text-4xl font-bold text-blue-500">l</h1>
+                      <h1 className="text-4xl font-bold text-red-500">e</h1>
+                    </div>
+                  </div>
 
-      {/* search section start here */}
+                  {/* Search Bar */}
+                  <div className="bg-white rounded-full shadow-md flex items-center justify-center h-12 px-4 mb-6">
+                    <p className="text-gray-500">Modern furniture</p>
+                    <i className="fa fa-microphone text-blue-500 ml-2"></i>
+                  </div>
 
-      <section className="flex justify-center items-center pt-8 pb-16">
-        <div className="bg-white rounded-lg shadow-lg flex flex-col md:flex-row items-center py-12 max-w-5xl w-full justify-around ">
-          {/* Main Phone Section */}
-          <div className="relative bg-gray-200 rounded-2xl shadow-md flex justify-center items-center w-72 h-[470px] mb-6 md:mb-0 md:mr-8">
-            {/* Google Logo */}
-            <div className="absolute top-4 text-center">
-              <div className="flex justify-center space-x-1 mt-10">
-                <h1 className="text-4xl font-bold text-blue-500">G</h1>
-                <h1 className="text-4xl font-bold text-red-500">o</h1>
-                <h1 className="text-4xl font-bold text-yellow-500">o</h1>
-                <h1 className="text-4xl font-bold text-green-500">g</h1>
-                <h1 className="text-4xl font-bold text-blue-500">l</h1>
-                <h1 className="text-4xl font-bold text-red-500">e</h1>
+                  {/* Ad Card */}
+                  <div className="bg-white rounded-xl p-5 shadow-lg border-2 border-[#fb9c24]/20 hover:border-[#fb9c24] transition-all duration-300">
+                    <h3 className="text-gray-800 font-bold text-lg mb-2">
+                      Modern Design & Co
+                    </h3>
+                    <p className="text-gray-600 text-sm">
+                      The best modern furniture essentials for your home.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
 
-            {/* Search Bar */}
-            <div className="absolute top-16 w-4/5 bg-white rounded-full shadow-sm flex items-center justify-center h-10 mt-14 ">
-              <p className="text-gray-500">Modern furniture</p>
-              <i className="fa fa-microphone text-blue-500 ml-2"></i>
-            </div>
+            {/* Text Content */}
+            <div data-aos="fade-left">
+              <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] px-4 py-2 rounded-full mb-6 shadow-lg">
+                <span className="text-xs font-bold text-white tracking-[0.2em] uppercase">
+                  SEARCH ADS
+                </span>
+              </div>
 
-            {/* Ad Section */}
-            <div className="absolute top-36 bg-white rounded-lg p-4 w-4/5 shadow-md mt-12">
-              <h3 className="text-gray-800 font-semibold text-lg">
-                Modern Design & Co
-              </h3>
-              <p className="text-gray-500 text-sm mt-1">
-                The best modern furniture essentials for your home.
+              <h2 className="text-4xl max-md:text-2xl font-bold text-gray-900 mb-6">
+                Start with{" "}
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#fb9c24] to-[#ff8c00]">
+                  Search
+                </span>
+              </h2>
+
+              <div className="w-20 h-1 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] rounded-full mb-6"></div>
+
+              <p className="text-gray-600 text-lg leading-relaxed">
+                Help drive sales, leads, or site traffic by getting your
+                business in front of people who are actively searching Google
+                for products or services you offer.
               </p>
             </div>
           </div>
-
-          {/* Text Section */}
-          <div className="text-center md:text-left max-w-md">
-            <h1 className="text-3xl md:text-4xl font-bold mb-4">
-              Start with search
-            </h1>
-            <p className="text-gray-600 text-base md:text-lg mb-6 leading-relaxed">
-              Help drive sales, leads, or site traffic by getting your business
-              in front of people who are actively searching Google for products
-              or services you offer.
-            </p>
-            {/* <a
-              href="#"
-              className="inline-block bg-blue-500 text-white font-bold py-3 px-6 rounded-lg shadow-md hover:bg-blue-600 transition duration-300"
-            >
-              Explore Search Ads
-            </a> */}
-          </div>
         </div>
       </section>
 
-      {/* search section end here */}
-
-      {/* management section start here */}
-
-      <section className="flex items-center justify-between p-10 max-md:px-4 bg-gradient-to-r from-[#191970] to-blue-600 text-white  max-lg:flex-col  max-lg:m-auto">
-        {/* Left Image Column */}
-        <div className="flex-1 text-center  ">
-          <img
-            src={n2}
-            alt="Google Ads"
-            className="h-auto rounded-md ml-14 max-lg:ml-0 max-lg:pr-16"
-          />
+      {/* Management Team Section - Enhanced */}
+      <section className="relative py-20 px-6 max-md:px-4 bg-gradient-to-br from-[#191970] via-blue-800 to-blue-600 overflow-hidden">
+        {/* Background Elements */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <div className="absolute top-20 left-10 w-64 h-64 bg-white/5 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-10 right-10 w-80 h-80 bg-white/5 rounded-full blur-3xl"></div>
         </div>
 
-        {/* Right Content Column */}
-        <div className="flex-1 pl-5">
-          <h2 className="text-2xl mb-5 leading-snug">
-            Your Google Ads management team will:
-          </h2>
-          <div className="flex justify-between gap-5 max-lg:flex-col">
-            {/* First Column of List */}
-            <ul className="list-none space-y-2">
-              <li>✅ Research your industry</li>
-              <li>✅ Plan your campaign</li>
-              <li>✅ Write your ad copy</li>
-              <li>✅ Design your conversion-optimized landing pages</li>
-            </ul>
-            {/* Second Column of List */}
-            <ul className="list-none space-y-2">
-              <li>✅ Setup and launch your campaign</li>
-              <li>✅ Proactively adjust your bids</li>
-              <li>✅ Track your conversions</li>
-              <li>✅ Report on your campaign performance</li>
-            </ul>
-          </div>
-        </div>
-      </section>
+        <div className="max-w-7xl mx-auto relative z-10">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            {/* Image */}
+            <div data-aos="fade-right">
+              <img
+                src={n2}
+                alt="Google Ads"
+                className="w-full max-w-md mx-auto"
+              />
+            </div>
 
-      {/* management section end here */}
+            {/* Content */}
+            <div data-aos="fade-left">
+              <h2 className="text-3xl font-bold text-white mb-8">
+                Your Google Ads management team will:
+              </h2>
 
-      {/* accordion section start here */}
-
-      <section className="flex flex-wrap items-center justify-center gap-8 p-6 py-20 max-md:py-12">
-        {/* Left Content */}
-        <div className="flex-1 min-w-[300px] max-w-[600px]">
-          <h2 className="text-5xl max-lg:text-3xl font-[650] text-gray-800 mb-8 leading-snug">
-            What Type of Google Ads is Right for You?
-          </h2>
-          <p className="text-gray-600 mb-6 text-lg">
-            Your goals matter! Use Search Ads to connect with people actively
-            searching, Display Ads to boost brand visibility, Video Ads to
-            captivate with engaging content, and Shopping Ads to showcase your
-            products directly to shoppers.
-          </p>
-          <div className="bg-white border border-gray-300 rounded-md">
-            {accordionData.map((item, index) => (
-              <div key={index} className="border-b last:border-none ">
-                <div
-                  className="flex justify-between items-center px-4 py-3 cursor-pointer hover:bg-gray-100"
-                  onClick={() => toggleAccordion(index)}
-                >
-                  <span className="font-semibold text-gray-800 text-lg">
-                    {item.header}
-                  </span>
-                  <span className="text-gray-500">
-                    {activeIndex === index ? "−" : "+"}
-                  </span>
-                </div>
-                {activeIndex === index && (
-                  <div className="px-4 py-3 bg-gray-50">
-                    <p className="text-gray-600 text-sm">{item.body}</p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {[
+                  "Research your industry",
+                  "Plan your campaign",
+                  "Write your ad copy",
+                  "Design your conversion-optimized landing pages",
+                  "Setup and launch your campaign",
+                  "Proactively adjust your bids",
+                  "Track your conversions",
+                  "Report on your campaign performance",
+                ].map((item, index) => (
+                  <div
+                    key={index}
+                    data-aos="fade-up"
+                    data-aos-delay={index * 50}
+                    className="flex items-center gap-3 bg-white/10 backdrop-blur-sm rounded-lg p-3 border border-white/20 hover:bg-white/20 transition-all duration-300"
+                  >
+                    <div className="flex-shrink-0 w-6 h-6 bg-gradient-to-br from-[#fb9c24] to-[#ff8c00] rounded-full flex items-center justify-center">
+                      <svg
+                        className="w-4 h-4 text-white"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M5 13l4 4L19 7"
+                        />
+                      </svg>
+                    </div>
+                    <span className="text-white text-sm font-medium">
+                      {item}
+                    </span>
                   </div>
-                )}
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Accordion Section - Enhanced */}
+      <section className="py-20 px-6 max-md:px-4 bg-gradient-to-br from-gray-50 via-white to-orange-50/20">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            {/* Left Content */}
+            <div data-aos="fade-right">
+              <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] px-4 py-2 rounded-full mb-6 shadow-lg">
+                <span className="text-xs font-bold text-white tracking-[0.2em] uppercase">
+                  CHOOSE YOUR ADS
+                </span>
+              </div>
+
+              <h2 className="text-4xl max-md:text-2xl font-bold text-gray-900 mb-6">
+                What Type of Google Ads is{" "}
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#fb9c24] to-[#ff8c00]">
+                  Right for You?
+                </span>
+              </h2>
+
+              <div className="w-20 h-1 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] rounded-full mb-6"></div>
+
+              <p className="text-gray-600 mb-8 text-lg leading-relaxed">
+                Your goals matter! Use Search Ads to connect with people
+                actively searching, Display Ads to boost brand visibility, Video
+                Ads to captivate with engaging content, and Shopping Ads to
+                showcase your products directly to shoppers.
+              </p>
+
+              {/* Accordion */}
+              <div className="space-y-3">
+                {accordionData.map((item, index) => (
+                  <div
+                    key={index}
+                    data-aos="fade-up"
+                    data-aos-delay={index * 100}
+                    className="bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border-2 border-transparent hover:border-[#fb9c24]"
+                  >
+                    <div
+                      className="flex justify-between items-center px-5 py-4 cursor-pointer bg-gradient-to-r from-gray-50 to-white hover:from-orange-50 hover:to-orange-50 transition-all duration-300"
+                      onClick={() => toggleAccordion(index)}
+                    >
+                      <span className="font-bold text-gray-900 text-base">
+                        {item.header}
+                      </span>
+                      <div
+                        className={`w-8 h-8 bg-gradient-to-br from-[#fb9c24] to-[#ff8c00] rounded-full flex items-center justify-center text-white font-bold transform transition-transform duration-300 ${
+                          activeIndex === index ? "rotate-180" : ""
+                        }`}
+                      >
+                        {activeIndex === index ? "−" : "+"}
+                      </div>
+                    </div>
+                    {activeIndex === index && (
+                      <div className="px-5 py-4 bg-gray-50">
+                        <p className="text-gray-600 leading-relaxed">
+                          {item.body}
+                        </p>
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Right Image */}
+            <div data-aos="fade-left">
+              <div className="relative group">
+                <div className="absolute -inset-4 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] rounded-3xl opacity-20 group-hover:opacity-30 transition-opacity duration-500 blur-xl"></div>
+                <img
+                  src={rect}
+                  alt="Google Ads Services"
+                  className="relative w-full rounded-3xl shadow-2xl group-hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Industries Section - Enhanced */}
+      <section className="py-20 px-6 max-md:px-4 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12" data-aos="fade-up">
+            <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] px-4 py-2 rounded-full mb-6 shadow-lg">
+              <span className="text-xs font-bold text-white tracking-[0.2em] uppercase">
+                INDUSTRIES
+              </span>
+            </div>
+            <h2 className="text-4xl max-md:text-2xl font-bold text-gray-900 mb-4">
+              Industries We Serve
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 mb-12">
+            {[
+              { img: real, title: "Real Estate" },
+              { img: healthcare, title: "Healthcare" },
+              { img: food, title: "Food and Beverages" },
+              { img: hospitality, title: "Hospitality" },
+              { img: retail, title: "Retail" },
+              { img: travel, title: "Travel" },
+              { img: education, title: "Education and Learning" },
+              { img: hotel, title: "Hotel" },
+            ].map((industry, index) => (
+              <div
+                key={index}
+                data-aos="zoom-in"
+                data-aos-delay={index * 50}
+                className="group bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-2 border-transparent hover:border-[#fb9c24] flex flex-col items-center text-center"
+              >
+                <div className="w-20 h-20 bg-gradient-to-br from-[#fb9c24]/10 to-[#ff8c00]/10 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+                  <img
+                    src={industry.img}
+                    alt={industry.title}
+                    className="w-12 h-12"
+                  />
+                </div>
+                <h3 className="text-base font-bold text-gray-800 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-[#fb9c24] group-hover:to-[#ff8c00] transition-all duration-300">
+                  {industry.title}
+                </h3>
               </div>
             ))}
           </div>
-        </div>
 
-        {/* Right Image */}
-        <div className="flex-1 min-w-[350px] max-w-[500px] text-center">
-          <img
-            src={rect}
-            alt="Google Ads Services"
-            className="w-full rounded-lg mt-4 ml-8 max-lg:ml-0"
-          />
-        </div>
-      </section>
-
-      {/* accordion section end here */}
-
-      {/* industries section start here */}
-
-      <section className="max-w-screen-xl mx-auto px-4 py-10 max-md:pt-2 text-center mb-10 max-md:mb-2">
-        {/* Heading */}
-        <h2 className="text-3xl lg:text-5xl font-semibold text-gray-800 mb-12 max-md:mb-8">
-          Industries We Serve
-        </h2>
-
-        {/* Industries Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 max-md:gap-4 mb-12 ">
-          {[
-            {
-              img: real,
-              title: "Real Estate",
-            },
-            {
-              img: healthcare,
-              title: "Healthcare",
-            },
-            {
-              img: food,
-              title: "Food and Beverages",
-            },
-            {
-              img: hospitality,
-              title: "Hospitality",
-            },
-            {
-              img: retail,
-              title: "Retail",
-            },
-            {
-              img: travel,
-              title: "Travel",
-            },
-            {
-              img: education,
-              title: "Education and Learning",
-            },
-            {
-              img: hotel,
-              title: "Hotel",
-            },
-          ].map((industry, index) => (
-            <div
-              key={index}
-              className="bg-white border border-gray-300 rounded-lg p-6 shadow-md hover:shadow-lg transition-transform duration-300 transform hover:-translate-y-2"
-            >
-              <img
-                src={industry.img}
-                alt={industry.title}
-                className="w-20 h-20 mx-auto mb-4"
-              />
-              <h3 className="text-lg font-medium text-gray-700">
-                {industry.title}
-              </h3>
-            </div>
-          ))}
-        </div>
-
-        {/* Call-to-Action Section */}
-        <div className="bg-blue-600 text-white p-6 rounded-lg flex flex-col lg:flex-row  items-center gap-4 mx-8 max-md:mx-0">
-          <p className="text-lg lg:text-xl font-semibold flex-grow flex">
-            Ads That Propel Your Growth to New Heights
-          </p>
-          <div className="flex gap-4">
+          {/* CTA */}
+          <div
+            data-aos="fade-up"
+            className="bg-gradient-to-r from-blue-600 to-blue-700 text-white p-8 rounded-2xl flex flex-col lg:flex-row items-center gap-6 shadow-2xl"
+          >
+            <p className="text-xl lg:text-2xl font-bold flex-grow text-center lg:text-left">
+              Ads That Propel Your Growth to New Heights
+            </p>
             <Link to="/contact">
-              <button className="bg-[#fb9c24] text-white font-semibold px-6 py-3 rounded-lg ">
+              <button className="bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] text-white font-bold px-8 py-4 rounded-lg hover:shadow-2xl hover:scale-105 transition-all duration-300">
                 Connect With Us
               </button>
             </Link>
@@ -303,191 +411,185 @@ function GoogleAds() {
         </div>
       </section>
 
-      {/* industries section end here */}
-
-      <section className="business bg-black text-white p-5 border border-black">
-        <h1 className="title text-center text-4xl max-md:text-[3xl] mb-14 mt-6 font-semibold">
-          Where Does Your Business Stand Right Now?
-        </h1>
-        <div className="cards flex justify-center gap-5 flex-wrap mb-10">
-          <div className="card bg-[#1a2a48] rounded-lg w-80 p-5 shadow-lg transition-transform duration-300 transform hover:scale-105">
-            <h3 className="text-center text-2xl font-semibold mb-4">
-              No Google Ads
-            </h3>
-            <img
-              src={third}
-              alt="No Google Ads"
-              className="w-full rounded-lg mb-4"
-            />
-            <p>
-              <span className="font-bold">Low Business:</span> Still relying on
-              just networks and other channels?
-            </p>
+      {/* Business Stand Section - Enhanced */}
+      <section className="py-20 px-6 max-md:px-4 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12" data-aos="fade-up">
+            <h2 className="text-4xl max-md:text-2xl font-bold text-gray-900 mb-4">
+              Where Does Your Business Stand Right Now?
+            </h2>
           </div>
 
-          <div className="card bg-[#1a2a48] rounded-lg w-80 p-5 shadow-lg transition-transform duration-300 transform hover:scale-105">
-            <h3 className="text-center text-2xl font-semibold mb-4">
-              Weak Google Ads Strategy
-            </h3>
-            <img
-              src={first}
-              alt="Weak Google Ads"
-              className="w-full rounded-lg mb-4"
-            />
-            <p>
-              <span className="font-bold">Money Drain:</span> Don't let an
-              ineffective strategy drain your budget.
-            </p>
-          </div>
-
-          <div className="card bg-[#1a2a48] rounded-lg w-80 p-5 shadow-lg transition-transform duration-300 transform hover:scale-105">
-            <h3 className="text-center text-2xl font-semibold mb-4">
-              Strong Google Ads Strategy
-            </h3>
-            <img
-              src={second}
-              alt="Strong Google Ads"
-              className="w-full rounded-lg mb-4"
-            />
-            <p>
-              <span className="font-bold">Fast Track Your Business:</span>{" "}
-              Optimize your journey with our expert strategy.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section className="flexibility w-full flex flex-wrap justify-center items-center p-5 bg-black shadow-lg text-white">
-        <h1 className="text-center text-4xl uppercase mb-10 text-cyan-500 shadow-md shadow-cyan-500">
-          Flexibility Sets Us Apart: Explore Our Agency's "Flexi-Fast Offer"
-        </h1>
-        <div className="content-flex flex w-full flex-wrap max-md:flex-col">
-          {/* Image Section */}
-          <div className="image-section flex-1 text-center">
-            <img
-              src={flexibility}
-              alt="Business Strategy Chess Image"
-              className="w-[500px] max-w-full rounded-lg mx-auto"
-            />
-          </div>
-          {/* Content Section */}
-          <div className="content-section flex-1 p-5 max-md:p-0">
-            <ul className="list-none m-0 p-0">
-              <li className="flex items-center mb-4 p-3 border border-cyan-500 rounded-full bg-white/10">
-                <span className="text-cyan-500 mr-2">▶</span>
-                <span className="text-md">Powerful Google Ads Strategy</span>
-              </li>
-              <li className="flex items-center mb-4 p-3 border border-cyan-500 rounded-full bg-white/10">
-                <span className="text-cyan-500 mr-2">▶</span>
-                <span className="text-md">
-                  Achieve results in just 3 months
-                </span>
-              </li>
-              <li className="flex items-center mb-4 p-3 border border-cyan-500 rounded-full bg-white/10">
-                <span className="text-cyan-500 mr-2">▶</span>
-                <span className="text-md">
-                  Zero retainer fees; retain us based on performance
-                </span>
-              </li>
-              <li className="flex items-center mb-4 p-3 border border-cyan-500 rounded-full bg-white/10">
-                <span className="text-cyan-500 mr-2">▶</span>
-                <span className="text-md">
-                  No binding contracts, stop services anytime
-                </span>
-              </li>
-              <li className="flex items-center mb-4 p-3 border border-cyan-500 rounded-full bg-white/10">
-                <span className="text-cyan-500 mr-2">▶</span>
-                <span className="text-md">
-                  Fixed Fee for Ad spends up to 10 Lac INR
-                </span>
-              </li>
-              <li className="flex items-center mb-4 p-3 border border-cyan-500 rounded-full bg-white/10">
-                <span className="text-cyan-500 mr-2">▶</span>
-                <span className="text-md">Bi-weekly meetings</span>
-              </li>
-              <li className="flex items-center mb-4 p-3 border border-cyan-500 rounded-full bg-white/10">
-                <span className="text-cyan-500 mr-2">▶</span>
-                <span className="text-md">Creative Advertising Ideas</span>
-              </li>
-            </ul>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {[
+              {
+                img: third,
+                title: "No Google Ads",
+                subtitle: "Low Business:",
+                description:
+                  "Still relying on just networks and other channels?",
+              },
+              {
+                img: first,
+                title: "Weak Google Ads Strategy",
+                subtitle: "Money Drain:",
+                description:
+                  "Don't let an ineffective strategy drain your budget.",
+              },
+              {
+                img: second,
+                title: "Strong Google Ads Strategy",
+                subtitle: "Fast Track Your Business:",
+                description:
+                  "Optimize your journey with our expert strategy.",
+              },
+            ].map((card, index) => (
+              <div
+                key={index}
+                data-aos="fade-up"
+                data-aos-delay={index * 100}
+                className="group bg-gradient-to-br from-[#1a2a48] to-[#0d1524] rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-200"
+              >
+                <h3 className="text-2xl font-bold text-white mb-4 text-center">
+                  {card.title}
+                </h3>
+                <img
+                  src={card.img}
+                  alt={card.title}
+                  className="w-full rounded-xl mb-4 group-hover:scale-105 transition-transform duration-300"
+                />
+                <p className="text-gray-300">
+                  <span className="font-bold text-[#fb9c24]">
+                    {card.subtitle}
+                  </span>{" "}
+                  {card.description}
+                </p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
-      <section className="max-w-screen-xl mx-auto px-4 mb-8 py-8">
-        {/* Heading */}
-        <h1 className="text-3xl lg:text-4xl font-bold text-center mt-10 max-md:mt-4">
-          The Numbers Speak: Our Success Story
-        </h1>
-        <div className="text-center text-gray-600 mt-2 mb-10 max-md:mb-4">
-          A glimpse into our experience, clientele, and performance metrics.
+      {/* Flexibility Section - Enhanced */}
+      <section className="relative py-20 px-6 max-md:px-4 bg-white overflow-hidden">
+        {/* Background Elements */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <div className="absolute top-20 left-10 w-64 h-64 bg-cyan-500/10 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-10 right-10 w-80 h-80 bg-cyan-500/10 rounded-full blur-3xl"></div>
         </div>
-        <div className="w-12 h-1 bg-blue-500 mx-auto mb-8"></div>
 
-        {/* Grid Section */}
-        <div className="grid grid-cols-3 gap-6 max-md:gap-4 max-sm:grid-cols-2">
-          {/* Card 1 */}
-          <div className="bg-white rounded-lg shadow-md overflow-hidden">
-            <img
-              src={laptop}
-              alt="Laptop showing analytics charts"
-              className="w-full h-auto"
-            />
+        <div className="max-w-7xl mx-auto relative z-10">
+          <div
+            className="text-center mb-12"
+            data-aos="fade-up"
+          >
+            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4 uppercase">
+              Flexibility Sets Us Apart: Explore Our Agency's "Flexi-Fast Offer"
+            </h2>
           </div>
 
-          {/* Card 2 */}
-          <div className="bg-teal-500 text-white text-center flex items-center justify-center rounded-lg shadow-md p-6">
-            <div>
-              <span className="text-4xl font-bold ">115%</span>
-              <br />
-              <span className="text-lg font-medium ">
-                INCREASE IN PPC ENGAGEMENT
-              </span>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            {/* Image */}
+            <div data-aos="fade-right">
+              <img
+                src={flexibility}
+                alt="Business Strategy"
+                className="w-full max-w-md mx-auto rounded-2xl shadow-2xl"
+              />
+            </div>
+
+            {/* Content */}
+            <div data-aos="fade-left">
+              <ul className="space-y-4">
+                {[
+                  "Powerful Google Ads Strategy",
+                  "Achieve results in just 3 months",
+                  "Zero retainer fees; retain us based on performance",
+                  "No binding contracts, stop services anytime",
+                  "Fixed Fee for Ad spends up to 10 Lac INR",
+                  "Bi-weekly meetings",
+                  "Creative Advertising Ideas",
+                ].map((item, index) => (
+                  <li
+                    key={index}
+                    data-aos="fade-up"
+                    data-aos-delay={index * 50}
+                    className="flex items-center gap-4 p-4 bg-gradient-to-r from-gray-50 to-gray-100 rounded-full border-2 border-gray-300 hover:border-[#fb9c24] hover:shadow-lg transition-all duration-300"
+                  >
+                    <span className="text-[#fb9c24] text-xl">▶</span>
+                    <span className="text-gray-800 text-base font-medium">{item}</span>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
+        </div>
+      </section>
 
-          {/* Card 3 */}
-          <div className="bg-white rounded-lg shadow-md overflow-hidden">
-            <img
-              src={laptop2}
-              alt="Laptop showing performance metrics"
-              className="w-full h-auto"
-            />
-          </div>
-
-          {/* Card 4 */}
-          <div className="bg-blue-500 text-white text-center flex items-center justify-center rounded-lg shadow-md p-6">
-            <div>
-              <span className="text-4xl font-bold">225%</span>
-              <br />
-              <span className="text-lg font-medium">
-                INCREASE IN PPC CONVERSIONS
+      {/* Success Story Section - Enhanced */}
+      <section className="py-20 px-6 max-md:px-4 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12" data-aos="fade-up">
+            <h2 className="text-4xl max-md:text-2xl font-bold text-gray-900 mb-4">
+              The Numbers Speak:{" "}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#fb9c24] to-[#ff8c00]">
+                Our Success Story
               </span>
-            </div>
+            </h2>
+            <p className="text-gray-600 text-lg">
+              A glimpse into our experience, clientele, and performance metrics.
+            </p>
+            <div className="w-20 h-1 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] rounded-full mx-auto mt-4"></div>
           </div>
 
-          {/* Card 5 */}
-          <div className="bg-white rounded-lg shadow-md overflow-hidden">
-            <img
-              src={google}
-              alt="Two business people shaking hands with Google Partner logo"
-              className="w-full h-auto"
-            />
-          </div>
-
-          {/* Card 6 */}
-          <div className="bg-yellow-500 text-white text-center flex items-center justify-center rounded-lg shadow-md p-6">
-            <div>
-              <span className="text-4xl font-bold">78%</span>
-              <br />
-              <span className="text-lg font-medium">
-                DECREASE IN PPC AD SPEND
-              </span>
-            </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              { type: "image", src: laptop },
+              { type: "stat", value: "115%", text: "INCREASE IN PPC ENGAGEMENT", color: "teal" },
+              { type: "image", src: laptop2 },
+              { type: "stat", value: "225%", text: "INCREASE IN PPC CONVERSIONS", color: "blue" },
+              { type: "image", src: google },
+              { type: "stat", value: "78%", text: "DECREASE IN PPC AD SPEND", color: "yellow" },
+            ].map((item, index) => (
+              <div
+                key={index}
+                data-aos="zoom-in"
+                data-aos-delay={index * 100}
+                className="group"
+              >
+                {item.type === "image" ? (
+                  <div className="bg-white rounded-2xl shadow-lg overflow-hidden border-2 border-transparent hover:border-[#fb9c24] transition-all duration-300">
+                    <img
+                      src={item.src}
+                      alt="Success metrics"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                ) : (
+                  <div
+                    className={`bg-gradient-to-br ${
+                      item.color === "teal"
+                        ? "from-teal-500 to-teal-600"
+                        : item.color === "blue"
+                        ? "from-blue-500 to-blue-600"
+                        : "from-yellow-500 to-yellow-600"
+                    } text-white text-center flex items-center justify-center rounded-2xl shadow-xl p-8 h-full group-hover:scale-105 transition-transform duration-300`}
+                  >
+                    <div>
+                      <span className="text-5xl font-bold block mb-2">
+                        {item.value}
+                      </span>
+                      <span className="text-lg font-medium">{item.text}</span>
+                    </div>
+                  </div>
+                )}
+              </div>
+            ))}
           </div>
         </div>
       </section>
     </main>
   );
 }
+
 export default GoogleAds;

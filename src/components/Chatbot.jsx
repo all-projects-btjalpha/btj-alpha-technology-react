@@ -49,7 +49,7 @@ export default function FAQChatbot() {
       {/* Chatbot Toggle Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="fixed bottom-4 max-sm:bottom-2 right-4 max-sm:right-2 z-50 bg-blue-900 text-white rounded-full p-4 max-sm:p-2 shadow-lg transition-transform duration-300 hover:scale-105"
+        className="fixed bottom-4 max-sm:bottom-2 right-4 max-sm:right-2 z-50 bg-[#fb9c24] text-white rounded-full p-4 max-sm:p-2 shadow-lg transition-transform duration-300 hover:scale-105"
       >
         💬
       </button>
