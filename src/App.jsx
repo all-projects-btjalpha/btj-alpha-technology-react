@@ -16,6 +16,7 @@ import TermsAndConditions from "./pages/TermsConditions";
 import MobileAppDevelopment from "./pages/services_pages/MobileAppDevelopment";
 import SocialMediaMarketing from "./pages/services_pages/SMM";
 import WebsiteDevelopment from "./pages/services_pages/WebsiteDevelopment";
+import ThankYou from "./pages/ThankYou";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 import FAQChatbot from "./components/Chatbot";
@@ -46,6 +47,7 @@ function App() {
           <Route path="website-designing" element={<WebsiteDesigning />} />
           <Route path="privacy-policy" element={<PrivacyPolicy />} />
           <Route path="terms-condition" element={<TermsAndConditions />} />
+          <Route path="thank-you" element={<ThankYou />} />
           <Route path="/*" element={<Home />} />
         </Routes>
         <Footer />

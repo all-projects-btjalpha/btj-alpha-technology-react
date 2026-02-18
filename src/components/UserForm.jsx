@@ -1,9 +1,11 @@
 import { useState, useRef } from "react";
+import { useNavigate } from "react-router-dom";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
 import { Select } from "antd";
 
 const UserForm = () => {
+  const navigate = useNavigate();
   const [selected, setSelected] = useState("");
   const [loading, setLoading] = useState(false);
   const [errors, setErrors] = useState({});
@@ -44,7 +46,7 @@ const UserForm = () => {
         "service_rlibtqp", // btjalphatechnology@gmil.com
         "template_dzspsea",
         formRef.current,
-        "nMuJZV909QgK5PX0J"
+        "nMuJZV909QgK5PX0J",
       )
       .then(() => {
         toast.success("Message sent successfully!");
@@ -52,6 +54,10 @@ const UserForm = () => {
         setSelected("");
         setPhone("");
         setErrors({});
+        // Navigate to thank you page after a short delay
+        setTimeout(() => {
+          navigate("/thank-you");
+        }, 500);
       })
       .catch(() => {
         toast.error("Failed to send message. Please try again.");
@@ -81,7 +87,7 @@ const UserForm = () => {
           type="email"
           name="user_email"
           placeholder="Email Address*"
-         className="
+          className="
     w-1/2 p-3 border border-gray-400 rounded-lg
     focus:border-gray-600 focus-visible:border-gray-600
     focus:outline-none focus-visible:outline-none focus:ring-0
@@ -113,26 +119,25 @@ const UserForm = () => {
 
           <div className="w-1/2">
             <Select
-  value={selected || undefined}
-  onChange={(value) => setSelected(value)}
-  placeholder="Select Service"
-  className="w-full custom-select"
-  size="large"
->
-  <Option value="Web Designing">Web Designing</Option>
-  <Option value="Web Development">Web Development</Option>
-  <Option value="App Development">App Development</Option>
-  <Option value="Digital Marketing">Digital Marketing</Option>
-  <Option value="Bulk SMS">Bulk SMS</Option>
-  <Option value="Bulk Database">Bulk Database</Option>
-</Select>
-
+              value={selected || undefined}
+              onChange={(value) => setSelected(value)}
+              placeholder="Select Service"
+              className="w-full custom-select"
+              size="large"
+            >
+              <Option value="Web Designing">Web Designing</Option>
+              <Option value="Web Development">Web Development</Option>
+              <Option value="App Development">App Development</Option>
+              <Option value="Digital Marketing">Digital Marketing</Option>
+              <Option value="Bulk SMS">Bulk SMS</Option>
+              <Option value="Bulk Database">Bulk Database</Option>
+            </Select>
 
             {errors.service && (
               <p className="text-red-600 text-sm mt-1">{errors.service}</p>
             )}
           </div>
-           <input type="hidden" name="service" value={selected} />
+          <input type="hidden" name="service" value={selected} />
         </div>
       </div>
 
