@@ -17,7 +17,11 @@ const Footer = () => {
         <div className="flex flex-wrap justify-between mb-8 max-md:mb-0">
           {/* Left: Logo & Description */}
           <div className="w-full md:w-[30%] mb-10 mt-[-40px]">
-            <img src="btlogo.png" alt="" className="w-[90px] mb-6 bg-white rounded-full p-2" />
+            <img
+              src="btlogo.png"
+              alt=""
+              className="w-[90px] mb-6 bg-white rounded-full p-2"
+            />
             <p className="text-white/80 font-medium leading-relaxed w-[80%]">
               We’re passionate about helping businesses grow with tailored
               digital solutions driving success, boosting engagement, and
@@ -38,7 +42,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="hover:scale-110"
               >
-              <FaLinkedinIn />
+                <FaLinkedinIn />
               </a>
               <a
                 href="https://www.facebook.com/btj.alpha"
@@ -191,6 +195,7 @@ const Footer = () => {
                 201301, India
               </li>
               <li>info@btjalphatechnology.com</li>
+              <li>+91 93102 28489</li>
               <li>0120-4525483</li>
             </ul>
           </div>

@@ -78,11 +78,11 @@ const faqData = [
 
 const Contact = () => {
   const [openIndexes, setOpenIndexes] = useState({});
-  
+
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, []);
-  
+
   useEffect(() => {
     setOpenIndexes({ "0-0": true });
   }, []);
@@ -101,7 +101,36 @@ const Contact = () => {
         <h2 className="text-3xl max-md:text-2xl mt-3 mb-6 font-semibold">
           Help & Contact
         </h2>
-
+      </div>
+      <section className="py-8 max-md:py-2 bg-white w-[85%] max-md:w-full m-auto">
+        <div className="mx-auto px-4">
+          <div className="grid lg:grid-cols-2 gap-8 items-center">
+            <div className="">
+              <div className="rounded-xl overflow-hidden shadow-md ml-5 max-md:ml-0">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.430891875109!2d77.3130094!3d28.5868475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce4589e66cd21%3A0x74986f30f963e27!2sSector%202%2C%20Noida%2C%20Uttar%20Pradesh%20201301!5e0!3m2!1sen!2sin!4v1720000000000!5m2!1sen!2sin"
+                  width="100%"
+                  height="450"
+                  allowFullScreen=""
+                  loading="lazy"
+                  style={{ border: 0 }}
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
+              </div>
+            </div>
+            <div className="">
+              <h2 className="text-2xl max-md:text-center font-bold mb-4">
+                Get in touch
+              </h2>
+              <p className="mb-6 text-gray-600 max-md:text-center">
+                Our team would love to hear from you. Write your message to us!
+              </p>
+              <UserForm />
+            </div>
+          </div>
+        </div>
+      </section>
+      <div className="text-center px-4 py-5 pt-24 max-md:pt-20 bg-white">
         <div className="bg-[#fcfcfc] mt-4 max-md:mt-3 py-10 rounded-lg shadow-sm max-w-5xl mx-auto">
           {/* <h3 className="text-xl max-md:text-lg font-semibold mb-12 max-md:mb-8">
             Have A Question
@@ -141,7 +170,9 @@ const Contact = () => {
               <p className="text-[#191970] text-xl max-md:text-sm font-semibold">
                 Call Us At
               </p>
-              <p className="text-base text-gray-700">0120-4525483</p>
+              <p className="text-base text-gray-700">
+                +91 93102 28489<br></br> 0120-4525483
+              </p>
             </a>
 
             <div className="block w-px bg-gray-300 h-36 max-md:hidden self-center" />
@@ -169,35 +200,6 @@ const Contact = () => {
           </p>
         </div>
       </div>
-
-      <section className="py-8 max-md:py-2 bg-white w-[85%] max-md:w-full m-auto">
-        <div className="mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-8 items-center">
-            <div className="">
-              <div className="rounded-xl overflow-hidden shadow-md ml-5 max-md:ml-0">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.430891875109!2d77.3130094!3d28.5868475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce4589e66cd21%3A0x74986f30f963e27!2sSector%202%2C%20Noida%2C%20Uttar%20Pradesh%20201301!5e0!3m2!1sen!2sin!4v1720000000000!5m2!1sen!2sin"
-                  width="100%"
-                  height="450"
-                  allowFullScreen=""
-                  loading="lazy"
-                  style={{ border: 0 }}
-                  referrerPolicy="no-referrer-when-downgrade"
-                />
-              </div>
-            </div>
-            <div className="">
-              <h2 className="text-2xl max-md:text-center font-bold mb-4">
-                Get in touch
-              </h2>
-              <p className="mb-6 text-gray-600 max-md:text-center">
-                Our team would love to hear from you. Write your message to us!
-              </p>
-              <UserForm/>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <section className="bg-white py-10">
         <h3 className="text-3xl max-md:text-lg text-center font-semibold mb-12 max-md:mb-8">

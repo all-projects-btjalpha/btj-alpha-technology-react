@@ -21,6 +21,8 @@ import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 import FAQChatbot from "./components/Chatbot";
 
+import StickyWhatsApp from "./components/StickyWhatsApp";
+
 function App() {
   return (
     <>
@@ -52,6 +54,7 @@ function App() {
         </Routes>
         <Footer />
       </BrowserRouter>
+      <StickyWhatsApp />
       <FAQChatbot />
       <ToastContainer position="top-center" autoClose={2500} />
     </>
