@@ -159,10 +159,7 @@ const Contact = () => {
             <div className="block w-px bg-gray-300 h-36 max-md:hidden self-center" />
 
             {/* Call Us At */}
-            <a
-              href="tel:01204525483"
-              className="flex flex-col items-center gap-2 self-center max-md:mb-6 hover:opacity-90 transition"
-            >
+            <a className="flex flex-col items-center gap-2 self-center max-md:mb-6 hover:opacity-90 transition">
               <PhoneCall
                 className="w-16 max-md:w-10 h-16 max-md:h-10 text-orange-500 mb-5 max-md:mb-2"
                 strokeWidth={0.8}
@@ -170,9 +167,12 @@ const Contact = () => {
               <p className="text-[#191970] text-xl max-md:text-sm font-semibold">
                 Call Us At
               </p>
-              <p className="text-base text-gray-700">
-                +91 93102 28489<br></br> 0120-4525483
-              </p>
+              <a href="tel:+919310228489" className="text-base text-gray-700">
+                +91 93102 28489
+              </a>
+              <a href="tel:01204525483" className="text-base text-gray-700">
+                0120-4525483
+              </a>
             </a>
 
             <div className="block w-px bg-gray-300 h-36 max-md:hidden self-center" />
