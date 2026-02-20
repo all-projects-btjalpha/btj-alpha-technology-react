@@ -193,10 +193,12 @@ function Home() {
                 </span>
               </h1>
               <p className="mt-6 text-lg max-md:text-base leading-relaxed w-[90%] max-md:w-full text-gray-100">
-                Partner with <span className="text-[#fb9c24] font-bold">certified IT professionals</span> who deliver 
-                <span className="text-yellow-300 font-semibold"> innovative technology solutions</span> to transform your business, 
-                optimize your <span className="text-[#fb9c24] font-bold">digital infrastructure</span>, and drive sustainable growth in the digital era.
+                BTJ Alpha Technology Pvt Ltd <span className="text-[#fb9c24] font-bold">is a trusted digital transformation company delivering innovative IT </span>  and marketing solutions to startups, enterprises, and global brands.
+                <span className="text-yellow-300 font-semibold"> We help businesses modernize operations,</span>enhance digital presence, and achieve sustainable growth 
+                <span className="text-[#fb9c24] font-bold"> through advanced technologies.</span>
               </p>
+              <p className="mt-6 text-lg max-md:text-base leading-relaxed w-[90%] max-md:w-full text-gray-100">Partner with certified professionals who combine strategy, creativity, and technical expertise to accelerate your digital success.</p>
+              
               <Link to="contact">
                 <button 
                 className="group relative inline-flex items-center px-10 py-5 font-bold mt-8 bg-gradient-to-r from-[#fb9c24] to-orange-600 rounded-2xl text-white text-xl shadow-2xl hover:shadow-[0_20px_50px_rgba(251,156,36,0.5)] transform hover:scale-105 transition-all duration-300 overflow-hidden">
@@ -334,7 +336,11 @@ function Home() {
                   Hey, We're A Team Of Creators
                 </h2>
                 <p className="text-[18px] leading-relaxed text-gray-700 mb-8 max-lg:text-[16px] max-md:text-[15px]">
-                  <span className="font-semibold text-gray-900">is the leading name in the field of Information Technology</span> that offers effective software development solutions to comply with the client's requirements. We behold the continuous evolution and innovation in the technology and thus harness the advanced technical resources to serve in the developing digital world. Our core services in the form of web and mobile.
+                  <span className="font-semibold text-gray-900">BTJ Alpha Technology Pvt Ltd is a professionally managed full-service IT and digital solutions company based in India.</span> We specialize in delivering scalable, secure, and performance-driven technology solutions.
+                </p>
+                <p className="text-[18px] leading-relaxed text-gray-700 mb-8 max-lg:text-[16px] max-md:text-[15px]">
+                  <span className="font-semibold text-gray-900">Our mission is simple — </span> empower businesses with innovative digital systems that drive measurable results.
+                  <br></br>We continuously evolve with technology trends to ensure our clients stay ahead of the competition. From web platforms to enterprise automation, we provide end-to-end digital services under one roof.
                 </p>
                 <Link to="/about">
                   <button className="group relative inline-flex items-center px-8 py-4 font-semibold bg-gradient-to-r from-[#fb9c24] to-orange-600 rounded-lg text-white text-[18px] shadow-lg hover:shadow-[0_20px_50px_rgba(251,156,36,0.5)] transform hover:scale-105 transition-all duration-300 overflow-hidden max-md:px-6 max-md:py-3 max-md:text-[16px]">
@@ -520,10 +526,10 @@ function Home() {
               {/* Description */}
               <div className="max-w-4xl mx-auto bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-lg border border-gray-100 max-md:p-6">
                 <p className="text-[1.15rem] text-gray-700 leading-relaxed max-md:text-[1rem]">
-                  <span className="font-bold text-gray-900">BTJ ALPHA TECHNOLOGY PVT LTD</span> is a professionally managed full service{" "}
-                  <span className="font-semibold text-[#fb9c24]">web design & development company</span> in Noida, India. We have been helping businesses to adapt and grow in an ever-changing online world by offering fully functional{" "}
-                  <span className="font-semibold text-[#fb9c24]">mobile-friendly responsive</span>, cheap{" "}
-                  <span className="font-semibold text-gray-900">Website Designing, Web Development, App Development, SEO Services, SMM Services</span> etc.
+                  <span className="font-bold text-gray-900">BTJ ALPHA TECHNOLOGY PVT LTD</span> is recognized as a reliable IT services company in India.{" "}
+                  <span className="font-semibold text-[#fb9c24]">We help businesses adapt and grow </span> in an ever-changing digital world by offering high-performing, scalable, and cost-effective technology solutions.{" "}
+                  <span className="font-semibold text-[#fb9c24]">Our services include </span>, cheap{" "}
+                  <span className="font-semibold text-gray-900">web development, mobile app development, SEO services, social media marketing, and bulk SMS marketing</span> solutions.
                 </p>
                 
                 {/* Feature Tags */}
@@ -573,7 +579,7 @@ function Home() {
                     Social Media Marketing
                   </h3>
                   <p className="text-[1rem] max-md:text-[0.9rem] leading-relaxed mb-6">
-                    Boost your brand presence across all social platforms with our expert social media strategies. We create engaging content and manage campaigns that drive real results.
+                    Boost your brand awareness and engagement across platforms like Facebook, Instagram, LinkedIn, and YouTube with result-driven social campaigns.
                   </p>
                   <Link to="/social-media-marketing">
                     <button className="px-6 py-3 bg-[#fb9c24] hover:bg-[#e88a15] text-white font-bold rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center gap-2">
@@ -608,7 +614,7 @@ function Home() {
                     Web Development
                   </h3>
                   <p className="text-[1rem] max-md:text-[0.9rem] leading-relaxed mb-6">
-                    Custom websites built with cutting-edge technology. We develop responsive, fast, and secure websites that deliver exceptional user experiences.
+                    Custom-built, secure, and high-performance websites developed with modern technologies to meet your business goals.
                   </p>
                   <Link to="/website-development">
                     <button className="px-6 py-3 bg-[#fb9c24] hover:bg-[#e88a15] text-white font-bold rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center gap-2">
@@ -643,7 +649,7 @@ function Home() {
                     SEO Services
                   </h3>
                   <p className="text-[1rem] max-md:text-[0.9rem] leading-relaxed mb-6">
-                    Rank higher and drive organic traffic to your website with our proven SEO strategies. We optimize your online presence to increase visibility.
+                    Improve search engine rankings, increase organic traffic, and generate quality leads with our data-driven SEO strategies.
                   </p>
                   <Link to="/search-engine-optimization">
                     <button className="px-6 py-3 bg-[#fb9c24] hover:bg-[#e88a15] text-white font-bold rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center gap-2">
@@ -678,7 +684,7 @@ function Home() {
                     Mobile App Development
                   </h3>
                   <p className="text-[1rem] max-md:text-[0.9rem] leading-relaxed mb-6">
-                    Innovative mobile solutions for iOS and Android. We create powerful, user-friendly apps that engage users and drive business success.
+                    Innovative Android and iOS mobile applications designed to enhance user experience and maximize business reach.
                   </p>
                   <Link to="/mobile-app-development">
                     <button className="px-6 py-3 bg-[#fb9c24] hover:bg-[#e88a15] text-white font-bold rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center gap-2">
@@ -713,7 +719,7 @@ function Home() {
                     Website Designing
                   </h3>
                   <p className="text-[1rem] max-md:text-[0.9rem] leading-relaxed mb-6">
-                    Creative and responsive website designs that captivate your audience. We craft visually stunning and user-friendly interfaces that enhance user experience.
+                    Creative, responsive, and conversion-focused website designs that strengthen your digital identity.
                   </p>
                   <Link to="/website-designing">
                     <button className="px-6 py-3 bg-[#fb9c24] hover:bg-[#e88a15] text-white font-bold rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center gap-2">
@@ -748,7 +754,7 @@ function Home() {
                     Bulk SMS
                   </h3>
                   <p className="text-[1rem] max-md:text-[0.9rem] leading-relaxed mb-6">
-                    Reach thousands with instant SMS marketing campaigns. Our bulk SMS service delivers high open rates and immediate customer engagement for your business.
+                    Reach thousands of customers instantly with reliable and high-delivery bulk SMS marketing solutions.
                   </p>
                   <Link to="/bulk-sms">
                     <button className="px-6 py-3 bg-[#fb9c24] hover:bg-[#e88a15] text-white font-bold rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center gap-2">
@@ -773,14 +779,14 @@ function Home() {
                 Why Choose Us
               </h1>
               <p className="text-[1.5rem] max-md:text-[1.3rem] max-md:px-1 font-medium mb-4">
-                Why Choose <span className="text-[#fb9c24] font-bold">BTJ ALPHA TECHNOLOGY?</span>
+                Why Choose <span className="text-[#fb9c24] font-bold">BTJ Alpha Technology Pvt Ltd?</span>
               </p>
               <div className="max-w-4xl mx-auto">
                 <p className="text-[1.1rem] max-md:text-[1rem] text-gray-700 leading-relaxed mb-2">
-                  We are committed to delivering exceptional technology solutions that drive your business forward.
+                  We are committed to delivering excellence in every project.
                 </p>
                 <p className="text-[1.1rem] max-md:text-[1rem] text-gray-700 leading-relaxed">
-                  Here's what makes us the perfect partner for your digital transformation journey.
+                  Here’s what sets us apart:
                 </p>
               </div>
             </div>
@@ -812,7 +818,8 @@ function Home() {
                     }`}>
                       <div className="px-4 pb-4 pt-1 max-md:px-3 bg-gray-50">
                         <p className="text-gray-600 leading-relaxed pl-[54px] max-md:pl-0 text-[0.9rem]">
-                          Our team consists of highly skilled professionals with years of experience in delivering cutting-edge technology solutions. We bring expertise across multiple domains to ensure your project succeeds.
+                          Skilled developers, designers, and marketing strategists with industry experience.
+
                         </p>
                       </div>
                     </div>
@@ -839,7 +846,7 @@ function Home() {
                     }`}>
                       <div className="px-4 pb-4 pt-1 max-md:px-3 bg-gray-50">
                         <p className="text-gray-600 leading-relaxed pl-[54px] max-md:pl-0 text-[0.9rem]">
-                          We're always here when you need us. Our dedicated support team is available round the clock to assist you with any queries or issues, ensuring your business runs smoothly.
+                          Round-the-clock assistance to ensure uninterrupted business operations.
                         </p>
                       </div>
                     </div>
@@ -866,7 +873,7 @@ function Home() {
                     }`}>
                       <div className="px-4 pb-4 pt-1 max-md:px-3 bg-gray-50">
                         <p className="text-gray-600 leading-relaxed pl-[54px] max-md:pl-0 text-[0.9rem]">
-                          Quality is at the core of everything we do. We follow rigorous testing and quality control processes to deliver bug-free, high-performance solutions that exceed industry standards.
+                          Rigorous testing and quality checks for flawless project delivery.
                         </p>
                       </div>
                     </div>
@@ -893,7 +900,7 @@ function Home() {
                     }`}>
                       <div className="px-4 pb-4 pt-1 max-md:px-3 bg-gray-50">
                         <p className="text-gray-600 leading-relaxed pl-[54px] max-md:pl-0 text-[0.9rem]">
-                          We stay ahead of the curve by leveraging the latest technologies and innovative approaches. Our creative solutions help you stand out in the competitive digital landscape.
+                          Modern, scalable, and future-ready digital solutions.
                         </p>
                       </div>
                     </div>
@@ -920,7 +927,8 @@ function Home() {
                     }`}>
                       <div className="px-4 pb-4 pt-1 max-md:px-3 bg-gray-50">
                         <p className="text-gray-600 leading-relaxed pl-[54px] max-md:pl-0 text-[0.9rem]">
-                          We understand the importance of deadlines. Our efficient project management ensures that we deliver your projects on time, every time, without compromising on quality.
+                          Structured project management ensuring deadlines are always met.
+
                         </p>
                       </div>
                     </div>
@@ -947,7 +955,7 @@ function Home() {
                     }`}>
                       <div className="px-4 pb-4 pt-1 max-md:px-3 bg-gray-50">
                         <p className="text-gray-600 leading-relaxed pl-[54px] max-md:pl-0 text-[0.9rem]">
-                          Get premium quality services at competitive prices. We offer flexible pricing models and transparent billing to ensure you get maximum value for your investment.
+                          Premium quality services at competitive pricing for startups and enterprises.
                         </p>
                       </div>
                     </div>
@@ -1106,10 +1114,9 @@ function Home() {
                   What We Do
                 </h2>
                 <p className="text-[1.15rem] max-md:text-[1rem] text-gray-700 leading-relaxed mb-8 max-md:mb-6">
-                  BTJ ALPHA TECHNOLOGY PVT LTD is a professionally managed full
-                  service web design & development company in Noida, India. We
-                  have been helping businesses to adapt and grow in an
-                  ever-changing online world.
+                 BTJ Alpha Technology Pvt Ltd is a professionally managed full-service IT and digital solutions company based in India. We specialize in delivering high-performance, scalable, and result-driven digital solutions to startups, enterprises, and global clients.
+With over a decade of industry expertise, we help businesses adapt, innovate, and thrive in a rapidly evolving digital landscape.
+
                 </p>
 
                 {/* Service Cards */}
@@ -1124,8 +1131,12 @@ function Home() {
                         Digital Marketing Services
                       </h3>
                       <p className="text-gray-600 leading-relaxed text-[0.9rem]">
-                        We build custom software solutions that will help your
-                        business optimise operations and reach your target audience effectively.
+                        We deliver ROI-focused digital marketing services in India designed to increase visibility, generate qualified leads, and improve brand authority across digital platforms.
+{/* ✔ Search Engine Optimization (SEO)
+✔ Social Media Marketing (SMM)
+✔ Content Marketing
+✔ PPC Campaign Management */}
+
                       </p>
                     </div>
                   </div>
@@ -1140,8 +1151,7 @@ function Home() {
                         Web Designing Services
                       </h3>
                       <p className="text-gray-600 leading-relaxed text-[0.9rem]">
-                        We create stunning, user-friendly designs that captivate your audience
-                        and deliver exceptional user experiences.
+                        We create visually appealing, user-friendly, and conversion-driven website designs that enhance your brand presence and deliver seamless user experiences.
                       </p>
                     </div>
                   </div>
@@ -1156,8 +1166,8 @@ function Home() {
                         Web Development Services
                       </h3>
                       <p className="text-gray-600 leading-relaxed text-[0.9rem]">
-                        We develop robust, scalable web solutions with cutting-edge
-                        technology to power your business growth.
+                        As a trusted website development company, we build secure, scalable, and performance-optimized web applications tailored
+                         to your business objectives.
                       </p>
                     </div>
                   </div>
@@ -1211,9 +1221,11 @@ function Home() {
                 Digital Marketing <span className="text-[#fb9c24]">Services</span>
               </h1>
               <p className="text-[1.2rem] max-md:text-[1rem] text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                We understand that no two businesses can be the same and so is
-                their website usage and therefore they will need a different CMS
-                solution. We do your business in your way.
+                We understand that no two businesses are the same. That’s why BTJ Alpha Technology Pvt Ltd delivers 
+                customized digital marketing strategies designed to increase brand visibility, generate qualified leads, 
+                and maximize ROI(Return On Investment).<br></br>
+Our performance-driven approach ensures long-term digital growth.
+
               </p>
               <div className="flex items-center justify-center gap-2 mt-6">
                 <div className="w-16 h-1 bg-[#fb9c24] rounded-full"></div>
@@ -1295,39 +1307,43 @@ function Home() {
                       Search Engine <span className="text-[#fb9c24]">Optimization</span>
                     </h2>
                     <h4 className="text-[1.4rem] max-md:text-[1.1rem] font-bold text-gray-700 mb-6">
-                      BTJ ALPHA TECHNOLOGY PVT LTD SEO Services In India -
-                      Trusted By Over <span className="text-[#fb9c24]">1000+ Companies</span>
+                    Trusted SEO Services Company in India
                     </h4>
                     <p className="text-[1.1rem] max-md:text-[0.95rem] text-gray-600 leading-relaxed mb-8">
-                      SEO is the most efficient and effective method to increase
-                      your search engine visibility and drive traffic to your
-                      website. With our SEO services we can help you get top
-                      ranking on major search engines (Google, Yahoo, Bing)
-                      using our proprietary techniques developed with years of
-                      experience using white hat SEO practices and bringing an
-                      increase in organic search engine ranking.
+                      SEO is the foundation of sustainable online growth. Our data-driven SEO strategies help businesses 
+                      rank higher on Google, increase organic traffic, and build long-term authority.
+                      What We Offer:
+
                     </p>
                     
                     {/* Features List */}
-                    <div className="grid grid-cols-2 gap-4 mb-8">
+                    <div className="grid grid-cols-2 gap-4 mb-12">
                       <div className="flex items-center gap-2">
                         <div className="w-2 h-2 bg-[#fb9c24] rounded-full"></div>
-                        <span className="text-gray-700 font-medium">Keyword Research</span>
+                        <span className="text-gray-700 font-medium">Advanced Keyword Research</span>
                       </div>
                       <div className="flex items-center gap-2">
                         <div className="w-2 h-2 bg-[#fb9c24] rounded-full"></div>
-                        <span className="text-gray-700 font-medium">On-Page SEO</span>
+                        <span className="text-gray-700 font-medium">On-Page SEO Optimization</span>
                       </div>
                       <div className="flex items-center gap-2">
                         <div className="w-2 h-2 bg-[#fb9c24] rounded-full"></div>
-                        <span className="text-gray-700 font-medium">Link Building</span>
+                        <span className="text-gray-700 font-medium">Technical SEO Audits</span>
                       </div>
                       <div className="flex items-center gap-2">
                         <div className="w-2 h-2 bg-[#fb9c24] rounded-full"></div>
-                        <span className="text-gray-700 font-medium">Analytics & Reports</span>
+                        <span className="text-gray-700 font-medium">High-Quality Link Building</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <div className="w-2 h-2 bg-[#fb9c24] rounded-full"></div>
+                        <span className="text-gray-700 font-medium">Local SEO Optimization</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <div className="w-2 h-2 bg-[#fb9c24] rounded-full"></div>
+                        <span className="text-gray-700 font-medium">Monthly Analytics & Reporting</span>
                       </div>
                     </div>
-                    
+                   
                     <Link to="/search-engine-optimization">
                       <button className="group inline-flex items-center px-10 py-5 bg-gradient-to-r from-[#fb9c24] to-[#e88a15] hover:from-[#e88a15] hover:to-[#fb9c24] text-white font-bold rounded-xl shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-500 text-[1.15rem]">
                         Learn More 
@@ -1367,27 +1383,33 @@ function Home() {
                       Social Media <span className="text-[#fb9c24]">Optimization</span>
                     </h2>
                     <h4 className="text-[1.4rem] max-md:text-[1.1rem] font-bold text-gray-700 mb-6">
-                      Top Rated <span className="text-[#fb9c24]">SMO Company</span> in India
+                      Build Strong <span className="text-[#fb9c24]">Brand Presence Across</span> Social Platforms
                     </h4>
                     <p className="text-[1.1rem] max-md:text-[0.95rem] text-gray-600 leading-relaxed mb-8">
-                      Social Media Optimization is the process of increasing awareness of your brand, products, or services through social media platforms. We create engaging content and strategic campaigns that connect with your target audience, build brand loyalty, and drive conversions. Our SMO services help you leverage the power of social networks to grow your business and establish a strong online presence.
+                      Our Social Media Optimization services help brands create powerful engagement on platforms like Facebook, Instagram, LinkedIn, Twitter, and YouTube.
+Our SMO Strategy Includes:
+
                     </p>
-                    <div className="grid grid-cols-2 gap-4 mb-8">
+                    <div className="grid grid-cols-2 gap-4 mb-10">
                       <div className="flex items-center gap-2">
                         <div className="w-2 h-2 bg-[#fb9c24] rounded-full"></div>
-                        <span className="text-gray-700 font-medium">Content Strategy</span>
+                        <span className="text-gray-700 font-medium">Profile Optimization & Branding</span>
                       </div>
                       <div className="flex items-center gap-2">
                         <div className="w-2 h-2 bg-[#fb9c24] rounded-full"></div>
-                        <span className="text-gray-700 font-medium">Engagement Growth</span>
+                        <span className="text-gray-700 font-medium">Creative Content Creation</span>
                       </div>
                       <div className="flex items-center gap-2">
                         <div className="w-2 h-2 bg-[#fb9c24] rounded-full"></div>
-                        <span className="text-gray-700 font-medium">Brand Building</span>
+                        <span className="text-gray-700 font-medium">Audience Targeting & Engagement</span>
                       </div>
                       <div className="flex items-center gap-2">
                         <div className="w-2 h-2 bg-[#fb9c24] rounded-full"></div>
                         <span className="text-gray-700 font-medium">Community Management</span>
+                      </div>
+                       <div className="flex items-center gap-2">
+                        <div className="w-2 h-2 bg-[#fb9c24] rounded-full"></div>
+                        <span className="text-gray-700 font-medium">Performance Monitoring</span>
                       </div>
                     </div>
                     <Link to="/social-media-marketing">
@@ -1429,27 +1451,33 @@ function Home() {
                       Content <span className="text-[#fb9c24]">Marketing</span>
                     </h2>
                     <h4 className="text-[1.4rem] max-md:text-[1.1rem] font-bold text-gray-700 mb-6">
-                      Tell your Brand Story Better, <span className="text-[#fb9c24]">Engage Better</span> with your Audience
+                      Content  <span className="text-[#fb9c24]">That Converts</span> & Educates
                     </h4>
                     <p className="text-[1.1rem] max-md:text-[0.95rem] text-gray-600 leading-relaxed mb-8">
-                      Content Marketing is a strategic approach focused on creating and distributing valuable, relevant content to attract and retain your target audience. We craft compelling stories, informative articles, engaging videos, and persuasive copy that resonates with your customers. Our content marketing strategies drive organic traffic, boost engagement, and establish your brand as an industry authority.
+                      Content is the backbone of digital marketing. Our content marketing services focus on delivering high-quality, engaging, and SEO-optimized content that drives traffic and builds authority.
+                      Services Include:
+
                     </p>
-                    <div className="grid grid-cols-2 gap-4 mb-8">
+                    <div className="grid grid-cols-2 gap-4 mb-10">
                       <div className="flex items-center gap-2">
                         <div className="w-2 h-2 bg-[#fb9c24] rounded-full"></div>
-                        <span className="text-gray-700 font-medium">Blog Writing</span>
+                        <span className="text-gray-700 font-medium">Blog Writing & SEO Articles</span>
                       </div>
                       <div className="flex items-center gap-2">
                         <div className="w-2 h-2 bg-[#fb9c24] rounded-full"></div>
-                        <span className="text-gray-700 font-medium">Video Production</span>
+                        <span className="text-gray-700 font-medium">Website Content Development</span>
                       </div>
                       <div className="flex items-center gap-2">
                         <div className="w-2 h-2 bg-[#fb9c24] rounded-full"></div>
-                        <span className="text-gray-700 font-medium">Infographics</span>
+                        <span className="text-gray-700 font-medium">Email Marketing Campaigns</span>
                       </div>
                       <div className="flex items-center gap-2">
                         <div className="w-2 h-2 bg-[#fb9c24] rounded-full"></div>
-                        <span className="text-gray-700 font-medium">Email Campaigns</span>
+                        <span className="text-gray-700 font-medium">Video Content Strategy</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <div className="w-2 h-2 bg-[#fb9c24] rounded-full"></div>
+                        <span className="text-gray-700 font-medium">Infographics & Visual Content</span>
                       </div>
                     </div>
                     <Link to="/meta-ads">
@@ -1491,34 +1519,33 @@ function Home() {
                       PPC Management <span className="text-[#fb9c24]">Services</span>
                     </h2>
                     <h4 className="text-[1.4rem] max-md:text-[1.1rem] font-bold text-gray-700 mb-6">
-                      BTJ ALPHA TECHNOLOGY PVT LTD is an innovative <span className="text-[#fb9c24]">PPC management</span> company
+                      Performance-Based <span className="text-[#fb9c24]">Paid Advertising</span> Campaigns
                     </h4>
                     <p className="text-[1.1rem] max-md:text-[0.95rem] text-gray-600 leading-relaxed mb-8">
-                      BTJ ALPHA TECHNOLOGY PVT LTD is an innovative digital
-                      marketing, AdWords management, remarketing and PPC
-                      management company with proven track record to take your
-                      PPC campaigns to the next level and provide you with
-                      integrated advertising and marketing solutions.
-                      Pay-per-click (PPC) advertising allows you to reach your
-                      target customers searching for your products and services
-                      online using targeted keywords.
+                      Our PPC experts create high-converting ad campaigns on Google Ads, Facebook Ads, and LinkedIn Ads to deliver instant traffic and measurable ROI.
+                      PPC Services Include:
+
                     </p>
-                    <div className="grid grid-cols-2 gap-4 mb-8">
+                    <div className="grid grid-cols-2 gap-4 mb-10">
                       <div className="flex items-center gap-2">
                         <div className="w-2 h-2 bg-[#fb9c24] rounded-full"></div>
-                        <span className="text-gray-700 font-medium">Google Ads</span>
+                        <span className="text-gray-700 font-medium"> Google Search & Display Ads</span>
                       </div>
                       <div className="flex items-center gap-2">
                         <div className="w-2 h-2 bg-[#fb9c24] rounded-full"></div>
-                        <span className="text-gray-700 font-medium">Facebook Ads</span>
+                        <span className="text-gray-700 font-medium"> Social Media Advertising</span>
                       </div>
                       <div className="flex items-center gap-2">
                         <div className="w-2 h-2 bg-[#fb9c24] rounded-full"></div>
-                        <span className="text-gray-700 font-medium">Remarketing</span>
+                        <span className="text-gray-700 font-medium">Conversion Tracking Setup</span>
                       </div>
                       <div className="flex items-center gap-2">
                         <div className="w-2 h-2 bg-[#fb9c24] rounded-full"></div>
-                        <span className="text-gray-700 font-medium">Conversion Tracking</span>
+                        <span className="text-gray-700 font-medium">Landing Page Optimization</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <div className="w-2 h-2 bg-[#fb9c24] rounded-full"></div>
+                        <span className="text-gray-700 font-medium">Budget Management & Reporting</span>
                       </div>
                     </div>
                     <Link to="/google-ads">
@@ -1627,8 +1654,8 @@ function Home() {
                     Website Development
                   </h3>
                   <p className="text-gray-600 group-hover:text-white/90 text-sm leading-relaxed transition-colors duration-300">
-                    Build robust and scalable websites that deliver seamless
-                    performance and exceptional user experience.
+                    Custom, secure, and scalable websites designed 
+                    to deliver outstanding performance and user engagement.
                   </p>
                 </div>
 
@@ -1645,8 +1672,8 @@ function Home() {
                     Bulk SMS
                   </h3>
                   <p className="text-gray-600 group-hover:text-white/90 text-sm leading-relaxed transition-colors duration-300">
-                    Bulk SMS is a service to send large volumes of messages
-                    simultaneously for marketing, alerts, or notifications.
+                    Reliable and fast bulk SMS marketing solutions 
+                    that help businesses reach thousands of customers instantly.
                   </p>
                 </div>
 
@@ -1663,9 +1690,8 @@ function Home() {
                     Responsive Website Designing
                   </h3>
                   <p className="text-gray-600 group-hover:text-white/90 text-sm leading-relaxed transition-colors duration-300">
-                    Your website is your home on the internet. The Website Design
-                    is the first and foremost area to focus on as it represents
-                    the virtual face of a company.
+                  Mobile-first and cross-device compatible designs 
+                  that provide seamless experiences across all platforms
                   </p>
                 </div>
 
@@ -1682,9 +1708,8 @@ function Home() {
                     Social Media Marketing (SMM)
                   </h3>
                   <p className="text-gray-600 group-hover:text-white/90 text-sm leading-relaxed transition-colors duration-300">
-                    Boost your brand visibility and engagement across platforms
-                    like Instagram, Facebook, and LinkedIn. Reach your target
-                    audience with tailored content and paid campaigns.
+                    Strategic social media campaigns that build brand awareness, 
+                    engage audiences, and drive targeted traffic.
                   </p>
                 </div>
               </div>
@@ -1696,10 +1721,8 @@ function Home() {
                     Website Design <span className="text-[#fb9c24]">Services</span>
                   </h1>
                   <p className="text-gray-600 leading-relaxed text-base">
-                    We use the latest technology and design innovations to develop
-                    creative, smart & user-friendly websites to successfully
-                    connect users with brands. Empower yourself with the best
-                    website design company in India.
+                   We design modern, responsive, and mobile-friendly websites 
+                   that reflect your brand identity and maximize conversions.
                   </p>
                 </div>
                 <div className="flex justify-center">

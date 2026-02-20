@@ -68,9 +68,15 @@ function SEO() {
               <div className="w-24 h-1 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] rounded-full mb-6"></div>
               
               <p className="text-base text-gray-300 leading-relaxed">
-                Our team of 37 SEO experts is ready to help you increase your
-                traffic and get your website to the top of Google. Let's work
-                together to achieve your goals.
+                In today’s competitive digital landscape, ranking on the first page of Google 
+                is no longer optional—it’s essential. If you’re looking for measurable growth, 
+                higher traffic, and better conversions, partnering with the best SEO services agency 
+                in India can transform your online presence.<br></br>
+                Our company achieves search engine results dominance for clients while establishing 
+                their online authority through our team of experienced SEO professionals who have 
+                demonstrated successful results. Our performance-driven SEO strategies have delivered 
+                actual results to 300+ satisfied clients who trust our dedicated team of SEO professionals 
+                to provide service.
               </p>
             </div>
 
@@ -110,8 +116,8 @@ function SEO() {
               </span>
             </div>
             <h2 className="text-4xl max-md:text-2xl font-bold mb-4 text-gray-900">
-              Why Does Your Business Need{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#fb9c24] to-[#ff8c00]">SEO Services in Delhi</span>
+              Why Choose {" "}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#fb9c24] to-[#ff8c00]">Our SEO Services in Delhi</span>
             </h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
               Whether you are a small business or a medium-sized firm, without SEO

@@ -103,14 +103,11 @@ function About() {
                 Hey, We're A Team Of <span className="bg-gradient-to-r from-[#ffc422] to-orange-500 bg-clip-text text-transparent">Creators</span>
               </h1>
               <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
-                At BTJ ALPHA TECHNOLOGY PVT LTD, we're a dynamic team of creators who
-                breathe life into technology. Passionate about innovation, we
-                design and develop tailored software and digital solutions that
-                empower businesses to flourish in the ever-evolving digital
-                landscape. With a focus on collaboration and creativity, we
-                transform ideas into impactful realities, ensuring that our
-                clients not only keep up but stand out. Let's build something
-                extraordinary together!
+                At BTJ ALPHA TECHNOLOGY PVT LTD, we are a passionate team that brings ideas to life through technology.
+                <br></br>We design and build modern software and digital solutions that help businesses grow and succeed in today’s fast-changing digital world.
+                <br></br>By combining creativity, innovation, and teamwork, we turn ideas into real results. Our goal is simple — to help our clients not just keep up, but stand out.
+                <br></br>Let’s create something amazing together!
+
               </p>
             </div>
 
@@ -161,9 +158,13 @@ function About() {
             Empowering Businesses Through Digital Innovation
           </h1>
           <p className="text-base sm:text-lg text-gray-600 leading-relaxed max-w-4xl mx-auto">
-            At BTJ ALPHA TECHNOLOGY PVT LTD, we are passionate about helping businesses thrive in the digital era.
-            We specialize in digital marketing, website design, and IT solutions that empower brands to stand out, engage their audience, and grow with confidence.
-            Our team combines creativity, technology, and strategy to deliver results-driven solutions that make your online presence truly impactful.
+            At BTJ Alpha Technology Pvt Ltd, we help businesses grow in the digital world.
+            <br></br>
+            <p className="text-3xl max-lg:text-2xl max-md:text-1xl font-bold text-gray-900 mb-6">
+              We offer: <span className="text-[#fb9c24]"> Digital marketing,Website design, IT solutions </span></p>
+            Our goal is to help brands stand out, connect with their audience, and grow with confidence.
+            By combining creativity, technology, and smart strategy, we deliver practical solutions that make your online presence strong and effective.
+
           </p>
         </div>
 
@@ -183,9 +184,13 @@ function About() {
                 <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900">Our Mission</h2>
               </div>
               <p className="text-sm sm:text-base lg:text-lg text-gray-600 leading-relaxed">
-                Our mission is simple yet powerful — to elevate your online presence.
-                We aim to deliver innovative, results-oriented digital marketing and web design solutions that increase visibility, drive targeted traffic, and help you build meaningful connections with your customers.
-                Every strategy we craft is tailored to your business goals, ensuring measurable success and long-term growth.
+               Our mission is simple — to improve your online presence.
+               We create innovative and results-driven digital marketing and web design solutions that:
+                Increase visibility,
+               Drive more traffic,
+               Build meaningful customer connections
+               Every strategy we create is tailored to your business goals, ensuring steady growth and measurable success.
+
               </p>
             </div>
           </div>
@@ -204,8 +209,13 @@ function About() {
                 <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900">Our Vision</h2>
               </div>
               <p className="text-sm sm:text-base lg:text-lg text-gray-600 leading-relaxed">
-                Our vision is to be a leading force in digital transformation, guiding businesses of all sizes toward sustainable success.
-                We strive to set new standards in digital strategy, creative web design, and customer-focused marketing — helping our clients stay ahead in an ever-evolving digital landscape.
+                Our vision is to become a trusted leader in digital transformation.
+                We aim to help businesses achieve long-term success by:
+                Setting high standards in digital strategy
+                Delivering creative web design,
+                Providing customer-focused marketing,
+                We strive to keep our clients ahead in a constantly evolving digital world.
+
               </p>
             </div>
           </div>

@@ -29,47 +29,47 @@ function AIandML() {
     {
       icon: <FaBrain />,
       title: "Machine Learning",
-      description: "Build intelligent systems that learn from data and improve performance over time without explicit programming."
+      description: "Empower your business with intelligent systems that learn from data and continuously improve performance."
     },
     {
       icon: <FaCode />,
       title: "Natural Language Processing (NLP)",
-      description: "Enable machines to understand, interpret, and generate human language for better communication."
+      description: "Transform human language into actionable insights with smart, AI-driven communication solutions."
     },
     {
       icon: <FaRobot />,
       title: "Chatbot Development",
-      description: "Create intelligent conversational AI agents that provide 24/7 customer support and engagement."
+      description: "Deliver instant, 24/7 customer engagement with intelligent conversational AI assistants."
     },
     {
       icon: <FaNetworkWired />,
       title: "AI Product Development",
-      description: "Transform ideas into market-ready AI products with end-to-end development and deployment."
+      description: "Turn innovative ideas into scalable, market-ready AI products built for real-world impact."
     },
     {
       icon: <FaEye />,
       title: "Computer Vision",
-      description: "Develop systems that can identify and process images and videos, enabling visual intelligence."
+      description: "Enable machines to see, analyze, and interpret visual data with precision and speed."
     },
     {
       icon: <FaChartLine />,
       title: "Predictive Modeling",
-      description: "Leverage historical data to predict future outcomes and make data-driven business decisions."
+      description: "Anticipate future trends and make confident decisions with advanced data forecasting."
     },
     {
       icon: <FaLayerGroup />,
       title: "Enterprise Vision Development",
-      description: "Build custom computer vision solutions for quality control, surveillance, and visual inspection."
+      description: "Deploy powerful, enterprise-grade vision systems tailored for large-scale operations."
     },
     {
       icon: <FaDatabase />,
       title: "Deep Learning Solutions",
-      description: "Implement neural networks that mimic human brain functions for complex pattern recognition."
+      description: "Unlock advanced pattern recognition with neural networks that mimic human intelligence."
     },
     {
       icon: <FaShieldAlt />,
       title: "Robotic Process Automation (RPA)",
-      description: "Automate repetitive tasks and workflows to increase efficiency and reduce operational costs."
+      description: "Automate repetitive workflows with intelligent bots that boost efficiency and reduce costs."
     }
   ];
 
@@ -179,12 +179,17 @@ function AIandML() {
             {/* Left Content */}
             <div data-aos="fade-right">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#1c438d] mb-6 leading-tight">
-                AI & ML Software<br />
-                Development<br />
-                Company
+                Introduction to AI & ML <br />
+                Software <br />
+                Development
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Get ahead of change. Seamlessly guided intelligent AI/ML that will elevate your business to new heights. With our advanced AI and ML solutions, we empower businesses to automate processes, gain actionable insights, and drive innovation in today's competitive landscape.
+                Today’s businesses operate at an incredibly fast pace, so if you’re not 
+                innovating, you will likely fall behind. AI/ML software development will 
+                help you achieve this goal, and has become so much more than just another 
+                buzzword; it serves as the driving force behind smarter business decisions, 
+                automation, and next generation customer experiencesElevate Your Business
+                 with Our Premier AI Development Services.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -270,27 +275,32 @@ function AIandML() {
                 Elevate Your Business with Our Premier AI Development Services
               </h2>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Transform your business with our AI development services that leverage cutting-edge technologies. We specialize in building intelligent AI systems that learn, adapt, and provide actionable insights.
+                The digital economy has reached its present state because businesses now 
+                work with AI development services which provide them with exceptional 
+                advantages over their competitors. The image shows four main components 
+                which include Analytics and Big Data and AI Models and Automation together
+                 with their main value proposition which brings about business transformation 
+                 through advanced AI systems that can grow with their needs.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Our team of AI experts works closely with you to understand your unique challenges and develop custom AI solutions that drive innovation, improve efficiency, and deliver measurable business value.
+                Our AI development company specializes in building intelligent AI systems that:
               </p>
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <FaCheckCircle className="text-green-500 text-xl flex-shrink-0 mt-1" />
-                  <span className="text-gray-700">Custom AI/ML model development tailored to your business needs</span>
+                  <span className="text-gray-700">Learn from data</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <FaCheckCircle className="text-green-500 text-xl flex-shrink-0 mt-1" />
-                  <span className="text-gray-700">Seamless integration with existing systems and workflows</span>
+                  <span className="text-gray-700">Adapt to changing environments</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <FaCheckCircle className="text-green-500 text-xl flex-shrink-0 mt-1" />
-                  <span className="text-gray-700">Scalable solutions that grow with your business</span>
+                  <span className="text-gray-700">Deliver actionable insights</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <FaCheckCircle className="text-green-500 text-xl flex-shrink-0 mt-1" />
-                  <span className="text-gray-700">Ongoing support and continuous model optimization</span>
+                  <span className="text-gray-700">Automate complex processes</span>
                 </li>
               </ul>
             </div>
@@ -306,7 +316,9 @@ function AIandML() {
               Our Core Artificial Intelligence Development Services
             </h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
-              Leverage our comprehensive AI development services to transform your business with intelligent automation and data-driven insights.
+              In a world driven by data and automation, businesses that embrace Artificial 
+              Intelligence are redefining innovation, efficiency, and customer engagement. 
+              The image highlights a powerful and comprehensive AI ecosystem covering
             </p>
           </div>
 

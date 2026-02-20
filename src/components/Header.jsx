@@ -53,7 +53,14 @@ import {
   FaTasks,
   FaDumbbell,
   FaFootballBall,
-  FaServer
+  FaServer,
+  FaPhone,
+  FaChartPie,
+  FaCreditCard,
+  FaChartArea,
+  FaVideo,
+  FaChartLine as FaChartLineAlt,
+  FaEdit
 } from "react-icons/fa";
 import { 
   SiTypescript, 
@@ -65,7 +72,13 @@ import {
   SiTailwindcss,
   SiFlutter,
   SiKotlin,
-  SiSwift
+  SiSwift,
+  SiAmazondynamodb,
+  SiStripe,
+  SiPaypal,
+  SiPrime,
+  SiCkeditor4,
+  SiChartdotjs as SiChartjs
 } from "react-icons/si";
 
 const Header = () => {
@@ -161,8 +174,9 @@ const Header = () => {
     { name: "Node.js", path: "/technologies/nodejs", icon: <FaNodeJs className="text-2xl text-[#339933]" /> },
     { name: "Python", path: "/technologies/python", icon: <FaPython className="text-2xl text-[#3776ab]" /> },
     { name: "Java", path: "/technologies/java", icon: <FaJava className="text-2xl text-[#007396]" /> },
-    { name: "PHP", path: "/technologies/php", icon: <FaPhp className="text-2xl text-[#777bb4]" /> },
-    { name: "Laravel", path: "/technologies/laravel", icon: <FaLaravel className="text-2xl text-[#ff2d20]" /> },
+    { name: ".NET", path: "/technologies/dotnet", icon: <FaCode className="text-2xl text-[#512bd4]" /> },
+    // { name: "PHP", path: "/technologies/php", icon: <FaPhp className="text-2xl text-[#777bb4]" /> },
+    // { name: "Laravel", path: "/technologies/laravel", icon: <FaLaravel className="text-2xl text-[#ff2d20]" /> },
     { name: "WordPress", path: "/technologies/wordpress", icon: <FaWordpress className="text-2xl text-[#21759b]" /> },
   ];
 
@@ -178,11 +192,40 @@ const Header = () => {
     { name: "MySQL", path: "/technologies/mysql", icon: <SiMysql className="text-2xl text-[#4479a1]" /> },
     { name: "PostgreSQL", path: "/technologies/postgresql", icon: <SiPostgresql className="text-2xl text-[#336791]" /> },
     { name: "Firebase", path: "/technologies/firebase", icon: <SiFirebase className="text-2xl text-[#ffca28]" /> },
+    { name: "Indexed Database API", path: "/technologies/indexeddb", icon: <FaDatabase className="text-2xl text-[#2980b9]" /> },
+    { name: "Azure CosmosDB", path: "/technologies/azure-cosmosdb", icon: <FaDatabase className="text-2xl text-[#0078d4]" /> },
+    { name: "Amazon DynamoDB", path: "/technologies/amazon-dynamodb", icon: <SiAmazondynamodb className="text-2xl text-[#ff9900]" /> },
+    { name: "Ms SQL", path: "/technologies/mssql", icon: <FaDatabase className="text-2xl text-[#cc2927]" /> },
   ];
 
   const otherTechnologies = [
     { name: "AWS", path: "/technologies/aws", icon: <FaAws className="text-2xl text-[#ff9900]" /> },
-    { name: "Figma", path: "/technologies/figma", icon: <FaFigma className="text-2xl text-[#f24e1e]" /> },
+    { name: "Azure", path: "/technologies/azure", icon: <FaCloud className="text-2xl text-[#0078d4]" /> },
+    { name: "IBM Cloud", path: "/technologies/ibm-cloud", icon: <FaCloud className="text-2xl text-[#1261fe]" /> },
+    { name: "Google Cloud Platform", path: "/technologies/google-cloud", icon: <FaGoogle className="text-2xl text-[#4285f4]" /> },
+    // { name: "Figma", path: "/technologies/figma", icon: <FaFigma className="text-2xl text-[#f24e1e]" /> },
+  ];
+
+  // Third Party Integration Data
+  const thirdPartyIntegration = [
+    { name: "Telerik", path: "/technologies/telerik", icon: <FaCogs className="text-2xl text-[#512bd4]" /> },
+    { name: "QuickBooks/Xero", path: "/technologies/quickbooks-xero", icon: <FaChartBar className="text-2xl text-[#2ca01c]" /> },
+    { name: "Twilio & Plivo", path: "/technologies/twilio-plivo", icon: <FaPhone className="text-2xl text-[#f22f46]" /> },
+    { name: "DevExpress", path: "/technologies/devexpress", icon: <FaChartPie className="text-2xl text-[#00d084]" /> },
+    { name: "SyncFusion", path: "/technologies/syncfusion", icon: <FaChartArea className="text-2xl text-[#ff6b35]" /> },
+    { name: "MudBlazor", path: "/technologies/mudblazor", icon: <FaPalette className="text-2xl text-[#5a45ff]" /> },
+    { name: "Stripe/PayPal/Cardknox", path: "/technologies/stripe-paypal", icon: <FaCreditCard className="text-2xl text-[#6772e5]" /> },
+    { name: "Google APIs", path: "/technologies/google-api", icon: <FaGoogle className="text-2xl text-[#4285f4]" /> },
+    { name: "Highcharts & ECharts", path: "/technologies/highcharts", icon: <FaChartLine className="text-2xl text-[#f05b4f]" /> },
+    { name: "Yahoo/Quandl/Alpha Vantage", path: "/technologies/yahoo-finance", icon: <FaChartBar className="text-2xl text-[#7b1fa2]" /> },
+    { name: "Zoom", path: "/technologies/zoom", icon: <FaVideo className="text-2xl text-[#2d8cff]" /> },
+    { name: "Power BI", path: "/technologies/powerbi", icon: <FaChartBar className="text-2xl text-[#f2c811]" /> },
+    { name: "Material UI", path: "/technologies/material-ui", icon: <FaPalette className="text-2xl text-[#1976d2]" /> },
+    { name: "PrimeNG", path: "/technologies/primeng", icon: <FaCode className="text-2xl text-[#dd0031]" /> },
+    { name: "Radzen", path: "/technologies/radzen", icon: <FaPalette className="text-2xl text-[#009688]" /> },
+    { name: "CKEditor", path: "/technologies/ckeditor", icon: <FaEdit className="text-2xl text-[#0288d1]" /> },
+    { name: "EasyPost", path: "/technologies/easypost", icon: <FaTruck className="text-2xl text-[#ff6b35]" /> },
+    { name: "Kit Builder", path: "/technologies/kit-builder", icon: <FaCogs className="text-2xl text-[#9c27b0]" /> },
   ];
 
   // Verticals/Industries Data
@@ -441,7 +484,7 @@ const Header = () => {
           onMouseEnter={() => setTechnologiesOpen(true)}
           onMouseLeave={() => setTechnologiesOpen(false)}
         >
-          <div className="grid grid-cols-5 gap-8 p-8">
+          <div className="grid grid-cols-6 gap-6 p-8">
             {/* Frontend Technologies Column */}
             <div>
               <h3 className="text-base font-bold text-gray-800 mb-4 pb-2 border-b-2 border-[#fb9c24]">
@@ -490,11 +533,9 @@ const Header = () => {
                   </li>
                 ))}
               </ul>
-            </div>
-
-            {/* Mobile Technologies Column */}
-            <div>
-              <h3 className="text-base font-bold text-gray-800 mb-4 pb-2 border-b-2 border-[#fb9c24]">
+              
+              {/* Mobile Technologies Section */}
+              <h3 className="text-base font-bold text-gray-800 mb-4 pb-2 border-b-2 border-[#fb9c24] mt-6">
                 Mobile Technologies
               </h3>
               <ul className="space-y-2">
@@ -542,13 +583,63 @@ const Header = () => {
               </ul>
             </div>
 
-            {/* Others Column */}
+            {/* Cloud Services Column */}
             <div>
               <h3 className="text-base font-bold text-gray-800 mb-4 pb-2 border-b-2 border-[#fb9c24]">
-                Others
+                Cloud Services
               </h3>
               <ul className="space-y-2">
                 {otherTechnologies.map((tech, i) => (
+                  <li key={i}>
+                    <Link 
+                      to={tech.path}
+                      className="flex items-center gap-3 px-2 py-2 hover:bg-orange-50 rounded-lg transition-all duration-200 group cursor-pointer"
+                      onClick={() => setTechnologiesOpen(false)}
+                    >
+                      <div className="flex-shrink-0">
+                        {tech.icon}
+                      </div>
+                      <span className="text-gray-700 group-hover:text-[#fb9c24] font-medium text-sm">
+                        {tech.name}
+                      </span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Third Party Integration Column 1 */}
+            <div>
+              <h3 className="text-base font-bold text-gray-800 mb-4 pb-2 border-b-2 border-[#fb9c24]">
+                Third Party Integration
+              </h3>
+              <ul className="space-y-2">
+                {thirdPartyIntegration.slice(0, 9).map((tech, i) => (
+                  <li key={i}>
+                    <Link 
+                      to={tech.path}
+                      className="flex items-center gap-3 px-2 py-2 hover:bg-orange-50 rounded-lg transition-all duration-200 group cursor-pointer"
+                      onClick={() => setTechnologiesOpen(false)}
+                    >
+                      <div className="flex-shrink-0">
+                        {tech.icon}
+                      </div>
+                      <span className="text-gray-700 group-hover:text-[#fb9c24] font-medium text-sm">
+                        {tech.name}
+                      </span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Third Party Integration Column 2 */}
+            <div>
+              <h3 className="text-base font-bold text-gray-800 mb-4 pb-2 border-b-2 border-[#fb9c24] opacity-0">
+                Third Party Integration
+              </h3>
+              <ul className="space-y-2">
+                {thirdPartyIntegration.slice(9).map((tech, i) => (
                   <li key={i}>
                     <Link 
                       to={tech.path}
@@ -617,6 +708,20 @@ const Header = () => {
             <div className="mb-4">
               <h4 className="font-bold text-[#fb9c24] mb-2 text-sm">Database</h4>
               {databaseTechnologies.map((tech, i) => (
+                <Link 
+                  key={i} 
+                  to={tech.path}
+                  className="flex items-center gap-2 py-2 border-b hover:text-[#fb9c24]"
+                  onClick={() => setTechnologiesOpen(false)}
+                >
+                  {tech.icon}
+                  <span className="text-xs">{tech.name}</span>
+                </Link>
+              ))}
+            </div>
+            <div className="mb-4">
+              <h4 className="font-bold text-[#fb9c24] mb-2 text-sm">Third Party Integration</h4>
+              {thirdPartyIntegration.map((tech, i) => (
                 <Link 
                   key={i} 
                   to={tech.path}
