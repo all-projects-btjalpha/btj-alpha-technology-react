@@ -59,9 +59,9 @@ function MetaAds() {
               </div>
 
               <h1 className="text-4xl max-md:text-3xl lg:text-5xl font-bold text-white mb-8 leading-tight">
-                Meta Ads{" "}
+                Results-Driven Meta Ads{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#fb9c24] to-[#ff8c00]">
-                  Agency
+                   Agency in India for Maximum ROI
                 </span>
               </h1>
 
@@ -70,12 +70,12 @@ function MetaAds() {
               {/* Features List */}
               <ul className="space-y-4 mb-8">
                 {[
-                  "Get a Winning Facebook Ads Strategy",
-                  "Fair Pricing & Flexible Agreements",
-                  "Fully Measurable With Proven Results",
-                  "Find New Customers & Scale",
-                  "Increase Your Traffic, Leads & Sales",
-                  "Work With Certified Facebook Ads Specialists!",
+                  "Advanced Audience Targeting",
+                  "High-Converting Ad Creatives",
+                  "AI-Based Campaign Optimization",
+                  "Proven ROI-Focused Strategies",
+                  "25M+ Reach Generated",
+                  "200+ Active Campaigns Managed",
                 ].map((item, index) => (
                   <li
                     key={index}
@@ -181,17 +181,17 @@ function MetaAds() {
               </div>
 
               <h2 className="text-4xl max-md:text-2xl font-bold text-white mb-6 leading-tight">
-                Your Trusted Partner in{" "}
+                Your Trusted Meta Ads Partner in{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#fb9c24] to-[#ff8c00]">
-                  Digital Transformation
+                  Digital Growth
                 </span>
               </h2>
 
               <div className="w-20 h-1 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] rounded-full mb-6"></div>
 
               <p className="text-gray-300 text-lg mb-8 leading-relaxed">
-                We're here to guide you through the ever-changing digital
-                landscape, helping you achieve unparalleled growth and success.
+                With increasing competition on social platforms, running ads without strategy can waste budget quickly. 
+                As an experienced Meta Ads Agency in India, we create performance-driven campaigns backed by research, audience insights, and real-time analytics.
               </p>
 
               {/* Features Grid */}
@@ -227,11 +227,11 @@ function MetaAds() {
               {/* Details List */}
               <ul className="space-y-3">
                 {[
-                  "Detailed Market & Category Insight",
-                  "People insight to reach the right audience",
-                  "Strategic media planning & growth strategy",
-                  "Robust execution methodology",
-                  "Detailed insight & reporting",
+                  "Facebook Lead Generation Ads",
+                  "Instagram Conversion Campaigns",
+                  "Remarketing & Retargeting",
+                  "Lookalike Audience Targeting",
+                  "Sales Funnel Optimization",
                 ].map((detail, index) => (
                   <li
                     key={index}
@@ -307,7 +307,7 @@ function MetaAds() {
               </div>
 
               <h2 className="text-4xl max-md:text-2xl font-bold text-white mb-6 leading-tight">
-                Commitment, Quality, &{" "}
+              Commitment, Quality & Measurable{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#fb9c24] to-[#ff8c00]">
                   Results
                 </span>
@@ -366,7 +366,7 @@ function MetaAds() {
               </span>
             </div>
             <h2 className="text-4xl max-md:text-2xl font-bold text-gray-900 mb-4">
-              We work for
+             Industries We Scale with Meta Ads
             </h2>
             <p className="text-gray-600 text-lg max-w-3xl mx-auto">
               Do you have a website in mind? Then, we're here for you! We work
@@ -401,9 +401,10 @@ function MetaAds() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-4xl max-md:text-2xl font-bold text-gray-900 mb-4">
-              Hire us as your{" "}
+              Hire Our{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#fb9c24] to-[#ff8c00]">
-                dedicated team
+                Dedicated Meta Ads Team
+
               </span>
             </h2>
           </div>
@@ -429,8 +430,11 @@ function MetaAds() {
 
               <ul className="space-y-4 mb-8">
                 {[
-                  "Time-centric pricing.",
-                  "Works best for freelancers, business consultants, and agencies with already set processes.",
+                  "Experienced Media Buyers",
+                  "Creative Designers",
+                   "Conversion Tracking Experts",
+                   " Funnel Strategists",
+                   " Performance Analysts",
                 ].map((item, index) => (
                   <li
                     key={index}
@@ -489,7 +493,7 @@ function MetaAds() {
               </span>
             </div>
             <h2 className="text-4xl max-md:text-2xl font-bold text-gray-900 mb-4">
-              Our Meta Ads Services
+             Our Comprehensive Meta Ads Management Services
             </h2>
             <p className="text-gray-600 text-lg max-w-3xl mx-auto">
               Harness the full spectrum of advertising opportunities within the
@@ -504,7 +508,7 @@ function MetaAds() {
                 img: audience,
                 title: "Campaign Strategy & Execution",
                 description:
-                  "Crafting campaigns that don't just get seen, but get results. Every ad is a message, and we ensure yours is clear, compelling, and targeted.",
+                   " We create data-driven ad strategies including funnel mapping, budget allocation, audience targeting, and performance optimization.",
                 points: [
                   "Campaign Strategy & Execution: Tailored strategies built around your unique goals.",
                   "Ad Creative Design: Stunning visuals paired with compelling narratives.",
@@ -515,7 +519,7 @@ function MetaAds() {
                 img: growth,
                 title: "Content & Creative Optimization",
                 description:
-                  "We dive deep into analytics to refine, finesse, and elevate your campaigns.",
+                  "High-quality creatives including carousel ads, reels ads, video ads, and dynamic product ads designed for maximum engagement.",
                 points: [
                   "Ad Creative A/B Testing: Determine the most effective visuals and messages.",
                   "Multimedia Content Guidance: Leverage visuals, videos, and interactive elements for deeper engagement.",
@@ -526,7 +530,7 @@ function MetaAds() {
                 img: target,
                 title: "Advanced Targeting & Retargeting",
                 description:
-                  "Ensuring your ads reach the people who matter most. From fresh faces to familiar ones, maximize every interaction.",
+                  "Custom audiences, lookalike audiences, remarketing campaigns, and interest-based targeting for higher conversion rates.",
                 points: [
                   "Audience Segmentation: Precise targeting based on behavior, interests, and more.",
                   "Dynamic Retargeting: Reconnect with potential customers using data-driven strategies.",

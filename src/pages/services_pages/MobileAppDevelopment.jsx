@@ -8,37 +8,37 @@ const industial_cards = [
   {
     title: "Tour & Travel Mobile Apps",
     description:
-      "Our travel apps offer convenient itineraries, hotel bookings, navigation, and booking options, helping users plan and enjoy their trips with ease.",
+      "We develop travel applications which enable users to plan their trips with enhanced ease and efficiency. The application provides users with stress-free travel experiences through its capabilities which include itinerary administration and hotel reservation and route finding and straightforward booking methods.",
     image: "/mobile-app/Tour and travel.png",
   },
   {
     title: "Agricultural Mobile Apps",
     description:
-      "We build apps that support farmers and agricultural professionals by providing tools to manage crops, livestock, and daily farm operations—helping them grow and thrive.",
+      "Our agricultural mobile applications provide essential support to farmers and agricultural business personnel. The applications assist users in overseeing their agricultural activities which include crop and livestock management and day-to-day farm operations thus enhancing farm productivity and work organization.",
     image: "/mobile-app/Agricultural.png",
   },
   {
     title: "Music & Events Mobile Apps",
     description:
-      "Our apps enhance your music and event experiences with smooth streaming, event details, and social sharing capabilities, keeping users connected and engaged.",
+      "We develop mobile applications which serve the needs of music and event production companies. Our applications deliver uninterrupted streaming services together with event notifications and ticket information and social media sharing functionalities which enable users to stay connected with their audience.",
     image: "/mobile-app/music.png",
   },
   {
     title: "Health & Fitness Mobile Apps",
     description:
-      "We develop health and fitness apps that help users track their fitness progress and monitor health parameters to stay on top of their well-being.",
+      "We develop health and fitness apps that help users maintain their active and healthy lifestyles. These apps allow users to track workouts, monitor health data, and measure progress to improve overall well-being.",
     image: "/mobile-app/fitness.png",
   },
   {
     title: "E-commerce Mobile Apps",
     description:
-      "We create e-commerce apps that integrate payment gateways, enable smooth transactions, user-friendly interfaces for a great shopping experience.",
+      "We create e-commerce mobile apps that make online shopping simple and secure. Our apps include payment gateway integration, smooth transactions, and easy-to-use interfaces for a better shopping experience.",
     image: "/mobile-app/E commerce.png",
   },
   {
     title: "Lifestyle Mobile Apps",
     description:
-      "Our lifestyle apps are designed to offer personalized experiences, entertainment, or daily life management—tailored to users' interests and needs.",
+      "We build lifestyle mobile apps that offer personalized experiences.These apps support entertainment, daily task management, and other features tailored to users’ interests and needs.",
     image: "/mobile-app/life style.png",
   },
 ];
@@ -180,21 +180,21 @@ const MobileAppDevelopment = () => {
                   MOBILE APP DEVELOPMENT
                 </span>
               </div>
-              
+
               <h1 className="text-4xl max-md:text-3xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
                 Mobile App Development Services for Your{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#fb9c24] to-[#ff8c00]">Business</span>
               </h1>
-              
+
               <div className="w-24 h-1 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] rounded-full mb-6"></div>
-              
+
               <p className="text-base text-gray-600 leading-relaxed mb-8">
-                Ready to take your business to the next level? We specialize in
-                crafting custom mobile apps for Android, iOS, and cross-platform
-                solutions. With years of experience, we create user-friendly,
-                high-performance apps that drive success.
+                Looking to grow your business with professional mobile app development?
+                We specialize in custom mobile app development for Android, iOS, and cross-platform solutions.
+                With years of experience in mobile app development, our team builds user-friendly, high-performance mobile apps that help your business succeed and stay ahead of the competition.
+
               </p>
-              
+
               <Link to="/contact">
                 <button className="bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] hover:from-[#ff8c00] hover:to-[#fb9c24] text-white font-semibold rounded-lg px-8 py-4 mb-8 shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300">
                   Let's Connect →
@@ -342,9 +342,8 @@ const MobileAppDevelopment = () => {
               <h2 className="text-2xl font-bold text-gray-900 mb-3">Our Vision</h2>
               <div className="w-16 h-1 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] rounded-full mb-4"></div>
               <p className="text-base text-gray-600 leading-relaxed">
-                We are passionate innovators, transforming mobile experiences
-                across industries. Our cutting-edge solutions empower businesses
-                to thrive in the digital world.
+                We are passionate innovators focused on improving mobile experiences across industries.
+                Our advanced solutions help businesses grow and succeed in the digital world.
               </p>
             </div>
 
@@ -366,11 +365,10 @@ const MobileAppDevelopment = () => {
                     <img
                       src={card.image}
                       alt="Card"
-                      className={`relative rounded-2xl shadow-lg transform group-hover:scale-110 transition-transform duration-300 ${
-                        card.customImageStyle
-                          ? "w-[160px] h-[140px] object-cover"
-                          : "w-[160px] h-[160px] object-cover"
-                      }`}
+                      className={`relative rounded-2xl shadow-lg transform group-hover:scale-110 transition-transform duration-300 ${card.customImageStyle
+                        ? "w-[160px] h-[140px] object-cover"
+                        : "w-[160px] h-[160px] object-cover"
+                        }`}
                     />
                   </div>
                 </div>
@@ -388,9 +386,8 @@ const MobileAppDevelopment = () => {
               <h2 className="text-2xl font-bold text-gray-900 mb-3">What Drives Us?</h2>
               <div className="w-16 h-1 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] rounded-full mb-4"></div>
               <p className="text-base text-gray-600 leading-relaxed">
-                We are fueled by the desire to create impactful solutions that
-                drive business growth. Our passion lies in helping brands succeed
-                through innovative technology and seamless user experiences.
+                We aim to create powerful digital solutions that help businesses grow.
+                Our mission is to support brands with innovative technology and smooth user experiences that deliver real results.
               </p>
             </div>
           </div>
@@ -452,9 +449,8 @@ const MobileAppDevelopment = () => {
                   </h2>
                   <div className="w-20 h-1 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] rounded-full mb-4"></div>
                   <p className="text-base text-gray-600 mb-6 leading-relaxed">
-                    Hire our developers to design, develop, and deliver futuristic
-                    development solutions by leveraging the experience of a top
-                    development company.
+                    Looking for skilled developers for your next project?
+                    Our experienced team designs, develops, and delivers modern digital solutions tailored to your business needs.
                   </p>
                   <Link to="/contact">
                     <button className="bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] hover:from-[#ff8c00] hover:to-[#fb9c24] text-white font-bold py-3 px-8 rounded-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300">
@@ -480,9 +476,8 @@ const MobileAppDevelopment = () => {
                     key={index}
                     data-aos="zoom-in"
                     data-aos-delay={index * 100}
-                    className={`group relative h-[280px] rounded-2xl overflow-hidden cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-2 border-transparent hover:border-[#fb9c24] ${
-                      card.hidden ? "hidden lg:block" : ""
-                    }`}
+                    className={`group relative h-[280px] rounded-2xl overflow-hidden cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-2 border-transparent hover:border-[#fb9c24] ${card.hidden ? "hidden lg:block" : ""
+                      }`}
                   >
                     <img
                       src={card.image}
@@ -508,19 +503,18 @@ const MobileAppDevelopment = () => {
                 <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] px-3 py-1 rounded-full mb-6 shadow-md">
                   <span className="text-xs font-bold text-white">TECHNOLOGIES</span>
                 </div>
-                
+
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">
                   Mobile App <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#fb9c24] to-[#ff8c00]">Development</span>
                 </h2>
-                
+
                 <div className="w-20 h-1 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] rounded-full mb-6"></div>
-                
+
                 <p className="text-base text-gray-600 leading-relaxed mb-6">
-                  We specialize in enhancing the mobile experience across various
-                  industries, niches, and products, helping businesses add value and
-                  stay ahead with innovative, future-focused solutions.
+                  We specialize in creating high-quality mobile applications for different industries and business needs.
+                  Our goal is to enhance user experience and deliver innovative, future-ready solutions.
                 </p>
-                
+
                 <div className="space-y-3">
                   {techList.map((tech, index) => (
                     <div

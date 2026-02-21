@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaMobileAlt, FaBolt, FaWifi, FaBell, FaDownload, FaRocket,
   FaCheckCircle, FaEye, FaShoppingCart, FaUsers, FaCogs, FaShieldAlt,
   FaChevronDown, FaChevronUp, FaLayerGroup, FaCode, FaServer,
@@ -30,7 +30,7 @@ function PWADevelopment() {
     {
       icon: <FaMobileAlt className="text-6xl text-blue-600" />,
       title: "Seamless, Responsive Experiences with PWA Development using Blazor",
-      description: "Progressive Web Apps (PWAs) bridges web and mobile apps platforms such as HTML, JavaScript, CSS with modern web capabilities. Web apps leverage PWA make it easy to deploy just like regular web apps without relying on app stores such as Google Play Store or Apple's App Store. PWAs deliver robust performance, engaging experiences, and greater flexibility than traditional apps, all while ensuring security and scalability even on low-end devices or slower networks."
+      description: "Our company develops Progressive Web Applications which combine essential web and mobile application features as a top Web App Development Company. Our team develops advanced web applications which function like mobile apps by using current web technologies such as HTML CSS and JavaScript."
     }
   ];
 
@@ -38,22 +38,22 @@ function PWADevelopment() {
     {
       icon: <FaEye className="text-5xl text-blue-600" />,
       title: "Visibility and Engagement",
-      description: "Unlike other app is like a web page, making sure that all the web users can access web app as per their needs without downloading or installing anything on their devices."
+      description: "Our PWAs work like regular websites, allowing users to access them instantly without downloading or installing anything. This increases reach, visibility, and user engagement."
     },
     {
       icon: <FaShoppingCart className="text-5xl text-purple-600" />,
       title: "Seamless User Experience",
-      description: "We focuses on user's benefits in the form of mobile experience, easier navigation, smoother transitions that boost user's engagement and boost conversion rate."
+      description: "We design mobile-friendly interfaces with smooth navigation and fast transitions. A better user experience leads to higher engagement and improved conversion rates."
     },
     {
       icon: <FaTachometerAlt className="text-5xl text-green-600" />,
       title: "Responsive Web Application",
-      description: "We emphasize on a fully responsive web app that is designed to adapt to any screen size, delivering the same high-quality user experience across devices."
+      description: "Our Web App Development Company creates web applications which provide complete responsive design to users across all devices while maintaining consistent operational standards."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-orange-600" />,
-      title: "Content Progressive Web Improvement",
-      description: "Content visibility SEO is major part of progressive web apps. We optimize PWA to comply with the best standards ensuring that new contents, improved ranking, and visibility of your business."
+      title: "SEO & Content Optimization",
+      description: "We optimize Progressive Web Apps following the latest SEO standards. The search rankings improve while your business gains more visibility which results in additional potential customers."
     }
   ];
 
@@ -61,22 +61,22 @@ function PWADevelopment() {
     {
       icon: <FaBolt className="text-5xl text-yellow-500" />,
       title: "Seamless and Responsive Experience Across Devices",
-      description: "Progressive web apps take care that content is delivered in a responsive way on any device and ensuring that your app functions on mobile, tablets, and desktop perfectly."
+      description: "Progressive Web Apps work well on phones. They also work well on tablets and desktops.They adjust to screen sizes. This gives users an experience."
     },
     {
       icon: <FaWifi className="text-5xl text-blue-500" />,
-      title: "Offline Functionality and Reliable Performance",
-      description: "Our PWAs enable offline functionality allowing users to access certain features even when there is no internet. Users can continue to browse previously loaded content."
+      title: "Offline Access and Reliable Performance",
+      description: "Progressive Web Apps can work without an internet connection.Users can access content they loaded before. They can browse without interruption."
     },
     {
       icon: <FaUsers className="text-5xl text-purple-500" />,
-      title: "Ability to be Installed on the Home Screen of Devices",
-      description: "PWAs can be added to a user's home screen, which makes it easier to access just like native apps without needing app store downloads."
+      title: "Install on Home Screen",
+      description: "Users can add Progressive Web Apps to their home screen.It works like an app.. Users do not need to download it from an app store."
     },
     {
       icon: <FaBell className="text-5xl text-red-500" />,
-      title: "Secure and Reliable Over HTTPS/SSL Notifications",
-      description: "Security is a major concern for businesses and users. PWAs are served over HTTPS/SSL ensuring that data transmitted between user and app remains private and secure."
+      title: "Secure, with HTTPS/SSL",
+      description: "Progressive Web Apps use HTTPS. This keeps user data safe. It protects information shared between the user and the Progressive Web App."
     }
   ];
 
@@ -84,82 +84,82 @@ function PWADevelopment() {
     {
       icon: <FaShieldAlt className="text-5xl text-blue-600" />,
       title: "Education",
-      description: "For educational institutions, progressive web apps (PWA) development provide students with efficient access to educational resources and management apps."
+      description: "We make Progressive Web Apps for schools and colleges. Students can get to their study stuff, updates and management systems whenever they want."
     },
     {
       icon: <FaChartLine className="text-5xl text-green-600" />,
       title: "Travel and Tourism",
-      description: "We develop PWAs for the travel and tourism industry providing booking information updates to travelers even when they're offline."
+      description: "We make Progressive Web Apps for travel companies. People can check their bookings, travel updates and important stuff even when they are not online."
     },
     {
       icon: <FaUsers className="text-5xl text-purple-600" />,
       title: "Social Networking",
-      description: "We build PWAs for social networking platforms with real-time messaging, updates, and smooth navigation for users."
+      description: "We make Progressive Web Apps for media sites. These sites have messaging, updates and navigation that works well. This keeps users interested."
     },
     {
       icon: <FaShoppingCart className="text-5xl text-orange-600" />,
       title: "E-commerce",
-      description: "PWAs for e-commerce businesses allow customers to shop seamlessly with faster load times and improved checkout experiences."
+      description: "We make safe Progressive Web Apps, for online shops. Customers can shop easily because the pages load quickly and checking out is simple. Progressive Web Apps make shopping a lot better."
     }
   ];
 
   const pwaExpertise = [
     {
       icon: <SiPwa className="text-6xl text-purple-600" />,
-      title: "Blazor Progressive Web Application Development",
-      description: "Our developers have in-depth knowledge of Blazor Progressive Web Application and Razor Framework that allows us to build high-performance apps which deliver native-like experiences."
+      title: "Blazor Progressive Web App Development",
+      description: "Our developers use Blazor and Razor frameworks to build fast and high-performance PWAs.We create apps that provide a smooth, native-like experience for users."
     },
     {
       icon: <FaCode className="text-6xl text-orange-600" />,
       title: "HTML, CSS, and JavaScript Development",
-      description: "Our developers are well-versed in HTML, CSS, and JavaScript to create progressive Web apps that are both visually stunning and highly functional."
+      description: "We use HTML, CSS, and JavaScript to design attractive and fully functional Progressive Web Apps.Our apps are both visually appealing and easy to use."
     },
     {
       icon: <FaServer className="text-6xl text-pink-600" />,
       title: "Service Workers and Offline Support",
-      description: "Our expertise allows users to access PWA features even when they are offline. Our developers ensure that users have a reliable app experience."
+      description: "We build PWAs that work even without an internet connection.Users can access important features and content in offline mode."
     },
     {
       icon: <FaLayerGroup className="text-6xl text-indigo-600" />,
       title: "API Integration and Backend Services",
-      description: "We specialize in integrating APIs to connect your PWA with various backend systems, databases, or third-party services ensuring seamless data flows."
+      description: "We connect your PWA with APIs, databases, and third-party services.This ensures smooth data flow and reliable performance."
     }
   ];
 
   const workflow = [
     {
       title: "Discovery",
-      description: "We start by understanding your business goals, target audience, and functionality through detailed consultation sessions.",
+      description: "We understand your business goals, target audience, and project requirements through detailed discussions.",
       step: "01"
     },
     {
       title: "Planning",
-      description: "After gathering requirements, we strategize plan for your PWA's architecture, user interface, and technical requirements.",
+      description: "We create a clear plan for your PWA, including structure, design, and technical needs.",
       step: "02"
     },
     {
       title: "Design",
-      description: "Our designers create visually stunning and user-friendly interfaces that ensure seamless navigation across all devices.",
+      description: "Our designers create simple, attractive, and user-friendly interfaces that work well on all devices.",
       step: "03"
     },
     {
       title: "Development",
-      description: "We build your PWA using cutting-edge frameworks like Blazor, HTML, CSS, and JavaScript for robust performance.",
+      description: "We build your PWA using modern technologies like Blazor, HTML, CSS, and JavaScript for strong performance.",
       step: "04"
     },
     {
       title: "Testing",
-      description: "We conduct rigorous testing to ensure your PWA works flawlessly across browsers, devices, and network conditions.",
+      description: "We test the app carefully to make sure it works smoothly on different devices, browsers, and network conditions.",
       step: "05"
     },
     {
       title: "Deployment",
-      description: "Once tested, we deploy your PWA ensuring it's accessible, secure, and ready for your users to engage with.",
+      description: "After testing, we launch your PWA securely and make it ready for users.",
       step: "06"
     },
     {
       title: "Maintenance and Support",
-      description: "We provide ongoing support and regular updates to ensure your PWA continues to perform optimally.",
+      description: "We provide regular updates and ongoing support to keep your PWA running efficiently.",
       step: "07"
     }
   ];
@@ -168,22 +168,22 @@ function PWADevelopment() {
     {
       icon: <FaHandshake className="text-5xl text-blue-600" />,
       title: "Skilled Developers",
-      description: "Our team of experts has extensive experience in PWA development with successful project delivery history."
+      description: "Our team has strong experience in Progressive Web App development.We have successfully delivered many PWA projects."
     },
     {
       icon: <FaUsers className="text-5xl text-purple-600" />,
       title: "Custom Solutions",
-      description: "We understand every business is unique. We tailor PWA solutions to meet your specific requirements."
+      description: "Every business is different. We create PWA solutions that match your specific needs and goals."
     },
     {
       icon: <FaClock className="text-5xl text-green-600" />,
       title: "Proven Deliverables",
-      description: "We follow agile methodologies ensuring timely delivery and transparency throughout development."
+      description: "We follow agile methods to ensure on-time delivery and clear communication throughout the project."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-orange-600" />,
       title: "Ongoing Support",
-      description: "Our relationship doesn't end with deployment. We provide ongoing support to keep your app updated."
+      description: "Our work does not stop after launch. We provide regular updates and continuous support to keep your app running smoothly."
     }
   ];
 
@@ -224,7 +224,10 @@ function PWADevelopment() {
                 Company
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                At BTJ Alpha Technology, we deliver cutting-edge Progressive Web Apps (PWAs) that combine the best of web and mobile applications. With our expertise in modern frameworks like Blazor and industry-standard web technologies, we create seamless, responsive experiences that work offline and engage users like never before. Our PWAs are fast, reliable, and provide an app-like experience across all devices without the need for app store downloads.
+
+                At BTJ Alpha Technology we make Progressive Web Apps that bring together the good things, about web and mobile applications.
+                We use frameworks and the latest web technologies, we create fast, responsive, and reliable web apps that work smoothly across all devices.
+
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -250,7 +253,7 @@ function PWADevelopment() {
                   <div className="absolute top-0 right-0 w-40 h-40 bg-purple-200 rounded-full opacity-30 animate-pulse"></div>
                   <div className="absolute bottom-0 left-0 w-32 h-32 bg-blue-200 rounded-full opacity-30 animate-pulse delay-100"></div>
                 </div>
-                
+
                 {/* PWA Logo/Text */}
                 <div className="relative z-10 animate-float">
                   <div className="text-center">
@@ -337,7 +340,7 @@ function PWADevelopment() {
               We Build Creative Progressive Web Apps to Increase Conversions
             </h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
-              Our team creates PWAs that not only look stunning but also drive measurable business results.
+              As a trusted Web App Development Company, we create Progressive Web Apps (PWAs) that not only look impressive but also deliver measurable business results.
             </p>
           </div>
 
@@ -403,6 +406,7 @@ function PWADevelopment() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Development Services
             </h2>
+            <p>We make Progressive Web Apps for lots of industries. This helps them work better. Makes users happy.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -431,6 +435,7 @@ function PWADevelopment() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Our PWA Development Expertise
             </h2>
+            <p>We have strong experience in building high-quality Progressive Web Apps (PWAs) using modern technologies.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -459,6 +464,7 @@ function PWADevelopment() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Workflow for PWA Services
             </h2>
+            <p>We follow a clear and step-by-step process to build high-quality Progressive Web Apps.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -500,6 +506,7 @@ function PWADevelopment() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Why Choose Us?
             </h2>
+            <p>We focus on quality, performance, and customer satisfaction in every PWA project.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -532,8 +539,9 @@ function PWADevelopment() {
             <div className="text-white max-w-xl" data-aos="fade-right">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
                 Build A Unique Web App Experiences<br />
-                w/ Our PWA Development Services.
+                with Our PWA Development Services.
               </h2>
+              <p>Create fast, secure, and user-friendly web apps that work smoothly on all devices.</p>
             </div>
             <div data-aos="fade-left">
               <button
@@ -573,9 +581,8 @@ function PWADevelopment() {
                   )}
                 </button>
                 <div
-                  className={`transition-all duration-300 overflow-hidden ${
-                    openFAQ === index ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
-                  }`}
+                  className={`transition-all duration-300 overflow-hidden ${openFAQ === index ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+                    }`}
                 >
                   <p className="p-5 pt-0 text-gray-600 leading-relaxed border-t border-gray-100">
                     {faq.answer}

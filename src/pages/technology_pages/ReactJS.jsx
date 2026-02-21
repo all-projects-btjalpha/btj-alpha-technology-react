@@ -23,23 +23,23 @@ function ReactJS() {
   const reactServices = [
     {
       icon: <FaPuzzlePiece className="text-5xl text-[#61dafb]" />,
-      title: "Build UI Web Application",
-      description: "Our team of experienced React developers can bring robust solutions to complex problems. We build dynamic and secure web applications that are user-friendly and follow all the latest standards that are stable in your business."
+      title: "Custom ReactJS Application Development",
+      description: "We build tailored web applications aligned with your business objectives using modern ReactJS frameworks"
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
-      title: "Rapid UI Plugin Development",
-      description: "We can help you develop custom React UI plugins for your library. The plugins are designed to be highly reusable, optimized for performance, and aligned with React best practices and architecture."
+      title: "Rapid UI Development",
+      description: "Develop highly responsive and interactive UI components with reusable architecture."
     },
     {
       icon: <FaSync className="text-5xl text-[#4285F4]" />,
-      title: "React Development",
-      description: "Our team of developers use React technology to create responsive, modular applications with improved performance and use latest features to build scalable enterprise-level solutions with modern React architecture."
+      title: "ReactJS Migration Services",
+      description: "Upgrade legacy systems to modern React-based applications for better performance and flexibility."
     },
     {
       icon: <FaPlug className="text-5xl text-[#10B981]" />,
-      title: "React UI Migration Services",
-      description: "Modernize your legacy applications with our seamless migration services. We help migrate your existing web apps to React, ensuring minimal downtime and maintaining all functionality."
+      title: "ReactJS Maintenance & Support",
+      description: "Ongoing optimization, bug fixing, performance enhancement, and feature upgrades."
     }
   ];
 
@@ -47,82 +47,82 @@ function ReactJS() {
     {
       icon: <FaChartLine className="text-4xl text-[#fb9c24]" />,
       title: "Improved Performance",
-      description: "React is built on Virtual DOM that makes it improve the performance of web applications by making efficient updates and rendering only the components that change, resulting in faster load times."
+      description: "ReactJS uses Virtual DOM technology that ensures faster rendering and improved application speed."
     },
     {
       icon: <FaSync className="text-4xl text-[#61dafb]" />,
       title: "Faster Development Process",
-      description: "React CLI is a fast and efficient way to get started when using React for your rapid development. Just a simple command and you can create a project or components with powerful tools and hot reloading."
+      description: "Reusable components reduce development time and ensure consistent UI structure."
     },
     {
       icon: <FaPuzzlePiece className="text-4xl text-[#4285F4]" />,
       title: "Reusable Components",
-      description: "Using React makes it convenient to build reusable UI components that can be used across different sections and maintain consistency throughout application, saving development time and effort."
+      description: "Develop once and reuse multiple times across the application, reducing cost and effort."
     },
     {
       icon: <FaShieldAlt className="text-4xl text-[#10B981]" />,
-      title: "SEO Friendly",
-      description: "React JS is SEO-friendly, which means your application will be detected easily by search engines with server-side rendering. This translates to higher visibility and better website exposure."
+      title: "SEO Friendly Structure",
+      description: "Server-side rendering capabilities improve search engine visibility."
     },
     {
       icon: <FaUsers className="text-4xl text-[#8B5CF6]" />,
-      title: "Large Community",
-      description: "React JS has a large community of developers across the globe. This backing and shared resources helps find quick answers to solve problems and assist support to other developers with extensive libraries."
+      title: "Large Community Support",
+      description: "Backed by a massive developer community ensuring regular updates and stability."
     }
   ];
 
   const whyChooseUs = [
     {
       icon: <FaUsers className="text-4xl text-[#fb9c24]" />,
-      title: "Experienced React JS Developers",
-      description: "We consist of expert React developers covering all aspects of web development from planning to execution. Our team stays up-to-date with latest trends and can cater to your business needs."
+      title: "Experienced ReactJS Developers",
+      description: "Our skilled developers have hands-on experience in delivering scalable web applications."
     },
     {
       icon: <FaClock className="text-4xl text-[#61dafb]" />,
-      title: "On-Time Delivery",
-      description: "We understand the value of time, therefore we make it our priority to deliver projects on time. In case of unforeseen delays, we communicate with you and give reasons and work hard to deliver high quality on time."
+      title: "On-Time Project Delivery",
+      description: "We follow agile methodologies to ensure timely project completion."
     },
     {
       icon: <FaChartLine className="text-4xl text-[#4285F4]" />,
       title: "Customized Solutions",
-      description: "We understand every client and project is not similar and we are committed to providing customized solutions that suit your business and achieve your goals with tailored React applications."
+      description: "Every project is designed according to client-specific requirements."
     },
     {
       icon: <FaShieldAlt className="text-4xl text-[#10B981]" />,
-      title: "Technical Support And Maintenance",
-      description: "We provide long-term support and maintenance services to ensure all of the project runs smoothly after deployment. Our team is always available to fix bugs and help you with any issues."
+      title: "Technical Support & Maintenance",
+      description: "Dedicated support team for ongoing optimization and troubleshooting."
     },
     {
       icon: <FaTools className="text-4xl text-[#8B5CF6]" />,
       title: "Competitive Pricing",
-      description: "We deliver services with competitive pricing while ensuring that the quality of our work is not compromised at all. Competitive pricing without compromising on quality and excellence."
+      description: "Affordable ReactJS development services without compromising quality."
     }
   ];
 
   const faqs = [
     {
-      question: "Why Should I Consider React JS for Web Development?",
-      answer: "React JS is a powerful library that offers numerous benefits including improved performance through Virtual DOM, faster development with reusable components, SEO-friendly architecture with server-side rendering, and a large global community for support. It's particularly excellent for building interactive, scalable single-page applications (SPAs) with complex user interfaces. React's component-based architecture makes code more maintainable and easier to test."
+      question: "What does a ReactJS development company do?",
+      answer: "A ReactJS development company builds web applications using the ReactJS library for fast and interactive user interfaces."
     },
     {
-      question: "What React JS Development Services do you Offer?",
-      answer: "We offer comprehensive React development services including: Custom web application development, Rapid UI plugin and component development, Single Page Application (SPA) development, Progressive Web App (PWA) development, React Native mobile app development, Legacy application migration to React, Enterprise application development, Redux state management integration, API integration services, Performance optimization, UI/UX design and development, Ongoing maintenance and support, and Technical consulting for React projects."
+      question: "How much does ReactJS development cost in India?",
+      answer: "Cost depends on project complexity, features, and timeline. We provide customized pricing."
     },
     {
-      question: "How Much Does it Cost to Hire our React JS Web Development Team?",
-      answer: "The cost of hiring our React development team varies based on several factors including project complexity, duration, team size, feature requirements, and integrations needed. We offer flexible hiring models: Hourly basis for short-term projects or specific tasks, Fixed price for well-defined projects with clear scope, and Dedicated team for long-term engagements. Contact us with your project details for a customized quote. We ensure competitive pricing without compromising on quality and deliver excellent value for your investment."
+      question: " How long does it take to develop a ReactJS web application?",
+      answer: "Basic projects may take 4–6 weeks, while enterprise applications require more time."
     },
     {
-      question: "What Kind of Technical Support and Maintenance Services do you Provide?",
-      answer: "We provide comprehensive post-deployment support including: Bug fixes and issue resolution with quick turnaround, Regular updates and security patches, Performance monitoring and optimization, Feature enhancements and new functionality, React version upgrades, Technical consultation and best practices guidance, 24/7 emergency support for critical issues, Documentation and knowledge transfer, Code refactoring for improved maintainability, Integration of new third-party services, and Database optimization. Our team ensures your React application runs smoothly and stays current with the latest technologies."
+      question: " Do you provide ongoing support?",
+      answer: "Yes, we offer maintenance and technical support services."
     },
     {
-      question: "How Long Does it take to Develop a React JS Web Application?",
-      answer: "Development timelines depend on project complexity and requirements. A simple web application with basic features typically takes 4-6 weeks, medium complexity projects with custom components and API integrations take 8-12 weeks, and large enterprise applications with complex business logic can take 3-6 months or more. Our phased approach includes: Requirement analysis and planning (1-2 weeks), UI/UX design and prototyping (2-3 weeks), Frontend and backend development (varies based on features), Testing and quality assurance (2-3 weeks), and Deployment and launch (1 week). We provide detailed timelines and milestones after understanding your specific requirements."
+      question: "Is ReactJS good for SEO?",
+      answer: "Yes, with proper implementation and server-side rendering, ReactJS applications can be SEO-friendly."
     },
     {
-      question: "What is the Process of Hiring your React JS Development Team?",
-      answer: "Our hiring process is simple, transparent, and client-focused: 1) Initial Consultation - Schedule a call to discuss your project requirements, goals, timeline, and budget. 2) Proposal & Planning - We provide a detailed proposal with scope of work, technology stack, timeline estimates, and cost breakdown. 3) Team Selection - Choose developers based on their skills, experience, and portfolio. We can arrange interviews if needed. 4) Contract & Agreement - Sign agreement with clear terms, milestones, and payment schedule. 5) Project Kickoff - Begin development with sprint planning, regular updates, and transparent communication. 6) Development & Testing - Agile development with regular demos and feedback loops. 7) Delivery & Support - Project delivery with complete documentation, training, and ongoing support. Throughout the process, we maintain transparent communication and provide regular progress updates via your preferred channels."
+      question: " Why choose BTJ Alpha Technology Pvt. Ltd.?",
+      answer: "We provide scalable, performance-driven, and cost-effective ReactJS development solutions.."
     }
   ];
 
@@ -135,13 +135,14 @@ function ReactJS() {
             {/* Left Content */}
             <div data-aos="fade-right">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                ReactJS<br />
+               Leading ReactJS<br />
                 Development<br />
-                Company
+                Company in India
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Step2gen Technologies Pvt. Ltd. is a top ReactJS Development Company in India that specializes in providing high-quality web applications using the React platform. Our team of skilled developers has years of experience in building enterprise-grade React applications that are scalable and robust to fulfill your business needs. We strive to provide our clients with high quality development services that help them stay ahead of the competition.
-              </p>
+                Build Fast, Scalable & High-Performance Web Applications with Expert ReactJS Developers 
+                BTJ Alpha Technology Pvt. Ltd. is a trusted ReactJS Development Company in India delivering high-quality, scalable, and performance-driven web applications. 
+</p>
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={openForm}
@@ -225,16 +226,17 @@ function ReactJS() {
             {/* Right Content */}
             <div data-aos="fade-left">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-                Transform Your Business with Next-Generation Web Applications using ReactJS Development Services
+                Build Powerful Applications with ReactJS Development Services
               </h2>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Streamlining your business processes is essential for growth and efficiency. Our team of expert React developers has years of experience in React JS providing robust React development services. Using the best practices and incorporating the latest features, our team excels in creating powerful web applications that run smoothly.
+                ReactJS is one of the most popular JavaScript libraries used for building dynamic and interactive user interfaces. Businesses prefer ReactJS application development because of its component-based architecture, fast rendering using Virtual DOM, and scalable structure.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
-                React is a popular JavaScript library used for building fast and efficient user interfaces. It provides a solid foundation for developing user-friendly and intuitive interfaces that is tailored to your specific needs. By choosing the best possible React development service, you can boost your user engagement and interactions by featuring powerful and self-interactive components and visualizations. We not only do React application development, but also provide wide design flexibility and intuitive interface that is tailored to your specific needs for the various features you want.
+                 At BTJ Alpha Technology Pvt. Ltd., our React front-end development experts design robust applications that deliver smooth user experiences across devices.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                Whether you're building a startup MVP or an enterprise solution, our team can turn your project plans into reality. We are a top React development company that has the expertise to drive your business into the future with powerful React solutions. Let's make your project a success with Step2gen Technologies.
+                Key Benefits of ReactJS:   Fast rendering with Virtual DOM,Reusable components for faster development,SEO-friendly architecture,High performance & scalability,Easy integration with APIs
+
               </p>
             </div>
           </div>
@@ -246,10 +248,10 @@ function ReactJS() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              ReactJS Development Services
+               Our ReactJS Development Services
             </h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
-              Step2gen Technologies offers a wide range of React JS development services for both businesses achieve their goals and stay competitive in an increasingly fast-paced and digital-first world.
+              BTJ Alpha Technology Pvt. Ltd. Technologies offers a wide range of React JS development services for both businesses achieve their goals and stay competitive in an increasingly fast-paced and digital-first world.
             </p>
           </div>
 
@@ -277,7 +279,7 @@ function ReactJS() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why consider ReactJS for Web Development
+            Why Choose ReactJS for Web Development?
             </h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
               React JS is one of the most loved JavaScript libraries. Its ability to build complex and dynamic real-world applications makes it quite popular among developers.
@@ -320,10 +322,10 @@ function ReactJS() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Step2gen for ReactJS Web Development
+             Why Choose BTJ Alpha Technology Pvt. Ltd. for ReactJS Development?
             </h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
-              When you need a reliable partner for React development, Step2gen Technologies stands out as a top choice. Here are some of the reasons why you should work with us.
+              When you need a reliable partner for React development, BTJ Alpha Technology Pvt. Ltd. stands out as a top choice. Here are some of the reasons why you should work with us.
             </p>
           </div>
 
@@ -352,10 +354,10 @@ function ReactJS() {
         </div>
         <div className="container mx-auto relative z-10 text-center" data-aos="fade-up">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Partner with Step2gen Technologies for the Best React JS Development Solutions.
+            Partner with BTJ Alpha Technology Pvt. Ltd. for Advanced ReactJS Development
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Let's build powerful, scalable React applications that drive your business forward.
+            Let’s build secure, scalable, and future-ready web applications for your business.
           </p>
           <button
             onClick={openForm}

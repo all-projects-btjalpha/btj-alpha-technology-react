@@ -21,99 +21,99 @@ function WebsiteDesigning() {
   const features = [
     {
       img: "/website-design/icons/08.webp",
-      title: "Responsive",
+      title: "Responsive Design",
       description:
-        "Adapts seamlessly to various devices, ensuring a consistent and enjoyable user experience across desktops, tablets, and mobile phones.",
+        "Your website works perfectly on all devices — desktop, tablet, and mobile phone.",
     },
     {
       img: "/website-design/icons/09.webp",
-      title: "Fast Loading Time",
+      title: " Fast Loading Speed",
       description:
-        "Optimizes web pages to load quickly, reducing bounce rates and enhancing user satisfaction. Faster websites improve both SEO and conversions.",
+        "We build websites that load quickly. Faster websites keep visitors happy and improve search rankings.",
     },
     {
       img: "/website-design/icons/10.webp",
       title: "SEO-Friendly Structure",
       description:
-        "Incorporates the best practices for search engine optimization, ensuring better rankings, increased traffic, and higher visibility on search engines like Google.",
+        "Our websites are built with proper SEO practices to help you rank higher on search engines like Google.",
     },
     {
       img: "/website-design/icons/11.webp",
-      title: "User-Friendly Navigation",
+      title: "Easy Navigation",
       description:
-        "Provides clear and intuitive menus to help visitors easily find the information they need, creating a positive user experience.",
+        "We design clear menus and simple layouts so visitors can find information quickly.",
     },
     {
       img: "/website-design/icons/13.webp",
       title: "Google Speed Test Integration",
       description:
-        "Leverages Google tools to test and improve site performance, ensuring quick response times and smooth operations.",
+        "We test website performance using trusted tools to ensure fast speed and smooth performance.",
     },
     {
       img: "/website-design/icons/14.webp",
-      title: "Clean & Modern Design",
+      title: " Clean & Modern Design",
       description:
-        "Focuses on simplicity, aesthetic appeal, and functionality, providing users with a professional and engaging website experience.",
+        "We create professional, attractive, and simple designs that match your brand.",
     },
     {
       img: "/website-design/icons/15.webp",
-      title: "Enhanced Functionality",
+      title: "Strong Functionality",
       description:
-        "Ensures all features work seamlessly, from forms and buttons to complex integrations, providing users with a smooth browsing experience.",
+        "All features work smoothly — from contact forms to advanced website tools.",
     },
     {
       img: "/website-design/icons/16.webp",
-      title: "Improved Usability",
+      title: " Better Usability",
       description:
-        "Analyzes and refines the ease of navigation and interaction, making the website accessible and enjoyable for all users.",
+        "We focus on making your website easy to use, accessible, and enjoyable for everyone.",
     },
     {
       img: "/website-design/icons/17.webp",
-      title: "Compelling Calls-to-Action (CTA)",
+      title: " Strong Calls-to-Action (CTA)",
       description:
-        "Strategically placed CTAs encourage users to take desired actions, such as signing up, purchasing, or contacting your business.",
+        "Well-placed buttons and prompts encourage visitors to take action, such as signing up, making a purchase, or contacting your business.",
     },
     {
       img: "/website-design/icons/18.webp",
-      title: "Cross-Browser Compatibility",
+      title: "Works on All Browsers",
       description:
-        "Guarantees flawless website performance across all major web browsers, such as Chrome, Firefox, Safari, and Edge.",
+        "Your website runs smoothly on major browsers like Chrome, Firefox, Safari, and Edge.",
     },
     {
       img: "/website-design/icons/19.webp",
       title: "Social Media Integration",
       description:
-        "Connect your website with social media platforms to boost engagement, share content, and grow your online presence.",
+        "Connect your website to social media platforms to share content, increase engagement, and grow your online presence.",
     },
     {
       img: "/website-design/icons/20.webp",
-      title: "Secured HTTPS Protocol",
+      title: "Secure HTTPS Protection",
       description:
-        "Protects your website and user data with HTTPS encryption, building trust and enhancing your credibility.",
+        "Your website is protected with HTTPS encryption to keep user data safe and build trust.",
     },
     {
       img: "/website-design/icons/22.webp",
-      title: "Google Console Verification",
+      title: " Google Search Console Verification",
       description:
-        "Validates website ownership and monitors its performance on Google Search, improving discoverability.",
+        "Confirms your website ownership and helps monitor performance in Google Search results.",
     },
     {
       img: "/website-design/icons/23.webp",
       title: "Google Analytics Setup",
       description:
-        "Tracks user behavior, traffic sources, and engagement metrics, providing valuable insights for data-driven decisions.",
+        "Tracks visitor behavior and website traffic to help you make smart, data-driven decisions.",
     },
     {
       img: "/website-design/icons/24.webp",
-      title: "Original & Engaging Content",
+      title: "High-Quality, Engaging Content",
       description:
-        "Delivers high-quality, unique content tailored to your audience, boosting engagement and ensuring a professional image.",
+        "Provides original content tailored to your audience to improve engagement and maintain a professional image.",
     },
     {
       img: "/website-design/icons/25.webp",
-      title: "Brand-Aligned Color Scheme",
+      title: "Brand-Matching Color Design",
       description:
-        "Develops a cohesive color palette that reflects your brand identity while creating an inviting and professional atmosphere.",
+        "Uses colors that match your brand identity, creating a consistent and professional look.",
     },
   ];
 
@@ -121,65 +121,65 @@ function WebsiteDesigning() {
     {
       title: "Initial Consultation",
       description:
-        "We begin by understanding your business needs, goals, and challenges. This initial conversation helps us gather key insights so we can offer tailored solutions that align with your vision.",
+        "We start by learning about your business, goals, and challenges.This conversation helps us understand your needs so we can create solutions that match your vision.",
       image: "/website-design/cards-pic/initial_consultation.webp",
-      buttonText: "Consult Now →",
+      buttonText: "Get Started Today →",
     },
     {
       title: "Planning & Strategy",
       description:
-        "Once we understand your goals, we craft a detailed strategy that outlines the approach, timeline, and resources required. We ensure the plan addresses every aspect of your project.",
+        "After understanding your goals, we create a clear and detailed plan.This plan outlines the approach, timeline, and resources needed.We make sure every part of your project is carefully considered.",
       image: "/website-design/cards-pic/Planningstrategy.webp",
-      buttonText: "Consult Now →",
+      buttonText: "Get Started Today →",
     },
     {
       title: "Design Mockups",
       description:
-        "Our design team creates mockups and prototypes, providing you with a visual representation of your website or app. This ensures it aligns with your brand’s identity and user needs.",
+        "Our design team creates visual mockups and prototypes of your website or app.This gives you a clear preview of the final look and feel.We ensure the design matches your brand and meets your users’ needs.",
       image: "/website-design/cards-pic/Design_mockups.webp",
-      buttonText: "Consult Now →",
+      buttonText: "Get Started Today →",
     },
     {
       title: "Visual Design",
       description:
-        "After finalizing the mockups, we move to visual design, focusing on colors, typography, images, and other visual elements to create an engaging and functional experience.",
+        "Our developers turn the design into a fully working website or app. We use modern technologies and best practices to ensure your platform is fast, secure, and able to grow with your business.",
       image: "/website-design/cards-pic/Visual Design.webp",
-      buttonText: "Consult Now →",
+      buttonText: "Get Started Today→",
     },
     {
       title: "Development",
       description:
-        "Our developers bring the design to life. Using the latest technologies and best practices, we ensure your site or app is fast, secure, and scalable.",
+        "Our developers turn the design into a fully working website or app. We use modern technologies and best practices to ensure your platform is fast, secure, and able to grow with your business.",
       image: "/website-design/cards-pic/Development.webp",
-      buttonText: "Consult Now →",
+      buttonText: "Get Started Today →",
     },
     {
       title: "Content Integration",
       description:
-        "We integrate your content seamlessly, ensuring it flows well with the design and enhances user experience. From text to images and videos, everything fits perfectly.",
+        "We carefully add your content to the website, making sure it fits perfectly with the design. From text and images to videos, everything is organized to create a smooth and engaging user experience.",
       image: "/website-design/cards-pic/Content_Integration.webp",
-      buttonText: "Consult Now →",
+      buttonText: "Get Started Today →",
     },
     {
       title: "Testing and Quality Assurance",
       description:
-        "Before launching, we rigorously test every aspect of the site or app to ensure it performs flawlessly. This includes functionality, compatibility, security, and usability checks.",
+        "Before launch, we thoroughly test your website or app. We check performance, functionality, compatibility, security, and ease of use to make sure everything works perfectly.",
       image: "/website-design/cards-pic/Testing and Quality Assurance.webp",
-      buttonText: "Consult Now →",
+      buttonText: "Get Started Today  →",
     },
     {
       title: "Launch and Deployment",
       description:
-        "Once everything is ready and tested, we launch your website or app. Our team handles the deployment process, ensuring a smooth launch.",
+        "Once your website or app is fully tested and ready, we launch it. Our team manages the entire deployment process to ensure everything goes live smoothly and without issues.",
       image: "/website-design/cards-pic/Launch.webp",
-      buttonText: "Consult Now →",
+      buttonText: "Get Started Today →",
     },
     {
       title: "Post-Launch Support and Maintenance",
       description:
-        "Our job doesn’t end at launch. We offer ongoing support to keep your website or app updated, secure, and performing at its best.",
+        "Our work doesn’t stop after launch. We provide ongoing support to keep your website or app updated, secure, and running at its best.",
       image: "/website-design/cards-pic/Post-Launch.webp",
-      buttonText: "Consult Now →",
+      buttonText: "Get Started Today →",
     },
   ];
 
@@ -206,16 +206,13 @@ function WebsiteDesigning() {
                 </span>
               </div>
               <h1 className="text-3xl max-md:text-2xl lg:text-4xl font-bold text-gray-800 leading-snug">
-                Website Design Services Offered by{" "}
+                Website Design Services by{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#fb9c24] to-[#ff8c00]">BTJ ALPHA TECHNOLOGY</span>
               </h1>
               <div className="w-20 h-1 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] rounded-full"></div>
               <p className="text-base max-md:text-sm text-gray-600 leading-relaxed">
-                Welcome to BTJ ALPHA TECHNOLOGY, where the art of website
-                design comes to life. In the digital age, your website serves as
-                the virtual storefront of your brand. We specialize in creating visually captivating and
-                user-centric websites that not only showcase your brand but also
-                engage and convert visitors.
+                At BTJ Alpha Technology, we provide professional website design services that help your business grow online.
+                Your website is the face of your brand in the digital world, and we make sure it looks modern, attractive, and easy to use.
               </p>
             </div>
           </div>
@@ -316,7 +313,7 @@ function WebsiteDesigning() {
         {/* Animated Background Elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute top-10 left-10 w-72 h-72 bg-[#fb9c24]/10 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-20 right-10 w-96 h-96 bg-[#ff8c00]/10 rounded-full blur-3xl animate-pulse" style={{animationDelay: '1s'}}></div>
+          <div className="absolute bottom-20 right-10 w-96 h-96 bg-[#ff8c00]/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-r from-[#fb9c24]/5 to-[#ff8c00]/5 rounded-full blur-3xl"></div>
         </div>
 
@@ -340,9 +337,8 @@ function WebsiteDesigning() {
                 <div className="absolute -inset-1 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] rounded-2xl opacity-20 blur-xl"></div>
                 <div className="relative bg-white/80 backdrop-blur-sm p-6 rounded-2xl shadow-xl border border-[#fb9c24]/20">
                   <p className="text-base text-gray-700 leading-relaxed">
-                    Discover BTJ ALPHA TECHNOLOGY PVT LTD's strategic approach to
-                    digital marketing and website design, crafted to boost engagement,
-                    visibility, and business growth.
+                    We follow a simple and clear process to complete every project successfully.
+
                   </p>
                 </div>
               </div>
@@ -386,17 +382,17 @@ function WebsiteDesigning() {
                 {
                   number: "01",
                   title: "Briefing",
-                  description: "We start by understanding your goals and vision through a detailed briefing session. This step ensures that every solution is perfectly tailored to your unique needs.",
+                  description: "First, we listen to you. We understand your goals, ideas, and business needs. This helps us plan the project the right way from the beginning.",
                   icon: (
                     <svg className="w-20 h-20 max-md:w-16 max-md:h-16" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect x="15" y="10" width="50" height="60" rx="3" fill="url(#grad1)" opacity="0.2"/>
-                      <path d="M22 20h36M22 28h36M22 36h28M22 44h24" stroke="url(#grad1)" strokeWidth="2.5" strokeLinecap="round"/>
-                      <circle cx="60" cy="60" r="12" fill="url(#grad1)"/>
-                      <path d="M56 60l3 3 6-6" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
+                      <rect x="15" y="10" width="50" height="60" rx="3" fill="url(#grad1)" opacity="0.2" />
+                      <path d="M22 20h36M22 28h36M22 36h28M22 44h24" stroke="url(#grad1)" strokeWidth="2.5" strokeLinecap="round" />
+                      <circle cx="60" cy="60" r="12" fill="url(#grad1)" />
+                      <path d="M56 60l3 3 6-6" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
                       <defs>
                         <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
-                          <stop offset="0%" stopColor="#fb9c24"/>
-                          <stop offset="100%" stopColor="#ff8c00"/>
+                          <stop offset="0%" stopColor="#fb9c24" />
+                          <stop offset="100%" stopColor="#ff8c00" />
                         </linearGradient>
                       </defs>
                     </svg>
@@ -406,17 +402,17 @@ function WebsiteDesigning() {
                 {
                   number: "02",
                   title: "Idea Generation",
-                  description: "Our team brainstorms innovative concepts aligned with current trends, transforming ideas into actionable strategies for website design, digital marketing, and more.",
+                  description: "Next, our team creates new and creative ideas. We turn your vision into a clear plan for design and development.",
                   icon: (
                     <svg className="w-20 h-20 max-md:w-16 max-md:h-16" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <circle cx="40" cy="35" r="14" stroke="url(#grad2)" strokeWidth="2.5"/>
-                      <path d="M40 21v-10M40 49v10M54 35h10M26 35h-10M49 26l7-7M31 44l-7 7M49 44l7 7M31 26l-7-7" stroke="url(#grad2)" strokeWidth="2.5" strokeLinecap="round"/>
-                      <rect x="35" y="53" width="10" height="6" rx="1.5" fill="url(#grad2)"/>
-                      <path d="M32 59h16" stroke="url(#grad2)" strokeWidth="2.5" strokeLinecap="round"/>
+                      <circle cx="40" cy="35" r="14" stroke="url(#grad2)" strokeWidth="2.5" />
+                      <path d="M40 21v-10M40 49v10M54 35h10M26 35h-10M49 26l7-7M31 44l-7 7M49 44l7 7M31 26l-7-7" stroke="url(#grad2)" strokeWidth="2.5" strokeLinecap="round" />
+                      <rect x="35" y="53" width="10" height="6" rx="1.5" fill="url(#grad2)" />
+                      <path d="M32 59h16" stroke="url(#grad2)" strokeWidth="2.5" strokeLinecap="round" />
                       <defs>
                         <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
-                          <stop offset="0%" stopColor="#fb9c24"/>
-                          <stop offset="100%" stopColor="#ff8c00"/>
+                          <stop offset="0%" stopColor="#fb9c24" />
+                          <stop offset="100%" stopColor="#ff8c00" />
                         </linearGradient>
                       </defs>
                     </svg>
@@ -426,19 +422,19 @@ function WebsiteDesigning() {
                 {
                   number: "03",
                   title: "Processing",
-                  description: "We bring your project to life through precise development and design, ensuring each element is crafted for optimal performance and user experience.",
+                  description: "Then, we start building your project. We design, develop, and make sure everything works smoothly and looks professional.",
                   icon: (
                     <svg className="w-20 h-20 max-md:w-16 max-md:h-16" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect x="10" y="15" width="60" height="50" rx="3" stroke="url(#grad3)" strokeWidth="2.5"/>
-                      <path d="M10 25h60" stroke="url(#grad3)" strokeWidth="2.5"/>
-                      <circle cx="18" cy="20" r="2" fill="url(#grad3)"/>
-                      <circle cx="26" cy="20" r="2" fill="url(#grad3)"/>
-                      <circle cx="34" cy="20" r="2" fill="url(#grad3)"/>
-                      <path d="M26 42l8 8 16-16" stroke="url(#grad3)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+                      <rect x="10" y="15" width="60" height="50" rx="3" stroke="url(#grad3)" strokeWidth="2.5" />
+                      <path d="M10 25h60" stroke="url(#grad3)" strokeWidth="2.5" />
+                      <circle cx="18" cy="20" r="2" fill="url(#grad3)" />
+                      <circle cx="26" cy="20" r="2" fill="url(#grad3)" />
+                      <circle cx="34" cy="20" r="2" fill="url(#grad3)" />
+                      <path d="M26 42l8 8 16-16" stroke="url(#grad3)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
                       <defs>
                         <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
-                          <stop offset="0%" stopColor="#fb9c24"/>
-                          <stop offset="100%" stopColor="#ff8c00"/>
+                          <stop offset="0%" stopColor="#fb9c24" />
+                          <stop offset="100%" stopColor="#ff8c00" />
                         </linearGradient>
                       </defs>
                     </svg>
@@ -448,16 +444,16 @@ function WebsiteDesigning() {
                 {
                   number: "04",
                   title: "Finishing",
-                  description: "After meticulous testing and final touches, we deliver a polished, high-quality product that positions your brand effectively in the digital landscape.",
+                  description: "Finally, we test everything carefully. After final checks and improvements, we deliver a high-quality product ready to launch.",
                   icon: (
                     <svg className="w-20 h-20 max-md:w-16 max-md:h-16" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M40 10L48 30L68 32L54 46L57 66L40 56L23 66L26 46L12 32L32 30L40 10z" fill="url(#grad4)" opacity="0.2" stroke="url(#grad4)" strokeWidth="2.5" strokeLinejoin="round"/>
-                      <path d="M40 26v22M34 42l6 6 6-6" stroke="url(#grad4)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-                      <circle cx="40" cy="42" r="3" fill="url(#grad4)"/>
+                      <path d="M40 10L48 30L68 32L54 46L57 66L40 56L23 66L26 46L12 32L32 30L40 10z" fill="url(#grad4)" opacity="0.2" stroke="url(#grad4)" strokeWidth="2.5" strokeLinejoin="round" />
+                      <path d="M40 26v22M34 42l6 6 6-6" stroke="url(#grad4)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+                      <circle cx="40" cy="42" r="3" fill="url(#grad4)" />
                       <defs>
                         <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="100%">
-                          <stop offset="0%" stopColor="#fb9c24"/>
-                          <stop offset="100%" stopColor="#ff8c00"/>
+                          <stop offset="0%" stopColor="#fb9c24" />
+                          <stop offset="100%" stopColor="#ff8c00" />
                         </linearGradient>
                       </defs>
                     </svg>
@@ -465,8 +461,8 @@ function WebsiteDesigning() {
                   color: "from-orange-600 to-red-600"
                 }
               ].map((step, index) => (
-                <div 
-                  key={index} 
+                <div
+                  key={index}
                   className="group relative"
                   data-aos="fade-up"
                   data-aos-delay={index * 100}
@@ -481,10 +477,10 @@ function WebsiteDesigning() {
 
                   {/* Card */}
                   <div className="relative bg-white rounded-3xl p-8 max-md:p-6 h-full flex flex-col items-center text-center shadow-xl border-2 border-transparent group-hover:border-[#fb9c24] transition-all duration-500 group-hover:shadow-2xl group-hover:-translate-y-3">
-                    
+
                     {/* Gradient Glow on Hover */}
                     <div className={`absolute inset-0 bg-gradient-to-br ${step.color} opacity-0 group-hover:opacity-5 rounded-3xl transition-opacity duration-500`}></div>
-                    
+
                     {/* Icon Container */}
                     <div className="relative z-10 mb-6 p-5 bg-gradient-to-br from-orange-50 to-orange-100/50 rounded-2xl group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-md">
                       <div className="transform group-hover:scale-110 transition-transform duration-300">
@@ -509,7 +505,7 @@ function WebsiteDesigning() {
 
                     {/* Bottom Accent */}
                     <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-transparent via-[#fb9c24] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-b-3xl"></div>
-                    
+
                     {/* Corner Decoration */}
                     <div className={`absolute top-0 right-0 w-24 h-24 bg-gradient-to-bl ${step.color} opacity-0 group-hover:opacity-10 rounded-tr-3xl rounded-bl-full transition-opacity duration-500`}></div>
                   </div>
@@ -521,12 +517,12 @@ function WebsiteDesigning() {
           {/* Bottom Decorative Dots */}
           <div className="flex justify-center items-center gap-3 mt-16 max-md:mt-10">
             {[0, 1, 2, 3].map((i) => (
-              <div 
+              <div
                 key={i}
                 className="w-3 h-3 rounded-full bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] shadow-lg"
-                style={{ 
+                style={{
                   animation: 'bounce 1.5s infinite',
-                  animationDelay: `${i * 0.2}s` 
+                  animationDelay: `${i * 0.2}s`
                 }}
               ></div>
             ))}
@@ -544,16 +540,15 @@ function WebsiteDesigning() {
               Why Our Website Design Stands Out
             </h1>
           </div>
-          
+
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {features.map((feature, index) => (
               <div
                 key={index}
                 data-aos="zoom-in"
                 data-aos-delay={index * 100}
-                className={`group bg-white hover:bg-gradient-to-br hover:from-[#fb9c24] hover:to-[#ff8c00] rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 ${
-                  index >= 6 ? "hidden md:block" : ""
-                }`}
+                className={`group bg-white hover:bg-gradient-to-br hover:from-[#fb9c24] hover:to-[#ff8c00] rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 ${index >= 6 ? "hidden md:block" : ""
+                  }`}
               >
                 <div className="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-[#fb9c24] to-[#ff8c00] group-hover:from-white group-hover:to-white rounded-xl mb-4 shadow-md transition-all duration-300">
                   <img
@@ -595,7 +590,7 @@ function WebsiteDesigning() {
               Our Complete <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#fb9c24] to-[#ff8c00]">Development Process</span>
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              From initial consultation to post-launch support, we guide you through every step of your website journey
+              From the first consultation to ongoing support after launch, we guide you through every step of building your website.
             </p>
           </div>
 
@@ -613,37 +608,36 @@ function WebsiteDesigning() {
                 "fade-right",
                 "flip-right"
               ];
-              
+
               return (
-              <div
-                key={index}
-                data-aos={animations[index]}
-                data-aos-duration="1000"
-                className={`flex flex-row max-lg:flex-col ${
-                  index % 2 != 0 ? "lg:flex-row-reverse" : ""
-                } w-[85%] max-md:w-[95%] bg-white border-2 border-gray-100 hover:border-[#fb9c24] shadow-lg hover:shadow-2xl rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-1`}
-              >
-                <div className="p-8 w-[45%] max-lg:w-[100%] max-md:p-4">
-                  <img
-                    src={card.image}
-                    alt={`${card.title} Icon`}
-                    className="w-[330px] max-md:w-[250px] mx-auto transform group-hover:scale-105 transition-transform duration-300"
-                  />
+                <div
+                  key={index}
+                  data-aos={animations[index]}
+                  data-aos-duration="1000"
+                  className={`flex flex-row max-lg:flex-col ${index % 2 != 0 ? "lg:flex-row-reverse" : ""
+                    } w-[85%] max-md:w-[95%] bg-white border-2 border-gray-100 hover:border-[#fb9c24] shadow-lg hover:shadow-2xl rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-1`}
+                >
+                  <div className="p-8 w-[45%] max-lg:w-[100%] max-md:p-4">
+                    <img
+                      src={card.image}
+                      alt={`${card.title} Icon`}
+                      className="w-[330px] max-md:w-[250px] mx-auto transform group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                  <div className="flex flex-col justify-center text-left p-8 max-md:p-6 w-[55%] max-lg:w-[100%]">
+                    <h2 className="text-3xl max-md:text-2xl font-bold mb-4 text-gray-900 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-[#fb9c24] group-hover:to-[#ff8c00] transition-all duration-300">
+                      {card.title}
+                    </h2>
+                    <div className="w-16 h-1 bg-gray-200 rounded-full mb-4 group-hover:w-24 group-hover:bg-gradient-to-r group-hover:from-[#fb9c24] group-hover:to-[#ff8c00] transition-all duration-300"></div>
+                    <p className="text-base text-gray-600 mb-6 leading-relaxed">{card.description}</p>
+                    <button
+                      onClick={openForm}
+                      className="bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] hover:from-[#ff8c00] hover:to-[#fb9c24] rounded-lg text-white py-3 px-6 text-base font-semibold w-fit hover:shadow-xl transition-all duration-300 hover:scale-105"
+                    >
+                      Get Started Today→
+                    </button>
+                  </div>
                 </div>
-                <div className="flex flex-col justify-center text-left p-8 max-md:p-6 w-[55%] max-lg:w-[100%]">
-                  <h2 className="text-3xl max-md:text-2xl font-bold mb-4 text-gray-900 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-[#fb9c24] group-hover:to-[#ff8c00] transition-all duration-300">
-                    {card.title}
-                  </h2>
-                  <div className="w-16 h-1 bg-gray-200 rounded-full mb-4 group-hover:w-24 group-hover:bg-gradient-to-r group-hover:from-[#fb9c24] group-hover:to-[#ff8c00] transition-all duration-300"></div>
-                  <p className="text-base text-gray-600 mb-6 leading-relaxed">{card.description}</p>
-                  <button
-                    onClick={openForm}
-                    className="bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] hover:from-[#ff8c00] hover:to-[#fb9c24] rounded-lg text-white py-3 px-6 text-base font-semibold w-fit hover:shadow-xl transition-all duration-300 hover:scale-105"
-                  >
-                    Consult Now →
-                  </button>
-                </div>
-              </div>
               );
             })}
           </div>
@@ -692,8 +686,8 @@ function WebsiteDesigning() {
             </h2>
             <div className="max-w-2xl mx-auto">
               <p className="text-lg max-md:text-base text-gray-600 leading-relaxed">
-                Join us on a journey where every pixel is purposeful, every click is
-                intentional, and every visit is a step toward digital success.
+                We provide professional website design services that help your business stand out online.
+                Every design element is carefully planned, and every click is meaningful — helping turn visitors into customers and supporting your digital growth.
               </p>
             </div>
           </div>
@@ -725,29 +719,29 @@ function WebsiteDesigning() {
                 {
                   icon: "/website-design/about-icon1.webp",
                   title: "Custom Website Design",
-                  description: "Our designs are tailored to reflect your brand's unique identity, ensuring a memorable user experience that resonates with your target audience.",
+                  description: "Our website design services include fully customized designs tailored to your brand. We create unique websites that reflect your business identity and deliver a memorable user experience for your target audience.",
                   color: "from-orange-400 to-orange-600"
                 },
                 {
                   icon: "/website-design/about-icon2.webp",
                   title: "Responsive Design",
-                  description: "We create responsive websites that provide a seamless experience across all devices, ensuring your visitors can engage with your content anytime, anywhere.",
+                  description: "As part of our website design services, we build responsive websites that work smoothly on all devices — desktops, tablets, and smartphones. This ensures your visitors can access and interact with your content anytime, anywhere.",
                   color: "from-amber-400 to-orange-500"
                 },
                 {
                   icon: "/website-design/about-icon3.webp",
                   title: "SEO-Optimized Design",
-                  description: "Every website we build is optimized for search engines, ensuring better visibility and higher rankings, driving organic traffic to your site.",
+                  description: "Every website we create is built with search engines in mind. We optimize your site to improve visibility, increase rankings, and attract more organic traffic.",
                   color: "from-orange-500 to-orange-700"
                 },
                 {
                   icon: "/website-design/about-icon4.webp",
                   title: "Ongoing Support and Maintenance",
-                  description: "We believe in long-term partnerships. Our team provides continuous support and maintenance to ensure your website evolves alongside your business needs.",
+                  description: "We focus on long-term partnerships. Our team provides continuous support and maintenance to keep your website updated, secure, and aligned with your growing business needs.",
                   color: "from-orange-600 to-red-600"
                 }
               ].map((service, index) => (
-                <div 
+                <div
                   key={index}
                   data-aos="fade-left"
                   data-aos-delay={index * 100}
@@ -755,7 +749,7 @@ function WebsiteDesigning() {
                 >
                   {/* Gradient Background on Hover */}
                   <div className={`absolute inset-0 bg-gradient-to-br ${service.color} opacity-0 group-hover:opacity-5 rounded-2xl transition-opacity duration-500`}></div>
-                  
+
                   <div className="flex items-start gap-6 max-md:gap-4 relative z-10">
                     {/* Icon Container */}
                     <div className="flex-shrink-0">
@@ -798,7 +792,7 @@ function WebsiteDesigning() {
               { number: "15+", label: "Years Experience" },
               { number: "24/7", label: "Support Available" }
             ].map((stat, index) => (
-              <div 
+              <div
                 key={index}
                 data-aos="zoom-in"
                 data-aos-delay={index * 100}
