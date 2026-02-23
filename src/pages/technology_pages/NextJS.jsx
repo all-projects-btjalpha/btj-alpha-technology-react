@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaServer, FaRocket, FaSearch, FaImage, FaCode, FaCheckCircle,
   FaChevronDown, FaChevronUp, FaClock, FaShieldAlt, FaUsers,
   FaLaptop, FaSync, FaDatabase, FaChartLine, FaPlug, FaCog, FaTools,
@@ -26,62 +26,62 @@ function NextJS() {
     {
       icon: <SiReact className="text-5xl text-[#61dafb]" />,
       title: "React.js",
-      description: "React.js is a popular JavaScript library for building user interfaces. Developed by Facebook, it facilitates the creation of reusable UI components. Its component-based architecture, virtual DOM, and vast ecosystem make it ideal for building modern web applications."
+      description: "React is a popular JavaScript library used to build user interfaces. It helps create reusable components and fast, interactive web applications."
     },
     {
       icon: <FaCode className="text-5xl text-[#dd0031]" />,
       title: "Angular",
-      description: "Angular is a comprehensive TypeScript-based framework for building dynamic web applications. Developed by Google, it provides a complete solution with built-in features like routing, forms, HTTP client, and more for enterprise-grade applications."
+      description: "Angular is a powerful framework developed by Google. It is used to build dynamic and large-scale web applications with strong features and structure."
     },
     {
       icon: <FaCode className="text-5xl text-[#42b883]" />,
       title: "Vue.js",
-      description: "Vue.js is a progressive JavaScript framework known for its simplicity and flexibility. It's incrementally adoptable, making it suitable for both small projects and large-scale applications with its intuitive API and excellent documentation."
+      description: "Vue.js is a simple and flexible JavaScript framework. It is easy to use and works well for both small and large projects."
     },
     {
       icon: <FaCode className="text-5xl text-[#fb9c24]" />,
       title: "Next.js",
-      description: "Next.js is a powerful React framework that enables server-side rendering and static site generation. It's optimized for production with features like automatic code splitting, optimized prefetching, and built-in CSS support."
+      description: "Next.js is a React framework that supports server-side rendering and fast performance. It is great for building SEO-friendly and high-speed websites."
     },
     {
       icon: <FaDatabase className="text-5xl text-[#4285F4]" />,
       title: "Express.js",
-      description: "Express.js is a minimal and flexible Node.js web application framework providing robust features for web and mobile applications. It's the de facto standard server framework for Node.js with middleware support."
+      description: "Express.js is a lightweight framework for Node.js. It helps build web and mobile applications quickly and efficiently."
     },
     {
       icon: <FaRocket className="text-5xl text-[#8B5CF6]" />,
       title: "Node.js",
-      description: "Node.js is a JavaScript runtime built on Chrome's V8 engine that allows developers to run JavaScript on the server side. It's perfect for building scalable network applications with its event-driven, non-blocking I/O model."
+      description: "Node.js allows developers to run JavaScript on the server. It is perfect for building fast and scalable backend applications."
     },
     {
       icon: <FaCode className="text-5xl text-[#10B981]" />,
       title: "Ember.js",
-      description: "Ember.js is an opinionated framework for ambitious web developers. It follows convention over configuration, providing a complete solution for building complex client-side applications with strong community support."
+      description: "Ember.js is a structured framework for building large web applications. It provides a complete solution with strong community support and built-in features like routing and data management."
     },
     {
       icon: <FaSync className="text-5xl text-[#EF4444]" />,
       title: "Svelte",
-      description: "Svelte is a radical new approach to building user interfaces. It compiles components at build time, resulting in highly optimized vanilla JavaScript that directly manipulates the DOM without virtual DOM overhead."
+      description: "Svelte is a modern framework that creates fast web applications. It compiles code into simple JavaScript for better performance."
     },
     {
       icon: <FaPlug className="text-5xl text-[#0ea5e9]" />,
       title: "jQuery",
-      description: "jQuery is a fast, small, and feature-rich JavaScript library. It simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development across browsers."
+      description: "jQuery is a simple and widely used JavaScript library. It makes tasks like animations and handling events easier."
     },
     {
       icon: <FaCode className="text-5xl text-[#f59e0b]" />,
       title: "Backbone.js",
-      description: "Backbone.js provides structure to web applications by providing models with key-value binding, custom events, collections, and connects it all to your existing API over a RESTful JSON interface."
+      description: "Backbone.js provides structure to web applications. It helps manage data and connect it with the user interface."
     },
     {
       icon: <FaTools className="text-5xl text-[#06b6d4]" />,
       title: "Meteor",
-      description: "Meteor is a full-stack JavaScript platform for developing modern web and mobile applications. It includes a key set of technologies for building connected-client reactive applications with real-time capabilities."
+      description: "Meteor is a full-stack JavaScript platform. It helps build real-time web and mobile applications quickly."
     },
     {
       icon: <FaLaptop className="text-5xl text-[#ec4899]" />,
       title: "Polymer",
-      description: "Polymer is a JavaScript library for building web applications using web components. It provides a set of features for creating custom reusable HTML elements with encapsulated functionality."
+      description: "Polymer is a library used to create reusable web components. It helps build modern and customizable web applications."
     }
   ];
 
@@ -89,17 +89,17 @@ function NextJS() {
     {
       icon: <FaCode className="text-5xl text-[#fb9c24]" />,
       title: "JavaScript Project Development",
-      description: "Build robust and scalable JavaScript applications tailored to your business needs. We develop custom solutions using modern JavaScript frameworks and libraries for optimal performance and maintainability."
+      description: "We build strong and scalable JavaScript applications based on your business needs. We use modern frameworks and libraries to ensure high performance and easy maintenance."
     },
     {
       icon: <FaPlug className="text-5xl text-[#4285F4]" />,
       title: "JavaScript Integration and Augmentation",
-      description: "Seamlessly integrate JavaScript solutions with your existing systems and enhance functionality. We provide expert integration services with third-party APIs, databases, and enterprise systems."
+      description: "We integrate JavaScript solutions into your existing systems. We also enhance functionality by connecting APIs, databases, and third-party services."
     },
     {
       icon: <FaSync className="text-5xl text-[#10B981]" />,
       title: "JavaScript Testing and Optimization",
-      description: "Ensure your JavaScript applications perform flawlessly with comprehensive testing and optimization. We implement automated testing, performance tuning, and code quality improvements."
+      description: "We test your applications carefully to ensure smooth performance. Our team improves speed, fixes issues, and enhances code quality."
     }
   ];
 
@@ -107,27 +107,27 @@ function NextJS() {
     {
       icon: <FaTachometerAlt className="text-5xl text-[#fb9c24]" />,
       title: "High Application Speed",
-      description: "JavaScript's asynchronous nature and optimized engines ensure fast execution and responsive user interfaces, providing excellent performance for modern web applications."
+      description: "JavaScript runs quickly and helps create fast and responsive web applications."
     },
     {
       icon: <FaUsers className="text-5xl text-[#4285F4]" />,
       title: "Enhanced User Experience",
-      description: "Create interactive and dynamic user interfaces that respond instantly to user actions without page reloads, delivering smooth and engaging experiences."
+      description: "It allows interactive and dynamic features that respond instantly to user actions."
     },
     {
       icon: <FaSync className="text-5xl text-[#10B981]" />,
       title: "Improved Functionality",
-      description: "JavaScript enables rich client-side functionality including form validation, dynamic content updates, animations, and real-time features that enhance application capabilities."
+      description: "JavaScript supports features like form validation, live updates, animations, and real-time interactions."
     },
     {
       icon: <FaGlobe className="text-5xl text-[#8B5CF6]" />,
       title: "Cross-Browser Compatibility",
-      description: "JavaScript works seamlessly across all major browsers with consistent behavior, ensuring your application reaches the widest possible audience without compatibility issues."
+      description: "JavaScript works smoothly across all major browsers, ensuring a consistent user experience."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#EF4444]" />,
       title: "Versatility",
-      description: "Use JavaScript for full-stack development - frontend, backend (Node.js), mobile apps (React Native), and even desktop applications (Electron), providing a unified development experience."
+      description: "JavaScript can be used for frontend, backend (Node.js), mobile apps, and even desktop applications, making it a flexible and powerful technology."
     }
   ];
 
@@ -135,22 +135,22 @@ function NextJS() {
     {
       icon: <FaUsers className="text-5xl text-[#fb9c24]" />,
       title: "Experienced JavaScript Developers",
-      description: "Our team consists of highly skilled JavaScript developers with extensive experience across various frameworks and libraries, delivering enterprise-grade solutions."
+      description: "Our team includes skilled JavaScript developers with experience in different frameworks and libraries. We build strong and reliable web applications for all types of businesses."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#4285F4]" />,
       title: "Comprehensive Web Development Services",
-      description: "We provide end-to-end JavaScript development services from planning and design to development, testing, deployment, and ongoing support."
+      description: "We offer complete JavaScript development services, including planning, design, development, testing, deployment, and ongoing support."
     },
     {
       icon: <FaClock className="text-5xl text-[#10B981]" />,
       title: "On-Time Delivery",
-      description: "We follow agile methodologies and maintain strict project timelines to ensure your JavaScript projects are delivered on schedule without compromising quality."
+      description: "We follow proper project management methods to make sure your project is delivered on time without affecting quality."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#8B5CF6]" />,
       title: "Quality Assurance",
-      description: "We implement rigorous testing procedures including unit tests, integration tests, and end-to-end testing to deliver bug-free, reliable JavaScript applications."
+      description: "We perform detailed testing, including unit testing and integration testing, to ensure your application runs smoothly and without errors."
     }
   ];
 
@@ -191,7 +191,8 @@ function NextJS() {
                 Company
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Step2gen Technologies is a leading JavaScript development company based in India that specializes in delivering high-quality, scalable web applications. Our experienced JavaScript developers are experts in modern frameworks and libraries like React, Angular, Vue.js, Node.js, and Next.js. We create dynamic, interactive, and responsive web solutions that drive business growth and deliver exceptional user experiences across all devices and platforms.
+                At BTJ Alpha Technology, Step2gen Technologies is a trusted JavaScript development company in India. We build high-quality and scalable web applications for businesses of all sizes.
+                Our skilled JavaScript developers work with modern technologies like React, Angular, Vue.js, Node.js, and Next.js. We create fast, interactive, and user-friendly websites and applications that work smoothly on all devices.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -291,13 +292,11 @@ function NextJS() {
             {/* Right Content */}
             <div data-aos="fade-left">
               <p className="text-gray-600 leading-relaxed mb-6">
-                Our skilled JavaScript developers have vast industry experience and can handle complex projects that involve advanced problem-solving capabilities. From creating interactive user interfaces to building robust server-side applications, our team delivers comprehensive JavaScript solutions.
-              </p>
+                Our experienced JavaScript developers can handle simple to complex projects with ease. We build interactive user interfaces and strong server-side applications to deliver complete JavaScript solutions.</p>
               <p className="text-gray-600 leading-relaxed mb-6">
-                We stay updated with the latest JavaScript trends, frameworks, and best practices to ensure your applications are built with cutting-edge technology. Our developers are proficient in ES6+, TypeScript, and modern JavaScript patterns.
-              </p>
+                Our team stays updated with the latest JavaScript trends, tools, and best practices. We work with modern technologies like ES6+, TypeScript, React, Vue.js, and Node.js to build powerful and future-ready applications.</p>
               <p className="text-gray-600 leading-relaxed">
-                Whether you need frontend development with React or Vue.js, backend development with Node.js, or full-stack solutions, our team has the expertise to turn your vision into reality with clean, maintainable, and scalable code.
+                Whether you need frontend development, backend development, or full-stack solutions, we have the skills to turn your ideas into clean, scalable, and high-performing applications.
               </p>
             </div>
           </div>
@@ -311,6 +310,7 @@ function NextJS() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Our JavaScript Development Frameworks
             </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">We work with popular and modern JavaScript frameworks to build fast, secure, and scalable web applications.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -337,6 +337,7 @@ function NextJS() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Our JavaScript Services
             </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">We provide complete JavaScript solutions to help your business grow and succeed online.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -363,6 +364,7 @@ function NextJS() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               What Are The Benefits of Using JavaScript?
             </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">JavaScript offers many advantages for modern web development.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -408,6 +410,8 @@ function NextJS() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Step2gen: The Right Choice for JavaScript Web Development
             </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">We provide reliable and high-quality JavaScript development services to help your business succeed online.
+            </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -437,8 +441,9 @@ function NextJS() {
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             Ready to Start a New Project? JavaScript Development Solutions.
           </h2>
+
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to build powerful, scalable JavaScript applications that drive your business forward.
+            Work with us to build powerful and scalable JavaScript applications that help your business grow.
           </p>
           <button
             onClick={openForm}
@@ -475,9 +480,8 @@ function NextJS() {
                   )}
                 </button>
                 <div
-                  className={`transition-all duration-300 overflow-hidden ${
-                    openFAQ === index ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
-                  }`}
+                  className={`transition-all duration-300 overflow-hidden ${openFAQ === index ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+                    }`}
                 >
                   <p className="p-5 pt-0 text-gray-600 leading-relaxed border-t border-gray-100">
                     {faq.answer}

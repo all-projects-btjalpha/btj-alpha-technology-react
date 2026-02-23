@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaCloud, FaAws, FaServer, FaRocket, FaShieldAlt, FaChartLine,
   FaCheckCircle, FaChevronDown, FaChevronUp, FaCogs, FaDatabase,
   FaLock, FaCode, FaGlobe, FaTachometerAlt, FaUsers, FaDollarSign
@@ -30,8 +30,8 @@ function CloudServices() {
 
   const choosingServices = [
     {
-      title: "Choosing Suitable Cloud Services Based on Client Business Requirements",
-      description: "At BTJ Alpha Technologies, we understand that every business has unique cloud requirements. Our team of cloud experts works closely with you to assess your specific needs, workload characteristics, compliance requirements, and budget constraints. We then recommend and implement the most suitable cloud solutions - whether it's AWS, Azure, Google Cloud, or a multi-cloud approach - ensuring optimal performance, cost-efficiency, and scalability for your business operations."
+      title: "Choosing the Right Cloud Services for Your Business",
+      description: "At BTJ Alpha Technologies, we know that every business has different cloud needs.Our cloud experts work closely with you to understand:  Your business goals,Your workload and performance needs,Security and compliance requirements,Your budget"
     }
   ];
 
@@ -40,39 +40,39 @@ function CloudServices() {
       icon: <SiAmazon className="text-5xl" />,
       title: "AWS",
       color: "#FF9900",
-      description: "Amazon Web Services (AWS) is the world's most comprehensive cloud platform with over 200 services. We leverage AWS to build scalable, secure, and cost-effective solutions including EC2, S3, Lambda, RDS, and more for hosting, storage, computing, and database needs."
+      description: "AWS is one of the most comprehensive cloud platforms in the world, offering over 200 services.We use AWS to build:  Secure and scalable applications,Reliable hosting and storage solutions,High-performance computing systems,Managed databases"
     },
     {
       icon: <FaCloud className="text-5xl" style={{ color: "#0078D4" }} />,
-      title: "Azure",
+      title: " Microsoft Azure",
       color: "#0078D4",
-      description: "Microsoft Azure offers integrated cloud services for analytics, computing, databases, mobile, networking, storage, and web applications. We utilize Azure's powerful enterprise features including Azure Active Directory, Virtual Machines, App Services, and SQL Database for seamless integration."
+      description: "Azure provides integrated cloud services for businesses of all sizes.We use Azure for:  Virtual machines and infrastructure,Data storage and databases,Networking solutions,Enterprise integration"
     },
     {
       icon: <SiGooglecloud className="text-5xl" />,
       title: "Google Cloud Platform",
       color: "#4285F4",
-      description: "Google Cloud Platform delivers secure, open, intelligent, and transformative cloud services. We harness GCP's strengths in BigQuery, Cloud Functions, Kubernetes Engine, and AI/ML services to build modern, data-driven applications with global reach."
+      description: "Google Cloud Platform delivers secure and intelligent cloud solutions.We use GCP to build:  Data-driven applications,AI and machine learning solutions,Scalable web services,Global cloud deployments"
     },
     {
       icon: <FaCloud className="text-5xl text-cyan-500" />,
-      title: "AWS Cloud",
-      description: "AWS Cloud provides on-demand computing resources with pay-as-you-go pricing. We design and implement AWS architectures that are highly available, fault-tolerant, and optimized for cost, leveraging services like EC2, S3, CloudFront, and Route 53."
+      title: "AWS Cloud Architecture",
+      description: "We design AWS cloud environments that are: Cost-effective,Highly available,Fault-tolerant,Optimized for performance"
     },
     {
       icon: <FaServer className="text-5xl text-blue-500" />,
       title: "IaaS",
-      description: "Infrastructure as a Service (IaaS) gives you complete control over computing resources without managing physical servers. We provision and manage virtual machines, storage, networks, and operating systems tailored to your specific infrastructure requirements."
+      description: "IaaS gives you full control over your infrastructure without managing physical hardware.We provide: Virtual machines,Storage solutions,Networking setup,Operating system management"
     },
     {
       icon: <FaCloud className="text-5xl text-purple-500" />,
       title: "Github Actions",
-      description: "GitHub Actions enables CI/CD automation directly in your repository. We set up workflows for automated testing, building, and deployment to cloud platforms, streamlining your development pipeline and ensuring code quality with every commit."
+      description: "GitHub Actions helps automate your development process.We set up:  CI/CD pipelines,Automated testing,Application builds,Cloud deployments"
     },
     {
       icon: <FaGlobe className="text-5xl text-green-500" />,
       title: "Kubernetes",
-      description: "Kubernetes orchestrates containerized applications at scale. We design and deploy Kubernetes clusters on AWS EKS, Azure AKS, or Google GKE, managing container deployment, scaling, and operations with high availability and zero downtime updates."
+      description: "Kubernetes manages containerized applications at scale.We design and deploy Kubernetes clusters to: Automate container deployment,Scale applications easily,Ensure high availability,Enable zero-downtime updates"
     }
   ];
 
@@ -130,41 +130,42 @@ function CloudServices() {
     {
       icon: <FaTachometerAlt className="text-5xl text-[#fb9c24]" />,
       title: "Scalability",
-      description: "Scale resources up or down instantly based on demand without infrastructure investment."
+      description: "Easily increase or decrease resources based on demand.No need to invest in expensive hardware upfront."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-green-600" />,
       title: "Reliability",
-      description: "99.99% uptime SLA with redundancy and automatic failover capabilities."
+      description: "Enjoy high availability (up to 99.99% uptime).Built-in redundancy and automatic failover keep systems running smoothly."
     },
     {
       icon: <FaDollarSign className="text-5xl text-blue-600" />,
       title: "Cost Efficiency",
-      description: "Pay only for what you use with no upfront costs or long-term commitments."
+      description: "Pay only for what you use. No large upfront investments or long-term commitments required."
     },
     {
       icon: <FaGlobe className="text-5xl text-purple-600" />,
       title: "Global Reach",
-      description: "Deploy applications in multiple regions worldwide for low-latency access."
+      description: "Deploy applications in multiple regions worldwide.Provide fast and low-latency access to users across the globe."
     }
   ];
 
   const whyChooseUs = [
     {
       title: "Certified Cloud Experts",
-      description: "Our team holds multiple cloud certifications from AWS, Azure, and Google Cloud, ensuring best practices implementation."
+      description: "Our team holds certifications across AWS, Azure, and Google Cloud. We follow industry best practices to deliver secure and optimized solutions."
+
     },
     {
       title: "24/7 Support & Monitoring",
-      description: "Round-the-clock monitoring and support to ensure your cloud infrastructure runs smoothly without interruptions."
+      description: "Round-the-clock monitoring ensures your cloud infrastructure runs without interruption.Quick issue resolution minimizes downtime."
     },
     {
       title: "Cost Optimization",
-      description: "We continuously optimize your cloud spending through right-sizing, reserved instances, and spot instances strategies."
+      description: "We continuously optimize your cloud spending.This includes right-sizing resources, using reserved instances, and leveraging spot instances."
     },
     {
       title: "Security First Approach",
-      description: "Implementation of industry-standard security practices including encryption, IAM policies, and compliance requirements."
+      description: "We implement strong security measures such as:  Data encryption,Identity and Access Management (IAM) policies,Compliance with industry standards"
     }
   ];
 
@@ -205,7 +206,8 @@ function CloudServices() {
                 Services
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                At BTJ Alpha Technologies, we offer comprehensive cloud computing solutions that help businesses migrate, manage, and optimize their infrastructure on AWS, Azure, and Google Cloud Platform. Our cloud experts ensure seamless deployment, robust security, and cost-effective scaling for your applications.
+                At BTJ Alpha Technologies, we provide complete cloud computing solutions to help businesses move, manage, and optimize their infrastructure with confidence.
+                We support leading cloud platforms like AWS, Microsoft Azure, and Google Cloud Platform to ensure secure, scalable, and high-performing environments for your applications.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -296,10 +298,11 @@ function CloudServices() {
                 Transform Your Web Application Quality with Cloud Services
               </h2>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Cloud services have revolutionized the way we build and deploy web applications. By leveraging cloud infrastructure, businesses can achieve unprecedented scalability, reliability, and performance.
+                Cloud services have changed the way businesses build and manage web applications. With the right cloud infrastructure, you can improve scalability, reliability, and overall performance.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                Our cloud solutions enable you to focus on innovation while we handle the infrastructure complexity, ensuring your applications run smoothly and efficiently across global data centers.
+                Our cloud solutions help you focus on innovation while we manage the technical infrastructure. We ensure your applications run smoothly, securely, and efficiently across global data centers.
+
               </p>
             </div>
           </div>
@@ -327,6 +330,7 @@ function CloudServices() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Cloud Solutions
             </h2>
+            <p className="text-gray-600 max-w-4xl mx-auto leading-relaxed">We provide reliable, secure, and scalable cloud solutions to help your business grow. Our team works with leading cloud platforms and modern tools to deliver the best results.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -387,6 +391,7 @@ function CloudServices() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Platforms and Technologies
             </h2>
+            <p className="text-gray-600 max-w-4xl mx-auto leading-relaxed">This section highlights key platforms and tools used for building, deploying, and managing modern cloud applications.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -419,6 +424,8 @@ function CloudServices() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Benefits of Cloud Services
             </h2>
+            <p className="text-gray-600 max-w-4xl mx-auto leading-relaxed">Cloud services help businesses grow faster, reduce costs, and improve performance.
+            </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -476,7 +483,8 @@ function CloudServices() {
             Ready to Take your Business to the Next Level?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Let our cloud experts help you migrate, optimize, and scale your infrastructure on the cloud.
+            Let our cloud experts help you migrate, optimize, and scale your infrastructure in the cloud.We provide:  Smooth cloud migration,Infrastructure optimization,Scalable and secure cloud solutions
+
           </p>
           <button
             onClick={openForm}
@@ -513,9 +521,8 @@ function CloudServices() {
                   )}
                 </button>
                 <div
-                  className={`transition-all duration-300 overflow-hidden ${
-                    openFAQ === index ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
-                  }`}
+                  className={`transition-all duration-300 overflow-hidden ${openFAQ === index ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+                    }`}
                 >
                   <p className="p-5 pt-0 text-gray-600 leading-relaxed border-t border-gray-100">
                     {faq.answer}
