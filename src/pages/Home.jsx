@@ -51,17 +51,45 @@ function Home() {
     });
   }, []);
   
-  // Rotating text animation
+  // Typewriter text animation
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
+  const [currentText, setCurrentText] = useState('');
+  const [isDeleting, setIsDeleting] = useState(false);
+  const [typingSpeed, setTypingSpeed] = useState(150);
   const rotatingWords = ["Solutions", "Technology", "Innovation", "Transformation"];
   
   useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentWordIndex((prevIndex) => (prevIndex + 1) % rotatingWords.length);
-    }, 3000); // Change word every 3 seconds
+    const currentWord = rotatingWords[currentWordIndex];
     
-    return () => clearInterval(interval);
-  }, []);
+    if (!isDeleting && currentText.length < currentWord.length) {
+      // Typing forward
+      const timer = setTimeout(() => {
+        setCurrentText(currentWord.substring(0, currentText.length + 1));
+        setTypingSpeed(150);
+      }, typingSpeed);
+      
+      return () => clearTimeout(timer);
+    } else if (isDeleting && currentText.length > 0) {
+      // Deleting
+      const timer = setTimeout(() => {
+        setCurrentText(currentWord.substring(0, currentText.length - 1));
+        setTypingSpeed(75);
+      }, typingSpeed);
+      
+      return () => clearTimeout(timer);
+    } else if (!isDeleting && currentText.length === currentWord.length && currentWord !== '') {
+      // Pause at end of word
+      const pauseTimer = setTimeout(() => {
+        setIsDeleting(true);
+      }, 1500);
+      
+      return () => clearTimeout(pauseTimer);
+    } else if (isDeleting && currentText.length === 0) {
+      // Move to next word
+      setIsDeleting(false);
+      setCurrentWordIndex((prevIndex) => (prevIndex + 1) % rotatingWords.length);
+    }
+  }, [currentText, isDeleting, currentWordIndex, rotatingWords, typingSpeed]);
   
   // Counter Animation Effect
   useEffect(() => {
@@ -182,14 +210,9 @@ function Home() {
               <h1 className="text-5xl max-lg:text-5xl max-md:text-4xl font-extrabold mt-4 leading-tight">
                 Transform Your Business <br className="max-md:hidden" />
                 with Digital{" "}
-                <span 
-                  key={currentWordIndex}
-                  className="inline-block bg-gradient-to-r from-[#fb9c24] via-yellow-400 to-orange-500 bg-clip-text text-transparent animate-fadeInScale"
-                  style={{
-                    animation: 'fadeInScale 0.8s ease-in-out'
-                  }}
-                >
-                  {rotatingWords[currentWordIndex]}
+                <span className="inline-block bg-gradient-to-r from-[#fb9c24] via-yellow-400 to-orange-500 bg-clip-text text-transparent">
+                  {currentText}
+                  <span className="typewriter-cursor">|</span>
                 </span>
               </h1>
               <p className="mt-6 text-lg max-md:text-base leading-relaxed w-[90%] max-md:w-full text-gray-100">
@@ -1200,6 +1223,180 @@ With over a decade of industry expertise, we help businesses adapt, innovate, an
           </div>
         </div>
 
+
+
+
+      {/* ksxsxiio */}
+
+      <div className="bg-gradient-to-b from-gray-50 to-white py-16 max-md:py-10">
+          <div className="container mx-auto px-4 max-w-7xl">
+            <div className="flex max-lg:flex-col-reverse gap-8 items-center">
+              {/* Cards Grid */}
+              <div className="grid grid-cols-2 max-md:grid-cols-1 gap-6 w-full lg:w-[65%]">
+                {/* Card 1 - Website Development */}
+                <div className="group bg-white hover:bg-gradient-to-br hover:from-[#fb9c24] hover:to-[#ff8c00] rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                  <div className="flex w-20 h-20 bg-gradient-to-br from-[#fb9c24] to-[#ff8c00] group-hover:from-white group-hover:to-white rounded-2xl items-center justify-center mb-4 shadow-md transition-all duration-300">
+                    <img
+                      src={ecommerce}
+                      alt="Website Development"
+                      className="h-10 w-10 filter brightness-0 invert group-hover:brightness-100 group-hover:invert-0 group-hover:scale-110 transition-all duration-300"
+                    />
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-800 group-hover:text-white mb-3 transition-colors duration-300">
+                    Website Development
+                  </h3>
+                  <p className="text-gray-600 group-hover:text-white/90 text-sm leading-relaxed transition-colors duration-300">
+                    Custom, secure, and scalable websites designed 
+                    to deliver outstanding performance and user engagement.
+                  </p>
+                </div>
+
+                {/* Card 2 - Bulk SMS */}
+                <div className="group bg-white hover:bg-gradient-to-br hover:from-[#fb9c24] hover:to-[#ff8c00] rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                  <div className="flex w-20 h-20 bg-gradient-to-br from-[#fb9c24] to-[#ff8c00] group-hover:from-white group-hover:to-white rounded-2xl items-center justify-center mb-4 shadow-md transition-all duration-300">
+                    <img
+                      src={web}
+                      alt="Bulk SMS"
+                      className="h-10 w-10 filter brightness-0 invert group-hover:brightness-100 group-hover:invert-0 group-hover:scale-110 transition-all duration-300"
+                    />
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-800 group-hover:text-white mb-3 transition-colors duration-300">
+                    Bulk SMS
+                  </h3>
+                  <p className="text-gray-600 group-hover:text-white/90 text-sm leading-relaxed transition-colors duration-300">
+                    Reliable and fast bulk SMS marketing solutions 
+                    that help businesses reach thousands of customers instantly.
+                  </p>
+                </div>
+
+                {/* Card 3 - Responsive Website Designing */}
+                <div className="group bg-white hover:bg-gradient-to-br hover:from-[#fb9c24] hover:to-[#ff8c00] rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                  <div className="flex w-20 h-20 bg-gradient-to-br from-[#fb9c24] to-[#ff8c00] group-hover:from-white group-hover:to-white rounded-2xl items-center justify-center mb-4 shadow-md transition-all duration-300">
+                    <img
+                      src={responsive}
+                      alt="Responsive Website Designing"
+                      className="h-10 w-10 filter brightness-0 invert group-hover:brightness-100 group-hover:invert-0 group-hover:scale-110 transition-all duration-300"
+                    />
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-800 group-hover:text-white mb-3 transition-colors duration-300">
+                    Responsive Website Designing
+                  </h3>
+                  <p className="text-gray-600 group-hover:text-white/90 text-sm leading-relaxed transition-colors duration-300">
+                  Mobile-first and cross-device compatible designs 
+                  that provide seamless experiences across all platforms
+                  </p>
+                </div>
+
+                {/* Card 4 - Social Media Marketing */}
+                <div className="group bg-white hover:bg-gradient-to-br hover:from-[#fb9c24] hover:to-[#ff8c00] rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                  <div className="flex w-20 h-20 bg-gradient-to-br from-[#fb9c24] to-[#ff8c00] group-hover:from-white group-hover:to-white rounded-2xl items-center justify-center mb-4 shadow-md transition-all duration-300">
+                    <img
+                      src={settings}
+                      alt="Social Media Marketing"
+                      className="h-10 w-10 filter brightness-0 invert group-hover:brightness-100 group-hover:invert-0 group-hover:scale-110 transition-all duration-300"
+                    />
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-800 group-hover:text-white mb-3 transition-colors duration-300">
+                    Social Media Marketing (SMM)
+                  </h3>
+                  <p className="text-gray-600 group-hover:text-white/90 text-sm leading-relaxed transition-colors duration-300">
+                    Strategic social media campaigns that build brand awareness, 
+                    engage audiences, and drive targeted traffic.
+                  </p>
+                </div>
+              </div>
+              
+              {/* Content & Image Section */}
+              <div className="w-full lg:w-[35%] space-y-6">
+                <div className="bg-gradient-to-br from-white to-gray-50 rounded-2xl p-8 max-md:p-6 shadow-xl">
+                  <h1 className="text-4xl max-md:text-3xl font-bold text-gray-800 mb-4">
+                    Website Design <span className="text-[#fb9c24]">Services</span>
+                  </h1>
+                  <p className="text-gray-600 leading-relaxed text-base">
+                   We design modern, responsive, and mobile-friendly websites 
+                   that reflect your brand identity and maximize conversions.
+                  </p>
+                </div>
+                <div className="flex justify-center">
+                  <img
+                    src={programming}
+                    alt="Website Design Illustration"
+                    className="h-80 max-md:h-64 w-auto drop-shadow-2xl hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Agency Section Start here*/}
+         <div className="bg-white py-20 px-8 max-md:px-6 max-md:py-14">
+          {/* Section Header */}
+          <div className="text-center mb-16 max-md:mb-12">
+            <h2 className="text-5xl max-lg:text-4xl max-md:text-3xl font-bold text-gray-900 mb-6">
+              Technology <span className="text-[#fb9c24]">Stack We Use</span>
+            </h2>
+            <p className="text-gray-500 text-lg max-md:text-base max-w-4xl mx-auto leading-relaxed px-4">
+              We leverage cutting-edge technologies and frameworks to build robust, scalable, and innovative solutions that drive your business forward.
+            </p>
+          </div>
+
+          {/* Technologies Grid */}
+          <div className="max-w-7xl mx-auto grid grid-cols-8 max-lg:grid-cols-6 max-md:grid-cols-4 max-sm:grid-cols-2 gap-6 max-lg:gap-5 max-md:gap-4 px-6">
+            {technologies.map((tech, index) => (
+              <div
+                key={index}
+                className="bg-gradient-to-br from-gray-100 via-gray-50 to-gray-100 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 p-5 max-md:p-4 flex flex-col items-center justify-center min-h-[150px] max-md:min-h-[130px] group cursor-pointer"
+              >
+                <div className="mb-4 max-md:mb-3 transition-transform duration-300 group-hover:scale-110">
+                  <img
+                    src={tech.icon}
+                    alt={tech.name}
+                    className="h-20 w-20 max-md:h-16 max-md:w-16 object-contain drop-shadow-md"
+                  />
+                </div>
+                <span className={`font-bold text-center text-sm max-md:text-xs transition-colors duration-300 ${
+                  tech.name === 'Google Cloud' 
+                    ? 'text-gray-800 group-hover:text-[#4285F4]' 
+                    : tech.name === 'WordPress'
+                    ? 'text-gray-800 group-hover:text-[#464646]'
+                    : tech.name === 'ASP.net'
+                    ? 'text-gray-800 group-hover:text-[#512BD4]'
+                    : tech.name === 'MySQL'
+                    ? 'text-gray-800 group-hover:text-[#00758F]'
+                    : tech.name === 'HTML'
+                    ? 'text-gray-800 group-hover:text-[#E44D26]'
+                    : tech.name === 'React'
+                    ? 'text-gray-800 group-hover:text-[#61DAFB]'
+                    : tech.name === 'CSS'
+                    ? 'text-gray-800 group-hover:text-[#264DE4]'
+                    : tech.name === 'JavaScript'
+                    ? 'text-gray-800 group-hover:text-[#F7DF1E]'
+                    : tech.name === 'CodeIgniter'
+                    ? 'text-gray-800 group-hover:text-[#EF4223]'
+                    : tech.name === 'Azure'
+                    ? 'text-gray-800 group-hover:text-[#0078D4]'
+                    : tech.name === 'Shopify'
+                    ? 'text-gray-800 group-hover:text-[#96bf48]'
+                    : tech.name === 'Angular'
+                    ? 'text-gray-800 group-hover:text-[#DD0031]'
+                    : tech.name === 'Photoshop'
+                    ? 'text-gray-800 group-hover:text-[#31A8FF]'
+                    : tech.name === 'Illustrator'
+                    ? 'text-gray-800 group-hover:text-[#FF9A00]'
+                    : tech.name === 'Figma'
+                    ? 'text-gray-800 group-hover:text-[#F24E1E]'
+                    : tech.name === 'Bootstrap'
+                    ? 'text-gray-800 group-hover:text-[#7952B3]'
+                    : 'text-gray-800 group-hover:text-[#fb9c24]'
+                }`}>
+                  {tech.name}
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+
         {/* About Section End here */}
 
         {/* Marketing Section Start here */}
@@ -1565,8 +1762,8 @@ Our SMO Strategy Includes:
 
         {/* Agency Section Start here */}
 
-        <div className="bg-white py-20 px-8 max-md:px-6 max-md:py-14">
-          {/* Section Header */}
+        {/* <div className="bg-white py-20 px-8 max-md:px-6 max-md:py-14">
+        
           <div className="text-center mb-16 max-md:mb-12">
             <h2 className="text-5xl max-lg:text-4xl max-md:text-3xl font-bold text-gray-900 mb-6">
               Technology <span className="text-[#fb9c24]">Stack We Use</span>
@@ -1576,7 +1773,7 @@ Our SMO Strategy Includes:
             </p>
           </div>
 
-          {/* Technologies Grid */}
+       
           <div className="max-w-7xl mx-auto grid grid-cols-8 max-lg:grid-cols-6 max-md:grid-cols-4 max-sm:grid-cols-2 gap-6 max-lg:gap-5 max-md:gap-4 px-6">
             {technologies.map((tech, index) => (
               <div
@@ -1630,18 +1827,18 @@ Our SMO Strategy Includes:
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* Agency Section End here */}
 
         {/* Offering Section Start here             mt-5 pb-10           mb-5 max-md:mb-0      */}    
 
-        <div className="bg-gradient-to-b from-gray-50 to-white py-16 max-md:py-10">
+        {/* <div className="bg-gradient-to-b from-gray-50 to-white py-16 max-md:py-10">
           <div className="container mx-auto px-4 max-w-7xl">
             <div className="flex max-lg:flex-col-reverse gap-8 items-center">
-              {/* Cards Grid */}
+            
               <div className="grid grid-cols-2 max-md:grid-cols-1 gap-6 w-full lg:w-[65%]">
-                {/* Card 1 - Website Development */}
+               
                 <div className="group bg-white hover:bg-gradient-to-br hover:from-[#fb9c24] hover:to-[#ff8c00] rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                   <div className="flex w-20 h-20 bg-gradient-to-br from-[#fb9c24] to-[#ff8c00] group-hover:from-white group-hover:to-white rounded-2xl items-center justify-center mb-4 shadow-md transition-all duration-300">
                     <img
@@ -1659,7 +1856,7 @@ Our SMO Strategy Includes:
                   </p>
                 </div>
 
-                {/* Card 2 - Bulk SMS */}
+            
                 <div className="group bg-white hover:bg-gradient-to-br hover:from-[#fb9c24] hover:to-[#ff8c00] rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                   <div className="flex w-20 h-20 bg-gradient-to-br from-[#fb9c24] to-[#ff8c00] group-hover:from-white group-hover:to-white rounded-2xl items-center justify-center mb-4 shadow-md transition-all duration-300">
                     <img
@@ -1677,7 +1874,7 @@ Our SMO Strategy Includes:
                   </p>
                 </div>
 
-                {/* Card 3 - Responsive Website Designing */}
+               
                 <div className="group bg-white hover:bg-gradient-to-br hover:from-[#fb9c24] hover:to-[#ff8c00] rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                   <div className="flex w-20 h-20 bg-gradient-to-br from-[#fb9c24] to-[#ff8c00] group-hover:from-white group-hover:to-white rounded-2xl items-center justify-center mb-4 shadow-md transition-all duration-300">
                     <img
@@ -1695,7 +1892,7 @@ Our SMO Strategy Includes:
                   </p>
                 </div>
 
-                {/* Card 4 - Social Media Marketing */}
+                
                 <div className="group bg-white hover:bg-gradient-to-br hover:from-[#fb9c24] hover:to-[#ff8c00] rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                   <div className="flex w-20 h-20 bg-gradient-to-br from-[#fb9c24] to-[#ff8c00] group-hover:from-white group-hover:to-white rounded-2xl items-center justify-center mb-4 shadow-md transition-all duration-300">
                     <img
@@ -1714,7 +1911,7 @@ Our SMO Strategy Includes:
                 </div>
               </div>
               
-              {/* Content & Image Section */}
+             
               <div className="w-full lg:w-[35%] space-y-6">
                 <div className="bg-gradient-to-br from-white to-gray-50 rounded-2xl p-8 max-md:p-6 shadow-xl">
                   <h1 className="text-4xl max-md:text-3xl font-bold text-gray-800 mb-4">
@@ -1735,7 +1932,7 @@ Our SMO Strategy Includes:
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Offering Section End here */}
       </main>

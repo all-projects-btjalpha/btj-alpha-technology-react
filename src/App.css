@@ -175,6 +175,35 @@
   animation: floatCube 4s ease-in-out infinite;
 }
 
+/* Typewriter Text Animation */
+@keyframes typewriter {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  100% {
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+.animate-typewriter {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typewriter 1s steps(40, end) 1s 1 normal both;
+}
+
+/* Cursor Animation */
+.typewriter-cursor {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
 /* Circle Container for Logo - Connected with Icons */
 .logo-circle-container {
   position: relative;

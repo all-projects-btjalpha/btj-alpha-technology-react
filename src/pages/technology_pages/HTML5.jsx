@@ -25,17 +25,17 @@ function HTML5() {
     {
       icon: <FaHtml5 className="text-5xl text-[#e34f26]" />,
       title: "Semantic HTML",
-      description: "Modern semantic elements for better structure, accessibility, and SEO optimization."
+      description: "Uses modern and meaningful elements that improve structure, accessibility, and SEO."
     },
     {
       icon: <FaCode className="text-5xl text-[#e34f26]" />,
       title: "Multimedia Support",
-      description: "Native audio and video support without plugins for rich media experiences."
+      description: "Supports audio and video without needing extra plugins."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#e34f26]" />,
       title: "Responsive Design",
-      description: "Built-in features for creating responsive, mobile-friendly websites."
+      description: "Built-in features help create websites that work smoothly on all devices."
     },
     {
       icon: <FaSearch className="text-5xl text-[#e34f26]" />,
@@ -142,7 +142,8 @@ function HTML5() {
                 Company
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Build modern, semantic web pages with HTML5. Our developers create well-structured, accessible, and SEO-friendly websites using the latest HTML5 standards and best practices.
+                We build modern and well-structured websites using HTML5.
+                Our developers create clean, accessible, and SEO-friendly web pages by following the latest HTML5 standards and best practices.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
