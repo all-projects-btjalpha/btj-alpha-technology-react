@@ -25,27 +25,27 @@ function Databases() {
     {
       icon: <FaDatabase className="text-5xl text-blue-600" />,
       title: "Database Integration",
-      description: "Seamlessly integrate databases with your applications, ensuring smooth data flow and real-time synchronization across all your systems and platforms."
+      description: "Seamlessly connect your databases with websites, applications, and third-party systems. We ensure smooth data flow and real-time synchronization across all platforms."
     },
     {
       icon: <FaServer className="text-5xl text-green-600" />,
       title: "Database Migration",
-      description: "Migrate your databases from legacy systems to modern platforms without data loss. We handle everything from planning to execution with minimal downtime."
+      description: "Move your databases from legacy systems to modern platforms without data loss. From planning to final execution, we handle the entire process with minimal downtime."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-orange-600" />,
       title: "Database Management and Support",
-      description: "24/7 database management and support services including monitoring, maintenance, performance tuning, and troubleshooting to keep your databases running smoothly."
+      description: "Get 24/7 database management and support services, including monitoring, maintenance, performance tuning, and troubleshooting to keep your systems running smoothly."
     },
     {
       icon: <FaCogs className="text-5xl text-purple-600" />,
       title: "Database Monitoring and Management",
-      description: "Real-time database performance monitoring and management tools that provide insights into query performance, resource utilization, and potential bottlenecks."
+      description: "Real-time performance monitoring tools help identify query issues, resource usage, and potential bottlenecks. We optimize your database to ensure maximum efficiency."
     },
     {
       icon: <FaChartBar className="text-5xl text-cyan-600" />,
       title: "Data Analytics and Reporting",
-      description: "Transform your raw data into actionable insights with advanced analytics and custom reporting solutions that help drive business decisions."
+      description: "Turn your raw data into meaningful insights. Our advanced analytics and custom reporting solutions help you make smarter business decisions."
     }
   ];
 
@@ -54,55 +54,55 @@ function Databases() {
       name: "MySQL",
       icon: <SiMysql className="text-6xl" />,
       color: "#4479A1",
-      description: "The world's most popular open-source relational database management system, known for reliability and ease of use."
+      description: "One of the world’s most popular open-source relational database systems. It is known for reliability, stability, and ease of use, making it ideal for web applications and business systems."
     },
     {
       name: "MS SQL",
       icon: <FaDatabase className="text-6xl" />,
       color: "#CC2927",
-      description: "Microsoft's enterprise-grade relational database with powerful features for mission-critical applications."
+      description: "Microsoft’s enterprise-grade relational database designed for mission-critical applications. It offers strong security, high performance, and advanced data management features."
     },
     {
       name: "PostgreSQL",
       icon: <SiPostgresql className="text-6xl" />,
       color: "#336791",
-      description: "Advanced open-source database with support for complex queries, JSON data, and enterprise-level features."
+      description: "An advanced open-source database known for handling complex queries, JSON data, and enterprise-level workloads with excellent performance and flexibility."
     },
     {
       name: "MongoDB",
       icon: <SiMongodb className="text-6xl" />,
       color: "#47A248",
-      description: "Leading NoSQL document database offering flexibility, scalability, and performance for modern applications."
+      description: "A leading NoSQL document database that provides flexibility, scalability, and high performance for modern and data-driven applications."
     },
     {
       name: "Redis",
       icon: <SiRedis className="text-6xl" />,
       color: "#DC382D",
-      description: "In-memory data structure store used as database, cache, and message broker for high-performance applications."
+      description: "An in-memory data store used as a database, cache, and message broker. It is perfect for high-speed applications that require real-time data processing."
     },
     {
       name: "Amazon DynamoDB",
       icon: <SiAmazon className="text-6xl" />,
       color: "#FF9900",
-      description: "Fully managed NoSQL database service by AWS that provides fast and predictable performance with seamless scalability."
+      description: "A fully managed NoSQL database service by AWS that delivers fast, predictable performance with automatic scalability."
     },
     {
       name: "Azure CosmosDB",
       icon: <FaCloud className="text-6xl" />,
       color: "#0078D4",
-      description: "Microsoft's globally distributed, multi-model database service for building highly responsive applications."
+      description: "Microsoft’s globally distributed, multi-model database service designed for highly responsive and scalable applications."
     },
     {
       name: "Google Firebase",
       icon: <SiGooglecloud className="text-6xl" />,
       color: "#FFCA28",
-      description: "Google's real-time NoSQL cloud database that syncs data across all clients in real-time."
+      description: "A real-time NoSQL cloud database that synchronizes data across devices instantly, ideal for mobile and web applications."
     },
     {
       name: "Elastic Search",
       icon: <FaSearch className="text-6xl" />,
       color: "#005571",
-      description: "Distributed search and analytics engine for all types of data, including textual, numerical, and geospatial."
+      description: "A powerful distributed search and analytics engine used for handling large volumes of textual, numerical, and geospatial data."
     }
   ];
 
@@ -256,13 +256,12 @@ function Databases() {
             {/* Right Content */}
             <div data-aos="fade-left">
               <p className="text-gray-600 leading-relaxed mb-6">
-                Our team of highly-skilled database management specialists offers complete services for designing, implementing, configuring, and managing databases across various platforms such as on-premise, cloud, and hybrid environments.
-              </p>
+                Our experienced database specialists provide complete services for designing, implementing, configuring, and managing databases across multiple platforms — including on-premise, cloud, and hybrid environments.</p>
               <p className="text-gray-600 leading-relaxed mb-6">
-                We provide tailored database solutions that match your specific business needs whether you need transactional databases, analytical databases, or both. Our experts work closely with you to understand your data requirements and build robust, high-performance database infrastructures.
+                We create customized database solutions based on your business needs. Whether you require transactional databases, analytical databases, or a combination of both, our team works closely with you to understand your data requirements and deliver high-performance systems.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                From database design and optimization to migration and ongoing management, we ensure your databases are secure, scalable, and performing at their best to support your business operations efficiently.
+                From database design and optimization to migration and ongoing management, we ensure your databases remain secure, scalable, and efficient to support your daily operations and long-term growth.
               </p>
             </div>
           </div>
@@ -298,6 +297,8 @@ function Databases() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Database Technologies We Work With
             </h2>
+            <p>We work with a wide range of modern database technologies to deliver secure, scalable, and high-performance solutions.</p> 
+              <p>Our team selects the right database based on your business needs, application type, and performance requirements.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

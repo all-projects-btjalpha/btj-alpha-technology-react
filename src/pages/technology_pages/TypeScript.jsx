@@ -27,25 +27,25 @@ function TypeScript() {
       icon: <SiTypescript className="text-5xl text-[#3178c6]" />,
       title: "TypeScript Core",
       description:
-        "TypeScript is a strongly typed superset of JavaScript that adds static typing and modern features to build scalable applications."
+        "TypeScript is an advanced version of JavaScript that adds type safety and modern features. It helps build large and scalable applications with fewer errors."
     },
     {
       icon: <SiAngular className="text-5xl text-[#dd0031]" />,
       title: "Angular (TypeScript Based)",
       description:
-        "Angular is built using TypeScript and is ideal for enterprise-level applications with strong architecture."
+        "Angular is built using TypeScript. It is ideal for creating large and enterprise-level applications with a strong structure."
     },
     {
       icon: <SiReact className="text-5xl text-[#61dafb]" />,
       title: "React + TypeScript",
       description:
-        "Combine React with TypeScript for better type safety, reusable components, and scalable frontend architecture."
+        "Combining React with TypeScript improves code quality and safety. It helps build reusable components and scalable frontend applications."
     },
     {
       icon: <SiNodedotjs className="text-5xl text-[#339933]" />,
       title: "Node.js + TypeScript",
       description:
-        "Build secure and scalable backend applications using Node.js integrated with TypeScript."
+        "Using Node.js with TypeScript allows us to build secure and scalable backend applications with better code management."
     }
   ];
 
@@ -54,19 +54,19 @@ function TypeScript() {
       icon: <FaCode className="text-5xl text-[#3178c6]" />,
       title: "Custom TypeScript Development",
       description:
-        "We build secure, maintainable, and scalable applications using modern TypeScript standards."
+        "We create secure, scalable, and easy-to-maintain applications using modern TypeScript standards."
     },
     {
       icon: <FaSync className="text-5xl text-[#10B981]" />,
       title: "JavaScript to TypeScript Migration",
       description:
-        "Smooth migration of existing JavaScript applications to TypeScript with zero downtime."
+        "We help you smoothly convert your existing JavaScript projects to TypeScript without downtime."
     },
     {
       icon: <FaDatabase className="text-5xl text-[#8B5CF6]" />,
       title: "Enterprise Application Development",
       description:
-        "Robust enterprise-grade solutions using TypeScript with performance optimization."
+        "We build strong enterprise-level applications using TypeScript with high performance and reliability."
     }
   ];
 
@@ -75,19 +75,19 @@ function TypeScript() {
       icon: <FaShieldAlt className="text-5xl text-[#3178c6]" />,
       title: "Strong Type Safety",
       description:
-        "Catch errors during development with TypeScript's static typing system."
+        "TypeScript helps catch errors during development with its type-checking system."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
       title: "Improved Performance",
       description:
-        "Optimized and structured codebase for better scalability and maintainability."
+        "Well-structured and optimized code improves scalability and long-term maintainability."
     },
     {
       icon: <FaCogs className="text-5xl text-[#10B981]" />,
       title: "Better Code Organization",
       description:
-        "Interfaces, generics, and modules improve overall project structure."
+        "Interfaces, modules, and structured code make projects easier to manage and scale."
     }
   ];
 
@@ -96,25 +96,25 @@ function TypeScript() {
       icon: <FaUsers className="text-5xl text-[#3178c6]" />,
       title: "Expert Developers",
       description:
-        "Skilled TypeScript professionals with enterprise experience."
+        "Our skilled TypeScript developers have strong experience in building enterprise applications."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
       title: "Scalable Architecture",
       description:
-        "Future-ready application architecture for growing businesses."
+        "We design applications that grow easily as your business expands."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
       title: "On-Time Delivery",
       description:
-        "Agile development ensuring timely project completion."
+        "We follow agile methods to complete projects within deadlines."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
       title: "Quality Assurance",
       description:
-        "Comprehensive testing and best coding practices."
+        "We ensure thorough testing and follow best coding practices for reliable applications."
     }
   ];
 
@@ -150,7 +150,7 @@ function TypeScript() {
                 Company
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                We deliver scalable, secure, and enterprise-grade applications using modern TypeScript development standards.
+                At BTJ Alpha Technology, We build secure, scalable, and high-quality applications using modern TypeScript standards. Our team delivers reliable solutions for businesses of all sizes.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -207,6 +207,7 @@ function TypeScript() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Our TypeScript Frameworks
             </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">We use powerful TypeScript frameworks and combinations to build strong and efficient applications.</p>
           </div>
           <div className="grid md:grid-cols-4 gap-8 container mx-auto px-4">
             {tsFrameworks.map((item, i) => (
@@ -227,6 +228,7 @@ function TypeScript() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Our TypeScript Services
             </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">We provide complete TypeScript solutions to build secure and scalable applications.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
             {tsServices.map((item, i) => (
@@ -247,6 +249,7 @@ function TypeScript() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Key Benefits of TypeScript
             </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">TypeScript offers many advantages for modern application development.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
             {benefits.map((item, i) => (
@@ -267,6 +270,7 @@ function TypeScript() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Why Choose Us?
             </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">We are experts in TypeScript development and deliver high-quality, scalable applications.</p>
           </div>
           <div className="grid md:grid-cols-4 gap-8 container mx-auto px-4">
             {whyChooseUs.map((item, i) => (
@@ -290,6 +294,7 @@ function TypeScript() {
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             Ready to Build Scalable Applications with TypeScript?
           </h2>
+          
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
             Partner with us to leverage the power of TypeScript for your next project.
           </p>

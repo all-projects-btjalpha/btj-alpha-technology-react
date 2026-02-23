@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaLightbulb, FaCode, FaRocket, FaUsers, FaChartLine, FaCogs,
   FaCheckCircle, FaLayerGroup, FaShieldAlt, FaClock, FaSearch,
   FaChevronDown, FaChevronUp, FaDesktop, FaMobile, FaCloud,
@@ -29,27 +29,27 @@ function ProductDevelopment() {
     {
       icon: <FaLightbulb className="text-5xl text-yellow-500" />,
       title: "Idea Validation",
-      description: "Regardless of how much you can prescribe your product idea to stakeholders, its execution lays the seeds for reaping success. Our product specialists carry out market research, analyze app segments along their link journey with competitors' product feature is evaluated enabling easier features for customers to achieve its desired targets."
+      description: "We help you make sure your idea is an one before we start working on it.Our team looks at what people want what other companies are doing and what problems your product can solve to make sure it will work."
     },
     {
       icon: <FaPuzzlePiece className="text-5xl text-red-500" />,
       title: "Product Planning",
-      description: "Strategizing is an essential part of the entire development plan. As it helps to make an informed projection about effective strategies. The experts determine software solutions and technologies to be used for development and identify critical challenges specific to multiple challenges based on the client's requirements. We then put on an effective debugging phase."
+      description: "You need a plan to make a product that people will like. We figure out what tools to use, what steps to take and what problems might come up. Then we make a plan that helps us get everything done on time."
     },
     {
       icon: <FaSyncAlt className="text-5xl text-green-500" />,
       title: "Development",
-      description: "Our development team adopts agile development methodology to create your product. The team focuses on prioritizing user satisfaction through continuous delivery, delivering high-quality applications, and providing cost-efficient outcomes. Our developers go hand-in-hand with testers to create reliable software that provides a better user interface."
+      description: "Our team uses a way of working that helps us get things done quickly. We make sure your product is easy to use works well and is quality. Our developers and testers work together to make sure everything is just right."
     },
     {
       icon: <FaBullseye className="text-5xl text-blue-500" />,
-      title: "Product Planning",
-      description: "The idea drives our product development cycle involves planning before everything before starting, involving, and enhancing all factors ensuring the software is designed to implement new features with flexibility to execute necessary modifications to facilitate smooth and seamless operations at the project."
+      title: "Making Your Product Better",
+      description: "We help your product work smoothly after it is released. Our team makes it better fixes any problems. Updates it so it keeps working well and people keep using it. Let us build your product the right way."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-purple-500" />,
       title: "Deployment",
-      description: "Once your all-set and we've got your approval for the deployment is done. Our teams employ DevOps practices to ensure high-quality code with automated testing to deliver unmatched built on environment to manage your software release. Deliver us your needs, and let our delivery team help you create an integrated organizational setup."
+      description: "Once you approve the final product, we move to deployment.Our team follows DevOps best practices to ensure high-quality code and smooth releases. We use automated testing and reliable build processes to deliver stable software.We deploy the solution based on your business needs and help set up a well-integrated system for your organization, ensuring everything runs efficiently from day one."
     }
   ];
 
@@ -57,22 +57,22 @@ function ProductDevelopment() {
     {
       icon: <FaCogs className="text-6xl text-blue-600" />,
       title: "End-to-End Product Development",
-      description: "With our teams of product development specialists, we deliver a full-scale product for efficient operations with necessary changes to serve scale standards. We assure you increased productivity and accelerate your business growth."
+      description: "We take care of everything from the beginning to the very end. Our team makes sure that the solutions we provide are good and will help your business grow."
     },
     {
       icon: <FaRocket className="text-6xl text-cyan-500" />,
       title: "MVP Development Services",
-      description: "If you're carrying an experimental digital product that still needs clarity and lacks the refined user-centric features at launch. Our MVP development services help you launch products quickly with features that real users can interact and offer feedback on."
+      description: "Do you have an idea for a product? We can help you launch it quickly so you can see if people like it. You can then use what people say to make your product even better."
     },
     {
       icon: <FaLayerGroup className="text-6xl text-purple-500" />,
       title: "API Development Services",
-      description: "Whether you're looking to create a product unit with a program to implement our API development services. API's help integrate your applications or devices and act as central API development and third-party API integration services."
+      description: "We make sure that the connections, between your applications and services are safe and work well. This helps all your systems work together smoothly."
     },
     {
       icon: <FaCloud className="text-6xl text-indigo-600" />,
       title: "Cloud Integration Services",
-      description: "Deployment of your existing system with cloud infrastructure is here. We offer a quick and optimized upgrade to the system with integrated cloud solution. So work at your stakeholder can access all features related with ease."
+      description: "We can help you move your systems to the cloud. This will make your systems faster and more flexible. You will also be able to get to them from anywhere."
     }
   ];
 
@@ -80,32 +80,32 @@ function ProductDevelopment() {
     {
       icon: <FaCalendarAlt className="text-5xl text-[#fb9c24]" />,
       title: "Scheduling and Booking Services",
-      description: "Streamline appointments and reservations with intelligent scheduling systems."
+      description: "Simplify appointments and reservations with smart, automated scheduling tools."
     },
     {
       icon: <FaMapMarkerAlt className="text-5xl text-[#fb9c24]" />,
       title: "Location Tracking",
-      description: "Real-time GPS tracking and geolocation services for enhanced user experience."
+      description: "Enable real-time GPS tracking and geolocation services for better visibility and control."
     },
     {
       icon: <FaSearch className="text-5xl text-[#fb9c24]" />,
       title: "Advanced Analytics and Reporting",
-      description: "Comprehensive data insights and customizable reports for informed decision-making."
+      description: "Gain valuable insights with detailed analytics and customizable reports to support smarter decision-making."
     },
     {
       icon: <FaBullseye className="text-5xl text-[#fb9c24]" />,
       title: "Artificial Intelligence",
-      description: "Smart automation and predictive analytics powered by cutting-edge AI technology."
+      description: "Leverage AI-powered automation and predictive analytics to improve efficiency and innovation."
     },
     {
       icon: <FaUsers className="text-5xl text-[#fb9c24]" />,
       title: "Chatbots",
-      description: "24/7 intelligent customer support with natural language processing capabilities."
+      description: "Provide 24/7 customer support with intelligent chatbots powered by natural language processing."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#fb9c24]" />,
       title: "Performance Tracking",
-      description: "Monitor KPIs and metrics in real-time for continuous optimization."
+      description: "Monitor KPIs and business metrics in real time to ensure continuous improvement and optimization."
     }
   ];
 
@@ -138,7 +138,12 @@ function ProductDevelopment() {
                 Services India
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Transform your innovative ideas into market-ready products with our comprehensive product development services. We specialize in designing innovative digital solutions that track business outcomes that support your vision from concept to launch. Our product development team offers personalized development approach, allowing companies to test products from business process integration within minimum time. Develop cutting-edge from ideas with our agile methodologies.
+                Turn your innovative ideas into successful, market-ready products.
+                We help with every step of creating a product. From checking if it's an idea to designing it building it testing it and launching it. Our team makes solutions that fit your business needs.
+                We use flexible ways of working to help you create, test and launch products fast.
+                Are you ready to start?
+                Get in touch, with us now. Ask for a price quote.
+
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -164,7 +169,7 @@ function ProductDevelopment() {
                   <div className="absolute top-0 right-0 w-40 h-40 bg-blue-200 rounded-full opacity-30 animate-pulse"></div>
                   <div className="absolute bottom-0 left-0 w-32 h-32 bg-purple-200 rounded-full opacity-30 animate-pulse delay-100"></div>
                 </div>
-                
+
                 {/* Monitor Illustration */}
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-gradient-to-br from-blue-600 to-purple-600 p-8 rounded-3xl shadow-2xl w-80 h-60 animate-float">
                   <div className="bg-white rounded-lg h-full p-4 flex flex-col">
@@ -205,10 +210,10 @@ function ProductDevelopment() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Bespoke Digital Solutions Tailored for Your Business Requirements
+              Digital Solutions That Are Made For Your Business
             </h2>
             <p className="text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              At BTJ Alpha Technology, our dedicated team focuses on employing process-focused strategies to transform unique product idea delivery. We work closely with your stakeholders and collaborate with you to deliver quality product development services to fulfill project needs.
+              At BTJ Alpha Technology we think about how to make your ideas work in the world. We work with you to make products that are really good and do what you want them to do.
             </p>
           </div>
 
@@ -240,11 +245,12 @@ function ProductDevelopment() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Get On-Board With Digital Transformation With Our<br />
+              Get On-Board With Digital Transformation<br />
               End-to-End Product Development Services
             </h2>
             <p className="text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              Deploy dynamic & user-friendly applications with innovative features to eliminate your business challenges. Let us revolutionize your product development services including:
+              We can help you build cool applications that people will love to use.
+              These applications will have exciting features that will help your business.
             </p>
           </div>
 
@@ -277,10 +283,11 @@ function ProductDevelopment() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="text-white max-w-xl" data-aos="fade-right">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Have a Software Product Vision in Mind?
+                Have a Software Product Idea?
               </h2>
               <p className="text-white/90 text-lg">
-                Let's bring your ideas to life with our expert product development team.
+                Turn your vision into reality with our expert product development team.
+                We help you design, build, and launch successful digital solutions.
               </p>
             </div>
             <div data-aos="fade-left">
@@ -288,7 +295,7 @@ function ProductDevelopment() {
                 onClick={openForm}
                 className="bg-white text-[#fb9c24] hover:bg-gray-100 font-bold py-4 px-10 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg text-lg"
               >
-                Connect with Us
+                Connect with us today.
               </button>
             </div>
           </div>
@@ -304,7 +311,8 @@ function ProductDevelopment() {
               to Maximize Efficiency
             </h2>
             <p className="text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              The features of our tailored product have a huge impact on its performance and user experience. That's why our design and development team stays updated with market changes to fulfill needs of our clients and stakeholders.
+              The features of our tailored product have a huge impact on its performance and user experience.
+              That's why our design and development team stays updated with market changes to fulfill needs of our clients and stakeholders.
             </p>
           </div>
 
@@ -353,9 +361,8 @@ function ProductDevelopment() {
                   )}
                 </button>
                 <div
-                  className={`transition-all duration-300 overflow-hidden ${
-                    openFAQ === index ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
-                  }`}
+                  className={`transition-all duration-300 overflow-hidden ${openFAQ === index ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+                    }`}
                 >
                   <p className="p-5 pt-0 text-gray-600 leading-relaxed border-t border-gray-100">
                     {faq.answer}

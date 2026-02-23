@@ -24,22 +24,22 @@ function Angular() {
     {
       icon: <FaAngular className="text-5xl text-[#dd0031]" />,
       title: "Build UI Web Application",
-      description: "Our team of experienced Angular developers can bring robust solutions to complex problems. We build dynamic and secure web applications that are user-friendly and follow all the latest standards that are stable in your business."
+      description: "We design and develop tailored Angular applications that align with your business goals."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
-      title: "Rapid UI Plugin Development",
-      description: "We can help you develop custom Angular UI plugins for your library. The plugins are designed to be highly reusable, optimized for performance, and aligned with Angular best practices and architecture."
+      title: "Rapid Angular UI Development",
+      description: "Create responsive and engaging front-end interfaces with reusable Angular components."
     },
     {
       icon: <FaSync className="text-5xl text-[#4285F4]" />,
       title: "Angular 2+ Development",
-      description: "Our team of developers use Angular 2+ technology to create responsive, modular applications with improved performance and use latest features to build scalable enterprise-level solutions with modern Angular architecture."
+      description: "Develop scalable applications using the latest Angular versions with advanced features."
     },
     {
       icon: <FaPlug className="text-5xl text-[#10B981]" />,
-      title: "Angular UI Migration Services",
-      description: "Modernize your legacy applications with our seamless migration services. We help migrate your existing web apps to Angular, ensuring minimal downtime and maintaining all functionality."
+      title: "Angular Migration & UpgrModernize legacy applications by migrating to the latest Angular framework.ade Services",
+      description: "Modernize legacy applications by migrating to the latest Angular framework."
     }
   ];
 
@@ -47,55 +47,55 @@ function Angular() {
     {
       icon: <FaChartLine className="text-4xl text-[#fb9c24]" />,
       title: "Improved Performance",
-      description: "Angular is built on DOM that makes it improve the performance of web applications by making the number of dependencies which make use of code reusable."
+      description: "Angular’s optimized change detection and structured architecture enhance application speed."
     },
     {
       icon: <FaSync className="text-4xl text-[#dd0031]" />,
       title: "Faster Development Process",
-      description: "Angular CLI is a fast and efficient way to get started when using Angular for your rapid development. Just a simple command and you can create a project or components."
+      description: "Angular CLI enables faster project setup and component-based development."
     },
     {
       icon: <FaCode className="text-4xl text-[#4285F4]" />,
       title: "Reusable Components",
-      description: "Using Angular CLI makes it convenient to build reusable UI components that can be used across different sections and maintain consistency throughout application."
+      description: "Reusable UI components reduce development time and improve consistency."
     },
     {
       icon: <FaShieldAlt className="text-4xl text-[#10B981]" />,
-      title: "SEO Friendly",
-      description: "Angular JS is SEO-friendly, which means your application will be detected easily by search engines. This translates to higher visibility and better website exposure."
+      title: "SEO-Friendly Structure",
+      description: "Server-side rendering (Angular Universal) improves search engine visibility."
     },
     {
       icon: <FaUsers className="text-4xl text-[#8B5CF6]" />,
-      title: "Large Community",
-      description: "Angular JS has a large community of developers across the globe. This backing and shared resources helps find quick answers to solve problems and assist support to other developers."
+      title: "Large Community Support",
+      description: "Backed by Google and a global developer community."
     }
   ];
 
   const whyChooseUs = [
     {
       icon: <FaUsers className="text-4xl text-[#fb9c24]" />,
-      title: "Experienced Angular JS Developers",
-      description: "We consist of expert Angular developers covering all aspects of web development from planning to execution. Our team stays up-to-date with latest trends and can cater to your business needs."
+      title: "Experienced Angular Developers",
+      description: "Our team has hands-on expertise in delivering scalable Angular applications."
     },
     {
       icon: <FaClock className="text-4xl text-[#dd0031]" />,
-      title: "On-Time Delivery",
-      description: "We understand the value of time, therefore we make it our priority to deliver projects on time. In case of unforeseen delays, we communicate with you and give reasons and work hard to deliver high quality on time."
+      title: "On-Time Project Delivery",
+      description: "We follow agile methodologies to ensure timely completion."
     },
     {
       icon: <FaChartLine className="text-4xl text-[#4285F4]" />,
       title: "Customized Solutions",
-      description: "We understand every client and project is not similar and we are committed to providing customized solutions that suit your business and achieve your goals."
+      description: "Every project is built according to client-specific requirements."
     },
     {
       icon: <FaShieldAlt className="text-4xl text-[#10B981]" />,
-      title: "Technical Support And Maintenance",
-      description: "We provide long-term support and maintenance services to ensure all of the project runs smoothly after deployment. Our team is always available to fix bugs and help you with any issues."
+      title: "Technical Support & Maintenance",
+      description: "Every project is built according to client-specific requirements."
     },
     {
       icon: <FaTools className="text-4xl text-[#8B5CF6]" />,
       title: "Competitive Pricing",
-      description: "We deliver services with competitive pricing while ensuring that the quality of our work is not compromised at all. Competitive pricing without compromising on quality."
+      description: "Cost-effective Angular development services without compromising quality."
     }
   ];
 
@@ -135,12 +135,12 @@ function Angular() {
             {/* Left Content */}
             <div data-aos="fade-right">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Angular<br />
-                Development<br />
-                Company
+               Top Angular Development Company in India for Scalable Web Applications
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Step2gen Technologies Pvt. Ltd. is a top Angular Development Company in India that specializes in providing high-quality web applications using the Angular platform. Our team of skilled developers has years of experience in building enterprise-grade Angular applications that are scalable and robust to fulfill your business needs. We strive to provide our clients with high quality development services that help them stay ahead of the competition.
+                Build Secure, Dynamic & Enterprise-Grade Applications with Expert Angular Developers
+                BTJ Alpha Technology Pvt. Ltd. is a trusted Angular Development Company in India delivering scalable, secure, and high-performance web applications tailored to modern business needs. Our experienced Angular developers specialize in building dynamic single-page applications (SPAs), enterprise dashboards, SaaS platforms, and custom business solutions.
+
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -225,17 +225,18 @@ function Angular() {
             {/* Right Content */}
             <div data-aos="fade-left">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-                Transform Your Business with Next-Generation Web Applications using Angular Development Services
+                 Delivering High-Performance Applications with Angular Development Services
               </h2>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Streamlining your business processes is essential for growth and efficiency. Our team of expert Angular developers has years of experience in Angular JS providing robust Angular development services. Using the best practices and incorporating the latest features, our team excels in creating powerful web applications that run smoothly.
+                Angular is a powerful front-end framework developed for building dynamic and feature-rich web applications. It enables developers to create interactive user interfaces, real-time dashboards, and scalable enterprise systems with structured architecture.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Angular is a popular framework library used for building fast and efficient web apps. It provides a solid foundation for developing user-friendly and intuitive interfaces that is tailored to your specific needs. By choosing the best possible Angular development service, you can boost your user engagement and interactions by featuring powerful and self-interactive graphs and visualization. We not only do Angular application development, but also wide design flexibility and intuitive interface that is tailored to your specific needs for the various features you want.
+                At BTJ Alpha Technology Pvt. Ltd., we use Angular’s component-based development approach and dependency injection model to build maintainable and scalable applications.
               </p>
-              <p className="text-gray-600 leading-relaxed">
-                Whether you're building a startup MVP or an enterprise solution, our team can turn your project plans into reality. We are a top Angular development company that has the expertise to drive your business into the future with powerful Angular solutions. Let's make your project a success with Step2gen Technologies.
-              </p>
+             <p>
+              Key Benefits of Angular:  Strong TypeScript-based architecture,Reusable and modular components,Enhanced application performance,Two-way data binding,Built-in testing capabilities,Enterprise-level scalability
+
+             </p>
             </div>
           </div>
         </div>
@@ -246,7 +247,7 @@ function Angular() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Angular Development Services
+              Our Comprehensive Angular Development Services
             </h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
               Step2gen Technologies offers a wide range of Angular JS development services for both businesses achieve their goals and stay competitive in an increasingly fast-paced and digital-first world.
@@ -277,7 +278,7 @@ function Angular() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why consider Angular for Web Development
+             Why Choose Angular for Modern Web Development?
             </h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
               Angular JS is one of the most loved frameworks. Its ability to build complex and dynamic real-world applications makes it quite popular among developers.
@@ -320,7 +321,8 @@ function Angular() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Step2gen for Angular Web Development
+              Why Choose BTJ Alpha Technology Pvt. Ltd. for Angular Development?
+
             </h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
               When you need a reliable partner for Angular development, Step2gen Technologies stands out as a top choice. Here are some of the reasons why you should work with us.
@@ -352,10 +354,10 @@ function Angular() {
         </div>
         <div className="container mx-auto relative z-10 text-center" data-aos="fade-up">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Partner with Step2gen Technologies for the Best Angular Development Solutions.
+            Partner with BTJ Alpha Technology Pvt. Ltd. for Advanced Angular Development Solutions
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Let's build powerful, scalable Angular applications that drive your business forward.
+            Let’s build powerful, secure, and scalable Angular applications that drive business success.
           </p>
           <button
             onClick={openForm}

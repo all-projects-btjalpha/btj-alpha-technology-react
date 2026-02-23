@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaCode, FaShieldAlt, FaBolt, FaServer, FaDatabase, FaPlug,
   FaCheckCircle, FaChartLine, FaSync, FaUserShield, FaGlobe,
   FaChevronDown, FaChevronUp, FaCogs, FaRocket, FaLock,
@@ -30,56 +30,56 @@ function WebAPI() {
     {
       icon: <FaSync className="text-5xl text-red-500" />,
       title: "Agile Development Approach",
-      description: "Our agile development approach allows us to adapt quickly to changing client requirements, ensuring that projects are delivered on time and within budget. We focus on continuous improvement, making sure every iteration is a step closer to your ideal solution."
+      description: "We work in an agile way. This means we can quickly adjust to changes and deliver your project on time and within budget. We focus on continuous improvement, so every step brings you closer to your goal."
     },
     {
       icon: <FaGlobe className="text-5xl text-blue-500" />,
       title: "A Diverse Skill Experience",
-      description: "We bring diverse expertise and experience to Web API development, ranging from our team members with different specializations working together to create the best solutions for your needs."
+      description: "Our team has experience in different areas of web and API development. Experts with different skills work together to provide the best solution for your business."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-green-500" />,
       title: "Security",
-      description: "We follow Security protocols to ensure your API is fortified with industry best practices like secure your data and ensure that you maintain the trust with your users while benefiting from the latest security standards."
+      description: "We follow strong security practices to protect your API. We make sure your system follows industry standards and keeps your users’ data safe."
     },
     {
       icon: <FaTachometerAlt className="text-5xl text-purple-500" />,
       title: "Client Engagement",
-      description: "We believe in building strong relationships with our clients. Our open communication and collaborative approach ensure that you're always in the loop and feel that your vision and that your ideas are heard and valued."
+      description: "We believe in clear and open communication. We work closely with you, keep you updated, and make sure your ideas and feedback are always valued."
     },
     {
       icon: <FaUserShield className="text-5xl text-orange-500" />,
       title: "Scale Where It Suits You",
-      description: "Whether you're a startup with big dreams or an established enterprise, our API solutions are built to scale, allowing companies to scale their requirements, ensuring that you only pay for the resources you need."
+      description: "Whether you are a startup or a large company, we build APIs that can grow with your business. You only pay for the resources you need."
     },
     {
       icon: <FaHandshake className="text-5xl text-cyan-500" />,
       title: "DevOps",
-      description: "With Web DevOps expertise to ensure robust deployment, monitoring, high scalability and secure delivery. We can automate deployment, build, testing and deployment efficiently. We effectively help you automate your entire DevOps cycle with the flexibility of your container and agile."
+      description: "Our DevOps expertise helps with smooth deployment, testing, and monitoring. We automate processes to ensure fast, secure, and reliable delivery."
     },
     {
       icon: <FaLock className="text-5xl text-indigo-500" />,
       title: "Top Talent at Low Cost",
-      description: "Our team of ASP.NET Core developers provides top of the world talent at a fraction of the cost. By outsourcing to us, you gain access to experienced professionals who are not only skilled but also dedicated to making your project a success."
+      description: "Our ASP.NET Core developers are highly skilled and experienced. You get top-quality talent at a cost-effective price to help make your project successful."
     }
   ];
 
   const benefits = [
     {
       title: "Scalability",
-      description: "ASP.NET Core Web API is designed to handle growing traffic and data with ease. Its modular architecture allows you to add new features and resources without compromising performance."
+      description: "ASP.NET Core Web API is made to grow with your business.It can handle a lot of users and a lot of data and new features without getting slow."
     },
     {
       title: "Security",
-      description: "ASP.NET Core Web API offers a comprehensive security model that helps protect your application from a wide range of threats, including cross-site scripting and SQL injection, ensuring users and visitors."
-    },
+      description: "ASP.NET Core Web API has security features to keep your application safe.It stops threats like cross-site scripting and SQL injection.This keeps your data and users safe."},
     {
       title: "Performance",
-      description: "ASP.NET Core Web API is optimized for high performance. With features such as asynchronous programming and efficient memory usage, it can handle a high volume of requests with minimal performance."
+      description: "ASP.NET Core Web API is really fast. Works well.It supports programming and smart memory management.This means it can handle a lot of requests without any problems."
+
     },
     {
       title: "Flexibility",
-      description: "ASP.NET Core Web API is highly flexible, allowing you to use it with a variety of front-end frameworks and libraries. It's also designed to work with different development tools and databases."
+      description: "ASP.NET Core Web API is very flexible. Works well with different front-end frameworks and tools and databases.You can easily connect it to systems and technologies."
     }
   ];
 
@@ -87,27 +87,26 @@ function WebAPI() {
     {
       icon: <SiDotnet className="text-6xl text-purple-600" />,
       title: "Visual Studio",
-      description: "A powerful integrated development environment that provides all the tools and features to streamline the entire API development process. Whether you're creating new REST APIs or extending existing applications, Visual Studio offers comprehensive support."
-    },
+      description: "Visual Studio is a tool for developers. It helps create, test and manage ASP.NET Core APIs.You can build REST APIs and other applications in one place with Visual Studio."},
     {
       icon: <SiSwagger className="text-6xl text-green-600" />,
       title: "Swagger",
-      description: "Swagger simplifies API documentation and testing. It offers an interactive interface that allows developers to visualize and interact with the API's resources without needing to create extensive client code."
+      description: "Swagger is useful for documenting and testing APIs.You can. Test API endpoints in an interactive way.This means you do not have to write client code to test your API with Swagger."
     },
     {
       icon: <FaCode className="text-6xl text-orange-600" />,
       title: "Postman",
-      description: "A Postman is a leading API development platform that simplifies the process of testing and debugging code. From it provides a range of features that streamline the entire API development lifecycle, enabling developers to build and test."
+      description: "Postman is a tool for testing APIs.You can send requests. Check responses easily.Postman also helps you debug API"
     },
     {
       icon: <SiGit className="text-6xl text-gray-800" />,
       title: "Insomnia",
-      description: "Insomnia is an API client development platform that simplifies the developer in range of features and functionalities. These developers can effectively manage their API workflow and ensure smooth, error-free integrations."
+      description: "Insomnia is another tool for working with APIs.It makes testing and managing APIs simple."
     },
     {
       icon: <FaLayerGroup className="text-6xl text-red-600" />,
       title: "Git",
-      description: "Git is a distributed version control system that enables developers of all skill levels to work on the same codebase simultaneously without conflicts. It provides excellent branch and merge management ensuring that all iterations of the code are tracked and managed efficiently."
+      description: "Git helps manage code when many developers work on the project.It tracks changes. Manages different versions of your code."
     }
   ];
 
@@ -115,27 +114,27 @@ function WebAPI() {
     {
       icon: <FaCode className="text-5xl text-blue-600" />,
       title: "API Strategy & Planning",
-      description: "We start every project with a detailed API strategy, identifying the best design to meet both current and future business needs. Our approach ensures seamless API roadmap to seamlessly integrate to APIs that evolve with your business."
+      description: "We begin every project by understanding your business needs.We plan and design the best API solution that works for your current and future goals."
     },
     {
       icon: <FaCogs className="text-5xl text-purple-600" />,
       title: "API Design & Development",
-      description: "Our team builds robust and scalable Web APIs designed to handle high traffic and complex data operations seamlessly. We leverage ASP.NET Core to develop RESTful APIs that are scalable, secure and maintainable, ensuring efficiency, clean code, and documentation."
+      description: "We build strong and scalable Web APIs using ASP.NET Core. Our APIs are secure, fast, and easy to maintain, even with high traffic and complex data."
     },
     {
       icon: <FaPlug className="text-5xl text-green-600" />,
       title: "API Integration & Deployment",
-      description: "We integrate your Web API with existing systems and third-party services for seamless connectivity. We ensure everything integrates smoothly and performs exceptionally well under production environments, guaranteeing a smooth rollout that won't disrupt your business."
+      description: "We connect your new API with your existing systems and third-party services. We ensure smooth deployment and reliable performance in real-world environments."
     },
     {
       icon: <FaSync className="text-5xl text-orange-600" />,
       title: "API Testing & Optimization",
-      description: "Comprehensive testing is an integral part of our development process. We conduct rigorous testing at every stage of the development to identify potential issues before they become critical, leveraging performance monitoring and other techniques to ensure optimal results."
+      description: "Testing is an important part of our process. We carefully test and monitor your API to find and fix issues early and improve performance."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-red-600" />,
       title: "API Security & Compliance",
-      description: "We take API security seriously. From data encryption to secure authentication and authorization protocols, we make sure your API is secure and complies with industry standards and regulatory requirements, ensuring your peace of mind."
+      description: "We take security seriously. From data encryption to secure login systems, we make sure your API follows industry standards and keeps your data safe."
     }
   ];
 
@@ -169,7 +168,9 @@ function WebAPI() {
                 Solutions
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                At BTJ Alpha Technology, we specialize in developing robust and scalable API solutions using ASP.NET Core. Our team of experienced developers creates efficient and secure APIs that seamlessly integrate with your systems. We offer consultation and development services for the specific needs of each client and ensure seamless integrations with database.
+                At BTJ Alpha Technology, we build strong and scalable API solutions using ASP.NET Core.
+                Our experienced developers create secure and high-performance APIs that connect smoothly with your existing systems and databases. We provide complete support — from consultation and planning to development and integration
+
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -195,7 +196,7 @@ function WebAPI() {
                   <div className="absolute top-0 right-0 w-40 h-40 bg-blue-200 rounded-full opacity-30 animate-pulse"></div>
                   <div className="absolute bottom-0 left-0 w-32 h-32 bg-purple-200 rounded-full opacity-30 animate-pulse delay-100"></div>
                 </div>
-                
+
                 {/* API Illustration */}
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-gradient-to-br from-blue-600 to-purple-600 p-8 rounded-3xl shadow-2xl w-80 h-60 animate-float">
                   <div className="bg-white rounded-lg h-full p-6 flex flex-col items-center justify-center">
@@ -238,7 +239,7 @@ function WebAPI() {
               Outsource to Us
             </h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
-              Unlock your potential by outsourcing to us.
+             Unlock your business potential by outsourcing your API development to our expert team.
             </p>
           </div>
 
@@ -334,7 +335,8 @@ function WebAPI() {
                 Your Vision, Our Expertise. Let's Create Something Amazing Together.
               </h2>
               <p className="text-white/90 text-lg">
-                Ready to build powerful and secure APIs? Get in touch with us today!
+                We are ready to help you build powerful and secure APIs.
+                 Let’s work together to turn your ideas into reality.
               </p>
             </div>
             <div data-aos="fade-left">
@@ -358,7 +360,7 @@ function WebAPI() {
               API Development Services
             </h2>
             <p className="text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              Partnering with us means gaining access to a team of dedicated professionals committed to turning your vision into reality.
+              Partner with us and work with a team of skilled professionals dedicated to turning your ideas into reality.
             </p>
           </div>
 
@@ -411,9 +413,8 @@ function WebAPI() {
                   )}
                 </button>
                 <div
-                  className={`transition-all duration-300 overflow-hidden ${
-                    openFAQ === index ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
-                  }`}
+                  className={`transition-all duration-300 overflow-hidden ${openFAQ === index ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+                    }`}
                 >
                   <p className="p-5 pt-0 text-gray-600 leading-relaxed border-t border-gray-100">
                     {faq.answer}

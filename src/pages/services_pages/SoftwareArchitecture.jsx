@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaBuilding, FaCode, FaChartBar, FaLayerGroup, FaCogs, FaShieldAlt,
   FaLightbulb, FaBrain, FaChevronDown, FaChevronUp, FaCheckCircle,
   FaCube, FaNetworkWired, FaServer, FaLock, FaRocket, FaTools,
@@ -24,42 +24,42 @@ function SoftwareArchitecture() {
   const whyMatterPoints = [
     {
       title: "Scalability",
-      description: "Handle growing user base and data volume",
+      description: "It helps your system handle more users and more data as your business grows.",
       color: "from-yellow-400 to-orange-500"
     },
     {
       title: "Maintainability",
-      description: "Easy updates and modifications",
+      description: "It makes updates, changes, and improvements easier and faster.",
       color: "from-pink-500 to-purple-600"
     },
     {
       title: "Performance",
-      description: "Optimal speed and efficiency",
+      description: "It ensures your software runs smoothly, quickly, and efficiently.",
       color: "from-purple-600 to-indigo-700"
     },
     {
       title: "Security",
-      description: "Protect data and user privacy",
+      description: "It protects your data and keeps user information safe.",
       color: "from-blue-500 to-blue-700"
     },
     {
       title: "Reliability",
-      description: "Consistent and dependable operation",
+      description: "It ensures your system works consistently without frequent failures.",
       color: "from-yellow-400 to-orange-500"
     },
     {
       title: "Flexibility",
-      description: "Adapt to changing requirements",
+      description: "It allows your system to adapt to changing business needs.",
       color: "from-pink-500 to-purple-600"
     },
     {
       title: "Cost Efficiency",
-      description: "Optimize resources and reduce expenses",
+      description: "It reduces long-term costs by preventing major problems and rework.",
       color: "from-purple-600 to-indigo-700"
     },
     {
       title: "User Experience",
-      description: "Seamless and intuitive interactions",
+      description: "It supports smooth and easy interactions for users.",
       color: "from-blue-500 to-blue-700"
     }
   ];
@@ -67,48 +67,48 @@ function SoftwareArchitecture() {
   const keyPrinciples = [
     {
       icon: <FaCube className="text-5xl text-red-500" />,
-      title: "Single Responsibility Principle",
-      description: "Each component should have one and only one reason to change, ensuring modularity and easier maintenance."
+      title: "Single Responsibility",
+      description: " Each component should focus on one clear task."
     },
     {
       icon: <FaNetworkWired className="text-5xl text-blue-500" />,
       title: "Separation of Concerns",
-      description: "Different aspects of the software are separated into distinct sections, improving code organization and reducing complexity."
+      description: " Keep different functions separate to reduce complexity."
     },
     {
       icon: <FaRocket className="text-5xl text-yellow-500" />,
-      title: "Principle of Least Knowledge",
-      description: "Components should have limited knowledge about other components, promoting loose coupling and independence."
+      title: "Least Knowledge",
+      description: " Components should only know what is necessary."
     },
     {
       icon: <FaTools className="text-5xl text-cyan-500" />,
-      title: "Don't Repeat Yourself (DRY)",
-      description: "Avoid code duplication by abstracting common functionality into reusable components and functions."
+      title: "DRY (Don’t Repeat Yourself)",
+      description: "Reuse code to avoid duplication and errors."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-indigo-500" />,
       title: "Secure by Design",
-      description: "Security considerations are built into the architecture from the ground up, not added as an afterthought."
+      description: " Build security into the system from the start."
     },
     {
       icon: <FaLock className="text-5xl text-blue-600" />,
       title: "Encapsulation",
-      description: "Hide internal implementation details and expose only necessary interfaces for better security and flexibility."
+      description: "Hide internal details and expose only what is needed."
     },
     {
       icon: <FaCogs className="text-5xl text-orange-500" />,
       title: "Modularity",
-      description: "Break down the system into independent modules that can be developed, tested, and maintained separately."
+      description: "Divide the system into smaller, manageable modules."
     },
     {
       icon: <FaLayerGroup className="text-5xl text-green-600" />,
       title: "Layered Architecture",
-      description: "Organize code into layers (presentation, business logic, data access) for better separation and maintainability."
+      description: "Organize code into clear layers for better structure."
     },
     {
       icon: <FaProjectDiagram className="text-5xl text-purple-600" />,
       title: "Scalability",
-      description: "Design systems that can handle growth in users, data, and functionality without performance degradation."
+      description: "Design systems that grow smoothly with your business."
     }
   ];
 
@@ -116,52 +116,52 @@ function SoftwareArchitecture() {
     {
       icon: "🏢",
       title: "Monolithic Architecture",
-      description: "A monolithic architecture is a single unified software application where all components are interconnected and interdependent. Everything runs as a single unit, making deployment simpler but scaling more challenging."
+      description: "All the parts of the software application are built together as one system. This is simple to do at first. It can be tough to make it bigger later on."
     },
     {
       icon: "🔷",
       title: "Microservices Architecture",
-      description: "Microservices architecture breaks down applications into small, independent services that communicate through APIs. Each service focuses on a specific business function, enabling easier scaling and maintenance."
+      description: "The software application is broken down into services that work on their own. Each service does a job, which makes it easier to make the application bigger and fix it when something goes wrong."
     },
     {
       icon: "⚡",
       title: "Event-Driven Architecture",
-      description: "Event-driven architecture uses events to trigger and communicate between decoupled services. This approach enables real-time processing, high scalability, and loose coupling between components."
+      description: "The different parts of the system talk to each other by sending messages. This lets the system work in time and the parts do not have to be closely connected."
     },
     {
       icon: "🎯",
       title: "Domain-Driven Architecture",
-      description: "Domain-Driven Design (DDD) structures software around the business domain and logic. It emphasizes collaboration between technical and domain experts to create a shared understanding."
+      description: "The design of the system is based on the business. How it works. This helps teams understand and manage business systems."
     },
     {
       icon: "📐",
       title: "Layered Architecture",
-      description: "Layered architecture organizes the system into layers where each layer depends only on the layer below it. Common layers include presentation, business logic, data access, and database layers."
+      description: "The system is broken down into layers like the part that users see the part that does the work and the part that stores the data. This makes the system more organized and easier to fix."
     },
     {
       icon: "🌐",
       title: "Model-View-Controller (MVC)",
-      description: "MVC separates application logic into three interconnected components: Model (data), View (UI), and Controller (business logic). This separation enables parallel development and easier testing."
+      description: "The software application is broken down into three parts: the data, the user interface and the logic. This makes it easier to build and test the application."
     },
     {
       icon: "🗄️",
       title: "MVVM (Model-View-ViewModel)",
-      description: "MVVM is a design pattern that separates UI from business logic using ViewModels. It's particularly popular in frontend frameworks like Angular, Vue, and WPF applications."
+      description: "This is similar to MVC. It separates the user interface from the business logic more clearly. It is often used in applications that users interact with."
     },
     {
       icon: "🔌",
       title: "Service-Oriented Architecture",
-      description: "SOA structures applications as a collection of services that communicate over a network. Services are loosely coupled, reusable, and can be composed to create new applications."
+      description: "Applications are built using services that can be used again and again. These services talk to each other over a network. This makes it easier to change and add things to the application."
     },
     {
       icon: "🧱",
       title: "Component-Based Architecture",
-      description: "Component-based architecture builds applications from reusable, self-contained components. Each component encapsulates its own logic, state, and UI, promoting reusability and modularity."
+      description: "The system is built using parts that can be used again and again. Each part can be built and fixed on its own."
     },
     {
       icon: "🔄",
       title: "Peer-to-Peer Architecture",
-      description: "P2P architecture distributes tasks among peers without a central server. Each peer acts as both client and server, enabling decentralized resource sharing and scalability."
+      description: "Each system works as both the client and the server. This lets the systems talk to each other in a way that is not controlled by one system and they can share resources."
     }
   ];
 
@@ -224,7 +224,9 @@ function SoftwareArchitecture() {
                 Architecture Services
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                At BTJ Alpha Technology, we architect software solutions that are scalable, maintainable, and built to last. Our expert architects design robust systems using industry best practices, modern design patterns, and cutting-edge technologies. Whether you're building from scratch or refactoring existing systems, we ensure your software architecture aligns with your business goals and technical requirements.
+                At At BTJ Alpha Technology, we design software solutions that are strong, scalable, and built to last.
+                Our expert architects create reliable systems using best practices, modern design patterns, and the latest technologies
+
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -294,9 +296,9 @@ function SoftwareArchitecture() {
               Why does software architecture matter?
             </h2>
             <p className="text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              Software architecture is a complete view about the software system which deals with abstraction, composition, and is wide with large. 
-              Hence, it is a crucial part of the software development cycle as software architecture defines the components, structures, 
-              and decisions that lead to the successful system. Here's why it matters:
+              Software architecture gives a clear structure to your system.
+              It defines how different parts of the software work together.
+              Good architecture is important for building a successful and long-lasting system.
             </p>
           </div>
 
@@ -357,14 +359,13 @@ function SoftwareArchitecture() {
             {/* Right Content */}
             <div data-aos="fade-left">
               <p className="text-gray-600 leading-relaxed mb-6">
-                Design is an essential first-hand developer's part of an architecture, and the software should possess fundamental application features such as quality, responsiveness, and security to maintain growth and create them at every stage of our project implementation.
-              </p>
+                Good software design is an important part of strong architecture.
+                Your system should focus on quality, speed, and security at every stage of development.</p>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Our software architecture services focus on designing scalable solutions that adapt to business changes, ensuring seamless integration with existing systems, optimizing performance, and implementing security best practices from the ground up.
-              </p>
+                Our software architecture services help you build scalable solutions that grow with your business.
+                We ensure smooth integration with your existing systems, improve performance, and apply strong security practices from the start.</p>
               <p className="text-gray-600 leading-relaxed">
-                We help organizations transform their software architecture to support digital transformation initiatives, cloud migration, microservices adoption, and modern DevOps practices while maintaining business continuity.
-              </p>
+                We also support businesses with digital transformation, cloud migration, microservices adoption, and modern DevOps practices — while keeping your operations running smoothly. </p>
             </div>
           </div>
         </div>
@@ -377,6 +378,7 @@ function SoftwareArchitecture() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Key Principles of Software Architecture
             </h2>
+            <p>Strong software architecture is built on simple but important principles that ensure quality, flexibility, and long-term success.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -408,6 +410,7 @@ function SoftwareArchitecture() {
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
             Are you interested in Our Software<br />Architecture Solutions?
           </h2>
+          <p className="text-white">We are ready to help you design strong, scalable, and secure software systems for your business.</p><br></br>
           <button
             onClick={openForm}
             className="bg-white text-[#fb9c24] hover:bg-gray-100 font-bold py-4 px-10 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg text-lg"
@@ -425,7 +428,7 @@ function SoftwareArchitecture() {
               Types of Software Architectures
             </h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
-              Choose the right architectural pattern for your project based on scalability, complexity, and business requirements.
+              When you are picking a software architecture you have to think about how big your project's how complicated it is and what your business needs.
             </p>
           </div>
 
@@ -504,9 +507,8 @@ function SoftwareArchitecture() {
                   )}
                 </button>
                 <div
-                  className={`transition-all duration-300 overflow-hidden ${
-                    openFAQ === index ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
-                  }`}
+                  className={`transition-all duration-300 overflow-hidden ${openFAQ === index ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+                    }`}
                 >
                   <p className="p-5 pt-0 text-gray-600 leading-relaxed border-t border-gray-100">
                     {faq.answer}
