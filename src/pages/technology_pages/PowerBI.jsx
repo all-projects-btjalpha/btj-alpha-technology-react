@@ -24,68 +24,68 @@ function PowerBI() {
   const biFeatures = [
     {
       icon: <FaChartBar className="text-5xl text-[#f2c811]" />,
-      title: "Business Intelligence",
-      description: "Powerful data visualization and business intelligence reporting tools."
+      title: "Business Intelligence & Data Visualization",
+      description: "Create powerful dashboards and reports that convert complex data into easy-to-understand insights."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#f2c811]" />,
-      title: "Data Security",
-      description: "Enterprise-grade security with role-based access control and encryption."
+      title: "Enterprise-Grade Data Security",
+      description: "We implement role-based access control (RLS), encryption, and governance policies to protect sensitive data."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#f2c811]" />,
-      title: "Mobile Analytics",
-      description: "Interactive dashboards and reports accessible on any device."
+      title: "Mobile & Cross-Platform Analytics",
+      description: "Access interactive dashboards on desktop, tablet, and mobile devices anytime, anywhere."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#f2c811]" />,
-      title: "Real-time Insights",
-      description: "Live data streaming and real-time business intelligence dashboards."
+      title: "Real-Time Insights",
+      description: "Integrate live data sources for real-time business monitoring and performance tracking."
     },
     {
       icon: <FaCogs className="text-5xl text-[#f2c811]" />,
-      title: "Easy Integration",
-      description: "Seamless integration with existing data sources and business applications."
+      title: "Easy Data Integration",
+      description: "Seamless integration with SQL Server, Excel, Azure, APIs, cloud platforms, and third-party systems."
     },
     {
       icon: <FaLayerGroup className="text-5xl text-[#f2c811]" />,
-      title: "Scalability",
-      description: "Designed for enterprise-scale business intelligence with high performance."
+      title: "Scalable BI Architecture",
+      description: "Design enterprise-ready Power BI solutions capable of handling large datasets efficiently."
     }
   ];
 
   const biServices = [
     {
       icon: <FaChartBar className="text-5xl text-[#f2c811]" />,
-      title: "Power BI Development",
-      description: "Building interactive dashboards and business intelligence solutions with Power BI."
+      title: "Power BI Dashboard Development",
+      description: "We build custom, interactive dashboards tailored to your KPIs and business objectives."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Data Modeling",
-      description: "Creating data models and relationships for comprehensive business analysis."
+      title: "Power BI Data Modeling",
+      description: "Create optimized data models and relationships for accurate and efficient reporting."
     },
     {
       icon: <FaServer className="text-5xl text-[#8B5CF6]" />,
-      title: "Report Automation",
-      description: "Implementing automated reporting and scheduled dashboard updates."
+      title: "Power BI Report Development",
+      description: "Develop detailed, automated, and scheduled reports for operational and strategic decision-making."
     }
   ];
 
   const benefits = [
     {
       icon: <FaChartBar className="text-5xl text-[#f2c811]" />,
-      title: "Actionable Insights",
-      description: "Transform data into meaningful business insights and decisions."
+      title: "Actionable Business Insights",
+      description: "Turn raw data into meaningful information for smarter decision-making."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
       title: "Fast Implementation",
-      description: "Rapid deployment of business intelligence solutions with minimal setup."
+      description: "Quick deployment of dashboards and reports with minimal disruption."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#10B981]" />,
-      title: "Enterprise Security",
+      title: "Enterprise-Level Security",
       description: "Robust security features with compliance and governance controls."
     }
   ];
@@ -93,23 +93,23 @@ function PowerBI() {
   const whyChooseUs = [
     {
       icon: <FaUsers className="text-5xl text-[#f2c811]" />,
-      title: "BI Experts",
-      description: "Certified professionals with extensive Power BI and business intelligence experience."
+      title: "Certified BI Experts",
+      description: "Our team has strong expertise in Power BI Dashboard Development and enterprise BI implementation."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Best Practices",
-      description: "Following industry best practices for business intelligence implementation."
+      title: "Best Industry Practices",
+      description: "We follow structured development methodologies and optimized data modeling techniques."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
       title: "On-Time Delivery",
-      description: "Agile development ensuring timely business intelligence solutions."
+      description: "Agile development process ensuring timely project completion."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and validation of business intelligence systems."
+      description: "Comprehensive testing and validation of dashboards and reports."
     }
   ];
 
@@ -139,11 +139,11 @@ function PowerBI() {
             <div data-aos="fade-right">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
                 Power BI<br />
-                Development
+                Development Services
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Transform your data into actionable insights with Power BI business intelligence solutions. Our experts create interactive dashboards and reports for data-driven decision making.
-              </p>
+               At BTJ Alpha Technology, we provide professional Power BI Development Services to help businesses transform raw data into actionable insights. Our experts design interactive dashboards, advanced reports, and scalable business intelligence solutions using Microsoft Power BI.
+</p>
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={openForm}
@@ -197,7 +197,7 @@ function PowerBI() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Key Features
+             Key Features of Our Power BI Development
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -217,7 +217,7 @@ function PowerBI() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our Services
+              Our Power BI Development Services
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -237,7 +237,7 @@ function PowerBI() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Key Benefits
+              Key Benefits of Power BI Solutions
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -257,7 +257,7 @@ function PowerBI() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Us?
+              Why Choose BTJ Alpha Technology for Power BI Development?
             </h2>
           </div>
           <div className="grid md:grid-cols-4 gap-8 container mx-auto px-4">
@@ -283,7 +283,7 @@ function PowerBI() {
             Ready to Transform Your Data?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to create powerful business intelligence solutions with Power BI.
+            Partner with BTJ Alpha Technology, a trusted Power BI Development Company, to build scalable and secure business intelligence solutions.
           </p>
           <button
             onClick={openForm}

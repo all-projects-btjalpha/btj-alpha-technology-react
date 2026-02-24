@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaHtml5, FaCode, FaMobileAlt, FaSearch, FaAccessibleIcon, FaRocket,
   FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaUsers,
   FaLaptop, FaSync, FaDatabase, FaChartLine, FaTools, FaCogs
@@ -40,17 +40,17 @@ function HTML5() {
     {
       icon: <FaSearch className="text-5xl text-[#e34f26]" />,
       title: "SEO Friendly",
-      description: "Semantic markup improves search engine visibility and ranking."
+      description: "Semantic structure helps improve search engine ranking and visibility."
     },
     {
       icon: <FaAccessibleIcon className="text-5xl text-[#e34f26]" />,
       title: "Accessibility",
-      description: "Better accessibility features for inclusive web experiences."
+      description: "Provides better support for creating websites that everyone can use easily."
     },
     {
       icon: <FaRocket className="text-5xl text-[#e34f26]" />,
       title: "Modern APIs",
-      description: "Powerful APIs like Canvas, Geolocation, Web Storage, and more."
+      description: "Includes powerful APIs like Canvas, Geolocation, Web Storage, and more."
     }
   ];
 
@@ -58,17 +58,17 @@ function HTML5() {
     {
       icon: <FaCode className="text-5xl text-[#e34f26]" />,
       title: "Custom HTML5 Development",
-      description: "We build semantic, accessible, and responsive websites using modern HTML5 standards."
+      description: "We create clean, semantic, and responsive websites using modern HTML5 standards."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#10B981]" />,
       title: "Mobile-First Development",
-      description: "Creating responsive websites that work seamlessly across all devices and screen sizes."
+      description: "We design websites that work smoothly on all devices and screen sizes."
     },
     {
       icon: <FaSearch className="text-5xl text-[#8B5CF6]" />,
       title: "SEO-Optimized Markup",
-      description: "Clean, semantic HTML5 markup that enhances search engine visibility and performance."
+      description: "We use clean and structured HTML5 code to improve search engine visibility and performance."
     }
   ];
 
@@ -76,17 +76,17 @@ function HTML5() {
     {
       icon: <FaHtml5 className="text-5xl text-[#e34f26]" />,
       title: "Better Structure",
-      description: "Semantic elements provide better document structure and readability."
+      description: "Semantic elements help create well-organized and easy-to-read web pages."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
       title: "Enhanced Performance",
-      description: "Native multimedia support reduces reliance on external plugins."
+      description: "Built-in multimedia support reduces the need for external plugins."
     },
     {
       icon: <FaAccessibleIcon className="text-5xl text-[#10B981]" />,
       title: "Improved Accessibility",
-      description: "Better accessibility features for inclusive web experiences."
+      description: "HTML5 provides features that make websites accessible for all users."
     }
   ];
 
@@ -94,22 +94,22 @@ function HTML5() {
     {
       icon: <FaUsers className="text-5xl text-[#e34f26]" />,
       title: "Expert Developers",
-      description: "Skilled HTML5 professionals with extensive experience in web development."
+      description: "Our skilled HTML5 developers have strong experience in web development."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
       title: "Best Practices",
-      description: "We follow HTML5 best practices for clean, efficient code."
+      description: "We follow modern HTML5 best practices to write clean and efficient code."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
       title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      description: "We use agile methods to complete projects on schedule."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      description: "We ensure proper testing and follow high coding standards for reliable results."
     }
   ];
 
@@ -142,7 +142,7 @@ function HTML5() {
                 Company
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                We build modern and well-structured websites using HTML5.
+                At BTJ Alpha Technology, We build modern and well-structured websites using HTML5.
                 Our developers create clean, accessible, and SEO-friendly web pages by following the latest HTML5 standards and best practices.
               </p>
               <div className="flex flex-wrap gap-4">
@@ -220,6 +220,9 @@ function HTML5() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Our HTML5 Services
             </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              We provide professional HTML5 development services to build modern and responsive websites.
+            </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
             {html5Services.map((item, i) => (

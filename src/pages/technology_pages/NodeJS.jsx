@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaNodeJs, FaServer, FaRocket, FaDatabase, FaCode, FaLayerGroup,
   FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaUsers,
   FaLaptop, FaSync, FaChartLine, FaTools, FaCogs, FaMobileAlt, FaShieldAlt, FaApple
@@ -25,32 +25,32 @@ function NodeJS() {
     {
       icon: <FaNodeJs className="text-5xl text-[#339933]" />,
       title: "JavaScript Everywhere",
-      description: "Use JavaScript on both frontend and backend for seamless full-stack development."
+      description: "Use JavaScript on both frontend and backend for full-stack development."
     },
     {
       icon: <FaServer className="text-5xl text-[#339933]" />,
       title: "Non-Blocking I/O",
-      description: "Event-driven architecture for handling thousands of concurrent connections efficiently."
+      description: "Event-driven system that can handle many connections at the same time efficiently."
     },
     {
       icon: <FaRocket className="text-5xl text-[#339933]" />,
       title: "Fast Performance",
-      description: "Built on Chrome's V8 engine for exceptional speed and performance."
+      description: "Built on Chrome’s V8 engine for high speed and strong performance."
     },
     {
       icon: <FaDatabase className="text-5xl text-[#339933]" />,
       title: "NPM Ecosystem",
-      description: "Access to world's largest package registry with thousands of reusable modules."
+      description: "Access thousands of ready-to-use packages from the world’s largest package library."
     },
     {
       icon: <FaCode className="text-5xl text-[#339933]" />,
       title: "RESTful APIs",
-      description: "Build scalable REST APIs and microservices with Express.js and other frameworks."
+      description: "Build scalable APIs and microservices using Express.js and other frameworks."
     },
     {
       icon: <FaLayerGroup className="text-5xl text-[#339933]" />,
       title: "Real-Time Applications",
-      description: "Perfect for real-time apps like chat, gaming, and collaborative tools with WebSockets."
+      description: "Perfect for chat apps, live updates, gaming, and collaboration tools using WebSockets."
     }
   ];
 
@@ -58,17 +58,17 @@ function NodeJS() {
     {
       icon: <FaCode className="text-5xl text-[#339933]" />,
       title: "Node.js Development",
-      description: "We build fast, efficient, and real-time applications using Node.js's non-blocking architecture and vast ecosystem."
+      description: "We build fast, efficient, and real-time applications using Node.js and its non-blocking architecture."
     },
     {
       icon: <FaServer className="text-5xl text-[#10B981]" />,
       title: "API Development",
-      description: "Creating scalable RESTful APIs and microservices with Express.js and other frameworks."
+      description: "We create scalable RESTful APIs and microservices using Express.js and other frameworks."
     },
     {
       icon: <FaRocket className="text-5xl text-[#8B5CF6]" />,
       title: "Real-Time Applications",
-      description: "Building real-time applications like chat systems, gaming, and collaborative tools."
+      description: "We develop real-time apps like chat systems, gaming platforms, and collaboration tools."
     }
   ];
 
@@ -76,17 +76,17 @@ function NodeJS() {
     {
       icon: <FaNodeJs className="text-5xl text-[#339933]" />,
       title: "Unified Language",
-      description: "Use JavaScript across the entire stack, reducing context switching."
+      description: "Use JavaScript across the entire project, from frontend to backend."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
       title: "Performance",
-      description: "Fast execution with V8 engine and event-driven non-blocking I/O."
+      description: "Fast execution using the V8 engine and event-driven non-blocking system."
     },
     {
       icon: <FaDatabase className="text-5xl text-[#10B981]" />,
       title: "Scalability",
-      description: "Handles concurrent connections efficiently for scalable applications."
+      description: "Handles multiple connections efficiently, making it perfect for growing applications."
     }
   ];
 
@@ -94,22 +94,22 @@ function NodeJS() {
     {
       icon: <FaUsers className="text-5xl text-[#339933]" />,
       title: "Expert Developers",
-      description: "Node.js specialists with extensive experience in server-side development."
+      description: "Our Node.js developers have strong experience in server-side development."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
       title: "Best Practices",
-      description: "We follow Node.js best practices for clean, efficient code."
+      description: "We follow Node.js best practices to deliver clean and efficient code."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
       title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      description: "We use agile methods to complete projects on schedule."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      description: "We perform thorough testing and follow high coding standards to ensure quality results."
     }
   ];
 
@@ -142,7 +142,8 @@ function NodeJS() {
                 Development
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Build scalable server-side applications with Node.js. Our developers create fast, efficient, and real-time applications using Node.js's non-blocking architecture and vast ecosystem.
+                Build scalable server-side applications with Node.js.
+                Our developers create fast, efficient, and real-time applications using Node.js’s non-blocking architecture and powerful ecosystem.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -283,7 +284,7 @@ function NodeJS() {
             Ready to Build with Node.js?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to leverage the power of Node.js for your next project.
+            Work with us to use the full power of Node.js for your next project.
           </p>
           <button
             onClick={openForm}

@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaCss3Alt, FaPalette, FaMobileAlt, FaLayerGroup, FaRocket, FaCode,
   FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaUsers,
   FaLaptop, FaSync, FaDatabase, FaChartLine, FaTools, FaCogs
@@ -25,32 +25,32 @@ function CSS3() {
     {
       icon: <FaCss3Alt className="text-5xl text-[#1572b6]" />,
       title: "Advanced Styling",
-      description: "Modern CSS features like Grid, Flexbox, and custom properties for powerful layouts."
+      description: "Modern CSS features like Grid, Flexbox, and custom properties help create powerful and flexible layouts."
     },
     {
       icon: <FaPalette className="text-5xl text-[#1572b6]" />,
       title: "Animations & Transitions",
-      description: "Create smooth animations and transitions without JavaScript for engaging UIs."
+      description: "Create smooth animations and transitions without using JavaScript."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#1572b6]" />,
       title: "Responsive Design",
-      description: "Media queries and responsive units for perfect display on all devices."
+      description: "Use media queries and responsive units to make websites look perfect on all devices."
     },
     {
       icon: <FaLayerGroup className="text-5xl text-[#1572b6]" />,
       title: "CSS Grid & Flexbox",
-      description: "Powerful layout systems for complex, responsive page structures."
+      description: "Powerful layout systems for building complex and responsive page structures."
     },
     {
       icon: <FaRocket className="text-5xl text-[#1572b6]" />,
       title: "Performance",
-      description: "Optimized CSS for fast loading and rendering across browsers."
+      description: "Optimized CSS ensures fast loading and smooth performance across browsers."
     },
     {
       icon: <FaCode className="text-5xl text-[#1572b6]" />,
       title: "Custom Properties",
-      description: "CSS variables for maintainable, reusable styles and theming."
+      description: "CSS variables help create reusable and easy-to-manage styles and themes."
     }
   ];
 
@@ -58,17 +58,17 @@ function CSS3() {
     {
       icon: <FaCode className="text-5xl text-[#1572b6]" />,
       title: "Custom CSS3 Development",
-      description: "We build responsive, animated, and cross-browser compatible stylesheets using modern CSS3 features."
+      description: "At BTJ Alpha Technology, we build responsive, animated, and cross-browser compatible styles using modern CSS3 features"
     },
     {
       icon: <FaPalette className="text-5xl text-[#10B981]" />,
       title: "Animation & Effects",
-      description: "Creating smooth animations, transitions, and visual effects without relying on heavy JavaScript."
+      description: "Our team creates smooth animations, transitions, and visual effects without relying on heavy JavaScript."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#8B5CF6]" />,
       title: "Responsive Design",
-      description: "Building responsive layouts that adapt seamlessly to all device sizes and screen resolutions."
+      description: "We design layouts that adjust perfectly to all screen sizes and devices."
     }
   ];
 
@@ -76,17 +76,17 @@ function CSS3() {
     {
       icon: <FaCss3Alt className="text-5xl text-[#1572b6]" />,
       title: "Visual Appeal",
-      description: "Create stunning, pixel-perfect designs with advanced CSS3 features."
+      description: "We create attractive and pixel-perfect designs using advanced CSS3 features."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
       title: "Enhanced Performance",
-      description: "Optimized CSS for fast loading and rendering across browsers."
+      description: "Our optimized CSS ensures faster loading and smooth performance across browsers."
     },
     {
       icon: <FaPalette className="text-5xl text-[#10B981]" />,
       title: "Consistent Experience",
-      description: "Cross-browser compatibility ensures consistent user experience."
+      description: "Cross-browser compatibility ensures users get the same experience on all platforms."
     }
   ];
 
@@ -94,22 +94,22 @@ function CSS3() {
     {
       icon: <FaUsers className="text-5xl text-[#1572b6]" />,
       title: "Expert Designers",
-      description: "Skilled CSS3 professionals with extensive experience in web design."
+      description: "Our skilled CSS3 professionals have strong experience in modern web design."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
       title: "Best Practices",
-      description: "We follow CSS3 best practices for clean, efficient code."
+      description: "We follow the latest CSS3 best practices to write clean and efficient code."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
       title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      description: "We use agile development methods to ensure projects are completed on schedule."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      description: "We perform thorough testing and follow high coding standards to deliver reliable and high-quality results."
     }
   ];
 
@@ -142,7 +142,8 @@ function CSS3() {
                 Company
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Create stunning, responsive designs with CSS3. Our designers and developers craft pixel-perfect, animated, and cross-browser compatible stylesheets using modern CSS3 features.
+                We create beautiful and responsive designs using CSS3.
+                Our designers and developers build pixel-perfect, animated, and cross-browser compatible styles using modern CSS3 features.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -217,8 +218,9 @@ function CSS3() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our CSS3 Services
+              Our CSS3 Services – BTJ Alpha Technology
             </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto"> At BTJ Alpha Technology, we provide professional CSS3 services to create modern, responsive, and visually appealing designs.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
             {css3Services.map((item, i) => (
@@ -257,7 +259,7 @@ function CSS3() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Us?
+              Why Choose BTJ Alpha Technology?
             </h2>
           </div>
           <div className="grid md:grid-cols-4 gap-8 container mx-auto px-4">
@@ -283,7 +285,7 @@ function CSS3() {
             Ready to Create Stunning Designs with CSS3?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to leverage the power of CSS3 for your next project.
+           Partner with BTJ Alpha Technology to use the full power of CSS3 for your next project.
           </p>
           <button
             onClick={openForm}

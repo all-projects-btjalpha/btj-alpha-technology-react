@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaDatabase, FaRocket, FaMobileAlt, FaCloud, FaSync, FaShieldAlt,
   FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaUsers,
   FaLaptop, FaCode, FaChartLine, FaTools, FaCogs, FaServer, FaLayerGroup
@@ -26,32 +26,32 @@ function Firebase() {
     {
       icon: <SiFirebase className="text-5xl text-[#ffca28]" />,
       title: "Real-Time Database",
-      description: "Cloud-hosted NoSQL database with real-time data synchronization."
+      description: "Firebase offers a cloud-hosted NoSQL database with real-time data synchronization across all connected devices."
     },
     {
       icon: <FaRocket className="text-5xl text-[#ffca28]" />,
       title: "Quick Development",
-      description: "Build apps faster with Firebase's comprehensive backend services."
+      description: "Pre-built backend services allow faster app development without managing complex server infrastructure."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#ffca28]" />,
       title: "Mobile-First",
-      description: "Perfect for mobile apps with offline support and automatic syncing."
+      description: "Firebase is designed for mobile applications with offline support and automatic data syncing."
     },
     {
       icon: <FaCloud className="text-5xl text-[#ffca28]" />,
       title: "Cloud Firestore",
-      description: "Scalable NoSQL cloud database for web and mobile applications."
+      description: "A scalable NoSQL cloud database that supports structured data and flexible querying."
     },
     {
       icon: <FaSync className="text-5xl text-[#ffca28]" />,
       title: "Real-Time Sync",
-      description: "Instant data synchronization across all connected clients."
+      description: "Instant data updates across users and devices improve user engagement and app performance."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#ffca28]" />,
       title: "Authentication",
-      description: "Built-in authentication with email, social, and phone verification."
+      description: "Built-in authentication system supports email, phone, and social logins for secure access control."
     }
   ];
 
@@ -59,17 +59,17 @@ function Firebase() {
     {
       icon: <FaCode className="text-5xl text-[#ffca28]" />,
       title: "Firebase Development",
-      description: "We build real-time applications using Firebase's comprehensive backend services."
+      description: "We build real-time web and mobile applications using Firebase’s advanced backend services.."
     },
     {
       icon: <FaDatabase className="text-5xl text-[#10B981]" />,
       title: "Database Solutions",
-      description: "Implementing Firestore and Realtime Database for scalable data storage."
+      description: "Implementation of Cloud Firestore and Realtime Database for scalable and secure data storage."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#8B5CF6]" />,
-      title: "Mobile Backend",
-      description: "Creating robust mobile backends with Firebase's mobile-first approach."
+      title: "Mobile Backend Development",
+      description: "We create robust mobile backends using Firebase’s mobile-first infrastructure."
     }
   ];
 
@@ -77,17 +77,17 @@ function Firebase() {
     {
       icon: <SiFirebase className="text-5xl text-[#ffca28]" />,
       title: "Real-Time Capabilities",
-      description: "Instant data synchronization across all connected clients."
+      description: "Deliver instant data updates and seamless user experiences."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
       title: "Rapid Development",
-      description: "Comprehensive backend services that accelerate development time."
+      description: "Accelerate time-to-market with ready-to-use backend tools."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#10B981]" />,
       title: "Secure Authentication",
-      description: "Built-in authentication with multiple sign-in methods."
+      description: "Protect applications with built-in authentication and secure access management."
     }
   ];
 
@@ -95,22 +95,22 @@ function Firebase() {
     {
       icon: <FaUsers className="text-5xl text-[#ffca28]" />,
       title: "Expert Developers",
-      description: "Firebase specialists with extensive experience in real-time applications."
+      description: "Our Firebase specialists have extensive experience in building real-time applications."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
       title: "Best Practices",
-      description: "We follow Firebase best practices for secure, efficient implementations."
+      description: "We follow Firebase best practices for secure and efficient implementation."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
       title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      description: "Agile processes ensure your project is delivered within deadlines."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      description: "Comprehensive testing guarantees high performance and reliability."
     }
   ];
 
@@ -143,7 +143,7 @@ function Firebase() {
                 Development
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Build real-time applications with Firebase. Our developers create fast, scalable, and real-time apps using Firebase's comprehensive backend-as-a-service platform.
+                At BTJ Alpha Technology, we provide professional Firebase Development Services to build fast, scalable, and real-time applications. Our developers create powerful web and mobile apps using Firebase’s comprehensive backend-as-a-service platform.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -220,6 +220,7 @@ function Firebase() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Our Firebase Services
             </h2>
+            <p className="text-gray-600 text-lg mb-8 leading-relaxed">At BTJ Alpha Technology, our Firebase Development Services are tailored to meet modern business needs.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
             {firebaseServices.map((item, i) => (
@@ -240,6 +241,7 @@ function Firebase() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Benefits of Firebase
             </h2>
+            <p className="text-gray-600 text-lg mb-8 leading-relaxed">Choosing Firebase Development Services provides several advantages for your business:</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
             {benefits.map((item, i) => (
@@ -284,7 +286,7 @@ function Firebase() {
             Ready to Build Real-Time Apps with Firebase?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to leverage the power of Firebase for your next project.
+            Partner with BTJ Alpha Technology for reliable and scalable Firebase Development Services that power modern applications.
           </p>
           <button
             onClick={openForm}

@@ -26,32 +26,32 @@ function Swift() {
     {
       icon: <SiSwift className="text-5xl text-[#fa7343]" />,
       title: "Official iOS Language",
-      description: "Apple's modern programming language for iOS, macOS, watchOS, and tvOS."
+      description: "Swift is Apple’s official programming language for iOS, macOS, watchOS, and tvOS app development. It is fully supported and regularly updated by Apple."
     },
     {
       icon: <FaCode className="text-5xl text-[#fa7343]" />,
       title: "Clean Syntax",
-      description: "Simple, expressive syntax that's easy to read and write for developers."
+      description: "Swift offers simple and expressive syntax that is easy to read and write, making development faster and more efficient."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fa7343]" />,
       title: "Fast Performance",
-      description: "Optimized for performance - significantly faster than Objective-C."
+      description: "Swift is optimized for speed and delivers significantly better performance compared to older languages like Objective-C."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#fa7343]" />,
       title: "Type Safety",
-      description: "Strong type system prevents errors and crashes at compile time."
+      description: "Strong type checking prevents common errors and reduces crashes at compile time, improving application stability."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#fa7343]" />,
       title: "iOS Development",
-      description: "Build powerful iOS apps with SwiftUI and UIKit frameworks."
+      description: "Swift works seamlessly with SwiftUI and UIKit frameworks to build powerful and visually appealing iOS applications."
     },
     {
       icon: <FaLaptop className="text-5xl text-[#fa7343]" />,
       title: "Multi-Platform",
-      description: "Develop for iPhone, iPad, Mac, Apple Watch, and Apple TV."
+      description: "Develop applications for iPhone, iPad, Mac, Apple Watch, and Apple TV using a unified and modern development approach."
     }
   ];
 
@@ -59,17 +59,17 @@ function Swift() {
     {
       icon: <FaCode className="text-5xl text-[#fa7343]" />,
       title: "iOS App Development",
-      description: "We build fast, secure, and elegant iOS applications using Swift's modern programming language."
+      description: "We build fast, secure, and elegant iOS applications using Swift’s modern capabilities and Apple best practices."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#10B981]" />,
       title: "macOS Development",
-      description: "Creating native macOS applications with SwiftUI and other Apple frameworks."
+      description: "Our team creates native macOS applications using SwiftUI and other advanced Apple frameworks."
     },
     {
       icon: <FaLaptop className="text-5xl text-[#8B5CF6]" />,
       title: "App Store Optimization",
-      description: "Optimizing your apps for the App Store to increase visibility and downloads."
+      description: "We help optimize your applications for better visibility, higher rankings, and increased downloads on the App Store."
     }
   ];
 
@@ -77,17 +77,17 @@ function Swift() {
     {
       icon: <SiSwift className="text-5xl text-[#fa7343]" />,
       title: "Modern Language",
-      description: "Designed for safety, performance, and developer productivity."
+      description: "Swift is designed for safety, performance, and developer productivity."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
-      title: "Performance",
-      description: "Optimized for speed and efficiency across all Apple platforms."
+      title: "High Performance",
+      description: "Optimized for speed and efficiency across all Apple devices."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#10B981]" />,
-      title: "Safety",
-      description: "Built-in safety features to prevent common programming errors."
+      title: "Enhanced Safety",
+      description: "Built-in safety features reduce programming errors and improve overall app reliability."
     }
   ];
 
@@ -95,22 +95,22 @@ function Swift() {
     {
       icon: <FaUsers className="text-5xl text-[#fa7343]" />,
       title: "Certified Developers",
-      description: "Apple-certified developers with extensive Swift and iOS development experience."
+      description: "Our Apple-certified developers have extensive experience in Swift and iOS app development."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
       title: "Best Practices",
-      description: "We follow Apple's Human Interface Guidelines and Swift best practices."
+      description: "We follow Apple’s Human Interface Guidelines and modern Swift development standards."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
       title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      description: "Agile development ensures your project is completed within the agreed timeline."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      description: "Comprehensive testing and coding standards guarantee high-quality application."
     }
   ];
 
@@ -143,8 +143,7 @@ function Swift() {
                 Development
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Build native Apple applications with Swift. Our team creates fast, secure, and elegant iOS and macOS applications using Swift's modern programming language.
-              </p>
+               At BTJ Alpha Technology, we provide professional Swift Development Services to build fast, secure, and elegant Apple applications. Our team creates high-performance iOS and macOS apps using Swift’s modern programming language, ensuring smooth functionality and outstanding user experience.</p>
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={openForm}
@@ -220,6 +219,8 @@ function Swift() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Our Swift Services
             </h2>
+            <p className="text-gray-600 text-lg mb-8 leading-relaxed">At BTJ Alpha Technology, our Swift Development Services are designed to meet diverse business requirements across Apple platforms.
+</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
             {swiftServices.map((item, i) => (
@@ -240,6 +241,7 @@ function Swift() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Benefits of Swift Development
             </h2>
+            <p className="text-gray-600 text-lg mb-8 leading-relaxed">Choosing Swift Development Services provides several business advantages:</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
             {benefits.map((item, i) => (
@@ -284,7 +286,7 @@ function Swift() {
             Ready to Build with Swift?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to leverage the power of Swift for your next project.
+            Partner with BTJ Alpha Technology for reliable and scalable Swift Development Services that deliver innovation, performance, and exceptional user experiences.
           </p>
           <button
             onClick={openForm}

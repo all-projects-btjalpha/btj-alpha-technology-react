@@ -26,32 +26,32 @@ function Kotlin() {
     {
       icon: <SiKotlin className="text-5xl text-[#7f52ff]" />,
       title: "Official Android Language",
-      description: "Google's preferred language for Android app development since 2019."
+      description: "Kotlin is Google’s preferred language for Android app development, officially supported since 2019, ensuring continuous innovation and strong ecosystem support.",
     },
     {
       icon: <FaCode className="text-5xl text-[#7f52ff]" />,
       title: "Concise Syntax",
-      description: "Modern, expressive syntax that reduces boilerplate code significantly."
+      description: "Modern, expressive syntax significantly reduces boilerplate code, improving development speed and code readability."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#7f52ff]" />,
       title: "Null Safety",
-      description: "Built-in null safety to eliminate null pointer exceptions at compile time."
+      description: "Built-in null safety eliminates null pointer exceptions at compile time, enhancing application stability."
     },
     {
       icon: <FaJava className="text-5xl text-[#7f52ff]" />,
       title: "Java Interoperability",
-      description: "100% interoperable with Java - use existing Java libraries seamlessly."
+      description: "Kotlin is 100% interoperable with Java, allowing seamless integration with existing Java libraries and frameworks."
     },
     {
       icon: <FaRocket className="text-5xl text-[#7f52ff]" />,
       title: "Coroutines",
-      description: "Simplified asynchronous programming with Kotlin's powerful coroutines."
+      description: "Simplified asynchronous programming with powerful coroutines improves performance and responsiveness."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#7f52ff]" />,
       title: "Multiplatform",
-      description: "Share code across Android, iOS, web, and desktop with Kotlin Multiplatform."
+      description: "Share code across Android, iOS, web, and desktop platforms using Kotlin Multiplatform, reducing time and development costs."
     }
   ];
 
@@ -59,17 +59,17 @@ function Kotlin() {
     {
       icon: <FaCode className="text-5xl text-[#7f52ff]" />,
       title: "Android App Development",
-      description: "We build robust, efficient, and maintainable Android applications using Kotlin's modern features and concise syntax."
+      description: "We build robust, efficient, and maintainable Android applications using modern Kotlin architecture and best practices."
     },
     {
       icon: <FaAndroid className="text-5xl text-[#10B981]" />,
       title: "Kotlin Multiplatform",
-      description: "Creating shared codebases for Android, iOS, web, and desktop applications."
+      description: "Develop shared codebases for Android, iOS, web, and desktop applications to accelerate time-to-market."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#8B5CF6]" />,
       title: "Migration Services",
-      description: "Migrating existing Java codebases to Kotlin with minimal disruption."
+      description: "We migrate existing Java applications to Kotlin smoothly, minimizing risk and improving performance."
     }
   ];
 
@@ -77,17 +77,17 @@ function Kotlin() {
     {
       icon: <SiKotlin className="text-5xl text-[#7f52ff]" />,
       title: "Conciseness",
-      description: "Write less code with more expressiveness compared to Java."
+      description: "Write less code with greater clarity and efficiency compared to traditional Java development."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
       title: "Interoperability",
-      description: "Seamlessly integrate with existing Java code and libraries."
+      description: "Easily integrate with existing Java codebases without compatibility issues."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#10B981]" />,
       title: "Safety",
-      description: "Built-in safety features to prevent common programming errors."
+      description: "Built-in safety features reduce programming errors and improve application reliability."
     }
   ];
 
@@ -95,7 +95,7 @@ function Kotlin() {
     {
       icon: <FaUsers className="text-5xl text-[#7f52ff]" />,
       title: "Expert Developers",
-      description: "Kotlin specialists with extensive Android and JVM development experience."
+      description: "Our Kotlin specialists have strong experience in Android and JVM development."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
@@ -105,12 +105,12 @@ function Kotlin() {
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
       title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      description: "Agile workflows ensure projects are completed on schedule."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      description: "Comprehensive testing ensures reliable and high-performing applications."
     }
   ];
 
@@ -142,9 +142,8 @@ function Kotlin() {
                 Kotlin<br />
                 Development
               </h1>
-              <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Build modern Android apps with Kotlin. Our developers create robust, efficient, and maintainable Android applications using Kotlin's modern features and concise syntax.
-              </p>
+              <p className="text-gray-600 max-w-3xl mx-auto">
+              At BTJ Alpha Technology, we deliver professional Kotlin Development Services to help businesses build modern, efficient, and scalable Android applications. Our expert developers use Kotlin’s advanced features and concise syntax to create high-performance mobile apps that are secure, reliable, and future-ready.</p>
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={openForm}
@@ -220,6 +219,7 @@ function Kotlin() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Our Kotlin Services
             </h2>
+            <p className="text-gray-600 max-w-3xl mx-auto">At BTJ Alpha Technology, our Kotlin Development Services are tailored to meet diverse business requirements.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
             {kotlinServices.map((item, i) => (
@@ -240,6 +240,7 @@ function Kotlin() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Benefits of Kotlin Development
             </h2>
+            <p className="text-gray-600 text-lg mb-8 leading-relaxed">Choosing Kotlin Development Services offers multiple advantages for your business:</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
             {benefits.map((item, i) => (
@@ -284,7 +285,7 @@ function Kotlin() {
             Ready to Build with Kotlin?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to leverage the power of Kotlin for your next project.
+            Partner with BTJ Alpha Technology for reliable and scalable Kotlin Development Services that drive innovation and business growth.
           </p>
           <button
             onClick={openForm}

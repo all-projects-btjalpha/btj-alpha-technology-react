@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaFigma, FaPalette, FaUsers, FaPuzzlePiece, FaMobileAlt, FaCode,
   FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop,
   FaSync, FaDatabase, FaChartLine, FaTools, FaCogs, FaRocket, FaShieldAlt
@@ -25,32 +25,32 @@ function Figma() {
     {
       icon: <FaFigma className="text-5xl text-[#f24e1e]" />,
       title: "Collaborative Design",
-      description: "Real-time collaboration with team members for seamless design workflow."
+      description: "Figma allows real-time collaboration, enabling teams to work together seamlessly without version conflicts. Designers, developers, and stakeholders can contribute in one shared workspace."
     },
     {
       icon: <FaPalette className="text-5xl text-[#f24e1e]" />,
       title: "Vector Design Tools",
-      description: "Powerful vector editing tools for creating pixel-perfect designs."
+      description: "Powerful vector editing tools help create pixel-perfect layouts, icons, and custom UI elements with precision."
     },
     {
       icon: <FaUsers className="text-5xl text-[#f24e1e]" />,
       title: "Design Systems",
-      description: "Build and maintain consistent design systems with components and styles."
+      description: "Build and maintain consistent design systems with reusable components, styles, and libraries to ensure brand consistency."
     },
     {
       icon: <FaPuzzlePiece className="text-5xl text-[#f24e1e]" />,
       title: "Prototyping",
-      description: "Interactive prototypes with animations and transitions for user testing."
+      description: "Create interactive prototypes with smooth animations and transitions to test user flows before development."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#f24e1e]" />,
       title: "Responsive Design",
-      description: "Design responsive interfaces that adapt to different screen sizes."
+      description: "Design responsive interfaces that adapt perfectly across desktop, tablet, and mobile devices."
     },
     {
       icon: <FaCode className="text-5xl text-[#f24e1e]" />,
       title: "Developer Handoff",
-      description: "Seamless handoff to developers with CSS, iOS, and Android code snippets."
+      description: "Generate CSS, iOS, and Android code snippets for seamless handoff from design to development."
     }
   ];
 
@@ -58,17 +58,17 @@ function Figma() {
     {
       icon: <FaCode className="text-5xl text-[#f24e1e]" />,
       title: "UI/UX Design",
-      description: "We create beautiful, user-friendly interfaces using Figma's collaborative platform."
+      description: "We create beautiful and intuitive user interfaces using Figma’s collaborative tools to enhance user experience."
     },
     {
       icon: <FaPalette className="text-5xl text-[#10B981]" />,
       title: "Design Systems",
-      description: "Building consistent design systems with reusable components and style guides."
+      description: "Our team builds scalable design systems with reusable components and style guides for long-term efficiency."
     },
     {
       icon: <FaPuzzlePiece className="text-5xl text-[#8B5CF6]" />,
       title: "Prototyping",
-      description: "Creating interactive prototypes with smooth animations and transitions."
+      description: "We design interactive prototypes to visualize product functionality and improve user testing before launch."
     }
   ];
 
@@ -76,17 +76,17 @@ function Figma() {
     {
       icon: <FaFigma className="text-5xl text-[#f24e1e]" />,
       title: "Real-Time Collaboration",
-      description: "Work together with your team in real-time without version conflicts."
+      description: "Work together with your team instantly without file-sharing issues or delays."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
       title: "Enhanced Productivity",
-      description: "Streamlined workflows that accelerate the design process."
+      description: "Streamlined workflows help accelerate the design process and reduce turnaround time."
     },
     {
       icon: <FaUsers className="text-5xl text-[#10B981]" />,
       title: "Seamless Handoff",
-      description: "Effortless transition from design to development with detailed specs."
+      description: "Smooth transition from design to development with accurate specifications and code references."
     }
   ];
 
@@ -94,22 +94,22 @@ function Figma() {
     {
       icon: <FaUsers className="text-5xl text-[#f24e1e]" />,
       title: "Expert Designers",
-      description: "Skilled Figma professionals with extensive experience in UI/UX design."
+      description: "Our skilled Figma professionals have extensive experience in UI/UX and modern design trends."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
       title: "Best Practices",
-      description: "We follow design best practices for clean, efficient workflows."
+      description: "We follow clean design principles and structured workflows for efficient project delivery."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
       title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      description: "Agile processes ensure your project is completed within deadlines."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      description: "Comprehensive testing and design reviews guarantee pixel-perfect results."
     }
   ];
 
@@ -142,7 +142,7 @@ function Figma() {
                 Company
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Create stunning UI/UX designs with Figma. Our designers use Figma's collaborative platform to create beautiful, functional, and user-friendly interfaces for web and mobile.
+                At BTJ Alpha Technology, we are a professional Figma Design Company delivering modern, creative, and user-focused UI/UX solutions. Our designers use Figma’s powerful collaborative platform to create stunning, functional, and user-friendly interfaces for web and mobile applications.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -219,6 +219,8 @@ function Figma() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Our Figma Services
             </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+             As a leading Figma Design Company, we provide comprehensive design solutions tailored to your business needs.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
             {figmaServices.map((item, i) => (
@@ -283,7 +285,7 @@ function Figma() {
             Ready to Create Beautiful Designs with Figma?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to leverage the power of Figma for your next project.
+            Partner with BTJ Alpha Technology, your trusted Figma Design Company, to build engaging and high-performing digital experiences.
           </p>
           <button
             onClick={openForm}

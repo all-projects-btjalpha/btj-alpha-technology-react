@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaBox, FaShieldAlt, FaServer, FaRocket, FaLayerGroup,
   FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaUsers,
   FaLaptop, FaSync, FaChartLine, FaTools, FaCogs, FaMobileAlt
@@ -24,69 +24,69 @@ function KitBuilder() {
   const kitFeatures = [
     {
       icon: <FaBox className="text-5xl text-[#ff6b35]" />,
-      title: "Component Libraries",
-      description: "Pre-built UI components and templates for rapid application development."
+      title: "Pre-Built Component Libraries",
+      description: "Ready-to-use UI components and templates for rapid application development."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#ff6b35]" />,
-      title: "Enterprise Security",
-      description: "Built-in security features and compliance with enterprise standards."
+      title: "Enterprise-Grade Security",
+      description: "Secure and scalable component architecture aligned with enterprise standards."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#ff6b35]" />,
-      title: "Cross-Platform",
-      description: "Support for web, desktop, and mobile development with single codebase."
+      title: "Cross-Platform Support",
+      description: "Single codebase support for web, desktop, and mobile applications."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#ff6b35]" />,
-      title: "Customization",
-      description: "Highly customizable components with theme support and styling options."
+      title: "Full Customization",
+      description: "Highly customizable components with theme support, branding, and styling options."
     },
     {
       icon: <FaCogs className="text-5xl text-[#ff6b35]" />,
       title: "Easy Integration",
-      description: "Seamless integration with popular frameworks and development tools."
+      description: "Seamless integration with popular frameworks and development environments."
     },
     {
       icon: <FaLayerGroup className="text-5xl text-[#ff6b35]" />,
-      title: "Scalability",
-      description: "Designed for enterprise-scale applications with high performance."
+      title: "Scalability Architecture",
+      description: "Designed to support growing applications with high performance and flexibility."
     }
   ];
 
   const kitServices = [
     {
       icon: <FaBox className="text-5xl text-[#ff6b35]" />,
-      title: "Kit Builder Development",
-      description: "Building applications with comprehensive UI kit and component libraries."
+      title: "Custom Kit Builder Development",
+      description: "Design and development of fully customized UI kits and reusable component libraries."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Template Customization",
-      description: "Customizing pre-built templates and components for specific requirements."
+      title: "Template & Theme Customization",
+      description: "Customize pre-built templates and components according to your project requirements."
     },
     {
       icon: <FaServer className="text-5xl text-[#8B5CF6]" />,
       title: "System Integration",
-      description: "Integrating kit builder components with existing development workflows."
+      description: "Integrate Kit Builder components with existing applications, workflows, and development pipelines."
     }
   ];
 
   const benefits = [
     {
       icon: <FaBox className="text-5xl text-[#ff6b35]" />,
-      title: "Rapid Development",
-      description: "Accelerate development with pre-built, customizable components and templates."
+      title: "Faster Application Development",
+      description: "Accelerate development with pre-built, reusable UI components."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
-      title: "Time Savings",
-      description: "Reduce development time with ready-to-use UI components and design systems."
+      title: "Time & Cost Savings",
+      description: "Reduce development time and costs using structured design systems."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#10B981]" />,
-      title: "Consistent Design",
-      description: "Maintain design consistency across applications with standardized components."
+      title: "Consistent User Interface",
+      description: "Maintain uniform design and branding across all applications."
     }
   ];
 
@@ -98,18 +98,18 @@ function KitBuilder() {
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Best Practices",
-      description: "Following industry best practices for component library implementation."
+      title: "Best Development Practices",
+      description: "We follow clean coding standards, reusable architecture, and structured documentation."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
       title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      description: "Efficient project execution ensuring timely completion."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
-      title: "Quality Assurance",
-      description: "Comprehensive testing and validation of component libraries."
+      title: "Ongoing Support & Optimization",
+      description: "Continuous improvement, upgrades, and technical support after deployment."
     }
   ];
 
@@ -142,7 +142,7 @@ function KitBuilder() {
                 Development
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Build applications faster with comprehensive UI kit and component libraries. Our developers create efficient, scalable solutions using pre-built components and design systems.
+                At BTJ Alpha Technology, we provide professional Kit Builder Development services to help businesses build applications faster using structured UI kits and reusable component libraries. As an experienced Kit Builder development company, we design and develop scalable UI systems that improve consistency, speed, and efficiency in application development.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -217,7 +217,7 @@ function KitBuilder() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our Services
+              Our Kit Builder Development Services
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -237,7 +237,7 @@ function KitBuilder() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Key Benefits
+              Key Benefits of Kit Builder Development
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -257,7 +257,7 @@ function KitBuilder() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Us?
+              Why Choose BTJ Alpha Technology for Kit Builder Development?
             </h2>
           </div>
           <div className="grid md:grid-cols-4 gap-8 container mx-auto px-4">

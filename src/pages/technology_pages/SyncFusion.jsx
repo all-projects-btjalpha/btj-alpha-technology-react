@@ -24,69 +24,69 @@ function SyncFusion() {
   const syncFeatures = [
     {
       icon: <FaCode className="text-5xl text-[#3278e4]" />,
-      title: "UI Components",
-      description: "Comprehensive suite of UI controls and components for modern applications."
+      title: "Rich UI Components",
+      description: "Comprehensive suite of modern UI controls for web, desktop, and mobile applications."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#3278e4]" />,
-      title: "Enterprise Security",
-      description: "Built-in security features and compliance with enterprise standards."
+      title: " Enterprise-Level Security",
+      description: "Our SyncFusion Development Services in India follow secure coding practices and compliance standards for business-critical applications."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#3278e4]" />,
-      title: "Cross-Platform",
-      description: "Support for web, desktop, and mobile development with single codebase."
+      title: "Cross-Platform Support",
+      description: "Develop applications for web, Windows, and mobile platforms using a unified framework."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#3278e4]" />,
-      title: "Data Visualization",
-      description: "Advanced charting and reporting components for data analysis."
+      title: "Advanced Data Visualization",
+      description: "Interactive dashboards, charts, grids, and real-time reporting tools."
     },
     {
       icon: <FaCogs className="text-5xl text-[#3278e4]" />,
-      title: "Integration Ready",
-      description: "Seamless integration with popular frameworks and development tools."
+      title: " Seamless Integration",
+      description: "Easy integration with CRM, ERP, cloud platforms, APIs, and third-party systems."
     },
     {
       icon: <FaLayerGroup className="text-5xl text-[#3278e4]" />,
-      title: "Scalability",
-      description: "Designed for enterprise-scale applications with high performance."
+      title: " Scalable Architecture",
+      description: "Applications built to handle enterprise-level traffic and complex workflows."
     }
   ];
 
   const syncServices = [
     {
       icon: <FaCode className="text-5xl text-[#3278e4]" />,
-      title: "SyncFusion Development",
-      description: "Building enterprise applications with SyncFusion powerful UI components."
+      title: "Custom Application Development",
+      description: "Build enterprise applications using SyncFusion UI components and frameworks."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Dashboard Creation",
-      description: "Creating interactive dashboards and data visualization solutions."
+      title: "Dashboard & Reporting Development",
+      description: "Design interactive dashboards and business intelligence solutions."
     },
     {
       icon: <FaServer className="text-5xl text-[#8B5CF6]" />,
-      title: "System Integration",
-      description: "Integrating SyncFusion components with existing enterprise systems."
+      title: "Enterprise System Integration",
+      description: "Integrate SyncFusion applications with existing business systems and databases."
     }
   ];
 
   const benefits = [
     {
       icon: <FaCode className="text-5xl text-[#3278e4]" />,
-      title: "Rapid Development",
-      description: "Accelerate development with pre-built, customizable components."
+      title: "Faster Development Cycle",
+      description: "Pre-built components reduce coding time and speed up project delivery."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
-      title: "Performance",
-      description: "Optimized components for fast loading and smooth user experience."
+      title: " High Performance",
+      description: "Optimized UI controls ensure smooth and responsive applications."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#10B981]" />,
-      title: "Enterprise Grade",
-      description: "Robust, secure solutions designed for business-critical applications."
+      title: " Data-Driven Insights",
+      description: "Advanced reporting tools improve business decision-making."
     }
   ];
 
@@ -94,22 +94,22 @@ function SyncFusion() {
     {
       icon: <FaUsers className="text-5xl text-[#3278e4]" />,
       title: "SyncFusion Experts",
-      description: "Certified developers with extensive SyncFusion platform experience."
+      description: "Skilled developers delivering reliable SyncFusion Development Services in India."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Best Practices",
-      description: "Following SyncFusion best practices for optimal implementation."
+      title: "Best Development Practices",
+      description: "Agile methodology and industry-standard coding guidelines."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
       title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      description: "Efficient project management ensures timely completion."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      description: "Comprehensive testing for performance, security, and stability."
     }
   ];
 
@@ -197,7 +197,7 @@ function SyncFusion() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Key Features
+             Key Features of Our SyncFusion Solutions
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -217,8 +217,9 @@ function SyncFusion() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our Services
+            Our SyncFusion Development Services in India
             </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">BTJ Alpha Technology delivers end-to-end SyncFusion Development Services in India customized for startups, SMEs, and enterprises.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
             {syncServices.map((item, i) => (
@@ -283,7 +284,7 @@ function SyncFusion() {
             Ready to Build with SyncFusion?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to leverage the power of SyncFusion for your enterprise applications.
+           Choose BTJ Alpha Technology for trusted SyncFusion Development Services in India and develop powerful enterprise applications.
           </p>
           <button
             onClick={openForm}

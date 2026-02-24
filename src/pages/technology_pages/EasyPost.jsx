@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaTruck, FaShieldAlt, FaServer, FaRocket, FaLayerGroup,
   FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaUsers,
   FaLaptop, FaSync, FaChartLine, FaTools, FaCogs, FaMobileAlt
@@ -24,92 +24,92 @@ function EasyPost() {
   const shippingFeatures = [
     {
       icon: <FaTruck className="text-5xl text-[#ff6b35]" />,
-      title: "Shipping API",
-      description: "Comprehensive shipping API for rate calculation, label generation, and tracking."
+      title: "Shipping API Automation",
+      description: "Automate shipping rate calculation, label creation, shipment verification, and tracking."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#ff6b35]" />,
-      title: "Carrier Integration",
-      description: "Integration with major carriers including USPS, UPS, FedEx, and DHL."
+      title: "Multi-Carrier Integration",
+      description: "Connect with major carriers like USPS, UPS, FedEx, DHL, and more through a single API."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#ff6b35]" />,
-      title: "Real-time Tracking",
-      description: "Live shipment tracking and delivery notifications for customers."
+      title: "Real-time  Shipment Tracking",
+      description: "Enable live shipment tracking and delivery notifications for customers."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#ff6b35]" />,
       title: "Rate Comparison",
-      description: "Compare shipping rates across multiple carriers to find the best options."
+      description: "Compare shipping rates across multiple carriers to choose the most cost-effective option."
     },
     {
       icon: <FaCogs className="text-5xl text-[#ff6b35]" />,
-      title: "Easy Integration",
-      description: "Simple APIs and SDKs for quick integration with e-commerce platforms."
+      title: "Easy Platform Integration",
+      description: "Quick integration with e-commerce platforms, marketplaces, and ERP systems."
     },
     {
       icon: <FaLayerGroup className="text-5xl text-[#ff6b35]" />,
-      title: "Scalability",
-      description: "Designed for enterprise-scale shipping operations with high volume support."
+      title: "Scalable Architecture",
+      description: "Designed for high-volume shipping operations with enterprise-level performance."
     }
   ];
 
   const shippingServices = [
     {
       icon: <FaTruck className="text-5xl text-[#ff6b35]" />,
-      title: "EasyPost Integration",
-      description: "Integrating EasyPost shipping API capabilities into your e-commerce applications."
+      title: "EasyPost API Integration",
+      description: "Complete integration of EasyPost APIs into web applications, mobile apps, and enterprise systems."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Shipping Solutions",
-      description: "Building custom shipping and logistics management systems."
+      title: "E-commerce Shipping Integration",
+      description: "Integrate EasyPost with Shopify, Magento, WooCommerce, custom e-commerce platforms, and marketplaces."
     },
     {
       icon: <FaServer className="text-5xl text-[#8B5CF6]" />,
-      title: "Carrier Management",
-      description: "Implementing multi-carrier shipping solutions and rate optimization."
+      title: "Multi-Carrier Shipping Solutions",
+      description: "Implement centralized carrier management and automated shipping workflows."
     }
   ];
 
   const benefits = [
     {
       icon: <FaTruck className="text-5xl text-[#ff6b35]" />,
-      title: "Streamlined Shipping",
-      description: "Simplified shipping processes with automated rate calculation and label generation."
+      title: "Streamlined Shipping Operations",
+      description: "Simplify shipping with automated processes and centralized carrier management."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
-      title: "Fast Integration",
-      description: "Quick setup with comprehensive shipping APIs and developer tools."
+      title: "Faster Order Fulfillment",
+      description: "Reduce manual work with automatic rate calculation and label generation."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#10B981]" />,
-      title: "Reliable Delivery",
-      description: "Integration with trusted carriers for reliable and trackable shipments."
+      title: "Improved Customer Experience",
+      description: "Offer real-time tracking and reliable delivery updates."
     }
   ];
 
   const whyChooseUs = [
     {
       icon: <FaUsers className="text-5xl text-[#ff6b35]" />,
-      title: "Shipping Experts",
-      description: "Specialists with extensive experience in shipping API integration and logistics."
+      title: "Experienced Shipping API Developers",
+      description: "Our team has deep expertise in EasyPost integration services and shipping API implementation."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Best Practices",
-      description: "Following industry best practices for shipping system implementation."
+      title: "Best Development Practices",
+      description: "Clean coding, secure API handling, and structured project execution."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
       title: "On-Time Delivery",
-      description: "Rapid implementation ensuring timely shipping solutions."
+      description: "Agile development ensuring fast and timely deployment."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
-      title: "Quality Assurance",
-      description: "Comprehensive testing and validation of shipping systems."
+      title: "Ongoing Support & Maintenance",
+      description: "Continuous support, performance monitoring, and API upgrades."
     }
   ];
 
@@ -142,7 +142,7 @@ function EasyPost() {
                 Integration
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Streamline your shipping operations with EasyPost integration. Our experts implement reliable shipping solutions with multi-carrier support and real-time tracking.
+                At BTJ Alpha Technology, we provide reliable and scalable EasyPost Integration Services to streamline your shipping operations. As an experienced EasyPost development company, we help businesses integrate the EasyPost API into their e-commerce platforms, ERP systems, and custom applications.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -197,7 +197,7 @@ function EasyPost() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Key Features
+              Key Features of EasyPost Integration
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -217,7 +217,7 @@ function EasyPost() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our Services
+              Our EasyPost Integration Services
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -237,7 +237,7 @@ function EasyPost() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Key Benefits
+             Key Benefits of EasyPost Integration
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -257,7 +257,7 @@ function EasyPost() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Us?
+              Why Choose BTJ Alpha Technology for EasyPost Integration?
             </h2>
           </div>
           <div className="grid md:grid-cols-4 gap-8 container mx-auto px-4">
@@ -283,7 +283,7 @@ function EasyPost() {
             Ready to Streamline Your Shipping?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to integrate EasyPost shipping capabilities into your e-commerce platform.
+           Partner with BTJ Alpha Technology, a trusted EasyPost development company in India, to implement powerful and scalable EasyPost integration services for your business.
           </p>
           <button
             onClick={openForm}

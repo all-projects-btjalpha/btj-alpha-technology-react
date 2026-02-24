@@ -59,17 +59,17 @@ function MySQL() {
     {
       icon: <FaCode className="text-5xl text-[#4479a1]" />,
       title: "MySQL Development",
-      description: "We build efficient, secure, and scalable databases using MySQL's proven technology."
+      description: "We build efficient, secure, and scalable databases tailored to your business requirements."
     },
     {
       icon: <FaDatabase className="text-5xl text-[#10B981]" />,
       title: "Database Optimization",
-      description: "Improving query performance and database efficiency for better results."
+      description: "Improve query performance and enhance database efficiency for better application results."
     },
     {
       icon: <FaServer className="text-5xl text-[#8B5CF6]" />,
       title: "Database Migration",
-      description: "Migrating existing databases to MySQL with minimal downtime."
+      description: "We migrate existing databases to MySQL with minimal downtime and complete data integrity."
     }
   ];
 
@@ -77,17 +77,17 @@ function MySQL() {
     {
       icon: <SiMysql className="text-5xl text-[#4479a1]" />,
       title: "Reliability",
-      description: "Proven track record with decades of stable database performance."
+      description: "Backed by decades of stable and consistent database performance."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
       title: "Speed",
-      description: "Optimized for fast query execution and data retrieval."
+      description: "Optimized for fast query execution and quick data processing."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#10B981]" />,
       title: "Security",
-      description: "Strong security features with role-based access control and encryption."
+      description: "Advanced security mechanisms ensure safe data storage and access control."
     }
   ];
 
@@ -95,22 +95,22 @@ function MySQL() {
     {
       icon: <FaUsers className="text-5xl text-[#4479a1]" />,
       title: "Expert DBAs",
-      description: "MySQL specialists with extensive database administration experience."
+      description: "Our MySQL specialists have extensive experience in database administration and performance tuning."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
       title: "Best Practices",
-      description: "We follow MySQL best practices for secure, efficient implementations."
+      description: "We follow proven MySQL standards for secure and efficient implementation."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
       title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      description: "Agile development ensures projects are completed within deadlines."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      description: "Comprehensive testing guarantees stable and high-performing database solutions."
     }
   ];
 
@@ -142,9 +142,8 @@ function MySQL() {
                 MySQL<br />
                 Development
               </h1>
-              <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Build reliable database solutions with MySQL. Our developers design efficient, secure, and scalable relational databases using MySQL's proven technology.
-              </p>
+              <p className="text-gray-600 max-w-3xl mx-auto">
+                At BTJ Alpha Technology, our MySQL Development Services are designed to support businesses of all sizes.</p><br></br>
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={openForm}
@@ -220,6 +219,7 @@ function MySQL() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Our MySQL Services
             </h2>
+            <p className="text-gray-600 text-lg mb-8 leading-relaxed"></p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
             {mysqlServices.map((item, i) => (
@@ -240,6 +240,7 @@ function MySQL() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Benefits of MySQL
             </h2>
+            <p className="text-gray-600 text-lg mb-8 leading-relaxed">Choosing MySQL Development Services provides significant advantages:</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
             {benefits.map((item, i) => (

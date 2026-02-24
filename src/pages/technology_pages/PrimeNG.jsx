@@ -24,51 +24,51 @@ function PrimeNG() {
   const primeFeatures = [
     {
       icon: <FaCode className="text-5xl text-[#007ad9]" />,
-      title: "UI Components",
-      description: "Rich set of UI components for Angular applications with Material Design."
+      title: "Rich UI Components",
+      description: "Access 80+ powerful UI components including data tables, charts, forms, dialogs, and advanced input controls."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#007ad9]" />,
       title: "Enterprise Security",
-      description: "Built-in security features and compliance with enterprise standards."
+      description: "Secure Angular architecture with authentication, role-based access control, and enterprise compliance standards."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#007ad9]" />,
       title: "Responsive Design",
-      description: "Fully responsive components that work on all device sizes and browsers."
+      description: "Fully responsive PrimeNG components that work seamlessly across desktop, tablet, and mobile devices."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#007ad9]" />,
-      title: "Data Visualization",
-      description: "Advanced charting and reporting components for data analysis."
+      title: "Advanced Data Visualization",
+      description: "Interactive charts, dashboards, and reporting components for business intelligence applications."
     },
     {
       icon: <FaCogs className="text-5l text-[#007ad9]" />,
-      title: "Easy Integration",
-      description: "Seamless integration with Angular framework and existing applications."
+      title: "Easy Angular Integration",
+      description: "Seamless integration with Angular framework for scalable and maintainable applications."
     },
     {
       icon: <FaLayerGroup className="text-5xl text-[#007ad9]" />,
-      title: "Component Library",
-      description: "Comprehensive library of 80+ UI components and templates."
+      title: "Custom Theming & Branding",
+      description: "Create custom themes and branded UI designs tailored to your business identity."
     }
   ];
 
   const primeServices = [
     {
       icon: <FaCode className="text-5xl text-[#007ad9]" />,
-      title: "PrimeNG Development",
-      description: "Building enterprise applications with PrimeNG UI component library for Angular."
+      title: "Custom PrimeNG Development",
+      description: "We build customized web applications using PrimeNG components aligned with your business requirements."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Dashboard Creation",
-      description: "Creating interactive dashboards and data visualization solutions."
+      title: "PrimeNG Dashboard Development",
+      description: "Create interactive dashboards with advanced charts, data tables, and real-time reporting."
     },
     {
       icon: <FaServer className="text-5xl text-[#8B5CF6]" />,
-      title: "System Integration",
-      description: "Integrating PrimeNG components with existing Angular applications."
+      title: "PrimeNG Integration Services",
+      description: "Integrate PrimeNG components into your existing Angular applications smoothly and efficiently."
     }
   ];
 
@@ -76,40 +76,40 @@ function PrimeNG() {
     {
       icon: <FaCode className="text-5xl text-[#007ad9]" />,
       title: "Rapid Development",
-      description: "Accelerate development with pre-built, customizable components."
+      description: "Accelerate project timelines with pre-built PrimeNG components."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
-      title: "Performance",
-      description: "Optimized components for fast loading and smooth user experience."
+      title: "High Performance",
+      description: "Optimized Angular and PrimeNG architecture for fast loading and smooth performance."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#10B981]" />,
-      title: "Enterprise Grade",
-      description: "Robust, secure solutions designed for business-critical applications."
+      title: "Enterprise-Grade Applications",
+      description: "Robust and secure solutions suitable for large-scale business applications."
     }
   ];
 
   const whyChooseUs = [
     {
       icon: <FaUsers className="text-5xl text-[#007ad9]" />,
-      title: "Angular Experts",
-      description: "Certified developers with extensive Angular and PrimeNG experience."
+      title: "Experienced Angular & PrimeNG Developers",
+      description: "Our team has strong expertise in PrimeNG UI development and enterprise Angular architecture."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Best Practices",
-      description: "Following PrimeNG best practices for optimal implementation."
+      title: "Best Coding Practices",
+      description: "We follow structured development standards for maintainable and scalable applications."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
       title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      description: "Agile development process ensuring timely project completion."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      description: "Comprehensive testing for performance, security, and responsiveness."
     }
   ];
 
@@ -139,11 +139,10 @@ function PrimeNG() {
             <div data-aos="fade-right">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
                 PrimeNG<br />
-                Development
+                Development Services
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Build enterprise-grade Angular applications with PrimeNG UI component library. Our developers create professional, scalable solutions using PrimeNG components.
-              </p>
+             At BTJ Alpha Technology, we provide professional PrimeNG Development Services to build modern, scalable, and enterprise-grade Angular applications. Our expert PrimeNG developers use the powerful PrimeNG UI component library to create responsive, secure, and high-performance web applications.</p>
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={openForm}
@@ -197,7 +196,7 @@ function PrimeNG() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Key Features
+              Key Features of Our PrimeNG Development
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -217,7 +216,7 @@ function PrimeNG() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our Services
+             Our PrimeNG Development Services
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -237,7 +236,7 @@ function PrimeNG() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Key Benefits
+              Key Benefits of PrimeNG Solutions
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -257,7 +256,7 @@ function PrimeNG() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Us?
+              Why Choose BTJ Alpha Technology for PrimeNG Development?
             </h2>
           </div>
           <div className="grid md:grid-cols-4 gap-8 container mx-auto px-4">
@@ -283,7 +282,7 @@ function PrimeNG() {
             Ready to Build with PrimeNG?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to leverage the power of PrimeNG for your Angular applications.
+            Partner with BTJ Alpha Technology, a reliable PrimeNG Development Company, to create modern, scalable, and enterprise-ready Angular applications.
           </p>
           <button
             onClick={openForm}
