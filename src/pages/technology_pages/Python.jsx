@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaPython, FaCode, FaRocket, FaBrain, FaDatabase, FaServer,
   FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaUsers,
   FaLaptop, FaSync, FaChartLine, FaTools, FaCogs, FaMobileAlt, FaShieldAlt, FaLayerGroup
@@ -25,22 +25,22 @@ function Python() {
     {
       icon: <FaPython className="text-5xl text-[#3776ab]" />,
       title: "Simple & Readable",
-      description: "Clean, easy-to-read syntax that emphasizes code readability and productivity."
+      description: "Clean and easy-to-read syntax that improves code clarity and productivity."
     },
     {
       icon: <FaCode className="text-5xl text-[#3776ab]" />,
       title: "Versatile Language",
-      description: "From web development to AI/ML, data science, automation, and more."
+      description: "Used for web development, AI/ML, data science, automation, and more."
     },
     {
       icon: <FaBrain className="text-5xl text-[#3776ab]" />,
       title: "AI & Machine Learning",
-      description: "Leading language for AI/ML with libraries like TensorFlow, PyTorch, and scikit-learn."
+      description: "Popular language for AI and ML using libraries like TensorFlow, PyTorch, and scikit-learn."
     },
     {
       icon: <FaDatabase className="text-5xl text-[#3776ab]" />,
       title: "Data Science",
-      description: "Powerful data analysis and visualization with Pandas, NumPy, and Matplotlib."
+      description: "Strong support for data analysis and visualization using Pandas, NumPy, and Matplotlib."
     },
     {
       icon: <FaServer className="text-5xl text-[#3776ab]" />,
@@ -50,7 +50,7 @@ function Python() {
     {
       icon: <FaRocket className="text-5xl text-[#3776ab]" />,
       title: "Rapid Development",
-      description: "Extensive standard library and third-party packages for fast development."
+      description: "Large standard library and many third-party packages help speed up development."
     }
   ];
 
@@ -58,17 +58,17 @@ function Python() {
     {
       icon: <FaCode className="text-5xl text-[#3776ab]" />,
       title: "Python Development",
-      description: "We leverage Python's versatility and extensive libraries to create everything from web apps to AI/ML solutions and data analytics."
+      description: "We use Python’s flexibility and wide range of libraries to create everything from web applications to AI/ML solutions and data analytics platforms."
     },
     {
       icon: <FaBrain className="text-5xl text-[#10B981]" />,
       title: "AI/ML Development",
-      description: "Building artificial intelligence and machine learning solutions with Python."
+      description: "We build artificial intelligence and machine learning solutions using Python."
     },
     {
       icon: <FaDatabase className="text-5xl text-[#8B5CF6]" />,
       title: "Data Science",
-      description: "Creating data analysis and visualization solutions with Python's powerful libraries."
+      description: "We create data analysis and visualization solutions using Python’s powerful libraries."
     }
   ];
 
@@ -76,17 +76,17 @@ function Python() {
     {
       icon: <FaPython className="text-5xl text-[#3776ab]" />,
       title: "Readability",
-      description: "Clean, readable syntax that makes code easier to maintain and debug."
+      description: "We create data analysis and visualization solutions using Python’s powerful libraries."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
       title: "Productivity",
-      description: "Extensive standard library and packages accelerate development."
+      description: "A large standard library and ready-to-use packages help speed up development."
     },
     {
       icon: <FaBrain className="text-5xl text-[#10B981]" />,
       title: "AI/ML Powerhouse",
-      description: "Leading choice for artificial intelligence and machine learning projects."
+      description: "Python is a leading choice for artificial intelligence and machine learning projects."
     }
   ];
 
@@ -94,22 +94,22 @@ function Python() {
     {
       icon: <FaUsers className="text-5xl text-[#3776ab]" />,
       title: "Expert Developers",
-      description: "Python specialists with extensive experience in web development, AI/ML, and data science."
+      description: "Our Python specialists have strong experience in web development, AI/ML, and data science."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
       title: "Best Practices",
-      description: "We follow Python best practices for clean, efficient code."
+      description: "We follow Python best practices to deliver clean and efficient code."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
       title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      description: "We use agile methods to complete projects on schedule."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      description: "We perform detailed testing and follow high coding standards to ensure quality results."
     }
   ];
 
@@ -142,8 +142,8 @@ function Python() {
                 Development
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Build powerful applications with Python. Our developers leverage Python's versatility and extensive libraries to create everything from web apps to AI/ML solutions and data analytics.
-              </p>
+                Build powerful applications with Python.
+                Our developers use Python’s flexibility and wide range of libraries to create web apps, AI/ML solutions, and data-driven applications.</p>
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={openForm}
@@ -219,6 +219,7 @@ function Python() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Our Python Services
             </h2>
+            <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">At BTJ Alpha Technology, we provide professional Python development services to build powerful, scalable, and intelligent applications.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
             {pythonServices.map((item, i) => (
@@ -283,7 +284,9 @@ function Python() {
             Ready to Build with Python?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to leverage the power of Python for your next project.
+            At BTJ Alpha Technology, we are here to help you use the full power of Python for your next project.
+            Partner with us to build fast, secure, and scalable solutions tailored to your business needs.
+
           </p>
           <button
             onClick={openForm}

@@ -25,32 +25,32 @@ function WordPress() {
     {
       icon: <FaWordpress className="text-5xl text-[#21759b]" />,
       title: "Easy Content Management",
-      description: "User-friendly CMS interface for managing content without technical knowledge."
+      description: "WordPress has a user-friendly dashboard that makes it easy to manage website content without technical knowledge."
     },
     {
       icon: <FaPuzzlePiece className="text-5xl text-[#21759b]" />,
       title: "Vast Plugin Library",
-      description: "50,000+ plugins for adding functionality - from SEO to e-commerce."
+      description: "With thousands of plugins available, you can add features like SEO tools, security, and e-commerce easily."
     },
     {
       icon: <FaPalette className="text-5xl text-[#21759b]" />,
       title: "Thousands of Themes",
-      description: "Extensive theme library for customizing your website's appearance."
+      description: "Choose from a large collection of themes to design and customize your website’s look."
     },
     {
       icon: <FaCode className="text-5xl text-[#21759b]" />,
       title: "Highly Customizable",
-      description: "Build custom themes and plugins for unique website functionality."
+      description: "We can build custom themes and plugins to match your specific business needs."
     },
     {
       icon: <FaSearch className="text-5xl text-[#21759b]" />,
       title: "SEO Friendly",
-      description: "Built-in SEO features and plugins like Yoast for better search rankings."
+      description: "WordPress includes built-in SEO features and supports plugins like Yoast to improve search rankings."
     },
     {
       icon: <FaRocket className="text-5xl text-[#21759b]" />,
       title: "Quick Setup",
-      description: "Get your website up and running quickly with WordPress's easy installation."
+      description: "WordPress allows fast installation and setup, so your website can go live quickly."
     }
   ];
 
@@ -58,17 +58,17 @@ function WordPress() {
     {
       icon: <FaCode className="text-5xl text-[#21759b]" />,
       title: "WordPress Development",
-      description: "We build custom themes, plugins, and WooCommerce stores using WordPress's flexible platform."
+      description: "We build custom themes, plugins, and WooCommerce stores using WordPress’s flexible platform."
     },
     {
       icon: <FaPuzzlePiece className="text-5xl text-[#10B981]" />,
       title: "Theme Development",
-      description: "Creating custom WordPress themes tailored to your brand and requirements."
+      description: "We create custom WordPress themes designed to match your brand and business needs."
     },
     {
       icon: <FaRocket className="text-5xl text-[#8B5CF6]" />,
       title: "WooCommerce Development",
-      description: "Building e-commerce stores with WordPress and WooCommerce."
+      description: "We build powerful e-commerce stores using WordPress and WooCommerce."
     }
   ];
 
@@ -76,17 +76,17 @@ function WordPress() {
     {
       icon: <FaWordpress className="text-5xl text-[#21759b]" />,
       title: "User-Friendly",
-      description: "Easy to use content management system for non-technical users."
+      description: "WordPress is easy to use, even for non-technical users."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
       title: "SEO Optimized",
-      description: "Built-in SEO features and extensive plugin support for search optimization."
+      description: "Built-in SEO features and plugins help improve your website’s search engine ranking."
     },
     {
       icon: <FaPuzzlePiece className="text-5xl text-[#10B981]" />,
       title: "Extensible",
-      description: "Thousands of plugins to extend functionality without coding."
+      description: "Thousands of plugins allow you to add new features without complex coding."
     }
   ];
 
@@ -94,22 +94,22 @@ function WordPress() {
     {
       icon: <FaUsers className="text-5xl text-[#21759b]" />,
       title: "Expert Developers",
-      description: "WordPress specialists with extensive experience in theme and plugin development."
+      description: "Our WordPress specialists have strong experience in theme and plugin development."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
       title: "Best Practices",
-      description: "We follow WordPress best practices for clean, efficient code."
+      description: "We follow WordPress best practices to deliver clean and efficient code."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
       title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      description: "We use agile methods to complete projects on time."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      description: "We perform detailed testing and follow high coding standards to ensure high-quality results."
     }
   ];
 
@@ -141,9 +141,8 @@ function WordPress() {
                 WordPress<br />
                 Development
               </h1>
-              <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Create powerful websites with WordPress. Our developers build custom themes, plugins, and WooCommerce stores using WordPress's flexible platform.
-              </p>
+              <p className="text-gray-600 max-w-3xl mx-auto">
+                At BTJ Alpha Technology, we create powerful and professional websites using WordPress. Our developers build custom themes, plugins, and WooCommerce stores using WordPress’s flexible platform.</p><br></br>
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={openForm}
@@ -207,7 +206,7 @@ function WordPress() {
                 <h3 className="font-bold text-lg text-center mb-2">{item.title}</h3>
                 <p className="text-sm text-gray-600 text-center">{item.description}</p>
               </div>
-            ))}
+            ))}s
           </div>
         </div>
       </section>
@@ -219,6 +218,7 @@ function WordPress() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Our WordPress Services
             </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">we provide complete WordPress development services to help businesses build professional and high-performing websites.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
             {wordpressServices.map((item, i) => (
@@ -283,7 +283,7 @@ function WordPress() {
             Ready to Build with WordPress?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to leverage the power of WordPress for your next project.
+            At BTJ Alpha Technology, we help you create powerful and professional websites using WordPress.
           </p>
           <button
             onClick={openForm}

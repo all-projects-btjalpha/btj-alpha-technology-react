@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaReact, FaMobileAlt, FaCode, FaRocket, FaAndroid, FaApple,
   FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaUsers,
   FaSync, FaDatabase, FaChartLine, FaTools, FaCogs, FaServer, FaLayerGroup, FaPalette
@@ -25,22 +25,22 @@ function ReactNative() {
     {
       icon: <FaReact className="text-5xl text-[#61dafb]" />,
       title: "Cross-Platform Development",
-      description: "Build iOS and Android apps simultaneously with a single codebase."
+      description: "Build iOS and Android apps at the same time using one codebase."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#61dafb]" />,
       title: "Native Performance",
-      description: "True native performance with React Native's bridge to platform APIs."
+      description: "Get true native performance with React Native’s connection to platform APIs."
     },
     {
       icon: <FaCode className="text-5xl text-[#61dafb]" />,
       title: "JavaScript & React",
-      description: "Use React skills to build mobile apps with familiar JavaScript syntax."
+      description: "Use JavaScript and React skills to build mobile apps with familiar syntax."
     },
     {
       icon: <FaRocket className="text-5xl text-[#61dafb]" />,
       title: "Fast Development",
-      description: "Hot reloading and live updates for rapid development and testing."
+      description: "Hot reloading and live updates make development and testing faster."
     },
     {
       icon: <FaAndroid className="text-5xl text-[#61dafb]" />,
@@ -50,7 +50,7 @@ function ReactNative() {
     {
       icon: <FaApple className="text-5xl text-[#61dafb]" />,
       title: "iOS Support",
-      description: "Complete iOS development with native UI components and APIs."
+      description: "Complete iOS app development with native UI components and APIs."
     }
   ];
 
@@ -58,17 +58,17 @@ function ReactNative() {
     {
       icon: <FaCode className="text-5xl text-[#61dafb]" />,
       title: "React Native App Development",
-      description: "We build high-performance iOS and Android applications using React Native's cross-platform framework."
+      description: "We build high-performance iOS and Android applications using React Native’s cross-platform framework."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#10B981]" />,
       title: "Cross-Platform Solutions",
-      description: "Creating apps that work seamlessly across iOS and Android platforms."
+      description: "We create mobile apps that work smoothly on both iOS and Android platforms."
     },
     {
       icon: <FaRocket className="text-5xl text-[#8B5CF6]" />,
       title: "Performance Optimization",
-      description: "Optimizing React Native apps for maximum performance and user experience."
+      description: "We optimize React Native apps to improve speed, performance, and user experience."
     }
   ];
 
@@ -76,17 +76,17 @@ function ReactNative() {
     {
       icon: <FaReact className="text-5xl text-[#61dafb]" />,
       title: "Shared Codebase",
-      description: "One codebase for both iOS and Android, reducing development time and cost."
+      description: "One codebase for both iOS and Android. This helps reduce development time and cost."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
       title: "Native Performance",
-      description: "Near-native performance with access to native APIs and components."
+      description: "Get near-native performance with access to native APIs and components."
     },
     {
       icon: <FaCode className="text-5xl text-[#10B981]" />,
       title: "Faster Development",
-      description: "Hot reloading and reusable components accelerate the development process."
+      description: "Hot reloading and reusable components help speed up the development process."
     }
   ];
 
@@ -94,22 +94,22 @@ function ReactNative() {
     {
       icon: <FaUsers className="text-5xl text-[#61dafb]" />,
       title: "Expert Developers",
-      description: "React Native specialists with extensive cross-platform development experience."
+      description: "Our React Native specialists have strong experience in cross-platform app development."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
       title: "Best Practices",
-      description: "We follow React Native best practices for clean, efficient code."
+      description: "We follow React Native best practices to deliver clean and efficient code."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
       title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      description: "We use agile methods to complete projects on time."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      description: "We perform detailed testing and follow high coding standards to ensure high-quality mobile applications."
     }
   ];
 
@@ -137,13 +137,11 @@ function ReactNative() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
             <div data-aos="fade-right">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                React Native<br />
-                Development
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                React Native Development
               </h1>
-              <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Build native mobile apps with React Native. Our developers create high-performance iOS and Android applications using React Native's cross-platform framework.
-              </p>
+              <p className="text-gray-600 max-w-3xl mx-auto">
+                At BTJ Alpha Technology, we build high-quality mobile apps using React Native. Our developers create fast and powerful iOS and Android applications using React Native’s cross-platform framework.</p><br></br>
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={openForm}
@@ -219,6 +217,7 @@ function ReactNative() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Our React Native Services
             </h2>
+            <p className="text-gray-600 max-w-3xl mx-auto">At BTJ Alpha Technology, we provide complete React Native development services to build fast and modern mobile applications.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
             {reactNativeServices.map((item, i) => (
@@ -283,7 +282,9 @@ function ReactNative() {
             Ready to Build with React Native?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to leverage the power of React Native for your next project.
+            Partner with BTJ Alpha Technology to use the power of React Native for your next project.
+            Get Started Today
+
           </p>
           <button
             onClick={openForm}

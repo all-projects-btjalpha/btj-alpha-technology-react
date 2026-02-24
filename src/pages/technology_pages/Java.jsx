@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaJava, FaServer, FaShieldAlt, FaMobileAlt, FaCode, FaLayerGroup,
   FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaUsers,
   FaLaptop, FaSync, FaDatabase, FaChartLine, FaTools, FaCogs, FaRocket, FaMobile
@@ -25,32 +25,32 @@ function Java() {
     {
       icon: <FaJava className="text-5xl text-[#007396]" />,
       title: "Platform Independent",
-      description: "Write once, run anywhere with Java's platform-independent bytecode execution."
+      description: "Write once, run anywhere. Java applications can run on different platforms without changes."
     },
     {
       icon: <FaServer className="text-5xl text-[#007396]" />,
       title: "Enterprise Applications",
-      description: "Industry standard for building large-scale enterprise applications and systems."
+      description: "Java is widely used to build large-scale business and enterprise systems."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#007396]" />,
       title: "Robust & Secure",
-      description: "Strong type checking, exception handling, and security features for reliable applications."
+      description: "Java offers strong security features, error handling, and reliable performance."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#007396]" />,
       title: "Android Development",
-      description: "Primary language for native Android app development with Android Studio."
+      description: "Java is one of the main languages used for Android app development."
     },
     {
       icon: <FaCode className="text-5xl text-[#007396]" />,
       title: "Object-Oriented",
-      description: "Pure OOP language for clean, modular, and maintainable code architecture."
+      description: "Java follows object-oriented programming, making code clean, organized, and easy to maintain."
     },
     {
       icon: <FaLayerGroup className="text-5xl text-[#007396]" />,
       title: "Rich Ecosystem",
-      description: "Vast collection of frameworks like Spring, Hibernate, and Java EE."
+      description: "Java has a large collection of frameworks and tools like Spring, Hibernate, and Java EE to support development."
     }
   ];
 
@@ -58,17 +58,17 @@ function Java() {
     {
       icon: <FaCode className="text-5xl text-[#007396]" />,
       title: "Java Development",
-      description: "We build robust, scalable, and secure applications using Java's powerful features and extensive ecosystem."
+      description: "We build reliable and secure applications using Java’s powerful features and wide ecosystem."
     },
     {
       icon: <FaServer className="text-5xl text-[#10B981]" />,
       title: "Enterprise Solutions",
-      description: "Creating large-scale enterprise applications with Java's robust architecture."
+      description: "We create large-scale enterprise applications using Java’s strong architecture."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#8B5CF6]" />,
       title: "Android Development",
-      description: "Building native Android applications with Java and the Android SDK."
+      description: "We build native Android applications using Java and the Android SDK."
     }
   ];
 
@@ -76,17 +76,17 @@ function Java() {
     {
       icon: <FaJava className="text-5xl text-[#007396]" />,
       title: "Cross-Platform",
-      description: "Java applications run consistently across different operating systems."
+      description: "Java applications run smoothly across different operating systems."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
       title: "Performance",
-      description: "Optimized JVM performance with automatic memory management."
+      description: "Java offers optimized performance with JVM and automatic memory management."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#10B981]" />,
       title: "Security",
-      description: "Built-in security features to protect against malicious attacks."
+      description: "Java includes built-in security features to protect applications from threats."
     }
   ];
 
@@ -94,22 +94,22 @@ function Java() {
     {
       icon: <FaUsers className="text-5xl text-[#007396]" />,
       title: "Expert Developers",
-      description: "Java specialists with extensive enterprise development experience."
+      description: "Our Java specialists have strong experience in enterprise development."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
       title: "Best Practices",
-      description: "We follow Java best practices for clean, efficient code."
+      description: "We follow Java best practices to deliver clean and efficient code."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
       title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      description: "We use agile methods to ensure projects are completed on time."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      description: "We perform detailed testing and follow high coding standards to ensure high-quality results."
     }
   ];
 
@@ -142,7 +142,7 @@ function Java() {
                 Development
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Build enterprise-grade applications with Java. Our experienced developers create robust, scalable, and secure applications using Java's powerful features and extensive ecosystem.
+                At BTJ Alpha Technology, we build strong and reliable Java applications for businesses. Our experienced developers create scalable, secure, and high-performance solutions using Java’s powerful features and large ecosystem.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -219,6 +219,7 @@ function Java() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Our Java Services
             </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">At BTJ Alpha Technology, we provide professional Java development services to build strong, secure, and scalable applications for businesses.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
             {javaServices.map((item, i) => (
@@ -283,7 +284,8 @@ function Java() {
             Ready to Build with Java?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to leverage the power of Java for your next project.
+         At BTJ Alpha Technology, we help you use the full power of Java to build strong and scalable applications for your business.
+
           </p>
           <button
             onClick={openForm}

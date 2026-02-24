@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaDonate, FaHandHoldingUsd, FaUsers, FaChartLine, FaMobileAlt, FaShieldAlt,
-  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync, 
+  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync,
   FaDatabase, FaTools, FaCogs, FaServer, FaLayerGroup
 } from "react-icons/fa";
 
@@ -25,32 +25,32 @@ function FundraisingManagement() {
     {
       icon: <FaDonate className="text-5xl text-[#fb9c24]" />,
       title: "Donation Management",
-      description: "Complete donation processing with recurring gifts, donor profiles, and receipts."
+      description: "Complete donation processing with recurring gifts, donor profiles, automated receipts, and reporting tools. Our Fundraising Software Development solutions ensure smooth and efficient donation tracking."
     },
     {
       icon: <FaHandHoldingUsd className="text-5xl text-[#10B981]" />,
       title: "Crowdfunding Platforms",
-      description: "Build crowdfunding campaigns with goal tracking, social sharing, and updates."
+      description: "Build goal-based crowdfunding campaigns with social sharing, real-time updates, and progress tracking to boost engagement."
     },
     {
       icon: <FaUsers className="text-5xl text-[#8B5CF6]" />,
       title: "Donor CRM",
-      description: "Manage donor relationships with engagement tracking and communication tools."
+      description: "Manage donor relationships with advanced engagement tracking, communication tools, and data insights for better retention."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#06b6d4]" />,
       title: "Campaign Analytics",
-      description: "Track fundraising performance, donor retention, and campaign effectiveness."
+      description: "Track fundraising performance, donor behavior, and campaign effectiveness with powerful analytics dashboards."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#f87171]" />,
       title: "Mobile Giving",
-      description: "Mobile-optimized donation forms and apps for on-the-go contributions."
+      description: "Mobile-optimized donation forms and apps allow supporters to contribute anytime, anywhere."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#fbbf24]" />,
       title: "Secure Payments",
-      description: "PCI-compliant payment processing with multiple payment method support."
+      description: "PCI-compliant and encrypted payment gateways ensure secure and reliable donation processing."
     }
   ];
 
@@ -58,35 +58,35 @@ function FundraisingManagement() {
     {
       icon: <FaDonate className="text-5xl text-[#fb9c24]" />,
       title: "Fundraising Management Solutions",
-      description: "Empower nonprofits and causes with our fundraising platforms. We build donation management systems, crowdfunding platforms, and donor engagement tools that maximize fundraising impact."
+      description: "We create complete digital platforms tailored to nonprofits and NGOs. Our Fundraising Software Development services focus on building scalable, user-friendly systems that maximize fundraising results."
     },
     {
       icon: <FaHandHoldingUsd className="text-5xl text-[#10B981]" />,
       title: "Crowdfunding Platforms",
-      description: "Creating comprehensive crowdfunding platforms with goal tracking and social features."
+      description: "Design and develop interactive crowdfunding systems with goal tracking, campaign management, and integrated payment solutions."
     },
     {
       icon: <FaUsers className="text-5xl text-[#8B5CF6]" />,
       title: "Donor Management",
-      description: "Building donor relationship management systems for ongoing engagement."
+      description: "Build comprehensive donor management systems that support long-term engagement and relationship building through advanced Fundraising Software Development expertise."
     }
   ];
 
   const benefits = [
     {
       icon: <FaDonate className="text-5xl text-[#fb9c24]" />,
-      title: "Impact",
-      description: "Maximize fundraising impact with comprehensive donation management tools."
+      title: "Increased Fundraising Impact",
+      description: "Maximize donations with automated systems, better campaign management, and strategic insights powered by Fundraising Software Development."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Analytics",
-      description: "Track and analyze fundraising performance and donor engagement."
+      title: "Advanced Analytics",
+      description: "Make data-driven decisions using real-time reports and donor behavior analysis."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#8B5CF6]" />,
-      title: "Security",
-      description: "Secure payment processing with compliance to financial standards."
+      title: "Enhanced Security",
+      description: "Ensure secure transactions and protect donor information with industry-standard security protocols."
     }
   ];
 
@@ -94,22 +94,22 @@ function FundraisingManagement() {
     {
       icon: <FaUsers className="text-5xl text-[#fb9c24]" />,
       title: "Expert Team",
-      description: "Our team has extensive experience in nonprofit and fundraising technology solutions."
+      description: "Our team has extensive experience in nonprofit technology and Fundraising Software Development."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
       title: "Best Practices",
-      description: "We follow industry best practices for nonprofit technology development."
+      description: "We follow modern development standards to deliver reliable and scalable solutions."
     },
     {
       icon: <FaClock className="text-5xl text-[#8B5CF6]" />,
       title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      description: "Agile development ensures timely project completion without compromising quality."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#f87171]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      description: "Comprehensive testing and performance optimization guarantee smooth and secure fundraising platforms."
     }
   ];
 
@@ -142,7 +142,7 @@ function FundraisingManagement() {
                 Management
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Empower nonprofits and causes with our fundraising platforms. We build donation management systems, crowdfunding platforms, and donor engagement tools that maximize fundraising impact.
+                Empower nonprofits and charitable organizations with powerful digital fundraising solutions. At BTJ Alpha Technology, we specialize in Fundraising Software Devlopment that helps organizations manage donations, engage donors, and maximize campaign performance.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -283,7 +283,7 @@ function FundraisingManagement() {
             Ready to Boost Fundraising Impact?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to build your fundraising technology platform.
+            Partner with BTJ Alpha Technology to build a powerful and scalable fundraising platform tailored to your mission. 
           </p>
           <button
             onClick={openForm}
