@@ -21,7 +21,7 @@ function SocialMediaMarketing() {
       icon: <FaCode className="text-orange-500 text-3xl" />,
       title: "Media Solutions",
       description:
-        "Strategic media planning and data-driven execution for maximum brand impact with social media marketing services.",
+        "We design high-converting paid social media advertising campaigns focused on lead generation, brand awareness, and sales growth.",
       backContent:
         "Boost your brand's reach with targeted campaigns and smart media planning.",
     },
@@ -29,7 +29,7 @@ function SocialMediaMarketing() {
       icon: <MdEdit className="text-orange-500 text-3xl" />,
       title: "Brand Solutions",
       description:
-        "Build a brand that stands out with strategic identity and design.",
+        "Our team builds strong digital identities through creative storytelling, branding strategy, and engaging social media content.",
       backContent:
         "Create a unique brand identity that resonates with your audience.",
     },
@@ -37,7 +37,7 @@ function SocialMediaMarketing() {
       icon: <MdEdit className="text-orange-500 text-3xl" />,
       title: "Films & Photography",
       description:
-        "A Video production company creating compelling visuals that captivate and connect.",
+        "Professional reels, promotional videos, and branded content production tailored for Instagram, Facebook, and YouTube marketing.",
       backContent:
         "Produce captivating visuals that tell your brand's story effectively.",
     },
@@ -45,7 +45,7 @@ function SocialMediaMarketing() {
       icon: <FaBullhorn className="text-orange-500 text-3xl" />,
       title: "Brand PR",
       description:
-        "Strengthening brand credibility with strategic PR and media coverage.",
+        "Influencer marketing, digital PR campaigns, and online reputation management to enhance brand credibility.",
       backContent:
         "Build trust and credibility through targeted PR and media outreach.",
     },
@@ -53,7 +53,7 @@ function SocialMediaMarketing() {
       icon: <FaChartBar className="text-orange-500 text-3xl" />,
       title: "Tech Solutions",
       description:
-        "Tech-driven solutions for seamless operations, with e-commerce website development.",
+        "Landing page development, conversion tracking setup, and CRM integration to maximize campaign results.",
       backContent:
         "Deliver innovative tech solutions to streamline your business.",
     },
@@ -61,7 +61,7 @@ function SocialMediaMarketing() {
       icon: <FaChartBar className="text-orange-500 text-3xl" />,
       title: "Research Solutions",
       description:
-        "Market research services delivering insights to drive strategic business decisions.",
+        "In-depth competitor analysis, audience targeting research, and performance tracking for campaign optimization.",
       backContent:
         "Gain valuable insights to make informed business decisions.",
     },
@@ -112,11 +112,9 @@ function SocialMediaMarketing() {
       title: "Innovative Branding & Marketing",
       description: (
         <>
-          We are a leading <strong>social media marketing agency</strong> and{" "}
-          <strong>website designing company in India</strong>, offering
-          innovative branding and{" "}
-          <strong>social media marketing services</strong> to drive engagement
-          and growth.
+          We create unique <strong> social media campaigns that help your brand</strong> and{" "}
+          <strong> stand out in a competitive market. From viral reels to</strong>, creative ad copies,{" "}
+          our approach ensures engagement and visibility.
         </>
       ),
     },
@@ -125,10 +123,9 @@ function SocialMediaMarketing() {
       title: "Tailored Strategies for Growth",
       description: (
         <>
-          We provide <strong>best digital marketing services</strong> that align
-          with your brand's vision and goals. By leveraging data, creativity,
-          and market expertise, we create impactful campaigns, making us one of
-          the <strong>top digital marketing agencies in India</strong>.
+          Every business is different. As a leading <strong>Social Media Marketing Agency,
+            </strong>we develop customized strategies aligned with your target audience and industry trends.
+
         </>
       ),
     },
@@ -137,10 +134,9 @@ function SocialMediaMarketing() {
       title: "Performance-Driven Insights",
       description: (
         <>
-          At BrandThink, we help brands achieve measurable success. As a{" "}
-          <strong>top digital marketing company in India</strong>, we combine
-          data-driven strategies with creative excellence to optimize campaigns,
-          enhance brand visibility, and drive growth.
+         We monitor campaign metrics such as{" "}
+          <strong> engagement rate, cost per lead, conversion rate</strong>,
+           and ROI to ensure consistent growth.
         </>
       ),
     },
@@ -314,7 +310,7 @@ function SocialMediaMarketing() {
               </div>
 
               <h2 className="text-4xl max-md:text-2xl font-bold text-gray-900 mb-6">
-                Our Strategic{" "}
+                Our Strategic Social Media Marketing{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#fb9c24] to-[#ff8c00]">
                   Approach
                 </span>
@@ -349,9 +345,8 @@ function SocialMediaMarketing() {
                   key={idx}
                   data-aos="flip-left"
                   data-aos-delay={idx * 100}
-                  className={`group relative h-64 cursor-pointer ${
-                    idx === 1 || idx === 4 ? "lg:translate-y-8" : ""
-                  }`}
+                  className={`group relative h-64 cursor-pointer ${idx === 1 || idx === 4 ? "lg:translate-y-8" : ""
+                    }`}
                   style={{ perspective: "1000px" }}
                 >
                   <div className="relative w-full h-full duration-500 [transform-style:preserve-3d] transition-transform group-hover:[transform:rotateY(180deg)]">
@@ -392,7 +387,7 @@ function SocialMediaMarketing() {
               </span>
             </div>
             <h2 className="text-4xl max-md:text-2xl font-bold text-gray-900 mb-4">
-              WE CAN HELP YOU WITH
+              What Our Social Media Marketing Services Can Help You Achieve
             </h2>
             <div className="w-20 h-1 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] rounded-full mx-auto"></div>
           </div>
@@ -431,7 +426,7 @@ function SocialMediaMarketing() {
 
         <div className="max-w-4xl mx-auto text-center relative z-10" data-aos="fade-up">
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
-            Build your business without hustling
+            Build Your Business Without Hustling
           </h2>
 
           <p className="text-xl text-gray-300 mb-6">
@@ -445,7 +440,7 @@ function SocialMediaMarketing() {
           </div>
 
           <p className="text-gray-400 text-lg mb-8">
-            Our team of ninjas is ready to hear from you. Get in touch with us!
+            Let our social media experts handle your online growth while you focus on running your business. With our performance-driven SMM services in India, you’ll see measurable results without wasting ad spend.
           </p>
 
           <Link to="/contact">

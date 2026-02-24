@@ -39,20 +39,20 @@ function GoogleAds() {
 
   const accordionData = [
     {
-      header: "For Lead Generation",
-      body: "Google Ads are a powerful tool for generating high-quality leads. Search Ads work best for connecting with users actively searching for your services. You can also leverage YouTube Search Ads and Dynamic Search Ads for additional reach and engagement.",
+      header: "Google Search Ads",
+      body: "Appear on top of Google search results and capture ready-to-buy customers.",
     },
     {
-      header: "For eCommerce Sites",
-      body: "For eCommerce businesses, Shopping Ads (now part of Performance Max) are highly effective. These campaigns use Google's smart bidding and automation to optimize your ads, helping you drive more sales with less effort.",
+      header: "Google Display Ads",
+      body: "Increase brand awareness through banner ads across websites and apps.",
     },
     {
-      header: "For Mobile App Promotion",
-      body: "Have a mobile app on Android or iOS? Universal App Campaigns are your go-to solution. These ads help you boost app installations and increase user engagement. They are cost-effective and deliver measurable results.",
+      header: "Google Shopping Ads",
+      body: "Perfect for eCommerce stores to showcase products directly on Google.",
     },
     {
-      header: "For YouTube Video Ads",
-      body: "If growing your YouTube channel is a priority, Video Ads can help you increase views, build your subscriber base, and boost brand awareness. With multiple ad formats available, you can customize campaigns based on your goals, budget, and target audience.",
+      header: " YouTube Video Ads",
+      body: "Perfect for eCommerce stores to showcase products directly on Google.",
     },
   ];
 
@@ -78,18 +78,17 @@ function GoogleAds() {
               </div>
 
               <h1 className="text-4xl max-md:text-3xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                The Google Ads Agency for{" "}
+                Best Google Ads Agency in India for {" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#fb9c24] to-[#ff8c00]">
-                  Predictable ROIs.
+                  High ROI Campaigns.
                 </span>
               </h1>
 
               <div className="w-24 h-1 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] rounded-full mb-6"></div>
 
               <p className="text-base text-gray-600 leading-relaxed mb-8">
-                Build Google Ads campaigns that are exceptional! Boundary helps
-                you craft strategies that outperform the competition and drive
-                sustainable growth and scale💸
+                Drive More Leads, Sales & Revenue with Expert Google Ads Management Services
+                BTJ Alpha Technology Pvt. Ltd. is a performance-driven Google Ads Agency in India helping businesses generate high-quality leads and maximize ROI through strategic Pay Per Click advertising campaigns.
               </p>
 
               <Link to="/contact">
@@ -179,23 +178,25 @@ function GoogleAds() {
             <div data-aos="fade-left">
               <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] px-4 py-2 rounded-full mb-6 shadow-lg">
                 <span className="text-xs font-bold text-white tracking-[0.2em] uppercase">
-                  SEARCH ADS
+                  Google Search Ads
                 </span>
               </div>
 
               <h2 className="text-4xl max-md:text-2xl font-bold text-gray-900 mb-6">
-                Start with{" "}
+                Capture High-Intent Customers with{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#fb9c24] to-[#ff8c00]">
-                  Search
+                  Google Search Ads
+
                 </span>
               </h2>
 
               <div className="w-20 h-1 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] rounded-full mb-6"></div>
 
               <p className="text-gray-600 text-lg leading-relaxed">
-                Help drive sales, leads, or site traffic by getting your
-                business in front of people who are actively searching Google
-                for products or services you offer.
+                When customers search for your product or service on Google, they are already ready to buy. With professionally managed Google Search Ads, your business appears at the top of search results — exactly when customers need you.
+                <br></br>Our Google Ads management services include:&nbsp; Keyword research & competitor analysis,&nbsp;Ad copy creation & A/B testing,&nbsp;Conversion tracking setup,&nbsp;Landing page optimization,&nbsp;Budget & bid strategy optimization.<br></br>
+                We ensure higher click-through rates and lower cost per conversion.
+
               </p>
             </div>
           </div>
@@ -224,19 +225,19 @@ function GoogleAds() {
             {/* Content */}
             <div data-aos="fade-left">
               <h2 className="text-3xl font-bold text-white mb-8">
-                Your Google Ads management team will:
+               What Our Google Ads Experts Do for You
               </h2>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {[
-                  "Research your industry",
-                  "Plan your campaign",
-                  "Write your ad copy",
-                  "Design your conversion-optimized landing pages",
-                  "Setup and launch your campaign",
-                  "Proactively adjust your bids",
-                  "Track your conversions",
-                  "Report on your campaign performance",
+                  "In-depth competitor analysis",
+                  "High-intent keyword targeting",
+                  "Smart bidding strategy",
+                  "Ad copy optimization",
+                  " Conversion tracking setup",
+                  "Audience segmentation",
+                  "Remarketing campaign setup",
+                  "Continuous performance optimization",
                 ].map((item, index) => (
                   <div
                     key={index}
@@ -283,9 +284,9 @@ function GoogleAds() {
               </div>
 
               <h2 className="text-4xl max-md:text-2xl font-bold text-gray-900 mb-6">
-                What Type of Google Ads is{" "}
+              WHAT TYPE OF GOOGLE ADS IS{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#fb9c24] to-[#ff8c00]">
-                  Right for You?
+                  RIGHT FOR YOU?
                 </span>
               </h2>
 
@@ -315,9 +316,8 @@ function GoogleAds() {
                         {item.header}
                       </span>
                       <div
-                        className={`w-8 h-8 bg-gradient-to-br from-[#fb9c24] to-[#ff8c00] rounded-full flex items-center justify-center text-white font-bold transform transition-transform duration-300 ${
-                          activeIndex === index ? "rotate-180" : ""
-                        }`}
+                        className={`w-8 h-8 bg-gradient-to-br from-[#fb9c24] to-[#ff8c00] rounded-full flex items-center justify-center text-white font-bold transform transition-transform duration-300 ${activeIndex === index ? "rotate-180" : ""
+                          }`}
                       >
                         {activeIndex === index ? "−" : "+"}
                       </div>
@@ -359,20 +359,20 @@ function GoogleAds() {
               </span>
             </div>
             <h2 className="text-4xl max-md:text-2xl font-bold text-gray-900 mb-4">
-              Industries We Serve
+              Industries We Help Grow with Google Ads
             </h2>
           </div>
 
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 mb-12">
             {[
-              { img: real, title: "Real Estate" },
+              { img: real, title: " Real Estate" },
               { img: healthcare, title: "Healthcare" },
-              { img: food, title: "Food and Beverages" },
-              { img: hospitality, title: "Hospitality" },
-              { img: retail, title: "Retail" },
-              { img: travel, title: "Travel" },
-              { img: education, title: "Education and Learning" },
-              { img: hotel, title: "Hotel" },
+              { img: food, title: "Education" },
+              { img: hospitality, title: "E-commerce" },
+              { img: retail, title: "Travel & Tourism" },
+              { img: travel, title: "Manufacturing" },
+              { img: education, title: "IT & SaaS" },
+              { img: hotel, title: "Hospitality" },
             ].map((industry, index) => (
               <div
                 key={index}
@@ -416,7 +416,7 @@ function GoogleAds() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-4xl max-md:text-2xl font-bold text-gray-900 mb-4">
-              Where Does Your Business Stand Right Now?
+             Choose the Right Google Ads Strategy for Your Business
             </h2>
           </div>
 
@@ -427,21 +427,21 @@ function GoogleAds() {
                 title: "No Google Ads",
                 subtitle: "Low Business:",
                 description:
-                  "Still relying on just networks and other channels?",
+                  "We build campaigns from scratch with strong targeting and conversion trackin",
               },
               {
                 img: first,
                 title: "Weak Google Ads Strategy",
                 subtitle: "Money Drain:",
                 description:
-                  "Don't let an ineffective strategy drain your budget.",
+                  "We audit and restructure existing campaigns to improve performance.",
               },
               {
                 img: second,
                 title: "Strong Google Ads Strategy",
                 subtitle: "Fast Track Your Business:",
                 description:
-                  "Optimize your journey with our expert strategy.",
+                  "We scale profitable campaigns and expand audience reach for maximum growth.",
               },
             ].map((card, index) => (
               <div
@@ -484,7 +484,7 @@ function GoogleAds() {
             data-aos="fade-up"
           >
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4 uppercase">
-              Flexibility Sets Us Apart: Explore Our Agency's "Flexi-Fast Offer"
+               Why Choose BTJ Alpha Technology Pvt. Ltd. for Google Ads Management?
             </h2>
           </div>
 
@@ -502,13 +502,13 @@ function GoogleAds() {
             <div data-aos="fade-left">
               <ul className="space-y-4">
                 {[
-                  "Powerful Google Ads Strategy",
-                  "Achieve results in just 3 months",
-                  "Zero retainer fees; retain us based on performance",
-                  "No binding contracts, stop services anytime",
-                  "Fixed Fee for Ad spends up to 10 Lac INR",
-                  "Bi-weekly meetings",
-                  "Creative Advertising Ideas",
+                  "No long-term lock-in contracts",
+                  "Flexible monthly packages",
+                  " Performance-based strategy",
+                  "Dedicated account manager",
+                  "Transparent reporting",
+                  "Real-time campaign monitoring",
+                  "Competitive pricing",
                 ].map((item, index) => (
                   <li
                     key={index}
@@ -567,13 +567,12 @@ function GoogleAds() {
                   </div>
                 ) : (
                   <div
-                    className={`bg-gradient-to-br ${
-                      item.color === "teal"
-                        ? "from-teal-500 to-teal-600"
-                        : item.color === "blue"
+                    className={`bg-gradient-to-br ${item.color === "teal"
+                      ? "from-teal-500 to-teal-600"
+                      : item.color === "blue"
                         ? "from-blue-500 to-blue-600"
                         : "from-yellow-500 to-yellow-600"
-                    } text-white text-center flex items-center justify-center rounded-2xl shadow-xl p-8 h-full group-hover:scale-105 transition-transform duration-300`}
+                      } text-white text-center flex items-center justify-center rounded-2xl shadow-xl p-8 h-full group-hover:scale-105 transition-transform duration-300`}
                   >
                     <div>
                       <span className="text-5xl font-bold block mb-2">

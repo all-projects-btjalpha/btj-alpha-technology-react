@@ -30,22 +30,22 @@ function Reporting() {
     {
       icon: <FaChartBar className="text-4xl text-purple-600" />,
       title: "Finance",
-      description: "Comprehensive financial reporting including P&L statements, balance sheets, cash flow analysis, and budget tracking for informed financial decisions."
+      description: "Detailed financial reporting including profit and loss (P&L) statements, balance sheets, cash flow analysis, and budget tracking to support better financial decisions."
     },
     {
       icon: <FaUsers className="text-4xl text-blue-600" />,
       title: "HR",
-      description: "Employee analytics, attendance reports, performance metrics, recruitment tracking, and workforce planning dashboards."
+      description: "Employee analytics such as attendance reports, performance tracking, recruitment monitoring, and workforce planning dashboards."
     },
     {
       icon: <FaShieldAlt className="text-4xl text-green-600" />,
       title: "Banking",
-      description: "Transaction reporting, account statements, loan analytics, risk assessment, compliance reports, and regulatory reporting solutions."
+      description: "Transaction reports, account statements, loan analytics, risk assessment, compliance reporting, and regulatory reporting solutions."
     },
     {
       icon: <FaLaptop className="text-4xl text-orange-600" />,
       title: "IT",
-      description: "Infrastructure monitoring, system performance analytics, incident reports, asset management, and IT service desk dashboards."
+      description: "Infrastructure monitoring, system performance analytics, incident reporting, asset management, and IT service desk dashboards."
     },
     {
       icon: <FaChartPie className="text-4xl text-pink-600" />,
@@ -55,7 +55,7 @@ function Reporting() {
     {
       icon: <FaDatabase className="text-4xl text-cyan-600" />,
       title: "Retail",
-      description: "Sales analytics, inventory reports, customer behavior analysis, supply chain tracking, and point-of-sale performance dashboards."
+      description: "Sales analytics, inventory management reports, customer behavior analysis, supply chain tracking, and point-of-sale performance dashboards."
     }
   ];
 
@@ -63,51 +63,51 @@ function Reporting() {
     {
       icon: <FaChartBar className="text-5xl" style={{ color: "#F2C811" }} />,
       title: "Power BI",
-      description: "Microsoft Power BI is a business analytics service that delivers insights to enable fast, informed decisions. We create interactive visualizations with self-service business intelligence capabilities where end users can create reports and dashboards by themselves. Power BI connects to hundreds of data sources, simplifies data prep, and drives ad hoc analysis.",
+      description: "A powerful business analytics tool from Microsoft that helps create interactive dashboards and reports.",
       features: [
         "Interactive dashboards and reports",
         "Real-time data streaming",
         "AI-powered insights",
         "Mobile app support",
         "Natural language queries",
-        "Integration with Microsoft ecosystem"
+        "Seamless integration with Microsoft tools"
       ]
     },
     {
       icon: <SiTableau className="text-5xl" style={{ color: "#E97627" }} />,
       title: "Tableau",
-      description: "Tableau is a visual analytics platform transforming the way we use data to solve problems. We leverage Tableau to help people see and understand data with intuitive visual analytics. Tableau makes it easier to explore and manage data, and discover and share insights that can change businesses and the world.",
+      description: "A popular data visualization tool that makes it easy to analyze and understand data.",
       features: [
         "Drag-and-drop interface",
         "Advanced data blending",
-        "Powerful calculations",
-        "Collaboration features",
-        "Mobile optimization",
+        "Strong calculation engine",
+        "Collaboration tools",
+        "Mobile-friendly dashboards",
         "Enterprise scalability"
       ]
     },
     {
       icon: <FaTable className="text-5xl" style={{ color: "#217346" }} />,
       title: "Excel",
-      description: "Microsoft Excel is the industry-leading spreadsheet program, a powerful data visualization and analysis tool. We use Excel to create sophisticated financial models, complex calculations, pivot tables, macros, and custom reporting solutions that integrate seamlessly with other business systems.",
+      description: "A widely used spreadsheet tool for data analysis and reporting.",
       features: [
         "Advanced formulas and functions",
         "Pivot tables and charts",
         "VBA automation",
         "Data analysis tools",
-        "Template customization",
-        "Wide compatibility"
+        "Custom templates",
+        "Broad compatibility"
       ]
     },
     {
       icon: <SiGoogleanalytics className="text-5xl" style={{ color: "#E37400" }} />,
       title: "Google Analytics",
-      description: "Google Analytics is the most popular web analytics service on the internet. We implement GA4 to track and report website traffic, user behavior, conversion funnels, and marketing campaign effectiveness. It provides valuable insights about your audience, their engagement patterns, and helps optimize digital marketing strategies.",
+      description: "A web analytics tool used to track website traffic and user behavior.",
       features: [
         "Real-time traffic monitoring",
-        "Audience segmentation",
+        "Audience insights",
         "Conversion tracking",
-        "E-commerce analytics",
+        "E-commerce tracking",
         "Custom event tracking",
         "Integration with Google Ads"
       ]
@@ -115,22 +115,22 @@ function Reporting() {
     {
       icon: <SiApache className="text-5xl" style={{ color: "#D22128" }} />,
       title: "Apache Superset",
-      description: "Apache Superset is a modern, enterprise-ready business intelligence web application. It's fast, lightweight, intuitive, and loaded with options that make it easy for users to explore and visualize their data. We deploy Superset for creating interactive dashboards and performing data exploration without writing code.",
+      description: "An open-source business intelligence tool for interactive dashboards and data exploration.",
       features: [
-        "SQL Lab for data exploration",
+        "SQL-based data exploration",
         "Rich visualization library",
         "No-code chart builder",
         "Enterprise authentication",
         "Caching and async queries",
-        "Cloud-native architecture"
+        "Cloud-ready architecture"
       ]
     },
     {
       icon: <FaChartLine className="text-5xl text-blue-600" />,
       title: "Looker",
-      description: "Looker is a modern data platform that provides real-time insights and embedded analytics. We use Looker's unique modeling layer (LookML) to define business metrics once and use them everywhere. It enables self-service analytics while maintaining data governance and consistency across the organization.",
+      description: "A modern data platform that provides real-time insights and embedded analytics.",
       features: [
-        "LookML modeling language",
+        "LookML data modeling",
         "Embedded analytics",
         "Git-based version control",
         "API-first architecture",
@@ -141,11 +141,11 @@ function Reporting() {
     {
       icon: <SiMongodb className="text-5xl" style={{ color: "#47A248" }} />,
       title: "MongoDB Charts",
-      description: "MongoDB Charts is the fastest and easiest way to create visualizations of MongoDB data. We utilize Charts to build real-time dashboards directly from MongoDB databases without complex ETL processes. It's perfect for operational reporting and monitoring application metrics in real-time.",
+      description: "A visualization tool for creating dashboards directly from MongoDB data.",
       features: [
         "Direct MongoDB integration",
-        "Real-time data updates",
-        "Aggregation pipeline support",
+        "Real-time updates",
+        "Aggregation support",
         "Embeddable charts",
         "Role-based access control",
         "Responsive design"
@@ -154,37 +154,37 @@ function Reporting() {
     {
       icon: <FaDatabase className="text-5xl text-purple-600" />,
       title: "Metabase",
-      description: "Metabase is an open-source business intelligence tool that lets anyone in your organization explore data and build interactive dashboards. We implement Metabase for its simplicity and powerful query builder that doesn't require SQL knowledge. It's perfect for teams wanting to become more data-driven.",
+      description: "An open-source BI tool that helps teams explore and visualize data easily.",
       features: [
-        "Question-based interface",
+        "Simple question-based interface",
         "Visual query builder",
-        "SQL editor for power users",
-        "Automated reporting via email",
+        "SQL editor for advanced users",
+        "Automated reports",
         "Multi-database support",
-        "Lightweight deployment"
+        "Lightweight setupt"
       ]
     },
     {
       icon: <FaChartBar className="text-5xl text-indigo-600" />,
       title: "Grafana",
-      description: "Grafana is the open-source analytics and interactive visualization web application. We use Grafana primarily for operational monitoring and observability, creating beautiful dashboards for time-series data from various data sources. It's excellent for DevOps, IoT, and infrastructure monitoring.",
+      description: "An open-source tool for monitoring and visualizing time-series data.",
       features: [
         "Multiple data source support",
         "Alerting and notifications",
         "Plugin ecosystem",
         "Template variables",
         "Annotation support",
-        "Time-series optimization"
+        "Optimized for time-series data"
       ]
     },
     {
       icon: <FaFileAlt className="text-5xl text-red-600" />,
       title: "Crystal Reports",
-      description: "Crystal Reports is a business intelligence application for designing and generating reports from a wide range of data sources. We leverage Crystal Reports for creating pixel-perfect, formatted reports required in enterprise environments. It excels at creating complex, paginated reports for printing and PDF generation.",
+      description: "A reporting tool used to design and generate detailed business reports.",
       features: [
         "Pixel-perfect formatting",
         "Cross-tab reports",
-        "Sub-reports support",
+        "Sub-reports",
         "Scheduled report delivery",
         "Export to multiple formats",
         "Parameter-driven reports"
@@ -193,20 +193,20 @@ function Reporting() {
     {
       icon: <FaChartPie className="text-5xl text-teal-600" />,
       title: "Sisense",
-      description: "Sisense is an end-to-end business analytics software that enables users to easily prepare and analyze complex datasets. We implement Sisense for its ability to handle large-scale data and provide AI-driven insights. It's ideal for embedded analytics and white-label solutions.",
+      description: "A BI platform that helps prepare and analyze complex datasets.",
       features: [
         "In-chip analytics engine",
         "AI-powered insights",
         "Embedded analytics SDK",
         "Data mashup capabilities",
         "White-label options",
-        "Mobile-first design"
+        "Mobile-first dashboards"
       ]
     },
     {
       icon: <FaTable className="text-5xl text-amber-600" />,
       title: "QlikView",
-      description: "QlikView is a business intelligence and analytics platform that provides self-service BI for all business users. We use QlikView's associative data model to help users freely explore data and make discoveries that drive business value. It's powerful for ad-hoc analysis and data storytelling.",
+      description: "A business intelligence and analytics platform for interactive data exploration.",
       features: [
         "Associative data model",
         "In-memory processing",
@@ -223,9 +223,9 @@ function Reporting() {
       title: "Real-Time Data Updates",
       items: [
         "Live data synchronization",
-        "Automatic refresh schedules",
+        "Automatic data refresh",
         "Real-time alerts and notifications",
-        "Streaming data support"
+        "Support for streaming data"
       ]
     },
     {
@@ -241,8 +241,8 @@ function Reporting() {
       title: "Graphical Report Management",
       items: [
         "Interactive charts and graphs",
-        "Drill-down capabilities",
-        "Heat maps and tree maps",
+        "Drill-down analysis",
+        "Heat maps and trend maps",
         "Geo-spatial visualizations"
       ]
     },
@@ -251,8 +251,8 @@ function Reporting() {
       items: [
         "Role-based access control",
         "Data encryption at rest and transit",
-        "Audit trails and logging",
-        "GDPR and compliance ready"
+        "Audit logs and tracking",
+        "GDPR and compliance-ready solutions"
       ]
     }
   ];
@@ -260,19 +260,19 @@ function Reporting() {
   const whyChooseUs = [
     {
       title: "Industry Expertise Across Domains",
-      description: "Our team brings deep domain knowledge across finance, healthcare, retail, banking, and more, ensuring reports that truly matter to your business."
+      description: "Our team has strong experience across multiple industries such as finance, healthcare, retail, banking, and more.We create reports and dashboards that truly fit your business needs."
     },
     {
       title: "Certified BI Professionals",
-      description: "Our analysts are certified in Power BI, Tableau, and other leading platforms, delivering professional-grade reporting solutions."
+      description: "Our analysts are certified in leading tools like Power BI and Tableau. We deliver high-quality, professional reporting solutions."
     },
     {
       title: "Scalable Architecture",
-      description: "From small business dashboards to enterprise-wide reporting systems, we build solutions that scale with your growth."
+      description: "From small business dashboards to enterprise-level reporting systems, we build solutions that grow with your business."
     },
     {
       title: "Ongoing Support and Maintenance",
-      description: "We provide continuous support, regular updates, and optimization to ensure your reporting infrastructure remains effective."
+      description: "We provide continuous support, regular updates, and performance optimization to ensure your reporting systems run smoothly at all times."
     }
   ];
 
@@ -308,13 +308,12 @@ function Reporting() {
             {/* Left Content */}
             <div data-aos="fade-right">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Reporting/Dashboard<br />
-                Services for Better<br />
-                Analysis
+                Reporting & Dashboard<br></br>
+                 Services for Better Analysis
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Transform your raw data into actionable insights with our comprehensive reporting and dashboard solutions. We design interactive, real-time dashboards that help you monitor KPIs, track performance, and make data-driven decisions with confidence.
-              </p>
+                Turn your raw data into meaningful insights with our professional reporting and dashboard solutions.We create interactive, real-time dashboards that help you:  Monitor key performance indicators (KPIs),Track business performance,Analyze trends and patterns,Make confident, data-driven decisions</p>
+
               <div className="flex flex-wrap gap-4">
                 <Link to="/contact">
                   <button
@@ -425,13 +424,11 @@ function Reporting() {
                 Leverage the Power of Data Visualization to Transform Your Business Growth
               </h2>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Data visualization is the key to unlocking hidden patterns and trends in your business data. Our expertly designed dashboards transform complex datasets into intuitive visual stories that anyone in your organization can understand and act upon.
-              </p>
+                Data visualization helps you uncover hidden patterns and trends in your business data. Our expertly designed dashboards turn complex datasets into simple and easy-to-understand visual stories that anyone in your organization can use.</p>
               <p className="text-gray-600 leading-relaxed mb-6">
-                From real-time KPI monitoring to deep-dive analytical reports, we create visualization solutions that empower your team to make faster, smarter decisions. Track performance metrics, identify opportunities, and respond to challenges with confidence.
-              </p>
+                From real-time KPI monitoring to detailed analytical reports, we build visualization solutions that help your team make faster and smarter decisions. Track performance metrics, identify new opportunities, and respond to challenges with confidence. </p>
               <p className="text-gray-600 leading-relaxed">
-                Whether you need financial dashboards, operational reports, or customer analytics, our solutions are tailored to your specific industry and business needs, driving measurable growth and competitive advantage.
+                Whether you need financial dashboards, operational reports, or customer analytics, our solutions are customized to fit your industry and business goals — helping you achieve measurable growth and a strong competitive advantage.
               </p>
             </div>
           </div>
@@ -445,6 +442,7 @@ function Reporting() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Reporting and Analytics Services Curated for Different Industries
             </h2>
+            <p className="text-gray-600 leading-relaxed mb-6">We provide customized reporting and dashboard solutions designed to meet the specific needs of various industries.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -509,6 +507,7 @@ function Reporting() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Key Features of Our Dashboard Solutions
             </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">Our dashboard solutions are designed to be powerful, flexible, and secure.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -561,8 +560,9 @@ function Reporting() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Step2gen as Your Data Visualization and Reporting Partner
+              Why Choose Step2gen as Your Data Visualization & Reporting Partner
             </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">We combine experience, technical expertise, and long-term support to help your business make better data-driven decisions.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
