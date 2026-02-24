@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaPhone, FaShieldAlt, FaServer, FaRocket, FaLayerGroup,
   FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaUsers,
   FaLaptop, FaSync, FaChartLine, FaTools, FaCogs, FaMobileAlt
@@ -24,92 +24,92 @@ function TwilioPlivo() {
   const twilioFeatures = [
     {
       icon: <FaPhone className="text-5xl text-[#f22f46]" />,
-      title: "Voice & SMS",
-      description: "Comprehensive communication APIs for voice calls and messaging."
+      title: " Voice & SMS API Integration",
+      description: "We provide advanced voice calling, SMS notifications, OTP verification, and bulk messaging solutions as part of our Twilio & Plivo Integration Services in India."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#f22f46]" />,
-      title: "Enterprise Security",
-      description: "Bank-grade security with encryption and compliance standards."
+      title: "Enterprise-Grade Security",
+      description: "Secure API integrations with encrypted communication and compliance-ready architecture."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#f22f46]" />,
-      title: "Global Reach",
-      description: "Communication services available in over 100 countries worldwide."
+      title: "Global Communication Support",
+      description: "Deliver SMS and voice services globally with reliable routing and delivery reports."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#f22f46]" />,
-      title: "Real-time Analytics",
-      description: "Advanced monitoring and reporting for communication metrics."
+      title: "Real-time Monitoring",
+      description: "Track message delivery, call logs, and communication performance through analytics dashboards."
     },
     {
       icon: <FaCogs className="text-5xl text-[#f22f46]" />,
-      title: "Automation",
-      description: "Automated workflows for notifications, alerts, and customer service."
+      title: "Automation & Workflow Optimization",
+      description: "Automate alerts, reminders, customer notifications, and marketing campaigns seamlessly."
     },
     {
       icon: <FaLayerGroup className="text-5xl text-[#f22f46]" />,
-      title: "Scalability",
-      description: "Elastic infrastructure that scales with your communication needs."
+      title: "Scalability Infrastructure",
+      description: "Our solutions grow with your business communication requirements."
     }
   ];
 
   const twilioServices = [
     {
       icon: <FaPhone className="text-5xl text-[#f22f46]" />,
-      title: "Communication Integration",
-      description: "Integrating Twilio/Plivo APIs into your applications and workflows."
+      title: " Communication API Development",
+      description: "Seamless Twilio and Plivo API integration into web and mobile applications."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "IVR Systems",
-      description: "Building interactive voice response systems for customer service."
+      title: "IVR System Development",
+      description: "Custom IVR solutions for automated customer support and smart call routing."
     },
     {
       icon: <FaServer className="text-5xl text-[#8B5CF6]" />,
-      title: "Messaging Solutions",
-      description: "Implementing SMS, MMS, and WhatsApp business messaging solutions."
+      title: "SMS & WhatsApp API Integration",
+      description: "Bulk SMS, transactional messaging, and WhatsApp Business API implementation."
     }
   ];
 
   const benefits = [
     {
       icon: <FaPhone className="text-5xl text-[#f22f46]" />,
-      title: "Reliable Communication",
-      description: "99.99% uptime with redundant infrastructure and failover systems."
+      title: "Reliable Communication Infrastructure",
+      description: "High uptime ensures uninterrupted messaging and voice services."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
-      title: "Developer Friendly",
-      description: "Easy-to-use APIs with comprehensive documentation and SDKs."
+      title: " Faster Deployment",
+      description: "Quick implementation with minimal disruption to your operations."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#10B981]" />,
-      title: "Compliance",
-      description: "Built-in compliance with telecommunications regulations worldwide."
+      title: "Secure & Compliant Solutions",
+      description: "Industry-standard encryption and secure authentication protocols."
     }
   ];
 
   const whyChooseUs = [
     {
       icon: <FaUsers className="text-5xl text-[#f22f46]" />,
-      title: "Communication Experts",
-      description: "Specialists with extensive experience in VoIP and messaging systems."
+      title: " Experienced Integration Experts",
+      description: "Dedicated developers specializing in Twilio & Plivo Integration Services in India."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Best Practices",
-      description: "Following industry best practices for communication system design."
+      title: "Best Development Practices",
+      description: "Secure coding, scalable architecture, and optimized API performance."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
       title: "On-Time Delivery",
-      description: "Rapid implementation ensuring timely communication solutions."
+      description: "Timely execution without compromising quality."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
-      title: "Quality Assurance",
-      description: "Comprehensive testing and validation of communication systems."
+      title: "Ongoing Support & Maintenance",
+      description: "Continuous monitoring, upgrades, and optimization services."
     }
   ];
 
@@ -139,10 +139,12 @@ function TwilioPlivo() {
             <div data-aos="fade-right">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
                 Twilio &<br />
-                Plivo Integration
+                Plivo Integration Services in India
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Enable powerful communication features in your applications with Twilio and Plivo APIs. Our developers integrate voice, SMS, and messaging capabilities seamlessly.
+                Smart Communication Solutions by BTJ Alpha Technology
+                BTJ Alpha Technology offers professional Twilio & Plivo Integration Services in India to help businesses enhance communication through voice, SMS, WhatsApp, OTP, and IVR solutions.
+                Our experts specialize in delivering secure and scalable Twilio & Plivo Integration Services in India, enabling businesses to automate notifications, improve customer engagement, and streamline communication workflows.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -217,8 +219,9 @@ function TwilioPlivo() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our Services
+              Our Twilio & Plivo Integration Services
             </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">BTJ Alpha Technology delivers complete Twilio & Plivo Integration Services in India tailored for startups, SMEs, SaaS platforms, and enterprises.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
             {twilioServices.map((item, i) => (
@@ -280,10 +283,11 @@ function TwilioPlivo() {
         </div>
         <div className="container mx-auto relative z-10 text-center" data-aos="fade-up">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Ready to Add Communication Features?
+           Ready to Implement Twilio & Plivo Solutions?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to integrate Twilio or Plivo communication capabilities into your applications.
+            Partner with BTJ Alpha Technology for trusted Twilio & Plivo Integration Services in India and transform your business communication system.
+
           </p>
           <button
             onClick={openForm}

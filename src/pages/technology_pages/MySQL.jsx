@@ -284,7 +284,7 @@ function MySQL() {
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             Ready to Build with MySQL?
           </h2>
-          <p className="text-gray-600 max-w-3xl mx-auto">
+          <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
             Partner with us to leverage the power of MySQL for your next project.
           </p>
           <button

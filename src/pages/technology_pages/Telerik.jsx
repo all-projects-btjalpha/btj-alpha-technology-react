@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaCode, FaShieldAlt, FaServer, FaRocket, FaLayerGroup,
   FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaUsers,
   FaLaptop, FaSync, FaChartLine, FaTools, FaCogs, FaMobileAlt
@@ -24,92 +24,92 @@ function Telerik() {
   const telerikFeatures = [
     {
       icon: <FaCode className="text-5xl text-[#512bd4]" />,
-      title: "UI Components",
-      description: "Comprehensive suite of UI components for web and desktop applications."
+      title: "Rich UI Components",
+      description: "We use Telerik’s advanced UI libraries to create responsive, interactive, and enterprise-ready applications."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#512bd4]" />,
-      title: "Enterprise Security",
-      description: "Built-in security features and compliance with enterprise standards."
+      title: "Enterprise-Level Security",
+      description: "Applications are built following secure coding standards with authentication, role management, and compliance-ready architecture."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#512bd4]" />,
-      title: "Cross-Platform",
-      description: "Support for web, desktop, and mobile development with single codebase."
+      title: "Cross-Platform Compatibility",
+      description: "Deploy applications across web, desktop, and mobile platforms using a single technology stack."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#512bd4]" />,
-      title: "Data Visualization",
-      description: "Advanced charting and reporting components for data analysis."
+      title: "Advanced Data Visualization",
+      description: "Build dynamic dashboards using Telerik charts, grids, and reporting tools to turn data into insights."
     },
     {
       icon: <FaCogs className="text-5xl text-[#512bd4]" />,
-      title: "Integration Ready",
-      description: "Seamless integration with popular frameworks and development tools."
+      title: " Seamless Integration",
+      description: "We integrate Telerik applications with ERP systems, CRM software, cloud platforms, and third-party APIs."
     },
     {
       icon: <FaLayerGroup className="text-5xl text-[#512bd4]" />,
-      title: "Scalability",
-      description: "Designed for enterprise-scale applications with high performance."
+      title: "Scalability Architecture",
+      description: "Our solutions are designed for growing enterprises requiring long-term stability and performance."
     }
   ];
 
   const telerikServices = [
     {
       icon: <FaCode className="text-5xl text-[#512bd4]" />,
-      title: "Telerik Development",
-      description: "Building enterprise applications with Telerik's powerful UI components."
+      title: "Custom Telerik Application Development",
+      description: "We build enterprise-grade applications using Telerik UI for ASP.NET Core, Blazor, and MVC frameworks."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Dashboard Creation",
-      description: "Creating interactive dashboards and data visualization solutions."
+      title: "Dashboard & Reporting Solutions",
+      description: "Design interactive dashboards with Telerik Reporting and advanced data visualization components."
     },
     {
       icon: <FaServer className="text-5xl text-[#8B5CF6]" />,
-      title: "System Integration",
-      description: "Integrating Telerik components with existing enterprise systems."
+      title: "UI/UX Modernization",
+      description: "Upgrade legacy systems with modern Telerik UI components to enhance usability and performance."
     }
   ];
 
   const benefits = [
     {
       icon: <FaCode className="text-5xl text-[#512bd4]" />,
-      title: "Rapid Development",
-      description: "Accelerate development with pre-built, customizable components."
+      title: " Faster Development",
+      description: "Pre-built components reduce development time and overall project cost."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
-      title: "Performance",
-      description: "Optimized components for fast loading and smooth user experience."
+      title: "High Performance",
+      description: "Optimized UI components ensure fast loading and smooth user experience."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#10B981]" />,
-      title: "Enterprise Grade",
-      description: "Robust, secure solutions designed for business-critical applications."
+      title: "Enterprise-Grade Reliability",
+      description: "Robust architecture designed for mission-critical applications."
     }
   ];
 
   const whyChooseUs = [
     {
       icon: <FaUsers className="text-5xl text-[#512bd4]" />,
-      title: "Telerik Experts",
-      description: "Certified developers with extensive Telerik platform experience."
+      title: " Certified Telerik Experts",
+      description: "Experienced developers specializing in Telerik UI for Blazor, ASP.NET, Angular, and React."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Best Practices",
-      description: "Following Telerik best practices for optimal implementation."
+      title: " Agile & Best Practices",
+      description: "We follow agile methodology, secure coding standards, and performance optimization techniques."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
-      title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      title: " On-Time Project Delivery",
+      description: "Timely execution without compromising quality."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
-      title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      title: " Comprehensive Quality Testing",
+      description: "Rigorous testing ensures stable and bug-free applications."
     }
   ];
 
@@ -138,11 +138,12 @@ function Telerik() {
             {/* Left Content */}
             <div data-aos="fade-right">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Telerik<br />
-                Development
+                Telerik Development<br />
+                Services in India
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Build enterprise-grade applications with Telerik's comprehensive UI component suite. Our developers create professional, scalable solutions using Telerik's powerful development tools.
+                Looking for reliable Telerik Development Services in India?
+                BTJ Alpha Technology delivers scalable, secure, and high-performance enterprise applications using Telerik UI and modern Microsoft technologies.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -197,7 +198,7 @@ function Telerik() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Key Features of Telerik
+             Key Features of Our Telerik Development
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -217,8 +218,9 @@ function Telerik() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our Telerik Services
+              Our Telerik Development Services in India
             </h2>
+            <p className="text-gray-600 max-w-3xl mx-auto">BTJ Alpha Technology provides complete Telerik Development Services in India to support startups, SMEs, and large enterprises.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
             {telerikServices.map((item, i) => (
@@ -283,7 +285,7 @@ function Telerik() {
             Ready to Build with Telerik?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to leverage the power of Telerik for your enterprise applications.
+            If you are searching for dependable Telerik Development Services in India, BTJ Alpha Technology is your trusted technology partner.
           </p>
           <button
             onClick={openForm}

@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaCode, FaShieldAlt, FaServer, FaRocket, FaLayerGroup,
   FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaUsers,
   FaLaptop, FaSync, FaChartLine, FaTools, FaCogs, FaMobileAlt
@@ -24,92 +24,92 @@ function DevExpress() {
   const devFeatures = [
     {
       icon: <FaCode className="text-5xl text-[#007acc]" />,
-      title: "UI Components",
-      description: "Comprehensive suite of high-performance UI controls and components."
+      title: "Advanced UI Components",
+      description: "We use powerful DevExpress UI controls to build visually rich and responsive applications."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#007acc]" />,
       title: "Enterprise Security",
-      description: "Built-in security features and compliance with enterprise standards."
+      description: "Our DevExpress Development Services in India ensure secure coding practices and enterprise-level compliance standards."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#007acc]" />,
-      title: "Cross-Platform",
-      description: "Support for web, desktop, and mobile development with single codebase."
+      title: " Cross-Platform Development ",
+      description: "Build web, desktop, and mobile applications using a unified development approach."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#007acc]" />,
-      title: "Data Visualization",
-      description: "Advanced charting and reporting components for data analysis."
+      title: "Data Visualization & Reporting",
+      description: "Interactive dashboards, real-time charts, and advanced reporting solutions for better business insights."
     },
     {
       icon: <FaCogs className="text-5xl text-[#007acc]" />,
-      title: "Integration Ready",
-      description: "Seamless integration with popular frameworks and development tools."
+      title: "Seamless Integration",
+      description: "Easy integration with CRM, ERP, databases, and third-party APIs."
     },
     {
       icon: <FaLayerGroup className="text-5xl text-[#007acc]" />,
-      title: "Scalability",
-      description: "Designed for enterprise-scale applications with high performance."
+      title: "Scalable Architecture",
+      description: "Applications designed for performance, reliability, and long-term scalability."
     }
   ];
 
   const devServices = [
     {
       icon: <FaCode className="text-5xl text-[#007acc]" />,
-      title: "DevExpress Development",
-      description: "Building enterprise applications with DevExpress powerful UI components."
+      title: "Custom DevExpress Application Development",
+      description: "Design and development of enterprise-grade applications using DevExpress controls and frameworks."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Dashboard Creation",
-      description: "Creating interactive dashboards and data visualization solutions."
+      title: " Dashboard & Reporting Solutions",
+      description: "Interactive dashboards and detailed business reports powered by DevExpress tools."
     },
     {
       icon: <FaServer className="text-5xl text-[#8B5CF6]" />,
       title: "System Integration",
-      description: "Integrating DevExpress components with existing enterprise systems."
+      description: "Integration of DevExpress applications with existing enterprise systems."
     }
   ];
 
   const benefits = [
     {
       icon: <FaCode className="text-5xl text-[#007acc]" />,
-      title: "Rapid Development",
-      description: "Accelerate development with pre-built, customizable components."
+      title: "Faster Development",
+      description: "Pre-built DevExpress components help accelerate development cycles."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
-      title: "Performance",
-      description: "Optimized components for fast loading and smooth user experience."
+      title: "High Performance",
+      description: "Optimized components ensure fast loading and smooth user experience."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#10B981]" />,
-      title: "Enterprise Grade",
-      description: "Robust, secure solutions designed for business-critical applications."
+      title: " Better Data Insights",
+      description: "Advanced reporting and visualization tools improve decision-making."
     }
   ];
 
   const whyChooseUs = [
     {
       icon: <FaUsers className="text-5xl text-[#007acc]" />,
-      title: "DevExpress Experts",
-      description: "Certified developers with extensive DevExpress platform experience."
+      title: "Certified DevExpress Experts",
+      description: "Experienced developers delivering reliable DevExpress Development Services in India."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Best Practices",
-      description: "Following DevExpress best practices for optimal implementation."
+      title: " Best Development Practices",
+      description: "Agile methodology and clean coding standards."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
       title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      description: "Structured project management ensures timely completion."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      description: "Comprehensive testing for performance and stability."
     }
   ];
 
@@ -139,11 +139,11 @@ function DevExpress() {
             <div data-aos="fade-right">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
                 DevExpress<br />
-                Development
+                Development Services in India
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Build enterprise-grade applications with DevExpress comprehensive UI component suite. Our developers create professional, scalable solutions using DevExpress powerful development tools.
-              </p>
+                Enterprise-Grade Application Development by BTJ Alpha Technology
+                BTJ Alpha Technology offers professional DevExpress Development Services in India to help businesses build high-performance, scalable, and enterprise-ready applications.</p>
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={openForm}
@@ -197,7 +197,7 @@ function DevExpress() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Key Features
+              Key Features of Our DevExpress Solutions
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -217,8 +217,9 @@ function DevExpress() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our Services
+              Our DevExpress Development Services in India
             </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">BTJ Alpha Technology provides end-to-end DevExpress Development Services in India tailored for startups, SMEs, and large enterprises.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
             {devServices.map((item, i) => (
@@ -257,7 +258,7 @@ function DevExpress() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Us?
+             Why Choose BTJ Alpha Technology?
             </h2>
           </div>
           <div className="grid md:grid-cols-4 gap-8 container mx-auto px-4">
@@ -283,8 +284,7 @@ function DevExpress() {
             Ready to Build with DevExpress?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to leverage the power of DevExpress for your enterprise applications.
-          </p>
+          Partner with BTJ Alpha Technology for trusted DevExpress Development Services in India and transform your enterprise applications.</p>
           <button
             onClick={openForm}
             className="bg-white text-[#fb9c24] hover:bg-gray-100 font-bold py-4 px-10 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg text-lg"

@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaChartBar, FaShieldAlt, FaServer, FaRocket, FaLayerGroup,
   FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaUsers,
   FaLaptop, FaSync, FaChartLine, FaTools, FaCogs, FaMobileAlt
@@ -25,91 +25,91 @@ function QuickBooksXero() {
     {
       icon: <FaChartBar className="text-5xl text-[#2ca01c]" />,
       title: "Financial Management",
-      description: "Comprehensive accounting and financial management capabilities."
+      description: "Complete setup and configuration of QuickBooks and Xero for accurate accounting and real-time financial tracking."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#2ca01c]" />,
       title: "Data Security",
-      description: "Bank-level security with encryption and compliance standards."
+      description: "We implement secure authentication, encrypted connections, and compliance-ready accounting integrations."
     },
     {
       icon: <FaSync className="text-5xl text-[#2ca01c]" />,
       title: "Real-time Sync",
-      description: "Automatic synchronization across all devices and platforms."
+      description: "Automatic data sync between QuickBooks/Xero and your CRM, ERP, eCommerce, or custom applications."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#2ca01c]" />,
       title: "Reporting & Analytics",
-      description: "Advanced reporting tools for business insights and decision making."
+      description: "Access real-time financial reports, dashboards, and insights to make better business decisions."
     },
     {
       icon: <FaCogs className="text-5xl text-[#2ca01c]" />,
       title: "Automation",
-      description: "Automated workflows for invoicing, payments, and bookkeeping."
+      description: "Automate invoicing, payments, expense tracking, payroll entries, and tax calculations."
     },
     {
       icon: <FaLayerGroup className="text-5xl text-[#2ca01c]" />,
-      title: "Integration",
-      description: "Seamless integration with banking, payment, and business tools."
+      title: " Seamless Integration",
+      description: "Connect accounting software with payment gateways, banking systems, inventory tools, and third-party platforms."
     }
   ];
 
   const qbServices = [
     {
       icon: <FaChartBar className="text-5xl text-[#2ca01c]" />,
-      title: "QuickBooks/Xero Setup",
-      description: "Complete implementation and configuration of accounting systems."
+      title: "QuickBooks Setup & Integration",
+      description: "We implement and configure QuickBooks Online or Desktop and integrate it with your business systems."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Financial Integration",
-      description: "Integrating accounting software with existing business systems."
+      title: " Financial System Integration",
+      description: "Integrate QuickBooks or Xero with ERP, CRM, inventory management, payroll, and eCommerce platforms."
     },
     {
       icon: <FaServer className="text-5xl text-[#8B5CF6]" />,
-      title: "Data Migration",
-      description: "Secure migration of financial data from legacy systems."
+      title: " Data Migration Services",
+      description: "Secure migration of financial data from legacy accounting systems to QuickBooks or Xero."
     }
   ];
 
   const benefits = [
     {
       icon: <FaChartBar className="text-5xl text-[#2ca01c]" />,
-      title: "Streamlined Finance",
-      description: "Simplified financial management and reporting processes."
+      title: " Streamlined Financial Processes",
+      description: "Automate accounting tasks and reduce manual data entry errors."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
       title: "Time Savings",
-      description: "Automated processes reduce manual work and save valuable time."
+      description: "Save valuable time with automated invoicing, reconciliation, and reporting."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#10B981]" />,
-      title: "Compliance",
-      description: "Built-in compliance with tax regulations and financial standards."
+      title: " Improved Compliance",
+      description: "Ensure tax compliance and financial accuracy with structured accounting systems."
     }
   ];
 
   const whyChooseUs = [
     {
       icon: <FaUsers className="text-5xl text-[#2ca01c]" />,
-      title: "Financial Experts",
-      description: "Certified professionals with accounting and integration experience."
+      title: "Financial Integration Experts",
+      description: "Our team has hands-on experience in QuickBooks and Xero cloud accounting integrations."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Best Practices",
-      description: "Following industry best practices for financial system implementation."
+      title: " Best Industry Practices",
+      description: "We follow secure integration standards and accounting compliance guidelines."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
       title: "On-Time Delivery",
-      description: "Efficient implementation ensuring timely project completion."
+      description: "Efficient project execution with minimal disruption to your business."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
-      title: "Quality Assurance",
-      description: "Comprehensive testing and validation of financial systems."
+      title: "Quality Testing",
+      description: "Thorough testing ensures accurate data synchronization and error-free performance."
     }
   ];
 
@@ -139,11 +139,11 @@ function QuickBooksXero() {
             <div data-aos="fade-right">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
                 QuickBooks &<br />
-                Xero Integration
+                Xero Integration Services
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Streamline your financial operations with QuickBooks and Xero integration. Our experts implement and customize cloud accounting solutions for efficient business management.
-              </p>
+                Smart Accounting Integration by BTJ Alpha Technology
+                Streamline your financial operations with professional QuickBooks & Xero Integration Services from BTJ Alpha Technology. We help businesses automate accounting, improve reporting accuracy, and connect financial data with existing business systems.</p>
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={openForm}
@@ -217,8 +217,10 @@ function QuickBooksXero() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our Services
+             Our QuickBooks & 
+              Xero Integration Services
             </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">BTJ Alpha Technology provides end-to-end QuickBooks & Xero integration services to improve your accounting efficiency and eliminate manual errors.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
             {qbServices.map((item, i) => (
@@ -283,7 +285,7 @@ function QuickBooksXero() {
             Ready to Streamline Your Finances?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to implement QuickBooks or Xero for your business financial management.
+           Partner with BTJ Alpha Technology for reliable QuickBooks & Xero integration services and transform your financial management system.
           </p>
           <button
             onClick={openForm}

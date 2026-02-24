@@ -24,51 +24,51 @@ function Radzen() {
   const radzenFeatures = [
     {
       icon: <FaCode className="text-5xl text-[#2d8cff]" />,
-      title: "Blazor Components",
-      description: "Rich set of UI components for Blazor Server and WebAssembly applications."
+      title: "Rich Blazor Components",
+      description: "Extensive collection of UI components for Blazor Server and WebAssembly applications."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#2d8cff]" />,
-      title: "Enterprise Security",
-      description: "Built-in security features and compliance with enterprise standards."
+      title: "Enterprise-Grade Security",
+      description: "Secure .NET architecture with authentication, role-based access control, and compliance-ready solutions."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#2d8cff]" />,
       title: "Responsive Design",
-      description: "Fully responsive components that work on all device sizes and browsers."
+      description: "Fully responsive Radzen components that work seamlessly across devices and browsers."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#2d8cff]" />,
-      title: "Data Visualization",
-      description: "Advanced charting and reporting components for data analysis."
+      title: "Advanced Data Visualization",
+      description: "Interactive charts, grids, and reporting tools for data-driven applications."
     },
     {
       icon: <FaCogs className="text-5xl text-[#2d8cff]" />,
-      title: "Easy Integration",
-      description: "Seamless integration with Blazor framework and existing applications."
+      title: "Easy .NETS Integration",
+      description: "Smooth integration with existing .NET and Blazor applications."
     },
     {
       icon: <FaLayerGroup className="text-5xl text-[#2d8cff]" />,
-      title: "Component Library",
-      description: "Comprehensive library of UI components with Material Design themes."
+      title: "Custom Themes & UI Branding",
+      description: "Create branded UI experiences with customizable themes and styling options."
     }
   ];
 
   const radzenServices = [
     {
       icon: <FaCode className="text-5xl text-[#2d8cff]" />,
-      title: "Radzen Development",
-      description: "Building enterprise applications with Radzen Blazor UI components."
+      title: "Custom Radzen Development",
+      description: "We build tailored Blazor applications using Radzen components aligned with your business objectives."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Dashboard Creation",
-      description: "Creating interactive dashboards and data visualization solutions."
+      title: "Radzen Dashboard Development",
+      description: "Create dynamic dashboards with interactive data grids, charts, and reporting features."
     },
     {
       icon: <FaServer className="text-5xl text-[#8B5CF6]" />,
-      title: "System Integration",
-      description: "Integrating Radzen components with existing .NET applications."
+      title: "Radzen Integration Services",
+      description: "Integrate Radzen components into existing .NET or Blazor projects."
     }
   ];
 
@@ -76,40 +76,40 @@ function Radzen() {
     {
       icon: <FaCode className="text-5xl text-[#2d8cff]" />,
       title: "Rapid Development",
-      description: "Accelerate development with pre-built, customizable components."
+      description: "Accelerate application development with ready-to-use Radzen UI components."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
-      title: "Performance",
-      description: "Optimized components for fast loading and smooth user experience."
+      title: "High Performance",
+      description: "Optimized Blazor and Radzen architecture for fast and smooth user experience."
     },
     {
       icon: <FaShieldAlt className="text-5l text-[#10B981]" />,
-      title: "Enterprise Grade",
-      description: "Robust, secure solutions designed for business-critical applications."
+      title: "Enterprise-Ready Applications",
+      description: "Secure and scalable solutions suitable for large business environments."
     }
   ];
 
   const whyChooseUs = [
     {
       icon: <FaUsers className="text-5xl text-[#2d8cff]" />,
-      title: "Blazor Experts",
-      description: "Specialists with extensive Blazor and Radzen platform experience."
+      title: "Experienced Radzen Blazor Developers",
+      description: "Our team has strong expertise in Radzen Blazor development and enterprise .NET solutions."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Best Practices",
-      description: "Following Radzen best practices for optimal implementation."
+      title: "Best Coding Practices",
+      description: "We follow structured development methodologies and clean coding standards."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
       title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      description: "Agile project management ensuring timely completion."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      description: "Thorough testing for performance, responsiveness, and security."
     }
   ];
 
@@ -139,11 +139,10 @@ function Radzen() {
             <div data-aos="fade-right">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
                 Radzen<br />
-                Development
+                Development Services
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Build enterprise-grade Blazor applications with Radzen UI component library. Our developers create professional, scalable solutions using Radzen components.
-              </p>
+               At BTJ Alpha Technology, we offer professional Radzen Development Services to build modern, scalable, and enterprise-grade Blazor applications. Our experienced Radzen Blazor developers create powerful web applications using Radzen UI components for Blazor Server and WebAssembly.</p>
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={openForm}
@@ -217,7 +216,7 @@ function Radzen() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our Services
+              Our Radzen Development Services
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -237,7 +236,7 @@ function Radzen() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Key Benefits
+          Key Benefits of Radzen Solutions
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -257,7 +256,7 @@ function Radzen() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Us?
+              Why Choose BTJ Alpha Technology for Radzen Development?
             </h2>
           </div>
           <div className="grid md:grid-cols-4 gap-8 container mx-auto px-4">
@@ -283,7 +282,7 @@ function Radzen() {
             Ready to Build with Radzen?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to leverage the power of Radzen for your Blazor applications.
+            Partner with BTJ Alpha Technology, a reliable Radzen Development Company, to create scalable and enterprise-ready Blazor applications.
           </p>
           <button
             onClick={openForm}
