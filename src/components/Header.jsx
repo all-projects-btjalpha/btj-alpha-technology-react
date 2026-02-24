@@ -53,7 +53,14 @@ import {
   FaTasks,
   FaDumbbell,
   FaFootballBall,
-  FaServer
+  FaServer,
+  FaPhone,
+  FaChartPie,
+  FaCreditCard,
+  FaChartArea,
+  FaVideo,
+  FaChartLine as FaChartLineAlt,
+  FaEdit
 } from "react-icons/fa";
 import { 
   SiTypescript, 
@@ -65,7 +72,13 @@ import {
   SiTailwindcss,
   SiFlutter,
   SiKotlin,
-  SiSwift
+  SiSwift,
+  SiAmazondynamodb,
+  SiStripe,
+  SiPaypal,
+  SiPrime,
+  SiCkeditor4,
+  SiChartdotjs as SiChartjs
 } from "react-icons/si";
 
 const Header = () => {
@@ -96,7 +109,7 @@ const Header = () => {
     else if (path === "/contact") setActiveTab("contact");
     else if (
       [
-        "/website-designing",
+        "/best-website-designing-company-india",
         "/website-development",
         "/mobile-app-development",
         "/search-engine-optimization",
@@ -118,7 +131,7 @@ const Header = () => {
   };
 
   const itServices = [
-    { name: "Website Designing", path: "/website-designing", icon: <FaCode className="text-2xl text-[#e74c3c]" /> },
+    { name: "Website Designing", path: "/best-website-designing-company-india", icon: <FaCode className="text-2xl text-[#e74c3c]" /> },
     { name: "Website Development", path: "/website-development", icon: <FaLaptopCode className="text-2xl text-[#3498db]" /> },
     { name: "Mobile App Development", path: "/mobile-app-development", icon: <FaMobileAlt className="text-2xl text-[#9b59b6]" /> },
     { name: "AI & ML", path: "/ai-ml", icon: <FaBrain className="text-2xl text-[#e67e22]" /> },
@@ -155,14 +168,16 @@ const Header = () => {
     { name: "CSS3", path: "/technologies/css3", icon: <FaCss3Alt className="text-2xl text-[#1572b6]" /> },
     { name: "Tailwind CSS", path: "/technologies/tailwindcss", icon: <SiTailwindcss className="text-2xl text-[#06b6d4]" /> },
     { name: "Bootstrap", path: "/technologies/bootstrap", icon: <FaBootstrap className="text-2xl text-[#7952b3]" /> },
+    { name: "SaaS", path: "/technologies/saas", icon: <img src="/sass.svg" alt="SaaS" className="w-6 h-6" /> },
   ];
 
   const backendTechnologies = [
     { name: "Node.js", path: "/technologies/nodejs", icon: <FaNodeJs className="text-2xl text-[#339933]" /> },
     { name: "Python", path: "/technologies/python", icon: <FaPython className="text-2xl text-[#3776ab]" /> },
     { name: "Java", path: "/technologies/java", icon: <FaJava className="text-2xl text-[#007396]" /> },
-    { name: "PHP", path: "/technologies/php", icon: <FaPhp className="text-2xl text-[#777bb4]" /> },
-    { name: "Laravel", path: "/technologies/laravel", icon: <FaLaravel className="text-2xl text-[#ff2d20]" /> },
+    { name: ".NET", path: "/technologies/dotnet", icon: <FaCode className="text-2xl text-[#512bd4]" /> },
+    // { name: "PHP", path: "/technologies/php", icon: <FaPhp className="text-2xl text-[#777bb4]" /> },
+    // { name: "Laravel", path: "/technologies/laravel", icon: <FaLaravel className="text-2xl text-[#ff2d20]" /> },
     { name: "WordPress", path: "/technologies/wordpress", icon: <FaWordpress className="text-2xl text-[#21759b]" /> },
   ];
 
@@ -178,11 +193,42 @@ const Header = () => {
     { name: "MySQL", path: "/technologies/mysql", icon: <SiMysql className="text-2xl text-[#4479a1]" /> },
     { name: "PostgreSQL", path: "/technologies/postgresql", icon: <SiPostgresql className="text-2xl text-[#336791]" /> },
     { name: "Firebase", path: "/technologies/firebase", icon: <SiFirebase className="text-2xl text-[#ffca28]" /> },
+    { name: "Indexed Database API", path: "/technologies/indexeddb", icon: <FaDatabase className="text-2xl text-[#2980b9]" /> },
+    { name: "Azure CosmosDB", path: "/technologies/azure-cosmosdb", icon: <FaDatabase className="text-2xl text-[#0078d4]" /> },
+    { name: "Amazon DynamoDB", path: "/technologies/amazon-dynamodb", icon: <SiAmazondynamodb className="text-2xl text-[#ff9900]" /> },
+    { name: "Ms SQL", path: "/technologies/mssql", icon: <FaDatabase className="text-2xl text-[#cc2927]" /> },
   ];
 
   const otherTechnologies = [
     { name: "AWS", path: "/technologies/aws", icon: <FaAws className="text-2xl text-[#ff9900]" /> },
-    { name: "Figma", path: "/technologies/figma", icon: <FaFigma className="text-2xl text-[#f24e1e]" /> },
+    { name: "Azure", path: "/technologies/azure", icon: <FaCloud className="text-2xl text-[#0078d4]" /> },
+    { name: "IBM Cloud", path: "/technologies/ibm-cloud", icon: <FaCloud className="text-2xl text-[#1261fe]" /> },
+    { name: "Google Cloud Platform", path: "/technologies/google-cloud", icon: <FaGoogle className="text-2xl text-[#4285f4]" /> },
+    // { name: "Figma", path: "/technologies/figma", icon: <FaFigma className="text-2xl text-[#f24e1e]" /> },
+  ];
+
+  // Third Party Integration Data
+  const thirdPartyIntegration = [
+    { name: "Telerik", path: "/technologies/telerik", icon: <FaCogs className="text-2xl text-[#512bd4]" /> },
+    { name: "QuickBooks/Xero", path: "/technologies/quickbooks-xero", icon: <FaChartBar className="text-2xl text-[#2ca01c]" /> },
+    { name: "Twilio & Plivo", path: "/technologies/twilio-plivo", icon: <FaPhone className="text-2xl text-[#f22f46]" /> },
+    { name: "DevExpress", path: "/technologies/devexpress", icon: <FaChartPie className="text-2xl text-[#00d084]" /> },
+    { name: "SyncFusion", path: "/technologies/syncfusion", icon: <FaChartArea className="text-2xl text-[#ff6b35]" /> },
+    { name: "MudBlazor", path: "/technologies/mudblazor", icon: <FaPalette className="text-2xl text-[#5a45ff]" /> },
+    { name: "Stripe/PayPal/Cardknox", path: "/technologies/stripe-paypal", icon: <FaCreditCard className="text-2xl text-[#6772e5]" /> },
+    { name: "Google APIs", path: "/technologies/google-api", icon: <FaGoogle className="text-2xl text-[#4285f4]" /> },
+    { name: "Highcharts & ECharts", path: "/technologies/highcharts", icon: <FaChartLine className="text-2xl text-[#f05b4f]" /> },
+    { name: "Yahoo/Quandl/Alpha Vantage", path: "/technologies/yahoo-finance", icon: <FaChartBar className="text-2xl text-[#7b1fa2]" /> },
+    { name: "Zoom", path: "/technologies/zoom", icon: <FaVideo className="text-2xl text-[#2d8cff]" /> },
+    { name: "Power BI", path: "/technologies/powerbi", icon: <FaChartBar className="text-2xl text-[#f2c811]" /> },
+    { name: "Material UI", path: "/technologies/material-ui", icon: <FaPalette className="text-2xl text-[#1976d2]" /> },
+    { name: "PrimeNG", path: "/technologies/primeng", icon: <FaCode className="text-2xl text-[#dd0031]" /> },
+    { name: "Radzen", path: "/technologies/radzen", icon: <FaPalette className="text-2xl text-[#009688]" /> },
+    { name: "CKEditor", path: "/technologies/ckeditor", icon: <FaEdit className="text-2xl text-[#0288d1]" /> },
+    { name: "EasyPost", path: "/technologies/easypost", icon: <FaTruck className="text-2xl text-[#ff6b35]" /> },
+    { name: "Kit Builder", path: "/technologies/kit-builder", icon: <FaCogs className="text-2xl text-[#9c27b0]" /> },
+    { name: "Shopify", path: "/technologies/shopify", icon: <img src="/shopify-removebg-preview.png" alt="Shopify" className="w-6 h-6" /> },
+    { name: "DaisyUI", path: "/technologies/daisyui", icon: <img src="/daisy-removebg-preview.png" alt="DaisyUI" className="w-6 h-6" /> },
   ];
 
   // Verticals/Industries Data
@@ -240,25 +286,27 @@ const Header = () => {
         onMouseEnter={() => setServicesOpen(true)}
         onMouseLeave={() => setServicesOpen(false)}
       >
-        <div className="flex items-center justify-between cursor-pointer max-lg:w-[85px] max-lg:mb-4 max-md:mb-0">
-          <span
-            onClick={() => handleTabClick("services")}
-            className={`flex items-center gap-1 hover:underline hover:underline-offset-8 hover:decoration-2 hover:decoration-[#fb9c24] ${
-              activeTab === "services"
-                ? "underline underline-offset-8 decoration-2 decoration-[#fb9c24]"
-                : ""
-            }`}
-          >
-            Services
-            <IoIosArrowDown className="hidden md:inline" />
-          </span>
+        <div className="flex items-center justify-between max-lg:w-[85px] max-lg:mb-4 max-md:mb-0">
+          <Link to="/services">
+            <span
+              onClick={() => handleTabClick("services")}
+              className={`flex items-center gap-1 hover:underline hover:underline-offset-8 hover:decoration-2 hover:decoration-[#fb9c24] ${
+                activeTab === "services"
+                  ? "underline underline-offset-8 decoration-2 decoration-[#fb9c24]"
+                  : ""
+              }`}
+            >
+              Services
+              <IoIosArrowDown className="hidden md:inline" />
+            </span>
+          </Link>
 
           {/* Mobile toggle */}
           <button
             className="md:hidden text-xl"
-            onClick={() => setServicesOpen((s) => !s)}
+            onClick={() => setTechnologiesOpen((t) => !t)}
           >
-            {servicesOpen ? "-" : "+"}
+            {technologiesOpen ? "-" : "+"}
           </button>
         </div>
 
@@ -362,7 +410,11 @@ const Header = () => {
 
         {/* Mobile Dropdown */}
         {servicesOpen && (
-          <div className="md:hidden mt-2 pl-4">
+          <div className="md:hidden mt-2 pl-4 max-h-[400px] overflow-y-auto pr-2">
+            {/* Scroll indicator */}
+            <div className="absolute right-2 top-2 bottom-2 w-1 bg-gray-200 rounded-full">
+              <div className="w-full bg-[#fb9c24] rounded-full h-1/3"></div>
+            </div>
             <div className="mb-4">
               <h4 className="font-bold text-[#fb9c24] mb-2">IT Services</h4>
               {itServices.map((service, i) => (
@@ -411,18 +463,20 @@ const Header = () => {
         onMouseEnter={() => setTechnologiesOpen(true)}
         onMouseLeave={() => setTechnologiesOpen(false)}
       >
-        <div className="flex items-center justify-between cursor-pointer max-lg:w-[120px] max-lg:mb-4 max-md:mb-0">
-          <span
-            onClick={() => handleTabClick("technologies")}
-            className={`flex items-center gap-1 hover:underline hover:underline-offset-8 hover:decoration-2 hover:decoration-[#fb9c24] ${
-              activeTab === "technologies"
-                ? "underline underline-offset-8 decoration-2 decoration-[#fb9c24]"
-                : ""
-            }`}
-          >
-            Technologies
-            <IoIosArrowDown className="hidden md:inline" />
-          </span>
+        <div className="flex items-center justify-between max-lg:w-[120px] max-lg:mb-4 max-md:mb-0">
+          <Link to="/technologies">
+            <span
+              onClick={() => handleTabClick("technologies")}
+              className={`flex items-center gap-1 hover:underline hover:underline-offset-8 hover:decoration-2 hover:decoration-[#fb9c24] ${
+                activeTab === "technologies"
+                  ? "underline underline-offset-8 decoration-2 decoration-[#fb9c24]"
+                  : ""
+              }`}
+            >
+              Technologies
+              <IoIosArrowDown className="hidden md:inline" />
+            </span>
+          </Link>
 
           {/* Mobile toggle */}
           <button
@@ -441,7 +495,7 @@ const Header = () => {
           onMouseEnter={() => setTechnologiesOpen(true)}
           onMouseLeave={() => setTechnologiesOpen(false)}
         >
-          <div className="grid grid-cols-5 gap-8 p-8">
+          <div className="grid grid-cols-6 gap-6 p-8">
             {/* Frontend Technologies Column */}
             <div>
               <h3 className="text-base font-bold text-gray-800 mb-4 pb-2 border-b-2 border-[#fb9c24]">
@@ -490,11 +544,9 @@ const Header = () => {
                   </li>
                 ))}
               </ul>
-            </div>
-
-            {/* Mobile Technologies Column */}
-            <div>
-              <h3 className="text-base font-bold text-gray-800 mb-4 pb-2 border-b-2 border-[#fb9c24]">
+              
+              {/* Mobile Technologies Section */}
+              <h3 className="text-base font-bold text-gray-800 mb-4 pb-2 border-b-2 border-[#fb9c24] mt-6">
                 Mobile Technologies
               </h3>
               <ul className="space-y-2">
@@ -539,16 +591,81 @@ const Header = () => {
                     </Link>
                   </li>
                 ))}
+
               </ul>
             </div>
 
-            {/* Others Column */}
+            {/* Cloud Services Column */}
             <div>
               <h3 className="text-base font-bold text-gray-800 mb-4 pb-2 border-b-2 border-[#fb9c24]">
-                Others
+                Cloud Services
               </h3>
               <ul className="space-y-2">
                 {otherTechnologies.map((tech, i) => (
+                  <li key={i}>
+                    <Link 
+                      to={tech.path}
+                      className="flex items-center gap-3 px-2 py-2 hover:bg-orange-50 rounded-lg transition-all duration-200 group cursor-pointer"
+                      onClick={() => setTechnologiesOpen(false)}
+                    >
+                      <div className="flex-shrink-0">
+                        {tech.icon}
+                      </div>
+                      <span className="text-gray-700 group-hover:text-[#fb9c24] font-medium text-sm">
+                        {tech.name}
+                      </span>
+                    </Link>
+                  </li>
+                ))}
+                <li key="hostinger">
+                  <Link 
+                    to="/technologies/hostinger"
+                    className="flex items-center gap-3 px-2 py-2 hover:bg-orange-50 rounded-lg transition-all duration-200 group cursor-pointer"
+                    onClick={() => setTechnologiesOpen(false)}
+                  >
+                    <div className="flex-shrink-0">
+                      <img src="/hostinger.svg" alt="Hostinger" className="w-6 h-6" />
+                    </div>
+                    <span className="text-gray-700 group-hover:text-[#fb9c24] font-medium text-sm">
+                      Hostinger
+                    </span>
+                  </Link>
+                </li>
+              </ul>
+            </div>
+
+            {/* Third Party Integration Column 1 */}
+            <div>
+              <h3 className="text-base font-bold text-gray-800 mb-4 pb-2 border-b-2 border-[#fb9c24]">
+                Third Party Integration
+              </h3>
+              <ul className="space-y-2">
+                {thirdPartyIntegration.slice(0, 9).map((tech, i) => (
+                  <li key={i}>
+                    <Link 
+                      to={tech.path}
+                      className="flex items-center gap-3 px-2 py-2 hover:bg-orange-50 rounded-lg transition-all duration-200 group cursor-pointer"
+                      onClick={() => setTechnologiesOpen(false)}
+                    >
+                      <div className="flex-shrink-0">
+                        {tech.icon}
+                      </div>
+                      <span className="text-gray-700 group-hover:text-[#fb9c24] font-medium text-sm">
+                        {tech.name}
+                      </span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Third Party Integration Column 2 */}
+            <div>
+              <h3 className="text-base font-bold text-gray-800 mb-4 pb-2 border-b-2 border-[#fb9c24] opacity-0">
+                Third Party Integration
+              </h3>
+              <ul className="space-y-2">
+                {thirdPartyIntegration.slice(9).map((tech, i) => (
                   <li key={i}>
                     <Link 
                       to={tech.path}
@@ -571,7 +688,11 @@ const Header = () => {
 
         {/* Mobile Dropdown for Technologies */}
         {technologiesOpen && (
-          <div className="md:hidden mt-2 pl-4 max-h-96 overflow-y-auto">
+          <div className="md:hidden mt-2 pl-4 max-h-[400px] overflow-y-auto pr-2">
+            {/* Scroll indicator */}
+            <div className="absolute right-2 top-2 bottom-2 w-1 bg-gray-200 rounded-full">
+              <div className="w-full bg-[#fb9c24] rounded-full h-1/4"></div>
+            </div>
             <div className="mb-4">
               <h4 className="font-bold text-[#fb9c24] mb-2 text-sm">Frontend Technologies</h4>
               {frontendTechnologies.map((tech, i) => (
@@ -627,6 +748,21 @@ const Header = () => {
                   <span className="text-xs">{tech.name}</span>
                 </Link>
               ))}
+
+            </div>
+            <div className="mb-4">
+              <h4 className="font-bold text-[#fb9c24] mb-2 text-sm">Third Party Integration</h4>
+              {thirdPartyIntegration.map((tech, i) => (
+                <Link 
+                  key={i} 
+                  to={tech.path}
+                  className="flex items-center gap-2 py-2 border-b hover:text-[#fb9c24]"
+                  onClick={() => setTechnologiesOpen(false)}
+                >
+                  {tech.icon}
+                  <span className="text-xs">{tech.name}</span>
+                </Link>
+              ))}
             </div>
             <div>
               <h4 className="font-bold text-[#fb9c24] mb-2 text-sm">Others</h4>
@@ -641,6 +777,14 @@ const Header = () => {
                   <span className="text-xs">{tech.name}</span>
                 </Link>
               ))}
+              <Link 
+                to="/technologies/hostinger"
+                className="flex items-center gap-2 py-2 border-b hover:text-[#fb9c24]"
+                onClick={() => setTechnologiesOpen(false)}
+              >
+                <img src="/hostinger.svg" alt="Hostinger" className="w-5 h-5" />
+                <span className="text-xs">Hostinger</span>
+              </Link>
             </div>
           </div>
         )}
@@ -713,7 +857,11 @@ const Header = () => {
 
         {/* Mobile Dropdown for Verticals */}
         {verticalsOpen && (
-          <div className="md:hidden mt-2 pl-4 max-h-96 overflow-y-auto">
+          <div className="md:hidden mt-2 pl-4 max-h-[400px] overflow-y-auto pr-2">
+            {/* Scroll indicator */}
+            <div className="absolute right-2 top-2 bottom-2 w-1 bg-gray-200 rounded-full">
+              <div className="w-full bg-[#fb9c24] rounded-full h-1/3"></div>
+            </div>
             <h4 className="font-bold text-[#fb9c24] mb-2 text-sm">Industry Verticals</h4>
             {verticals.map((vertical, i) => (
               <Link

@@ -13,6 +13,10 @@ import Portfolio from "./pages/Portfolio";
 import BulkSMS from "./pages/BulkSMS";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsAndConditions from "./pages/TermsConditions";
+import Services from "./pages/Services";
+import Technologies from "./pages/Technologies";
+import Hostinger from "./pages/Hostinger";
+
 import MobileAppDevelopment from "./pages/services_pages/MobileAppDevelopment";
 import SocialMediaMarketing from "./pages/services_pages/SMM";
 import WebsiteDevelopment from "./pages/services_pages/WebsiteDevelopment";
@@ -44,6 +48,7 @@ import NodeJS from "./pages/technology_pages/NodeJS";
 import Python from "./pages/technology_pages/Python";
 import Java from "./pages/technology_pages/Java";
 import PHP from "./pages/technology_pages/PHP";
+import DotNet from "./pages/technology_pages/DotNet";
 import Laravel from "./pages/technology_pages/Laravel";
 import WordPress from "./pages/technology_pages/WordPress";
 import ReactNative from "./pages/technology_pages/ReactNative";
@@ -55,7 +60,36 @@ import MySQL from "./pages/technology_pages/MySQL";
 import PostgreSQL from "./pages/technology_pages/PostgreSQL";
 import Firebase from "./pages/technology_pages/Firebase";
 import AWS from "./pages/technology_pages/AWS";
+import Azure from "./pages/technology_pages/Azure";
+import IBMCloud from "./pages/technology_pages/IBMCloud";
+import GoogleCloudPlatform from "./pages/technology_pages/GoogleCloudPlatform";
 import Figma from "./pages/technology_pages/Figma";
+// Database Pages
+import IndexedDatabaseAPI from "./pages/technology_pages/IndexedDatabaseAPI";
+import AzureCosmosDB from "./pages/technology_pages/AzureCosmosDB";
+import AmazonDynamoDB from "./pages/technology_pages/AmazonDynamoDB";
+import MsSQL from "./pages/technology_pages/MsSQL";
+// Third Party Integration Pages
+import Telerik from "./pages/technology_pages/Telerik";
+import QuickBooksXero from "./pages/technology_pages/QuickBooksXero";
+import TwilioPlivo from "./pages/technology_pages/TwilioPlivo";
+import DevExpress from "./pages/technology_pages/DevExpress";
+import SyncFusion from "./pages/technology_pages/SyncFusion";
+import MudBlazor from "./pages/technology_pages/MudBlazor";
+import StripePaypal from "./pages/technology_pages/StripePaypal";
+import GoogleAPI from "./pages/technology_pages/GoogleAPI";
+import Highcharts from "./pages/technology_pages/Highcharts";
+import YahooFinance from "./pages/technology_pages/YahooFinance";
+import Zoom from "./pages/technology_pages/Zoom";
+import PowerBI from "./pages/technology_pages/PowerBI";
+import MaterialUI from "./pages/technology_pages/MaterialUI";
+import PrimeNG from "./pages/technology_pages/PrimeNG";
+import Radzen from "./pages/technology_pages/Radzen";
+import CKEditor from "./pages/technology_pages/CKEditor";
+import EasyPost from "./pages/technology_pages/EasyPost";
+import KitBuilder from "./pages/technology_pages/KitBuilder";
+import Shopify from "./pages/technology_pages/Shopify";
+import Daisy from "./pages/technology_pages/Daisy";
 // Vertical Pages
 import Healthcare from "./pages/vertical_pages/Healthcare";
 import Fintech from "./pages/vertical_pages/Fintech";
@@ -73,7 +107,7 @@ import TravelTourism from "./pages/vertical_pages/TravelTourism";
 import WorkflowManagement from "./pages/vertical_pages/WorkflowManagement";
 import Fitness from "./pages/vertical_pages/Fitness";
 import SportsManagement from "./pages/vertical_pages/SportsManagement";
-import SaaS from "./pages/vertical_pages/SaaS";
+import SaaS from "./pages/technology_pages/SaaS";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 import FAQChatbot from "./components/Chatbot";
@@ -89,6 +123,10 @@ function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="portfolio" element={<Portfolio />} />
           <Route path="bulk-sms" element={<BulkSMS />} />
+          <Route path="services" element={<Services />} />
+          <Route path="technologies" element={<Technologies />} />
+          <Route path="technologies/hostinger" element={<Hostinger />} />
+          <Route path="technologies/saas" element={<SaaS />} />
           <Route path="meta-ads" element={<MetaAds />} />
           <Route path="google-ads" element={<GoogleAds />} />
           <Route
@@ -101,7 +139,7 @@ function App() {
           />
           <Route path="website-development" element={<WebsiteDevelopment />} />
           <Route path="search-engine-optimization" element={<SEO />} />
-          <Route path="website-designing" element={<WebsiteDesigning />} />
+          <Route path="best-website-designing-company-india" element={<WebsiteDesigning />} />
           <Route path="ai-ml" element={<AIandML />} />
           <Route path="product-development" element={<ProductDevelopment />} />
           <Route path="pwa-development" element={<PWADevelopment />} />
@@ -130,6 +168,7 @@ function App() {
           <Route path="technologies/python" element={<Python />} />
           <Route path="technologies/java" element={<Java />} />
           <Route path="technologies/php" element={<PHP />} />
+          <Route path="technologies/dotnet" element={<DotNet />} />
           <Route path="technologies/laravel" element={<Laravel />} />
           <Route path="technologies/wordpress" element={<WordPress />} />
           <Route path="technologies/react-native" element={<ReactNative />} />
@@ -141,7 +180,36 @@ function App() {
           <Route path="technologies/postgresql" element={<PostgreSQL />} />
           <Route path="technologies/firebase" element={<Firebase />} />
           <Route path="technologies/aws" element={<AWS />} />
+          <Route path="technologies/azure" element={<Azure />} />
+          <Route path="technologies/ibm-cloud" element={<IBMCloud />} />
+          <Route path="technologies/google-cloud" element={<GoogleCloudPlatform />} />
           <Route path="technologies/figma" element={<Figma />} />
+          {/* Database Routes */}
+          <Route path="technologies/indexeddb" element={<IndexedDatabaseAPI />} />
+          <Route path="technologies/azure-cosmosdb" element={<AzureCosmosDB />} />
+          <Route path="technologies/amazon-dynamodb" element={<AmazonDynamoDB />} />
+          <Route path="technologies/mssql" element={<MsSQL />} />
+          {/* Third Party Integration Routes */}
+          <Route path="technologies/telerik" element={<Telerik />} />
+          <Route path="technologies/quickbooks-xero" element={<QuickBooksXero />} />
+          <Route path="technologies/twilio-plivo" element={<TwilioPlivo />} />
+          <Route path="technologies/devexpress" element={<DevExpress />} />
+          <Route path="technologies/syncfusion" element={<SyncFusion />} />
+          <Route path="technologies/mudblazor" element={<MudBlazor />} />
+          <Route path="technologies/stripe-paypal" element={<StripePaypal />} />
+          <Route path="technologies/google-api" element={<GoogleAPI />} />
+          <Route path="technologies/highcharts" element={<Highcharts />} />
+          <Route path="technologies/yahoo-finance" element={<YahooFinance />} />
+          <Route path="technologies/zoom" element={<Zoom />} />
+          <Route path="technologies/powerbi" element={<PowerBI />} />
+          <Route path="technologies/material-ui" element={<MaterialUI />} />
+          <Route path="technologies/primeng" element={<PrimeNG />} />
+          <Route path="technologies/radzen" element={<Radzen />} />
+          <Route path="technologies/ckeditor" element={<CKEditor />} />
+          <Route path="technologies/easypost" element={<EasyPost />} />
+          <Route path="technologies/kit-builder" element={<KitBuilder />} />
+          <Route path="technologies/shopify" element={<Shopify />} />
+          <Route path="technologies/daisyui" element={<Daisy />} />
           {/* Vertical Routes */}
           <Route path="verticals/healthcare" element={<Healthcare />} />
           <Route path="verticals/fintech" element={<Fintech />} />
@@ -159,7 +227,7 @@ function App() {
           <Route path="verticals/workflow-management" element={<WorkflowManagement />} />
           <Route path="verticals/fitness" element={<Fitness />} />
           <Route path="verticals/sports-management" element={<SportsManagement />} />
-          <Route path="verticals/saas" element={<SaaS />} />
+
           <Route path="privacy-policy" element={<PrivacyPolicy />} />
           <Route path="terms-condition" element={<TermsAndConditions />} />
           <Route path="/*" element={<Home />} />

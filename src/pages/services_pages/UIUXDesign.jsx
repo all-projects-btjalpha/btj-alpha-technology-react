@@ -29,17 +29,17 @@ function UIUXDesign() {
     {
       icon: <FaChartBar className="text-5xl text-red-500" />,
       title: "Research and Analysis",
-      description: "We conduct comprehensive user research and analysis to understand your target audience, their behaviors, pain points, and expectations. Our data-driven approach ensures designs that truly resonate with users."
+      description: "We study your target audience, market trends, and user needs. This helps us create designs based on real data and clear understanding."
     },
     {
       icon: <FaBox className="text-5xl text-yellow-500" />,
       title: "Branding and Identity",
-      description: "Create a distinctive brand identity that sets you apart. We craft unique visual languages including logos, color palettes, typography, and brand guidelines that consistently represent your business values."
+      description: "We build a strong and unique brand identity for your business. This includes logo design, color selection, typography, and brand guidelines that reflect your values."
     },
     {
       icon: <FaHome className="text-5xl text-purple-500" />,
       title: "Information Architecture",
-      description: "We organize and structure your content and features in a logical, intuitive manner. Our information architecture ensures users can easily navigate and find what they need without confusion."
+      description: "We organize your content and features in a clear and logical way. This makes it easy for users to navigate and find information without confusion."
     }
   ];
 
@@ -47,52 +47,52 @@ function UIUXDesign() {
     {
       icon: <SiAdobexd className="text-5xl text-pink-500" />,
       name: "Adobe XD",
-      description: "Adobe XD is a phenomenal software package that is a part of Creative cloud. It comes with a powerful suite of prototyping tools, vector-based designs, and extensive collaboration features allowing our designers and developers to work together seamlessly."
+      description: "Adobe XD is a powerful design tool used for UI/UX design. It helps us create wireframes, prototypes, and interactive designs easily."
     },
     {
       icon: <SiSketch className="text-5xl text-orange-400" />,
       name: "Sketch",
-      description: "Sketch is a vector design tool that is specifically built for interface and web design. We have found it to be flexible & intuitive perfect for designers to easily prototype as well as develop prototypes with it."
+      description: "Sketch is a popular design tool for web and app interfaces. It allows us to quickly create and test design ideas."
     },
     {
       icon: <SiFigma className="text-5xl text-purple-600" />,
       name: "Figma",
-      description: "Figma is a cloud-based design tool which is collaborative in nature and doesn't need to be installed on computers to begin working. We use Figma because it enables our entire team to work together in real-time making collaborative work easier than with other platforms."
+      description: "Figma is a cloud-based design tool. It allows our team to work together in real-time and collaborate easily."
     },
     {
       icon: <SiAdobeillustrator className="text-5xl text-orange-600" />,
       name: "Adobe Illustrator",
-      description: "Illustrator is vector Adobe tool no.1 choice for creating logos, icons & typography. It is most preferred by our team to make scalable assets which guarantee they perform well at every size and device size."
+      description: "Illustrator is used to create logos, icons, and vector graphics. It helps us design scalable graphics that look sharp on all devices."
     },
     {
       icon: <SiAdobephotoshop className="text-5xl text-blue-600" />,
       name: "Adobe Photoshop",
-      description: "Photoshop should always be in edition to design software that a designer should have. That's why we use this industry-standard for creating high-quality visuals and for manipulating images, adjusting colors, and adding unique effects that enhance the overall design aesthetic."
+      description: "Photoshop is used for image editing and visual design. It helps us improve graphics, adjust colors, and create stunning visuals."
     },
     {
       icon: <SiHtml5 className="text-5xl text-orange-500" />,
       name: "HTML",
-      description: "HTML is the framework that holds all web content in place. Our HTML code development to create web pages ensures that your designs run properly on any browser. This way your vision is reflected in reality."
+      description: "HTML is used to structure web pages. It helps turn design layouts into working web pages."
     },
     {
       icon: <SiCss3 className="text-5xl text-blue-500" />,
       name: "CSS3",
-      description: "We use the latest CSS3 standards to design websites that look stunning with modern animations, transitions, and responsive layouts to ensure your website looks good on any device."
+      description: "CSS3 is used to style websites. It adds colors, animations, layouts, and makes websites responsive."
     },
     {
       icon: <SiBlender className="text-5xl text-orange-400" />,
       name: "Blender",
-      description: "Blender is an open source 3D modeling and animation tool. We use Blender to create engaging, immersive visual experiences that help your product stand out, whether that's product visualization, 3D illustrations, or animated graphics."
+      description: "Blender is a 3D design and animation tool. It is used for creating 3D models, illustrations, and animations."
     },
     {
       icon: <SiTailwindcss className="text-5xl text-cyan-500" />,
       name: "Tailwind",
-      description: "Tailwind CSS is a utility first CSS framework that is used by our team and helps in building responsive custom designs with minimal effort. Using Tailwind, we can quickly prototype and iterate on designs making the development faster."
+      description: "Tailwind CSS is a modern framework for building responsive designs. It helps us create clean and fast-loading websites."
     },
     {
       icon: <SiBootstrap className="text-5xl text-purple-600" />,
       name: "Bootstrap",
-      description: "Bootstrap is one of the popular frontend frameworks in the world. Our use of Bootstrap ensures that we build responsive, mobile friendly web applications quickly with a consistent look and feel across all devices."
+      description: "Bootstrap is a popular front-end framework. It helps us build responsive and mobile-friendly websites quickly."
     }
   ];
 
@@ -100,55 +100,55 @@ function UIUXDesign() {
     {
       icon: <FaMobileAlt className="text-5xl text-blue-500" />,
       title: "Wireframe Creation",
-      description: "We create wireframes that provide a clear blueprint of your website or app's structure, showing the placement of elements, navigation flow, and content hierarchy before moving to visual design."
+      description: "We create wireframes that show the basic structure of your website or app. It shows layout, navigation, and content placement before the final design"
     },
     {
       icon: <FaCheckCircle className="text-5xl text-green-500" />,
       title: "Prototyping",
-      description: "We transform wireframes into interactive prototypes that simulate the final product's functionality. This allows stakeholders to test and validate the user experience before development begins."
+      description: "We turn wireframes into interactive prototypes. This allows you to see how the product will work and test the user experience before development."
     },
     {
       icon: <FaSync className="text-5xl text-orange-500" />,
       title: "Revisions and Updates",
-      description: "We value your feedback and work iteratively to refine designs. Our flexible approach ensures your vision is realized through continuous collaboration and adjustments based on your input."
+      description: "We improve the design based on your feedback. We work closely with you and make changes until the final design meets your needs."
     }
   ];
 
   const workflowPhases = [
     {
       title: "Research",
-      description: "We conduct thorough research to understand your business goals, target audience, and competitive landscape to inform our design strategy."
+      description: "We study your business goals, target audience, and competitors. This helps us create the right design strategy."
     },
     {
       title: "Visualisation",
-      description: "We create mood boards, style guides, and visual concepts that establish the aesthetic direction and design language for your project."
+      description: "We create mood boards, style guides, and visual concepts. This defines the look and feel of your project."
     },
     {
       title: "Prototyping",
-      description: "We develop interactive prototypes that bring designs to life, allowing you to experience and test the user journey before development."
+      description: "We build interactive designs so you can see and test how everything works."
     },
     {
       title: "Testing and Refinement",
-      description: "We conduct usability testing with real users to identify issues and opportunities for improvement, then refine the design based on insights."
+      description: "We test the design with users to find improvements. We refine the design to ensure the best user experience."
     }
   ];
 
   const whyWorkWithUs = [
     {
-      title: "All the features, none of the bloat",
-      description: "Our designs focus on essential features that add value, eliminating unnecessary complexity for cleaner, more efficient user experiences."
+      title: "All the Features, No Extra Complexity",
+      description: "We focus on useful and important features. Our designs are simple, clean, and easy to use without unnecessary elements."
     },
     {
-      title: "Working style as per client needs",
-      description: "We adapt our workflow and communication style to match your preferences, ensuring seamless collaboration throughout the project."
+      title: "Work Style Based on Your Needs",
+      description: "We adjust our design and communication style to match your preferences. We ensure smooth collaboration from start to finish."
     },
     {
-      title: "Update, upgrade and move fast with maintenance",
-      description: "We provide ongoing support to keep your designs current, implementing updates and enhancements as your business evolves."
+      title: "Fast Updates and Improvements",
+      description: "We provide ongoing support and regular updates. We help improve your design as your business grows."
     },
     {
-      title: "Affordable and competitive in the market",
-      description: "We offer high-quality design services at competitive rates, making professional UI/UX design accessible for businesses of all sizes."
+      title: "Affordable and Competitive Pricing",
+      description: "We offer high-quality UI/UX design services at fair prices. Our services are suitable for businesses of all sizes."
     }
   ];
 
@@ -188,7 +188,13 @@ function UIUXDesign() {
                 Design Company
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                At BTJ Alpha Technology, we create exceptional user experiences through intuitive, beautiful designs. Our UI/UX design services combine creativity with user research to deliver interfaces that not only look stunning but also provide seamless interactions. From wireframes to final designs, we ensure every pixel serves a purpose in enhancing user satisfaction and achieving your business goals.
+                At BTJ Alpha Technology, we create simple and beautiful user experiences. 
+                Our UI/UX design services combine creativity with user research to build 
+                easy-to-use and attractive digital products.<br></br>
+                We design websites, mobile apps, and software interfaces that not only look
+                good but also work smoothly. From wireframes to final designs, every detail is planned to 
+                improve user satisfaction and help your business grow.
+
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -262,11 +268,11 @@ function UIUXDesign() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Strategy for your business with expert creative guidance and right approaches. Get Services Strategy.
+              Strategy for Your Business with Expert Creative Guidance
             </h2>
             <p className="text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              Our design strategy aligns with your business objectives, ensuring every design decision contributes to your success. 
-              We combine market research, user insights, and creative expertise to deliver designs that drive results.
+              We create design strategies that match your business goals.
+              Our team uses market research, user insights, and creative ideas to deliver designs that bring real results.
             </p>
           </div>
 
@@ -294,8 +300,7 @@ function UIUXDesign() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our open software developer with multiple design technology languages 
-              & frameworks that make our designs technically feasible and visually appealing
+              Our Design Tools and Technologies
             </h2>
           </div>
 
@@ -380,7 +385,7 @@ function UIUXDesign() {
         </div>
         <div className="container mx-auto relative z-10 text-center" data-aos="fade-up">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-            Starting a New Project or Want to<br />Collaborate With Us?
+            Starting a New Project or Want to<br />Work With Us?
           </h2>
           <button
             onClick={openForm}
@@ -399,8 +404,9 @@ function UIUXDesign() {
               Our UI/UX Design Services can Transform your<br />Business!
             </h2>
             <p className="text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              We don't just create designs; we craft experiences that drive engagement, increase conversions, 
-              and build lasting relationships with your users. Let us help you achieve your business goals through exceptional design.
+              We do more than just design. We create user experiences that increase engagement, improve conversions, and build strong relationships with your customers.
+              Our goal is to help your business grow through smart and creative design.
+
             </p>
           </div>
 
@@ -410,8 +416,8 @@ function UIUXDesign() {
             </div>
             <h3 className="text-2xl font-bold text-gray-900 mb-3">Creative Design</h3>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              We combine creativity and technical expertise to create stunning interfaces that not only look beautiful but also provide intuitive user experiences. 
-              Our designs are crafted to reflect your brand identity while ensuring maximum usability.
+              We combine creativity and technical skills to build beautiful and easy-to-use interfaces.
+              Our designs reflect your brand identity while ensuring the best user experience.
             </p>
           </div>
         </div>
@@ -425,7 +431,7 @@ function UIUXDesign() {
               Why Work with us?
             </h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
-              BTJ Alpha Technology brings extensive experience, proven methodologies, and commitment to excellence in every project.
+              BTJ Alpha Technology brings strong experience, proven methods, and a commitment to quality in every project.
             </p>
           </div>
 

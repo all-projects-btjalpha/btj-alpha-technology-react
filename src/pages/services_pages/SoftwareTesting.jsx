@@ -27,32 +27,32 @@ function SoftwareTesting() {
     {
       icon: <FaFlask className="text-5xl text-yellow-500" />,
       title: "Manual Testing Services",
-      description: "Our manual testing services involve experienced QA professionals who meticulously test your software to identify bugs, usability issues, and inconsistencies. We ensure comprehensive test coverage across all features and user scenarios."
+      description: "Our QA experts carefully test your software to find bugs and usability issues. We check all features and user scenarios to ensure everything works correctly."
     },
     {
       icon: <FaRobot className="text-5xl text-cyan-500" />,
       title: "Automation Testing",
-      description: "We implement automated test scripts using industry-leading tools like Selenium, Cypress, and Jest to accelerate testing cycles, improve accuracy, and provide faster feedback on code changes."
+      description: "We use automation tools like Selenium, Cypress, and Jest to speed up testing. Automation improves accuracy and gives faster feedback on code changes."
     },
     {
       icon: <FaTachometerAlt className="text-5xl text-red-500" />,
       title: "Mobile App Testing Services",
-      description: "Our mobile app testing ensures your iOS and Android applications work flawlessly across different devices, screen sizes, and OS versions. We test functionality, performance, and user experience."
+      description: "We test iOS and Android apps on different devices and screen sizes. We ensure your app works smoothly and delivers a good user experience."
     },
     {
       icon: <FaUserCheck className="text-5xl text-purple-500" />,
       title: "Usability Testing",
-      description: "We evaluate your application from the end-user perspective, identifying navigation issues, confusing interfaces, and areas where user experience can be improved for better engagement."
+      description: "We test your application from a user’s point of view. We identify navigation issues and improve overall user experience."
     },
     {
       icon: <FaChartLine className="text-5xl text-green-500" />,
       title: "Performance Testing",
-      description: "Load, stress, and performance testing to ensure your application can handle expected traffic volumes and maintains optimal response times under various conditions."
+      description: "We check how your software performs under heavy traffic and different conditions. This ensures fast response times and stable performance."
     },
     {
       icon: <FaLock className="text-5xl text-blue-600" />,
       title: "Penetration Testing (Security)",
-      description: "Our security experts identify vulnerabilities and potential security breaches before malicious actors can exploit them, ensuring your application meets security compliance standards."
+      description: "Our security experts find vulnerabilities and fix security risks. We make sure your application meets security standards and stays protected."
     }
   ];
 
@@ -60,22 +60,22 @@ function SoftwareTesting() {
     {
       icon: <FaMobileAlt className="text-5xl text-blue-500" />,
       title: "Functional Testing",
-      description: "Functional testing is a type of testing that validates the software system against the functional requirements. We verify that each function of the software operates in conformance with the requirement specification."
+      description: "Functional testing checks if the software works as expected. It makes sure every feature follows the given requirements and works correctly."
     },
     {
       icon: <FaCogs className="text-5xl text-purple-500" />,
       title: "Integration Testing",
-      description: "Integration testing ensures that different modules or services used by your application work well together. We test the interfaces between components, data transfers, and communication between systems."
+      description: "Integration testing checks if different modules or parts of the system work well together. It tests the connection, data flow, and communication between components."
     },
     {
       icon: <FaDesktop className="text-5xl text-cyan-500" />,
       title: "System Testing",
-      description: "System testing evaluates the complete integrated system to verify that it meets specified requirements. We test the entire system as a whole, including all interfaces and interactions."
+      description: "System testing checks the complete software as a whole. It ensures the entire system works properly, including all features and interactions."
     },
     {
       icon: <FaClipboardList className="text-5xl text-green-500" />,
       title: "Acceptance Testing",
-      description: "User Acceptance Testing (UAT) validates that the software meets business requirements and is ready for deployment. We work with stakeholders to ensure all acceptance criteria are met."
+      description: "Acceptance testing (UAT) checks if the software meets business requirements. It confirms the product is ready for release and meets user expectations."
     }
   ];
 
@@ -83,77 +83,77 @@ function SoftwareTesting() {
     {
       icon: <FaTachometerAlt className="text-5xl text-orange-500" />,
       title: "Performance Testing",
-      description: "Performance testing checks system behavior and response time under various load conditions. We simulate different user loads to identify bottlenecks and optimize application performance."
+      description: "Performance testing checks how fast and stable the system is. It tests different user loads to find slow areas and improve speed."
     },
     {
       icon: <FaLock className="text-5xl text-red-500" />,
       title: "Security Testing",
-      description: "Security testing identifies vulnerabilities, threats, and risks in the software application. We perform penetration testing, vulnerability assessment, and security audits to protect your data."
+      description: "Security testing finds weaknesses and risks in the software. It includes penetration testing and security checks to protect user data."
     },
     {
       icon: <FaUsers className="text-5xl text-blue-500" />,
       title: "Compatibility Testing",
-      description: "Compatibility testing ensures your application works across different browsers, devices, operating systems, and network environments without any issues or degraded performance."
+      description: "Compatibility testing ensures the application works on different browsers, devices, operating systems, and networks. It makes sure there are no performance or display issues."
     },
     {
       icon: <FaServer className="text-5xl text-purple-500" />,
       title: "Reliability Testing",
-      description: "Reliability testing verifies that the software can perform failure-free operation for a specified period in a particular environment. We test stability, availability, and fault tolerance."
+      description: "Reliability testing checks if the software works without failure for a long time. It tests stability, availability, and error handling in different environments."
     },
     {
       icon: <FaGlobe className="text-5xl text-cyan-500" />,
       title: "Usability Testing",
-      description: "Usability testing evaluates how easy and user-friendly the software interface is. We assess navigation, layout, content, and overall user experience to ensure customer satisfaction."
+      description: "Usability testing checks how easy and user-friendly the software is. It reviews navigation, design, content, and overall user experience."
     }
   ];
 
   const importancePoints = [
     {
       title: "Ensuring Quality",
-      description: "Testers play a crucial role in ensuring that the software meets quality standards and user expectations. They identify defects early, reducing the cost of fixes and improving overall product quality."
+      description: "Testers make sure the software meets quality standards. They find bugs early which leads to lower fixing costs while enhancing the final product quality."
     },
     {
       title: "Reducing Risks",
-      description: "Early detection of bugs and issues through systematic testing reduces the risk of software failures in production, protecting brand reputation and user trust."
+      description: "Testers use regular testing to identify problems before software release. This process minimizes failure risks while safeguarding the company's reputation and establishing customer confidence."
     },
     {
       title: "Validating User Experience",
-      description: "Testers validate that the software provides a seamless and intuitive user experience, ensuring end-users can accomplish their goals efficiently and without frustration."
+      description: "Testers check if the software is easy to use. They ensure users can complete tasks smoothly and without frustration."
     },
     {
       title: "Collaborating with Development Team",
-      description: "Testers work closely with developers to understand requirements, report issues clearly, and verify fixes, fostering a collaborative environment for quality software delivery."
+      description: "Testers work closely with developers. They deliver precise feedback which they use to confirm solutions while they assist the team in producing high-quality software."
     },
     {
       title: "Continuous Improvement",
-      description: "Through continuous testing and feedback loops, testers help teams identify areas for improvement, optimize processes, and adopt best practices for long-term success."
+      description: "Testers help organizations improve their processes through their continuous testing and feedback activities. They enable organizations to achieve better performance while developing stronger capabilities for their long-term success."
     }
   ];
 
   const testingLifecycle = [
     {
       phase: "Planning",
-      description: "Define testing scope, objectives, resources, and schedule. Create test strategy and identify testing tools.",
+      description: "We define the testing scope, goals, resources, and timelines. We create a test strategy and choose the right tools.",
       color: "from-gray-500 to-gray-700"
     },
     {
       phase: "Design",
-      description: "Create detailed test cases, test scripts, and test data based on requirements and user stories.",
+      description: "We create detailed test cases and test scripts. We prepare test data based on project requirements and user stories.",
       color: "from-blue-500 to-blue-700"
     },
     {
       phase: "Delivery",
-      description: "Set up test environment, prepare test data, and ensure all prerequisites are ready for execution.",
+      description: "We set up the test environment and prepare all required data. We make sure everything is ready before testing begins.",
       color: "from-orange-500 to-orange-700"
     },
     {
       phase: "Implementation",
-      description: "Execute test cases, document results, report defects, and verify fixes through regression testing.",
+      description: "We execute test cases and record the results. We report bugs, verify fixes, and perform regression testing.",
       color: "from-red-500 to-red-700"
     },
     {
       phase: "Stabilization",
-      description: "Perform final validation, regression testing, and ensure all critical issues are resolved before release.",
+      description: "We perform final validation and regression testing. We ensure all critical issues are fixed before release.",
       color: "from-green-500 to-green-700"
     }
   ];
@@ -245,7 +245,12 @@ function SoftwareTesting() {
                 Testing Company India
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                At BTJ Alpha Technology, we provide comprehensive software testing and quality assurance services to ensure your applications are bug-free, secure, and perform optimally. Our experienced QA team uses industry-leading tools and methodologies to deliver reliable testing solutions from manual testing to full test automation.
+                At BTJ Alpha Technology, we provide complete software testing and quality 
+                assurance services. Our goal is to make sure your applications are bug-free,
+                secure, and perform smoothly. <br></br>
+                Our experienced QA team uses modern tools and proven methods to deliver 
+                reliable testing solutions. We offer services from manual testing to full 
+                automation testing to ensure high-quality results.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -319,8 +324,8 @@ function SoftwareTesting() {
               Prioritize Quality with Our Software Testing Services
             </h2>
             <p className="text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              We offer comprehensive testing services designed to identify issues early, reduce costs, 
-              and ensure your software meets the highest quality standards before reaching end-users.
+              We provide complete testing services to find issues early, reduce costs, and make 
+              sure your software meets high-quality standards before it reaches users.
             </p>
           </div>
 
@@ -351,7 +356,7 @@ function SoftwareTesting() {
               Categories for Software Testing
             </h2>
             <p className="text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Software testing is a broad term that covers all types of testing for various project requirements.
+              Software testing includes different types of testing based on project needs.
             </p>
           </div>
 
@@ -363,8 +368,7 @@ function SoftwareTesting() {
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Functional Testing</h3>
               <p className="text-gray-600 max-w-3xl mx-auto">
-                Functional testing is a type of testing that validates the software system against the functional requirements/specifications. 
-                The purpose is to verify that each function of the software application operates in conformance with the requirement specification.
+                Functional testing checks if the software works as expected. It makes sure every feature follows the given requirements and works correctly.
               </p>
             </div>
 
@@ -394,8 +398,7 @@ function SoftwareTesting() {
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Non-Functional Testing</h3>
               <p className="text-gray-600 max-w-3xl mx-auto">
-                Non-functional testing evaluates the non-functional aspects such as performance, usability, reliability, and security. 
-                It tests how well the system performs rather than what specific functions it performs.
+                Non-functional testing checks how well the system works. It focuses on performance, security, usability, reliability, and compatibility — not just features.
               </p>
             </div>
 
@@ -431,8 +434,8 @@ function SoftwareTesting() {
               The Importance of Testers in Software Development<br />Life Cycle
             </h2>
             <p className="text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              Testers play a vital role throughout the software development lifecycle, ensuring quality, 
-              identifying issues early, and validating that the final product meets user expectations and business requirements.
+              Testers play an important role in the software development process. They help ensure quality, find issues early, and make sure the final product meets user and business needs.
+
             </p>
           </div>
 
@@ -460,7 +463,7 @@ function SoftwareTesting() {
               Our Software Testing Services Lifecycle
             </h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
-              We follow a structured testing lifecycle approach to ensure comprehensive quality assurance.
+              We follow a clear and structured testing process to ensure high quality.
             </p>
           </div>
 

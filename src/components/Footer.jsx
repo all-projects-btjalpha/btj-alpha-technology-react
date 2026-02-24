@@ -24,9 +24,9 @@ const Footer = () => {
           <div className="space-y-6">
             <div>
               <img 
-                src="btlogo.png" 
+                src="/btlogo.png" 
                 alt="BTJ Alpha Technology" 
-                className="w-20 sm:w-24 mb-4 bg-white rounded-full p-2 shadow-lg hover:scale-105 transition-transform duration-300" 
+                className="w-20 sm:w-24 mb-4 bg-white rounded-[32px]  p-2 shadow-lg hover:scale-105 transition-transform duration-300" 
               />
               <h3 className="text-xl sm:text-2xl font-bold mb-3">BTJ ALPHA TECHNOLOGY</h3>
               <p className="text-white/90 text-sm sm:text-base leading-relaxed">
@@ -434,7 +434,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="text-center border-t border-white/20 pt-4">
           <p className="text-white/90 text-sm sm:text-base">
-            &copy; 2025 <span className="font-semibold text-white">BTJ ALPHA TECHNOLOGY PVT LTD</span>. All rights reserved.
+            &copy; 2026 <span className="font-semibold text-white">BTJ ALPHA TECHNOLOGY PVT LTD</span>. All rights reserved.
           </p>
         </div>
       </div>
