@@ -25,68 +25,68 @@ function Compliance() {
     {
       icon: <FaShieldAlt className="text-5xl text-[#fb9c24]" />,
       title: "Regulatory Compliance",
-      description: "Ensure compliance with GDPR, HIPAA, SOC 2, ISO, and industry-specific regulations."
+      description: "Ensure compliance with standards such as GDPR, HIPAA, SOC 2, ISO, and other industry regulations.Our solutions help you stay updated with changing laws and maintain proper documentation through expert Compliance Management Development in India."
     },
     {
       icon: <FaFileAlt className="text-5xl text-[#10B981]" />,
       title: "Document Management",
-      description: "Centralized repository for compliance documents, policies, and audit trails."
+      description: "Centralize all compliance-related documents, policies, and audit records in one secure system.We create structured repositories that make document tracking and retrieval easy."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
       title: "Audit Management",
-      description: "Streamlined audit workflows with automated scheduling and evidence collection."
+      description: "Our systems reduce manual effort and improve audit accuracy."
     },
     {
       icon: <FaExclamationTriangle className="text-5xl text-[#06b6d4]" />,
       title: "Risk Assessment",
-      description: "Identify, assess, and mitigate compliance risks with automated risk management tools."
+      description: "Identify, assess, and mitigate compliance risks with automated risk management tools.We provide dashboards that highlight risk levels and corrective actions."
     },
     {
       icon: <FaChartBar className="text-5xl text-[#f87171]" />,
       title: "Compliance Reporting",
-      description: "Real-time dashboards and reports for compliance status and regulatory requirements."
+      description: "Access real-time dashboards and detailed reports to monitor compliance status and regulatory requirements.Advanced reporting tools powered by Compliance Management Development in India help management make informed decisions."
     },
     {
       icon: <FaLock className="text-5xl text-[#fbbf24]" />,
       title: "Data Security",
-      description: "Encryption, access controls, and security measures to protect sensitive compliance data."
+      description: "Protect sensitive compliance data with encryption, role-based access control, and multi-layer security protocols.Security is integrated into every stage of development."
     }
   ];
 
   const complianceServices = [
     {
       icon: <FaShieldAlt className="text-5xl text-[#fb9c24]" />,
-      title: "Compliance Management Solutions",
-      description: "Stay compliant with confidence using our comprehensive compliance management systems. We help organizations meet regulatory requirements, reduce risks, and maintain audit readiness."
+      title: "Compliance Management System Development",
+      description: "BTJ Alpha Technology builds customized compliance management platforms tailored to your business needs. Our expertise in Compliance Management Development in India ensures high-performance, secure, and future-ready systems."
     },
     {
       icon: <FaFileAlt className="text-5xl text-[#10B981]" />,
-      title: "Document Management",
-      description: "Creating centralized repositories for compliance documents and audit trails."
+      title: "Document & Policy Management Solutions",
+      description: "We develop centralized platforms for managing policies, procedures, and compliance records efficiently."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
-      title: "Audit Management",
-      description: "Implementing streamlined audit workflows with automated scheduling."
+      title: "Audit & Risk Management Solutions",
+      description: "Our systems automate audit workflows and risk tracking to improve operational efficiency and regulatory adherence."
     }
   ];
 
   const benefits = [
     {
       icon: <FaShieldAlt className="text-5xl text-[#fb9c24]" />,
-      title: "Confidence",
-      description: "Stay compliant with confidence using our comprehensive compliance systems."
+      title: "Improved Confidence",
+      description: "Stay compliant with confidence using automated tools and structured workflows."
     },
     {
       icon: <FaChartBar className="text-5xl text-[#10B981]" />,
-      title: "Reporting",
-      description: "Real-time dashboards and reports for compliance status tracking."
+      title: "Real-Time Reporting",
+      description: "Track compliance performance with live dashboards and instant reporting features."
     },
     {
       icon: <FaLock className="text-5xl text-[#8B5CF6]" />,
-      title: "Security",
-      description: "Robust security measures to protect sensitive compliance data."
+      title: "Enhanced Security",
+      description: "Protect confidential data with robust security systems built using industry best practices and modern Compliance Management Development in India standards."
     }
   ];
 
@@ -94,22 +94,22 @@ function Compliance() {
     {
       icon: <FaUsers className="text-5xl text-[#fb9c24]" />,
       title: "Expert Team",
-      description: "Our team has extensive experience in compliance and regulatory technology solutions."
+      description: "Our team has deep experience in compliance and regulatory technology solutions."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
       title: "Best Practices",
-      description: "We follow industry best practices for compliance technology development."
+      description: "We follow industry standards and proven methodologies for reliable system development."
     },
     {
       icon: <FaClock className="text-5xl text-[#8B5CF6]" />,
       title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      description: "Agile processes ensure timely project completion without compromising quality."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#f87171]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      description: "Every solution undergoes thorough testing to ensure security, performance, and reliability."
     }
   ];
 
@@ -137,12 +137,12 @@ function Compliance() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
             <div data-aos="fade-right">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Compliance<br />
-                Management
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                Compliance Management Solutions – Trusted Development in India
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Stay compliant with confidence using our comprehensive compliance management systems. We help organizations meet regulatory requirements, reduce risks, and maintain audit readiness.
+                BTJ Alpha Technology provides powerful and reliable Compliance Management solutions to help organizations meet regulatory requirements with confidence. Our systems are designed to reduce risks, improve audit readiness, and ensure complete regulatory alignment.
+                <br></br>With strong expertise in Compliance Management Development in India, we build secure and scalable platforms that simplify compliance processes for businesses across industries.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -257,7 +257,7 @@ function Compliance() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Us?
+              Why Choose BTJ Alpha Technology?
             </h2>
           </div>
           <div className="grid md:grid-cols-4 gap-8 container mx-auto px-4">
@@ -283,7 +283,7 @@ function Compliance() {
             Ready to Ensure Compliance?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to build your compliance management platform.
+            Partner with BTJ Alpha Technology for professional and scalable Compliance Management Development in India. We help businesses stay compliant, reduce risks, and maintain complete audit readiness with smart and secure technology solutions.
           </p>
           <button
             onClick={openForm}

@@ -24,51 +24,51 @@ function TravelTourism() {
   const travelFeatures = [
     {
       icon: <FaPlane className="text-5xl text-[#fb9c24]" />,
-      title: "Booking Systems",
-      description: "Integrated booking platforms for flights, hotels, and tour packages with real-time availability."
+      title: "Advanced Booking Systems",
+      description: "Our systems provide real-time availability, secure payment integration, and seamless user experience. With professional Travel & Tourism Development in India, you can manage bookings efficiently and reduce operational errors."
     },
     {
       icon: <FaHotel className="text-5xl text-[#10B981]" />,
-      title: "Hotel Management",
-      description: "Property management systems with reservations, check-in/out, and room allocation."
+      title: "Hotel Management Software",
+      description: "Our hotel management solutions are designed to improve efficiency and enhance guest satisfaction."
     },
     {
       icon: <FaMapMarkedAlt className="text-5xl text-[#8B5CF6]" />,
-      title: "Itinerary Planning",
-      description: "Smart itinerary builders with destination guides, activities, and customized travel plans."
+      title: "Smart Itinerary Planning",
+      description: "Our expertise in Travel & Tourism Development in India ensures smooth itinerary creation and better travel planning for customers."
     },
     {
       icon: <FaTicketAlt className="text-5xl text-[#06b6d4]" />,
-      title: "Online Travel Portals",
-      description: "Complete OTA platforms with search, compare, booking, and payment integration."
+      title: "Online Travel Portals (OTA Platforms)",
+      description: "These platforms help businesses attract more users and boost conversions."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#f87171]" />,
-      title: "Travel Mobile Apps",
-      description: "iOS and Android apps for bookings, trip management, and travel assistance."
+      title: "Travel Mobile Applications",
+      description: "Mobile-focused Travel & Tourism Development in India ensures convenience and accessibility for travelers on the go."
     },
     {
       icon: <FaStar className="text-5xl text-[#fbbf24]" />,
-      title: "Reviews & Ratings",
-      description: "User-generated reviews, ratings, and recommendations for destinations and services."
+      title: "Reviews & Ratings Integration",
+      description: "Enable user-generated reviews and ratings to build trust and support informed decision-making."
     }
   ];
 
   const travelServices = [
     {
       icon: <FaPlane className="text-5xl text-[#fb9c24]" />,
-      title: "Travel Booking Systems",
-      description: "Transform travel experiences with our digital platforms. We build booking systems, travel portals, hotel management software, and mobile apps for the tourism industry."
+      title: "Travel Booking System Development",
+      description: "We create custom booking engines tailored for travel agencies and tour operators."
     },
     {
       icon: <FaMapMarkedAlt className="text-5xl text-[#10B981]" />,
-      title: "Itinerary Planning",
-      description: "Creating customized travel itineraries with destination guides and activity planning."
+      title: "Itinerary Platform Development",
+      description: "Build automated itinerary systems with destination insights and personalized recommendations."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#8B5CF6]" />,
-      title: "Mobile Travel Apps",
-      description: "Developing mobile applications for travel bookings and trip management."
+      title: "Mobile Travel App Development",
+      description: "Our team delivers secure and high-performance travel apps for seamless trip management."
     }
   ];
 
@@ -76,40 +76,40 @@ function TravelTourism() {
     {
       icon: <FaPlane className="text-5xl text-[#fb9c24]" />,
       title: "Convenience",
-      description: "Easy booking and management of travel arrangements in one place."
+      description: "Customers can search, compare, and book travel services easily in one place."
     },
     {
       icon: <FaMapMarkedAlt className="text-5xl text-[#10B981]" />,
-      title: "Planning",
-      description: "Smart itinerary planning with destination guides and recommendations."
+      title: "Better Planning",
+      description: "Smart itinerary tools help travelers organize trips effectively."
     },
     {
       icon: <FaStar className="text-5xl text-[#8B5CF6]" />,
-      title: "Reviews",
-      description: "Access to user-generated reviews and ratings for informed decisions."
+      title: "Improved Customer Experience",
+      description: "Real-time updates, reviews, and easy booking systems enhance trust and satisfaction."
     }
   ];
 
   const whyChooseUs = [
     {
       icon: <FaUsers className="text-5xl text-[#fb9c24]" />,
-      title: "Expert Team",
-      description: "Our team has extensive experience in travel and tourism technology solutions."
+      title: "Experienced Team",
+      description: "Our developers have strong expertise in travel and tourism technology."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Best Practices",
-      description: "We follow industry best practices for travel technology development."
+      title: "Industry Best Practices",
+      description: "We follow modern development standards to build reliable platforms."
     },
     {
       icon: <FaClock className="text-5xl text-[#8B5CF6]" />,
       title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      description: "Agile development methods ensure projects are completed on schedule."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#f87171]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      description: "We conduct comprehensive testing to deliver smooth and secure systems."
     }
   ];
 
@@ -137,12 +137,12 @@ function TravelTourism() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
             <div data-aos="fade-right">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Travel &<br />
-                Tourism
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                Travel & Tourism Solutions – Expert Development in India
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Transform travel experiences with our digital platforms. We build booking systems, travel portals, hotel management software, and mobile apps for the tourism industry.
+                Transform travel experiences with powerful digital platforms built for the modern tourism industry. We specialize in Travel & Tourism Development in India, delivering smart booking systems, hotel management software, itinerary planning tools, and mobile travel apps.
+                <br></br>Our solutions help travel agencies, tour operators, and hospitality businesses streamline operations, improve customer experience, and increase revenue. If you are looking for reliable and cost-effective Travel & Tourism Development in India, our expert team is ready to build scalable and secure platforms tailored to your needs.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -197,7 +197,7 @@ function TravelTourism() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Key Features of Travel & Tourism
+              Key Features of Our Travel & Tourism Solutions
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -217,7 +217,7 @@ function TravelTourism() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our Travel & Tourism Services
+              Our Travel & Tourism Services in India
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -257,7 +257,7 @@ function TravelTourism() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Us?
+              Why Choose Us for Travel & Tourism Development in India?
             </h2>
           </div>
           <div className="grid md:grid-cols-4 gap-8 container mx-auto px-4">
@@ -283,7 +283,7 @@ function TravelTourism() {
             Ready to Transform Travel Experiences?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to enhance your travel and tourism offerings.
+            Partner with us for innovative and scalable Travel & Tourism Development in India solutions that drive growth and improve customer engagement.
           </p>
           <button
             onClick={openForm}

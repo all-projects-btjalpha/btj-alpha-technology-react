@@ -25,68 +25,68 @@ function Marketplace() {
     {
       icon: <FaShoppingCart className="text-5xl text-[#fb9c24]" />,
       title: "Multi-Vendor Platforms",
-      description: "Build marketplaces connecting multiple sellers with buyers on a single platform."
+      description: "Build a dynamic platform where multiple sellers can register, list products, and manage their stores easily."
     },
     {
       icon: <FaStore className="text-5xl text-[#10B981]" />,
       title: "Vendor Management",
-      description: "Complete vendor onboarding, inventory management, and commission systems."
+      description: "Complete vendor onboarding, product management, commission setup, and performance tracking tools."
     },
     {
       icon: <FaCreditCard className="text-5xl text-[#8B5CF6]" />,
       title: "Payment Integration",
-      description: "Secure payment gateways with escrow, split payments, and multi-currency support."
+      description: "Secure payment gateway integration with escrow systems, split payments, and multi-currency support."
     },
     {
       icon: <FaSearch className="text-5xl text-[#06b6d4]" />,
       title: "Advanced Search & Filters",
-      description: "Powerful search functionality with filters, categories, and personalized recommendations."
+      description: "Smart search functionality with categories, filters, and personalized recommendations for better discovery."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#f87171]" />,
       title: "Trust & Safety",
-      description: "Review systems, seller verification, and fraud prevention mechanisms."
+      description: "Seller verification, ratings, reviews, and fraud prevention systems to build customer confidence."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#fbbf24]" />,
-      title: "Seller Analytics",
-      description: "Comprehensive dashboards for sellers to track sales, orders, and performance."
+      title: "Seller Analytics Dashboard",
+      description: "Comprehensive dashboards for vendors to track sales, orders, revenue, and performance insights."
     }
   ];
 
   const marketplaceServices = [
     {
       icon: <FaShoppingCart className="text-5xl text-[#fb9c24]" />,
-      title: "Marketplace Solutions",
-      description: "Launch your multi-vendor marketplace with our robust e-commerce platforms. We build scalable marketplaces like Amazon, Etsy, and Airbnb that connect buyers and sellers seamlessly."
+      title: "Marketplace Platform Development",
+      description: "We design and develop scalable online marketplaces tailored to your industry and business model."
     },
     {
       icon: <FaStore className="text-5xl text-[#10B981]" />,
-      title: "Vendor Management",
-      description: "Creating comprehensive vendor onboarding and management systems."
+      title: "Vendor Management System",
+      description: "Advanced systems to manage sellers, commissions, payouts, and product approvals efficiently."
     },
     {
       icon: <FaCreditCard className="text-5xl text-[#8B5CF6]" />,
-      title: "Payment Systems",
-      description: "Implementing secure payment gateways with multi-currency support."
+      title: "Payment System Integration",
+      description: "Implementation of secure and reliable payment gateways with multi-currency and automated settlement features under our Custom Multi-Vendor Marketplace Development Services in India."
     }
   ];
 
   const benefits = [
     {
       icon: <FaShoppingCart className="text-5xl text-[#fb9c24]" />,
-      title: "Scale",
-      description: "Connect multiple sellers and buyers on a single platform for growth."
+      title: "Scale Your Business",
+      description: "Connect multiple vendors and customers on a single platform to expand market reach."
     },
     {
       icon: <FaSearch className="text-5xl text-[#10B981]" />,
-      title: "Discovery",
-      description: "Help users discover products and services through advanced search features."
+      title: "Improved Product Discovery",
+      description: "Advanced search and filtering features help users find products quickly."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#8B5CF6]" />,
-      title: "Analytics",
-      description: "Gain insights into marketplace performance and user behavior."
+      title: "Real-Time Analytics",
+      description: "Gain insights into sales performance, user behavior, and revenue trends."
     }
   ];
 
@@ -94,22 +94,22 @@ function Marketplace() {
     {
       icon: <FaUsers className="text-5xl text-[#fb9c24]" />,
       title: "Expert Team",
-      description: "Our team has extensive experience in marketplace and e-commerce technology solutions."
+      description: "Our experienced developers specialize in marketplace and e-commerce technologies."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
       title: "Best Practices",
-      description: "We follow industry best practices for marketplace development."
+      description: "We follow modern development standards to ensure secure and scalable systems."
     },
     {
       icon: <FaClock className="text-5xl text-[#8B5CF6]" />,
       title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      description: "Agile development process ensures timely project completion."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#f87171]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      description: "Comprehensive testing ensures smooth functionality and high performance."
     }
   ];
 
@@ -138,11 +138,13 @@ function Marketplace() {
             {/* Left Content */}
             <div data-aos="fade-right">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Marketplace<br />
-                Solutions
+                Marketplace Solutions
               </h1>
+              <h4 className="text-2xl md:text-3xl lg:text-3xl font-semibold text-gray-900 mb-6 leading-tight">Launch Your Scalable Multi-Vendor Platform</h4>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Launch your multi-vendor marketplace with our robust e-commerce platforms. We build scalable marketplaces like Amazon, Etsy, and Airbnb that connect buyers and sellers seamlessly.
+                At BTJ Alpha Technology, we provide Custom Multi-Vendor Marketplace Development Services in India to help businesses launch powerful e-commerce platforms. We build scalable marketplaces similar to Amazon, Etsy, and Airbnb that seamlessly connect buyers and sellers on a single platform.
+                <br></br>Our solutions are secure, flexible, and designed for high performance, ensuring smooth user experience and business growth.
+
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -283,7 +285,7 @@ function Marketplace() {
             Ready to Launch Your Marketplace?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to build your scalable marketplace platform.
+            Partner with BTJ Alpha Technology for reliable Custom Multi-Vendor Marketplace Development Services in India and build a scalable marketplace platform that drives revenue and growth.
           </p>
           <button
             onClick={openForm}

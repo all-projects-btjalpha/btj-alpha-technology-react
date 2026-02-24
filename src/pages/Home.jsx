@@ -8,6 +8,7 @@ import step from "../assets/images/Home-page/step.webp";
 import agency from "../assets/images/Home-page/agency.webp";
 import { GoArrowRight } from "react-icons/go";
 import about_team from "/WEBSITE_WORK.jpg";
+import { FaTimes } from "react-icons/fa";
 import icon1 from "../assets/images/Home-page/14.webp";
 import icon2 from "../assets/images/Home-page/19.webp";
 import icon4 from "../assets/images/Home-page/22.webp";
@@ -30,6 +31,7 @@ import { FaUsers, FaClock, FaCheckCircle, FaLightbulb, FaCalendarCheck, FaDollar
 function Home() {
   const [hoveredId, setHoveredId] = useState(null);
   const [expandedAccordion, setExpandedAccordion] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
   
   // Counter Animation State
   const [isCounterVisible, setIsCounterVisible] = useState(false);
@@ -168,6 +170,14 @@ function Home() {
 
   const toggleAccordion = (index) => {
     setExpandedAccordion(expandedAccordion === index ? null : index);
+  };
+
+  const openForm = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeForm = () => {
+    setIsModalOpen(false);
   };
 
   const [activeTab, setActiveTab] = useState("SEO");
@@ -527,51 +537,128 @@ function Home() {
 
               {/* Main Heading */}
               <h1 className="text-[3.5rem] font-black mb-6 max-lg:text-[3rem] max-md:text-[2.5rem] text-gray-900 leading-tight">
-                Areas of <span className="text-transparent bg-gradient-to-r from-[#fb9c24] to-orange-600 bg-clip-text">Expertise</span>
+                Your Trusted Partner for<br></br> <span className="text-transparent bg-gradient-to-r from-[#fb9c24] to-orange-600 bg-clip-text">IT Development</span> & <span className="text-transparent bg-gradient-to-r from-[#fb9c24] to-orange-600 bg-clip-text">Digital Services</span>
               </h1>
 
-              {/* Subtitle with Icon */}
-              <div className="flex items-center justify-center gap-3 mb-6 max-md:flex-wrap max-md:px-4">
-                <div className="flex items-center gap-2 bg-white px-6 py-3 rounded-full shadow-lg">
-                  <svg className="w-5 h-5 text-[#fb9c24]" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                  </svg>
-                  <span className="text-[1.25rem] font-bold text-gray-800 max-md:text-[1.1rem]">#1 Affordable</span>
-                </div>
-                <span className="text-[1.5rem] font-bold text-transparent bg-gradient-to-r from-[#fb9c24] to-orange-600 bg-clip-text max-md:text-[1.3rem] max-md:px-2">
-                  Digital Marketing services In India
-                </span>
-                <div className="bg-gradient-to-r from-[#fb9c24] to-orange-600 text-white px-5 py-2 rounded-full font-semibold shadow-lg text-[1rem] max-md:text-[0.9rem]">
-                  An Extended Team
-                </div>
-              </div>
+               <p className="text-[1.15rem] text-gray-700 leading-relaxed max-md:text-[1rem] text-center mb-6">
+                    We provide complete Digital Solutions to help businesses grow online, improve efficiency, and increase revenue. From website and software development to digital marketing and branding — we build powerful digital experiences that deliver real results.
+                  </p>
+                  
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
+                {/* Part 1: IT Development Card */}
+                <div data-aos="fade-right" data-aos-duration="800" className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-lg border border-gray-100 max-md:p-6">
+                  <h2 className="text-[2rem] font-bold text-center mb-4 text-[#fb9c24] max-md:text-[1.5rem]">IT Development Services</h2>
+                  <p className="text-[1.15rem] text-gray-700 leading-relaxed max-md:text-[1rem] text-center mb-6">
+                    We offer cutting-edge software development services to build robust, scalable, and innovative technology solutions.
+                  </p>
+                  <div className="space-y-4">
+                    {/* IT Development Sub-Cards */}
+                    <div className="group flex items-start gap-4 p-4 rounded-2xl bg-blue-50 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-transparent hover:border-[#fb9c24] cursor-pointer" onClick={() => window.location.href="/website-design-services-in-india"}>
+                      <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-br from-[#fb9c24] to-[#e88a15] flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                        <img
+                          src={web}
+                          alt="Website Design & Development"
+                          className="h-6 w-6 filter brightness-0 invert"
+                        />
+                      </div>
+                      <div className="flex-1">
+                        <h3 className="text-[1.05rem] font-bold text-gray-900 mb-1 group-hover:text-[#fb9c24] transition-colors duration-300">
+                          Website Design & Development
+                        </h3>
+                        <p className="text-gray-600 text-sm">
+                          We create fast, secure, and mobile-friendly websites that convert visitors into customers.
+                        </p>
+                      </div>
+                    </div>
 
-              {/* Description */}
-              <div className="max-w-4xl mx-auto bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-lg border border-gray-100 max-md:p-6">
-                <p className="text-[1.15rem] text-gray-700 leading-relaxed max-md:text-[1rem]">
-                  <span className="font-bold text-gray-900">BTJ ALPHA TECHNOLOGY PVT LTD</span> is recognized as a reliable IT services company in India.{" "}
-                  <span className="font-semibold text-[#fb9c24]">We help businesses adapt and grow </span> in an ever-changing digital world by offering high-performing, scalable, and cost-effective technology solutions.{" "}
-                  <span className="font-semibold text-[#fb9c24]">Our services include </span>, cheap{" "}
-                  <span className="font-semibold text-gray-900">web development, mobile app development, SEO services, social media marketing, and bulk SMS marketing</span> solutions.
-                </p>
-                
-                {/* Feature Tags */}
-                <div className="flex flex-wrap justify-center gap-3 mt-6">
-                  <span className="px-4 py-2 bg-gradient-to-r from-blue-500/10 to-blue-600/10 text-blue-700 rounded-full text-[0.9rem] font-medium border border-blue-200">
-                    🎨 Web Design
-                  </span>
-                  <span className="px-4 py-2 bg-gradient-to-r from-green-500/10 to-green-600/10 text-green-700 rounded-full text-[0.9rem] font-medium border border-green-200">
-                    💻 Development
-                  </span>
-                  <span className="px-4 py-2 bg-gradient-to-r from-purple-500/10 to-purple-600/10 text-purple-700 rounded-full text-[0.9rem] font-medium border border-purple-200">
-                    📱 App Development
-                  </span>
-                  <span className="px-4 py-2 bg-gradient-to-r from-orange-500/10 to-orange-600/10 text-orange-700 rounded-full text-[0.9rem] font-medium border border-orange-200">
-                    🚀 SEO Services
-                  </span>
-                  <span className="px-4 py-2 bg-gradient-to-r from-pink-500/10 to-pink-600/10 text-pink-700 rounded-full text-[0.9rem] font-medium border border-pink-200">
-                    📊 SMM Services
-                  </span>
+                    <div className="group flex items-start gap-4 p-4 rounded-2xl bg-blue-50 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-transparent hover:border-[#fb9c24] cursor-pointer" onClick={() => window.location.href="/website-development"}>
+                      <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-br from-[#fb9c24] to-[#e88a15] flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                        <img
+                          src={programming}
+                          alt="Software & IT Development"
+                          className="h-6 w-6 filter brightness-0 invert"
+                        />
+                      </div>
+                      <div className="flex-1">
+                        <h3 className="text-[1.05rem] font-bold text-gray-900 mb-1 group-hover:text-[#fb9c24] transition-colors duration-300">
+                          Software & IT Development
+                        </h3>
+                        <p className="text-gray-600 text-sm">
+                          We build scalable and customized software solutions for your business needs.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="group flex items-start gap-4 p-4 rounded-2xl bg-blue-50 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-transparent hover:border-[#fb9c24] cursor-pointer" onClick={() => window.location.href="/mobile-app-development-company-in-india"}>
+                      <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-br from-[#fb9c24] to-[#e88a15] flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                        <img
+                          src={settings}
+                          alt="Mobile App Development"
+                          className="h-6 w-6 filter brightness-0 invert"
+                        />
+                      </div>
+                      <div className="flex-1">
+                        <h3 className="text-[1.05rem] font-bold text-gray-900 mb-1 group-hover:text-[#fb9c24] transition-colors duration-300">
+                          Mobile App Development
+                        </h3>
+                        <p className="text-gray-600 text-sm">
+                          We develop powerful mobile applications that provide seamless user experiences.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Part 2: Digital Services Card */}
+                <div data-aos="fade-left" data-aos-duration="800" className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-lg border border-gray-100 max-md:p-6">
+                  <h2 className="text-[2rem] font-bold text-center mb-4 text-[#fb9c24] max-md:text-[1.5rem]">Digital Services</h2>
+                  <p className="text-[1.15rem] text-gray-700 leading-relaxed max-md:text-[1rem] text-center mb-6">
+                    We provide comprehensive digital marketing solutions to boost your online presence and drive business growth.
+                  </p>
+                  <div className="space-y-4">
+                    {/* Digital Services Sub-Cards */}
+                    <div className="group flex items-start gap-4 p-4 rounded-2xl bg-blue-50 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-transparent hover:border-[#fb9c24] cursor-pointer" onClick={() => window.location.href="/social-media-marketing-company-in-india"}>
+                      <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-br from-[#fb9c24] to-[#e88a15] flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                        <img src={icon2} alt="Digital Marketing" className="w-6 h-6 filter brightness-0 invert" />
+                      </div>
+                      <div className="flex-1">
+                        <h3 className="text-[1.05rem] font-bold text-gray-900 mb-1 group-hover:text-[#fb9c24] transition-colors duration-300">
+                          Digital Marketing Services
+                        </h3>
+                        <p className="text-gray-600 text-sm">
+                          Grow your brand and generate leads with result-driven digital marketing strategies.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="group flex items-start gap-4 p-4 rounded-2xl bg-blue-50 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-transparent hover:border-[#fb9c24] cursor-pointer" onClick={() => window.location.href="/search-engine-optimization"}>
+                      <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-br from-[#fb9c24] to-[#e88a15] flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                        <img src={icon1} alt="SEO" className="w-6 h-6 filter brightness-0 invert" />
+                      </div>
+                      <div className="flex-1">
+                        <h3 className="text-[1.05rem] font-bold text-gray-900 mb-1 group-hover:text-[#fb9c24] transition-colors duration-300">
+                          SEO & SEM Services
+                        </h3>
+                        <p className="text-gray-600 text-sm">
+                          Search engine optimization and marketing strategies to boost organic visibility.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="group flex items-start gap-4 p-4 rounded-2xl bg-blue-50 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-transparent hover:border-[#fb9c24] cursor-pointer" onClick={() => window.location.href="/social-media-marketing-company-in-india"}>
+                      <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-br from-[#fb9c24] to-[#e88a15] flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                        <img src={icon4} alt="Social Media" className="w-6 h-6 filter brightness-0 invert" />
+                      </div>
+                      <div className="flex-1">
+                        <h3 className="text-[1.05rem] font-bold text-gray-900 mb-1 group-hover:text-[#fb9c24] transition-colors duration-300">
+                          Social Media Marketing
+                        </h3>
+                        <p className="text-gray-600 text-sm">
+                          Strategic social media campaigns to build brand awareness and engage audiences.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -604,7 +691,7 @@ function Home() {
                   <p className="text-[1rem] max-md:text-[0.9rem] leading-relaxed mb-6">
                     Boost your brand awareness and engagement across platforms like Facebook, Instagram, LinkedIn, and YouTube with result-driven social campaigns.
                   </p>
-                  <Link to="/social-media-marketing">
+                  <Link to="/social-media-marketing-company-in-india">
                     <button className="px-6 py-3 bg-[#fb9c24] hover:bg-[#e88a15] text-white font-bold rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center gap-2">
                       Learn More <GoArrowRight className="text-xl" />
                     </button>
@@ -709,7 +796,7 @@ function Home() {
                   <p className="text-[1rem] max-md:text-[0.9rem] leading-relaxed mb-6">
                     Innovative Android and iOS mobile applications designed to enhance user experience and maximize business reach.
                   </p>
-                  <Link to="/mobile-app-development">
+                  <Link to="/mobile-app-development-company-in-india">
                     <button className="px-6 py-3 bg-[#fb9c24] hover:bg-[#e88a15] text-white font-bold rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center gap-2">
                       Learn More <GoArrowRight className="text-xl" />
                     </button>
@@ -744,7 +831,7 @@ function Home() {
                   <p className="text-[1rem] max-md:text-[0.9rem] leading-relaxed mb-6">
                     Creative, responsive, and conversion-focused website designs that strengthen your digital identity.
                   </p>
-                  <Link to="/website-designing">
+                  <Link to="/website-design-services-in-india">
                     <button className="px-6 py-3 bg-[#fb9c24] hover:bg-[#e88a15] text-white font-bold rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center gap-2">
                       Learn More <GoArrowRight className="text-xl" />
                     </button>
@@ -752,11 +839,11 @@ function Home() {
                 </div>
               </div>
 
-              {/* Card 6 - Bulk SMS */}
+              {/* Card 6 - Digital Marketing Services */}
               <div className="group relative overflow-hidden rounded-[32px] h-[400px] max-md:h-[350px] cursor-pointer transition-all duration-500 shadow-xl hover:shadow-2xl">
                 <img
-                  src="/bulksms/banner.webp"
-                  alt="Bulk SMS"
+                  src="/dg.jpg"
+                  alt="Digital Marketing Services"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/60 to-transparent group-hover:from-black/95 group-hover:via-black/80 transition-all duration-500"></div>
@@ -764,22 +851,22 @@ function Home() {
                 {/* Default Content */}
                 <div className="absolute bottom-0 left-0 right-0 p-6 text-white opacity-100 group-hover:opacity-0 transition-opacity duration-500">
                   <h3 className="text-[1.5rem] max-md:text-[1.3rem] font-bold mb-2">
-                    Bulk SMS
+                    Digital Marketing Services
                   </h3>
                   <p className="text-[0.95rem] leading-relaxed">
-                    Reach thousands with instant SMS marketing campaigns
+                    Comprehensive digital marketing solutions to boost your online presence
                   </p>
                 </div>
 
                 {/* Expanded Content */}
                 <div className="absolute bottom-0 left-0 right-0 p-6 text-white bg-gradient-to-t from-black/95 via-black/90 to-transparent transform translate-y-full group-hover:translate-y-0 transition-all duration-700 ease-in-out">
                   <h3 className="text-[1.8rem] max-md:text-[1.5rem] font-bold mb-4 text-[#fb9c24]">
-                    Bulk SMS
+                    Digital Marketing Services
                   </h3>
                   <p className="text-[1rem] max-md:text-[0.9rem] leading-relaxed mb-6">
-                    Reach thousands of customers instantly with reliable and high-delivery bulk SMS marketing solutions.
+                    Grow your brand and generate leads with result-driven digital marketing strategies.
                   </p>
-                  <Link to="/bulk-sms">
+                  <Link to="/digital-marketing">
                     <button className="px-6 py-3 bg-[#fb9c24] hover:bg-[#e88a15] text-white font-bold rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center gap-2">
                       Learn More <GoArrowRight className="text-xl" />
                     </button>
@@ -792,21 +879,50 @@ function Home() {
 
         {/* Why Choose Us Section End here */}
 
+
+        {/* Software Product Vision CTA */}
+      <section className="py-16 px-4 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] relative overflow-hidden">
+        <div className="absolute inset-0 opacity-20">
+          <div className="absolute top-0 left-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>
+          <div className="absolute bottom-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>
+        </div>
+        <div className="container mx-auto relative z-10">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-8">
+            <div className="text-white max-w-xl" data-aos="fade-right">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                Have a Software Product Vision in Mind?
+              </h2>
+              <p className="text-white/90 text-lg">
+                Let's bring your ideas to life with our expert product development team.
+              </p>
+            </div>
+            <div data-aos="fade-left">
+              <button
+                onClick={openForm}
+                className="bg-white text-[#fb9c24] hover:bg-gray-100 font-bold py-4 px-10 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg text-lg"
+              >
+                Connect with Us
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
         {/* Why Choose Us Accordion Section Start here */}
 
         <div className="py-20 px-6 bg-gradient-to-b from-white to-gray-50 max-md:py-12">
           <div className="max-w-7xl mx-auto">
             {/* Centered Header - Same as Areas of Expertise */}
             <div className="text-center mb-12 max-md:mb-8">
-              <h1 className="text-[3rem] font-bold mb-4 max-md:text-[2.5rem] text-gray-900">
+              {/* <h1 className="text-[3rem] font-bold mb-4 max-md:text-[2.5rem] text-gray-900">
                 Why Choose Us
-              </h1>
-              <p className="text-[1.5rem] max-md:text-[1.3rem] max-md:px-1 font-medium mb-4">
+              </h1> */}
+              <p className="text-[2.5rem] max-md:text-[2.0rem] max-md:px-1 font-medium mb-4">
                 Why Choose <span className="text-[#fb9c24] font-bold">BTJ Alpha Technology Pvt Ltd?</span>
               </p>
               <div className="max-w-4xl mx-auto">
                 <p className="text-[1.1rem] max-md:text-[1rem] text-gray-700 leading-relaxed mb-2">
-                  We are committed to delivering excellence in every project.
+                  At BTJ Alpha Technology, we believe technology should make your business stronger, faster, and more profitable. We don’t just deliver services — we deliver solutions that help you grow.
                 </p>
                 <p className="text-[1.1rem] max-md:text-[1rem] text-gray-700 leading-relaxed">
                   Here’s what sets us apart:
@@ -1144,6 +1260,35 @@ With over a decade of industry expertise, we help businesses adapt, innovate, an
 
                 {/* Service Cards */}
                 <div className="space-y-4">
+{/* card1 */}
+                  <div className="group flex items-start gap-4 p-5 max-md:p-4 rounded-2xl bg-blue-50 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-transparent hover:border-[#fb9c24]">
+                    <div className="flex-shrink-0 w-14 h-14 max-md:w-12 max-md:h-12 rounded-xl bg-gradient-to-br from-[#fb9c24] to-[#e88a15] flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                      <img src={icon4} alt="Web Development" className="w-8 h-8 max-md:w-7 max-md:h-7 filter brightness-0 invert" />
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-[1.15rem] max-md:text-[1.05rem] font-bold text-gray-900 mb-2 group-hover:text-[#fb9c24] transition-colors duration-300">
+                        Web Development Services
+                      </h3>
+                      <p className="text-gray-600 leading-relaxed text-[0.9rem]">
+                        As a trusted website development company, we build secure, scalable, and performance-optimized web applications tailored
+                         to your business objectives.
+                      </p>
+                    </div>
+                  </div>
+{/* card2 */}
+                  <div className="group flex items-start gap-4 p-5 max-md:p-4 rounded-2xl bg-blue-50 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-transparent hover:border-[#fb9c24]">
+                    <div className="flex-shrink-0 w-14 h-14 max-md:w-12 max-md:h-12 rounded-xl bg-gradient-to-br from-[#fb9c24] to-[#e88a15] flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                      <img src={icon1} alt="Web Designing" className="w-8 h-8 max-md:w-7 max-md:h-7 filter brightness-0 invert" />
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-[1.15rem] max-md:text-[1.05rem] font-bold text-gray-900 mb-2 group-hover:text-[#fb9c24] transition-colors duration-300">
+                        Mobile App Development
+                      </h3>
+                      <p className="text-gray-600 leading-relaxed text-[0.9rem]">
+                       Innovative Android and iOS mobile applications designed to enhance user experience and maximize business reach.
+                      </p>
+                    </div>
+                  </div>
                   {/* Card 1 */}
                   <div className="group flex items-start gap-4 p-5 max-md:p-4 rounded-2xl bg-blue-50 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-transparent hover:border-[#fb9c24]">
                     <div className="flex-shrink-0 w-14 h-14 max-md:w-12 max-md:h-12 rounded-xl bg-gradient-to-br from-[#fb9c24] to-[#e88a15] flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
@@ -1165,7 +1310,7 @@ With over a decade of industry expertise, we help businesses adapt, innovate, an
                   </div>
 
                   {/* Card 2 */}
-                  <div className="group flex items-start gap-4 p-5 max-md:p-4 rounded-2xl bg-blue-50 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-transparent hover:border-[#fb9c24]">
+                  {/* <div className="group flex items-start gap-4 p-5 max-md:p-4 rounded-2xl bg-blue-50 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-transparent hover:border-[#fb9c24]">
                     <div className="flex-shrink-0 w-14 h-14 max-md:w-12 max-md:h-12 rounded-xl bg-gradient-to-br from-[#fb9c24] to-[#e88a15] flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                       <img src={icon1} alt="Web Designing" className="w-8 h-8 max-md:w-7 max-md:h-7 filter brightness-0 invert" />
                     </div>
@@ -1177,10 +1322,10 @@ With over a decade of industry expertise, we help businesses adapt, innovate, an
                         We create visually appealing, user-friendly, and conversion-driven website designs that enhance your brand presence and deliver seamless user experiences.
                       </p>
                     </div>
-                  </div>
+                  </div> */}
 
                   {/* Card 3 */}
-                  <div className="group flex items-start gap-4 p-5 max-md:p-4 rounded-2xl bg-blue-50 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-transparent hover:border-[#fb9c24]">
+                  {/* <div className="group flex items-start gap-4 p-5 max-md:p-4 rounded-2xl bg-blue-50 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-transparent hover:border-[#fb9c24]">
                     <div className="flex-shrink-0 w-14 h-14 max-md:w-12 max-md:h-12 rounded-xl bg-gradient-to-br from-[#fb9c24] to-[#e88a15] flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                       <img src={icon4} alt="Web Development" className="w-8 h-8 max-md:w-7 max-md:h-7 filter brightness-0 invert" />
                     </div>
@@ -1193,7 +1338,7 @@ With over a decade of industry expertise, we help businesses adapt, innovate, an
                          to your business objectives.
                       </p>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
 
@@ -1261,11 +1406,10 @@ With over a decade of industry expertise, we help businesses adapt, innovate, an
                     />
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 group-hover:text-white mb-3 transition-colors duration-300">
-                    Bulk SMS
+                    Mobile App Development
                   </h3>
                   <p className="text-gray-600 group-hover:text-white/90 text-sm leading-relaxed transition-colors duration-300">
-                    Reliable and fast bulk SMS marketing solutions 
-                    that help businesses reach thousands of customers instantly.
+                    We create high-performance Android and iOS mobile applications that provide seamless user experience and business growth.
                   </p>
                 </div>
 
@@ -1310,11 +1454,10 @@ With over a decade of industry expertise, we help businesses adapt, innovate, an
               <div className="w-full lg:w-[35%] space-y-6">
                 <div className="bg-gradient-to-br from-white to-gray-50 rounded-2xl p-8 max-md:p-6 shadow-xl">
                   <h1 className="text-4xl max-md:text-3xl font-bold text-gray-800 mb-4">
-                    Website Design <span className="text-[#fb9c24]">Services</span>
+                    IT Development <span className="text-[#fb9c24]">Services</span>
                   </h1>
                   <p className="text-gray-600 leading-relaxed text-base">
-                   We design modern, responsive, and mobile-friendly websites 
-                   that reflect your brand identity and maximize conversions.
+                   We provide complete IT development solutions to build powerful, scalable, and user-friendly digital systems for businesses of all sizes.
                   </p>
                 </div>
                 <div className="flex justify-center">
@@ -1609,7 +1752,7 @@ Our SMO Strategy Includes:
                         <span className="text-gray-700 font-medium">Performance Monitoring</span>
                       </div>
                     </div>
-                    <Link to="/social-media-marketing">
+                    <Link to="/social-media-marketing-company-in-india">
                       <button className="group inline-flex items-center px-10 py-5 bg-gradient-to-r from-[#fb9c24] to-[#e88a15] hover:from-[#e88a15] hover:to-[#fb9c24] text-white font-bold rounded-full shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-500 text-[1.15rem]">
                         Learn More 
                         <GoArrowRight className="ml-3 text-2xl group-hover:translate-x-2 transition-transform duration-300" />
@@ -1935,6 +2078,86 @@ Our SMO Strategy Includes:
         </div> */}
 
         {/* Offering Section End here */}
+
+          {/* Software Product Vision CTA */}
+      <section className="py-16 px-4 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] relative overflow-hidden">
+        <div className="absolute inset-0 opacity-20">
+          <div className="absolute top-0 left-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>
+          <div className="absolute bottom-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>
+        </div>
+        <div className="container mx-auto relative z-10">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-8">
+            <div className="text-white max-w-xl" data-aos="fade-right">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                Have a Software Product Vision in Mind?
+              </h2>
+              <p className="text-white/90 text-lg">
+                Let's bring your ideas to life with our expert product development team.
+              </p>
+            </div>
+            <div data-aos="fade-left">
+              <button
+                onClick={openForm}
+                className="bg-white text-[#fb9c24] hover:bg-gray-100 font-bold py-4 px-10 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg text-lg"
+              >
+                Connect with Us
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Popup Modal */}
+      {isModalOpen && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4 max-md:p-2">
+          <div className="relative bg-white rounded-2xl shadow-2xl w-full max-w-4xl max-h-[90vh] overflow-y-auto">
+            <button 
+              onClick={closeForm}
+              className="absolute top-4 right-4 text-gray-500 hover:text-gray-800 z-10 bg-white rounded-full p-2 shadow-md"
+            >
+              <FaTimes className="text-xl" />
+            </button>
+            
+            <div className="flex flex-col md:flex-row gap-8 p-8 max-md:p-6">
+              <div className="md:w-1/2 flex flex-col justify-center">
+                <h2 className="text-3xl max-md:text-2xl font-bold text-gray-900 mb-4">
+                  Get A Free Consultation With Our Marketing Expert
+                </h2>
+                <div className="w-16 h-1 bg-[#fb9c24] rounded-full mb-6"></div>
+                <p className="text-gray-700 leading-relaxed mb-6">
+                  Fill out the form and our marketing expert will get in touch with you shortly to discuss your project requirements.
+                </p>
+                
+                <div className="space-y-4">
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center">
+                      <span className="text-orange-600 font-bold">1</span>
+                    </div>
+                    <p className="text-gray-700">Share your project requirements</p>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center">
+                      <span className="text-orange-600 font-bold">2</span>
+                    </div>
+                    <p className="text-gray-700">Get a free consultation</p>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center">
+                      <span className="text-orange-600 font-bold">3</span>
+                    </div>
+                    <p className="text-gray-700">Receive custom solutions</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="md:w-1/2 bg-white p-8 rounded-2xl shadow-lg">
+                <UserForm />
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+      
       </main>
     </>
   );

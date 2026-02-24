@@ -161,7 +161,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/mobile-app-development"
+                  to="/mobile-app-development-company-in-india"
                   className="text-white/90 hover:text-white hover:translate-x-2 inline-block transition-all duration-300 text-xs sm:text-sm"
                 >
                   → Mobile App
@@ -177,7 +177,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/social-media-marketing"
+                  to="/social-media-marketing-company-in-india"
                   className="text-white/90 hover:text-white hover:translate-x-2 inline-block transition-all duration-300 text-xs sm:text-sm"
                 >
                   → Social Media
@@ -185,7 +185,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/ui-ux-design"
+                  to="/ui-ux-design-company-in-india"
                   className="text-white/90 hover:text-white hover:translate-x-2 inline-block transition-all duration-300 text-xs sm:text-sm"
                 >
                   → UI/UX Design
@@ -211,7 +211,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <Link
-                  to="/technologies/reactjs"
+                  to="/reactjs-development-company-in-india"
                   className="text-white/90 hover:text-white hover:translate-x-2 inline-block transition-all duration-300 text-xs sm:text-sm"
                 >
                   → React.js
@@ -219,7 +219,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/technologies/angular"
+                  to="/angular-development-company-in-india"
                   className="text-white/90 hover:text-white hover:translate-x-2 inline-block transition-all duration-300 text-xs sm:text-sm"
                 >
                   → Angular
@@ -227,7 +227,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/technologies/nodejs"
+                  to="/nodejs-development-company-in-india"
                   className="text-white/90 hover:text-white hover:translate-x-2 inline-block transition-all duration-300 text-xs sm:text-sm"
                 >
                   → Node.js
@@ -251,7 +251,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/technologies/react-native"
+                  to="/react-native-development-company-in-india"
                   className="text-white/90 hover:text-white hover:translate-x-2 inline-block transition-all duration-300 text-xs sm:text-sm"
                 >
                   → React Native
@@ -259,7 +259,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/technologies/flutter"
+                  to="/flutter-development-company-in-india"
                   className="text-white/90 hover:text-white hover:translate-x-2 inline-block transition-all duration-300 text-xs sm:text-sm"
                 >
                   → Flutter
@@ -267,7 +267,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/technologies/mongodb"
+                  to="/mongodb-development-services-company-in-india"
                   className="text-white/90 hover:text-white hover:translate-x-2 inline-block transition-all duration-300 text-xs sm:text-sm"
                 >
                   → MongoDB
@@ -275,7 +275,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/technologies/mysql"
+                  to="/mysql-development-company-in-india"
                   className="text-white/90 hover:text-white hover:translate-x-2 inline-block transition-all duration-300 text-xs sm:text-sm"
                 >
                   → MySQL
@@ -293,7 +293,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <Link
-                  to="/verticals/healthcare"
+                  to="/healthcare-software-development-services"
                   className="text-white/90 hover:text-white hover:translate-x-2 inline-block transition-all duration-300 text-xs sm:text-sm"
                 >
                   → Healthcare
@@ -301,7 +301,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/verticals/fintech"
+                  to="/fintech-solutions-company-in-india"
                   className="text-white/90 hover:text-white hover:translate-x-2 inline-block transition-all duration-300 text-xs sm:text-sm"
                 >
                   → Fintech
@@ -309,7 +309,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/verticals/event-management"
+                  to="/event-management-software-development-company"
                   className="text-white/90 hover:text-white hover:translate-x-2 inline-block transition-all duration-300 text-xs sm:text-sm"
                 >
                   → Event Management
@@ -317,7 +317,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/verticals/marketplace"
+                  to="/marketplace-solutions-company-in-india"
                   className="text-white/90 hover:text-white hover:translate-x-2 inline-block transition-all duration-300 text-xs sm:text-sm"
                 >
                   → Marketplace
@@ -325,7 +325,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/verticals/crm"
+                  to="/custom-crm-development-services"
                   className="text-white/90 hover:text-white hover:translate-x-2 inline-block transition-all duration-300 text-xs sm:text-sm"
                 >
                   → CRM
@@ -333,7 +333,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/verticals/real-estate"
+                  to="/real-estate-software-development-company"
                   className="text-white/90 hover:text-white hover:translate-x-2 inline-block transition-all duration-300 text-xs sm:text-sm"
                 >
                   → Real Estate
@@ -341,7 +341,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/verticals/erp"
+                  to="/erp-software-development-company"
                   className="text-white/90 hover:text-white hover:translate-x-2 inline-block transition-all duration-300 text-xs sm:text-sm"
                 >
                   → ERP
@@ -349,7 +349,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/verticals/ed-tech"
+                  to="/ed-tech-solutions-development-company-in-india"
                   className="text-white/90 hover:text-white hover:translate-x-2 inline-block transition-all duration-300 text-xs sm:text-sm"
                 >
                   → Ed-Tech

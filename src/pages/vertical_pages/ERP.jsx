@@ -25,68 +25,68 @@ function ERP() {
     {
       icon: <FaCogs className="text-5xl text-[#fb9c24]" />,
       title: "Process Automation",
-      description: "Automate business processes across departments to improve efficiency and reduce manual errors."
+      description: "Automate business processes across departments to improve efficiency and reduce manual errors. Our ERP Solutions Development approach streamlines workflows and enhances productivity."
     },
     {
       icon: <FaChartBar className="text-5xl text-[#10B981]" />,
       title: "Business Intelligence",
-      description: "Advanced analytics and reporting tools for data-driven decision making."
+      description: "Advanced analytics and reporting tools help businesses make data-driven decisions with real-time insights."
     },
     {
       icon: <FaBox className="text-5xl text-[#8B5CF6]" />,
       title: "Inventory Management",
-      description: "Real-time inventory tracking with automated reordering and demand forecasting."
+      description: "Track inventory in real time with automated reordering, stock monitoring, and demand forecasting systems built through professional ERP Solutions Development."
     },
     {
       icon: <FaUsers className="text-5xl text-[#06b6d4]" />,
-      title: "Human Resources",
-      description: "Employee management with payroll, benefits administration, and performance tracking."
+      title: " Human Resources Management",
+      description: "Manage payroll, employee records, benefits administration, and performance tracking with integrated HR modules."
     },
     {
       icon: <FaMoneyBillWave className="text-5xl text-[#f87171]" />,
       title: "Financial Management",
-      description: "Complete financial management including accounting, budgeting, and compliance."
+      description: "Complete financial control including accounting, budgeting, reporting, and compliance management."
     },
     {
       icon: <FaWarehouse className="text-5xl text-[#fbbf24]" />,
-      title: "Supply Chain",
-      description: "End-to-end supply chain management with procurement, logistics, and vendor management."
+      title: "Supply Chain Management",
+      description: "End-to-end supply chain management including procurement, logistics, vendor management, and distribution tracking."
     }
   ];
 
   const erpServices = [
     {
       icon: <FaCogs className="text-5xl text-[#fb9c24]" />,
-      title: "ERP Solutions",
-      description: "Transform business operations with our comprehensive ERP platforms. We build integrated systems for finance, HR, supply chain, manufacturing, and customer management to streamline operations and drive growth."
+      title: "Custom ERP Solutions",
+      description: "We design and develop tailored ERP platforms that align with your business structure. Our ERP Solutions Development services focus on flexibility, scalability, and seamless integration."
     },
     {
       icon: <FaChartBar className="text-5xl text-[#10B981]" />,
-      title: "Business Intelligence",
-      description: "Creating advanced analytics and reporting tools for data-driven decisions."
+      title: "Business Intelligence Systems",
+      description: "Create advanced dashboards and reporting tools to support smarter business strategies."
     },
     {
       icon: <FaBox className="text-5xl text-[#8B5CF6]" />,
-      title: "Inventory Management",
-      description: "Developing real-time inventory tracking and automated systems."
+      title: "Inventory & Operations Management",
+      description: "Develop real-time inventory tracking and automated operational systems for better control and efficiency."
     }
   ];
 
   const benefits = [
     {
       icon: <FaCogs className="text-5xl text-[#fb9c24]" />,
-      title: "Efficiency",
-      description: "Streamline business operations with integrated processes and automation."
+      title: "Increased Efficiency",
+      description: "Streamline operations with integrated processes and automation powered by ERP Solutions Development expertise"
     },
     {
       icon: <FaChartBar className="text-5xl text-[#10B981]" />,
-      title: "Insights",
-      description: "Gain valuable business insights through comprehensive analytics."
+      title: "Valuable Business Insights",
+      description: "Gain real-time analytics and comprehensive reports to improve planning and forecasting."
     },
     {
       icon: <FaBalanceScale className="text-5xl text-[#8B5CF6]" />,
-      title: "Integration",
-      description: "Integrate all business functions into a unified platform."
+      title: "Complete Integration",
+      description: "Integrate all business functions into one unified platform to enhance collaboration and productivity."
     }
   ];
 
@@ -94,22 +94,22 @@ function ERP() {
     {
       icon: <FaIndustry className="text-5xl text-[#fb9c24]" />,
       title: "Expert Team",
-      description: "Our team has extensive experience in ERP technology solutions."
+      description: "Our team has extensive experience in enterprise software and ERP Solutions Development."
     },
     {
       icon: <FaChartBar className="text-5xl text-[#10B981]" />,
       title: "Best Practices",
-      description: "We follow industry best practices for ERP development."
+      description: "We follow industry standards and modern development methodologies."
     },
     {
       icon: <FaClock className="text-5xl text-[#8B5CF6]" />,
       title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      description: "Agile development ensures timely project completion."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#f87171]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      description: "Comprehensive testing and best coding practices guarantee secure and reliable ERP systems."
     }
   ];
 
@@ -137,12 +137,12 @@ function ERP() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
             <div data-aos="fade-right">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                ERP<br />
-                Solutions
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                ERP Solutions – Integrated Business Management Systems
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Transform business operations with our comprehensive ERP platforms. We build integrated systems for finance, HR, supply chain, manufacturing, and customer management to streamline operations and drive growth.
+                BTJ Alpha Technology provides powerful ERP Solutions designed to transform business operations with integrated and automated systems. We build comprehensive ERP platforms that connect finance, HR, supply chain, manufacturing, inventory, and customer management into one unified system.
+                <br></br>Our expertise in ERP Solutions Development ensures scalable, secure, and high-performance enterprise software tailored to your business needs.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -257,7 +257,7 @@ function ERP() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Us?
+              Why Choose BTJ Alpha Technology?
             </h2>
           </div>
           <div className="grid md:grid-cols-4 gap-8 container mx-auto px-4">
@@ -283,7 +283,7 @@ function ERP() {
             Ready to Transform Business Operations?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to build your ERP solution.
+            Partner with BTJ Alpha Technology to build a secure and scalable ERP platform for your organization. Our professional ERP Solutions Development services help businesses streamline operations, improve efficiency, and drive long-term growth.
           </p>
           <button
             onClick={openForm}

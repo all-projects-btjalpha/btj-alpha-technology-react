@@ -24,69 +24,69 @@ function EdTech() {
   const edtechFeatures = [
     {
       icon: <FaGraduationCap className="text-5xl text-[#fb9c24]" />,
-      title: "Learning Management Systems",
-      description: "Complete LMS platforms for course creation, student enrollment, and progress tracking."
+      title: "Learning Management Systems (LMS)",
+      description: "Our LMS-focused Ed-Tech Solutions are secure, scalable, and easy to manage."
     },
     {
       icon: <FaBook className="text-5xl text-[#10B981]" />,
       title: "Online Course Platforms",
-      description: "Build and sell online courses with video lessons, quizzes, and assessments."
+      description: "We provide high-quality Ed-Tech development in India to ensure smooth performance and user satisfaction."
     },
     {
       icon: <FaVideo className="text-5xl text-[#8B5CF6]" />,
-      title: "Live Classes",
-      description: "Virtual classroom solutions with video conferencing, screen sharing, and interactive whiteboards."
+      title: "Live Classes & Virtual Classrooms",
+      description: "Our virtual classroom systems are built to support modern hybrid learning environments."
     },
     {
       icon: <FaCertificate className="text-5xl text-[#06b6d4]" />,
-      title: "Certification & Badges",
-      description: "Automated certificate generation and digital badges for course completion."
+      title: "Certification & Digital Badges",
+      description: "Automatically generate course completion certificates and digital badges to enhance learner motivation and credibility."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#f87171]" />,
       title: "Mobile Learning Apps",
-      description: "iOS and Android apps for learning on-the-go with offline content support."
+      description: "We offer mobile-focused Ed-Tech development in India, building iOS and Android apps that allow learners to:&nbsp; Access content anytime, Learn on the go, Download materials offline"
     },
     {
       icon: <FaChartLine className="text-5xl text-[#fbbf24]" />,
-      title: "Student Analytics",
-      description: "Track student performance, engagement, and learning outcomes with detailed analytics."
+      title: "Student Analytics & Reporting",
+      description: "Our analytics-driven Ed-Tech Solutions help institutions improve learning outcomes."
     }
   ];
 
   const edtechServices = [
     {
       icon: <FaGraduationCap className="text-5xl text-[#fb9c24]" />,
-      title: "Ed-Tech Solutions",
-      description: "Revolutionize education with our digital learning platforms. We create engaging e-learning solutions, LMS systems, and educational apps that make learning accessible and effective."
+      title: "Custom Ed-Tech Platform Development",
+      description: "We specialize in Ed-Tech development in India, creating customized platforms tailored to schools, universities, coaching institutes, and enterprises."
     },
     {
       icon: <FaBook className="text-5xl text-[#10B981]" />,
       title: "Course Platform Development",
-      description: "Building comprehensive online course platforms with interactive features."
+      description: "From planning to deployment, we build secure and scalable course platforms with modern features"
     },
     {
       icon: <FaVideo className="text-5xl text-[#8B5CF6]" />,
-      title: "Virtual Classroom Systems",
-      description: "Creating virtual classroom solutions with video conferencing capabilities."
+      title: "Virtual Classroom Development",
+      description: "We design advanced virtual classroom systems for live teaching, corporate training, and remote education."
     }
   ];
 
   const benefits = [
     {
       icon: <FaGraduationCap className="text-5xl text-[#fb9c24]" />,
-      title: "Accessibility",
-      description: "Make education accessible to students anywhere, anytime with digital platforms."
+      title: "Cost-Effective Solutions",
+      description: "India offers high-quality development services at competitive pricing."
     },
     {
       icon: <FaBook className="text-5xl text-[#10B981]" />,
-      title: "Engagement",
-      description: "Enhance student engagement with interactive learning experiences."
+      title: "Skilled Development Team",
+      description: "Our experienced developers understand global education standards and technology trends."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#8B5CF6]" />,
-      title: "Analytics",
-      description: "Gain insights into student performance and learning outcomes."
+      title: "Scalable & Secure Platforms",
+      description: "We build future-ready Ed-Tech Solutions that grow with your institution."
     }
   ];
 
@@ -138,11 +138,11 @@ function EdTech() {
             {/* Left Content */}
             <div data-aos="fade-right">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Ed-Tech<br />
-                Solutions
+                Ed-Tech Solutions
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Revolutionize education with our digital learning platforms. We create engaging e-learning solutions, LMS systems, and educational apps that make learning accessible and effective.
+                Revolutionize digital learning with our advanced Ed-Tech Solutions designed to build powerful, scalable, and user-friendly education platforms. As a trusted provider of Ed-Tech development in India, we create innovative e-learning systems, LMS platforms, and mobile learning apps that make education accessible, engaging, and effective.
+                <br></br>If you are looking for reliable and cost-effective Ed-Tech development in India, our expert team is here to transform your ideas into a high-performing digital learning platform.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -197,7 +197,7 @@ function EdTech() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Key Features of Ed-Tech Solutions
+              Key Features of Our Ed-Tech Solutions
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -217,7 +217,7 @@ function EdTech() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our Ed-Tech Services
+              Our Ed-Tech Services in India
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -237,7 +237,7 @@ function EdTech() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Benefits of Ed-Tech Development
+              Benefits of Choosing Ed-Tech Development in India
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -280,10 +280,10 @@ function EdTech() {
         </div>
         <div className="container mx-auto relative z-10 text-center" data-aos="fade-up">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Ready to Transform Education?
+            Ready to Transform Education with Ed-Tech Development in India?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to enhance your educational technology platform.
+            Partner with us for reliable, innovative, and scalable Ed-Tech Solutions that improve engagement, accessibility, and performance.
           </p>
           <button
             onClick={openForm}

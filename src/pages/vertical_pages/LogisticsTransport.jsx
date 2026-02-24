@@ -24,33 +24,33 @@ function LogisticsTransport() {
   const logisticsFeatures = [
     {
       icon: <FaTruck className="text-5xl text-[#fb9c24]" />,
-      title: "Fleet Management",
-      description: "Real-time fleet tracking, vehicle maintenance scheduling, and driver management."
+      title: "Fleet Management Software Development",
+      description: "We build intelligent fleet tracking systems that help monitor vehicles, manage drivers, schedule maintenance, and reduce downtime."
     },
     {
       icon: <FaMapMarkedAlt className="text-5xl text-[#10B981]" />,
-      title: "GPS Tracking",
-      description: "Live GPS tracking with geofencing, route optimization, and location history."
+      title: "GPS Tracking Software Development",
+      description: "Our real-time GPS tracking systems provide live vehicle tracking, geofencing, route monitoring, and complete trip history for better decision-making."
     },
     {
       icon: <FaWarehouse className="text-5xl text-[#8B5CF6]" />,
-      title: "Warehouse Management",
-      description: "Inventory management, order fulfillment, and warehouse automation systems."
+      title: "Warehouse Management Software Development",
+      description: "We develop warehouse management systems that automate inventory control, order processing, stock tracking, and reporting."
     },
     {
       icon: <FaRoute className="text-5xl text-[#06b6d4]" />,
-      title: "Route Optimization",
-      description: "AI-powered route planning for cost reduction and faster delivery times."
+      title: "Route Optimization System Development",
+      description: "Using AI-based route planning, we create systems that reduce fuel costs, shorten delivery times, and improve operational efficiency."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#f87171]" />,
-      title: "Driver Mobile Apps",
-      description: "Mobile apps for drivers with delivery instructions, navigation, and proof of delivery."
+      title: "Driver Mobile App Development",
+      description: "We develop mobile apps for drivers with navigation, delivery updates, electronic proof of delivery, and communication tools."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#fbbf24]" />,
-      title: "Logistics Analytics",
-      description: "Comprehensive analytics on delivery performance, fuel consumption, and efficiency."
+      title: "Logistics Analytics & Reporting Development",
+      description: "Get advanced dashboards and real-time reporting tools to monitor performance and improve logistics strategies."
     }
   ];
 
@@ -75,41 +75,41 @@ function LogisticsTransport() {
   const benefits = [
     {
       icon: <FaTruck className="text-5xl text-[#fb9c24]" />,
-      title: "Efficiency",
-      description: "Optimize routes and operations for maximum efficiency and cost savings."
+      title: "Increased Operational Efficiency",
+      description: "Automate processes and reduce manual errors with smart logistics systems."
     },
     {
       icon: <FaMapMarkedAlt className="text-5xl text-[#10B981]" />,
-      title: "Tracking",
-      description: "Real-time visibility into your logistics and transportation operations."
+      title: "Real-Time Visibility",
+      description: "Track vehicles, shipments, and inventory from a centralized dashboard."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#8B5CF6]" />,
-      title: "Analytics",
-      description: "Gain insights into performance and optimize your logistics operations."
+      title: "Cost Reduction",
+      description: "Optimize routes, reduce fuel consumption, and improve asset utilization."
     }
   ];
 
   const whyChooseUs = [
     {
       icon: <FaUsers className="text-5xl text-[#fb9c24]" />,
-      title: "Expert Team",
-      description: "Our team has extensive experience in logistics and transport technology solutions."
+      title: "Experienced Development Team",
+      description: "We specialize in logistics and transport technology solutions."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Best Practices",
-      description: "We follow industry best practices for logistics technology development."
+      title: "Industry Best Practices",
+      description: "We follow modern development standards to ensure high performance and security."
     },
     {
       icon: <FaClock className="text-5xl text-[#8B5CF6]" />,
-      title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      title: "On-Time Project Delivery",
+      description: "Agile development process ensures timely completion."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#f87171]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      description: "We thoroughly test every system before deployment."
     }
   ];
 
@@ -138,11 +138,12 @@ function LogisticsTransport() {
             {/* Left Content */}
             <div data-aos="fade-right">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Logistics &<br />
-                Transport
+                Logistics & Transport
               </h1>
+              <h4 className="text-2xl md:text-3xl lg:text-3xl font-semibold text-gray-900 mb-6 leading-tight">Logistics Software Development for Smart Transportation</h4>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Optimize your logistics operations with our smart transportation management systems. We build solutions for fleet tracking, route optimization, warehouse management, and last-mile delivery.
+                We provide professional Logistics Software Development services to help businesses streamline transportation, fleet operations, and warehouse management. Our smart systems are designed to improve delivery speed, reduce operational costs, and increase overall efficiency.
+                <br></br>With our customized Transport Management System Development, businesses can automate workflows, track shipments in real time, and manage fleets with complete visibility. Whether you are a startup or an enterprise, our scalable solutions grow with your logistics needs.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -197,7 +198,7 @@ function LogisticsTransport() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Key Features of Logistics & Transport
+              Key Features of Our Logistics & Transport Solutions
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -217,7 +218,7 @@ function LogisticsTransport() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our Logistics & Transport Services
+              Our Logistics & Transport Development Services
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -237,7 +238,7 @@ function LogisticsTransport() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Benefits of Logistics & Transport Technology
+              Benefits of Our Logistics Technology Development
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -257,7 +258,7 @@ function LogisticsTransport() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Us?
+              Why Choose Us for Logistics Software Development?
             </h2>
           </div>
           <div className="grid md:grid-cols-4 gap-8 container mx-auto px-4">
@@ -280,10 +281,10 @@ function LogisticsTransport() {
         </div>
         <div className="container mx-auto relative z-10 text-center" data-aos="fade-up">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Ready to Optimize Logistics Operations?
+            Ready to Build Your Logistics System?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to enhance your logistics and transport solutions.
+            Partner with us for reliable Transport Management System Development and scalable logistics software solutions.
           </p>
           <button
             onClick={openForm}

@@ -25,50 +25,50 @@ function SaaS() {
     {
       icon: <FaServer className="text-5xl text-[#fb9c24]" />,
       title: "Multi-Tenant Architecture",
-      description: "Scalable SaaS platforms with secure multi-tenant infrastructure and data isolation."
+      description: "We design scalable SaaS platforms that support multiple users and organizations while keeping data completely isolated and secure."
     },
     {
       icon: <FaCloud className="text-5xl text-[#10B981]" />,
-      title: "Cloud Infrastructure",
-      description: "Deploy on AWS, Azure, or GCP with auto-scaling and high availability."
+      title: "Cloud Infrastructure & Deployment",
+      description: "Deploy your SaaS platform on AWS, Azure, or Google Cloud with auto-scaling, load balancing, and performance optimization."
     },
     {
       icon: <FaUsers className="text-5xl text-[#8B5CF6]" />,
-      title: "User Management",
-      description: "Role-based access control, SSO, team collaboration, and user onboarding."
+      title: "User Management & Security",
+      description: "Role-based access control (RBAC), secure authentication, SSO integration, and smooth onboarding processes are built into every SaaS Application Development project."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#06b6d4]" />,
-      title: "Analytics Dashboard",
-      description: "Real-time analytics on user behavior, feature usage, and business metrics."
+      title: "Subscription Billing Integration",
+      description: "Automated recurring billing with Stripe or PayPal integration, multiple pricing plans, invoicing, and payment tracking."
     },
     {
       icon: <FaCreditCard className="text-5xl text-[#f87171]" />,
-      title: "Subscription Billing",
-      description: "Automated billing with Stripe/PayPal integration, multiple plans, and invoicing."
+      title: "API Development & Integration",
+      description: "We build RESTful APIs and webhooks to integrate your SaaS platform with CRMs, ERPs, payment gateways, and third-party services."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fbbf24]" />,
-      title: "API Integration",
-      description: "RESTful APIs and webhooks for third-party integrations and extensibility."
+      title: "Analytics & Reporting Dashboard",
+      description: "Real-time dashboards provide insights into user activity, feature usage, revenue growth, and performance metrics."
     }
   ];
 
   const saasServices = [
     {
       icon: <FaServer className="text-5xl text-[#fb9c24]" />,
-      title: "SaaS Platform Development",
-      description: "Build scalable Software-as-a-Service platforms with our expertise. We create secure, multi-tenant SaaS applications with subscription billing, analytics, and seamless integrations."
+      title: "Custom SaaS Application Development",
+      description: "We build tailored SaaS products based on your business model, target audience, and industry requirements. Our expertise in SaaS Application Development ensures secure architecture and seamless scalability."
     },
     {
       icon: <FaCloud className="text-5xl text-[#10B981]" />,
-      title: "Cloud Deployment",
-      description: "Deploying SaaS applications on cloud platforms with scalability and reliability."
+      title: "Cloud Migration & Modernization",
+      description: "Transform legacy systems into modern SaaS platforms with improved performance and reliability."
     },
     {
       icon: <FaRocket className="text-5xl text-[#8B5CF6]" />,
-      title: "API Development",
-      description: "Creating RESTful APIs and webhooks for third-party integrations."
+      title: "SaaS Product Engineering",
+      description: "From MVP development to full-scale enterprise solutions, we provide complete product engineering support."
     }
   ];
 
@@ -76,17 +76,17 @@ function SaaS() {
     {
       icon: <FaServer className="text-5xl text-[#fb9c24]" />,
       title: "Scalability",
-      description: "Easily scale your application to accommodate growing user bases."
+      description: "Easily scale your application as your user base grows."
     },
     {
       icon: <FaCloud className="text-5xl text-[#10B981]" />,
       title: "Cost Efficiency",
-      description: "Reduce infrastructure costs with cloud-based solutions and pay-per-use models."
+      description: "Reduce infrastructure and maintenance costs with cloud-based solutions."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#8B5CF6]" />,
-      title: "Analytics",
-      description: "Gain insights into user behavior and application performance."
+      title: "Security & Compliance",
+      description: "Protect user data with secure authentication, encryption, and compliance-ready systems built through professional SaaS Application Development."
     }
   ];
 
@@ -94,12 +94,12 @@ function SaaS() {
     {
       icon: <FaUsers className="text-5xl text-[#fb9c24]" />,
       title: "Expert Team",
-      description: "Our team has extensive experience in SaaS development and cloud technologies."
+      description: "Our team has extensive experience in healthcare technology solutions."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
       title: "Best Practices",
-      description: "We follow industry best practices for SaaS architecture and development."
+      description: "We follow industry best practices for healthcare technology development."
     },
     {
       icon: <FaClock className="text-5xl text-[#8B5CF6]" />,
@@ -138,11 +138,12 @@ function SaaS() {
             {/* Left Content */}
             <div data-aos="fade-right">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                SaaS<br />
-                Solutions
+                SaaS Solutions – Scalable & Secure Software Platforms
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Build scalable Software-as-a-Service platforms with our expertise. We create secure, multi-tenant SaaS applications with subscription billing, analytics, and seamless integrations.
+                BTJ Alpha Technology delivers powerful SaaS Solutions designed to help businesses build scalable, cloud-based, and secure software platforms. We specialize in SaaS Application Development, creating multi-tenant systems with subscription billing, advanced analytics, and seamless third-party integrations.
+                <br></br>Our team builds high-performance SaaS platforms that are flexible, secure, and ready to scale as your business grows.
+
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -197,7 +198,7 @@ function SaaS() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Key Features of SaaS Solutions
+              Key Features of Our SaaS Solutions
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -257,7 +258,7 @@ function SaaS() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Us?
+              Why Choose BTJ Alpha Technology?
             </h2>
           </div>
           <div className="grid md:grid-cols-4 gap-8 container mx-auto px-4">
@@ -283,7 +284,7 @@ function SaaS() {
             Ready to Launch Your SaaS?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to build your scalable SaaS platform.
+            Partner with BTJ Alpha Technology for reliable and scalable SaaS Application Development services. We help businesses turn ideas into secure, high-performing SaaS products that drive growth and long-term success.
           </p>
           <button
             onClick={openForm}

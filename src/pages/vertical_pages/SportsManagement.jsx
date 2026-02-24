@@ -25,91 +25,91 @@ function SportsManagement() {
     {
       icon: <FaFootballBall className="text-5xl text-[#fb9c24]" />,
       title: "League Management",
-      description: "Manage sports leagues with team rosters, schedules, standings, and statistics."
+      description: "Our platforms simplify league operations through professional Sports Management Development in India, ensuring smooth coordination and real-time updates."
     },
     {
       icon: <FaUsers className="text-5xl text-[#10B981]" />,
       title: "Team Management",
-      description: "Player profiles, performance tracking, attendance, and communication tools."
+      description: "We create powerful team management systems that help coaches and managers stay organized."
     },
     {
       icon: <FaCalendarAlt className="text-5xl text-[#8B5CF6]" />,
       title: "Event Scheduling",
-      description: "Schedule matches, practices, tournaments with automated notifications and reminders."
+      description: "Our solutions reduce manual work and improve event coordination."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#06b6d4]" />,
       title: "Performance Analytics",
-      description: "Track player statistics, team performance, and game analytics with detailed reports."
+      description: "With data-driven Sports Management Development in India, you gain valuable insights to improve strategies and results."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#f87171]" />,
       title: "Sports Mobile Apps",
-      description: "Mobile apps for players, coaches, and fans with live scores and updates."
+      description: "Mobile-ready platforms enhance accessibility for players, coaches, and fans."
     },
     {
       icon: <FaTrophy className="text-5xl text-[#fbbf24]" />,
       title: "Tournament Management",
-      description: "Organize tournaments with brackets, scoring, and real-time results tracking."
+      description: "Our tournament solutions ensure smooth execution from start to finish."
     }
   ];
 
   const sportsServices = [
     {
       icon: <FaFootballBall className="text-5xl text-[#fb9c24]" />,
-      title: "Sports Management Systems",
-      description: "Elevate sports management with our comprehensive platforms. We build solutions for leagues, teams, tournaments, and sports facilities that streamline operations and engage fans."
+      title: "Sports Management System Development",
+      description: "BTJ Alpha Technology provides customized systems for leagues, teams, and sports facilities. Our expertise in Sports Management Development in India ensures reliable and high-performance platforms."
     },
     {
       icon: <FaUsers className="text-5xl text-[#10B981]" />,
-      title: "Team Management",
-      description: "Creating comprehensive team management solutions for athletes and coaches."
+      title: "Team & League Platform Development",
+      description: "We design complete digital ecosystems that simplify sports administration and improve operational efficiency."
     },
     {
       icon: <FaTrophy className="text-5xl text-[#8B5CF6]" />,
-      title: "Tournament Solutions",
-      description: "Developing tournament management systems with bracket organization and scoring."
+      title: "Tournament Solution Development",
+      description: "From small local competitions to large-scale events, we build secure and scalable tournament management systems."
     }
   ];
 
   const benefits = [
     {
       icon: <FaFootballBall className="text-5xl text-[#fb9c24]" />,
-      title: "Organization",
-      description: "Streamline sports league and team management with organized systems."
+      title: "Better Organization",
+      description: "Automate scheduling, registration, and record management with centralized systems."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Analytics",
-      description: "Gain insights into player and team performance with detailed analytics."
+      title: "Advanced Analytics",
+      description: "Gain insights into player and team performance using detailed reporting tools."
     },
     {
       icon: <FaTrophy className="text-5xl text-[#8B5CF6]" />,
-      title: "Engagement",
-      description: "Increase fan and player engagement with mobile apps and real-time updates."
+      title: "Increased Engagement",
+      description: "Boost fan and player interaction through mobile apps and real-time updates powered by modern Sports Management Development in India."
     }
   ];
 
   const whyChooseUs = [
     {
       icon: <FaUsers className="text-5xl text-[#fb9c24]" />,
-      title: "Expert Team",
-      description: "Our team has extensive experience in sports management technology solutions."
+      title: "Experienced Team",
+      description: "Our developers have deep experience in building sports technology platforms."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Best Practices",
-      description: "We follow industry best practices for sports technology development."
+      title: "Industry Best Practices",
+      description: "We follow modern development standards to deliver secure and scalable systems."
     },
     {
       icon: <FaClock className="text-5xl text-[#8B5CF6]" />,
       title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      description: "Using agile methodology, we ensure timely project completion."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#f87171]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      description: "Every platform undergoes thorough testing to ensure smooth performance and reliability."
     }
   ];
 
@@ -138,11 +138,11 @@ function SportsManagement() {
             {/* Left Content */}
             <div data-aos="fade-right">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Sports<br />
-                Management
+                Sports Management Solutions – Expert Development in India
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Elevate sports management with our comprehensive platforms. We build solutions for leagues, teams, tournaments, and sports facilities that streamline operations and engage fans.
+                BTJ Alpha Technology delivers advanced Sports Management solutions designed to streamline operations for leagues, teams, tournaments, and sports facilities. We specialize in modern platforms that improve organization, analytics, and fan engagement.
+                <br></br>With strong expertise in Sports Management Development in India, we build scalable, secure, and user-friendly systems tailored to the needs of sports organizations.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -197,7 +197,7 @@ function SportsManagement() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Key Features of Sports Management
+              Key Features of Sports Management Systems
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -257,7 +257,7 @@ function SportsManagement() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Us?
+              Why Choose BTJ Alpha Technology?
             </h2>
           </div>
           <div className="grid md:grid-cols-4 gap-8 container mx-auto px-4">
@@ -283,7 +283,7 @@ function SportsManagement() {
             Ready to Elevate Sports Management?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to enhance your sports management operations.
+            Partner with BTJ Alpha Technology for professional Sports Management Development in India that enhances efficiency, improves performance tracking, and increases fan engagement.
           </p>
           <button
             onClick={openForm}

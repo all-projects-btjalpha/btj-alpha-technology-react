@@ -25,50 +25,50 @@ function Fintech() {
     {
       icon: <FaWallet className="text-5xl text-[#fb9c24]" />,
       title: "Digital Wallets",
-      description: "Secure digital wallet solutions for seamless money management and transactions."
+      description: "Our expertise in Fintech Development in India ensures smooth and protected digital transactions."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#10B981]" />,
-      title: "Mobile Banking Apps",
-      description: "Feature-rich mobile banking applications with UPI, bill payments, and transfers."
+      title: "Mobile Banking Applications",
+      description: "Our apps are designed for high performance and easy usability."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#8B5CF6]" />,
-      title: "Secure Payments",
-      description: "PCI-DSS compliant payment gateways with multi-layer security and fraud detection."
+      title: "Secure Payment Systems",
+      description: "With reliable Fintech Development in India, businesses can offer safe and trusted payment solutions."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#06b6d4]" />,
       title: "Investment Platforms",
-      description: "Trading and investment platforms for stocks, mutual funds, and cryptocurrency."
+      description: "Our systems provide real-time analytics and secure trading environments."
     },
     {
       icon: <FaUniversity className="text-5xl text-[#f87171]" />,
       title: "Lending Solutions",
-      description: "Digital lending platforms with credit scoring, KYC verification, and loan management."
+      description: "We develop digital lending platforms with:&nbsp; Credit scoring integration, KYC verification, Loan management systems, Automated approval workflows"
     },
     {
       icon: <FaCreditCard className="text-5xl text-[#fbbf24]" />,
-      title: "Payment Processing",
-      description: "Fast, reliable payment processing systems supporting multiple payment methods."
+      title: "Payment Processing Systems",
+      description: "Fast and reliable processing systems that support multiple payment methods and currencies."
     }
   ];
 
   const fintechServices = [
     {
       icon: <FaWallet className="text-5xl text-[#fb9c24]" />,
-      title: "Fintech Solutions",
-      description: "Build the future of finance with our innovative fintech solutions. We create secure, scalable, and user-friendly financial applications that revolutionize banking, payments, and investment experiences."
+      title: "Custom Fintech Application Development",
+      description: "We build tailored financial technology solutions that meet your business requirements. Our experience in Fintech Development in India helps startups and enterprises launch scalable fintech products."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#10B981]" />,
-      title: "Mobile Banking Apps",
-      description: "Creating feature-rich mobile banking applications with comprehensive functionality."
+      title: "Mobile Banking & Wallet Development",
+      description: "From concept to deployment, we create secure and feature-rich financial apps."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#8B5CF6]" />,
-      title: "Secure Payment Systems",
-      description: "Implementing PCI-DSS compliant payment gateways with advanced security."
+      title: "Secure Payment Gateway Development",
+      description: "We implement advanced payment infrastructures with full compliance and security standards."
     }
   ];
 
@@ -76,17 +76,17 @@ function Fintech() {
     {
       icon: <FaWallet className="text-5xl text-[#fb9c24]" />,
       title: "Innovation",
-      description: "Embrace financial innovation with cutting-edge fintech solutions."
+      description: "Adopt cutting-edge financial technologies to improve service delivery and customer satisfaction."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#10B981]" />,
       title: "Security",
-      description: "Top-tier security with compliance to financial industry standards."
+      description: "Ensure top-level data protection and regulatory compliance."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#8B5CF6]" />,
-      title: "Analytics",
-      description: "Gain insights into financial trends and user behavior patterns."
+      title: "Advanced Analytics",
+      description: "Gain insights into customer behavior and financial trends with intelligent reporting tools powered by Fintech Development in India."
     }
   ];
 
@@ -94,22 +94,22 @@ function Fintech() {
     {
       icon: <FaUsers className="text-5xl text-[#fb9c24]" />,
       title: "Expert Team",
-      description: "Our team has extensive experience in fintech and financial technology solutions."
+      description: "Our developers have extensive experience in fintech and financial technology solutions."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
       title: "Best Practices",
-      description: "We follow industry best practices for fintech development and security."
+      description: "We follow industry standards and compliance guidelines for secure fintech development."
     },
     {
       icon: <FaClock className="text-5xl text-[#8B5CF6]" />,
       title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      description: "Using agile methodology, we ensure projects are delivered within timelines."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#f87171]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      description: "Every solution undergoes detailed testing to ensure performance, security, and reliability."
     }
   ];
 
@@ -138,11 +138,11 @@ function Fintech() {
             {/* Left Content */}
             <div data-aos="fade-right">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Fintech<br />
-                Solutions
+                Fintech Solutions – Secure & Scalable Development in India
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Build the future of finance with our innovative fintech solutions. We create secure, scalable, and user-friendly financial applications that revolutionize banking, payments, and investment experiences.
+                BTJ Alpha Technology delivers advanced Fintech Solutions designed to transform digital banking, payments, lending, and investment platforms. We build secure, scalable, and user-friendly financial applications that help businesses stay ahead in the competitive financial market.
+                <br></br>With strong expertise in Fintech Development in India, we create innovative platforms that combine security, performance, and seamless user experience.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -197,7 +197,7 @@ function Fintech() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Key Features of Fintech Solutions
+              Key Features of Our Fintech Solutions
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -217,7 +217,7 @@ function Fintech() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our Fintech Services
+              Benefits of Fintech Development
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -257,7 +257,7 @@ function Fintech() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Us?
+              Why Choose BTJ Alpha Technology?
             </h2>
           </div>
           <div className="grid md:grid-cols-4 gap-8 container mx-auto px-4">
@@ -283,7 +283,7 @@ function Fintech() {
             Ready to Build the Future of Finance?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to create your innovative fintech solution.
+            Partner with BTJ Alpha Technology for trusted and scalable Fintech Development in India. We help you create innovative financial platforms that are secure, efficient, and future-ready.
           </p>
           <button
             onClick={openForm}

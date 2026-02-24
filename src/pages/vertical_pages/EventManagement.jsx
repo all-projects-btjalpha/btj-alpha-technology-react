@@ -25,32 +25,32 @@ function EventManagement() {
     {
       icon: <FaCalendarAlt className="text-5xl text-[#fb9c24]" />,
       title: "Event Planning",
-      description: "Comprehensive event planning and management tools for seamless event execution."
+      description: "Comprehensive tools to manage event schedules, speakers, vendors, and resources in one centralized dashboard. Our Event Management Development approach helps streamline every stage of planning."
     },
     {
       icon: <FaTicketAlt className="text-5xl text-[#10B981]" />,
       title: "Ticketing System",
-      description: "Online ticketing solutions with payment processing and QR code scanning."
+      description: "We build secure online ticketing solutions with:&nbsp;Payment gateway integration,QR code scanning, Automated confirmations,Real-time sales tracking"
     },
     {
       icon: <FaUsers className="text-5xl text-[#8B5CF6]" />,
       title: "Registration Management",
-      description: "Attendee registration, check-in, and participant management systems."
+      description: "Smooth attendee registration and check-in systems with automated email notifications and participant data management powered by Event Management Development expertise."
     },
     {
       icon: <FaMapMarkerAlt className="text-5xl text-[#06b6d4]" />,
       title: "Venue Management",
-      description: "Venue selection, layout planning, and facility management tools."
+      description: "Manage venue selection, seating layouts, and facility coordination with smart digital tools."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#f87171]" />,
       title: "Event Mobile Apps",
-      description: "Custom mobile apps for attendees with schedules, networking, and notifications."
+      description: "Custom mobile apps for attendees featuring schedules, networking tools, push notifications, and live updates."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#fbbf24]" />,
       title: "Event Analytics",
-      description: "Real-time event analytics, attendance tracking, and ROI measurement."
+      description: "Track attendance, engagement, ticket sales, and ROI with real-time analytics dashboards developed using modern Event Management Development strategies."
     }
   ];
 
@@ -58,35 +58,35 @@ function EventManagement() {
     {
       icon: <FaCalendarAlt className="text-5xl text-[#fb9c24]" />,
       title: "Event Management Solutions",
-      description: "Plan and execute memorable events with our digital event management platforms. We create solutions for conferences, festivals, corporate events, and social gatherings."
+      description: "We design and develop customized platforms for corporate events, exhibitions, seminars, and large-scale gatherings. Our Event Management Development process focuses on scalability, performance, and user experience."
     },
     {
       icon: <FaTicketAlt className="text-5xl text-[#10B981]" />,
       title: "Ticketing Systems",
-      description: "Building comprehensive ticketing solutions with payment processing."
+      description: "Build reliable ticket booking systems with secure payment processing and automated management features."
     },
     {
       icon: <FaUsers className="text-5xl text-[#8B5CF6]" />,
       title: "Registration Platforms",
-      description: "Creating attendee registration and check-in systems."
+      description: "Develop smart registration and attendee management systems for seamless event execution."
     }
   ];
 
   const benefits = [
     {
       icon: <FaCalendarAlt className="text-5xl text-[#fb9c24]" />,
-      title: "Organization",
-      description: "Streamline event planning and execution with digital tools."
+      title: "Better Organization",
+      description: "Streamline planning and execution using digital tools that reduce manual work."
     },
     {
       icon: <FaTicketAlt className="text-5xl text-[#10B981]" />,
-      title: "Revenue",
-      description: "Increase event revenue with online ticketing and registration."
+      title: "Increased Revenue",
+      description: "Boost event revenue with integrated ticketing, online registration, and promotional tools."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#8B5CF6]" />,
-      title: "Analytics",
-      description: "Gain insights into event performance and attendee behavior."
+      title: "Data-Driven Insights",
+      description: "Gain valuable insights into attendee behavior and event performance using analytics powered by advanced Event Management Development solutions."
     }
   ];
 
@@ -94,22 +94,22 @@ function EventManagement() {
     {
       icon: <FaUsers className="text-5xl text-[#fb9c24]" />,
       title: "Expert Team",
-      description: "Our team has extensive experience in event management technology solutions."
+      description: "Our experienced developers specialize in building scalable and secure event management platforms."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
       title: "Best Practices",
-      description: "We follow industry best practices for event technology development."
+      description: "We follow industry standards to ensure performance, reliability, and security."
     },
     {
       icon: <FaClock className="text-5xl text-[#8B5CF6]" />,
       title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      description: "Agile development ensures your platform is delivered on schedule."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#f87171]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      description: "We conduct thorough testing to guarantee a smooth and error-free event experience.."
     }
   ];
 
@@ -137,12 +137,12 @@ function EventManagement() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
             <div data-aos="fade-right">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Event<br />
-                Management
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+               Event Management Solutions – Smart & Scalable Digital Platforms
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Plan and execute memorable events with our digital event management platforms. We create solutions for conferences, festivals, corporate events, and social gatherings.
+                BTJ Alpha Technology delivers advanced Event Management Solutions designed to help businesses plan and execute successful events with ease. From conferences and corporate events to festivals and social gatherings, we create powerful digital platforms that simplify event planning, ticketing, registration, and analytics.
+                <br></br>Our expertise in Event Management Development ensures secure, scalable, and user-friendly systems tailored to your business needs.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -257,7 +257,7 @@ function EventManagement() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Us?
+              Why Choose BTJ Alpha Technology?
             </h2>
           </div>
           <div className="grid md:grid-cols-4 gap-8 container mx-auto px-4">
@@ -283,7 +283,7 @@ function EventManagement() {
             Ready to Plan Memorable Events?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to enhance your event management platform.
+            Partner with BTJ Alpha Technology to transform your event planning process with smart digital solutions. Our expertise in Event Management Development helps businesses create seamless, engaging, and successful events.
           </p>
           <button
             onClick={openForm}

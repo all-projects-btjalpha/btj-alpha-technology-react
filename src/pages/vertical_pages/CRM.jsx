@@ -25,68 +25,68 @@ function CRM() {
     {
       icon: <FaUsers className="text-5xl text-[#fb9c24]" />,
       title: "Contact Management",
-      description: "Centralized customer database with detailed profiles, interaction history, and preferences."
+      description: "Store and manage all customer information in one centralized system. Track communication history, preferences, and interactions easily through professional crm software development solutions."
     },
     {
       icon: <FaCommentDots className="text-5xl text-[#10B981]" />,
       title: "Communication Tools",
-      description: "Integrated email, chat, and phone systems for seamless customer interactions."
+      description: "Integrate email, chat, and phone systems into a single dashboard. Improve response times and customer satisfaction with streamlined communication tools."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#8B5CF6]" />,
-      title: "Sales Pipeline",
-      description: "Visual pipeline management with lead tracking, opportunity assessment, and forecasting."
+      title: "Sales Pipeline Management",
+      description: "Monitor leads, track opportunities, and forecast sales performance using visual pipeline tools. Our crm software development services help businesses close deals faster and increase revenue."
     },
     {
       icon: <FaEnvelope className="text-5xl text-[#06b6d4]" />,
-      title: "Email Marketing",
-      description: "Automated email campaigns with templates, personalization, and analytics."
+      title: "Email Marketing Automation",
+      description: "Create automated email campaigns with templates, personalization features, and performance tracking to boost engagement."
     },
     {
       icon: <FaCalendarAlt className="text-5xl text-[#f87171]" />,
-      title: "Task Automation",
-      description: "Automated workflows for follow-ups, reminders, and routine customer service tasks."
+      title: "Task & Workflow Automation",
+      description: "Automate follow-ups, reminders, and routine tasks to increase team productivity and reduce manual workload."
     },
     {
       icon: <FaTasks className="text-5xl text-[#fbbf24]" />,
       title: "Reporting & Analytics",
-      description: "Comprehensive reporting with sales metrics, customer insights, and performance KPIs."
+      description: "Access detailed reports and real-time dashboards to gain insights into sales performance, customer behavior, and business growth metrics powered by advanced crm software development technologies."
     }
   ];
 
   const crmServices = [
     {
       icon: <FaUsers className="text-5xl text-[#fb9c24]" />,
-      title: "CRM Solutions",
-      description: "Enhance customer relationships with our comprehensive CRM platforms. We build systems for sales automation, customer service, marketing automation, and data analytics to drive business growth."
+      title: "Custom CRM Development",
+      description: "We design customized CRM platforms based on your industry requirements and workflow structure. Our crm software development approach ensures flexibility, security, and high performance."
     },
     {
       icon: <FaCommentDots className="text-5xl text-[#10B981]" />,
       title: "Customer Service Platforms",
-      description: "Creating integrated customer service and support systems with ticketing."
+      description: "Build support systems with ticket management, service tracking, and communication automation to enhance customer experience."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#8B5CF6]" />,
-      title: "Sales Automation",
-      description: "Developing sales pipeline management and lead tracking systems."
+      title: "Sales Automation Solutions",
+      description: "Develop intelligent sales management systems with lead tracking, pipeline management, and performance monitoring tools."
     }
   ];
 
   const benefits = [
     {
       icon: <FaUsers className="text-5xl text-[#fb9c24]" />,
-      title: "Relationships",
-      description: "Build stronger customer relationships with comprehensive data management."
+      title: "Stronger Customer Relationships",
+      description: "Improve customer retention with organized data management and personalized communication strategies."
     },
     {
       icon: <FaCommentDots className="text-5xl text-[#10B981]" />,
-      title: "Communication",
-      description: "Improve customer communication with integrated messaging tools."
+      title: "Better Team Productivity",
+      description: "Reduce repetitive tasks through automation and structured workflows."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#8B5CF6]" />,
-      title: "Analytics",
-      description: "Gain insights into customer behavior and sales performance."
+      title: "Data-Driven Decisions",
+      description: "Make smarter business decisions with advanced reporting and analytics features."
     }
   ];
 
@@ -94,12 +94,12 @@ function CRM() {
     {
       icon: <FaUserFriends className="text-5xl text-[#fb9c24]" />,
       title: "Expert Team",
-      description: "Our team has extensive experience in CRM technology solutions."
+      description: "Our team has extensive experience in healthcare technology solutions."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
       title: "Best Practices",
-      description: "We follow industry best practices for CRM development."
+      description: "We follow industry best practices for healthcare technology development."
     },
     {
       icon: <FaClock className="text-5xl text-[#8B5CF6]" />,
@@ -138,11 +138,11 @@ function CRM() {
             {/* Left Content */}
             <div data-aos="fade-right">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                CRM<br />
-                Solutions
+                CRM Solutions – Smart & Scalable Customer Management Systems
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Enhance customer relationships with our comprehensive CRM platforms. We build systems for sales automation, customer service, marketing automation, and data analytics to drive business growth.
+                BTJ Alpha Technology provides advanced CRM Solutions designed to help businesses manage customer relationships efficiently. Our systems support sales automation, customer service, marketing campaigns, and real-time analytics to improve overall business performance.
+                <br></br>With strong expertise in crm software development, we build secure, scalable, and user-friendly CRM platforms tailored to your specific business needs.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -280,10 +280,10 @@ function CRM() {
         </div>
         <div className="container mx-auto relative z-10 text-center" data-aos="fade-up">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Ready to Enhance Customer Relationships?
+            Ready to Improve Your Customer Management?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to build your CRM solution.
+            Partner with BTJ Alpha Technology for reliable and scalable crm software development services. We help businesses build powerful CRM systems that enhance customer relationships, streamline sales processes, and drive long-term growth.
           </p>
           <button
             onClick={openForm}

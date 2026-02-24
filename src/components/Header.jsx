@@ -109,11 +109,11 @@ const Header = () => {
     else if (path === "/contact") setActiveTab("contact");
     else if (
       [
-        "/best-website-designing-company-india",
+        "/website-design-services-in-india",
         "/website-development",
-        "/mobile-app-development",
+        "/mobile-app-development-company-in-india",
         "/search-engine-optimization",
-        "/social-media-marketing",
+        "/social-media-marketing-company-in-india",
         "/meta-ads",
         "/google-ads",
       ].includes(path)
@@ -131,16 +131,16 @@ const Header = () => {
   };
 
   const itServices = [
-    { name: "Website Designing", path: "/best-website-designing-company-india", icon: <FaCode className="text-2xl text-[#e74c3c]" /> },
+    { name: "Website Designing", path: "/website-design-services-in-india", icon: <FaCode className="text-2xl text-[#e74c3c]" /> },
     { name: "Website Development", path: "/website-development", icon: <FaLaptopCode className="text-2xl text-[#3498db]" /> },
-    { name: "Mobile App Development", path: "/mobile-app-development", icon: <FaMobileAlt className="text-2xl text-[#9b59b6]" /> },
+    { name: "Mobile App Development", path: "/mobile-app-development-company-in-india", icon: <FaMobileAlt className="text-2xl text-[#9b59b6]" /> },
     { name: "AI & ML", path: "/ai-ml", icon: <FaBrain className="text-2xl text-[#e67e22]" /> },
-    { name: "Product Development", path: "/product-development", icon: <FaCogs className="text-2xl text-[#1abc9c]" /> },
-    { name: "PWA Development", path: "/pwa-development", icon: <FaMobileAlt className="text-2xl text-[#f39c12]" /> },
-    { name: "Web API", path: "/web-api", icon: <FaCode className="text-2xl text-[#16a085]" /> },
-    { name: "Software Architecture", path: "/software-architecture", icon: <FaCogs className="text-2xl text-[#d35400]" /> },
-    { name: "Software Testing", path: "/software-testing", icon: <FaVial className="text-2xl text-[#c0392b]" /> },
-    { name: "UI/UX Design", path: "/ui-ux-design", icon: <FaPalette className="text-2xl text-[#8e44ad]" /> },
+    { name: "Product Development", path: "/product-development-services-in-india", icon: <FaCogs className="text-2xl text-[#1abc9c]" /> },
+    { name: "PWA Development", path: "/progressive-web-app-development-company-in-india", icon: <FaMobileAlt className="text-2xl text-[#f39c12]" /> },
+    { name: "Web API", path: "/api-development-company-in-india", icon: <FaCode className="text-2xl text-[#16a085]" /> },
+    { name: "Software Architecture", path: "/software-architecture-services-in-india", icon: <FaCogs className="text-2xl text-[#d35400]" /> },
+    { name: "Software Testing", path: "/software-testing-companies-in-india", icon: <FaVial className="text-2xl text-[#c0392b]" /> },
+    { name: "UI/UX Design", path: "/ui-ux-design-company-in-india", icon: <FaPalette className="text-2xl text-[#8e44ad]" /> },
     { name: "Databases", path: "/databases", icon: <FaDatabase className="text-2xl text-[#2980b9]" /> },
     { name: "Cloud Services", path: "/cloud-services", icon: <FaCloud className="text-2xl text-[#3498db]" /> },
     { name: "Reporting", path: "/reporting", icon: <FaChartBar className="text-2xl text-[#27ae60]" /> },
@@ -149,107 +149,107 @@ const Header = () => {
   const digitalServices = [
     { name: "Search Engine Optimization", path: "/search-engine-optimization", icon: <FaSearch className="text-2xl text-[#e67e22]" /> },
     { name: "Performance Marketing", path: "/performance-marketing", icon: <FaChartLine className="text-2xl text-[#e67e22]" /> },
-    { name: "Social Media Marketing", path: "/social-media-marketing", icon: <FaBullhorn className="text-2xl text-[#e74c3c]" /> },
+    { name: "Social Media Marketing", path: "/social-media-marketing-company-in-india", icon: <FaBullhorn className="text-2xl text-[#e74c3c]" /> },
     { name: "Pay per Click Advertising", path: "/ppc-advertising", icon: <FaMousePointer className="text-2xl text-[#3498db]" /> },
     { name: "Google Ads", path: "/google-ads", icon: <FaGoogle className="text-2xl text-[#4285f4]" /> },
-    { name: "Facebook Ads", path: "/meta-ads", icon: <FaFacebookSquare className="text-2xl text-[#1877f2]" /> },
+    { name: "Meta Ads", path: "/meta-ads", icon: <FaFacebookSquare className="text-2xl text-[#1877f2]" /> },
     { name: "Answer Engine Optimization", path: "/answer-engine-optimization", icon: <FaRobot className="text-2xl text-[#9b59b6]" /> },
     { name: "Email Marketing", path: "/email-marketing", icon: <FaEnvelope className="text-2xl text-[#e74c3c]" /> },
   ];
 
   // Technologies Data
   const frontendTechnologies = [
-    { name: "React.js", path: "/technologies/reactjs", icon: <FaReact className="text-2xl text-[#61dafb]" /> },
-    { name: "Angular", path: "/technologies/angular", icon: <FaAngular className="text-2xl text-[#dd0031]" /> },
-    { name: "Vue.js", path: "/technologies/vuejs", icon: <FaVuejs className="text-2xl text-[#42b883]" /> },
-    { name: "Next.js", path: "/technologies/nextjs", icon: <SiNextdotjs className="text-2xl text-black" /> },
-    { name: "TypeScript", path: "/technologies/typescript", icon: <SiTypescript className="text-2xl text-[#3178c6]" /> },
-    { name: "HTML5", path: "/technologies/html5", icon: <FaHtml5 className="text-2xl text-[#e34f26]" /> },
-    { name: "CSS3", path: "/technologies/css3", icon: <FaCss3Alt className="text-2xl text-[#1572b6]" /> },
-    { name: "Tailwind CSS", path: "/technologies/tailwindcss", icon: <SiTailwindcss className="text-2xl text-[#06b6d4]" /> },
-    { name: "Bootstrap", path: "/technologies/bootstrap", icon: <FaBootstrap className="text-2xl text-[#7952b3]" /> },
+    { name: "React.js", path: "/reactjs-development-company-in-india", icon: <FaReact className="text-2xl text-[#61dafb]" /> },
+    { name: "Angular", path: "/angular-development-company-in-india", icon: <FaAngular className="text-2xl text-[#dd0031]" /> },
+    { name: "Vue.js", path: "/vuejs-development-company-in-india", icon: <FaVuejs className="text-2xl text-[#42b883]" /> },
+    { name: "Next.js", path: "/javascript-development-company-in-india", icon: <SiNextdotjs className="text-2xl text-black" /> },
+    { name: "TypeScript", path: "/typescript-development-company-in-india", icon: <SiTypescript className="text-2xl text-[#3178c6]" /> },
+    { name: "HTML5", path: "/html5-development-company-in-india", icon: <FaHtml5 className="text-2xl text-[#e34f26]" /> },
+    { name: "CSS3", path: "/css3-development-company-in-india", icon: <FaCss3Alt className="text-2xl text-[#1572b6]" /> },
+    { name: "Tailwind CSS", path: "/tailwind-css-development-company-in-india", icon: <SiTailwindcss className="text-2xl text-[#06b6d4]" /> },
+    { name: "Bootstrap", path: "/bootstrap-development-company-in-india", icon: <FaBootstrap className="text-2xl text-[#7952b3]" /> },
     { name: "SaaS", path: "/technologies/saas", icon: <img src="/sass.svg" alt="SaaS" className="w-6 h-6" /> },
   ];
 
   const backendTechnologies = [
-    { name: "Node.js", path: "/technologies/nodejs", icon: <FaNodeJs className="text-2xl text-[#339933]" /> },
-    { name: "Python", path: "/technologies/python", icon: <FaPython className="text-2xl text-[#3776ab]" /> },
-    { name: "Java", path: "/technologies/java", icon: <FaJava className="text-2xl text-[#007396]" /> },
+    { name: "Node.js", path: "/nodejs-development-company-in-india", icon: <FaNodeJs className="text-2xl text-[#339933]" /> },
+    // { name: "Python", path: "/technologies/python", icon: <FaPython className="text-2xl text-[#3776ab]" /> },
+    // { name: "Java", path: "/technologies/java", icon: <FaJava className="text-2xl text-[#007396]" /> },
     { name: ".NET", path: "/technologies/dotnet", icon: <FaCode className="text-2xl text-[#512bd4]" /> },
     // { name: "PHP", path: "/technologies/php", icon: <FaPhp className="text-2xl text-[#777bb4]" /> },
     // { name: "Laravel", path: "/technologies/laravel", icon: <FaLaravel className="text-2xl text-[#ff2d20]" /> },
-    { name: "WordPress", path: "/technologies/wordpress", icon: <FaWordpress className="text-2xl text-[#21759b]" /> },
+    { name: "WordPress", path: "/wordpress-development-company-in-india", icon: <FaWordpress className="text-2xl text-[#21759b]" /> },
   ];
 
   const mobileTechnologies = [
-    { name: "React Native", path: "/technologies/react-native", icon: <FaReact className="text-2xl text-[#61dafb]" /> },
-    { name: "Flutter", path: "/technologies/flutter", icon: <SiFlutter className="text-2xl text-[#02569b]" /> },
-    { name: "Kotlin", path: "/technologies/kotlin", icon: <SiKotlin className="text-2xl text-[#7f52ff]" /> },
-    { name: "Swift", path: "/technologies/swift", icon: <SiSwift className="text-2xl text-[#fa7343]" /> },
+    { name: "React Native", path: "/react-native-development-company-in-india", icon: <FaReact className="text-2xl text-[#61dafb]" /> },
+    { name: "Flutter", path: "/flutter-development-company-in-india", icon: <SiFlutter className="text-2xl text-[#02569b]" /> },
+    { name: "Kotlin", path: "/kotlin-development-company-in-india", icon: <SiKotlin className="text-2xl text-[#7f52ff]" /> },
+    { name: "Swift", path: "/swift-development-services", icon: <SiSwift className="text-2xl text-[#fa7343]" /> },
   ];
 
   const databaseTechnologies = [
-    { name: "MongoDB", path: "/technologies/mongodb", icon: <SiMongodb className="text-2xl text-[#47a248]" /> },
-    { name: "MySQL", path: "/technologies/mysql", icon: <SiMysql className="text-2xl text-[#4479a1]" /> },
-    { name: "PostgreSQL", path: "/technologies/postgresql", icon: <SiPostgresql className="text-2xl text-[#336791]" /> },
-    { name: "Firebase", path: "/technologies/firebase", icon: <SiFirebase className="text-2xl text-[#ffca28]" /> },
-    { name: "Indexed Database API", path: "/technologies/indexeddb", icon: <FaDatabase className="text-2xl text-[#2980b9]" /> },
-    { name: "Azure CosmosDB", path: "/technologies/azure-cosmosdb", icon: <FaDatabase className="text-2xl text-[#0078d4]" /> },
-    { name: "Amazon DynamoDB", path: "/technologies/amazon-dynamodb", icon: <SiAmazondynamodb className="text-2xl text-[#ff9900]" /> },
-    { name: "Ms SQL", path: "/technologies/mssql", icon: <FaDatabase className="text-2xl text-[#cc2927]" /> },
+    { name: "MongoDB", path: "/mongodb-development-services-company-in-india", icon: <SiMongodb className="text-2xl text-[#47a248]" /> },
+    { name: "MySQL", path: "/mysql-development-company-in-india", icon: <SiMysql className="text-2xl text-[#4479a1]" /> },
+    { name: "PostgreSQL", path: "/postgresql-development-company-in-india", icon: <SiPostgresql className="text-2xl text-[#336791]" /> },
+    { name: "Firebase", path: "/firebase-development-company-in-india", icon: <SiFirebase className="text-2xl text-[#ffca28]" /> },
+    { name: "Indexed Database API", path: "/indexeddb-api-development-company-in-india", icon: <FaDatabase className="text-2xl text-[#2980b9]" /> },
+    { name: "Azure CosmosDB", path: "/azure-cosmos-db-development-services-in-india", icon: <FaDatabase className="text-2xl text-[#0078d4]" /> },
+    { name: "Amazon DynamoDB", path: "/amazon-dynamodb-development-services-in-india", icon: <SiAmazondynamodb className="text-2xl text-[#ff9900]" /> },
+    { name: "Ms SQL", path: "/sql-server-integration-services-in-india", icon: <FaDatabase className="text-2xl text-[#cc2927]" /> },
   ];
 
   const otherTechnologies = [
-    { name: "AWS", path: "/technologies/aws", icon: <FaAws className="text-2xl text-[#ff9900]" /> },
-    { name: "Azure", path: "/technologies/azure", icon: <FaCloud className="text-2xl text-[#0078d4]" /> },
-    { name: "IBM Cloud", path: "/technologies/ibm-cloud", icon: <FaCloud className="text-2xl text-[#1261fe]" /> },
-    { name: "Google Cloud Platform", path: "/technologies/google-cloud", icon: <FaGoogle className="text-2xl text-[#4285f4]" /> },
-    // { name: "Figma", path: "/technologies/figma", icon: <FaFigma className="text-2xl text-[#f24e1e]" /> },
+    { name: "AWS", path: "/aws-cloud-services-company-in-india", icon: <FaAws className="text-2xl text-[#ff9900]" /> },
+    { name: "Azure", path: "/microsoft-azure-cloud-services-in-india", icon: <FaCloud className="text-2xl text-[#0078d4]" /> },
+    { name: "IBM Cloud", path: "/ibm-cloud-platform-services-provider-in-india", icon: <FaCloud className="text-2xl text-[#1261fe]" /> },
+    { name: "Google Cloud Platform", path: "/best-google-cloud-provider-in-india", icon: <FaGoogle className="text-2xl text-[#4285f4]" /> },
+    // { name: "Figma", path: "/figma-design-company-in-india", icon: <FaFigma className="text-2xl text-[#f24e1e]" /> },
   ];
 
   // Third Party Integration Data
   const thirdPartyIntegration = [
-    { name: "Telerik", path: "/technologies/telerik", icon: <FaCogs className="text-2xl text-[#512bd4]" /> },
-    { name: "QuickBooks/Xero", path: "/technologies/quickbooks-xero", icon: <FaChartBar className="text-2xl text-[#2ca01c]" /> },
-    { name: "Twilio & Plivo", path: "/technologies/twilio-plivo", icon: <FaPhone className="text-2xl text-[#f22f46]" /> },
-    { name: "DevExpress", path: "/technologies/devexpress", icon: <FaChartPie className="text-2xl text-[#00d084]" /> },
-    { name: "SyncFusion", path: "/technologies/syncfusion", icon: <FaChartArea className="text-2xl text-[#ff6b35]" /> },
-    { name: "MudBlazor", path: "/technologies/mudblazor", icon: <FaPalette className="text-2xl text-[#5a45ff]" /> },
-    { name: "Stripe/PayPal/Cardknox", path: "/technologies/stripe-paypal", icon: <FaCreditCard className="text-2xl text-[#6772e5]" /> },
-    { name: "Google APIs", path: "/technologies/google-api", icon: <FaGoogle className="text-2xl text-[#4285f4]" /> },
-    { name: "Highcharts & ECharts", path: "/technologies/highcharts", icon: <FaChartLine className="text-2xl text-[#f05b4f]" /> },
-    { name: "Yahoo/Quandl/Alpha Vantage", path: "/technologies/yahoo-finance", icon: <FaChartBar className="text-2xl text-[#7b1fa2]" /> },
-    { name: "Zoom", path: "/technologies/zoom", icon: <FaVideo className="text-2xl text-[#2d8cff]" /> },
-    { name: "Power BI", path: "/technologies/powerbi", icon: <FaChartBar className="text-2xl text-[#f2c811]" /> },
-    { name: "Material UI", path: "/technologies/material-ui", icon: <FaPalette className="text-2xl text-[#1976d2]" /> },
-    { name: "PrimeNG", path: "/technologies/primeng", icon: <FaCode className="text-2xl text-[#dd0031]" /> },
-    { name: "Radzen", path: "/technologies/radzen", icon: <FaPalette className="text-2xl text-[#009688]" /> },
-    { name: "CKEditor", path: "/technologies/ckeditor", icon: <FaEdit className="text-2xl text-[#0288d1]" /> },
-    { name: "EasyPost", path: "/technologies/easypost", icon: <FaTruck className="text-2xl text-[#ff6b35]" /> },
-    { name: "Kit Builder", path: "/technologies/kit-builder", icon: <FaCogs className="text-2xl text-[#9c27b0]" /> },
-    { name: "Shopify", path: "/technologies/shopify", icon: <img src="/shopify-removebg-preview.png" alt="Shopify" className="w-6 h-6" /> },
-    { name: "DaisyUI", path: "/technologies/daisyui", icon: <img src="/daisy-removebg-preview.png" alt="DaisyUI" className="w-6 h-6" /> },
+    { name: "Telerik", path: "/telerik-development-services-in-india", icon: <FaCogs className="text-2xl text-[#512bd4]" /> },
+    { name: "QuickBooks/Xero", path: "/quickbooks-xero-integration-services-in-india", icon: <FaChartBar className="text-2xl text-[#2ca01c]" /> },
+    { name: "Twilio & Plivo", path: "/twilio-plivo-integration-services-in-india", icon: <FaPhone className="text-2xl text-[#f22f46]" /> },
+    { name: "DevExpress", path: "/devexpress-development-services-in-india", icon: <FaChartPie className="text-2xl text-[#00d084]" /> },
+    { name: "SyncFusion", path: "/syncfusion-development-services-in-india", icon: <FaChartArea className="text-2xl text-[#ff6b35]" /> },
+    { name: "MudBlazor", path: "/mudblazor-development-services-in-india", icon: <FaPalette className="text-2xl text-[#5a45ff]" /> },
+    { name: "Stripe/PayPal/Cardknox", path: "/payment-integration-services-in-india", icon: <FaCreditCard className="text-2xl text-[#6772e5]" /> },
+    { name: "Google APIs", path: "/google-api-integration-services-in-india", icon: <FaGoogle className="text-2xl text-[#4285f4]" /> },
+    { name: "Highcharts & ECharts", path: "/highcharts-echarts-development-company-in-india", icon: <FaChartLine className="text-2xl text-[#f05b4f]" /> },
+    { name: "Yahoo/Quandl/Alpha Vantage", path: "/financial-data-integration-services-in-india", icon: <FaChartBar className="text-2xl text-[#7b1fa2]" /> },
+    { name: "Zoom", path: "/zoom-integration-services-in-india", icon: <FaVideo className="text-2xl text-[#2d8cff]" /> },
+    { name: "Power BI", path: "/power-bi-dashboard-development-services", icon: <FaChartBar className="text-2xl text-[#f2c811]" /> },
+    { name: "Material UI", path: "/react-material-ui-development-services", icon: <FaPalette className="text-2xl text-[#1976d2]" /> },
+    { name: "PrimeNG", path: "/primeng-development-services-in-india", icon: <FaCode className="text-2xl text-[#dd0031]" /> },
+    { name: "Radzen", path: "/radzen-blazor-development-services", icon: <FaPalette className="text-2xl text-[#009688]" /> },
+    { name: "CKEditor", path: "/ckeditor-integration-services", icon: <FaEdit className="text-2xl text-[#0288d1]" /> },
+    { name: "EasyPost", path: "/easypost-integration-services", icon: <FaTruck className="text-2xl text-[#ff6b35]" /> },
+    { name: "Kit Builder", path: "/kit-builder-development-services-in-india", icon: <FaCogs className="text-2xl text-[#9c27b0]" /> },
+    { name: "Shopify", path: "/shopify-development-company", icon: <img src="/shopify-removebg-preview.png" alt="Shopify" className="w-6 h-6" /> },
+    { name: "DaisyUI", path: "/daisyui-development-services-in-india", icon: <img src="/daisy-removebg-preview.png" alt="DaisyUI" className="w-6 h-6" /> },
   ];
 
   // Verticals/Industries Data
   const verticals = [
-    { name: "Healthcare", path: "/verticals/healthcare", icon: <FaHeartbeat className="text-2xl text-[#e74c3c]" /> },
-    { name: "Fintech", path: "/verticals/fintech", icon: <FaWallet className="text-2xl text-[#2ecc71]" /> },
-    { name: "Event Management", path: "/verticals/event-management", icon: <FaCalendarAlt className="text-2xl text-[#9b59b6]" /> },
-    { name: "Marketplace", path: "/verticals/marketplace", icon: <FaShoppingCart className="text-2xl text-[#e67e22]" /> },
-    { name: "Compliance", path: "/verticals/compliance", icon: <FaShieldAlt className="text-2xl text-[#34495e]" /> },
-    { name: "CRM", path: "/verticals/crm", icon: <FaBoxes className="text-2xl text-[#3498db]" /> },
-    { name: "Logistics & Transport", path: "/verticals/logistics-transport", icon: <FaTruck className="text-2xl text-[#f39c12]" /> },
-    { name: "Real Estate", path: "/verticals/real-estate", icon: <FaHome className="text-2xl text-[#16a085]" /> },
-    { name: "ERP", path: "/verticals/erp", icon: <FaMicrochip className="text-2xl text-[#8e44ad]" /> },
-    { name: "Ed-Tech", path: "/verticals/ed-tech", icon: <FaGraduationCap className="text-2xl text-[#2980b9]" /> },
-    { name: "Automotive", path: "/verticals/automotive", icon: <FaCar className="text-2xl text-[#c0392b]" /> },
-    { name: "Fundraising Management", path: "/verticals/fundraising-management", icon: <FaDonate className="text-2xl text-[#27ae60]" /> },
-    { name: "Travel & Tourism", path: "/verticals/travel-tourism", icon: <FaPlane className="text-2xl text-[#1abc9c]" /> },
-    { name: "Workflow Management", path: "/verticals/workflow-management", icon: <FaTasks className="text-2xl text-[#d35400]" /> },
-    { name: "Fitness", path: "/verticals/fitness", icon: <FaDumbbell className="text-2xl text-[#e74c3c]" /> },
-    { name: "Sports Management", path: "/verticals/sports-management", icon: <FaFootballBall className="text-2xl text-[#27ae60]" /> },
-    { name: "SaaS", path: "/verticals/saas", icon: <FaServer className="text-2xl text-[#3498db]" /> },
+    { name: "Healthcare", path: "/healthcare-software-development-services", icon: <FaHeartbeat className="text-2xl text-[#e74c3c]" /> },
+    { name: "Fintech", path: "/fintech-solutions-company-in-india", icon: <FaWallet className="text-2xl text-[#2ecc71]" /> },
+    { name: "Event Management", path: "/event-management-software-development-company", icon: <FaCalendarAlt className="text-2xl text-[#9b59b6]" /> },
+    { name: "Marketplace", path: "/marketplace-solutions-company-in-india", icon: <FaShoppingCart className="text-2xl text-[#e67e22]" /> },
+    { name: "Compliance", path: "/compliance-software-development-company", icon: <FaShieldAlt className="text-2xl text-[#34495e]" /> },
+    { name: "CRM", path: "/custom-crm-development-services", icon: <FaBoxes className="text-2xl text-[#3498db]" /> },
+    { name: "Logistics & Transport", path: "/logistics-transport-software-development-company", icon: <FaTruck className="text-2xl text-[#f39c12]" /> },
+    { name: "Real Estate", path: "/real-estate-software-development-company", icon: <FaHome className="text-2xl text-[#16a085]" /> },
+    { name: "ERP", path: "/erp-software-development-company", icon: <FaMicrochip className="text-2xl text-[#8e44ad]" /> },
+    { name: "Ed-Tech", path: "/ed-tech-solutions-development-company-in-india", icon: <FaGraduationCap className="text-2xl text-[#2980b9]" /> },
+    { name: "Automotive", path: "/automotive-solutions-company-in-india", icon: <FaCar className="text-2xl text-[#c0392b]" /> },
+    { name: "Fundraising Management", path: "/fundraising-software-development-company-in-india", icon: <FaDonate className="text-2xl text-[#27ae60]" /> },
+    { name: "Travel & Tourism", path: "/travel-software-development-company", icon: <FaPlane className="text-2xl text-[#1abc9c]" /> },
+    { name: "Workflow Management", path: "/workflow-automation-development-company", icon: <FaTasks className="text-2xl text-[#d35400]" /> },
+    { name: "Fitness", path: "/fitness-app-development-company", icon: <FaDumbbell className="text-2xl text-[#e74c3c]" /> },
+    { name: "Sports Management", path: "/sports-software-development-company", icon: <FaFootballBall className="text-2xl text-[#27ae60]" /> },
+    { name: "SaaS", path: "/saas-solutions-company-in-india", icon: <FaServer className="text-2xl text-[#3498db]" /> },
   ];
 
   const menuItems = (
@@ -312,7 +312,7 @@ const Header = () => {
 
         {/* Desktop Mega Menu: also listens for mouse enter/leave so it doesn't close when moving pointer */}
         <div
-          className={`absolute left-1/2 -translate-x-[30%] bg-white shadow-2xl w-[95vw] max-w-[1400px] z-50 transition-all duration-200 ease-in-out hidden md:block rounded-lg border border-gray-200 ${
+          className={`absolute left-1/2 -translate-x-[34%] bg-white shadow-2xl w-[95vw] max-w-[1400px] z-50 transition-all duration-200 ease-in-out hidden md:block rounded-lg border border-gray-200 ${
             servicesOpen ? "opacity-100 translate-y-2 visible" : "opacity-0 invisible -translate-y-1"
           }`}
           onMouseEnter={() => setServicesOpen(true)}
@@ -489,7 +489,7 @@ const Header = () => {
 
         {/* Desktop Mega Menu for Technologies */}
         <div
-          className={`absolute left-1/2 -translate-x-[40%] bg-white shadow-2xl w-[95vw] max-w-[1400px] z-50 transition-all duration-200 ease-in-out hidden md:block rounded-lg border border-gray-200 ${
+          className={`absolute left-1/2 -translate-x-[43%] bg-white shadow-2xl w-[95vw] max-w-[1400px] z-50 transition-all duration-200 ease-in-out hidden md:block rounded-lg border border-gray-200 ${
             technologiesOpen ? "opacity-100 translate-y-2 visible" : "opacity-0 invisible -translate-y-1"
           }`}
           onMouseEnter={() => setTechnologiesOpen(true)}
@@ -619,7 +619,7 @@ const Header = () => {
                 ))}
                 <li key="hostinger">
                   <Link 
-                    to="/technologies/hostinger"
+                    to="/best-hosting-in-india"
                     className="flex items-center gap-3 px-2 py-2 hover:bg-orange-50 rounded-lg transition-all duration-200 group cursor-pointer"
                     onClick={() => setTechnologiesOpen(false)}
                   >
@@ -640,7 +640,7 @@ const Header = () => {
                 Third Party Integration
               </h3>
               <ul className="space-y-2">
-                {thirdPartyIntegration.slice(0, 9).map((tech, i) => (
+                {thirdPartyIntegration.slice(0, 10).map((tech, i) => (
                   <li key={i}>
                     <Link 
                       to={tech.path}
@@ -665,7 +665,7 @@ const Header = () => {
                 Third Party Integration
               </h3>
               <ul className="space-y-2">
-                {thirdPartyIntegration.slice(9).map((tech, i) => (
+                {thirdPartyIntegration.slice(10).map((tech, i) => (
                   <li key={i}>
                     <Link 
                       to={tech.path}
@@ -778,7 +778,7 @@ const Header = () => {
                 </Link>
               ))}
               <Link 
-                to="/technologies/hostinger"
+                to="/best-hosting-in-india"
                 className="flex items-center gap-2 py-2 border-b hover:text-[#fb9c24]"
                 onClick={() => setTechnologiesOpen(false)}
               >
@@ -820,7 +820,7 @@ const Header = () => {
 
         {/* Desktop Mega Menu for Verticals */}
         <div
-          className={`absolute left-1/2 -translate-x-[50%] bg-white shadow-2xl w-[95vw] max-w-[1400px] z-50 transition-all duration-200 ease-in-out hidden md:block rounded-lg border border-gray-200 ${
+          className={`absolute left-1/2 -translate-x-[54%] bg-white shadow-2xl w-[95vw] max-w-[1400px] z-50 transition-all duration-200 ease-in-out hidden md:block rounded-lg border border-gray-200 ${
             verticalsOpen ? "opacity-100 translate-y-2 visible" : "opacity-0 invisible -translate-y-1"
           }`}
           onMouseEnter={() => setVerticalsOpen(true)}
@@ -883,7 +883,7 @@ const Header = () => {
         )}
       </div>
 
-      <Link to="/bulk-sms">
+      {/* <Link to="/bulk-sms">
         <li
           onClick={() => handleTabClick("bulk-sms")}
           className={`cursor-pointer hover:underline hover:underline-offset-8 hover:decoration-2 hover:decoration-[#fb9c24] ${
@@ -894,7 +894,7 @@ const Header = () => {
         >
           Bulk SMS
         </li>
-      </Link>
+      </Link> */}
 
       <Link to="/portfolio">
         <li

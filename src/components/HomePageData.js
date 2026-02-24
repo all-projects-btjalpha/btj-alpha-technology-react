@@ -45,14 +45,14 @@ const items = [
     heading: "Mobile App Development",
     content:
       "Create user-friendly and efficient mobile apps tailored to meet your business needs with our expert development services.",
-    url: "/mobile-app-development",
+    url: "/mobile-app-development-company-in-india",
     image: "/mobile-app/mobile app.png"
   },
   {
     heading: "Social Media Marketing (SMM)",
     content:
       "Boost your brand visibility and engagement across platforms like Instagram, Facebook, and LinkedIn. Reach your target audience with tailored content and paid campaigns.",
-    url: "/social-media-marketing",
+    url: "/social-media-marketing-company-in-india",
     image: "/SMM.jpg"
   },
   {

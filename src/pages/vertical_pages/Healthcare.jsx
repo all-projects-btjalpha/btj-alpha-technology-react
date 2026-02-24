@@ -24,69 +24,69 @@ function Healthcare() {
   const healthcareFeatures = [
     {
       icon: <FaHeartbeat className="text-5xl text-[#fb9c24]" />,
-      title: "Electronic Health Records",
-      description: "Comprehensive patient record management with secure storage and easy access."
+      title: "Electronic Health Records (EHR)",
+      description: "Secure and centralized patient data management with easy access, data encryption, and seamless integration across departments."
     },
     {
       icon: <FaUserMd className="text-5xl text-[#10B981]" />,
       title: "Telemedicine Platforms",
-      description: "Virtual consultation systems with video calls and remote diagnosis capabilities."
+      description: "Virtual consultation systems with secure video calls, remote diagnosis, appointment scheduling, and digital prescriptions."
     },
     {
       icon: <FaHospital className="text-5xl text-[#8B5CF6]" />,
-      title: "Hospital Management",
-      description: "Complete hospital management systems with appointments, billing, and inventory."
+      title: "Hospital Management Systems",
+      description: "Complete hospital management including appointments, billing, inventory, staff management, and reporting."
     },
     {
       icon: <FaPrescription className="text-5xl text-[#06b6d4]" />,
       title: "Pharmacy Management",
-      description: "Digital pharmacy systems with prescription tracking and medication management."
+      description: "Digital pharmacy systems with prescription tracking, inventory management, and automated alerts."
     },
     {
       icon: <FaNotesMedical className="text-5xl text-[#f87171]" />,
       title: "Patient Portals",
-      description: "Secure patient portals for accessing medical records and communicating with providers."
+      description: "Secure portals that allow patients to access medical records, lab reports, prescriptions, and communicate with doctors"
     },
     {
       icon: <FaXRay className="text-5xl text-[#fbbf24]" />,
-      title: "Medical Imaging",
-      description: "Advanced medical imaging systems with DICOM support and analysis tools."
+      title: "Medical Imaging Solutions",
+      description: "Advanced imaging systems with DICOM support and analytical tools for faster and more accurate diagnosis."
     }
   ];
 
   const healthcareServices = [
     {
       icon: <FaHeartbeat className="text-5xl text-[#fb9c24]" />,
-      title: "Healthcare Solutions",
-      description: "Transform healthcare delivery with our digital platforms. We build EHR systems, telemedicine platforms, hospital management software, and patient portals that improve care quality and operational efficiency."
+      title: "Custom Healthcare Application Development",
+      description: "We deliver fully tailored systems under our Custom Healthcare Software Development Services in India, ensuring performance, compliance, and scalability."
     },
     {
       icon: <FaUserMd className="text-5xl text-[#10B981]" />,
-      title: "Telemedicine Systems",
-      description: "Creating virtual consultation platforms with secure video communication."
+      title: "Telehealth & Remote Care Platforms",
+      description: "Secure and HIPAA-compliant telemedicine systems built for modern healthcare providers."
     },
     {
       icon: <FaHospital className="text-5xl text-[#8B5CF6]" />,
-      title: "Hospital Management",
-      description: "Developing comprehensive systems for hospital operations and patient care."
+      title: "Healthcare Analytics & Reporting",
+      description: "Real-time dashboards and data-driven insights for improved decision-making."
     }
   ];
 
   const benefits = [
     {
       icon: <FaHeartbeat className="text-5xl text-[#fb9c24]" />,
-      title: "Efficiency",
-      description: "Streamline healthcare operations with digital tools and automation."
+      title: "Improved Efficiency",
+      description: "Automation reduces paperwork and operational delays."
     },
     {
       icon: <FaUserMd className="text-5xl text-[#10B981]" />,
-      title: "Accessibility",
-      description: "Improve patient access to healthcare services through digital platforms."
+      title: "Enhanced Patient Experience",
+      description: "Digital access to healthcare services anytime, anywhere."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#8B5CF6]" />,
-      title: "Analytics",
-      description: "Gain insights into patient outcomes and operational metrics."
+      title: "Secure Data Management",
+      description: "Advanced encryption and compliance-driven system architecture."
     }
   ];
 
@@ -137,13 +137,16 @@ function Healthcare() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
             <div data-aos="fade-right">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Healthcare<br />
-                Solutions
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                Custom Healthcare Software Development Services in India
               </h1>
+              <h4 className="text-2xl md:text-3xl lg:text-3xl font-semibold text-gray-900 mb-6 leading-tight">Transform Healthcare with Advanced Digital Innovation</h4>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Transform healthcare delivery with our digital platforms. We build EHR systems, telemedicine platforms, hospital management software, and patient portals that improve care quality and operational efficiency.
+                At BTJ Alpha Technology, we provide Custom Healthcare Software Development Services in India to help hospitals, clinics, and healthcare providers digitize their operations efficiently. Our advanced healthcare platforms improve patient care, streamline hospital management, and ensure secure data handling.<br></br>
+                Our comprehensive solutions include Electronic Health Records (EHR), telemedicine platforms, hospital management systems, pharmacy software, patient portals, and medical imaging systems — all built with scalability and compliance in mind.
+
               </p>
+              
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={openForm}
@@ -197,7 +200,7 @@ function Healthcare() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Key Features of Healthcare Solutions
+              Key Features of Our Healthcare Solutions
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -217,7 +220,7 @@ function Healthcare() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our Healthcare Services
+              Our Healthcare Development Services
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -237,7 +240,7 @@ function Healthcare() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Benefits of Healthcare Technology
+              Benefits of Our Healthcare Technology Solutions
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -257,7 +260,7 @@ function Healthcare() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Us?
+              Why Choose BTJ Alpha Technology?
             </h2>
           </div>
           <div className="grid md:grid-cols-4 gap-8 container mx-auto px-4">
@@ -283,7 +286,7 @@ function Healthcare() {
             Ready to Transform Healthcare?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to enhance your healthcare technology platform.
+           Partner with BTJ Alpha Technology for reliable and scalable Custom Healthcare Software Development Services in India that drive healthcare innovation and operational excellence.
           </p>
           <button
             onClick={openForm}

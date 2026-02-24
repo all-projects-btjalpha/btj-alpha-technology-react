@@ -25,50 +25,50 @@ function RealEstate() {
     {
       icon: <FaHome className="text-5xl text-[#fb9c24]" />,
       title: "Property Listings",
-      description: "Comprehensive property listing platforms with advanced search and filtering options."
+      description: "Our platforms make property browsing simple and engaging through professional Real Estate Development in India."
     },
     {
       icon: <FaSearch className="text-5xl text-[#10B981]" />,
       title: "Property Search",
-      description: "Advanced property search with location-based filters, price range, and amenities."
+      description: "Advanced search features improve user experience and help customers find the right property faster."
     },
     {
       icon: <FaKey className="text-5xl text-[#8B5CF6]" />,
       title: "Real Estate CRM",
-      description: "Customer relationship management systems tailored for real estate professionals."
+      description: "Manage leads, clients, and follow-ups efficiently with customized CRM systems built specifically for real estate professionals."
     },
     {
       icon: <FaMapMarkerAlt className="text-5xl text-[#06b6d4]" />,
       title: "Location Mapping",
-      description: "Interactive maps with property locations, nearby amenities, and neighborhood insights."
+      description: "Interactive maps allow users to explore property locations, nearby amenities, and neighborhood insights for better decision-making."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#f87171]" />,
       title: "Mobile Applications",
-      description: "iOS and Android apps for property browsing, virtual tours, and agent communication."
+      description: "Our mobile solutions powered by Real Estate Development in India ensure seamless access anytime, anywhere."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#fbbf24]" />,
       title: "Market Analytics",
-      description: "Real estate market analysis with pricing trends, neighborhood statistics, and insights."
+      description: "Analytics tools help businesses make informed investment decisions."
     }
   ];
 
   const realEstateServices = [
     {
       icon: <FaHome className="text-5xl text-[#fb9c24]" />,
-      title: "Real Estate Solutions",
-      description: "Transform real estate experiences with our digital platforms. We build property listing sites, real estate CRMs, virtual tour systems, and mobile apps for agents and brokers."
+      title: "Real Estate Platform Development",
+      description: "BTJ Alpha Technology builds customized real estate platforms tailored to your business needs. Our experience in Real Estate Development in India ensures secure, scalable, and high-performing systems."
     },
     {
       icon: <FaSearch className="text-5xl text-[#10B981]" />,
-      title: "Property Search Platforms",
-      description: "Creating comprehensive property search platforms with advanced filtering."
+      title: "Property Search Platform Development",
+      description: "We create feature-rich property search systems with advanced filtering and mapping integration."
     },
     {
       icon: <FaMapMarkerAlt className="text-5xl text-[#8B5CF6]" />,
-      title: "Location-Based Systems",
-      description: "Developing interactive mapping solutions for property locations."
+      title: "Location-Based System Development",
+      description: "Develop interactive location-based solutions that enhance property discovery and improve user engagement."
     }
   ];
 
@@ -76,17 +76,17 @@ function RealEstate() {
     {
       icon: <FaHome className="text-5xl text-[#fb9c24]" />,
       title: "Efficiency",
-      description: "Streamline real estate operations with digital tools and automation."
+      description: "Automate property management, lead tracking, and communication with digital tools."
     },
     {
       icon: <FaSearch className="text-5xl text-[#10B981]" />,
-      title: "Discovery",
-      description: "Enhanced property discovery with advanced search and visualization."
+      title: "Better Discovery",
+      description: "Advanced search and mapping tools help customers discover properties easily."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#8B5CF6]" />,
-      title: "Analytics",
-      description: "Gain insights into real estate market trends and performance."
+      title: "Powerful Analytics",
+      description: "Get real-time insights into property trends and market performance using intelligent dashboards built with modern Real Estate Development in India standards."
     }
   ];
 
@@ -94,22 +94,22 @@ function RealEstate() {
     {
       icon: <FaUsers className="text-5xl text-[#fb9c24]" />,
       title: "Expert Team",
-      description: "Our team has extensive experience in real estate technology solutions."
+      description: "Our team has extensive experience in building real estate technology solutions."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
       title: "Best Practices",
-      description: "We follow industry best practices for real estate technology development."
+      description: "We follow industry standards and modern development approaches."
     },
     {
       icon: <FaClock className="text-5xl text-[#8B5CF6]" />,
       title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      description: "Agile development ensures timely project completion."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#f87171]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      description: "Every solution undergoes comprehensive testing to ensure reliability and performance."
     }
   ];
 
@@ -137,12 +137,12 @@ function RealEstate() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
             <div data-aos="fade-right">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Real Estate<br />
-                Solutions
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                Real Estate Solutions – Smart & Scalable Development in India
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Transform real estate experiences with our digital platforms. We build property listing sites, real estate CRMs, virtual tour systems, and mobile apps for agents and brokers.
+                BTJ Alpha Technology delivers advanced Real Estate Solutions designed to transform property businesses with modern digital platforms. We build powerful property listing websites, real estate CRMs, virtual tour systems, and mobile applications for agents and brokers.
+                <br></br>With strong expertise in Real Estate Development in India, we help real estate companies streamline operations, improve customer engagement, and increase sales through secure and scalable technology.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -257,7 +257,7 @@ function RealEstate() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Us?
+             Why Choose BTJ Alpha Technology?
             </h2>
           </div>
           <div className="grid md:grid-cols-4 gap-8 container mx-auto px-4">
@@ -283,7 +283,7 @@ function RealEstate() {
             Ready to Transform Real Estate Experiences?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to enhance your real estate technology platform.
+            Partner with BTJ Alpha Technology for innovative and scalable Real Estate Development in India. We help you build powerful digital platforms that enhance customer experience and drive business growth.
           </p>
           <button
             onClick={openForm}

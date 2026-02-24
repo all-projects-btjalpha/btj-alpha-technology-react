@@ -46,7 +46,7 @@ const Services = () => {
     },
     { 
       name: "Mobile App Development", 
-      path: "/mobile-app-development", 
+      path: "/mobile-app-development-company-in-india", 
       icon: <FaMobileAlt className="text-3xl text-[#9b59b6]" />,
       description: "Develop innovative mobile applications for iOS and Android platforms that engage users and drive business growth."
     },
@@ -58,37 +58,37 @@ const Services = () => {
     },
     { 
       name: "Product Development", 
-      path: "/product-development", 
+      path: "/product-development-services-in-india", 
       icon: <FaCogs className="text-3xl text-[#1abc9c]" />,
       description: "End-to-end product development services from ideation to launch, ensuring market-ready solutions."
     },
     { 
       name: "PWA Development", 
-      path: "/pwa-development", 
+      path: "/progressive-web-app-development-company-in-india", 
       icon: <FaMobileAlt className="text-3xl text-[#f39c12]" />,
       description: "Build progressive web applications that combine the best of web and mobile app experiences."
     },
     { 
       name: "Web API", 
-      path: "/web-api", 
+      path: "/api-development-company-in-india", 
       icon: <FaCode className="text-3xl text-[#16a085]" />,
       description: "Develop secure and scalable RESTful APIs to power your digital applications and integrations."
     },
     { 
       name: "Software Architecture", 
-      path: "/software-architecture", 
+      path: "/software-architecture-services-in-india", 
       icon: <FaCogs className="text-3xl text-[#d35400]" />,
       description: "Design robust software architectures that ensure scalability, maintainability, and future growth."
     },
     { 
       name: "Software Testing", 
-      path: "/software-testing", 
+      path: "/software-testing-companies-in-india", 
       icon: <FaVial className="text-3xl text-[#c0392b]" />,
       description: "Comprehensive testing services to ensure your software is bug-free, secure, and performs optimally."
     },
     { 
       name: "UI/UX Design", 
-      path: "/ui-ux-design", 
+      path: "/ui-ux-design-company-in-india", 
       icon: <FaPalette className="text-3xl text-[#8e44ad]" />,
       description: "Create intuitive user interfaces and exceptional user experiences that delight your customers."
     },
@@ -127,7 +127,7 @@ const Services = () => {
     },
     { 
       name: "Social Media Marketing", 
-      path: "/social-media-marketing", 
+      path: "/social-media-marketing-company-in-india", 
       icon: <FaBullhorn className="text-3xl text-[#e74c3c]" />,
       description: "Build brand awareness and engage your audience across all major social media platforms."
     },

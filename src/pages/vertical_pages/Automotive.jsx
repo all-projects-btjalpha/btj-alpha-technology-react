@@ -25,68 +25,68 @@ function Automotive() {
     {
       icon: <FaCar className="text-5xl text-[#fb9c24]" />,
       title: "Vehicle Management",
-      description: "Comprehensive vehicle tracking, maintenance scheduling, and fleet management systems."
+      description: "Our platforms developed through expert Automotive Development in India help businesses manage vehicles efficiently and reduce downtime."
     },
     {
       icon: <FaTachometerAlt className="text-5xl text-[#10B981]" />,
-      title: "Telematics",
-      description: "Real-time vehicle diagnostics, GPS tracking, and driver behavior monitoring."
+      title: "Telematics Systems",
+      description: "Telematics solutions improve safety, reduce costs, and enhance fleet visibility."
     },
     {
       icon: <FaCogs className="text-5xl text-[#8B5CF6]" />,
       title: "Garage Management",
-      description: "Shop management systems with appointment scheduling, parts inventory, and billing."
+      description: "We design customized garage systems powered by reliable Automotive Development in India standards."
     },
     {
       icon: <FaOilCan className="text-5xl text-[#06b6d4]" />,
       title: "Maintenance Alerts",
-      description: "Automated maintenance reminders based on mileage, time, and diagnostic data."
+      description: "Automated service reminders based on mileage, time, and diagnostic data.These alerts help prevent breakdowns and extend vehicle life."
     },
     {
       icon: <FaWrench className="text-5xl text-[#f87171]" />,
       title: "Service Booking",
-      description: "Online service appointment booking with real-time availability and notifications."
+      description: "Online service booking systems with real-time availability and automated notifications to improve customer experience."
     },
     {
       icon: <FaGasPump className="text-5xl text-[#fbbf24]" />,
       title: "Fuel Management",
-      description: "Fuel tracking, expense management, and optimization for fleet operations."
+      description: "Monitor fuel usage, control expenses, and optimize fleet operations with intelligent fuel tracking tools."
     }
   ];
 
   const automotiveServices = [
     {
       icon: <FaCar className="text-5xl text-[#fb9c24]" />,
-      title: "Automotive Solutions",
-      description: "Transform automotive experiences with our digital platforms. We build vehicle management systems, telematics solutions, garage management software, and mobile apps for dealerships and service centers."
+      title: "Automotive Software Development",
+      description: "We develop custom automotive software solutions for dealerships and service centers."
     },
     {
       icon: <FaTachometerAlt className="text-5xl text-[#10B981]" />,
-      title: "Telematics Systems",
-      description: "Creating real-time vehicle diagnostic and tracking systems."
+      title: "Telematics System Development",
+      description: "We develop advanced tracking and diagnostic systems that provide real-time vehicle data and actionable insights."
     },
     {
       icon: <FaCogs className="text-5xl text-[#8B5CF6]" />,
-      title: "Garage Management",
-      description: "Developing shop management systems with appointment scheduling."
+      title: "Garage & Fleet Management Solutions",
+      description: "Custom-built management systems designed to improve workflow, automate processes, and increase productivity."
     }
   ];
 
   const benefits = [
     {
       icon: <FaCar className="text-5xl text-[#fb9c24]" />,
-      title: "Efficiency",
-      description: "Streamline automotive operations with digital tools and automation."
+      title: "Improved Efficiency",
+      description: "Automate operations and reduce manual work with integrated digital systems."
     },
     {
       icon: <FaTachometerAlt className="text-5xl text-[#10B981]" />,
-      title: "Tracking",
-      description: "Real-time vehicle and fleet tracking with diagnostic insights."
+      title: "Real-Time Tracking",
+      description: "Monitor vehicles and fleets with accurate GPS and diagnostic insights."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#8B5CF6]" />,
-      title: "Analytics",
-      description: "Gain insights into vehicle performance and operational metrics."
+      title: "Data-Driven Analytics",
+      description: "Gain valuable insights into vehicle performance, operational metrics, and cost optimization using advanced dashboards built with modern Automotive Development in India practices."
     }
   ];
 
@@ -94,22 +94,22 @@ function Automotive() {
     {
       icon: <FaUsers className="text-5xl text-[#fb9c24]" />,
       title: "Expert Team",
-      description: "Our team has extensive experience in automotive technology solutions."
+      description: "Our team has deep experience in automotive technology development."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
       title: "Best Practices",
-      description: "We follow industry best practices for automotive technology development."
+      description: "We follow industry standards and proven methodologies for reliable system delivery."
     },
     {
       icon: <FaClock className="text-5xl text-[#8B5CF6]" />,
       title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      description: "Agile development ensures timely project completion."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#f87171]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      description: "Every solution undergoes comprehensive testing to ensure performance, security, and reliability."
     }
   ];
 
@@ -138,11 +138,11 @@ function Automotive() {
             {/* Left Content */}
             <div data-aos="fade-right">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Automotive<br />
-                Solutions
+                Automotive Solutions – Smart & Scalable Development in India
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Transform automotive experiences with our digital platforms. We build vehicle management systems, telematics solutions, garage management software, and mobile apps for dealerships and service centers.
+                BTJ Alpha Technology delivers advanced Automotive Solutions designed to transform modern vehicle operations with digital innovation. We build vehicle management systems, telematics platforms, garage management software, and mobile apps for dealerships and service centers.
+                <br></br>With strong expertise in Automotive Development in India, we create secure, scalable, and high-performance systems that improve efficiency, tracking, and operational control.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -257,7 +257,7 @@ function Automotive() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Us?
+              Why Choose BTJ Alpha Technology?
             </h2>
           </div>
           <div className="grid md:grid-cols-4 gap-8 container mx-auto px-4">
@@ -283,7 +283,7 @@ function Automotive() {
             Ready to Transform Automotive Experiences?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to enhance your automotive technology platform.
+            Partner with BTJ Alpha Technology for innovative and scalable Automotive Development in India. We help automotive businesses enhance efficiency, improve tracking, and drive operational success through powerful digital solutions.
           </p>
           <button
             onClick={openForm}
