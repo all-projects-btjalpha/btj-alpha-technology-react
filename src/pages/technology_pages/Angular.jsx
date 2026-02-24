@@ -233,7 +233,7 @@ function Angular() {
               <p className="text-gray-600 leading-relaxed mb-6">
                 At BTJ Alpha Technology Pvt. Ltd., we use Angular’s component-based development approach and dependency injection model to build maintainable and scalable applications.
               </p>
-             <p>
+             <p  className="text-gray-600 leading-relaxed mb-6">
               Key Benefits of Angular:  Strong TypeScript-based architecture,Reusable and modular components,Enhanced application performance,Two-way data binding,Built-in testing capabilities,Enterprise-level scalability
 
              </p>
