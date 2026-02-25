@@ -20,7 +20,7 @@ function Shopify() {
   const toggleFAQ = (index) => setOpenFAQ(openFAQ === index ? null : index);
 
   const shopifyServices = [
-    {
+    { 
       icon: <FaShoppingCart className="text-5xl text-[#96BF48]" />,
       title: "Shopify Store Development",
       description: "We design and develop visually appealing, high-converting Shopify stores tailored to your brand identity."
@@ -32,26 +32,26 @@ function Shopify() {
     },
     {
       icon: <FaCreditCard className="text-5xl text-[#96BF48]" />,
-      title: "Payment Gateway Integration",
-      description: "We integrate secure payment gateways and configure checkout processes to ensure smooth transactions and increased customer trust."
+      title: "Payment Gateway & Shipping Integration",
+      description: "Secure payment gateway setup and smooth shipping integration for hassle-free transactions."
     },
     {
       icon: <FaShippingFast className="text-5xl text-[#96BF48]" />,
-      title: "Inventory & Order Management",
-      description: "Streamline your operations with our inventory and order management solutions that integrate seamlessly with your Shopify store."
+      title: "Shopify App Development & Integration",
+      description: "Need advanced functionality? We develop and integrate custom Shopify apps to extend your store capabilities."
     }
   ];
 
   const whyShopify = [
     {
       icon: <FaChartLine className="text-4xl text-[#96BF48]" />,
-      title: "Easy to Use",
-      description: "Shopify's intuitive interface allows you to manage your online store without technical expertise, making e-commerce accessible to everyone."
+      title: "Easy to Manage",
+      description: "Shopify offers a user-friendly interface, making store management simple even for non-technical users."
     },
     {
       icon: <FaLock className="text-4xl text-[#0088cc]" />,
-      title: "Secure Transactions",
-      description: "Enterprise-grade security protects your customer data and transactions with SSL certificates, PCI compliance, and fraud analysis."
+      title: "Secure & Reliable",
+      description: "Built-in SSL, PCI compliance, and advanced security features ensure safe transactions."
     },
     {
       icon: <FaCode className="text-4xl text-[#4285F4]" />,
@@ -61,30 +61,30 @@ function Shopify() {
     {
       icon: <FaMobileAlt className="text-4xl text-[#10B981]" />,
       title: "Mobile Optimization",
-      description: "Built-in mobile responsiveness ensures your store looks great and functions perfectly on all devices and screen sizes."
+      description: "Fully responsive design that works perfectly across all devices."
     },
     {
       icon: <FaUsers className="text-4xl text-[#8B5CF6]" />,
       title: "SEO Friendly",
-      description: "Shopify's built-in SEO features help your store rank higher in search results, driving more organic traffic to your products."
+      description: "Shopify comes with built-in SEO features that help your store rank higher on search engines."
     }
   ];
 
   const whyChooseUs = [
     {
       icon: <FaUsers className="text-4xl text-[#96BF48]" />,
-      title: "Expert Shopify Developers",
-      description: "Our team consists of certified Shopify developers with extensive experience in creating successful e-commerce stores across various industries."
+      title: "Experienced Shopify Developers",
+      description: "Our skilled team has deep expertise in Shopify eCommerce development across multiple industries."
     },
     {
       icon: <FaClock className="text-4xl text-[#0088cc]" />,
-      title: "On-Time Delivery",
-      description: "We understand the importance of launching your store quickly. Our streamlined process ensures timely delivery without compromising quality."
+      title: "On-Time Project Delivery",
+      description: "Agile development process ensuring quick and efficient deployment."
     },
     {
       icon: <FaChartLine className="text-4xl text-[#4285F4]" />,
       title: "Custom Solutions",
-      description: "Every business is unique, and we create customized Shopify solutions that align with your specific requirements and business objectives."
+      description: "We deliver tailored Shopify development services aligned with your business goals."
     },
     {
       icon: <FaShieldAlt className="text-4xl text-[#10B981]" />,
@@ -93,8 +93,8 @@ function Shopify() {
     },
     {
       icon: <FaCogs className="text-4xl text-[#8B5CF6]" />,
-      title: "Competitive Pricing",
-      description: "We offer transparent pricing models that provide value without compromising on quality, ensuring your investment delivers maximum ROI."
+      title: "Affordable Pricing",
+      description: "Cost-effective solutions without compromising quality."
     }
   ];
 
@@ -241,11 +241,10 @@ function Shopify() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-[#1c438d] mb-4">
-              Shopify Development Services
+            Our Shopify Development Services
             </h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
-              Step2gen Technologies offers a comprehensive range of Shopify development services to help businesses establish and grow their online presence effectively.
-            </p>
+              BTJ Alpha Technology is a trusted Shopify development company in India delivering high-quality, scalable, and result-driven eCommerce solutions.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -272,7 +271,7 @@ function Shopify() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-[#1c438d] mb-4">
-              Why Consider Shopify for Your E-commerce Business
+              Why Choose BTJ Alpha Technology for Shopify Development?
             </h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
               Shopify offers numerous advantages that make it the preferred choice for businesses looking to establish a strong online presence.

@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaMousePointer, FaAd, FaChartLine, FaGoogle, FaBullseye, FaMoneyCheckAlt,
   FaCheckCircle, FaChevronDown, FaChevronUp, FaCogs, FaCloud,
   FaLock, FaCode, FaTachometerAlt, FaClipboardCheck, FaSearchDollar
@@ -29,22 +29,22 @@ function PPCAdvertising() {
     {
       icon: <FaBullseye className="text-5xl text-green-600" />,
       title: "Targeted Campaigns",
-      description: "Precise audience targeting based on demographics, interests, behaviors, and intent signals to reach your ideal customers."
+      description: "Reach the right audience at the right time.We use advanced targeting methods based on: Demographics,Interests,Search intent,Behavior tracking"
     },
     {
       icon: <FaChartLine className="text-5xl text-orange-600" />,
-      title: "Performance Analytics",
-      description: "Comprehensive tracking and reporting to measure campaign effectiveness, optimize spend, and maximize conversion rates."
+      title: "Performance Analytics & Reporting",
+      description: "Data drives success.We provide: Conversion tracking,ROI measurement,Campaign performance reports,A/B testing analysis"
     },
     {
       icon: <FaAd className="text-5xl text-purple-600" />,
       title: "Ad Copy Optimization",
-      description: "Compelling ad copy creation and A/B testing to improve click-through rates and drive more qualified traffic to your website."
+      description: "We craft compelling ad copies that: Increase Click-Through Rate (CTR),Improve Quality Score,Reduce Cost-Per-Click (CPC),Drive better conversions"
     },
     {
       icon: <FaMoneyCheckAlt className="text-5xl text-cyan-600" />,
-      title: "Budget Management",
-      description: "Strategic budget allocation and bid management to maximize clicks and conversions within your advertising budget."
+      title: "Budget & Bid Management",
+      description: "We strategically manage your ad budget to: Maximize clicks,Improve conversions,Lower acquisition cost,Scale winning campaigns"
     }
   ];
 
@@ -90,10 +90,11 @@ function PPCAdvertising() {
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
                 Pay-Per-Click<br />
                 Advertising<br />
-                Services
+                Services in India
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Get instant visibility with Pay-Per-Click advertising. Drive targeted traffic, generate quality leads, and achieve measurable results with optimized PPC campaigns that maximize your return on investment.
+                Get instant visibility and measurable growth with professional Pay Per Click (PPC) advertising services from BTJ Alpha Technology.
+                We help businesses generate targeted traffic, high-quality leads, and maximum ROI through data-driven PPC campaigns.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -133,14 +134,14 @@ function PPCAdvertising() {
                           <span className="text-sm font-bold text-blue-600">2,847</span>
                         </div>
                         <div className="w-full bg-gray-200 rounded-full h-2">
-                          <div className="bg-blue-600 h-2 rounded-full" style={{width: '75%'}}></div>
+                          <div className="bg-blue-600 h-2 rounded-full" style={{ width: '75%' }}></div>
                         </div>
                         <div className="flex justify-between items-center">
                           <span className="text-xs text-gray-600">Conversions</span>
                           <span className="text-sm font-bold text-green-600">156</span>
                         </div>
                         <div className="w-full bg-gray-200 rounded-full h-2">
-                          <div className="bg-green-600 h-2 rounded-full" style={{width: '65%'}}></div>
+                          <div className="bg-green-600 h-2 rounded-full" style={{ width: '65%' }}></div>
                         </div>
                         <div className="flex justify-between items-center">
                           <span className="text-xs text-gray-600">ROI</span>
@@ -204,13 +205,14 @@ function PPCAdvertising() {
             {/* Right Content */}
             <div data-aos="fade-left">
               <p className="text-gray-600 leading-relaxed mb-6">
-                Our PPC advertising services help you get instant visibility with Pay-Per-Click campaigns that drive targeted traffic, generate quality leads, and achieve measurable results. We manage every aspect of your PPC strategy from keyword research and campaign setup to ongoing optimization and performance tracking.
+                Our PPC management services are designed to deliver real business growth. From keyword research to performance tracking, we manage every aspect of your campaigns.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Our expert team uses data-driven approaches to maximize your advertising return on investment while minimizing wasted spend. We focus on creating high-converting campaigns that deliver real business results through strategic targeting, compelling ad copy, and continuous optimization based on performance data.
+                We focus on:  High-intent keyword targeting,Strategic audience segmentation,Compelling ad copy creation,Budget optimization,Continuous performance improvement
+
               </p>
               <p className="text-gray-600 leading-relaxed">
-                With our comprehensive PPC management services, you can expect increased website traffic, higher conversion rates, improved brand visibility, and measurable return on your advertising investment. We provide transparent reporting and work closely with you to achieve your specific business goals.
+                Our goal is simple — maximize your advertising ROI while minimizing wasted spend.
               </p>
             </div>
           </div>
@@ -249,9 +251,11 @@ function PPCAdvertising() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="text-white max-w-xl" data-aos="fade-right">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Ready to Maximize Your Advertising ROI?<br />
+                 Ready to Maximize Your Advertising ROI?
+
                 Start Your PPC Campaign Today
               </h2>
+              <p>Start your PPC campaign today with BTJ Alpha Technology and generate measurable business growth</p>
             </div>
             <div data-aos="fade-left">
               <button
@@ -291,9 +295,8 @@ function PPCAdvertising() {
                   )}
                 </button>
                 <div
-                  className={`transition-all duration-300 overflow-hidden ${
-                    openFAQ === index ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
-                  }`}
+                  className={`transition-all duration-300 overflow-hidden ${openFAQ === index ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+                    }`}
                 >
                   <p className="p-5 pt-0 text-gray-600 leading-relaxed border-t border-gray-100">
                     {faq.answer}
