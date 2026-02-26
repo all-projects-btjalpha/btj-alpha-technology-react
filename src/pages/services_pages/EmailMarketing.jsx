@@ -24,17 +24,17 @@ function EmailMarketing() {
     {
       icon: <FaEnvelope className="text-5xl text-blue-600" />,
       title: "Campaign Management",
-      description: "End-to-end email campaign management from strategy to execution, including planning, design, scheduling, and performance tracking."
+      description: "End-to-end email campaign planning and execution including strategy, design, scheduling, testing, and performance tracking."
     },
     {
       icon: <FaMagic className="text-5xl text-green-600" />,
       title: "Email Design & Templates",
-      description: "Beautiful, responsive email templates that work across all devices and email clients with modern design principles and brand consistency."
+      description: "Beautiful, mobile-responsive email templates designed for maximum engagement and brand consistency."
     },
     {
       icon: <FaUsers className="text-5xl text-orange-600" />,
       title: "List Segmentation",
-      description: "Target the right audience with smart segmentation and personalization based on behavior, demographics, and engagement patterns."
+      description: "Advanced segmentation based on user behavior, demographics, purchase history, and engagement patterns to deliver personalized messaging"
     },
     {
       icon: <FaPaperPlane className="text-5xl text-purple-600" />,
@@ -59,15 +59,15 @@ function EmailMarketing() {
   const faqs = [
     {
       question: "What makes email marketing effective for businesses?",
-      answer: "Email marketing is effective because it allows direct, personalized communication with your audience at a fraction of traditional marketing costs. It offers high ROI (often 38:1), precise targeting capabilities, measurable results, and the ability to nurture leads through automated workflows. Unlike social media algorithms, you own your email list and can reach subscribers directly."
+      answer: "Email marketing allows direct communication with your audience, personalized messaging, and measurable performance tracking for higher ROI."
     },
     {
       question: "How do you ensure good email deliverability?",
-      answer: "We ensure high deliverability through proper list hygiene, authentication protocols (SPF, DKIM, DMARC), engaging content that avoids spam triggers, proper sending frequency, and compliance with anti-spam regulations like CAN-SPAM and GDPR. We also monitor sender reputation and maintain clean, engaged subscriber lists."
+      answer: "We follow best practices including proper list hygiene, authentication setup (SPF, DKIM), segmentation, and spam compliance standards."
     },
     {
       question: "What email platforms do you work with?",
-      answer: "We work with major email marketing platforms including Mailchimp, Constant Contact, SendGrid, HubSpot, ActiveCampaign, and custom ESP solutions. We choose the platform that best fits your business needs, budget, and technical requirements while ensuring seamless integration with your existing systems."
+      answer: "We work with popular platforms like Mailchimp, HubSpot, SendGrid, Zoho Campaigns, and other CRM-integrated tools."
     },
     {
       question: "How quickly can we see results from email marketing?",
@@ -87,13 +87,14 @@ function EmailMarketing() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
             <div data-aos="fade-right">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Email<br />
-                Marketing<br />
-                Services
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                Email Marketing Services in India
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Build lasting relationships with your audience through strategic email marketing. Drive engagement, nurture leads, and boost conversions with personalized campaigns that deliver measurable results.
+                Build lasting customer relationships and boost conversions with professional Email Marketing Services from BTJ Alpha Technology.
+                <br></br>We create strategic, data-driven email campaigns that nurture leads, increase engagement, and drive measurable business growth. From campaign planning to automation and analytics, we manage everything to maximize your ROI.
+                <br></br>If you want higher open rates, better click-through rates, and more conversions — email marketing is your most powerful digital asset.
+
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -235,9 +236,9 @@ function EmailMarketing() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="text-white max-w-xl" data-aos="fade-right">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Ready to Transform Your Email Marketing?<br />
-                Let's Build Your Campaign Strategy
+                Ready to Transform Your Email Marketing?
               </h2>
+              <p className="text-white text-lg mb-8 leading-relaxed">Let’s build a powerful email marketing strategy that drives engagement, conversions, and long-term growth.</p>
             </div>
             <div data-aos="fade-left">
               <button
