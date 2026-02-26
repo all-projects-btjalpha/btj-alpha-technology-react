@@ -101,14 +101,14 @@ const Footer = () => {
                   → Portfolio
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   to="/bulk-sms"
                   className="text-white/90 hover:text-white hover:translate-x-2 inline-block transition-all duration-300 text-xs sm:text-sm"
                 >
                   → Bulk SMS
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   to="/contact"
@@ -233,7 +233,7 @@ const Footer = () => {
                   → Node.js
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   to="/technologies/python"
                   className="text-white/90 hover:text-white hover:translate-x-2 inline-block transition-all duration-300 text-xs sm:text-sm"
@@ -248,7 +248,7 @@ const Footer = () => {
                 >
                   → PHP
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   to="/react-native-development-company-in-india"
