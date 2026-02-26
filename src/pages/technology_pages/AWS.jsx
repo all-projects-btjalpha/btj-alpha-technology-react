@@ -25,32 +25,32 @@ function AWS() {
     {
       icon: <FaAws className="text-5xl text-[#ff9900]" />,
       title: "Leading Cloud Platform",
-      description: "World's most comprehensive and widely adopted cloud platform with 200+ services."
+      description: "AWS is the world’s most comprehensive and widely adopted cloud platform, offering 200+ fully featured services from global data centers."
     },
     {
       icon: <FaCloud className="text-5xl text-[#ff9900]" />,
       title: "Scalable Infrastructure",
-      description: "Auto-scaling compute, storage, and networking resources on demand."
+      description: "Easily scale compute, storage, and networking resources based on demand. AWS allows businesses to grow without worrying about infrastructure limitations."
     },
     {
       icon: <FaServer className="text-5xl text-[#ff9900]" />,
       title: "EC2 & Lambda",
-      description: "Flexible compute options with EC2 instances and serverless Lambda functions."
+      description: "Flexible computing options with Amazon EC2 for virtual servers and AWS Lambda for serverless execution. Run applications efficiently without managing physical servers."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#ff9900]" />,
       title: "Security & Compliance",
-      description: "Enterprise-grade security with IAM, encryption, and compliance certifications."
+      description: "Enterprise-grade security with IAM, encryption, and multiple compliance certifications to protect your data and applications."
     },
     {
       icon: <FaDatabase className="text-5xl text-[#ff9900]" />,
       title: "Database Services",
-      description: "RDS, DynamoDB, Aurora, and more for any database workload."
+      description: "Fully managed database solutions like RDS, DynamoDB, and Aurora to handle any workload securely and efficiently."
     },
     {
       icon: <FaRocket className="text-5xl text-[#ff9900]" />,
       title: "Global Infrastructure",
-      description: "Deploy applications globally with AWS's extensive network of data centers."
+      description: "Deploy applications worldwide using AWS’s extensive network of regions and availability zones for high availability and low latency."
     }
   ];
 
@@ -58,17 +58,17 @@ function AWS() {
     {
       icon: <FaCode className="text-5xl text-[#ff9900]" />,
       title: "Cloud Migration",
-      description: "We help migrate your existing infrastructure to AWS with zero downtime."
+      description: "We help migrate your existing infrastructure and applications to AWS with minimal downtime and zero data loss."
     },
     {
       icon: <FaCloud className="text-5xl text-[#10B981]" />,
       title: "Infrastructure as Code",
-      description: "Using CloudFormation and Terraform to provision and manage AWS resources."
+      description: "Using AWS CloudFormation and Terraform, we automate provisioning and management of your cloud resources for better efficiency and control."
     },
     {
       icon: <FaServer className="text-5xl text-[#8B5CF6]" />,
       title: "Serverless Solutions",
-      description: "Building cost-effective serverless applications using Lambda and other services."
+      description: "We build cost-effective serverless applications using AWS Lambda and other AWS tools to reduce operational overhead."
     }
   ];
 
@@ -76,17 +76,17 @@ function AWS() {
     {
       icon: <FaAws className="text-5xl text-[#ff9900]" />,
       title: "Cost Effective",
-      description: "Pay only for what you use with no upfront costs or long-term commitments."
+      description: "Pay only for the resources you use. No upfront costs or long-term commitments."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
       title: "Global Reach",
-      description: "Deploy applications worldwide with AWS's extensive global infrastructure."
+      description: "Deploy your applications globally with AWS’s vast cloud infrastructure network."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#10B981]" />,
       title: "Enterprise Security",
-      description: "Top-tier security features with compliance certifications and encryption."
+      description: "Advanced security features ensure data protection, compliance, and risk management."
     }
   ];
 
@@ -94,22 +94,22 @@ function AWS() {
     {
       icon: <FaUsers className="text-5xl text-[#ff9900]" />,
       title: "Certified Experts",
-      description: "AWS-certified professionals with extensive cloud architecture experience."
+      description: "Our AWS-certified professionals have strong experience in cloud architecture and deployment."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
       title: "Best Practices",
-      description: "We follow AWS best practices for secure, efficient cloud deployments."
+      description: "We follow AWS best practices for secure, optimized, and high-performing cloud environments."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
       title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      description: "Agile methodologies ensure timely project completion."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      description: "Agile methodologies ensure timely project completion."
     }
   ];
 
@@ -141,9 +141,8 @@ function AWS() {
                 AWS Cloud<br />
                 Services
               </h1>
-              <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Build and deploy on AWS Cloud. Our certified AWS experts help you leverage Amazon Web Services for scalable, secure, and cost-effective cloud solutions.
-              </p>
+              <p className="text-gray-600 max-w-3xl mx-auto">
+               At BTJ Alpha Technology, we deliver reliable and scalable AWS Cloud Services to help businesses build, deploy, and manage applications in the cloud. Our certified AWS experts help you leverage Amazon Web Services for secure, flexible, and cost-effective cloud solutions tailored to your needs.</p><br></br>
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={openForm}
@@ -219,6 +218,7 @@ function AWS() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Our AWS Services
             </h2>
+            <p className="text-gray-600 max-w-3xl mx-auto">At BTJ Alpha Technology, our AWS Cloud Services are designed to help organizations transition smoothly to the cloud.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
             {awsServices.map((item, i) => (
@@ -283,7 +283,7 @@ function AWS() {
             Ready to Migrate to AWS Cloud?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to leverage the power of AWS for your next project.
+            Partner with BTJ Alpha Technology for trusted and scalable AWS Cloud Services that empower your business growth.
           </p>
           <button
             onClick={openForm}

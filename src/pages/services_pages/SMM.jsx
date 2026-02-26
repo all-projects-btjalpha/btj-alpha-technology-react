@@ -21,7 +21,7 @@ function SocialMediaMarketing() {
       icon: <FaCode className="text-orange-500 text-3xl" />,
       title: "Media Solutions",
       description:
-        "We design high-converting paid social media advertising campaigns focused on lead generation, brand awareness, and sales growth.",
+        "We design high-converting paid social media advertising campaigns focused on lead generation, brand awareness.",
       backContent:
         "Boost your brand's reach with targeted campaigns and smart media planning.",
     },
@@ -29,7 +29,7 @@ function SocialMediaMarketing() {
       icon: <MdEdit className="text-orange-500 text-3xl" />,
       title: "Brand Solutions",
       description:
-        "Our team builds strong digital identities through creative storytelling, branding strategy, and engaging social media content.",
+        "Our team builds strong digital identities through creative storytelling, branding strategy.",
       backContent:
         "Create a unique brand identity that resonates with your audience.",
     },
@@ -37,7 +37,7 @@ function SocialMediaMarketing() {
       icon: <MdEdit className="text-orange-500 text-3xl" />,
       title: "Films & Photography",
       description:
-        "Professional reels, promotional videos, and branded content production tailored for Instagram, Facebook, and YouTube marketing.",
+        "Professional reels, promotional videos,content production tailoredforInstagram.",
       backContent:
         "Produce captivating visuals that tell your brand's story effectively.",
     },
@@ -53,7 +53,7 @@ function SocialMediaMarketing() {
       icon: <FaChartBar className="text-orange-500 text-3xl" />,
       title: "Tech Solutions",
       description:
-        "Landing page development, conversion tracking setup, and CRM integration to maximize campaign results.",
+        "Landing page development, conversion, and CRM integration to maximize campaign results.",
       backContent:
         "Deliver innovative tech solutions to streamline your business.",
     },
@@ -61,7 +61,7 @@ function SocialMediaMarketing() {
       icon: <FaChartBar className="text-orange-500 text-3xl" />,
       title: "Research Solutions",
       description:
-        "In-depth competitor analysis, audience targeting research, and performance tracking for campaign optimization.",
+        "In-depth competitor analysis, audience targeting research, and performance optimization.",
       backContent:
         "Gain valuable insights to make informed business decisions.",
     },

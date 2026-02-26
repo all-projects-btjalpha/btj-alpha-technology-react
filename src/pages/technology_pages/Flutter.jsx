@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaMobileAlt, FaRocket, FaPalette, FaCode, FaAndroid,
   FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaUsers,
   FaSync, FaDatabase, FaChartLine, FaTools, FaCogs, FaServer, FaLayerGroup, FaApple
@@ -26,32 +26,32 @@ function Flutter() {
     {
       icon: <SiFlutter className="text-5xl text-[#02569b]" />,
       title: "Beautiful UI",
-      description: "Create stunning, highly customized UIs with Flutter's rich widget library."
+      description: "Create stunning and highly customized user interfaces with Flutter’s rich widget library."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#02569b]" />,
       title: "Cross-Platform",
-      description: "Single codebase for iOS, Android, Web, and Desktop applications."
+      description: "Use a single codebase to build apps for iOS, Android, Web, and Desktop."
     },
     {
       icon: <FaRocket className="text-5xl text-[#02569b]" />,
       title: "Fast Performance",
-      description: "Compiled to native ARM code for exceptional performance on mobile."
+      description: "Flutter apps are compiled to native ARM code for smooth and fast performance."
     },
     {
       icon: <FaPalette className="text-5xl text-[#02569b]" />,
       title: "Material & Cupertino",
-      description: "Pre-built widgets following Material Design and iOS design guidelines."
+      description: "Pre-built widgets follow Material Design and iOS design guidelines."
     },
     {
       icon: <FaCode className="text-5xl text-[#02569b]" />,
       title: "Hot Reload",
-      description: "Instant updates during development without losing app state."
+      description: "See instant updates during development without losing the app’s current state."
     },
     {
       icon: <FaAndroid className="text-5xl text-[#02569b]" />,
       title: "Native Features",
-      description: "Easy access to native platform features through platform channels."
+      description: "Easy access to native device features using platform channels."
     }
   ];
 
@@ -59,17 +59,17 @@ function Flutter() {
     {
       icon: <FaCode className="text-5xl text-[#02569b]" />,
       title: "Flutter App Development",
-      description: "We build fast, expressive, and flexible mobile, web, and desktop applications using Flutter's powerful framework."
+      description: "We build fast, flexible, and scalable mobile, web, and desktop applications using Flutter’s powerful framework."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#10B981]" />,
       title: "Cross-Platform Solutions",
-      description: "Creating apps that work seamlessly across iOS, Android, web, and desktop."
+      description: "We create apps that work smoothly on iOS, Android, web, and desktop using a single codebase."
     },
     {
       icon: <FaRocket className="text-5xl text-[#8B5CF6]" />,
       title: "Performance Optimization",
-      description: "Optimizing Flutter apps for maximum performance and user experience."
+      description: "We optimize Flutter apps to ensure maximum speed, smooth performance, and better user experience."
     }
   ];
 
@@ -77,17 +77,17 @@ function Flutter() {
     {
       icon: <SiFlutter className="text-5xl text-[#02569b]" />,
       title: "Single Codebase",
-      description: "One codebase for multiple platforms, reducing development time and cost."
+      description: "One codebase for multiple platforms helps reduce development time and cost."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
       title: "Native Performance",
-      description: "Compiles to native code for near-native performance on all platforms."
+      description: "Flutter compiles to native code, giving near-native performance on all platforms."
     },
     {
       icon: <FaPalette className="text-5xl text-[#10B981]" />,
       title: "Custom UI",
-      description: "Complete control over UI with rich, customizable widget library."
+      description: "Full control over the user interface with a rich and customizable widget library."
     }
   ];
 
@@ -95,22 +95,22 @@ function Flutter() {
     {
       icon: <FaUsers className="text-5xl text-[#02569b]" />,
       title: "Expert Developers",
-      description: "Flutter specialists with extensive cross-platform development experience."
+      description: "Our Flutter specialists have strong experience in cross-platform app development."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
       title: "Best Practices",
-      description: "We follow Flutter best practices for clean, efficient code."
+      description: "We follow Flutter best practices to deliver clean and efficient code."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
       title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      description: "We use agile methods to complete projects on schedule."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      description: "We perform detailed testing and follow high coding standards to deliver high-quality applications."
     }
   ];
 
@@ -143,8 +143,8 @@ function Flutter() {
                 Development
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Build beautiful multi-platform apps with Flutter. Our team creates fast, expressive, and flexible mobile, web, and desktop applications using Flutter's powerful framework.
-              </p>
+                At BTJ Alpha Technology, we build beautiful and high-performance apps using Flutter.
+                Our team creates fast, flexible, and expressive mobile, web, and desktop applications using Flutter’s powerful framework.</p>
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={openForm}
@@ -220,6 +220,8 @@ function Flutter() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Our Flutter Services
             </h2>
+            <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto"
+            Partner with BTJ Alpha Technology to use the power of Flutte>At BTJ Alpha Technology, we provide complete Flutter development services to build fast and modern applications.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
             {flutterServices.map((item, i) => (
@@ -284,7 +286,9 @@ function Flutter() {
             Ready to Build with Flutter?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to leverage the power of Flutter for your next project.
+            Partner with BTJ Alpha Technology to use the power of Flutter for your next project.
+            We help you create fast, beautiful, and high-performance applications.
+
           </p>
           <button
             onClick={openForm}

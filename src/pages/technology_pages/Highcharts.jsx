@@ -24,91 +24,91 @@ function Highcharts() {
   const chartFeatures = [
     {
       icon: <FaChartBar className="text-5xl text-[#13a35e]" />,
-      title: "Interactive Charts",
-      description: "Beautiful, interactive data visualization components for web applications."
+      title: "Interactive Charts & Dashboards",
+      description: "We create dynamic and fully interactive charts that improve data storytelling and user engagement."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#13a35e]" />,
-      title: "Enterprise Security",
-      description: "Built-in security features and compliance with enterprise standards."
+      title: "Enterprise-Level Security",
+      description: "Our Highcharts development in India and ECharts development in India services follow secure coding practices and enterprise compliance standards."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#13a35e]" />,
-      title: "Responsive Design",
-      description: "Fully responsive charts that work on all device sizes and browsers."
+      title: "Fully Responsive & Mobile-Friendly",
+      description: "All dashboards and charts work smoothly across desktops, tablets, and mobile devices."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#13a35e]" />,
-      title: "Real-time Updates",
-      description: "Live data streaming and real-time chart updates for dynamic dashboards."
+      title: "Real-Time Data Visualization",
+      description: "We develop real-time analytics dashboards with live data streaming and automatic updates."
     },
     {
       icon: <FaCogs className="text-5xl text-[#13a35e]" />,
-      title: "Easy Integration",
-      description: "Simple APIs and SDKs for quick integration with your applications."
+      title: "Easy API & Backend Integration",
+      description: "Our team integrates charts seamlessly with REST APIs, cloud platforms, CRMs, ERPs, and databases."
     },
     {
       icon: <FaLayerGroup className="text-5xl text-[#13a35e]" />,
-      title: "Multiple Chart Types",
-      description: "Comprehensive library of chart types including 3D visualizations."
+      title: "Multiple Advanced Chart Types",
+      description: "We build various chart types including: Line Charts,Bar & Column Charts,Pie & Donut Charts,Area Charts,Heatmaps,Tree Maps,Funnel Charts,Gauge Charts,3D Visualizations"
     }
   ];
 
   const chartServices = [
     {
       icon: <FaChartBar className="text-5xl text-[#13a35e]" />,
-      title: "Chart Development",
-      description: "Building interactive dashboards and data visualization solutions with Highcharts."
+      title: "Custom Highcharts Development",
+      description: "We design and develop interactive, customizable, and scalable Highcharts solutions for web applications and enterprise platforms."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Dashboard Creation",
-      description: "Creating comprehensive business intelligence dashboards and reports."
+      title: "Business Intelligence Dashboard Development",
+      description: "We build advanced BI dashboards with filtering, drill-down reports, export features, and performance optimization."
     },
     {
       icon: <FaServer className="text-5xl text-[#8B5CF6]" />,
-      title: "Data Integration",
-      description: "Integrating charting solutions with existing data sources and APIs."
+      title: "Data Integration & Chart Optimization",
+      description: "We integrate visualization solutions with APIs, cloud databases, and third-party systems while optimizing performance for large datasets."
     }
   ];
 
   const benefits = [
     {
       icon: <FaChartBar className="text-5xl text-[#13a35e]" />,
-      title: "Beautiful Visualizations",
-      description: "Professional, publication-quality charts and graphs for your data."
+      title: "Stunning Data Visualization",
+      description: "Professional-quality charts designed for better decision-making."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
-      title: "Fast Performance",
-      description: "Optimized rendering for smooth, responsive chart interactions."
+      title: "High Performance & Scalability",
+      description: "Optimized rendering for handling large and complex datasets efficiently."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#10B981]" />,
-      title: "Cross-Platform",
-      description: "Works seamlessly across all modern browsers and devices."
+      title: "Cross-Platform Compatibility",
+      description: "Works seamlessly across modern browsers and enterprise systems."
     }
   ];
 
   const whyChooseUs = [
     {
       icon: <FaUsers className="text-5xl text-[#13a35e]" />,
-      title: "Visualization Experts",
+      title: "Skilled Data Visualization Experts",
       description: "Specialists with extensive experience in data visualization and charting."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Best Practices",
+      title: "Best Coding & Performance Practices",
       description: "Following industry best practices for data visualization implementation."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
-      title: "On-Time Delivery",
+      title: "On-Time Project Delivery",
       description: "Rapid implementation ensuring timely visualization solutions."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
-      title: "Quality Assurance",
+      title: "Complete Testing & Quality Assurance",
       description: "Comprehensive testing and validation of charting solutions."
     }
   ];
@@ -139,11 +139,10 @@ function Highcharts() {
             <div data-aos="fade-right">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
                 Highcharts &<br />
-                ECharts Development
+                 ECharts Development in India
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Create stunning data visualizations with Highcharts and ECharts. Our developers build interactive dashboards and charts for powerful data storytelling.
-              </p>
+               At BTJ Alpha Technology, we provide expert Highcharts Development in India and ECharts Development in India to help businesses transform complex data into powerful, interactive dashboards.</p>
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={openForm}
@@ -197,7 +196,7 @@ function Highcharts() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Key Features
+              Key Features of Our Highcharts & ECharts Development in India
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -217,7 +216,7 @@ function Highcharts() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our Services
+              Our Services – Highcharts & ECharts Development 
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -237,7 +236,7 @@ function Highcharts() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Key Benefits
+              Key Benefits of Choosing BTJ Alpha Technology
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -257,7 +256,7 @@ function Highcharts() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Us?
+             Why Choose BTJ Alpha Technology for Highcharts & ECharts Development in India?
             </h2>
           </div>
           <div className="grid md:grid-cols-4 gap-8 container mx-auto px-4">
@@ -280,10 +279,11 @@ function Highcharts() {
         </div>
         <div className="container mx-auto relative z-10 text-center" data-aos="fade-up">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Ready to Visualize Your Data?
+            Ready to Hire Highcharts & ECharts Developers in India?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to create stunning data visualizations with Highcharts and ECharts.
+           Partner with BTJ Alpha Technology for expert Highcharts Development in India and ECharts Development in India and transform your data into meaningful business insights.
+
           </p>
           <button
             onClick={openForm}

@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaEdit, FaShieldAlt, FaServer, FaRocket, FaLayerGroup,
   FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaUsers,
   FaLaptop, FaSync, FaChartLine, FaTools, FaCogs, FaMobileAlt
@@ -25,91 +25,91 @@ function CKEditor() {
     {
       icon: <FaEdit className="text-5xl text-[#0288d1]" />,
       title: "Rich Text Editing",
-      description: "Advanced WYSIWYG editor with formatting, styling, and content management capabilities."
+      description: "Enable advanced WYSIWYG editing with formatting, styling, media embedding, tables, and more."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#0288d1]" />,
       title: "Content Security",
-      description: "Built-in security features with XSS protection and content validation."
+      description: "Built-in protection against XSS and content validation to ensure safe data handling."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#0288d1]" />,
-      title: "Cross-Platform",
-      description: "Works seamlessly across desktop, mobile, and web applications."
+      title: "Cross-Platform Compatibility",
+      description: "Works seamlessly across desktop, mobile, and modern web browsers."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#0288d1]" />,
-      title: "Customization",
-      description: "Highly customizable with plugins, themes, and configuration options."
+      title: "Customization Options",
+      description: "Highly customizable with themes, plugins, toolbars, and configuration settings."
     },
     {
       icon: <FaCogs className="text-5xl text-[#0288d1]" />,
-      title: "Easy Integration",
-      description: "Simple APIs and SDKs for quick integration with your applications."
+      title: "Easy API Integration",
+      description: "Simple APIs and SDKs for fast and efficient integration into your applications."
     },
     {
       icon: <FaLayerGroup className="text-5xl text-[#0288d1]" />,
-      title: "Collaboration",
-      description: "Real-time collaborative editing and content management features."
+      title: "Real-Time Collaboration",
+      description: "Enable collaborative content editing and workflow management features."
     }
   ];
 
   const editorServices = [
     {
       icon: <FaEdit className="text-5xl text-[#0288d1]" />,
-      title: "CKEditor Integration",
-      description: "Integrating CKEditor rich text editing capabilities into your applications."
+      title: "CKEditor Integration  Services",
+      description: "We integrate CKEditor into your existing or new web applications with complete customization and optimization."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Content Management",
-      description: "Building custom content management systems with CKEditor components."
+      title: "Custom CKEditor Development",
+      description: "Tailored CKEditor configurations, UI customization, and feature enhancements based on your business needs."
     },
     {
       icon: <FaServer className="text-5xl text-[#8B5CF6]" />,
-      title: "Custom Plugins",
-      description: "Developing custom plugins and extensions for specific business needs."
+      title: "CKEditor Plugin Development",
+      description: "Development of custom plugins and extensions to add advanced functionality."
     }
   ];
 
   const benefits = [
     {
       icon: <FaEdit className="text-5xl text-[#0288d1]" />,
-      title: "Professional Editing",
-      description: "Industry-standard rich text editing with professional features and tools."
+      title: "Professional Content Editing",
+      description: "Provide users with a modern and intuitive content editing experience."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
-      title: "Easy Integration",
-      description: "Simple APIs and comprehensive documentation for quick implementation."
+      title: "Fast Development",
+      description: "Reduce development time with ready-to-use editor components."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#10B981]" />,
-      title: "Secure Content",
-      description: "Enterprise-grade security with content validation and XSS protection."
+      title: "Enhanced User Experience",
+      description: "Clean interface and responsive design improve productivity."
     }
   ];
 
   const whyChooseUs = [
     {
       icon: <FaUsers className="text-5xl text-[#0288d1]" />,
-      title: "Editor Experts",
-      description: "Specialists with extensive experience in rich text editing integration."
+      title: "Experienced CKEditor Developers",
+      description: "Our experts have strong experience in CKEditor development services and enterprise application integration."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
       title: "Best Practices",
-      description: "Following industry best practices for content editing implementation."
+      description: "We follow clean coding standards and structured development methodology."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
       title: "On-Time Delivery",
-      description: "Rapid implementation ensuring timely content editing solutions."
+      description: "Agile development process ensuring timely project completion."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
-      title: "Quality Assurance",
-      description: "Comprehensive testing and validation of editing systems."
+      title: "Ongoing Support",
+      description: "Post-deployment support, maintenance, upgrades, and performance optimization."
     }
   ];
 
@@ -142,7 +142,7 @@ function CKEditor() {
                 Integration
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Enable powerful rich text editing capabilities with CKEditor integration. Our experts integrate professional editing tools for content creation and management.
+                At BTJ Alpha Technology, we provide professional CKEditor Integration Services to help businesses add powerful rich text editing capabilities to their web and enterprise applications. As an experienced CKEditor development company, we specialize in seamless CKEditor integration that enhances content creation, editing, and management.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -217,7 +217,7 @@ function CKEditor() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our Services
+             Our CKEditor Development Services
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -237,7 +237,7 @@ function CKEditor() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Key Benefits
+             Key Benefits of CKEditor Integration
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -257,7 +257,7 @@ function CKEditor() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Us?
+             Why Choose BTJ Alpha Technology for CKEditor Integration?
             </h2>
           </div>
           <div className="grid md:grid-cols-4 gap-8 container mx-auto px-4">
@@ -283,7 +283,7 @@ function CKEditor() {
             Ready to Add Rich Text Editing?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to integrate CKEditor rich text editing capabilities into your applications.
+            Partner with BTJ Alpha Technology, a trusted CKEditor development company in India, to add advanced rich text editing capabilities to your applications.
           </p>
           <button
             onClick={openForm}

@@ -2,7 +2,7 @@ import { useState, useEffect } from "react"; // Force reload
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaShoppingCart, FaStore, FaCreditCard, FaShippingFast, FaBox, FaExchangeAlt, FaCheckCircle, FaChevronDown, FaChevronUp,
   FaUsers, FaClock, FaLaptop, FaMobileAlt, FaSync, FaDatabase, FaChartLine, FaPlug, FaCode, FaCog, FaCogs, FaShieldAlt, FaLock
 } from "react-icons/fa";
@@ -23,12 +23,12 @@ function Shopify() {
     {
       icon: <FaShoppingCart className="text-5xl text-[#96BF48]" />,
       title: "Shopify Store Development",
-      description: "We create stunning, high-converting Shopify stores tailored to your brand. Our team focuses on user experience, mobile responsiveness, and conversion optimization to maximize your sales potential."
+      description: "We design and develop visually appealing, high-converting Shopify stores tailored to your brand identity."
     },
     {
       icon: <FaStore className="text-5xl text-[#96BF48]" />,
-      title: "Custom Shopify Themes",
-      description: "Our designers create custom Shopify themes that perfectly reflect your brand identity while ensuring optimal performance and user experience across all devices."
+      title: "Custom Shopify Development",
+      description: "Get fully customized features, functionalities, and design elements built specifically for your business needs."
     },
     {
       icon: <FaCreditCard className="text-5xl text-[#96BF48]" />,
@@ -139,7 +139,7 @@ function Shopify() {
                 Company
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Step2gen Technologies Pvt. Ltd. is a leading Shopify Development Company in India specializing in creating high-converting, visually appealing, and fully functional Shopify stores. Our team of experienced developers and designers builds custom Shopify solutions that help businesses increase sales, improve customer experience, and establish a strong online presence. We deliver comprehensive Shopify development services that enable our clients to succeed in the competitive e-commerce landscape.
+                BTJ Alpha Technology is a leading Shopify Development Company in India, delivering high-performance and scalable eCommerce solutions for startups, SMEs, and enterprises. We specialize in building secure, conversion-focused, and fully customized Shopify stores that help businesses grow online.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -227,13 +227,9 @@ function Shopify() {
                 Transform Your Business with Next-Generation Shopify Solutions
               </h2>
               <p className="text-gray-600 leading-relaxed mb-6">
-                In today's competitive e-commerce landscape, having a powerful online store is crucial for business success. Our team of expert Shopify developers brings years of experience in building high-converting, mobile-responsive, and feature-rich Shopify stores. Using best practices and incorporating the latest e-commerce trends, our team excels in creating powerful Shopify solutions that drive sales and customer engagement.
-              </p>
-              <p className="text-gray-600 leading-relaxed mb-6">
-                Shopify provides businesses with a comprehensive e-commerce platform that handles everything from product management to payment processing and shipping logistics. Our Shopify development services ensure you get a store that not only looks professional but also converts visitors into customers with optimized user experience, fast loading times, and seamless checkout processes.
-              </p>
-              <p className="text-gray-600 leading-relaxed">
-                Whether you're starting a new online store or migrating an existing business to Shopify, our team can turn your vision into reality. As a leading Shopify development company, we have the expertise to drive your e-commerce business forward with powerful solutions. Let's make your Shopify store a success with Step2gen Technologies.
+                In today’s competitive eCommerce market, having a professional online store is essential. As a trusted Shopify development company, we create modern, responsive, and user-friendly Shopify websites designed to increase conversions.</p>
+              <p className="text-gray-600 leading-relaxed mb-6">Our Shopify website development services focus on: High-speed performance,Mobile-first design,Seamless checkout experience,Secure payment integration,SEO-friendly structure</p>
+              <p className="text-gray-600 leading-relaxed">From product management to payment gateways and shipping configuration, we handle everything to ensure your Shopify store runs smoothly.
               </p>
             </div>
           </div>
@@ -391,9 +387,8 @@ function Shopify() {
                   )}
                 </button>
                 <div
-                  className={`transition-all duration-300 overflow-hidden ${
-                    openFAQ === index ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
-                  }`}
+                  className={`transition-all duration-300 overflow-hidden ${openFAQ === index ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+                    }`}
                 >
                   <p className="p-5 pt-0 text-gray-600 leading-relaxed border-t border-gray-100">
                     {faq.answer}

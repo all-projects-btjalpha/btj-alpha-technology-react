@@ -26,50 +26,49 @@ function TailwindCSS() {
     {
       icon: <SiTailwindcss className="text-5xl text-[#06b6d4]" />,
       title: "Utility-First Approach",
-      description: "Build designs rapidly with pre-built utility classes without writing custom CSS."
+      description: "At BTJ Alpha Technology, we build designs quickly using ready-to-use utility classes without writing custom CSS."
     },
     {
       icon: <FaRocket className="text-5xl text-[#06b6d4]" />,
       title: "Rapid Development",
-      description: "Accelerate development with intuitive class names and instant styling."
+      description: "We speed up development with simple class names and instant styling."
     },
     {
       icon: <FaPalette className="text-5xl text-[#06b6d4]" />,
       title: "Customizable",
-      description: "Fully customizable design system with Tailwind configuration file."
+      description: "We easily customize your design using the Tailwind configuration file to match your brand."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#06b6d4]" />,
       title: "Responsive Design",
-      description: "Mobile-first responsive utilities for all screen sizes."
+      description: "We create mobile-friendly designs that work perfectly on all screen sizes."
     },
     {
       icon: <FaCode className="text-5xl text-[#06b6d4]" />,
       title: "Component Friendly",
-      description: "Perfect for component-based frameworks like React, Vue, and Angular."
+      description: "Our Tailwind solutions work smoothly with frameworks like React, Vue, and Angular."
     },
     {
       icon: <FaCog className="text-5xl text-[#06b6d4]" />,
       title: "PurgeCSS Integration",
-      description: "Automatically remove unused CSS for optimal production bundle size."
+      description: "We remove unused CSS automatically to keep your website lightweight and fast."
     }
   ];
 
   const tailwindServices = [
     {
       icon: <FaCode className="text-5xl text-[#06b6d4]" />,
-      title: "Tailwind CSS Development",
-      description: "We create fast, maintainable, and beautiful interfaces using Tailwind's utility-first approach and powerful design system."
-    },
+      title: "Tailwind CSS Development – BTJ Alpha Technology",
+      description: "At BTJ Alpha Technology, we build modern and responsive user interfaces using Tailwind CSS.Our team creates fast, easy-to-manage, and beautiful designs using Tailwind’s utility-first approach and powerful design system."},
     {
       icon: <FaPalette className="text-5xl text-[#10B981]" />,
       title: "UI Development",
-      description: "Building responsive, modern user interfaces with Tailwind CSS."
+      description: "We build responsive and modern user interfaces using Tailwind CSS."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#8B5CF6]" />,
       title: "Responsive Design",
-      description: "Creating mobile-first responsive designs that work across all devices."
+      description: "We create mobile-first responsive designs that work smoothly on all devices."
     }
   ];
 
@@ -77,17 +76,17 @@ function TailwindCSS() {
     {
       icon: <SiTailwindcss className="text-5xl text-[#06b6d4]" />,
       title: "Rapid Prototyping",
-      description: "Build interfaces quickly with utility classes and pre-configured design tokens."
+      description: "Build interfaces quickly using utility classes and ready-to-use design tokens."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
       title: "Consistency",
-      description: "Maintain design consistency with predefined spacing, color, and sizing scales."
+      description: "Maintain design consistency with predefined spacing, colors, and sizing scales."
     },
     {
       icon: <FaCog className="text-5xl text-[#10B981]" />,
       title: "Customization",
-      description: "Easily customize design tokens to match your brand identity."
+      description: "Easily customize design elements to match your brand identity."
     }
   ];
 
@@ -95,22 +94,22 @@ function TailwindCSS() {
     {
       icon: <FaUsers className="text-5xl text-[#06b6d4]" />,
       title: "Expert Developers",
-      description: "Tailwind CSS specialists with extensive experience in modern front-end development."
+      description: "Our Tailwind CSS specialists have strong experience in modern front-end development."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
       title: "Best Practices",
-      description: "We follow Tailwind CSS best practices for clean, efficient code."
+      description: "We follow Tailwind CSS best practices to deliver clean and efficient code."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
       title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      description: "We use agile methods to ensure projects are completed on schedule."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      description: "We perform thorough testing and follow high coding standards for reliable results."
     }
   ];
 
@@ -143,8 +142,7 @@ function TailwindCSS() {
                 Development
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Build modern, responsive UIs with Tailwind CSS. Our team creates fast, maintainable, and beautiful interfaces using Tailwind's utility-first approach and powerful design system.
-              </p>
+              We create fast, maintainable, and beautiful interfaces using Tailwind’s utility-first approach and powerful design system.</p>
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={openForm}
@@ -220,6 +218,7 @@ function TailwindCSS() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Our Tailwind CSS Services
             </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">At BTJ Alpha Technology, we provide professional Tailwind CSS services to build fast, modern, and responsive user interfaces.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
             {tailwindServices.map((item, i) => (
@@ -258,7 +257,7 @@ function TailwindCSS() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Us?
+              Why Choose BTJ Alpha Technology?
             </h2>
           </div>
           <div className="grid md:grid-cols-4 gap-8 container mx-auto px-4">
@@ -284,8 +283,7 @@ function TailwindCSS() {
             Ready to Build with Tailwind CSS?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to leverage the power of Tailwind CSS for your next project.
-          </p>
+           Work with us to use the full power of Tailwind CSS for your next project.</p>
           <button
             onClick={openForm}
             className="bg-white text-[#fb9c24] hover:bg-gray-100 font-bold py-4 px-10 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg text-lg"

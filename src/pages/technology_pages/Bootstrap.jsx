@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaBootstrap, FaLayerGroup, FaMobileAlt, FaPuzzlePiece, FaRocket, FaCode,
   FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaUsers,
   FaLaptop, FaSync, FaDatabase, FaChartLine, FaTools, FaCogs, FaShieldAlt, FaApple
@@ -25,32 +25,32 @@ function Bootstrap() {
     {
       icon: <FaBootstrap className="text-5xl text-[#7952b3]" />,
       title: "Pre-built Components",
-      description: "Extensive library of ready-to-use components for rapid UI development."
+      description: "Large collection of ready-to-use components for fast UI development."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#7952b3]" />,
       title: "Responsive Grid System",
-      description: "12-column responsive grid system for flexible, mobile-first layouts."
+      description: "12-column responsive grid system for flexible and mobile-friendly layouts."
     },
     {
       icon: <FaPuzzlePiece className="text-5xl text-[#7952b3]" />,
       title: "Rich Component Library",
-      description: "Buttons, forms, modals, carousels, and more pre-styled components."
+      description: "Includes buttons, forms, modals, carousels, and many more pre-designed components."
     },
     {
       icon: <FaLayerGroup className="text-5xl text-[#7952b3]" />,
       title: "Cross-Browser Compatible",
-      description: "Consistent appearance and functionality across all modern browsers."
+      description: "Works smoothly and looks consistent across all modern browsers."
     },
     {
       icon: <FaRocket className="text-5xl text-[#7952b3]" />,
       title: "Quick Development",
-      description: "Build professional websites quickly with Bootstrap's framework."
+      description: "Build professional websites quickly using Bootstrap’s framework."
     },
     {
       icon: <FaCode className="text-5xl text-[#7952b3]" />,
       title: "Customizable",
-      description: "Easily customize Bootstrap with Sass variables and custom themes."
+      description: "Easily customize Bootstrap using Sass variables and custom themes."
     }
   ];
 
@@ -58,17 +58,17 @@ function Bootstrap() {
     {
       icon: <FaCode className="text-5xl text-[#7952b3]" />,
       title: "Bootstrap Development",
-      description: "We build professional, consistent, and fast-loading web applications using Bootstrap's powerful framework."
+      description: "We build professional, consistent, and fast-loading web applications using Bootstrap’s powerful framework."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#10B981]" />,
       title: "Responsive Design",
-      description: "Creating mobile-first responsive designs that work across all devices."
+      description: "We create mobile-first responsive designs that work smoothly on all devices."
     },
     {
       icon: <FaPuzzlePiece className="text-5xl text-[#8B5CF6]" />,
       title: "UI Development",
-      description: "Building modern user interfaces with Bootstrap's component library."
+      description: "We build modern user interfaces using Bootstrap’s component library."
     }
   ];
 
@@ -76,17 +76,17 @@ function Bootstrap() {
     {
       icon: <FaBootstrap className="text-5xl text-[#7952b3]" />,
       title: "Rapid Development",
-      description: "Pre-built components accelerate the development process."
+      description: "Pre-built components help speed up the development process."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
       title: "Consistency",
-      description: "Maintain design consistency across your application with Bootstrap's components."
+      description: "Keep your design consistent across your application using Bootstrap components."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#10B981]" />,
       title: "Mobile-First",
-      description: "Responsive design that works seamlessly across all device sizes."
+      description: "Responsive design that works perfectly on all screen sizes and devices."
     }
   ];
 
@@ -94,22 +94,22 @@ function Bootstrap() {
     {
       icon: <FaUsers className="text-5xl text-[#7952b3]" />,
       title: "Expert Developers",
-      description: "Bootstrap specialists with extensive experience in responsive front-end development."
+      description: "Our Bootstrap experts have strong experience in responsive front-end development."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
       title: "Best Practices",
-      description: "We follow Bootstrap best practices for clean, efficient code."
+      description: "We follow Bootstrap best practices to deliver clean and efficient code."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
       title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      description: "We use agile development methods to complete projects on time."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      description: "We perform complete testing and follow high coding standards for the best results."
     }
   ];
 
@@ -142,8 +142,8 @@ function Bootstrap() {
                 Development
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Create responsive, mobile-first websites with Bootstrap. Our developers build professional, consistent, and fast-loading web applications using Bootstrap's powerful framework.
-              </p>
+                Create responsive, mobile-friendly websites with Bootstrap.
+                Our developers build professional, consistent, and fast-loading web applications using the powerful Bootstrap framework.</p>
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={openForm}
@@ -283,7 +283,7 @@ function Bootstrap() {
             Ready to Build with Bootstrap?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to leverage the power of Bootstrap for your next project.
+         Work with us and use the power of Bootstrap for your next project.
           </p>
           <button
             onClick={openForm}

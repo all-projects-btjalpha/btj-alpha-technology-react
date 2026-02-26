@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaGoogle, FaShieldAlt, FaServer, FaRocket, FaLayerGroup,
   FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaUsers,
   FaLaptop, FaSync, FaChartLine, FaTools, FaCogs, FaMobileAlt
@@ -24,92 +24,92 @@ function GoogleAPI() {
   const apiFeatures = [
     {
       icon: <FaGoogle className="text-5xl text-[#4285f4]" />,
-      title: "Comprehensive APIs",
-      description: "Access to Google's vast ecosystem of APIs and services."
+      title: " Comprehensive Google APIs",
+      description: "We integrate a wide range of Google APIs including: Google Maps API Integration,Google Analytics API Integration,Google Cloud APIs,Google Drive API,Google Calendar API,Google Authentication (OAuth) API"
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#4285f4]" />,
-      title: "Enterprise Security",
-      description: "Built-in security features and compliance with enterprise standards."
+      title: " Enterprise-Level Security",
+      description: "Security is our priority. We implement secure authentication methods like OAuth 2.0 and ensure your application meets Google’s compliance standards."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#4285f4]" />,
-      title: "Global Scale",
-      description: "Services available worldwide with reliable infrastructure."
+      title: "Global Scalability",
+      description: "Our Google API solutions are built to scale globally, ensuring high performance and reliability for growing businesses."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#4285f4]" />,
-      title: "Real-time Data",
-      description: "Access to real-time data and analytics from Google services."
+      title: "Real-time Data Access",
+      description: "Access real-time data insights with seamless API connectivity for analytics, location tracking, reporting, and monitoring."
     },
     {
       icon: <FaCogs className="text-5xl text-[#4285f4]" />,
-      title: "Easy Integration",
-      description: "Simple APIs and SDKs for quick integration with your applications."
+      title: "Easy & Seamless Integration",
+      description: "We ensure smooth API configuration, testing, deployment, and documentation for hassle-free implementation."
     },
     {
       icon: <FaLayerGroup className="text-5xl text-[#4285f4]" />,
-      title: "Scalability",
-      description: "Designed for enterprise-scale applications with high performance."
+      title: "High Performance & Optimization",
+      description: "Our developers optimize API calls to reduce latency, manage quotas, and improve application speed."
     }
   ];
 
   const apiServices = [
     {
       icon: <FaGoogle className="text-5xl text-[#4285f4]" />,
-      title: "Google API Integration",
-      description: "Integrating Google Maps, Analytics, and other Google services into your applications."
+      title: "Google Maps API Integration",
+      description: "Enhance your application with interactive maps, location tracking, route planning, geocoding, and nearby search features. Perfect for logistics, real estate, travel, and delivery businesses."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Data Analytics",
-      description: "Building data-driven solutions with Google Analytics and BigQuery."
+      title: "Google Analytics API Integration",
+      description: "Track user behavior, website performance, campaign analytics, and real-time traffic data to make data-driven business decisions."
     },
     {
       icon: <FaServer className="text-5xl text-[#8B5CF6]" />,
-      title: "Cloud Services",
-      description: "Implementing Google Cloud Platform services and infrastructure."
+      title: "Google Cloud Integration",
+      description: "We integrate Google Cloud services including cloud storage, computing, and database management to build secure and scalable cloud-based applications."
     }
   ];
 
   const benefits = [
     {
       icon: <FaGoogle className="text-5xl text-[#4285f4]" />,
-      title: "Powerful Services",
-      description: "Access to Google's industry-leading services and infrastructure."
+      title: "Powerful Google Services",
+      description: "Leverage industry-leading Google services to improve your application functionality and user experience."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
-      title: "Fast Integration",
-      description: "Quick setup with comprehensive documentation and developer tools."
+      title: "Fast & Reliable Integration",
+      description: "Our experienced developers ensure quick deployment and efficient API implementation."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#10B981]" />,
-      title: "Reliable Infrastructure",
-      description: "Enterprise-grade reliability with Google's global infrastructure."
+      title: "Secure Infrastructure",
+      description: "We follow best practices to protect your data and maintain compliance standards."
     }
   ];
 
   const whyChooseUs = [
     {
       icon: <FaUsers className="text-5xl text-[#4285f4]" />,
-      title: "Google Experts",
-      description: "Specialists with extensive experience in Google API integration."
+      title: "Certified & Experienced Developers",
+      description: "Our team has extensive experience working with various Google APIs and cloud platforms."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Best Practices",
-      description: "Following industry best practices for Google service implementation."
+      title: "Best Development Practices",
+      description: "We follow clean coding standards, optimized API handling, and secure integration methods."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
-      title: "On-Time Delivery",
-      description: "Rapid implementation ensuring timely Google API solutions."
+      title: "On-Time Project Delivery",
+      description: "We deliver projects within agreed timelines without compromising quality."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
-      title: "Quality Assurance",
-      description: "Comprehensive testing and validation of Google API integrations."
+      title: "Quality Assurance & Testing",
+      description: "Each API integration undergoes complete testing to ensure reliability and performance."
     }
   ];
 
@@ -139,10 +139,10 @@ function GoogleAPI() {
             <div data-aos="fade-right">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
                 Google API<br />
-                Integration
+                Integration  Services
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Leverage Google's powerful APIs and services to enhance your applications. Our experts integrate Google Maps, Analytics, and Cloud services seamlessly.
+                At BTJ Alpha Technology, we provide professional Google API Integration services to help businesses connect, automate, and scale their applications efficiently. Our experts integrate powerful Google services like Google Maps, Google Analytics, Google Cloud, and other Google APIs seamlessly into your web and mobile applications.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -197,7 +197,8 @@ function GoogleAPI() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Key Features
+              Key Features of Our Google API Integration Services
+
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -280,10 +281,10 @@ function GoogleAPI() {
         </div>
         <div className="container mx-auto relative z-10 text-center" data-aos="fade-up">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Ready to Leverage Google APIs?
+           Ready to Integrate Google APIs into Your Application?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to integrate Google's powerful services into your applications.
+            Partner with BTJ Alpha Technology for reliable, scalable, and secure Google API Integration services.
           </p>
           <button
             onClick={openForm}

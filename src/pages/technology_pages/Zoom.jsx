@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaVideo, FaShieldAlt, FaServer, FaRocket, FaLayerGroup,
   FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaUsers,
   FaLaptop, FaSync, FaChartLine, FaTools, FaCogs, FaMobileAlt
@@ -24,92 +24,92 @@ function Zoom() {
   const zoomFeatures = [
     {
       icon: <FaVideo className="text-5xl text-[#2d8cff]" />,
-      title: "Video Conferencing",
-      description: "High-quality video meetings with screen sharing and recording capabilities."
+      title: "Video Conferencing Integration",
+      description: "Enable HD video meetings, screen sharing, breakout rooms, recording, and webinar functionality directly inside your application."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#2d8cff]" />,
-      title: "Enterprise Security",
-      description: "End-to-end encryption and compliance with enterprise security standards."
+      title: "Enterprise-Level Security",
+      description: "We implement end-to-end encryption, secure authentication, OAuth, and compliance-based security standards for enterprise Zoom integration."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#2d8cff]" />,
-      title: "Cross-Platform",
-      description: "Works seamlessly across desktop, mobile, and web applications."
+      title: "Cross-Platform Compatibility",
+      description: "Our Zoom integrations work seamlessly across web, mobile (iOS & Android), and desktop platforms."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#2d8cff]" />,
       title: "Analytics & Reporting",
-      description: "Comprehensive meeting analytics and usage reporting tools."
+      description: "Access meeting analytics, user activity tracking, and performance reports using Zoom APIs."
     },
     {
       icon: <FaCogs className="text-5xl text-[#2d8cff]" />,
-      title: "API Integration",
-      description: "Easy integration with Zoom APIs for custom meeting solutions."
+      title: "Easy API & SDK Integration",
+      description: "We integrate Zoom REST APIs and Zoom SDK for custom workflows, automated meeting creation, and scheduling."
     },
     {
       icon: <FaLayerGroup className="text-5xl text-[#2d8cff]" />,
-      title: "Scalability",
-      description: "Support for meetings with up to 1,000 participants and webinars with 10,000 attendees."
+      title: "Scalable Meeting Infrastructure",
+      description: "Support small team meetings or large-scale webinars with thousands of participants."
     }
   ];
 
   const zoomServices = [
     {
       icon: <FaVideo className="text-5xl text-[#2d8cff]" />,
-      title: "Zoom Integration",
-      description: "Integrating Zoom video conferencing capabilities into your applications and workflows."
+      title: "Zoom API Integration",
+      description: "We integrate Zoom APIs to automate meeting scheduling, user management, webinar setup, and reporting systems."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Meeting Solutions",
-      description: "Building custom meeting and webinar platforms with Zoom technology."
+      title: "Custom Meeting & Webinar Solutions",
+      description: "Build branded meeting solutions using Zoom SDK tailored to your business model."
     },
     {
       icon: <FaServer className="text-5xl text-[#8B5CF6]" />,
-      title: "Enterprise Setup",
-      description: "Implementing Zoom for Business and enterprise-level video communication solutions."
+      title: "Enterprise Zoom Setup",
+      description: "Complete enterprise-level Zoom deployment with account configuration, security policies, and system integration."
     }
   ];
 
   const benefits = [
     {
       icon: <FaVideo className="text-5xl text-[#2d8cff]" />,
-      title: "Reliable Meetings",
-      description: "Stable, high-quality video conferencing with global infrastructure."
+      title: "Reliable Video Meetings",
+      description: "Stable and high-quality video conferencing powered by Zoom’s global infrastructure."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
       title: "Easy Integration",
-      description: "Simple APIs and SDKs for quick integration with your applications."
+      description: "Simple API-based integration with your existing web or mobile application."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#10B981]" />,
       title: "Secure Communication",
-      description: "Enterprise-grade security with encryption and compliance standards."
+      description: "Enterprise-grade encryption and secure authentication for safe virtual meetings."
     }
   ];
 
   const whyChooseUs = [
     {
       icon: <FaUsers className="text-5xl text-[#2d8cff]" />,
-      title: "Video Experts",
-      description: "Specialists with extensive experience in video conferencing integration."
+      title: "Video Communication Experts",
+      description: "Our team has extensive experience in Zoom API Integration and enterprise video conferencing solutions."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Best Practices",
-      description: "Following industry best practices for video communication implementation."
+      title: "Best Development Practices",
+      description: "We follow secure coding standards and optimized API integration methods."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
-      title: "On-Time Delivery",
-      description: "Rapid implementation ensuring timely video communication solutions."
+      title: "On-Time Project Delivery",
+      description: "Efficient implementation and deployment without delays."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
-      title: "Quality Assurance",
-      description: "Comprehensive testing and validation of video conferencing systems."
+      title: "Quality Assurance & Testing",
+      description: "Complete testing for performance, scalability, and security compliance."
     }
   ];
 
@@ -139,11 +139,12 @@ function Zoom() {
             <div data-aos="fade-right">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
                 Zoom<br />
-                Integration
+                Integration Services
+
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Enable powerful video conferencing capabilities with Zoom integration. Our experts integrate Zoom APIs for seamless meeting and webinar solutions.
-              </p>
+                At BTJ Alpha Technology, we provide professional Zoom Integration Services to help businesses enable seamless video conferencing inside their web and mobile applications.
+                Our experts specialize in Zoom API Integration and Zoom SDK Integration, allowing you to add secure video meetings, webinars, chat, recording, and analytics directly into your platform. </p>
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={openForm}
@@ -197,7 +198,7 @@ function Zoom() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Key Features
+              Key Features of Our Zoom Integration
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -217,7 +218,7 @@ function Zoom() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our Services
+              Our Zoom Integration Services
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -237,8 +238,7 @@ function Zoom() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Key Benefits
-            </h2>
+            Key Benefits of Zoom Integration</h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
             {benefits.map((item, i) => (
@@ -257,7 +257,7 @@ function Zoom() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Us?
+              Why Choose BTJ Alpha Technology for Zoom Integration?
             </h2>
           </div>
           <div className="grid md:grid-cols-4 gap-8 container mx-auto px-4">
@@ -283,7 +283,7 @@ function Zoom() {
             Ready to Enable Video Meetings?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to integrate Zoom video conferencing capabilities into your applications.
+            Partner with BTJ Alpha Technology for reliable and scalable Zoom Integration Services that empower your business with seamless video communication.
           </p>
           <button
             onClick={openForm}

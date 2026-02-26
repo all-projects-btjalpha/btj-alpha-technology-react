@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaCode, FaShieldAlt, FaServer, FaRocket, FaLayerGroup,
   FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaUsers,
   FaLaptop, FaSync, FaChartLine, FaTools, FaCogs, FaMobileAlt
@@ -24,28 +24,28 @@ function MudBlazor() {
   const mudFeatures = [
     {
       icon: <FaCode className="text-5xl text-[#594ae2]" />,
-      title: "Material Design",
-      description: "Beautiful Material Design components for modern web applications."
+      title: "Material Design Components",
+      description: "Build clean, modern interfaces using rich Material Design UI components."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#594ae2]" />,
-      title: "Enterprise Security",
-      description: "Built-in security features and compliance with enterprise standards."
+      title: " Enterprise-Grade Security",
+      description: "Our MudBlazor Development Services in India follow secure coding practices and .NET best standards."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#594ae2]" />,
-      title: "Responsive Design",
-      description: "Fully responsive components that work on all device sizes."
+      title: "Fully Responsive Design",
+      description: "Applications work smoothly across desktops, tablets, and mobile devices."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#594ae2]" />,
-      title: "Data Visualization",
-      description: "Advanced charting and reporting components for data analysis."
+      title: " Data Visualization & Dashboards",
+      description: "Interactive charts, grids, and reporting components for business insights."
     },
     {
       icon: <FaCogs className="text-5xl text-[#594ae2]" />,
-      title: "Easy Integration",
-      description: "Seamless integration with Blazor and .NET development frameworks."
+      title: " Seamless Integration",
+      description: "Seamless integration with existing .NET, APIs, CRM, ERP, and cloud systems."
     },
     {
       icon: <FaLayerGroup className="text-5xl text-[#594ae2]" />,
@@ -75,41 +75,41 @@ function MudBlazor() {
   const benefits = [
     {
       icon: <FaCode className="text-5xl text-[#594ae2]" />,
-      title: "Rapid Development",
-      description: "Accelerate development with pre-built Material Design components."
+      title: "Faster Development",
+      description: "Pre-built UI components speed up the development process."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
       title: "Modern UI",
-      description: "Beautiful, contemporary user interfaces following Material Design principles."
+      description: "Material Design principles ensure a clean and professional look."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#10B981]" />,
-      title: "Performance",
-      description: "Optimized components for fast loading and smooth user experience."
+      title: "Improved Performance",
+      description: "Blazor-based architecture ensures high-speed execution."
     }
   ];
 
   const whyChooseUs = [
     {
       icon: <FaUsers className="text-5xl text-[#594ae2]" />,
-      title: "Blazor Experts",
-      description: "Specialists with extensive experience in Blazor and MudBlazor development."
+      title: " Experienced Blazor Developers",
+      description: "Skilled team delivering expert MudBlazor Development Services in India."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Best Practices",
-      description: "Following MudBlazor best practices for optimal implementation."
+      title: "Agile Development Approach",
+      description: "Transparent workflow with milestone-based delivery."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
-      title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      title: " On-Time Project Delivery",
+      description: "We value your time and ensure timely execution."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
-      title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      title: "Strong Quality Assurance",
+      description: "Thorough testing for performance, security, and usability."
     }
   ];
 
@@ -139,10 +139,11 @@ function MudBlazor() {
             <div data-aos="fade-right">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
                 MudBlazor<br />
-                Development
+                Development Services
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Build modern web applications with MudBlazor Material Design components. Our developers create beautiful, responsive solutions using MudBlazor framework.
+                Modern Blazor UI Solutions by BTJ Alpha Technology
+                BTJ Alpha Technology provides professional MudBlazor Development Services in India to help businesses build modern, responsive, and high-performance web applications using Blazor.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -197,7 +198,7 @@ function MudBlazor() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Key Features
+            Key Features of Our MudBlazor Solutions
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -217,8 +218,9 @@ function MudBlazor() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our Services
+              Our MudBlazor Development Services in India
             </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">BTJ Alpha Technology offers end-to-end MudBlazor Development Services in India tailored to your business requirements.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
             {mudServices.map((item, i) => (
@@ -283,7 +285,7 @@ function MudBlazor() {
             Ready to Build with MudBlazor?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to leverage the power of MudBlazor for your modern web applications.
+            Partner with BTJ Alpha Technology for reliable MudBlazor Development Services in India and develop powerful, responsive web applications using Blazor.
           </p>
           <button
             onClick={openForm}

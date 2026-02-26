@@ -75,41 +75,41 @@ function MaterialUI() {
   const benefits = [
     {
       icon: <FaPalette className="text-5xl text-[#1976d2]" />,
-      title: "Modern Design",
-      description: "Beautiful, contemporary user interfaces following Material Design principles."
+      title: "Modern & Professional UI",
+      description: "Create sleek, user-friendly interfaces that enhance customer engagement."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
       title: "Rapid Development",
-      description: "Accelerate development with pre-built Material Design components."
+      description: "Pre-built Material UI components speed up development and reduce project timelines."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#10B981]" />,
-      title: "Performance",
-      description: "Optimized components for fast loading and smooth user experience."
+      title: "High Performance",
+      description: "Optimized components ensure fast loading and smooth user interactions."
     }
   ];
 
   const whyChooseUs = [
     {
       icon: <FaUsers className="text-5xl text-[#1976d2]" />,
-      title: "React Experts",
-      description: "Specialists with extensive experience in React and Material UI development."
+      title: "React & MUI Experts",
+      description: "Our team specializes in React Material UI Development and modern front-end architecture."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Best Practices",
-      description: "Following Material UI best practices for optimal implementation."
+      title: "Best Development Practices",
+      description: "We follow clean coding standards and optimized UI design workflows."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
       title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      description: "Agile development process ensuring timely project completion."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      description: "Comprehensive testing for UI consistency, responsiveness, and performance."
     }
   ];
 
@@ -139,11 +139,10 @@ function MaterialUI() {
             <div data-aos="fade-right">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
                 Material UI<br />
-                Development
+                Development  Services
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Build modern web applications with Material UI design components. Our developers create beautiful, responsive solutions using Material Design principles.
-              </p>
+                At BTJ Alpha Technology, we offer professional Material UI Development Services to build modern, responsive, and visually appealing web applications. Our expert developers use React Material UI and Material Design principles to create high-performance user interfaces that enhance user experience.</p>
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={openForm}
@@ -197,7 +196,7 @@ function MaterialUI() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Key Features
+              Key Features of Our Material UI Development
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -217,7 +216,7 @@ function MaterialUI() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our Services
+              Our Material UI Development Services
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -237,7 +236,7 @@ function MaterialUI() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Key Benefits
+             Key Benefits of Material UI Solutions
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -257,7 +256,7 @@ function MaterialUI() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Us?
+              Why Choose BTJ Alpha Technology for Material UI Development?
             </h2>
           </div>
           <div className="grid md:grid-cols-4 gap-8 container mx-auto px-4">
@@ -283,7 +282,7 @@ function MaterialUI() {
             Ready to Build with Material UI?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to leverage the power of Material UI for your modern web applications.
+            Partner with BTJ Alpha Technology to leverage the power of Material UI for your modern web applications.
           </p>
           <button
             onClick={openForm}
