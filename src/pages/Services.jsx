@@ -151,13 +151,13 @@ const Services = () => {
     },
     { 
       name: "Answer Engine Optimization", 
-      path: "/answer-engine-optimization", 
+      path: "/answer-engine-optimization-services", 
       icon: <FaRobot className="text-3xl text-[#9b59b6]" />,
       description: "Optimize for voice search and answer engines to capture featured snippets and voice search traffic."
     },
     { 
       name: "Email Marketing", 
-      path: "/email-marketing", 
+      path: "/email-marketing-services-in-india", 
       icon: <FaEnvelope className="text-3xl text-[#e74c3c]" />,
       description: "Design and execute effective email marketing campaigns that nurture leads and drive conversions."
     },

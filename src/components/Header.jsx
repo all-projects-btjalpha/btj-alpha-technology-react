@@ -153,8 +153,8 @@ const Header = () => {
     { name: "Pay per Click Advertising", path: "/ppc-advertising", icon: <FaMousePointer className="text-2xl text-[#3498db]" /> },
     { name: "Google Ads", path: "/google-ads", icon: <FaGoogle className="text-2xl text-[#4285f4]" /> },
     { name: "Meta Ads", path: "/meta-ads", icon: <FaFacebookSquare className="text-2xl text-[#1877f2]" /> },
-    { name: "Answer Engine Optimization", path: "/answer-engine-optimization", icon: <FaRobot className="text-2xl text-[#9b59b6]" /> },
-    { name: "Email Marketing", path: "/email-marketing", icon: <FaEnvelope className="text-2xl text-[#e74c3c]" /> },
+    { name: "Answer Engine Optimization", path: "/answer-engine-optimization-services", icon: <FaRobot className="text-2xl text-[#9b59b6]" /> },
+    { name: "Email Marketing", path: "/email-marketing-services-in-india", icon: <FaEnvelope className="text-2xl text-[#e74c3c]" /> },
   ];
 
   // Technologies Data

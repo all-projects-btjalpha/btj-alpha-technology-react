@@ -153,8 +153,8 @@ function App() {
           <Route path="reporting" element={<Reporting />} />
           <Route path="performance-marketing" element={<PerformanceMarketing />} />
           <Route path="ppc-advertising" element={<PPCAdvertising />} />
-          <Route path="answer-engine-optimization" element={<AnswerEngineOptimization />} />
-          <Route path="email-marketing" element={<EmailMarketing />} />
+          <Route path="answer-engine-optimization-services" element={<AnswerEngineOptimization />} />
+          <Route path="email-marketing-services-in-india" element={<EmailMarketing />} />
           {/* Technology Routes */}
           <Route path="reactjs-development-company-in-india" element={<ReactJS />} />
           <Route path="angular-development-company-in-india" element={<Angular />} />
