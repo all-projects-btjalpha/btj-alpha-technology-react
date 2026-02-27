@@ -112,6 +112,8 @@ import SaaSVertical from "./pages/vertical_pages/SaaS";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 import FAQChatbot from "./components/Chatbot";
+import WhatsAppButton from "./components/WhatsAppButton";
+import SocialMediaButtons from "./components/SocialMediaButtons";
 
 function App() {
   return (
@@ -237,6 +239,7 @@ function App() {
         <Footer />
       </BrowserRouter>
       <FAQChatbot />
+      <SocialMediaButtons />
       <ToastContainer position="top-center" autoClose={2500} />
     </>
   );

@@ -119,12 +119,27 @@ const UserForm = () => {
   className="w-full custom-select"
   size="large"
 >
-  <Option value="Web Designing">Web Designing</Option>
-  <Option value="Web Development">Web Development</Option>
-  <Option value="App Development">App Development</Option>
-  <Option value="Digital Marketing">Digital Marketing</Option>
-  <Option value="Bulk SMS">Bulk SMS</Option>
-  <Option value="Bulk Database">Bulk Database</Option>
+  <Option value="Website Designing">Website Designing</Option>
+  <Option value="Website Development">Website Development</Option>
+  <Option value="Mobile App Development">Mobile App Development</Option>
+  <Option value="AI & ML">AI & ML</Option>
+  <Option value="Product Development">Product Development</Option>
+  <Option value="PWA Development">PWA Development</Option>
+  <Option value="Web API">Web API</Option>
+  <Option value="Software Architecture">Software Architecture</Option>
+  <Option value="Software Testing">Software Testing</Option>
+  <Option value="UI/UX Design">UI/UX Design</Option>
+  <Option value="Databases">Databases</Option>
+  <Option value="Cloud Services">Cloud Services</Option>
+  <Option value="Reporting">Reporting</Option>
+  <Option value="Search Engine Optimization">Search Engine Optimization</Option>
+  <Option value="Performance Marketing">Performance Marketing</Option>
+  <Option value="Social Media Marketing">Social Media Marketing</Option>
+  <Option value="Pay per Click Advertising">Pay per Click Advertising</Option>
+  <Option value="Google Ads">Google Ads</Option>
+  <Option value="Meta Ads">Meta Ads</Option>
+  <Option value="Answer Engine Optimization">Answer Engine Optimization</Option>
+  <Option value="Email Marketing">Email Marketing</Option>
 </Select>
 
 

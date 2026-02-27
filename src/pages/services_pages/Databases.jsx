@@ -146,11 +146,9 @@ function Databases() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
+            <div data-aos="fade-right" className="lg:pl-16">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Database<br />
-                Management &<br />
-                Integration Services
+                Database Management & Integration Services
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
                 Step2gen offers comprehensive database management and integration services to optimize, secure and integrate your database systems. With our expertise in both SQL and NoSQL databases, we provide scalable solutions that grow with your business needs.

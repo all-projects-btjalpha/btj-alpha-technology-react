@@ -6,6 +6,7 @@ import {
   FaEnvelope,
   FaPhone,
 } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -65,6 +66,15 @@ const Footer = () => {
                   aria-label="Facebook"
                 >
                   <ImFacebook className="text-xl text-white" />
+                </a>
+                <a
+                  href="https://wa.me/919310228489"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-[#25D366] p-3 rounded-full hover:bg-[#1DA851] hover:scale-110 hover:-translate-y-1 transition-all duration-300 shadow-lg"
+                  aria-label="WhatsApp"
+                >
+                  <FaWhatsapp className="text-xl text-white" />
                 </a>
               </div>
             </div>
@@ -368,16 +378,17 @@ const Footer = () => {
               <li className="flex items-start gap-2 group">
                 <FaMapMarkerAlt className="text-base mt-1 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" />
                 <div className="text-white/90 text-xs sm:text-sm">
-                  <p>Sector-2, Noida</p>
+                  {/* <p>Sector-2, Noida</p>
                   <p>Gautam Buddha Nagar</p>
-                  <p>UP 201301</p>
+                  <p>UP 201301</p> */}
+                  <p>Sector-2, Noida, Gautam Buddha Nagar, UP 201301</p>
                 </div>
               </li>
               <li className="flex items-start gap-2 group">
                 <FaEnvelope className="text-base mt-1 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" />
                 <a 
                   href="mailto:info@btjalphatechnology.com" 
-                  className="text-white/90 hover:text-white transition-colors duration-300 text-xs sm:text-sm break-all"
+                  className="text-white/90 hover:text-white transition-colors duration-300 text-xs sm:text-sm whitespace-nowrap"
                 >
                   info@btjalphatechnology.com
                 </a>

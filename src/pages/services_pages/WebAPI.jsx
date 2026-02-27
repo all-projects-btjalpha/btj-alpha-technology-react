@@ -162,12 +162,9 @@ function WebAPI() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
+            <div data-aos="fade-right" className="lg:pl-16">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                ASP.NET Core API<br />
-                Development<br />
-                & Integration<br />
-                Solutions
+                ASP.NET Core API Development & Integration Solutions
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
                 At BTJ Alpha Technology, we build strong and scalable API solutions using ASP.NET Core.
