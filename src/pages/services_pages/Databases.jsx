@@ -116,24 +116,24 @@ function Databases() {
 
   const faqs = [
     {
-      question: "What is Database Integration?",
-      answer: "Database integration is the process of combining data from multiple database sources into a unified view. It enables different applications and systems to share and access data seamlessly, ensuring data consistency and enabling real-time data synchronization across your organization."
+      question: "What are Database Management & Integration Services?",
+      answer: "Database Management & Integration Services help businesses design, optimize, secure, migrate, and integrate databases to ensure smooth data flow, high performance, and strong security across systems."
     },
     {
-      question: "Why do I Need Database Management Service?",
-      answer: "Database management services ensure your databases run optimally, securely, and reliably. Professional management includes regular maintenance, performance monitoring, security updates, backup management, and troubleshooting, which helps prevent downtime, data loss, and performance issues."
+      question: "What services do you offer?",
+      answer: "At BTJ Alpha Technology, we provide:Database design and configuration,Database integration with applications,Database migration (on-premise to cloud or hybrid),Performance tuning and optimization,24/7 monitoring and support,Data analytics and reporting solutions"
     },
     {
-      question: "How can you Migrate Data Services?",
-      answer: "We follow a structured migration process: 1) Assessment of current database, 2) Planning migration strategy, 3) Data mapping and transformation, 4) Testing in staging environment, 5) Executing migration with minimal downtime, 6) Post-migration validation and optimization. We ensure zero data loss and maintain data integrity throughout."
+      question: " Do you work with both SQL and NoSQL databases?",
+      answer: "Yes. We work with both relational (SQL) and non-relational (NoSQL) databases to deliver scalable and high-performance solutions."
     },
     {
-      question: "Can you Help with Database Data Security?",
-      answer: "Yes, we implement comprehensive database security measures including encryption at rest and in transit, access controls and user permissions, regular security audits, SQL injection prevention, backup encryption, compliance with regulations (GDPR, HIPAA), and monitoring for suspicious activities."
+      question: "Which database technologies do you support?",
+      answer: "We work with leading database platforms, including: MySQL,Microsoft SQL Server,PostgreSQL,MongoDB,Redis,Amazon DynamoDB,Azure Cosmos DB,Firebase Realtime Database,Elasticsearch"
     },
     {
-      question: "What Database Technologies do you Support?",
-      answer: "We support a wide range of database technologies including SQL databases (MySQL, PostgreSQL, MS SQL Server, Oracle), NoSQL databases (MongoDB, Redis, Cassandra), Cloud databases (AWS RDS, Azure SQL, Google Cloud SQL), and specialized databases like Elasticsearch for search and analytics."
+      question: "Do you provide database migration services?",
+      answer: "Yes. We migrate legacy databases to modern platforms or cloud environments with minimal downtime and zero data loss."
     }
   ];
 
@@ -144,9 +144,9 @@ function Databases() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Database<br />
+            <div data-aos="fade-right"className="lg:pl-16">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                Database
                 Management &<br />
                 Integration Services
               </h1>

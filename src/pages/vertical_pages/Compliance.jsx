@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaShieldAlt, FaFileAlt, FaCheckCircle, FaExclamationTriangle, FaChartBar, FaLock,
-  FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync, 
+  FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync,
   FaDatabase, FaTools, FaCogs, FaServer, FaLayerGroup, FaUsers, FaChartLine
 } from "react-icons/fa";
 
@@ -115,17 +115,26 @@ function Compliance() {
 
   const faqs = [
     {
-      question: "What is compliance technology?",
-      answer: "Compliance technology includes digital platforms for regulatory compliance, audit management, risk assessment, and document management."
+      question: "What does a compliance software development company do?",
+      answer: "A compliance software development company builds digital systems that help organizations meet regulatory requirements, manage audits, and reduce risk. At BTJ Alpha Technology, we specialize in Compliance Management Development in India, delivering secure and scalable compliance platforms."
     },
     {
-      question: "How can compliance tech benefit organizations?",
-      answer: "Compliance technology can reduce risks, ensure regulatory adherence, streamline audits, and provide real-time compliance monitoring."
+      question: " What regulations can your compliance software support?",
+      answer: "Our solutions can support regulatory standards such as:General Data Protection Regulation (GDPR),Health Insurance Portability and Accountability Act (HIPAA),SOC 2,ISO 27001,Other industry-specific compliance requirements"
     },
     {
-      question: "Can compliance platforms be customized to specific regulations?",
-      answer: "Yes, our compliance solutions are fully customizable to match specific regulatory requirements and industry standards."
-    }
+      question: "Do you provide audit management features?",
+      answer: "Yes. Our Compliance Management Development in India includes automated audit scheduling, evidence collection, task assignments, and detailed audit trails to simplify compliance tracking."
+    },
+    {
+      question: " Can your system manage compliance documents and policies?",
+      answer: "Absolutely. We build centralized document management systems that securely store policies, procedures, and compliance records for easy access and tracking."
+    },
+    {
+      question: "Do you offer risk assessment and monitoring tools?",
+      answer: "Yes. Our platforms include automated risk assessment tools, corrective action tracking, and real-time dashboards to identify and mitigate compliance risks."
+    },
+
   ];
 
   return (
@@ -136,10 +145,9 @@ function Compliance() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Compliance<br />
-                Management
+            <div data-aos="fade-right"className="lg:pl-16">
+              <h1 className="text-4xl md:text-5xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                Compliance Management
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
                 Stay compliant with confidence using our comprehensive compliance management systems. We help organizations meet regulatory requirements, reduce risks, and maintain audit readiness.

@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaCalendarAlt, FaTicketAlt, FaUsers, FaMapMarkerAlt, FaMobileAlt, FaChartLine,
-  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync, 
+  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync,
   FaDatabase, FaTools, FaCogs, FaServer, FaLayerGroup
 } from "react-icons/fa";
 
@@ -115,16 +115,28 @@ function EventManagement() {
 
   const faqs = [
     {
-      question: "What is event management technology?",
-      answer: "Event management technology includes digital platforms for event planning, registration, ticketing, venue management, and attendee engagement."
+      question: "What does an event management software development company do?",
+      answer: "At BTJ Alpha Technology, we provide Event Management Development services to build digital platforms for event planning, ticketing, registration, mobile apps, and analytics. Our solutions help businesses manage conferences, corporate events, exhibitions, and large-scale gatherings efficiently."
     },
     {
-      question: "How can event tech benefit organizers?",
-      answer: "Event technology can increase efficiency, improve attendee experience, provide analytics, and automate routine tasks."
+      question: "What features are included in your event management software?",
+      answer: "Our platforms typically include:Event planning dashboards,Online ticketing systems,Registration & check-in management,Venue management tools,Event mobile apps,Real-time analytics & reporting"
     },
     {
       question: "Can event platforms be customized to specific event types?",
       answer: "Yes, our event solutions are fully customizable to match specific event requirements and formats."
+    },
+    {
+      question: "Do you develop secure online ticketing systems?",
+      answer: "Yes. We build secure ticketing platforms with payment gateway integration, QR code scanning, automated confirmations, and real-time sales tracking to maximize efficiency and revenue."
+    },
+    {
+      question: "Can you create custom event registration platforms?",
+      answer: "Absolutely. Our Event Management Development services include smart registration systems with automated emails, attendee data management, and seamless check-in features."
+    },
+    {
+      question: "Do you offer mobile apps for events?",
+      answer: "Yes. We develop custom event mobile apps that include event schedules, networking tools, live updates, push notifications, and attendee engagement features."
     }
   ];
 
@@ -136,10 +148,9 @@ function EventManagement() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
+            <div data-aos="fade-right"className="lg:pl-16">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Event<br />
-                Management
+                Event Management
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
                 Plan and execute memorable events with our digital event management platforms. We create solutions for conferences, festivals, corporate events, and social gatherings.

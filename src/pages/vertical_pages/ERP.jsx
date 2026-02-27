@@ -115,17 +115,26 @@ function ERP() {
 
   const faqs = [
     {
-      question: "What is ERP technology?",
-      answer: "ERP (Enterprise Resource Planning) technology includes integrated platforms for managing business processes across multiple departments."
+      question: "What is ERP software development?",
+      answer: "ERP (Enterprise Resource Planning) software development involves building integrated business management systems that connect finance, HR, inventory, supply chain, and operations into one unified platform. At BTJ Alpha Technology, we specialize in ERP Solutions Development tailored to your business needs."
     },
     {
-      question: "How can ERP benefit businesses?",
-      answer: "ERP can improve efficiency, reduce costs, enhance data accuracy, and provide real-time visibility into business operations."
+      question: "What modules are included in your ERP solutions??",
+      answer: "Our ERP systems typically include:Financial Management,Human Resource Management,Inventory Management,Supply Chain Management,Business Intelligence & Reporting,Process Automatio"
     },
     {
-      question: "Can ERP systems be customized to specific business needs?",
-      answer: "Yes, our ERP solutions are fully customizable to match specific business processes and requirements."
-    }
+      question: "Do you offer custom ERP development?",
+      answer: "Yes. BTJ Alpha Technology provides fully customized ERP Solutions Development to match your business structure, workflows, and industry-specific needs."
+    },
+    {
+      question:"Can your ERP system integrate with existing software?",
+      answer:"Absolutely. Our ERP platforms are designed for seamless integration with third-party tools, legacy systems, accounting software, and CRM platforms to ensure smooth data flow across departments."
+    },
+    {
+      question:"Is your ERP software scalable?",
+      answer:"Yes. We build scalable ERP systems that grow with your business, supporting increasing users, data volume, and operational complexity."
+    },
+  
   ];
 
   return (
@@ -136,10 +145,9 @@ function ERP() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                ERP<br />
-                Solutions
+            <div data-aos="fade-right"className="lg:pl-16">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                ERP Solutions – Integrated Business Management Systems
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
                 Transform business operations with our comprehensive ERP platforms. We build integrated systems for finance, HR, supply chain, manufacturing, and customer management to streamline operations and drive growth.

@@ -177,8 +177,8 @@ function AIandML() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#1c438d] mb-6 leading-tight">
+            <div data-aos="fade-right"className="lg:pl-16">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1c438d] mb-6 leading-tight">
                 Introduction to AI & ML <br />
                 Software <br />
                 Development

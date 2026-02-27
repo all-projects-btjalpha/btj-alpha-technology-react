@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaPlane, FaHotel, FaMapMarkedAlt, FaTicketAlt, FaMobileAlt, FaStar, FaChartLine,
-  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync, 
+  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync,
   FaDatabase, FaTools, FaCogs, FaServer, FaLayerGroup, FaUsers
 } from "react-icons/fa";
 
@@ -115,16 +115,24 @@ function TravelTourism() {
 
   const faqs = [
     {
-      question: "What is travel and tourism technology?",
-      answer: "Travel and tourism technology encompasses digital platforms for booking, itinerary planning, hotel management, and travel experiences."
+      question: " What does a travel software development company do?",
+      answer: "A travel software development company builds digital platforms for travel agencies, tour operators, and hospitality businesses. At BTJ Alpha Technology, we specialize in Travel & Tourism Development in India, creating secure, scalable, and feature-rich travel solutions."
     },
     {
-      question: "How can travel technology benefit my business?",
-      answer: "Travel technology can increase bookings, improve customer experience, streamline operations, and provide valuable insights into customer behavior."
+      question: "What types of travel software do you develop?",
+      answer: "We develop:Flight and hotel booking systems,Holiday package platforms,Car rental booking systems,Hotel management software,Online travel portals (OTA platforms),Travel mobile applications"
     },
     {
-      question: "Can travel platforms be customized to my business needs?",
-      answer: "Yes, our travel solutions are fully customizable to match your specific business model and requirements."
+      question: "Do you build online travel booking systems?",
+      answer: "Yes. We create advanced booking engines with real-time availability, secure payment gateway integration, automated confirmations, and seamless user experience."
+    },
+    {
+      question: "Can you develop hotel management software?",
+      answer: "Absolutely. Our Travel & Tourism Development in India services include hotel management systems with reservation management, room allocation, billing, check-in/check-out tracking, and reporting tools."
+    },
+    {
+      question: "Do you offer mobile app development for travel businesses?",
+      answer: "Yes. We design and develop iOS and Android travel apps that allow users to book tickets, manage trips, receive notifications, and access customer support anytime."
     }
   ];
 
@@ -136,10 +144,9 @@ function TravelTourism() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
+            <div data-aos="fade-right"className="lg:pl-16">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Travel &<br />
-                Tourism
+                Travel & Tourism
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
                 Transform travel experiences with our digital platforms. We build booking systems, travel portals, hotel management software, and mobile apps for the tourism industry.

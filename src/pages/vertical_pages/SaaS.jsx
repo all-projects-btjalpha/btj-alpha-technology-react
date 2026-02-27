@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaServer, FaCloud, FaUsers, FaChartLine, FaCreditCard, FaRocket,
-  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync, 
+  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync,
   FaDatabase, FaTools, FaCogs, FaLayerGroup
 } from "react-icons/fa";
 
@@ -115,16 +115,24 @@ function SaaS() {
 
   const faqs = [
     {
-      question: "What is SaaS?",
-      answer: "SaaS (Software as a Service) is a software distribution model where applications are hosted by a service provider and made available to customers over the internet."
+      question: " What does a SaaS solutions company do?",
+      answer: "A SaaS solutions company builds cloud-based software platforms that users can access via subscription. At BTJ Alpha Technology, we specialize in SaaS Application Development, creating scalable, secure, and multi-tenant software products tailored to your business model."
     },
     {
-      question: "How can SaaS benefit my business?",
-      answer: "SaaS can reduce IT costs, improve accessibility, enable faster deployment, and provide automatic updates and maintenance."
+      question: "What is SaaS application development?",
+      answer: "SaaS Application Development involves designing and building cloud-hosted software with features like multi-tenant architecture, subscription billing, API integrations, analytics dashboards, and secure user management systems."
     },
     {
-      question: "Is SaaS secure?",
-      answer: "Yes, reputable SaaS providers implement robust security measures including encryption, secure authentication, and regular security audits."
+      question: "Do you develop multi-tenant SaaS platforms?",
+      answer: "Yes. We design multi-tenant architectures that support multiple users and organizations while keeping their data fully isolated and secure."
+    },
+    {
+      question: "Which cloud platforms do you support?",
+      answer: "We deploy SaaS applications on leading cloud platforms such as Amazon Web Services, Microsoft Azure, and Google Cloud with auto-scaling and performance optimization."
+    },
+    {
+      question: "Can you integrate subscription billing systems?",
+      answer: "Absolutely. Our SaaS Application Development services include recurring billing integration with platforms like Stripe and PayPal, supporting multiple pricing plans, invoicing, and payment tracking."
     }
   ];
 
@@ -136,10 +144,9 @@ function SaaS() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
+            <div data-aos="fade-right"className="lg:pl-16">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                SaaS<br />
-                Solutions
+                SaaS Solutions
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
                 Build scalable Software-as-a-Service platforms with our expertise. We create secure, multi-tenant SaaS applications with subscription billing, analytics, and seamless integrations.

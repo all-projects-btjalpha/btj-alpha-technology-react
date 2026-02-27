@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaHeartbeat, FaUserMd, FaHospital, FaPrescription, FaNotesMedical, FaXRay,
-  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync, 
+  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync,
   FaDatabase, FaTools, FaCogs, FaServer, FaLayerGroup, FaUsers, FaChartLine
 } from "react-icons/fa";
 
@@ -115,16 +115,24 @@ function Healthcare() {
 
   const faqs = [
     {
-      question: "What is healthcare technology?",
-      answer: "Healthcare technology includes digital platforms for patient records, telemedicine, hospital management, and health information systems."
+      question: "What are Custom Healthcare Software Development Services?",
+      answer: "Custom Healthcare Software Development Services involve building tailored digital solutions for hospitals, clinics, and healthcare providers to improve patient care, streamline operations, and ensure secure data management. At BTJ Alpha Technology, we specialize in scalable and compliant healthcare platforms."
     },
     {
-      question: "How can healthcare tech benefit providers?",
-      answer: "Healthcare technology can improve patient care, reduce costs, increase efficiency, and provide valuable analytics."
+      question: " What types of healthcare software do you develop?",
+      answer: "We develop:Electronic Health Records (EHR) systems,Telemedicine platforms,Hospital Management Systems,Pharmacy management softwar,Patient portals,Medical imaging solutions with DICOM support"
     },
     {
-      question: "Can healthcare platforms be customized to specific requirements?",
-      answer: "Yes, our healthcare solutions are fully customizable to match specific clinical and operational needs."
+      question: "Do you build secure and compliant healthcare systems?",
+      answer: "Yes. Our Custom Healthcare Software Development Services in India focus on secure architecture, data encryption, and compliance with healthcare regulations such as HIPAA standards."
+    },
+    {
+      question: "Can you develop telemedicine platforms?",
+      answer: "Absolutely. We build telehealth solutions with secure video consultations, appointment scheduling, digital prescriptions, and remote patient monitoring features."
+    },
+    {
+      question: " Do you provide hospital management systems?",
+      answer: "Yes. Our systems include appointment management, billing, staff coordination, inventory control, and detailed reporting dashboards."
     }
   ];
 
@@ -136,10 +144,9 @@ function Healthcare() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
+            <div data-aos="fade-right" className="lg:pl-16">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Healthcare<br />
-                Solutions
+                Healthcare Solutions
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
                 Transform healthcare delivery with our digital platforms. We build EHR systems, telemedicine platforms, hospital management software, and patient portals that improve care quality and operational efficiency.

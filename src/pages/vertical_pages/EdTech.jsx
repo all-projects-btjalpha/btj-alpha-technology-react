@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaGraduationCap, FaBook, FaVideo, FaCertificate, FaMobileAlt, FaChartLine,
-  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync, 
+  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync,
   FaDatabase, FaTools, FaCogs, FaServer, FaLayerGroup, FaUsers
 } from "react-icons/fa";
 
@@ -115,16 +115,24 @@ function EdTech() {
 
   const faqs = [
     {
-      question: "What is EdTech?",
-      answer: "EdTech (Educational Technology) refers to the use of technology to enhance learning, teaching, and education management."
+      question: "What does an Ed-Tech solutions development company do?",
+      answer: "An Ed-Tech solutions development company builds digital learning platforms such as LMS systems, online course platforms, virtual classrooms, and mobile learning apps. At BTJ Alpha Technology, we specialize in Ed-Tech development in India, delivering scalable and user-friendly education technology solutions."
     },
     {
-      question: "How can EdTech benefit educational institutions?",
-      answer: "EdTech can increase accessibility, improve engagement, provide personalized learning experiences, and offer valuable analytics on student performance."
+      question: "What types of Ed-Tech platforms do you develop?",
+      answer: "We develop:Learning Management Systems (LMS),Online course platforms,Virtual classroom systems,Certification and digital badge systems,Student analytics dashboards,Mobile learning applications"
     },
     {
-      question: "Can EdTech platforms be customized to specific educational needs?",
-      answer: "Yes, our EdTech solutions are fully customizable to match specific curriculum requirements and institutional needs."
+      question: " Do you build custom Learning Management Systems (LMS)?",
+      answer: "Yes. Our Ed-Tech Solutions include fully customized LMS platforms that allow course creation, student enrollment, assignment management, real-time progress tracking, and assessments."
+    },
+    {
+      question: "Can you develop virtual classroom platforms?",
+      answer: "Absolutely. We build virtual classroom systems with video conferencing integration, screen sharing, interactive whiteboards, chat features, and live Q&A tools to support modern learning environments."
+    },
+    {
+      question: " Do you offer mobile app development for e-learning?",
+      answer: "Yes. We provide mobile-focused Ed-Tech development in India, creating iOS and Android apps that enable learners to access content anytime, learn on the go, and download materials for offline use."
     }
   ];
 
@@ -136,10 +144,9 @@ function EdTech() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
+            <div data-aos="fade-right"className="lg:pl-16">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Ed-Tech<br />
-                Solutions
+                Ed-Tech Solutions
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
                 Revolutionize education with our digital learning platforms. We create engaging e-learning solutions, LMS systems, and educational apps that make learning accessible and effective.

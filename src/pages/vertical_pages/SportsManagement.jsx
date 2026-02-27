@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaFootballBall, FaUsers, FaCalendarAlt, FaChartLine, FaMobileAlt, FaTrophy,
-  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync, 
+  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync,
   FaDatabase, FaTools, FaCogs, FaServer, FaLayerGroup
 } from "react-icons/fa";
 
@@ -115,16 +115,24 @@ function SportsManagement() {
 
   const faqs = [
     {
-      question: "What is sports management technology?",
-      answer: "Sports management technology includes digital platforms for managing leagues, teams, tournaments, and athlete performance tracking."
+      question: " What does a sports software development company do?",
+      answer: "A sports software development company builds digital platforms for managing leagues, teams, tournaments, and sports facilities. At BTJ Alpha Technology, we specialize in Sports Management Development in India, delivering secure, scalable, and user-friendly sports management systems."
     },
     {
-      question: "How can sports management systems benefit my organization?",
-      answer: "Sports management systems can streamline operations, improve communication, track performance, and enhance fan engagement."
+      question: " What types of sports management software do you develop?",
+      answer: "We develop:League management systems,Team management platforms,Tournament management software,Event scheduling systems,Sports analytics dashboards,Sports mobile applications"
     },
     {
-      question: "Can sports platforms be customized to my sport or league?",
-      answer: "Yes, our sports solutions are fully customizable to match your specific sport, league, or organization requirements."
+      question: " Do you build league and tournament management systems?",
+      answer: "Yes. Our Sports Management Development in India includes platforms for team registration, match scheduling, standings, bracket management, automated scoring, and real-time results."
+    },
+    {
+      question: "Can you develop sports mobile apps?",
+      answer: "Absolutely. We create mobile apps with live scores, performance tracking, event notifications, and fan engagement features to improve accessibility and interaction."
+    },
+    {
+      question: "Do your systems include performance analytics?",
+      answer: "Yes. Our platforms provide detailed player statistics, team performance insights, game analysis, and real-time reporting dashboards for data-driven decision-making."
     }
   ];
 
@@ -136,10 +144,9 @@ function SportsManagement() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
+            <div data-aos="fade-right"className="lg:pl-16">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Sports<br />
-                Management
+                Sports Management
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
                 Elevate sports management with our comprehensive platforms. We build solutions for leagues, teams, tournaments, and sports facilities that streamline operations and engage fans.

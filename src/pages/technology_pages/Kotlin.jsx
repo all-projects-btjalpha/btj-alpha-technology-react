@@ -137,13 +137,13 @@ function Kotlin() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Kotlin<br />
+            <div data-aos="fade-right"className="lg:pl-16">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                Kotlin
                 Development
               </h1>
               <p className="text-gray-600 max-w-3xl mx-auto">
-              At BTJ Alpha Technology, we deliver professional Kotlin Development Services to help businesses build modern, efficient, and scalable Android applications. Our expert developers use Kotlin’s advanced features and concise syntax to create high-performance mobile apps that are secure, reliable, and future-ready.</p>
+              At BTJ Alpha Technology, we deliver professional Kotlin Development Services to help businesses build modern, efficient, and scalable Android applications. Our expert developers use Kotlin’s advanced features and concise syntax to create high-performance mobile apps that are secure, reliable, and future-ready.</p><br></br>
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={openForm}

@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaDumbbell, FaHeartbeat, FaMobileAlt, FaChartLine, FaUsers, FaCalendarAlt,
-  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync, 
+  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync,
   FaDatabase, FaTools, FaCogs, FaServer, FaLayerGroup
 } from "react-icons/fa";
 
@@ -115,16 +115,28 @@ function Fitness() {
 
   const faqs = [
     {
-      question: "What is fitness technology?",
-      answer: "Fitness technology includes digital platforms for workout tracking, health monitoring, and fitness management."
+      question: "What services do you offer as a fitness app development company?",
+      answer: "At BTJ Alpha Technology, we provide Fitness Solutions Software Development including workout tracking apps, gym management systems, trainer platforms, health monitoring apps, and class scheduling software."
     },
     {
-      question: "How can fitness tech benefit users?",
-      answer: "Fitness technology can help users track progress, stay motivated, monitor health metrics, and achieve fitness goals more effectively."
+      question: "Do you develop apps for iOS and Android?",
+      answer: "Yes, we build high-performance fitness mobile applications for both iOS and Android platforms."
     },
     {
-      question: "Can fitness platforms be customized to specific needs?",
-      answer: "Yes, our fitness solutions are fully customizable to match specific fitness programs and user requirements."
+      question: "Can you integrate wearable devices?",
+      answer: "Yes, we integrate apps with devices and platforms like Apple Health, Google Fit, and Fitbit for real-time health tracking."
+    },
+    {
+      question: "Can you build custom gym management software?",
+      answer: "Absolutely. We develop tailored gym and trainer management systems with membership, scheduling, payments, and analytics features."
+    },
+    {
+      question: "Is your fitness software secure and scalable?",
+      answer: "Yes, our solutions follow industry best practices to ensure security, scalability, and reliable performance."
+    },
+    {
+      question: "Why choose BTJ Alpha Technology?",
+      answer: "We offer expert development, agile processes, on-time delivery, and high-quality Fitness Solutions Software Development tailored to your business goals."
     }
   ];
 
@@ -136,13 +148,12 @@ function Fitness() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
+            <div data-aos="fade-right"className="lg:pl-16">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Fitness<br />
-                Solutions
+                Fitnes Solutions
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-              Empower fitness journeys with innovative digital platforms. At BTJ Alpha Technology, we specialize in Fitness Solutions Software Development to help gyms, fitness trainers, wellness brands, and health startups deliver engaging and results-driven experiences.</p>
+                Empower fitness journeys with innovative digital platforms. At BTJ Alpha Technology, we specialize in Fitness Solutions Software Development to help gyms, fitness trainers, wellness brands, and health startups deliver engaging and results-driven experiences.</p>
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={openForm}

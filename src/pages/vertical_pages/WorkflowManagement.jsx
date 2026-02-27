@@ -115,16 +115,25 @@ function WorkflowManagement() {
 
   const faqs = [
     {
-      question: "What is workflow management?",
-      answer: "Workflow management involves designing, executing, and monitoring business processes to improve efficiency and productivity."
+      question: " What does a workflow automation development company do?",
+      answer: "A workflow automation development company builds digital systems that automate business processes, reduce manual tasks, and improve operational efficiency. At BTJ Alpha Technology, we specialize in Workflow Management Development to create secure, scalable, and high-performance automation platforms."
     },
     {
-      question: "How can workflow automation benefit my business?",
-      answer: "Workflow automation reduces manual effort, minimizes errors, increases efficiency, and provides better visibility into business processes."
+      question: "What features are included in your workflow management solutions?",
+      answer: "Our Workflow Management Development solutions include:Task automation with triggers and conditional logic,Custom workflow design tools,Approval systems and task assignments,Real-time performance tracking dashboards,Mobile workflow access,Third-party system integrations"
     },
     {
-      question: "Can workflows be customized to my business needs?",
-      answer: "Yes, our workflow solutions are fully customizable to match your specific business processes and requirements."
+      question: "Can you automate complex business processes?",
+      answer: "Yes. We design and implement structured automation systems that streamline approvals, reduce bottlenecks, and improve cross-department collaboration."
+    },
+    {
+
+      question:"Do you offer workflow integration with existing software?",
+      answer:"Absolutely. We integrate workflow platforms with CRM, ERP, HR systems, and other enterprise tools to ensure seamless data flow and operational consistency."
+    },
+    {
+      question:"Is your workflow automation software scalable?",
+      answer:"Yes. Our Workflow Management Development approach ensures your automation platform can scale as your business grows and processes become more complex."
     }
   ];
 
@@ -136,10 +145,9 @@ function WorkflowManagement() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Workflow<br />
-                Management
+            <div data-aos="fade-right"className="lg:pl-16">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                Workflow Management
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
                 Streamline business processes with our workflow automation platforms. We build systems that automate tasks, improve efficiency, and eliminate manual bottlenecks in your operations.

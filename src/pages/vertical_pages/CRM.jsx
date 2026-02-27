@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaUsers, FaCommentDots, FaChartLine, FaEnvelope, FaCalendarAlt, FaTasks,
-  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync, 
+  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync,
   FaDatabase, FaTools, FaCogs, FaServer, FaLayerGroup, FaUserFriends, FaMoneyBillWave
 } from "react-icons/fa";
 
@@ -115,16 +115,24 @@ function CRM() {
 
   const faqs = [
     {
-      question: "What is CRM technology?",
-      answer: "CRM (Customer Relationship Management) technology includes digital platforms for managing customer interactions, sales processes, and business relationships."
+      question: " Why should I choose custom CRM development instead of ready-made CRM tools?",
+      answer: "Ready-made CRM software often includes unnecessary features and may not fully match your workflow. Custom CRM development allows you to build a system that fits your exact sales process, approval structure, and reporting needs.BTJ Alpha Technology develops tailored CRM software that improves efficiency, reduces manual work, and supports long-term business growth."
     },
     {
-      question: "How can CRM benefit businesses?",
-      answer: "CRM can improve customer satisfaction, increase sales, enhance productivity, and provide valuable customer insights."
+      question: "What features are included in your custom CRM software?",
+      answer: "At BTJ Alpha Technology, we build feature-rich CRM systems that typically include:Contact & Lead Management,Sales Pipeline & Deal Tracking,Task & Follow-Up Automation,Email, SMS & Call Integration,Marketing Campaign Management,Customer Support Ticketing,Role-Based Access Control,Document Management,Real-Time Reports & Dashboards,Performance Analytics & Forecasting,Each module is fully customized according to your business requirements."
     },
     {
-      question: "Can CRM platforms be customized to specific business needs?",
-      answer: "Yes, our CRM solutions are fully customizable to match specific business processes and requirements."
+      question: "Can you build industry-specific CRM systems?",
+      answer: "Yes. BTJ Alpha Technology develops CRM software tailored for industries such as real estate, healthcare, finance, education, manufacturing, retail, and service-based businesses.We design workflows and dashboards that align with your operational structure and compliance needs."
+    },
+    {
+      question: "Is your CRM software scalable as my business grows?",
+      answer: "Absolutely. Our CRM platforms are built with scalable architecture that supports increasing users, large customer databases, and expanding sales operations.BTJ Alpha Technology ensures your CRM remains fast, secure, and performance-optimized as your company grows."
+    },
+    {
+      question: "Can your CRM integrate with existing business tools?",
+      answer: "Yes. BTJ Alpha Technology integrates CRM systems with:ERP software,Accounting tools,Payment gateways,Marketing automation platforms,WhatsApp, SMS & Email APIs,Third-party business applications,This ensures smooth data flow and centralized business management."
     }
   ];
 
@@ -136,10 +144,9 @@ function CRM() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
+            <div data-aos="fade-right" className="lg:pl-16">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                CRM<br />
-                Solutions
+                CRM Solutions
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
                 Enhance customer relationships with our comprehensive CRM platforms. We build systems for sales automation, customer service, marketing automation, and data analytics to drive business growth.

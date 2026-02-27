@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaHome, FaSearch, FaKey, FaMapMarkerAlt, FaMobileAlt, FaChartLine,
-  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync, 
+  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync,
   FaDatabase, FaTools, FaCogs, FaServer, FaLayerGroup, FaUsers
 } from "react-icons/fa";
 
@@ -115,16 +115,24 @@ function RealEstate() {
 
   const faqs = [
     {
-      question: "What is real estate technology?",
-      answer: "Real estate technology includes digital platforms for property listings, CRM systems, virtual tours, and market analytics."
+      question: " What does a real estate software development company do?",
+      answer: "A real estate software development company builds digital platforms for property listings, CRM systems, virtual tours, and mobile applications. At BTJ Alpha Technology, we specialize in Real Estate Development in India, delivering secure and scalable solutions for agents, brokers, and property businesses."
     },
     {
-      question: "How can PropTech benefit real estate businesses?",
-      answer: "PropTech can increase efficiency, improve customer experience, provide market insights, and automate routine tasks."
+      question: "What types of real estate software do you develop?",
+      answer: "We develop:Property listing websites,Advanced property search platforms,Real estate CRM systems,Location-based mapping solutions,Virtual tour systems,iOS and Android mobile applications"
     },
     {
-      question: "Can real estate platforms be customized to specific business needs?",
-      answer: "Yes, our real estate solutions are fully customizable to match specific business models and requirements."
+      question: "Do you build real estate CRM systems?",
+      answer: "Yes. Our Real Estate Development in India services include customized CRM platforms for managing leads, client communication, follow-ups, and sales tracking."
+    },
+    {
+      question: "Can you create advanced property search features?",
+      answer: "Absolutely. We develop smart search systems with location filters, price range options, amenity-based filtering, and intelligent property recommendations."
+    },
+    {
+      question: " Do you offer mobile app development for real estate businesses?",
+      answer: "Yes. We design mobile apps for property browsing, virtual tours, agent communication, and real-time notifications to enhance user engagement."
     }
   ];
 
@@ -136,10 +144,9 @@ function RealEstate() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
+            <div data-aos="fade-right" className="lg:pl-16">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Real Estate<br />
-                Solutions
+                Real Estate Solutions
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
                 Transform real estate experiences with our digital platforms. We build property listing sites, real estate CRMs, virtual tour systems, and mobile apps for agents and brokers.

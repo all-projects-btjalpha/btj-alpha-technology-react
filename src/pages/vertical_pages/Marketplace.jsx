@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaShoppingCart, FaStore, FaCreditCard, FaSearch, FaShieldAlt, FaChartLine,
-  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync, 
+  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync,
   FaDatabase, FaTools, FaCogs, FaServer, FaLayerGroup, FaUsers
 } from "react-icons/fa";
 
@@ -115,16 +115,24 @@ function Marketplace() {
 
   const faqs = [
     {
-      question: "What is a marketplace platform?",
-      answer: "A marketplace platform connects multiple sellers with buyers in a single online ecosystem, facilitating transactions between parties."
+      question: "What does a marketplace development company do?",
+      answer: "A marketplace development company builds multi-vendor e-commerce platforms where multiple sellers can list products or services and customers can purchase from a single platform. At BTJ Alpha Technology, we provide Custom Multi-Vendor Marketplace Development Services in India to create scalable and secure marketplace solutions."
     },
     {
-      question: "How can a marketplace benefit my business?",
-      answer: "Marketplaces can increase revenue by connecting multiple vendors, provide economies of scale, and offer diverse product catalogs."
+      question: " What types of marketplace platforms do you develop?",
+      answer: "We develop multi-vendor marketplaces similar to:Amazon,Etsy,Airbnb"
     },
     {
-      question: "Can marketplaces be customized to specific business needs?",
-      answer: "Yes, our marketplace solutions are fully customizable to match specific business models and requirements."
+      question: "Do you provide vendor management features?",
+      answer: "Yes. Our Custom Multi-Vendor Marketplace Development Services in India include vendor onboarding, product management, commission setup, payout management, and performance tracking dashboards."
+    },
+    {
+      question: "Can you integrate secure payment systems?",
+      answer: "Absolutely. We implement secure payment gateway integrations with features like escrow systems, split payments, automated settlements, and multi-currency support."
+    },
+    {
+      question: "Do you include advanced search and filtering features?",
+      answer: "Yes. Our marketplace platforms include smart search functionality, category-based filters, and personalized recommendations to enhance product discovery."
     }
   ];
 
@@ -136,10 +144,9 @@ function Marketplace() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
+            <div data-aos="fade-right" className="lg:pl-16">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Marketplace<br />
-                Solutions
+                Marketplace Solutions
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
                 Launch your multi-vendor marketplace with our robust e-commerce platforms. We build scalable marketplaces like Amazon, Etsy, and Airbnb that connect buyers and sellers seamlessly.

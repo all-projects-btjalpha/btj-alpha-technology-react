@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaWallet, FaMobileAlt, FaShieldAlt, FaChartLine, FaUniversity, FaCreditCard,
-  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync, 
+  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync,
   FaDatabase, FaTools, FaCogs, FaServer, FaLayerGroup, FaUsers
 } from "react-icons/fa";
 
@@ -115,16 +115,25 @@ function Fintech() {
 
   const faqs = [
     {
-      question: "What is fintech?",
-      answer: "Fintech (financial technology) refers to the integration of technology into financial services to improve efficiency and user experience."
+      question: " What does a fintech solutions company do?",
+      answer: "A fintech solutions company develops secure digital platforms for banking, payments, lending, and investments. At BTJ Alpha Technology, we specialize in Fintech Development in India, building scalable and high-performance financial applications for startups and enterprises."
     },
     {
-      question: "How can fintech benefit businesses?",
-      answer: "Fintech can reduce costs, improve efficiency, enhance user experience, enable new revenue streams, and provide real-time analytics."
+      question: "What types of fintech software do you develop?",
+      answer: "We develop:Digital wallet applications,Mobile banking apps,Secure payment gateways,Investment and trading platforms,Lending and loan management systems,Multi-currency payment processing systems"
     },
     {
-      question: "Are fintech solutions secure?",
-      answer: "Yes, our fintech solutions follow strict security protocols including PCI-DSS compliance, encryption, and multi-layer authentication."
+      question: "Do you build digital wallet applications?",
+      answer: "Yes. We create secure digital wallets that support money transfers, bill payments, wallet-to-wallet transactions, and encrypted balance management systems."
+    },
+    {
+      question: "Can you develop mobile banking applications?",
+      answer: "Absolutely. Our Fintech Development in India services include feature-rich mobile banking apps with UPI integration, fund transfers, account management, and real-time notifications."
+
+    },
+    {
+      question: "Do your fintech solutions comply with security standards?",
+      answer: "Yes. We build PCI-DSS compliant payment systems, multi-layer authentication mechanisms, fraud detection tools, and encrypted transaction processing to ensure maximum security."
     }
   ];
 
@@ -136,10 +145,9 @@ function Fintech() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
+            <div data-aos="fade-right"className="lg:pl-16">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Fintech<br />
-                Solutions
+                Fintech Solutions
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
                 Build the future of finance with our innovative fintech solutions. We create secure, scalable, and user-friendly financial applications that revolutionize banking, payments, and investment experiences.
