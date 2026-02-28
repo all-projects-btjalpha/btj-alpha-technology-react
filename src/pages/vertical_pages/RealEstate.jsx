@@ -115,24 +115,24 @@ function RealEstate() {
 
   const faqs = [
     {
-      question: " What does a real estate software development company do?",
+      question: "How can real estate software improve property business operations?",
       answer: "A real estate software development company builds digital platforms for property listings, CRM systems, virtual tours, and mobile applications. At BTJ Alpha Technology, we specialize in Real Estate Development in India, delivering secure and scalable solutions for agents, brokers, and property businesses."
     },
     {
-      question: "What types of real estate software do you develop?",
-      answer: "We develop:Property listing websites,Advanced property search platforms,Real estate CRM systems,Location-based mapping solutions,Virtual tour systems,iOS and Android mobile applications"
+      question: "Do you develop custom real estate CRM systems?",
+      answer: "Yes. BTJ Alpha Technology builds fully customized Real Estate CRM systems that help manage leads, schedule site visits, automate follow-ups, and track deal closures. Our CRM solutions are designed to improve agent productivity and increase conversion rates."
     },
     {
-      question: "Do you build real estate CRM systems?",
-      answer: "Yes. Our Real Estate Development in India services include customized CRM platforms for managing leads, client communication, follow-ups, and sales tracking."
+      question: "Can you build property listing websites with advanced search features?",
+      answer: "Absolutely. BTJ Alpha Technology develops modern property portals with smart filters, location-based search, image galleries, virtual tours, and secure inquiry forms to enhance user experience."
     },
     {
-      question: "Can you create advanced property search features?",
-      answer: "Absolutely. We develop smart search systems with location filters, price range options, amenity-based filtering, and intelligent property recommendations."
+      question: "Do you provide mobile app development for real estate businesses?",
+      answer: "Yes. We build high-performance mobile applications for agents, brokers, and customers. BTJ Alpha Technology ensures seamless property browsing, booking, notifications, and real-time communication through secure mobile platforms."
     },
     {
-      question: " Do you offer mobile app development for real estate businesses?",
-      answer: "Yes. We design mobile apps for property browsing, virtual tours, agent communication, and real-time notifications to enhance user engagement."
+      question: "Is your real estate software secure and scalable?",
+      answer: "Yes. BTJ Alpha Technology develops real estate systems using secure coding practices, encrypted data management, and scalable cloud infrastructure to support growing user traffic and expanding property databases."
     }
   ];
 
@@ -145,11 +145,12 @@ function RealEstate() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
             <div data-aos="fade-right" className="lg:pl-16">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Real Estate Solutions
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                Real Estate Software Development Company in India – Smart Digital Solutions for Property Businesses
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Transform real estate experiences with our digital platforms. We build property listing sites, real estate CRMs, virtual tour systems, and mobile apps for agents and brokers.
+                BTJ Alpha Technology is a leading Real Estate Software Development Company in India delivering secure, scalable, and high-performance digital solutions for property businesses.
+                We design and develop advanced real estate software that helps developers, agents, brokers, and property management companies streamline operations, manage listings, and improve customer engagement.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button

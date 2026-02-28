@@ -115,24 +115,28 @@ function SaaS() {
 
   const faqs = [
     {
-      question: " What does a SaaS solutions company do?",
-      answer: "A SaaS solutions company builds cloud-based software platforms that users can access via subscription. At BTJ Alpha Technology, we specialize in SaaS Application Development, creating scalable, secure, and multi-tenant software products tailored to your business model."
+      question: "How can a SaaS Application Development Company help launch my software product?",
+      answer: "A SaaS Application Development Company designs and builds cloud-based software that users can access through a subscription model. BTJ Alpha Technology helps startups and enterprises turn their ideas into scalable SaaS products with secure architecture, modern UI/UX, and cloud-ready infrastructure."
     },
     {
-      question: "What is SaaS application development?",
-      answer: "SaaS Application Development involves designing and building cloud-hosted software with features like multi-tenant architecture, subscription billing, API integrations, analytics dashboards, and secure user management systems."
+      question: "What is included in your SaaS application development services?",
+      answer: "At BTJ Alpha Technology, our SaaS Application Development services include: Multi-tenant architecture design,Subscription billing integration,Secure user authentication & role management,API & third-party integrations,Admin dashboards & analytics,Performance optimization & cloud deployment,We build complete SaaS ecosystems ready for launch and long-term growth."
     },
     {
-      question: "Do you develop multi-tenant SaaS platforms?",
-      answer: "Yes. We design multi-tenant architectures that support multiple users and organizations while keeping their data fully isolated and secure."
+      question: "Do you develop secure multi-tenant SaaS platforms?",
+      answer: "Yes. BTJ Alpha Technology designs advanced multi-tenant systems that allow multiple users or organizations to operate on a single platform while keeping their data fully isolated and secure. We implement strong access controls, encryption, and compliance-ready architecture."
     },
     {
-      question: "Which cloud platforms do you support?",
-      answer: "We deploy SaaS applications on leading cloud platforms such as Amazon Web Services, Microsoft Azure, and Google Cloud with auto-scaling and performance optimization."
+      question: "Which cloud platforms does BTJ Alpha Technology support?",
+      answer: "We deploy SaaS applications on leading cloud platforms such as: Amazon Web Services (AWS),Microsoft Azure,Google Cloud Platform (GCP),Our team ensures auto-scaling, high availability, data backup, and optimized server performance."
     },
     {
-      question: "Can you integrate subscription billing systems?",
-      answer: "Absolutely. Our SaaS Application Development services include recurring billing integration with platforms like Stripe and PayPal, supporting multiple pricing plans, invoicing, and payment tracking."
+      question: "Can you integrate subscription billing and payment systems?",
+      answer: "Absolutely. BTJ Alpha Technology integrates recurring billing systems using platforms like Stripe and PayPal. We configure multiple pricing plans, automated invoicing, usage-based billing, payment tracking, and subscription lifecycle management."
+    },
+    {
+      question: "Is your SaaS software scalable for future growth?",
+      answer: "Yes. BTJ Alpha Technology builds SaaS platforms using scalable cloud architecture that supports increasing users, high traffic, and growing data volumes without performance issues."
     }
   ];
 
@@ -144,12 +148,13 @@ function SaaS() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right"className="lg:pl-16">
+            <div data-aos="fade-right" className="lg:pl-16">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                SaaS Solutions
+                SaaS Application Development Company – Scalable & Secure Cloud-Based Software Platforms
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Build scalable Software-as-a-Service platforms with our expertise. We create secure, multi-tenant SaaS applications with subscription billing, analytics, and seamless integrations.
+                BTJ Alpha Technology is a leading SaaS Application Development Company delivering powerful, scalable, and secure cloud-based software solutions for startups, SMEs, and enterprises.
+                We design and develop high-performance SaaS applications that are built for growth, automation, and recurring revenue models.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button

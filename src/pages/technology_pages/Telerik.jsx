@@ -115,16 +115,24 @@ function Telerik() {
 
   const faqs = [
     {
-      question: "What is Telerik?",
-      answer: "Telerik is a comprehensive suite of UI components and development tools for building modern web and desktop applications."
+      question: "How can Telerik development benefit enterprise businesses?",
+      answer: "Telerik provides advanced UI components and development tools that help build high-performance web, desktop, and mobile applications. BTJ Alpha Technology uses Telerik frameworks to develop secure, scalable, and data-driven enterprise solutions that improve productivity and user experience."
     },
     {
-      question: "Why use Telerik components?",
-      answer: "Telerik offers pre-built, customizable UI components that accelerate development and ensure consistent, professional user interfaces."
+      question: "Why should I choose Telerik for modern .NET application development?",
+      answer: "Telerik is built to work seamlessly with Microsoft technologies and offers reliable UI controls, reporting tools, and data visualization components. BTJ Alpha Technology leverages Telerik’s powerful ecosystem to reduce development time while maintaining strong performance and security standards."
     },
     {
-      question: "Which platforms does Telerik support?",
-      answer: "Telerik supports web applications (ASP.NET, JavaScript), desktop applications (WinForms, WPF), and mobile development."
+      question: "Which platforms and frameworks can Telerik support?",
+      answer: "Telerik supports ASP.NET Core, MVC, Blazor, Angular, React, WinForms, and WPF applications. BTJ Alpha Technology builds cross-platform enterprise solutions using the right Telerik framework based on your business requirements and technical architecture."
+    },
+    {
+      question:"Can BTJ Alpha Technology fully customize Telerik applications?",
+      answer:"Yes. We customize UI components, dashboards, reporting modules, workflows, and system architecture according to your branding and operational needs. BTJ Alpha Technology ensures your Telerik-based solution aligns perfectly with your business processes."
+    },
+    {
+      question:"Do you provide long-term maintenance and support services?",
+      answer:"Yes. BTJ Alpha Technology offers continuous maintenance, version upgrades, performance optimization, and technical support after deployment. Our team ensures your Telerik application remains secure, updated, and scalable as your business grows."
     }
   ];
 

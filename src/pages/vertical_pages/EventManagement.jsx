@@ -148,12 +148,13 @@ function EventManagement() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right"className="lg:pl-16">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Event Management
+            <div data-aos="fade-right" className="lg:pl-16">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                Event Management Software Development Company – Smart Digital Platforms for Seamless Event Planning
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Plan and execute memorable events with our digital event management platforms. We create solutions for conferences, festivals, corporate events, and social gatherings.
+                BTJ Alpha Technology is a trusted Event Management Software Development Company delivering powerful, secure, and fully customized event management systems for businesses and organizations.
+                We design and develop advanced event management software that helps you plan, organize, promote, and manage events efficiently — all from one centralized platform.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button

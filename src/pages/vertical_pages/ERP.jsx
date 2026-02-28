@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaCogs, FaChartBar, FaBox, FaUsers, FaMoneyBillWave, FaWarehouse,
-  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync, 
+  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync,
   FaDatabase, FaTools, FaServer, FaLayerGroup, FaIndustry, FaBalanceScale
 } from "react-icons/fa";
 
@@ -115,26 +115,26 @@ function ERP() {
 
   const faqs = [
     {
-      question: "What is ERP software development?",
-      answer: "ERP (Enterprise Resource Planning) software development involves building integrated business management systems that connect finance, HR, inventory, supply chain, and operations into one unified platform. At BTJ Alpha Technology, we specialize in ERP Solutions Development tailored to your business needs."
+      question: "How does ERP software improve business efficiency?",
+      answer: "ERP (Enterprise Resource Planning) software connects finance, HR, inventory, supply chain, and daily operations into one centralized system. BTJ Alpha Technology specializes in ERP Solutions Development that eliminates data silos, reduces manual work, improves reporting accuracy, and gives management real-time visibility into business performance."
     },
     {
-      question: "What modules are included in your ERP solutions??",
-      answer: "Our ERP systems typically include:Financial Management,Human Resource Management,Inventory Management,Supply Chain Management,Business Intelligence & Reporting,Process Automatio"
+      question: "What modules are included in your ERP solutions?",
+      answer: "Our ERP systems typically include: Financial Management,Human Resource Management,Inventory Management,Supply Chain Management,Business Intelligence & Reporting,Process Automatio"
     },
     {
-      question: "Do you offer custom ERP development?",
-      answer: "Yes. BTJ Alpha Technology provides fully customized ERP Solutions Development to match your business structure, workflows, and industry-specific needs."
+      question: "Do you provide fully customized ERP development?",
+      answer: "Yes. BTJ Alpha Technology offers complete custom ERP Solutions Development tailored to your business structure and long-term goals. We design systems based on your specific workflows instead of forcing your business to adjust to generic software."
     },
     {
-      question:"Can your ERP system integrate with existing software?",
-      answer:"Absolutely. Our ERP platforms are designed for seamless integration with third-party tools, legacy systems, accounting software, and CRM platforms to ensure smooth data flow across departments."
+      question: "Can your ERP system integrate with our existing tools?",
+      answer: "Absolutely. BTJ Alpha Technology builds ERP platforms that seamlessly integrate with accounting software, CRM systems, third-party APIs, payment gateways, legacy applications, and cloud services. This ensures smooth data flow across all departments without disrupting current operations."
     },
     {
-      question:"Is your ERP software scalable?",
-      answer:"Yes. We build scalable ERP systems that grow with your business, supporting increasing users, data volume, and operational complexity."
+      question: " Is your ERP software scalable for future growth?",
+      answer: "Yes. BTJ Alpha Technology develops scalable ERP systems using modern architecture that supports increasing users, large data volumes, and expanding business processes. Our solutions are built to grow with your organization while maintaining performance, security, and stability."
     },
-  
+
   ];
 
   return (
@@ -145,12 +145,13 @@ function ERP() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right"className="lg:pl-16">
+            <div data-aos="fade-right" className="lg:pl-16">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                ERP Solutions – Integrated Business Management Systems
+                ERP Software Development Company – Integrated & Scalable Business Management Systems
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Transform business operations with our comprehensive ERP platforms. We build integrated systems for finance, HR, supply chain, manufacturing, and customer management to streamline operations and drive growth.
+                BTJ Alpha Technology is a trusted ERP Software Development Company delivering powerful, secure, and fully customized ERP systems for modern businesses.
+                We design and develop comprehensive ERP software that connects finance, HR, inventory, supply chain, manufacturing, sales, and customer management into one centralized and automated platform.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button

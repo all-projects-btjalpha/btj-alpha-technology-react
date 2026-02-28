@@ -119,11 +119,11 @@ function Automotive() {
       answer: "An automotive solutions company develops digital systems for vehicle management, telematics, garage operations, and fleet tracking. At BTJ Alpha Technology, we specialize in Automotive Development in India, building secure and scalable platforms for dealerships, fleet operators, and service centers."
     },
     {
-      question: " What types of automotive software do you develop?",
-      answer: "We develop:Vehicle & fleet management systems,Telematics and GPS tracking platforms,Garage management software,Fuel management systems,Service booking applications,Maintenance alert systems"
+      question: "What types of automotive software do you develop?",
+      answer: "We develop: Vehicle & fleet management systems,Telematics and GPS tracking platforms,Garage management software,Fuel management systems,Service booking applications,Maintenance alert systems,All solutions are customized to meet specific business needs."
     },
     {
-      question: "Do you provide telematics system development?",
+      question: " Do you provide telematics system development?",
       answer: "Yes. We build advanced telematics systems with live GPS tracking, driver behavior monitoring, fuel usage insights, and real-time vehicle diagnostics to improve safety and efficiency."
     },
     {
@@ -131,7 +131,7 @@ function Automotive() {
       answer: "Absolutely. Our Automotive Development in India services include garage management systems with appointment scheduling, parts inventory tracking, billing, invoicing, and customer management features."
     },
     {
-      question: " Do you offer fleet management solutions?",
+      question: "Do you offer fleet management solutions?",
       answer: "Yes. We design fleet management platforms that include maintenance scheduling, vehicle history tracking, performance monitoring, and driver management tools."
     }
   ];
@@ -144,12 +144,13 @@ function Automotive() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right"className="lg:pl-16">
+            <div data-aos="fade-right" className="lg:pl-16">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Automotive Solutions
+                Automotive Software Development Company in India – Smart Digital Solutions for Modern Vehicle Businesses
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Transform automotive experiences with our digital platforms. We build vehicle management systems, telematics solutions, garage management software, and mobile apps for dealerships and service centers.
+                BTJ Alpha Technology is a leading Automotive Software Development Company in India delivering secure, scalable, and high-performance digital solutions for the automotive industry.
+                We design and develop advanced automotive software systems that help dealerships, service centers, fleet operators, and vehicle-based businesses improve efficiency, tracking, and operational control.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button

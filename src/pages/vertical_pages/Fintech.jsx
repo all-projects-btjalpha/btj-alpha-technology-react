@@ -115,25 +115,29 @@ function Fintech() {
 
   const faqs = [
     {
-      question: " What does a fintech solutions company do?",
-      answer: "A fintech solutions company develops secure digital platforms for banking, payments, lending, and investments. At BTJ Alpha Technology, we specialize in Fintech Development in India, building scalable and high-performance financial applications for startups and enterprises."
+      question: "What types of fitness applications does BTJ Alpha Technology develop?",
+      answer: "BTJ Alpha Technology specializes in complete Fitness Solutions Software Development including workout tracking apps, personal trainer platforms, gym management systems, diet & nutrition apps, health monitoring solutions, and class scheduling software. We build scalable digital fitness ecosystems designed to improve user engagement and business growth."
     },
     {
-      question: "What types of fintech software do you develop?",
-      answer: "We develop:Digital wallet applications,Mobile banking apps,Secure payment gateways,Investment and trading platforms,Lending and loan management systems,Multi-currency payment processing systems"
+      question: "Do you develop fitness apps for both iOS and Android platforms?",
+      answer: "Yes. BTJ Alpha Technology develops high-performance native and cross-platform fitness applications for both iOS and Android. Our team ensures smooth performance, responsive UI, and seamless user experience across all devices."
     },
     {
-      question: "Do you build digital wallet applications?",
-      answer: "Yes. We create secure digital wallets that support money transfers, bill payments, wallet-to-wallet transactions, and encrypted balance management systems."
+      question: "Can you integrate wearable devices and health tracking platforms?",
+      answer: "Absolutely. BTJ Alpha Technology integrates fitness apps with wearable devices and platforms such as Apple Health, Google Fit, Fitbit, and other IoT-based health systems. This enables real-time tracking of steps, calories, heart rate, sleep patterns, and workout performance."
     },
     {
-      question: "Can you develop mobile banking applications?",
-      answer: "Absolutely. Our Fintech Development in India services include feature-rich mobile banking apps with UPI integration, fund transfers, account management, and real-time notifications."
+      question: " Can you build custom gym management and trainer management software?",
+      answer: "Yes. BTJ Alpha Technology develops fully customized gym and trainer management systems that include: Membership management,Class scheduling,Online payments,Attendance tracking,Performance analytics,Trainer dashboards,We design solutions tailored to your business model and operational workflow."
 
     },
     {
-      question: "Do your fintech solutions comply with security standards?",
-      answer: "Yes. We build PCI-DSS compliant payment systems, multi-layer authentication mechanisms, fraud detection tools, and encrypted transaction processing to ensure maximum security."
+      question: "How secure and scalable are your fitness software solutions?",
+      answer: "Security and scalability are core priorities at BTJ Alpha Technology. We follow modern development standards, secure authentication systems, data encryption practices, and scalable cloud architecture to ensure reliable performance as your user base grows."
+    },
+    {
+      question: " Why should I choose BTJ Alpha Technology as my Fitness App Development Company?",
+      answer: "BTJ Alpha Technology combines technical expertise, industry understanding, and agile development processes to deliver high-quality Fitness Solutions Software Development. We focus on innovation, on-time delivery, and long-term partnership to help your fitness business succeed in a competitive digital market."
     }
   ];
 
@@ -145,12 +149,12 @@ function Fintech() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right"className="lg:pl-16">
+            <div data-aos="fade-right" className="lg:pl-16">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Fintech Solutions
+                Fitness Software Development Company – Custom Digital Solutions for Gyms, Trainers & Health Brands
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Build the future of finance with our innovative fintech solutions. We create secure, scalable, and user-friendly financial applications that revolutionize banking, payments, and investment experiences.
+                Empower fitness journeys with innovative digital platforms. At BTJ Alpha Technology, we specialize in Fitness Solutions Software Development to help gyms, fitness trainers, wellness brands, and health startups deliver engaging and results-driven experiences.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button

@@ -115,24 +115,32 @@ function SportsManagement() {
 
   const faqs = [
     {
-      question: " What does a sports software development company do?",
-      answer: "A sports software development company builds digital platforms for managing leagues, teams, tournaments, and sports facilities. At BTJ Alpha Technology, we specialize in Sports Management Development in India, delivering secure, scalable, and user-friendly sports management systems."
+      question: " What does a Sports Management Software Development Company in India do?",
+      answer: "A Sports Management Software Development Company in India builds digital platforms that help sports organizations manage tournaments, teams, players, schedules, and fan engagement from a centralized system. BTJ Alpha Technology develops secure and scalable sports management software that streamlines operations for leagues, academies, clubs, and event organizers while improving transparency and performance tracking."
     },
     {
-      question: " What types of sports management software do you develop?",
-      answer: "We develop:League management systems,Team management platforms,Tournament management software,Event scheduling systems,Sports analytics dashboards,Sports mobile applications"
+      question: "What features are included in your Sports Management Software?",
+      answer: "At BTJ Alpha Technology, our Sports Management Software Development services typically include:Player & Team Registration Management,Match Scheduling & Fixture Automation,Tournament Bracket & Points Table System,Performance Analytics & Statistics Dashboard,Ticketing & Event Management Modules,Sponsorship & Revenue Tracking,Mobile Apps for Players & Fans,Real-Time Notifications & Updates,Each system is customized based on the size and type of sports organization."
     },
     {
-      question: " Do you build league and tournament management systems?",
-      answer: "Yes. Our Sports Management Development in India includes platforms for team registration, match scheduling, standings, bracket management, automated scoring, and real-time results."
+      question: "Can you develop tournament and league management systems?",
+      answer: "Yes. BTJ Alpha Technology specializes in building tournament and league management platforms that automate match scheduling, results entry, rankings, and reporting. Our systems help organizers manage large-scale competitions efficiently while reducing manual coordination efforts."
     },
     {
-      question: "Can you develop sports mobile apps?",
-      answer: "Absolutely. We create mobile apps with live scores, performance tracking, event notifications, and fan engagement features to improve accessibility and interaction."
+      question: " Is your Sports Management Software scalable for large events?",
+      answer: "Absolutely. As a trusted Sports Management Software Development Company in India, BTJ Alpha Technology builds cloud-based platforms that support high user traffic, large player databases, and live match updates without performance issues."
     },
     {
-      question: "Do your systems include performance analytics?",
-      answer: "Yes. Our platforms provide detailed player statistics, team performance insights, game analysis, and real-time reporting dashboards for data-driven decision-making."
+      question: "Do you provide mobile applications for sports teams and fans?",
+      answer: "Yes. BTJ Alpha Technology develops high-performance mobile apps that allow players, coaches, and fans to access schedules, match results, statistics, announcements, and ticket bookings directly from their smartphones."
+    },
+    {
+      question: "How secure is your Sports Management Software?",
+      answer: "Security is a priority at BTJ Alpha Technology. We implement role-based access control, encrypted data storage, secure authentication systems, and cloud-based backup solutions to ensure sensitive player and organizational data remains protected."
+    },
+    {
+      question: " Why should I choose BTJ Alpha Technology for Sports Management Software Development in India?",
+      answer: "BTJ Alpha Technology combines industry understanding, modern technology, and scalable architecture to deliver reliable sports management platforms. We focus on performance, security, user experience, and long-term digital growth for sports organizations across India."
     }
   ];
 
@@ -144,12 +152,13 @@ function SportsManagement() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right"className="lg:pl-16">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Sports Management
+            <div data-aos="fade-right" className="lg:pl-16">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                Sports Management Software Development Company in India – Custom Solutions for Teams, Leagues & Tournaments
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Elevate sports management with our comprehensive platforms. We build solutions for leagues, teams, tournaments, and sports facilities that streamline operations and engage fans.
+                BTJ Alpha Technology is a leading Sports Management Software Development Company in India delivering secure, scalable, and high-performance digital solutions for sports organizations.
+                We design and develop advanced sports management software that helps leagues, teams, academies, tournament organizers, and sports facilities streamline operations, improve performance tracking, and enhance fan engagement.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button

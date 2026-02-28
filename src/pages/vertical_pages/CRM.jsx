@@ -133,6 +133,14 @@ function CRM() {
     {
       question: "Can your CRM integrate with existing business tools?",
       answer: "Yes. BTJ Alpha Technology integrates CRM systems with:ERP software,Accounting tools,Payment gateways,Marketing automation platforms,WhatsApp, SMS & Email APIs,Third-party business applications,This ensures smooth data flow and centralized business management."
+    },
+    {
+      question: "How does custom CRM software improve sales and revenue?",
+      answer: "A well-designed CRM system helps track leads, automate follow-ups, monitor team performance, and generate sales forecasts.With structured workflows and actionable analytics provided by BTJ Alpha Technology, businesses can increase conversion rates, close deals faster, and improve customer retention."
+    },
+    {
+      question: "Do you provide post-development support and upgrades?",
+      answer: "Yes. BTJ Alpha Technology offers ongoing maintenance, feature enhancements, performance monitoring, security updates, and technical support to ensure your CRM software runs smoothly at all times."
     }
   ];
 
@@ -146,10 +154,11 @@ function CRM() {
             {/* Left Content */}
             <div data-aos="fade-right" className="lg:pl-16">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                CRM Solutions
+                CRM Software Development Company – We Build Smart Systems to Manage Your Customers
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Enhance customer relationships with our comprehensive CRM platforms. We build systems for sales automation, customer service, marketing automation, and data analytics to drive business growth.
+                BTJ Alpha Technology is a trusted CRM Software Development Company delivering powerful, secure, and fully customized CRM software for businesses of all sizes.
+                We design and develop advanced CRM software that helps organizations manage leads, track sales activities, automate marketing campaigns, and improve customer support — all from a centralized and easy-to-use system.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button

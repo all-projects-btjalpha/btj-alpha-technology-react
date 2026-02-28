@@ -148,12 +148,12 @@ function LogisticsTransport() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right"className="lg:pl-16">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Logistics & Transport
+            <div data-aos="fade-right" className="lg:pl-16">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                Logistics Software Development for Smart Transportation
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Optimize your logistics operations with our smart transportation management systems. We build solutions for fleet tracking, route optimization, warehouse management, and last-mile delivery.
+                We provide professional Logistics Software Development services to help businesses streamline transportation, fleet operations, and warehouse management. Our smart systems are designed to improve delivery speed, reduce operational costs, and increase overall efficiency.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button

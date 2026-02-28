@@ -148,12 +148,14 @@ function Fitness() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right"className="lg:pl-16">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Fitnes Solutions
+            <div data-aos="fade-right" className="lg:pl-16">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                Fintech Software Development Company in India
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Empower fitness journeys with innovative digital platforms. At BTJ Alpha Technology, we specialize in Fitness Solutions Software Development to help gyms, fitness trainers, wellness brands, and health startups deliver engaging and results-driven experiences.</p>
+                BTJ Alpha Technology is a trusted Fintech Software Development Company in India delivering secure, scalable, and high-performance financial technology platforms for modern businesses.
+                We design and develop advanced fintech software that powers digital banking, payment gateways, lending systems, investment platforms, insurance tech solutions, and financial management applications.
+              </p>
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={openForm}
