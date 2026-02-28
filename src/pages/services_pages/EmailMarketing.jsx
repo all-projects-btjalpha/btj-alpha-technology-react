@@ -86,14 +86,16 @@ function EmailMarketing() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
+            <div data-aos="fade-right"className="lg:pl-16">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                Email Marketing Services in India
+                Email
+                Marketing
+                Services
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
                 Build lasting customer relationships and boost conversions with professional Email Marketing Services from BTJ Alpha Technology.
                 <br></br>We create strategic, data-driven email campaigns that nurture leads, increase engagement, and drive measurable business growth. From campaign planning to automation and analytics, we manage everything to maximize your ROI.
-                <br></br>If you want higher open rates, better click-through rates, and more conversions — email marketing is your most powerful digital asset.
+                <br></br>If you want higher open rates, better click-through rates, and more conversions � email marketing is your most powerful digital asset.
 
               </p>
               <div className="flex flex-wrap gap-4">
@@ -238,7 +240,7 @@ function EmailMarketing() {
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
                 Ready to Transform Your Email Marketing?
               </h2>
-              <p className="text-white text-lg mb-8 leading-relaxed">Let’s build a powerful email marketing strategy that drives engagement, conversions, and long-term growth.</p>
+              <p className="text-white text-lg mb-8 leading-relaxed">Let�s build a powerful email marketing strategy that drives engagement, conversions, and long-term growth.</p>
             </div>
             <div data-aos="fade-left">
               <button

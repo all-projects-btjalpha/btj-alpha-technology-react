@@ -34,7 +34,7 @@ function AnswerEngineOptimization() {
     {
       icon: <FaSearch className="text-5xl text-orange-600" />,
       title: "Featured Snippets Optimization",
-      description: "We structure content to appear in Google’s featured snippets and answer boxes, improving click-through rates and authority positioning."
+      description: "We structure content to appear in Google�s featured snippets and answer boxes, improving click-through rates and authority positioning."
     },
     {
       icon: <FaBrain className="text-5xl text-purple-600" />,
@@ -86,16 +86,18 @@ function AnswerEngineOptimization() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Answer Engine Optimization Services
+            <div data-aos="fade-right"className="lg:pl-16">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                Answer Engine
+                Optimization
+                Services
               </h1>
               <h4 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-gray-900 mb-6 leading-tight">
                 Future-Proof Your Business with AI Search Optimization
               </h4>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
                 At BTJ Alpha Technology, we help businesses stay ahead in the evolving digital landscape with advanced Answer Engine Optimization (AEO) services. As search engines shift toward AI-powered results, voice assistants, and direct answer platforms, traditional SEO alone is no longer enough.
-                <br></br>Our AEO strategies ensure your content ranks in AI search engines like ChatGPT, Google’s AI search, Bing AI, and voice assistants such as Alexa and Google Assistant. We structure and optimize your content to appear in featured snippets, answer boxes, and conversational search results.
+                <br></br>Our AEO strategies ensure your content ranks in AI search engines like ChatGPT, Google�s AI search, Bing AI, and voice assistants such as Alexa and Google Assistant. We structure and optimize your content to appear in featured snippets, answer boxes, and conversational search results.
 
               </p>
               <div className="flex flex-wrap gap-4">
@@ -237,7 +239,7 @@ function AnswerEngineOptimization() {
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
                 Ready to Future-Proof Your SEO?
               </h2>
-              <p className="text-white text-lg mb-8 leading-relaxed">AI search is rapidly transforming how users find information online. Don’t let your business fall behind. Partner with BTJ Alpha Technology and dominate AI-powered search results with expert Answer Engine Optimization services.</p>
+              <p className="text-white text-lg mb-8 leading-relaxed">AI search is rapidly transforming how users find information online. Don�t let your business fall behind. Partner with BTJ Alpha Technology and dominate AI-powered search results with expert Answer Engine Optimization services.</p>
             </div>
             <div data-aos="fade-left">
               <button
@@ -255,7 +257,7 @@ function AnswerEngineOptimization() {
       <section className="py-16 px-4 bg-gradient-to-b from-gray-50 to-white">
         <div className="container mx-auto max-w-4xl">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12" data-aos="fade-up">
-            Frequently Asked Questions (FAQs) – Answer Engine Optimization (AEO)
+            Frequently Asked Questions (FAQs) � Answer Engine Optimization (AEO)
           </h2>
           <div className="space-y-4">
             {faqs.map((faq, index) => (

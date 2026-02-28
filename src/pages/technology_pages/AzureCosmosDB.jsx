@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaDatabase, FaRocket, FaLayerGroup, FaCode, FaServer,
   FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaUsers,
   FaLaptop, FaSync, FaChartLine, FaTools, FaCogs, FaMobileAlt, FaShieldAlt, FaGlobe
@@ -24,12 +24,12 @@ function AzureCosmosDB() {
   const cosmosFeatures = [
     {
       icon: <FaDatabase className="text-5xl text-[#0078d4]" />,
-      title: "Globally Distributed",
-      description: "Multi-region database with single-digit millisecond latency anywhere in the world."
+      title: "Globally Distributed Database",
+      description: "Support for document, key-value, graph, and column-family data models."
     },
     {
       icon: <FaGlobe className="text-5xl text-[#0078d4]" />,
-      title: "Multi-Model Database",
+      title: "Multi-Model Database Support",
       description: "Support for document, key-value, graph, and column-family data models."
     },
     {
@@ -39,36 +39,36 @@ function AzureCosmosDB() {
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#0078d4]" />,
-      title: "Enterprise Security",
-      description: "Advanced security with encryption, access control, and compliance certifications."
+      title: "Enterprise-Grade Security",
+      description: "Advanced security with encryption, role-based access control, and compliance certifications."
     },
     {
       icon: <FaCode className="text-5xl text-[#0078d4]" />,
       title: "Multiple APIs",
-      description: "SQL, MongoDB, Cassandra, Gremlin, and Table APIs for developer flexibility."
+      description: "Supports SQL API, MongoDB API, Cassandra API, Gremlin API, and Table API."
     },
     {
       icon: <FaServer className="text-5xl text-[#0078d4]" />,
       title: "Automatic Scaling",
-      description: "Elastic scaling with automatic throughput and storage provisioning."
+      description: "Elastic scaling of throughput and storage to match application demands."
     }
   ];
 
   const cosmosServices = [
     {
       icon: <FaCode className="text-5xl text-[#0078d4]" />,
-      title: "Cosmos DB Development",
-      description: "Building globally distributed applications with Microsoft's multi-model database service."
+      title: "Custom Azure Cosmos DB Development",
+      description: "We build cloud-native applications using Azure Cosmos DB with optimized architecture for performance and scalability."
     },
     {
       icon: <FaDatabase className="text-5xl text-[#10B981]" />,
-      title: "Database Migration",
-      description: "Migrating existing databases to Cosmos DB with minimal downtime and data loss."
+      title: "Database Migration to Cosmos DB",
+      description: "Seamless migration from SQL Server, MongoDB, Cassandra, or other databases to Azure Cosmos DB with minimal downtime."
     },
     {
       icon: <FaGlobe className="text-5xl text-[#8B5CF6]" />,
-      title: "Global Distribution",
-      description: "Setting up multi-region deployments for worldwide application availability."
+      title: "Global Distribution Setup",
+      description: "Configure multi-region deployments to ensure high availability and low latency worldwide."
     }
   ];
 
@@ -76,40 +76,40 @@ function AzureCosmosDB() {
     {
       icon: <FaGlobe className="text-5xl text-[#0078d4]" />,
       title: "Global Scale",
-      description: "Deploy applications worldwide with consistent performance and low latency."
+      description: "Scale applications worldwide with consistent performance and low latency."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
-      title: "Performance",
-      description: "Guaranteed single-digit millisecond response times with 99.999% availability."
+      title: "High Availability",
+      description: "99.999% availability SLA with automatic failover capabilities."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#10B981]" />,
       title: "Enterprise Security",
-      description: "Comprehensive security with encryption and compliance for regulated industries."
+      description: "Built-in encryption, compliance, and security management features."
     }
   ];
 
   const whyChooseUs = [
     {
       icon: <FaUsers className="text-5xl text-[#0078d4]" />,
-      title: "Azure Experts",
-      description: "Microsoft-certified professionals with extensive Cosmos DB implementation experience."
+      title: "Certified Azure Experts",
+      description: "Our team includes experienced Azure professionals with deep Cosmos DB implementation knowledge."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Best Practices",
-      description: "Following Microsoft Azure best practices for optimal Cosmos DB deployments."
+      title: "Best Development Practices",
+      description: "We follow Microsoft Azure best practices for optimized and secure deployments."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
-      title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      title: "Agile & On-Time Delivery",
+      description: "Efficient project execution ensuring timely completion."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      description: "Thorough testing and validation for high-performance database solutions."
     }
   ];
 
@@ -136,14 +136,13 @@ function AzureCosmosDB() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Azure Cosmos DB<br />
-                Development
+            <div data-aos="fade-right"className="lg:pl-16">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                Azure Cosmos DB Consulting 
+                & Migration Services | BTJ Alpha Technology
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Build globally distributed applications with Azure Cosmos DB. Our certified Azure experts help you leverage Microsoft's multi-model database for scalable, high-performance solutions.
-              </p>
+                BTJ Alpha Technology is a leading Azure Cosmos DB Development Company in India, delivering scalable, high-performance, and globally distributed database solutions. Our certified Azure experts help businesses build secure and enterprise-grade applications using Microsoft Azure Cosmos DB.</p>
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={openForm}
@@ -197,7 +196,7 @@ function AzureCosmosDB() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Key Features of Cosmos DB
+              Key Features of Azure Cosmos DB
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -217,7 +216,7 @@ function AzureCosmosDB() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our Cosmos DB Services
+             Our Azure Cosmos DB Development Services
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -237,7 +236,7 @@ function AzureCosmosDB() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Benefits of Cosmos DB
+             Benefits of Azure Cosmos DB Development
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -257,7 +256,7 @@ function AzureCosmosDB() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Us?
+             Why Choose BTJ Alpha Technology for Azure Cosmos DB Development?
             </h2>
           </div>
           <div className="grid md:grid-cols-4 gap-8 container mx-auto px-4">
@@ -283,7 +282,7 @@ function AzureCosmosDB() {
             Ready for Global Scale?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to leverage the power of Azure Cosmos DB for your global applications.
+           Partner with BTJ Alpha Technology, your trusted Azure Cosmos DB Development 
           </p>
           <button
             onClick={openForm}

@@ -464,6 +464,7 @@ const MobileAppDevelopment = () => {
         </div>
       </section>
 
+
       {/* Solutions Section - Enhanced */}
       <section className="py-20 px-6 max-md:px-4 bg-white">
         <div className="max-w-7xl mx-auto">
@@ -533,6 +534,7 @@ const MobileAppDevelopment = () => {
           </div>
         </div>
       </section>
+      
     </main>
   );
 };

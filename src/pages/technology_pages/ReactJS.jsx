@@ -101,24 +101,25 @@ function ReactJS() {
 
   const faqs = [
     {
-      question: "What does a ReactJS development company do?",
-      answer: "A ReactJS development company builds web applications using the ReactJS library for fast and interactive user interfaces."
+      question: "What services do software testing companies in India provide?",
+      answer: "Leading Software testing companies in India, like BTJ Alpha Technology, offer complete software quality assurance services, including manual testing, automation testing, performance testing, security testing, API testing, and web and mobile app testing."
     },
     {
-      question: "How much does ReactJS development cost in India?",
-      answer: "Cost depends on project complexity, features, and timeline. We provide customized pricing."
+      question: " Do you provide manual testing services in India?",
+      answer: "Yes. We offer professional manual testing services India, where our QA experts thoroughly test features, user flows, and business logic to detect bugs and usability issues."
     },
     {
-      question: " How long does it take to develop a ReactJS web application?",
-      answer: "Basic projects may take 4–6 weeks, while enterprise applications require more time."
+      question: "Are you an automation testing company in India?",
+      answer: "Yes. As a trusted automation testing company India, we use tools like:Selenium,CypressJest.Automation helps speed up testing, improve accuracy, and provide faster feedback during development."
     },
     {
-      question: " Do you provide ongoing support?",
-      answer: "Yes, we offer maintenance and technical support services."
+      question: " Do you offer performance testing services?",
+      answer: "Yes. Our performance testing services check application speed, scalability, and stability under heavy traffic and different load conditions to ensure optimal performance."
+
     },
     {
-      question: "Is ReactJS good for SEO?",
-      answer: "Yes, with proper implementation and server-side rendering, ReactJS applications can be SEO-friendly."
+      question: "Do you provide security testing services in India?",
+      answer: "Absolutely. Our security testing services India include penetration testing and vulnerability assessments to protect applications from threats and ensure data security."
     },
     {
       question: " Why choose BTJ Alpha Technology Pvt. Ltd.?",
@@ -133,10 +134,10 @@ function ReactJS() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+            <div data-aos="fade-right"className="lg:pl-16">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
                Leading ReactJS<br />
-                Development<br />
+                Development
                 Company in India
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">

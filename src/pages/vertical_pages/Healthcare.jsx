@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaHeartbeat, FaUserMd, FaHospital, FaPrescription, FaNotesMedical, FaXRay,
-  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync, 
+  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync,
   FaDatabase, FaTools, FaCogs, FaServer, FaLayerGroup, FaUsers, FaChartLine
 } from "react-icons/fa";
 
@@ -115,16 +115,24 @@ function Healthcare() {
 
   const faqs = [
     {
-      question: "What is healthcare technology?",
-      answer: "Healthcare technology includes digital platforms for patient records, telemedicine, hospital management, and health information systems."
+      question: "What are Custom Healthcare Software Development Services?",
+      answer: "Custom Healthcare Software Development Services involve designing and building tailored digital solutions for hospitals, clinics, diagnostic centers, and healthcare startups. These systems help improve patient care, automate administrative tasks, and securely manage medical records"
     },
     {
-      question: "How can healthcare tech benefit providers?",
-      answer: "Healthcare technology can improve patient care, reduce costs, increase efficiency, and provide valuable analytics."
+      question: " What types of healthcare software solutions do you develop?",
+      answer: "At BTJ Alpha Technology, we develop a wide range of healthcare software solutions, including: Electronic Health Records (EHR) & Electronic Medical Records (EMR) Systems,Telemedicine & Telehealth Platforms,Hospital Management Systems (HMS),Clinic & Practice Management Software,Pharmacy Management Systems,Patient Portals & Mobile Health Apps,Medical Imaging Solutions with DICOM Support,Healthcare CRM & Appointment Scheduling Systems"
     },
     {
-      question: "Can healthcare platforms be customized to specific requirements?",
-      answer: "Yes, our healthcare solutions are fully customizable to match specific clinical and operational needs."
+      question: " Do you build secure and compliant healthcare systems?",
+      answer: "Yes. Security and compliance are critical in healthcare software development. BTJ Alpha Technology develops healthcare systems with advanced data encryption, secure cloud infrastructure, role-based access control, and compliance-ready architecture aligned with standards such as HIPAA and other healthcare regulations."
+    },
+    {
+      question: "Can you develop telemedicine and telehealth platforms?",
+      answer: "Absolutely. We design and develop telemedicine platforms that include secure video consultations, real-time chat, appointment booking, digital prescriptions, online payments, and remote patient monitoring features."
+    },
+    {
+      question: "Do you provide Hospital Management Systems (HMS)?",
+      answer: "Yes. Our Hospital Management Systems are designed to streamline hospital operations through: Appointment & Patient Registration Management,Billing & Insurance Processing,Staff & Doctor Scheduling,Inventory & Pharmacy Management,Laboratory & Diagnostic Integration,Reporting & Analytics Dashboards"
     }
   ];
 
@@ -136,15 +144,13 @@ function Healthcare() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
+            <div data-aos="fade-right" className="lg:pl-16">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
                 Custom Healthcare Software Development Services in India
               </h1>
               <h4 className="text-2xl md:text-3xl lg:text-3xl font-semibold text-gray-900 mb-6 leading-tight">Transform Healthcare with Advanced Digital Innovation</h4>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                At BTJ Alpha Technology, we provide Custom Healthcare Software Development Services in India to help hospitals, clinics, and healthcare providers digitize their operations efficiently. Our advanced healthcare platforms improve patient care, streamline hospital management, and ensure secure data handling.<br></br>
-                Our comprehensive solutions include Electronic Health Records (EHR), telemedicine platforms, hospital management systems, pharmacy software, patient portals, and medical imaging systems — all built with scalability and compliance in mind.
-
+                At BTJ Alpha Technology, we provide Custom Healthcare Software Development Services in India to help hospitals, clinics, and healthcare providers digitize their operations efficiently. Our advanced healthcare platforms improve patient care, streamline hospital management, and ensure secure data handling.
               </p>
               
               <div className="flex flex-wrap gap-4">

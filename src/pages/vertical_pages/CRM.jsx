@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaUsers, FaCommentDots, FaChartLine, FaEnvelope, FaCalendarAlt, FaTasks,
-  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync, 
+  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync,
   FaDatabase, FaTools, FaCogs, FaServer, FaLayerGroup, FaUserFriends, FaMoneyBillWave
 } from "react-icons/fa";
 
@@ -115,16 +115,32 @@ function CRM() {
 
   const faqs = [
     {
-      question: "What is CRM technology?",
-      answer: "CRM (Customer Relationship Management) technology includes digital platforms for managing customer interactions, sales processes, and business relationships."
+      question: " Why should I choose custom CRM development instead of ready-made CRM tools?",
+      answer: "Ready-made CRM software often includes unnecessary features and may not fully match your workflow. Custom CRM development allows you to build a system that fits your exact sales process, approval structure, and reporting needs.BTJ Alpha Technology develops tailored CRM software that improves efficiency, reduces manual work, and supports long-term business growth."
     },
     {
-      question: "How can CRM benefit businesses?",
-      answer: "CRM can improve customer satisfaction, increase sales, enhance productivity, and provide valuable customer insights."
+      question: "What features are included in your custom CRM software?",
+      answer: "At BTJ Alpha Technology, we build feature-rich CRM systems that typically include:Contact & Lead Management,Sales Pipeline & Deal Tracking,Task & Follow-Up Automation,Email, SMS & Call Integration,Marketing Campaign Management,Customer Support Ticketing,Role-Based Access Control,Document Management,Real-Time Reports & Dashboards,Performance Analytics & Forecasting,Each module is fully customized according to your business requirements."
     },
     {
-      question: "Can CRM platforms be customized to specific business needs?",
-      answer: "Yes, our CRM solutions are fully customizable to match specific business processes and requirements."
+      question: "Can you build industry-specific CRM systems?",
+      answer: "Yes. BTJ Alpha Technology develops CRM software tailored for industries such as real estate, healthcare, finance, education, manufacturing, retail, and service-based businesses.We design workflows and dashboards that align with your operational structure and compliance needs."
+    },
+    {
+      question: "Is your CRM software scalable as my business grows?",
+      answer: "Absolutely. Our CRM platforms are built with scalable architecture that supports increasing users, large customer databases, and expanding sales operations.BTJ Alpha Technology ensures your CRM remains fast, secure, and performance-optimized as your company grows."
+    },
+    {
+      question: "Can your CRM integrate with existing business tools?",
+      answer: "Yes. BTJ Alpha Technology integrates CRM systems with:ERP software,Accounting tools,Payment gateways,Marketing automation platforms,WhatsApp, SMS & Email APIs,Third-party business applications,This ensures smooth data flow and centralized business management."
+    },
+    {
+      question: "How does custom CRM software improve sales and revenue?",
+      answer: "A well-designed CRM system helps track leads, automate follow-ups, monitor team performance, and generate sales forecasts.With structured workflows and actionable analytics provided by BTJ Alpha Technology, businesses can increase conversion rates, close deals faster, and improve customer retention."
+    },
+    {
+      question: "Do you provide post-development support and upgrades?",
+      answer: "Yes. BTJ Alpha Technology offers ongoing maintenance, feature enhancements, performance monitoring, security updates, and technical support to ensure your CRM software runs smoothly at all times."
     }
   ];
 
@@ -136,13 +152,13 @@ function CRM() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
+            <div data-aos="fade-right" className="lg:pl-16">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                CRM Solutions – Smart & Scalable Customer Management Systems
+                CRM Software Development Company – We Build Smart Systems to Manage Your Customers
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                BTJ Alpha Technology provides advanced CRM Solutions designed to help businesses manage customer relationships efficiently. Our systems support sales automation, customer service, marketing campaigns, and real-time analytics to improve overall business performance.
-                <br></br>With strong expertise in crm software development, we build secure, scalable, and user-friendly CRM platforms tailored to your specific business needs.
+                BTJ Alpha Technology is a trusted CRM Software Development Company delivering powerful, secure, and fully customized CRM software for businesses of all sizes.
+                We design and develop advanced CRM software that helps organizations manage leads, track sales activities, automate marketing campaigns, and improve customer support — all from a centralized and easy-to-use system.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button

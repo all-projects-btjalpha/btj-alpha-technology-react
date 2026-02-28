@@ -115,16 +115,24 @@ function FundraisingManagement() {
 
   const faqs = [
     {
-      question: "What is fundraising management technology?",
-      answer: "Fundraising management technology includes digital platforms for donation processing, donor management, and campaign analytics."
+      question: "How can fundraising software help nonprofits and NGOs grow?",
+      answer: "Fundraising software helps nonprofits manage donations, track donor relationships, run digital campaigns, and improve transparency. BTJ Alpha Technology develops secure and scalable Fundraising Software Development solutions that streamline donation management, automate communication, and help organizations increase donor engagement and long-term funding."
     },
     {
-      question: "How can fundraising tech benefit nonprofits?",
-      answer: "Fundraising technology can increase donations, improve donor engagement, provide valuable analytics, and streamline operations."
+      question: "What key features are included in your fundraising software solutions?",
+      answer: "BTJ Alpha Technology builds feature-rich platforms that include: Donation management systems,Donor CRM and communication tools,Crowdfunding campaign management,Real-time campaign analytics,Mobile giving capabilities,Secure payment gateway integration,Automated receipts and reporting,Each solution is customized to match your organization’s mission and operational workflow."
     },
     {
-      question: "Can fundraising platforms be customized to specific needs?",
-      answer: "Yes, our fundraising solutions are fully customizable to match specific nonprofit requirements and donation goals."
+      question: "Do you develop custom crowdfunding platforms?",
+      answer: "Yes. BTJ Alpha Technology creates goal-based crowdfunding platforms with real-time progress tracking, campaign dashboards, secure payment processing, and social media sharing features. Our systems are designed to maximize engagement and encourage community participation."
+    },
+    {
+      question: "Can you build an advanced donor management system (CRM)?",
+      answer: "Absolutely. BTJ Alpha Technology develops intelligent donor management systems that track donor history, manage recurring contributions, automate email/SMS communication, and generate performance reports. This helps nonprofits build stronger relationships and improve donor retention rates.",
+    },
+    {
+      question: "How secure is your fundraising software?",
+      answer: "Security is a top priority at BTJ Alpha Technology. Our Fundraising Software Development services follow PCI-compliant standards, secure payment gateway integration, encrypted data storage, and role-based access controls to ensure safe and reliable transactions.",
     }
   ];
 
@@ -136,14 +144,12 @@ function FundraisingManagement() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Fundraising<br />
-                Management
+            <div data-aos="fade-right" className="lg:pl-16">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                Fundraising Management Software Development
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Empower nonprofits and charitable organizations with powerful digital fundraising solutions. At BTJ Alpha Technology, we specialize in Fundraising Software Devlopment that helps organizations manage donations, engage donors, and maximize campaign performance.
-              </p>
+                Empower nonprofits and charitable organizations with powerful digital fundraising solutions. At BTJ Alpha Technology, we specialize in Fundraising Software Development that helps organizations manage donations, engage donors, and maximize campaign performance.</p>
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={openForm}
@@ -283,7 +289,7 @@ function FundraisingManagement() {
             Ready to Boost Fundraising Impact?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with BTJ Alpha Technology to build a powerful and scalable fundraising platform tailored to your mission. 
+            Partner with BTJ Alpha Technology to build a powerful and scalable fundraising platform tailored to your mission.
           </p>
           <button
             onClick={openForm}

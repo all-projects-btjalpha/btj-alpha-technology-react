@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaDatabase, FaRocket, FaLayerGroup, FaCode, FaServer,
   FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaUsers,
   FaLaptop, FaSync, FaChartLine, FaTools, FaCogs, FaMobileAlt, FaShieldAlt
@@ -25,33 +25,33 @@ function AmazonDynamoDB() {
   const dynamoFeatures = [
     {
       icon: <SiAmazondynamodb className="text-5xl text-[#4053d6]" />,
-      title: "NoSQL Database",
-      description: "Fast, flexible NoSQL database service for any scale with single-digit millisecond performance."
+      title: "Fully Managed NoSQL Database",
+      description: "A fast and flexible NoSQL database service managed by AWS."
     },
     {
       icon: <FaDatabase className="text-5xl text-[#4053d6]" />,
-      title: "Key-Value & Document",
-      description: "Support for both key-value and document data models with flexible schema design."
+      title: "Key-Value & Document Model",
+      description: "Supports both key-value and document data structures with flexible schema design."
     },
     {
       icon: <FaRocket className="text-5xl text-[#4053d6]" />,
       title: "High Performance",
-      description: "Consistent single-digit millisecond latency at any scale with automatic scaling."
+      description: "Single-digit millisecond latency at any scale."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#4053d6]" />,
       title: "Enterprise Security",
-      description: "Built-in encryption, backup, and restore with fine-grained access control."
+      description: "Built-in encryption, IAM access control, and backup & restore capabilities."
     },
     {
       icon: <FaCode className="text-5xl text-[#4053d6]" />,
       title: "Serverless Option",
-      description: "DynamoDB On-Demand for unpredictable workloads with pay-per-request pricing."
+      description: "DynamoDB On-Demand mode for unpredictable workloads with pay-per-request pricing."
     },
     {
       icon: <FaServer className="text-5xl text-[#4053d6]" />,
       title: "Global Tables",
-      description: "Multi-region, multi-master replication for global application deployment."
+      description: "Multi-region, multi-active replication for globally distributed applications."
     }
   ];
 
@@ -63,54 +63,54 @@ function AmazonDynamoDB() {
     },
     {
       icon: <FaDatabase className="text-5xl text-[#10B981]" />,
-      title: "Database Design",
-      description: "Creating efficient table schemas and optimizing query performance for DynamoDB."
+      title: "DynamoDB Database Design",
+      description: "Efficient table design, indexing strategy, and partition key optimization for high performance."
     },
     {
       icon: <FaServer className="text-5xl text-[#8B5CF6]" />,
-      title: "Migration Services",
-      description: "Migrating existing databases to DynamoDB with AWS Database Migration Service."
+      title: "Migration to Amazon DynamoDB",
+      description: "Seamless migration from relational databases or other NoSQL databases to DynamoDB with minimal downtime."
     }
   ];
 
   const benefits = [
     {
       icon: <SiAmazondynamodb className="text-5xl text-[#4053d6]" />,
-      title: "Scalability",
-      description: "Automatic scaling to handle millions of requests per second with consistent performance."
+      title: "Unlimited Scalability",
+      description: "Automatic scaling to handle millions of requests per second."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
-      title: "Performance",
-      description: "Single-digit millisecond latency with built-in caching through DAX."
+      title: "Consistent Performance",
+      description: "Single-digit millisecond latency even at large scale."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#10B981]" />,
-      title: "Reliability",
-      description: "99.99% availability with automatic failover and data replication."
+      title: "High Reliability",
+      description: "99.99% availability with automatic replication and failover."
     }
   ];
 
   const whyChooseUs = [
     {
       icon: <FaUsers className="text-5xl text-[#4053d6]" />,
-      title: "AWS Experts",
-      description: "Certified AWS professionals with extensive DynamoDB implementation experience."
+      title: "AWS Certified Experts",
+      description: "Experienced AWS professionals with strong DynamoDB implementation expertise."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Best Practices",
-      description: "Following AWS best practices for optimal DynamoDB performance and cost management."
+      title: "Best Development  Practices",
+      description: "We follow AWS best practices for performance, cost optimization, and security.."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
       title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      description: "Fast and efficient project execution with timely delivery."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      description: "Comprehensive testing to ensure reliability and scalability."
     }
   ];
 
@@ -137,14 +137,15 @@ function AmazonDynamoDB() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Amazon DynamoDB<br />
-                Development
+            <div data-aos="fade-right"className="lg:pl-16">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                Amazon DynamoDB Development 
+                Services | BTJ Alpha Technology
+
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Build high-performance applications with Amazon DynamoDB. Our certified AWS experts help you leverage DynamoDB's NoSQL capabilities for scalable, low-latency database solutions.
-              </p>
+                Alpha Technology
+                BTJ Alpha Technology is a trusted Amazon DynamoDB Development Company in India, delivering scalable, secure, and high-performance NoSQL database solutions. Our AWS-certified experts help businesses build modern cloud-native applications using Amazon DynamoDB for real-time performance and global scalability.</p>
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={openForm}
@@ -218,8 +219,9 @@ function AmazonDynamoDB() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our DynamoDB Services
+              Our Amazon DynamoDB Development Services
             </h2>
+            <p className="text-gray-600 text-lg mb-8 leading-relaxed">Multi-region, multi-active replication for globally distributed applications.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
             {dynamoServices.map((item, i) => (
@@ -238,7 +240,7 @@ function AmazonDynamoDB() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Benefits of DynamoDB
+              Benefits of Amazon DynamoDB Development
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -258,7 +260,7 @@ function AmazonDynamoDB() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Us?
+             Why Choose BTJ Alpha Technology for Amazon DynamoDB Development?
             </h2>
           </div>
           <div className="grid md:grid-cols-4 gap-8 container mx-auto px-4">
@@ -284,7 +286,7 @@ function AmazonDynamoDB() {
             Ready for High-Performance Data?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to leverage the power of Amazon DynamoDB for your applications.
+           Partner with BTJ Alpha Technology, your reliable Amazon DynamoDB Development 
           </p>
           <button
             onClick={openForm}

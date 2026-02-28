@@ -24,18 +24,18 @@ function GoogleCloudPlatform() {
   const gcpFeatures = [
     {
       icon: <FaGoogle className="text-5xl text-[#4285f4]" />,
-      title: "Google Cloud Platform",
-      description: "Google's enterprise cloud platform with cutting-edge infrastructure and AI services."
+      title: "Google Cloud Infrastructure",
+      description: "Enterprise-grade infrastructure built on Google’s global network for high performance and reliability."
     },
     {
       icon: <FaCloud className="text-5xl text-[#4285f4]" />,
-      title: "Scalable Infrastructure",
-      description: "Auto-scaling compute, storage, and networking resources with global reach."
+      title: "Scalable Cloud",
+      description: " Enterprise-grade infrastructure built on Google’s global network for high performance and reliability."
     },
     {
       icon: <FaServer className="text-5xl text-[#4285f4]" />,
       title: "Compute Engine",
-      description: "High-performance virtual machines with custom machine types and GPUs."
+      description: "High-performance virtual machines with custom machine types and GPU support for intensive workloads."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#4285f4]" />,
@@ -44,31 +44,31 @@ function GoogleCloudPlatform() {
     },
     {
       icon: <FaDatabase className="text-5xl text-[#4285f4]" />,
-      title: "Database Services",
-      description: "Cloud SQL, Firestore, Bigtable, and Spanner for any database workload."
+      title: "Advanced Database Services",
+      description: "Managed database services including Cloud SQL, Firestore, Bigtable, and Cloud Spanner."
     },
     {
       icon: <FaRocket className="text-5xl text-[#4285f4]" />,
       title: "Global Infrastructure",
-      description: "Deploy applications globally with Google's extensive network of data centers."
+      description: "Deploy applications worldwide using Google’s extensive global data centers."
     }
   ];
 
   const gcpServices = [
     {
       icon: <FaCode className="text-5xl text-[#4285f4]" />,
-      title: "Cloud Migration",
-      description: "Migrate your infrastructure to Google Cloud with minimal downtime and maximum efficiency."
+      title: "GCP Cloud Migration",
+      description: "Seamless migration of applications, servers, and databases to Google Cloud with minimal downtime."
     },
     {
       icon: <FaCloud className="text-5xl text-[#10B981]" />,
-      title: "AI & Machine Learning",
-      description: "Leverage Google's AI services including Vertex AI, AutoML, and pre-trained models."
+      title: "AI & Machine Learning Solutions",
+      description: "Leverage Google AI tools like Vertex AI, AutoML, and pre-trained APIs to build intelligent applications."
     },
     {
       icon: <FaServer className="text-5xl text-[#8B5CF6]" />,
-      title: "Big Data Solutions",
-      description: "Google BigQuery, Dataflow, and Dataproc for enterprise data analytics."
+      title: "Big Data & Analytics",
+      description: "Implement BigQuery, Dataflow, and Dataproc solutions for advanced data processing and analytics."
     }
   ];
 
@@ -76,35 +76,35 @@ function GoogleCloudPlatform() {
     {
       icon: <FaGoogle className="text-5xl text-[#4285f4]" />,
       title: "Innovative Technology",
-      description: "Access to Google's cutting-edge infrastructure and AI capabilities."
+      description: "Access cutting-edge cloud infrastructure and AI capabilities powered by Google."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
       title: "Global Reach",
-      description: "Deploy applications worldwide with Google's extensive global infrastructure."
+      description: "Deploy services globally with low latency using Google’s worldwide network."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#10B981]" />,
-      title: "Enterprise Security",
-      description: "Top-tier security with Google's infrastructure and compliance certifications."
+      title: "Enterprise-Level Security",
+      description: "Robust security architecture designed to protect applications and sensitive data."
     }
   ];
 
   const whyChooseUs = [
     {
       icon: <FaUsers className="text-5xl text-[#4285f4]" />,
-      title: "Google Cloud Experts",
-      description: "Certified Google Cloud professionals with extensive cloud architecture experience."
+      title: "Certified Google Cloud Experts",
+      description: "Experienced professionals with deep expertise in GCP architecture and deployment."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Best Practices",
-      description: "We follow Google Cloud best practices for secure, efficient deployments."
+      title: "Best Cloud Practices",
+      description: "We follow Google Cloud best practices for secure, optimized, and high-performing environments."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
-      title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      title: "Agile & On-Time Delivery",
+      description: "Efficient project management ensuring quick implementation and delivery."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
@@ -136,14 +136,13 @@ function GoogleCloudPlatform() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Google Cloud<br />
-                Platform
+            <div data-aos="fade-right"className="lg:pl-16">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+               Best Google Cloud Provider in India– Secure 
+             & Scalable | BTJ Alpha Technology
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Build and deploy on Google Cloud Platform. Our certified GCP experts help you leverage Google's innovative cloud services for scalable, secure, and AI-powered solutions.
-              </p>
+              BTJ Alpha Technology is a trusted Google Cloud Provider in India, delivering scalable, secure, and AI-powered cloud solutions for modern businesses. Our certified GCP experts help organizations migrate, build, and manage applications using the advanced infrastructure of Google Cloud Platform (GCP).</p>
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={openForm}
@@ -217,7 +216,7 @@ function GoogleCloudPlatform() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our GCP Services
+              Our Google Cloud Platform Services
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -237,7 +236,7 @@ function GoogleCloudPlatform() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Benefits of Google Cloud
+              Benefits of Google Cloud Platform
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -257,7 +256,7 @@ function GoogleCloudPlatform() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Us?
+              Why Choose BTJ Alpha Technology for  Google Cloud Provider in India?
             </h2>
           </div>
           <div className="grid md:grid-cols-4 gap-8 container mx-auto px-4">
@@ -280,10 +279,10 @@ function GoogleCloudPlatform() {
         </div>
         <div className="container mx-auto relative z-10 text-center" data-aos="fade-up">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Ready to Innovate with GCP?
+           Ready to Innovate with Google Cloud?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to leverage the power of Google Cloud Platform for your next project.
+          Partner with BTJ Alpha Technology, your reliable  Google Cloud Provider in India, to accelerate digital transformation and drive innovation.
           </p>
           <button
             onClick={openForm}

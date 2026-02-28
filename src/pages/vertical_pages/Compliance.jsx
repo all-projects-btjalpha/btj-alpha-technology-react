@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaShieldAlt, FaFileAlt, FaCheckCircle, FaExclamationTriangle, FaChartBar, FaLock,
-  FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync, 
+  FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync,
   FaDatabase, FaTools, FaCogs, FaServer, FaLayerGroup, FaUsers, FaChartLine
 } from "react-icons/fa";
 
@@ -115,17 +115,26 @@ function Compliance() {
 
   const faqs = [
     {
-      question: "What is compliance technology?",
-      answer: "Compliance technology includes digital platforms for regulatory compliance, audit management, risk assessment, and document management."
+      question: "What is Compliance Management Software and why is it important for businesses in India?",
+      answer: "Compliance Management Software is a digital platform that helps organizations track, manage, and document regulatory requirements, policies, and risk controls. In India, businesses must comply with various industry regulations, tax rules, corporate governance laws, and data protection standards. BTJ Alpha Technology develops Compliance Management Software that centralizes compliance processes, reduces manual errors, and ensures businesses stay audit-ready at all times."
     },
     {
-      question: "How can compliance tech benefit organizations?",
-      answer: "Compliance technology can reduce risks, ensure regulatory adherence, streamline audits, and provide real-time compliance monitoring."
+      question: "Which industries can benefit from Compliance Management Software Development in India",
+      answer: "Our Compliance Management Software Development services in India support industries such as:Financial Services & Banking,Healthcare & Pharmaceuticals,Manufacturing & Supply Chain,IT & SaaS Companies,Corporate Enterprises,Government & Regulatory Bodies"
     },
     {
-      question: "Can compliance platforms be customized to specific regulations?",
-      answer: "Yes, our compliance solutions are fully customizable to match specific regulatory requirements and industry standards."
-    }
+      question: "Can your Compliance Management Software integrate with existing ERP or business systems?",
+      answer: "Yes. BTJ Alpha Technology builds compliance platforms that integrate seamlessly with ERP systems, HR software, accounting tools, document management systems, and third-party APIs. This ensures centralized data flow, automated compliance tracking, and reduced duplication of work across departments."
+    },
+    {
+      question: "How secure is your Compliance Management Software?",
+      answer: "Security is a top priority at BTJ Alpha Technology. Our Compliance Management Software Development in India includes encrypted data storage, role-based access control, audit trails, secure authentication protocols, and cloud-based backup systems to ensure complete data protection and regulatory alignment."
+    },
+    {
+      question: " How does compliance software improve audit readiness and risk management?",
+      answer: "Compliance software helps organizations maintain structured documentation, automate alerts for deadlines, track risk mitigation plans, and generate detailed audit reports instantly. With solutions developed by BTJ Alpha Technology, businesses can reduce penalties, avoid compliance gaps, and maintain complete transparency during regulatory audits."
+    },
+
   ];
 
   return (
@@ -136,14 +145,12 @@ function Compliance() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                Compliance Management Solutions – Trusted Development in India
+            <div data-aos="fade-right"className="lg:pl-16">
+              <h1 className="text-4xl md:text-5xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                Compliance Management Software Development Company in India 
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                BTJ Alpha Technology provides powerful and reliable Compliance Management solutions to help organizations meet regulatory requirements with confidence. Our systems are designed to reduce risks, improve audit readiness, and ensure complete regulatory alignment.
-                <br></br>With strong expertise in Compliance Management Development in India, we build secure and scalable platforms that simplify compliance processes for businesses across industries.
-              </p>
+                BTJ Alpha Technology is a trusted Compliance Management Software Development Company in India delivering secure, scalable, and high-performance compliance platforms for modern businesses.</p>
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={openForm}

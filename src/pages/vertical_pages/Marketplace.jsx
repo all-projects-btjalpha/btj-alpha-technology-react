@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaShoppingCart, FaStore, FaCreditCard, FaSearch, FaShieldAlt, FaChartLine,
-  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync, 
+  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync,
   FaDatabase, FaTools, FaCogs, FaServer, FaLayerGroup, FaUsers
 } from "react-icons/fa";
 
@@ -115,16 +115,32 @@ function Marketplace() {
 
   const faqs = [
     {
-      question: "What is a marketplace platform?",
-      answer: "A marketplace platform connects multiple sellers with buyers in a single online ecosystem, facilitating transactions between parties."
+      question: "What does a marketplace development company do?",
+      answer: "A Marketplace Development Company in India designs and builds multi-vendor e-commerce platforms where multiple sellers can register, list products or services, and manage orders through a centralized system. Customers can browse, compare, and purchase from different vendors on a single platform."
     },
     {
-      question: "How can a marketplace benefit my business?",
-      answer: "Marketplaces can increase revenue by connecting multiple vendors, provide economies of scale, and offer diverse product catalogs."
+      question: "What types of marketplace platforms do you develop?",
+      answer: "At BTJ Alpha Technology, we develop various types of marketplace solutions, including: B2C Product Marketplaces (like Amazon-style platforms),Handmade & Niche Product Marketplaces (Etsy-type models),Service-Based Marketplaces,Rental & Booking Platforms (Airbnb-type systems),B2B Wholesale Marketplaces,Hyperlocal & On-Demand Platforms"
     },
     {
-      question: "Can marketplaces be customized to specific business needs?",
-      answer: "Yes, our marketplace solutions are fully customizable to match specific business models and requirements."
+      question: "Do you provide complete vendor management features?",
+      answer: "Yes. Our Custom Multi-Vendor Marketplace Development Services in India include vendor onboarding, product management, commission setup, payout management, and performance tracking dashboards."
+    },
+    {
+      question: "Can you integrate secure payment systems?",
+      answer: "Absolutely. BTJ Alpha Technology integrates secure payment gateways with features like: Escrow-based payment systems,Split payments between platform and vendors,Automated commission deductions,Multi-currency and international payment support,Secure checkout & fraud protection"
+    },
+    {
+      question: "Do your marketplace platforms include advanced search and filtering?",
+      answer: "Yes. Our marketplace platforms include smart search functionality, category-based filters, and personalized recommendations to enhance product discovery."
+    },
+    {
+      question:" Is your marketplace solution scalable for high traffic and multiple vendors?",
+      answer:"Yes. As a trusted Marketplace Development Company in India, BTJ Alpha Technology builds cloud-based and scalable platforms capable of handling thousands of vendors, high product volumes, and peak traffic without performance issues."
+    },
+    {
+      question:"Do you develop mobile apps for marketplace platforms?",
+      answer:"Yes. We provide Android and iOS marketplace app development to ensure customers and vendors can manage transactions, track orders, and receive notifications directly from their smartphones."
     }
   ];
 
@@ -136,16 +152,14 @@ function Marketplace() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
+            <div data-aos="fade-right" className="lg:pl-16">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Marketplace Solutions
+                Top Marketplace Development Solutions in India
               </h1>
               <h4 className="text-2xl md:text-3xl lg:text-3xl font-semibold text-gray-900 mb-6 leading-tight">Launch Your Scalable Multi-Vendor Platform</h4>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                At BTJ Alpha Technology, we provide Custom Multi-Vendor Marketplace Development Services in India to help businesses launch powerful e-commerce platforms. We build scalable marketplaces similar to Amazon, Etsy, and Airbnb that seamlessly connect buyers and sellers on a single platform.
-                <br></br>Our solutions are secure, flexible, and designed for high performance, ensuring smooth user experience and business growth.
-
-              </p>
+               At BTJ Alpha Technology, we provide Custom Multi-Vendor Marketplace Development Services in India to help businesses launch powerful e-commerce platforms. We build scalable marketplaces similar to Amazon, Etsy, and Airbnb that seamlessly connect buyers and sellers on a single platform.
+</p>
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={openForm}

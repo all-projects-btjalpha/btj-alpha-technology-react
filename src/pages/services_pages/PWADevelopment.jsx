@@ -219,9 +219,11 @@ function PWADevelopment() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right" className="lg:pl-16">
+            <div data-aos="fade-right"className="lg:pl-16">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                Progressive Web App Development Company
+                Progressive Web App<br />
+                Development<br />
+                Company
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
 
