@@ -1,9 +1,11 @@
 import { useState, useRef } from "react";
+import { useNavigate } from "react-router-dom";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
 import { Select } from "antd";
 
 const UserForm = () => {
+  const navigate = useNavigate();
   const [selected, setSelected] = useState("");
   const [loading, setLoading] = useState(false);
   const [errors, setErrors] = useState({});
@@ -44,7 +46,7 @@ const UserForm = () => {
         "service_rlibtqp", // btjalphatechnology@gmil.com
         "template_dzspsea",
         formRef.current,
-        "nMuJZV909QgK5PX0J"
+        "nMuJZV909QgK5PX0J",
       )
       .then(() => {
         toast.success("Message sent successfully!");
@@ -52,6 +54,7 @@ const UserForm = () => {
         setSelected("");
         setPhone("");
         setErrors({});
+        navigate("/thank-you");
       })
       .catch(() => {
         toast.error("Failed to send message. Please try again.");
@@ -81,7 +84,7 @@ const UserForm = () => {
           type="email"
           name="user_email"
           placeholder="Email Address*"
-         className="
+          className="
     w-1/2 p-3 border border-gray-400 rounded-lg
     focus:border-gray-600 focus-visible:border-gray-600
     focus:outline-none focus-visible:outline-none focus:ring-0
@@ -113,41 +116,54 @@ const UserForm = () => {
 
           <div className="w-1/2">
             <Select
-  value={selected || undefined}
-  onChange={(value) => setSelected(value)}
-  placeholder="Select Service"
-  className="w-full custom-select"
-  size="large"
->
-  <Option value="Website Designing">Website Designing</Option>
-  <Option value="Website Development">Website Development</Option>
-  <Option value="Mobile App Development">Mobile App Development</Option>
-  <Option value="AI & ML">AI & ML</Option>
-  <Option value="Product Development">Product Development</Option>
-  <Option value="PWA Development">PWA Development</Option>
-  <Option value="Web API">Web API</Option>
-  <Option value="Software Architecture">Software Architecture</Option>
-  <Option value="Software Testing">Software Testing</Option>
-  <Option value="UI/UX Design">UI/UX Design</Option>
-  <Option value="Databases">Databases</Option>
-  <Option value="Cloud Services">Cloud Services</Option>
-  <Option value="Reporting">Reporting</Option>
-  <Option value="Search Engine Optimization">Search Engine Optimization</Option>
-  <Option value="Performance Marketing">Performance Marketing</Option>
-  <Option value="Social Media Marketing">Social Media Marketing</Option>
-  <Option value="Pay per Click Advertising">Pay per Click Advertising</Option>
-  <Option value="Google Ads">Google Ads</Option>
-  <Option value="Meta Ads">Meta Ads</Option>
-  <Option value="Answer Engine Optimization">Answer Engine Optimization</Option>
-  <Option value="Email Marketing">Email Marketing</Option>
-</Select>
-
+              value={selected || undefined}
+              onChange={(value) => setSelected(value)}
+              placeholder="Select Service"
+              className="w-full custom-select"
+              size="large"
+            >
+              <Option value="Website Designing">Website Designing</Option>
+              <Option value="Website Development">Website Development</Option>
+              <Option value="Mobile App Development">
+                Mobile App Development
+              </Option>
+              <Option value="AI & ML">AI & ML</Option>
+              <Option value="Product Development">Product Development</Option>
+              <Option value="PWA Development">PWA Development</Option>
+              <Option value="Web API">Web API</Option>
+              <Option value="Software Architecture">
+                Software Architecture
+              </Option>
+              <Option value="Software Testing">Software Testing</Option>
+              <Option value="UI/UX Design">UI/UX Design</Option>
+              <Option value="Databases">Databases</Option>
+              <Option value="Cloud Services">Cloud Services</Option>
+              <Option value="Reporting">Reporting</Option>
+              <Option value="Search Engine Optimization">
+                Search Engine Optimization
+              </Option>
+              <Option value="Performance Marketing">
+                Performance Marketing
+              </Option>
+              <Option value="Social Media Marketing">
+                Social Media Marketing
+              </Option>
+              <Option value="Pay per Click Advertising">
+                Pay per Click Advertising
+              </Option>
+              <Option value="Google Ads">Google Ads</Option>
+              <Option value="Meta Ads">Meta Ads</Option>
+              <Option value="Answer Engine Optimization">
+                Answer Engine Optimization
+              </Option>
+              <Option value="Email Marketing">Email Marketing</Option>
+            </Select>
 
             {errors.service && (
               <p className="text-red-600 text-sm mt-1">{errors.service}</p>
             )}
           </div>
-           <input type="hidden" name="service" value={selected} />
+          <input type="hidden" name="service" value={selected} />
         </div>
       </div>
 
