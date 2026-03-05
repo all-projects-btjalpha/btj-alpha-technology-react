@@ -1,10 +1,14 @@
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
+import { FaTimes } from "react-icons/fa";
+import UserForm from "../components/UserForm";
 import { FaGlobe, FaServer, FaDatabase, FaShieldAlt, FaClock, FaDollarSign, FaChartBar, FaCog } from "react-icons/fa";
 
 const Hostinger = () => {
+  const [isPopupOpen, setPopupOpen] = useState(false);
+
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -13,6 +17,9 @@ const Hostinger = () => {
       mirror: true,
     });
   }, []);
+
+  const openForm = () => setPopupOpen(true);
+  const closeForm = () => setPopupOpen(false);
 
   return (
     <>
@@ -35,11 +42,9 @@ const Hostinger = () => {
                       Contact Us
                     </button>
                   </Link>
-                  <Link to="/contact">
-                    <button className="bg-gradient-to-r from-[#ff8c00] to-[#fb9c24] hover:from-[#fb9c24] hover:to-[#ff8c00] text-white font-semibold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg">
-                      Get Started
-                    </button>
-                  </Link>
+                  <button onClick={openForm} className="bg-gradient-to-r from-[#ff8c00] to-[#fb9c24] hover:from-[#fb9c24] hover:to-[#ff8c00] text-white font-semibold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg">
+                    Get Started
+                  </button>
                 </div>
               </div>
 
@@ -321,30 +326,77 @@ const Hostinger = () => {
             >
               Join thousands of satisfied customers who trust Hostinger for their web hosting needs. With BTJ Alpha Technology, you get expert support and reliable Hostinger web hosting in India tailored to your business.
             </p>
-            <Link to="/contact">
-              <button 
-                className="group relative inline-flex items-center px-8 py-4 bg-white text-[#fb9c24] font-bold text-xl rounded-xl shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-300 overflow-hidden"
-                data-aos="fade-up"
-                data-aos-delay="400"
-                data-aos-once="false"
-              >
-                <span className="relative z-10 flex items-center gap-2">
-                  Get Started Today
-                  <svg 
-                    className="w-6 h-6 group-hover:translate-x-1 transition-transform duration-300" 
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                  </svg>
-                </span>
-                <div className="absolute inset-0 bg-gradient-to-r from-orange-600 to-[#fb9c24] transform translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-500"></div>
-              </button>
-            </Link>
+            <button 
+              onClick={openForm}
+              className="group relative inline-flex items-center px-8 py-4 bg-white text-[#fb9c24] font-bold text-xl rounded-xl shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-300 overflow-hidden"
+              data-aos="fade-up"
+              data-aos-delay="400"
+              data-aos-once="false"
+            >
+              <span className="relative z-10 flex items-center gap-2">
+                Get Started Today
+                <svg 
+                  className="w-6 h-6 group-hover:translate-x-1 transition-transform duration-300" 
+                  fill="none" 
+                  stroke="currentColor" 
+                  viewBox="0 0 24 24"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                </svg>
+              </span>
+              <div className="absolute inset-0 bg-gradient-to-r from-orange-600 to-[#fb9c24] transform translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-500"></div>
+            </button>
           </div>
         </div>
       </div>
+
+      {/* Popup Modal */}
+      {isPopupOpen && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4 max-md:p-2">
+          <div className="relative bg-white rounded-2xl shadow-2xl w-full max-w-4xl max-h-[90vh] overflow-y-auto">
+            <button onClick={closeForm} className="absolute top-4 right-4 text-gray-500 hover:text-gray-800 z-10 bg-white rounded-full p-2 shadow-md">
+              <FaTimes className="text-xl" />
+            </button>
+            
+            <div className="flex flex-col md:flex-row gap-8 p-8 max-md:p-6">
+              <div className="md:w-1/2 flex flex-col justify-center">
+                <h2 className="text-3xl max-md:text-2xl font-bold text-gray-900 mb-4">
+                  Get A Free Consultation With Our Marketing Expert
+                </h2>
+                <div className="w-16 h-1 bg-[#fb9c24] rounded-full mb-6"></div>
+                <p className="text-gray-700 leading-relaxed mb-6">
+                  Fill out the form and our marketing expert will get in touch with you shortly to discuss your project requirements.
+                </p>
+                
+                <div className="space-y-4">
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center">
+                      <span className="text-orange-600 font-bold">1</span>
+                    </div>
+                    <p className="text-gray-700">Share your project requirements</p>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center">
+                      <span className="text-orange-600 font-bold">2</span>
+                    </div>
+                    <p className="text-gray-700">Get a free consultation</p>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center">
+                      <span className="text-orange-600 font-bold">3</span>
+                    </div>
+                    <p className="text-gray-700">Receive custom solutions</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="md:w-1/2 bg-white p-8 rounded-2xl shadow-lg">
+                <UserForm />
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
 
       <style jsx>{`
         @keyframes float {

@@ -144,7 +144,7 @@ const Contact = () => {
                 <div className="absolute -inset-1 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] rounded-2xl opacity-20 group-hover:opacity-30 transition-opacity duration-500 blur-xl"></div>
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.430891875109!2d77.3130094!3d28.5868475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce4589e66cd21%3A0x74986f30f963e27!2sSector%202%2C%20Noida%2C%20Uttar%20Pradesh%20201301!5e0!3m2!1sen!2sin!4v1720000000000!5m2!1sen!2sin"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.430891875109!2d77.3130094!3d28.5868475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce4589e66cd21%3A0x74986f30f963e27!2sBTJ%20ALPHA%20TECHNOLOGY%20PRIVATE%20LIMITED%2C%20D-42%2C%20D%20Block%2C%20Sector%202%2C%20Noida%2C%20Uttar%20Pradesh%20201301!5e0!3m2!1sen!2sin!4v1720000000000!5m2!1sen!2sin&marker=28.5868475,77.3130094"
                     width="100%"
                     height="500"
                     allowFullScreen=""
@@ -184,7 +184,7 @@ const Contact = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Visit Us Card */}
             <a
-              href="https://www.google.com/maps?q=Sector+2,+Noida,+UP,+201301"
+              href="https://www.google.com/maps?q=BTJ+ALPHA+TECHNOLOGY+PRIVATE+LIMITED,+D-42,+D+Block,+Sector+2,+Noida,+Uttar+Pradesh,+201301"
               target="_blank"
               rel="noopener noreferrer"
               data-aos="fade-up"
@@ -198,13 +198,14 @@ const Contact = () => {
                 Visit Us
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Sector 2, Noida, UP, 201301
+                {/* BTJ ALPHA TECHNOLOGY PRIVATE LIMITED<br /> */}
+                D-42, D Block, Sector 2, Noida, Uttar Pradesh 201301
               </p>
             </a>
 
             {/* Call Us Card */}
             <a
-              href="tel:+91-9310228489"
+              href="tel:+91-9310 228 489"
               data-aos="fade-up"
               data-aos-delay="100"
               className="group bg-gradient-to-br from-white to-orange-50 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-2 border-transparent hover:border-[#fb9c24] text-center"
@@ -215,7 +216,7 @@ const Contact = () => {
               <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-[#fb9c24] group-hover:to-[#ff8c00] transition-all duration-300">
                 Call Us At
               </h3>
-              <p className="text-gray-600 leading-relaxed">+91-9310228489</p>
+              <p className="text-gray-600 leading-relaxed">+91-9310 228 489</p>
             </a>
 
             {/* Email Us Card */}
@@ -242,9 +243,8 @@ const Contact = () => {
             data-aos="fade-up"
             className="mt-8 text-center bg-gradient-to-r from-orange-50 to-orange-100 rounded-2xl p-6 border-2 border-[#fb9c24]/20"
           >
-            <p className="text-gray-700 font-medium">
-              📅 We're available Monday to Friday, from{" "}
-              <span className="font-bold text-[#fb9c24]">9:30 AM to 6:30 PM</span>
+            <p className="text-gray-700 font-semibold text-xl">
+             📅 We are available 24/7 to provide support and assistance whenever you need.
             </p>
           </div>
         </div>
@@ -260,7 +260,7 @@ const Contact = () => {
                 <div className="absolute -inset-1 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] rounded-2xl opacity-20 group-hover:opacity-30 transition-opacity duration-500 blur-xl"></div>
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.430891875109!2d77.3130094!3d28.5868475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce4589e66cd21%3A0x74986f30f963e27!2sSector%202%2C%20Noida%2C%20Uttar%20Pradesh%20201301!5e0!3m2!1sen!2sin!4v1720000000000!5m2!1sen!2sin"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.430891875109!2d77.3130094!3d28.5868475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce4589e66cd21%3A0x74986f30f963e27!2sBTJ%20ALPHA%20TECHNOLOGY%20PRIVATE%20LIMITED%2C%20D-42%2C%20D%20Block%2C%20Sector%202%2C%20Noida%2C%20Uttar%20Pradesh%20201301!5e0!3m2!1sen!2sin!4v1720000000000!5m2!1sen!2sin&marker=28.5868475,77.3130094"
                     width="100%"
                     height="500"
                     allowFullScreen=""
@@ -414,7 +414,7 @@ const Contact = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-6 max-md:px-4 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00]">
+      {/* <section className="py-20 px-6 max-md:px-4 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00]">
         <div className="max-w-4xl mx-auto text-center" data-aos="zoom-in">
           <h2 className="text-3xl max-md:text-2xl font-bold text-white mb-6">
             Still Have Questions?
@@ -428,7 +428,7 @@ const Contact = () => {
             </button>
           </a>
         </div>
-      </section>
+      </section> */}
     </main>
   );
 };

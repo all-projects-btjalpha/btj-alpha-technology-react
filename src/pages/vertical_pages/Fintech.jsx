@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import {
   FaWallet, FaMobileAlt, FaShieldAlt, FaChartLine, FaUniversity, FaCreditCard,
   FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync,
-  FaDatabase, FaTools, FaCogs, FaServer, FaLayerGroup, FaUsers
+  FaDatabase, FaTools, FaCogs, FaServer, FaLayerGroup, FaUsers, FaTimes
 } from "react-icons/fa";
 
 function Fintech() {
@@ -115,29 +116,29 @@ function Fintech() {
 
   const faqs = [
     {
-      question: "What types of fitness applications does BTJ Alpha Technology develop?",
-      answer: "BTJ Alpha Technology specializes in complete Fitness Solutions Software Development including workout tracking apps, personal trainer platforms, gym management systems, diet & nutrition apps, health monitoring solutions, and class scheduling software. We build scalable digital fitness ecosystems designed to improve user engagement and business growth."
+      question: "What is fintech development?",
+      answer: "Fintech development refers to the creation of digital financial solutions such as mobile banking apps, digital wallets, payment gateways, lending platforms, and investment systems. It combines finance and technology to deliver secure, scalable, and user-friendly financial services."
     },
     {
-      question: "Do you develop fitness apps for both iOS and Android platforms?",
-      answer: "Yes. BTJ Alpha Technology develops high-performance native and cross-platform fitness applications for both iOS and Android. Our team ensures smooth performance, responsive UI, and seamless user experience across all devices."
+      question: "Why choose fintech development in India?",
+      answer: "Fintech Development in India offers cost-effective solutions, skilled developers, advanced technical expertise, and global compliance standards. Indian fintech companies deliver secure and scalable platforms for startups and enterprises worldwide."
     },
     {
-      question: "Can you integrate wearable devices and health tracking platforms?",
-      answer: "Absolutely. BTJ Alpha Technology integrates fitness apps with wearable devices and platforms such as Apple Health, Google Fit, Fitbit, and other IoT-based health systems. This enables real-time tracking of steps, calories, heart rate, sleep patterns, and workout performance."
+      question: "What types of fintech solutions do you provide?",
+      answer: "We provide complete fintech solutions including: Digital wallet development, Mobile banking applications, Secure payment gateway systems, Investment and trading platforms, Lending and loan management systems, Payment processing systems"
     },
     {
-      question: " Can you build custom gym management and trainer management software?",
-      answer: "Yes. BTJ Alpha Technology develops fully customized gym and trainer management systems that include: Membership management,Class scheduling,Online payments,Attendance tracking,Performance analytics,Trainer dashboards,We design solutions tailored to your business model and operational workflow."
+      question: "How secure are your fintech applications?",
+      answer: "Security and regulatory compliance are our top priorities in every Fintech Development in India project."
 
     },
     {
-      question: "How secure and scalable are your fitness software solutions?",
-      answer: "Security and scalability are core priorities at BTJ Alpha Technology. We follow modern development standards, secure authentication systems, data encryption practices, and scalable cloud architecture to ensure reliable performance as your user base grows."
+      question: "Do you provide custom fintech application development?",
+      answer: "Yes. We offer custom fintech application development tailored to your business model, target audience, and regulatory requirements. Our solutions are scalable, secure, and designed for long-term growth."
     },
     {
-      question: " Why should I choose BTJ Alpha Technology as my Fitness App Development Company?",
-      answer: "BTJ Alpha Technology combines technical expertise, industry understanding, and agile development processes to deliver high-quality Fitness Solutions Software Development. We focus on innovation, on-time delivery, and long-term partnership to help your fitness business succeed in a competitive digital market."
+      question: "How long does it take to develop a fintech platform?",
+      answer: "Development time depends on project complexity. A basic fintech application may take 8–12 weeks, while advanced platforms with integrations and compliance features may take 3–6 months"
     }
   ];
 
@@ -151,18 +152,21 @@ function Fintech() {
             {/* Left Content */}
             <div data-aos="fade-right" className="lg:pl-16">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Fitness Software Development Company – Custom Digital Solutions for Gyms, Trainers & Health Brands
+               Fintech Software Development Company in India
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Empower fitness journeys with innovative digital platforms. At BTJ Alpha Technology, we specialize in Fitness Solutions Software Development to help gyms, fitness trainers, wellness brands, and health startups deliver engaging and results-driven experiences.
+                BTJ Alpha Technology is a trusted Fintech Software Development Company in India delivering secure, scalable, and high-performance financial technology platforms for modern businesses.
+                <br></br>We design and develop advanced fintech software that powers digital banking, payment gateways, lending systems, investment platforms, insurance tech solutions, and financial management applications.
+
               </p>
               <div className="flex flex-wrap gap-4">
-                <button
-                  onClick={openForm}
-                  className="bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] hover:from-[#ff8c00] hover:to-[#fb9c24] text-white font-semibold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg"
-                >
-                  Contact Us
-                </button>
+                <Link to="/contact">
+                  <button
+                    className="bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] hover:from-[#ff8c00] hover:to-[#fb9c24] text-white font-semibold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg"
+                  >
+                    Contact Us
+                  </button>
+                </Link>
                 <button
                   onClick={openForm}
                   className="bg-gradient-to-r from-[#ff8c00] to-[#fb9c24] hover:from-[#fb9c24] hover:to-[#ff8c00] text-white font-semibold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg"
@@ -331,7 +335,53 @@ function Fintech() {
         </div>
       </section>
 
-      {isPopupOpen && <UserForm onClose={closeForm} />}
+      {/* Popup Modal */}
+      {isPopupOpen && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4 max-md:p-2">
+          <div className="relative bg-white rounded-2xl shadow-2xl w-full max-w-4xl max-h-[90vh] overflow-y-auto">
+            <button onClick={closeForm} className="absolute top-4 right-4 text-gray-500 hover:text-gray-800 z-10 bg-white rounded-full p-2 shadow-md">
+              <FaTimes className="text-xl" />
+            </button>
+            
+            <div className="flex flex-col md:flex-row gap-8 p-8 max-md:p-6">
+              <div className="md:w-1/2 flex flex-col justify-center">
+                <h2 className="text-3xl max-md:text-2xl font-bold text-gray-900 mb-4">
+                  Get A Free Consultation With Our Marketing Expert
+                </h2>
+                <div className="w-16 h-1 bg-[#fb9c24] rounded-full mb-6"></div>
+                <p className="text-gray-700 leading-relaxed mb-6">
+                  Fill out the form and our marketing expert will get in touch with you shortly to discuss your project requirements.
+                </p>
+                
+                <div className="space-y-4">
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center">
+                      <span className="text-orange-600 font-bold">1</span>
+                    </div>
+                    <p className="text-gray-700">Share your project requirements</p>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center">
+                      <span className="text-orange-600 font-bold">2</span>
+                    </div>
+                    <p className="text-gray-700">Get a free consultation</p>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center">
+                      <span className="text-orange-600 font-bold">3</span>
+                    </div>
+                    <p className="text-gray-700">Receive custom solutions</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="md:w-1/2 bg-white p-8 rounded-2xl shadow-lg">
+                <UserForm />
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

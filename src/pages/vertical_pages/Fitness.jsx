@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import {
   FaDumbbell, FaHeartbeat, FaMobileAlt, FaChartLine, FaUsers, FaCalendarAlt,
   FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync,
-  FaDatabase, FaTools, FaCogs, FaServer, FaLayerGroup
+  FaDatabase, FaTools, FaCogs, FaServer, FaLayerGroup, FaTimes
 } from "react-icons/fa";
 
 function Fitness() {
@@ -115,28 +116,28 @@ function Fitness() {
 
   const faqs = [
     {
-      question: "What services do you offer as a fitness app development company?",
-      answer: "At BTJ Alpha Technology, we provide Fitness Solutions Software Development including workout tracking apps, gym management systems, trainer platforms, health monitoring apps, and class scheduling software."
+      question: "What types of fitness applications does BTJ Alpha Technology develop?",
+      answer: "BTJ Alpha Technology specializes in complete Fitness Solutions Software Development including workout tracking apps, personal trainer platforms, gym management systems, diet & nutrition apps, health monitoring solutions, and class scheduling software."
     },
     {
-      question: "Do you develop apps for iOS and Android?",
-      answer: "Yes, we build high-performance fitness mobile applications for both iOS and Android platforms."
+      question: "Do you develop fitness apps for both iOS and Android platforms?",
+      answer: "Yes. BTJ Alpha Technology develops high-performance native and cross-platform fitness applications for both iOS and Android.Our team ensures smooth performance, responsive UI, and seamless user experience across all devices."   
+},
+    {
+      question: "Can you integrate wearable devices and health tracking platforms?",
+      answer: "Absolutely. BTJ Alpha Technology integrates fitness apps with wearable devices and platforms such as Apple Health, Google Fit, Fitbit, and other IoT-based health systems."
     },
     {
-      question: "Can you integrate wearable devices?",
-      answer: "Yes, we integrate apps with devices and platforms like Apple Health, Google Fit, and Fitbit for real-time health tracking."
+      question: "Can you build custom gym management and trainer management software?",
+      answer: "We design solutions tailored to your business model and operational workflow."
     },
     {
-      question: "Can you build custom gym management software?",
-      answer: "Absolutely. We develop tailored gym and trainer management systems with membership, scheduling, payments, and analytics features."
+      question: "How secure and scalable are your fitness software solutions?",
+      answer: "We follow modern development standards, secure authentication systems, data encryption practices, and scalable cloud architecture to ensure reliable performance as your user base grows."
     },
     {
-      question: "Is your fitness software secure and scalable?",
-      answer: "Yes, our solutions follow industry best practices to ensure security, scalability, and reliable performance."
-    },
-    {
-      question: "Why choose BTJ Alpha Technology?",
-      answer: "We offer expert development, agile processes, on-time delivery, and high-quality Fitness Solutions Software Development tailored to your business goals."
+      question: "Why should I choose BTJ Alpha Technology as my Fitness App Development Company?",
+      answer: "BTJ Alpha Technology combines technical expertise, industry understanding, and agile development processes to deliver high-quality Fitness Solutions Software Development."
     }
   ];
 
@@ -150,19 +151,21 @@ function Fitness() {
             {/* Left Content */}
             <div data-aos="fade-right" className="lg:pl-16">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                Fintech Software Development Company in India
+                Fitness Software Development Company – Custom Digital Solutions for Gyms, Trainers & Health Brands
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                BTJ Alpha Technology is a trusted Fintech Software Development Company in India delivering secure, scalable, and high-performance financial technology platforms for modern businesses.
-                We design and develop advanced fintech software that powers digital banking, payment gateways, lending systems, investment platforms, insurance tech solutions, and financial management applications.
+                Empower fitness journeys with innovative digital platforms. At BTJ Alpha Technology, we specialize in Fitness Solutions Software Development to help gyms, fitness trainers, wellness brands, and health startups deliver engaging and results-driven experiences.
+       <br></br>We build fitness apps, trainer management systems, gym software, and health tracking solutions that motivate users, improve performance tracking, and streamline operations.
+
               </p>
               <div className="flex flex-wrap gap-4">
-                <button
-                  onClick={openForm}
-                  className="bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] hover:from-[#ff8c00] hover:to-[#fb9c24] text-white font-semibold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg"
-                >
-                  Contact Us
-                </button>
+                <Link to="/contact">
+                  <button
+                    className="bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] hover:from-[#ff8c00] hover:to-[#fb9c24] text-white font-semibold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg"
+                  >
+                    Contact Us
+                  </button>
+                </Link>
                 <button
                   onClick={openForm}
                   className="bg-gradient-to-r from-[#ff8c00] to-[#fb9c24] hover:from-[#fb9c24] hover:to-[#ff8c00] text-white font-semibold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg"
@@ -331,7 +334,53 @@ function Fitness() {
         </div>
       </section>
 
-      {isPopupOpen && <UserForm onClose={closeForm} />}
+      {/* Popup Modal */}
+      {isPopupOpen && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4 max-md:p-2">
+          <div className="relative bg-white rounded-2xl shadow-2xl w-full max-w-4xl max-h-[90vh] overflow-y-auto">
+            <button onClick={closeForm} className="absolute top-4 right-4 text-gray-500 hover:text-gray-800 z-10 bg-white rounded-full p-2 shadow-md">
+              <FaTimes className="text-xl" />
+            </button>
+            
+            <div className="flex flex-col md:flex-row gap-8 p-8 max-md:p-6">
+              <div className="md:w-1/2 flex flex-col justify-center">
+                <h2 className="text-3xl max-md:text-2xl font-bold text-gray-900 mb-4">
+                  Get A Free Consultation With Our Marketing Expert
+                </h2>
+                <div className="w-16 h-1 bg-[#fb9c24] rounded-full mb-6"></div>
+                <p className="text-gray-700 leading-relaxed mb-6">
+                  Fill out the form and our marketing expert will get in touch with you shortly to discuss your project requirements.
+                </p>
+                
+                <div className="space-y-4">
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center">
+                      <span className="text-orange-600 font-bold">1</span>
+                    </div>
+                    <p className="text-gray-700">Share your project requirements</p>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center">
+                      <span className="text-orange-600 font-bold">2</span>
+                    </div>
+                    <p className="text-gray-700">Get a free consultation</p>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center">
+                      <span className="text-orange-600 font-bold">3</span>
+                    </div>
+                    <p className="text-gray-700">Receive custom solutions</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="md:w-1/2 bg-white p-8 rounded-2xl shadow-lg">
+                <UserForm />
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

@@ -190,7 +190,7 @@ function Home() {
       <main className=" w-[100%]  mt-[65px]">
         {/* Banner Section Start here */}
 
-        <div className="relative h-[95vh] bg-cover bg-center overflow-hidden max-md:h-auto max-md:min-h-[70vh]">
+        <div className="relative h-[100vh] bg-cover bg-center overflow-hidden max-md:h-auto max-md:min-h-[70vh]">
           {/* Background Video */}
           <div className="absolute inset-0">
             <video
@@ -232,12 +232,37 @@ function Home() {
               </p>
               <p className="mt-6 text-lg max-md:text-base leading-relaxed w-[90%] max-md:w-full text-gray-100">Partner with certified professionals who combine strategy, creativity, and technical expertise to accelerate your digital success.</p>
               
+              {/* Partner Logos Section */}
+              <div className="mt-8 pt-6 border-t border-white/20">
+                <p className="text-sm text-gray-300 mb-4 font-semibold uppercase tracking-wider">Trusted & Certified By</p>
+                <div className="flex flex-nowrap items-center gap-2 md:gap-3 overflow-x-auto justify-start">
+                  <div className="group relative bg-white/10 backdrop-blur-sm rounded-lg p-2 hover:bg-white/20 transition-all duration-300 group-hover:scale-110 flex-shrink-0">
+                    <img src="/clutch.png" alt="Clutch" className="h-8 md:h-11 w-auto object-contain group-hover:scale-110 transition-all duration-300" />
+                  </div>
+                  <div className="group relative bg-white/10 backdrop-blur-sm rounded-lg p-2 hover:bg-white/20 transition-all duration-300 group-hover:scale-110 flex-shrink-0">
+                    <img src="/good firm.jfif" alt="GoodFirms" className="h-8 md:h-11 w-auto object-contain group-hover:scale-110 transition-all duration-300" />
+                  </div>
+                  <div className="group relative bg-white/10 backdrop-blur-sm rounded-lg p-2 hover:bg-white/20 transition-all duration-300 group-hover:scale-110 flex-shrink-0">
+                    <img src="/Google__G__logo.svg-removebg-preview.png" alt="Google" className="h-8 md:h-11 w-auto object-contain group-hover:scale-110 transition-all duration-300" />
+                  </div>
+                  <div className="group relative bg-white/10 backdrop-blur-sm rounded-lg p-2 hover:bg-white/20 transition-all duration-300 group-hover:scale-110 flex-shrink-0">
+                    <img src="/msme.png" alt="MSME" className="h-8 md:h-11 w-auto object-contain group-hover:scale-110 transition-all duration-300" />
+                  </div>
+                  <div className="group relative bg-white/10 backdrop-blur-sm rounded-lg p-2 hover:bg-white/20 transition-all duration-300 group-hover:scale-110 flex-shrink-0">
+                    <img src="/Startup-removebg-preview.png" alt="Startup India" className="h-8 md:h-11 w-auto object-contain group-hover:scale-105 transition-all duration-300" />
+                  </div>
+                  <div className="group relative bg-white/10 backdrop-blur-sm rounded-lg p-2 hover:bg-white/20 transition-all duration-300 group-hover:scale-110 flex-shrink-0">
+                    <img src="/upwork.png" alt="Upwork" className="h-8 md:h-11 w-auto object-contain group-hover:scale-105 transition-all duration-300" />
+                  </div>
+                </div>
+              </div>
+
               <Link to="contact">
                 <button 
-                className="group relative inline-flex items-center px-10 py-5 font-bold mt-8 bg-gradient-to-r from-[#fb9c24] to-orange-600 rounded-2xl text-white text-xl shadow-2xl hover:shadow-[0_20px_50px_rgba(251,156,36,0.5)] transform hover:scale-105 transition-all duration-300 overflow-hidden">
+                className="group relative inline-flex items-center px-10 py-3 font-bold mt-8 bg-gradient-to-r from-[#fb9c24] to-orange-600 rounded-2xl text-white text-lg shadow-2xl hover:shadow-[0_20px_50px_rgba(251,156,36,0.5)] transform hover:scale-105 transition-all duration-300 overflow-hidden">
                   <span className="relative z-10 flex items-center gap-2">
                     Contact Us
-                    <span className="text-2xl group-hover:translate-x-2 transition-transform duration-300">→</span>
+                    <span className="text-xl group-hover:translate-x-2 transition-transform duration-300">→</span>
                   </span>
                   <div className="absolute inset-0 bg-gradient-to-r from-orange-600 to-[#fb9c24] transform translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-500"></div>
                 </button>
