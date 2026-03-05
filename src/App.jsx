@@ -114,6 +114,7 @@ import { ToastContainer } from "react-toastify";
 import FAQChatbot from "./components/Chatbot";
 import WhatsAppButton from "./components/WhatsAppButton";
 import SocialMediaButtons from "./components/SocialMediaButtons";
+import ThankYou from "./pages/ThankYou";
 
 function App() {
   return (
@@ -142,98 +143,288 @@ function App() {
           />
           <Route path="website-development" element={<WebsiteDevelopment />} />
           <Route path="search-engine-optimization" element={<SEO />} />
-          <Route path="website-design-services-in-india" element={<WebsiteDesigning />} />
+          <Route
+            path="website-design-services-in-india"
+            element={<WebsiteDesigning />}
+          />
           <Route path="ai-ml" element={<AIandML />} />
-          <Route path="product-development-services-in-india" element={<ProductDevelopment />} />
-          <Route path="progressive-web-app-development-company-in-india" element={<PWADevelopment />} />
+          <Route
+            path="product-development-services-in-india"
+            element={<ProductDevelopment />}
+          />
+          <Route
+            path="progressive-web-app-development-company-in-india"
+            element={<PWADevelopment />}
+          />
           <Route path="api-development-company-in-india" element={<WebAPI />} />
-          <Route path="software-architecture-services-in-india" element={<SoftwareArchitecture />} />
-          <Route path="software-testing-companies-in-india" element={<SoftwareTesting />} />
-          <Route path="ui-ux-design-company-in-india" element={<UIUXDesign />} />
+          <Route
+            path="software-architecture-services-in-india"
+            element={<SoftwareArchitecture />}
+          />
+          <Route
+            path="software-testing-companies-in-india"
+            element={<SoftwareTesting />}
+          />
+          <Route
+            path="ui-ux-design-company-in-india"
+            element={<UIUXDesign />}
+          />
           <Route path="databases" element={<Databases />} />
           <Route path="cloud-services" element={<CloudServices />} />
           <Route path="reporting" element={<Reporting />} />
-          <Route path="performance-marketing" element={<PerformanceMarketing />} />
+          <Route
+            path="performance-marketing"
+            element={<PerformanceMarketing />}
+          />
           <Route path="ppc-advertising" element={<PPCAdvertising />} />
-          <Route path="answer-engine-optimization-services" element={<AnswerEngineOptimization />} />
-          <Route path="email-marketing-services-in-india" element={<EmailMarketing />} />
+          <Route
+            path="answer-engine-optimization-services"
+            element={<AnswerEngineOptimization />}
+          />
+          <Route
+            path="email-marketing-services-in-india"
+            element={<EmailMarketing />}
+          />
           {/* Technology Routes */}
-          <Route path="reactjs-development-company-in-india" element={<ReactJS />} />
-          <Route path="angular-development-company-in-india" element={<Angular />} />
-          <Route path="vuejs-development-company-in-india" element={<VueJS />} />
-          <Route path="javascript-development-company-in-india" element={<NextJS />} />
-          <Route path="typescript-development-company-in-india" element={<TypeScript />} />
-          <Route path="html5-development-company-in-india" element={<HTML5 />} />
+          <Route
+            path="reactjs-development-company-in-india"
+            element={<ReactJS />}
+          />
+          <Route
+            path="angular-development-company-in-india"
+            element={<Angular />}
+          />
+          <Route
+            path="vuejs-development-company-in-india"
+            element={<VueJS />}
+          />
+          <Route
+            path="javascript-development-company-in-india"
+            element={<NextJS />}
+          />
+          <Route
+            path="typescript-development-company-in-india"
+            element={<TypeScript />}
+          />
+          <Route
+            path="html5-development-company-in-india"
+            element={<HTML5 />}
+          />
           <Route path="css3-development-company-in-india" element={<CSS3 />} />
-          <Route path="tailwind-css-development-company-in-india" element={<TailwindCSS />} />
-          <Route path="bootstrap-development-company-in-india" element={<Bootstrap />} />
-          <Route path="nodejs-development-company-in-india" element={<NodeJS />} />
+          <Route
+            path="tailwind-css-development-company-in-india"
+            element={<TailwindCSS />}
+          />
+          <Route
+            path="bootstrap-development-company-in-india"
+            element={<Bootstrap />}
+          />
+          <Route
+            path="nodejs-development-company-in-india"
+            element={<NodeJS />}
+          />
           <Route path="technologies/python" element={<Python />} />
           <Route path="technologies/java" element={<Java />} />
           <Route path="technologies/php" element={<PHP />} />
           <Route path="technologies/dotnet" element={<DotNet />} />
           <Route path="technologies/laravel" element={<Laravel />} />
-          <Route path="wordpress-development-company-in-india" element={<WordPress />} />
-          <Route path="react-native-development-company-in-india" element={<ReactNative />} />
-          <Route path="flutter-development-company-in-india" element={<Flutter />} />
-          <Route path="kotlin-development-company-in-india" element={<Kotlin />} />
+          <Route
+            path="wordpress-development-company-in-india"
+            element={<WordPress />}
+          />
+          <Route
+            path="react-native-development-company-in-india"
+            element={<ReactNative />}
+          />
+          <Route
+            path="flutter-development-company-in-india"
+            element={<Flutter />}
+          />
+          <Route
+            path="kotlin-development-company-in-india"
+            element={<Kotlin />}
+          />
           <Route path="swift-development-services" element={<Swift />} />
-          <Route path="mongodb-development-services-company-in-india" element={<MongoDB />} />
-          <Route path="mysql-development-company-in-india" element={<MySQL />} />
-          <Route path="postgresql-development-company-in-india" element={<PostgreSQL />} />
-          <Route path="firebase-development-company-in-india" element={<Firebase />} />
+          <Route
+            path="mongodb-development-services-company-in-india"
+            element={<MongoDB />}
+          />
+          <Route
+            path="mysql-development-company-in-india"
+            element={<MySQL />}
+          />
+          <Route
+            path="postgresql-development-company-in-india"
+            element={<PostgreSQL />}
+          />
+          <Route
+            path="firebase-development-company-in-india"
+            element={<Firebase />}
+          />
           <Route path="aws-cloud-services-company-in-india" element={<AWS />} />
-          <Route path="microsoft-azure-cloud-services-in-india" element={<Azure />} />
-          <Route path="ibm-cloud-platform-services-provider-in-india" element={<IBMCloud />} />
-          <Route path="best-google-cloud-provider-in-india" element={<GoogleCloudPlatform />} />
+          <Route
+            path="microsoft-azure-cloud-services-in-india"
+            element={<Azure />}
+          />
+          <Route
+            path="ibm-cloud-platform-services-provider-in-india"
+            element={<IBMCloud />}
+          />
+          <Route
+            path="best-google-cloud-provider-in-india"
+            element={<GoogleCloudPlatform />}
+          />
           <Route path="figma-design-company-in-india" element={<Figma />} />
           {/* Database Routes */}
-          <Route path="indexeddb-api-development-company-in-india" element={<IndexedDatabaseAPI />} />
-          <Route path="azure-cosmos-db-development-services-in-india" element={<AzureCosmosDB />} />
-          <Route path="amazon-dynamodb-development-services-in-india" element={<AmazonDynamoDB />} />
-          <Route path="sql-server-integration-services-in-india" element={<MsSQL />} />
+          <Route
+            path="indexeddb-api-development-company-in-india"
+            element={<IndexedDatabaseAPI />}
+          />
+          <Route
+            path="azure-cosmos-db-development-services-in-india"
+            element={<AzureCosmosDB />}
+          />
+          <Route
+            path="amazon-dynamodb-development-services-in-india"
+            element={<AmazonDynamoDB />}
+          />
+          <Route
+            path="sql-server-integration-services-in-india"
+            element={<MsSQL />}
+          />
           {/* Third Party Integration Routes */}
-          <Route path="telerik-development-services-in-india" element={<Telerik />} />
-          <Route path="quickbooks-xero-integration-services-in-india" element={<QuickBooksXero />} />
-          <Route path="twilio-plivo-integration-services-in-india" element={<TwilioPlivo />} />
-          <Route path="devexpress-development-services-in-india" element={<DevExpress />} />
-          <Route path="syncfusion-development-services-in-india" element={<SyncFusion />} />
-          <Route path="mudblazor-development-services-in-india" element={<MudBlazor />} />
-          <Route path="payment-integration-services-in-india" element={<StripePaypal />} />
-          <Route path="google-api-integration-services-in-india" element={<GoogleAPI />} />
-          <Route path="highcharts-echarts-development-company-in-india" element={<Highcharts />} />
-          <Route path="financial-data-integration-services-in-india" element={<YahooFinance />} />
+          <Route
+            path="telerik-development-services-in-india"
+            element={<Telerik />}
+          />
+          <Route
+            path="quickbooks-xero-integration-services-in-india"
+            element={<QuickBooksXero />}
+          />
+          <Route
+            path="twilio-plivo-integration-services-in-india"
+            element={<TwilioPlivo />}
+          />
+          <Route
+            path="devexpress-development-services-in-india"
+            element={<DevExpress />}
+          />
+          <Route
+            path="syncfusion-development-services-in-india"
+            element={<SyncFusion />}
+          />
+          <Route
+            path="mudblazor-development-services-in-india"
+            element={<MudBlazor />}
+          />
+          <Route
+            path="payment-integration-services-in-india"
+            element={<StripePaypal />}
+          />
+          <Route
+            path="google-api-integration-services-in-india"
+            element={<GoogleAPI />}
+          />
+          <Route
+            path="highcharts-echarts-development-company-in-india"
+            element={<Highcharts />}
+          />
+          <Route
+            path="financial-data-integration-services-in-india"
+            element={<YahooFinance />}
+          />
           <Route path="zoom-integration-services-in-india" element={<Zoom />} />
-          <Route path="power-bi-dashboard-development-services" element={<PowerBI />} />
-          <Route path="react-material-ui-development-services" element={<MaterialUI />} />
-          <Route path="primeng-development-services-in-india" element={<PrimeNG />} />
-          <Route path="radzen-blazor-development-services" element={<Radzen />} />
+          <Route
+            path="power-bi-dashboard-development-services"
+            element={<PowerBI />}
+          />
+          <Route
+            path="react-material-ui-development-services"
+            element={<MaterialUI />}
+          />
+          <Route
+            path="primeng-development-services-in-india"
+            element={<PrimeNG />}
+          />
+          <Route
+            path="radzen-blazor-development-services"
+            element={<Radzen />}
+          />
           <Route path="ckeditor-integration-services" element={<CKEditor />} />
           <Route path="easypost-integration-services" element={<EasyPost />} />
-          <Route path="kit-builder-development-services-in-india" element={<KitBuilder />} />
+          <Route
+            path="kit-builder-development-services-in-india"
+            element={<KitBuilder />}
+          />
           <Route path="shopify-development-company" element={<Shopify />} />
-          <Route path="daisyui-development-services-in-india" element={<Daisy />} />
+          <Route
+            path="daisyui-development-services-in-india"
+            element={<Daisy />}
+          />
           {/* Vertical Routes */}
-          <Route path="healthcare-software-development-services" element={<Healthcare />} />
-          <Route path="fintech-solutions-company-in-india" element={<Fintech />} />
-          <Route path="event-management-software-development-company" element={<EventManagement />} />
-          <Route path="marketplace-solutions-company-in-india" element={<Marketplace />} />
-          <Route path="compliance-software-development-company" element={<Compliance />} />
+          <Route
+            path="healthcare-software-development-services"
+            element={<Healthcare />}
+          />
+          <Route
+            path="fintech-solutions-company-in-india"
+            element={<Fintech />}
+          />
+          <Route
+            path="event-management-software-development-company"
+            element={<EventManagement />}
+          />
+          <Route
+            path="marketplace-solutions-company-in-india"
+            element={<Marketplace />}
+          />
+          <Route
+            path="compliance-software-development-company"
+            element={<Compliance />}
+          />
           <Route path="custom-crm-development-services" element={<CRM />} />
-          <Route path="logistics-transport-software-development-company" element={<LogisticsTransport />} />
-          <Route path="real-estate-software-development-company" element={<RealEstate />} />
+          <Route
+            path="logistics-transport-software-development-company"
+            element={<LogisticsTransport />}
+          />
+          <Route
+            path="real-estate-software-development-company"
+            element={<RealEstate />}
+          />
           <Route path="erp-software-development-company" element={<ERP />} />
-          <Route path="ed-tech-solutions-development-company-in-india" element={<EdTech />} />
-          <Route path="automotive-solutions-company-in-india" element={<Automotive />} />
-          <Route path="fundraising-software-development-company-in-india" element={<FundraisingManagement />} />
-          <Route path="travel-software-development-company" element={<TravelTourism />} />
-          <Route path="workflow-automation-development-company" element={<WorkflowManagement />} />
+          <Route
+            path="ed-tech-solutions-development-company-in-india"
+            element={<EdTech />}
+          />
+          <Route
+            path="automotive-solutions-company-in-india"
+            element={<Automotive />}
+          />
+          <Route
+            path="fundraising-software-development-company-in-india"
+            element={<FundraisingManagement />}
+          />
+          <Route
+            path="travel-software-development-company"
+            element={<TravelTourism />}
+          />
+          <Route
+            path="workflow-automation-development-company"
+            element={<WorkflowManagement />}
+          />
           <Route path="fitness-app-development-company" element={<Fitness />} />
-          <Route path="sports-software-development-company" element={<SportsManagement />} />
-          <Route path="saas-solutions-company-in-india" element={<SaaSVertical />} />
+          <Route
+            path="sports-software-development-company"
+            element={<SportsManagement />}
+          />
+          <Route
+            path="saas-solutions-company-in-india"
+            element={<SaaSVertical />}
+          />
 
           <Route path="privacy-policy" element={<PrivacyPolicy />} />
           <Route path="terms-condition" element={<TermsAndConditions />} />
+          <Route path="thank-you" element={<ThankYou />} />
           <Route path="/*" element={<Home />} />
         </Routes>
         <Footer />

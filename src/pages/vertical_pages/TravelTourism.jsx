@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaPlane, FaHotel, FaMapMarkedAlt, FaTicketAlt, FaMobileAlt, FaStar, FaChartLine,
-  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync, 
+  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync,
   FaDatabase, FaTools, FaCogs, FaServer, FaLayerGroup, FaUsers
 } from "react-icons/fa";
 
@@ -115,16 +115,24 @@ function TravelTourism() {
 
   const faqs = [
     {
-      question: "What is travel and tourism technology?",
-      answer: "Travel and tourism technology encompasses digital platforms for booking, itinerary planning, hotel management, and travel experiences."
+      question: " What does a travel software development company do?",
+      answer: "A Travel & Tourism Software Development Company in India designs and builds digital platforms for travel agencies, tour operators, hotels, and hospitality businesses. These systems help manage bookings, itineraries, payments, customer data, and operational workflows efficiently. BTJ Alpha Technology develops scalable and secure travel software solutions that automate reservations, improve customer engagement, and increase overall business revenue."
     },
     {
-      question: "How can travel technology benefit my business?",
-      answer: "Travel technology can increase bookings, improve customer experience, streamline operations, and provide valuable insights into customer behavior."
+      question: "What types of travel software solutions do you develop?",
+      answer: "services, including: Online Booking & Reservation Systems,Hotel & Property Management Software,B2B & B2C Travel Portals,Tour Package & Itinerary Management Systems,Flight, Bus & Transport Booking Integrations,Travel CRM & Lead Management Systems,Mobile Travel Applications (Android & iOS),Payment Gateway & Multi-Currency Support,Each solution is customized based on your business model and target audience."
     },
     {
-      question: "Can travel platforms be customized to my business needs?",
-      answer: "Yes, our travel solutions are fully customizable to match your specific business model and requirements."
+      question: "Can you build a custom travel booking website like MakeMyTrip or Booking.com?",
+      answer: "Yes. BTJ Alpha Technology specializes in developing custom travel marketplace platforms with advanced features like real-time availability, dynamic pricing, third-party API integrations, user dashboards, and secure payment processing. We create scalable travel portals tailored to your business requirements."
+    },
+    {
+      question: "Do you provide API integrations for flights, hotels, and transport services?",
+      answer: "Absolutely. Our Travel & Tourism Development services include integration with global travel APIs for flights, hotels, car rentals, buses, and holiday packages. This ensures real-time data synchronization, pricing updates, and seamless booking experiences for users."
+    },
+    {
+      question: " Is your travel software scalable for high traffic and seasonal demand?",
+      answer: "Yes. As a professional Travel & Tourism Software Development Company in India, BTJ Alpha Technology builds cloud-based systems designed to handle high user traffic, peak booking seasons, and large transaction volumes without performance issues."
     }
   ];
 
@@ -136,13 +144,12 @@ function TravelTourism() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
+            <div data-aos="fade-right" className="lg:pl-16">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                Travel & Tourism Solutions – Expert Development in India
+                Travel & Tourism Software Development Company in India – Smart Booking & Hospitality Management Solutions
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Transform travel experiences with powerful digital platforms built for the modern tourism industry. We specialize in Travel & Tourism Development in India, delivering smart booking systems, hotel management software, itinerary planning tools, and mobile travel apps.
-                <br></br>Our solutions help travel agencies, tour operators, and hospitality businesses streamline operations, improve customer experience, and increase revenue. If you are looking for reliable and cost-effective Travel & Tourism Development in India, our expert team is ready to build scalable and secure platforms tailored to your needs.
+                BTJ Alpha Technology is a trusted Travel & Tourism Software Development Company in India delivering secure, scalable, and high-performance digital platforms for the modern travel industry.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button

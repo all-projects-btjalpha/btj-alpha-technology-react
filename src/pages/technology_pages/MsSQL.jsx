@@ -24,46 +24,46 @@ function MsSQL() {
   const mssqlFeatures = [
     {
       icon: <FaDatabase className="text-5xl text-[#CC2927]" />,
-      title: "Enterprise Database",
-      description: "Robust relational database management system for mission-critical applications."
+      title: "Enterprise-Grade Database",
+      description: "A powerful relational database management system (RDBMS) designed for mission-critical applications."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#CC2927]" />,
       title: "Advanced Security",
-      description: "Comprehensive security features including Always Encrypted and Row-Level Security."
+      description: "Features like Always Encrypted, Transparent Data Encryption (TDE), and Role-Based Access Control ensure data protection."
     },
     {
       icon: <FaServer className="text-5xl text-[#CC2927]" />,
       title: "High Availability",
-      description: "Always On availability groups for business continuity and disaster recovery."
+      description: "Support for Always On Availability Groups and failover clustering for business continuity."
     },
     {
       icon: <FaRocket className="text-5xl text-[#CC2927]" />,
       title: "Performance Optimization",
-      description: "Advanced query optimization and in-memory OLTP for faster transaction processing."
+      description: "In-memory OLTP, query optimization, and indexing for faster transaction processing."
     },
     {
       icon: <FaCode className="text-5xl text-[#CC2927]" />,
       title: "Integration Services",
-      description: "SQL Server Integration Services for ETL and data warehousing solutions."
+      description: "Seamless integration with BI tools, reporting services, and third-party applications."
     },
     {
       icon: <FaLayerGroup className="text-5xl text-[#CC2927]" />,
-      title: "Business Intelligence",
-      description: "Built-in analytics with SQL Server Analysis Services and Reporting Services."
+      title: "Business Intelligence Capabilities",
+      description: "Built-in analytics, reporting, and data warehousing features for better decision-making."
     }
   ];
 
   const mssqlServices = [
     {
       icon: <FaCode className="text-5xl text-[#CC2927]" />,
-      title: "SQL Server Development",
-      description: "Building robust enterprise applications with Microsoft's relational database platform."
+      title: "Custom SQL Server Application Development",
+      description: "We design and develop scalable enterprise applications using Microsoft SQL Server."
     },
     {
       icon: <FaDatabase className="text-5xl text-[#10B981]" />,
-      title: "Database Administration",
-      description: "Comprehensive DBA services including performance tuning and security management."
+      title: "Database Design & Architecture",
+      description: "Efficient schema design, normalization, indexing, and performance planning."
     },
     {
       icon: <FaServer className="text-5xl text-[#8B5CF6]" />,
@@ -80,36 +80,36 @@ function MsSQL() {
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#fb9c24]" />,
-      title: "Security",
-      description: "Advanced security features and compliance with industry standards."
+      title: "Strong Security",
+      description: "Advanced security and compliance features to protect sensitive business data."
     },
     {
       icon: <FaRocket className="text-5xl text-[#10B981]" />,
-      title: "Performance",
-      description: "Optimized for high-performance transaction processing and analytics."
+      title: "High Performance",
+      description: "Optimized for fast transaction processing and analytics."
     }
   ];
 
   const whyChooseUs = [
     {
       icon: <FaUsers className="text-5xl text-[#CC2927]" />,
-      title: "SQL Server Experts",
-      description: "Microsoft-certified professionals with extensive SQL Server implementation experience."
+      title: "Experienced SQL Server Experts",
+      description: "Our team includes certified professionals with deep expertise in Microsoft SQL Server development."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Best Practices",
-      description: "Following Microsoft best practices for optimal SQL Server deployments."
+      title: "Best Development Practices",
+      description: "We follow Microsoft-recommended standards for secure and optimized deployments."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
-      title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      title: "Agile & On-Time Delivery",
+      description: "Efficient project execution ensuring timely completion."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      description: "Comprehensive testing and performance validation for reliable solutions."
     }
   ];
 
@@ -136,14 +136,13 @@ function MsSQL() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Microsoft SQL Server<br />
-                Development
+            <div data-aos="fade-right"className="lg:pl-16">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                Top SQL Server
+               Integration Services Company in India
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Build robust enterprise applications with Microsoft SQL Server. Our certified Microsoft experts help you leverage SQL Server's powerful RDBMS capabilities for reliable, secure database solutions.
-              </p>
+               BTJ Alpha Technology is a leading Microsoft SQL Server Integration Services Company in India, delivering secure, scalable, and high-performance database solutions for businesses of all sizes. Our certified database experts help organizations build robust enterprise applications using Microsoft SQL Server.</p>
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={openForm}
@@ -197,7 +196,7 @@ function MsSQL() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Key Features of SQL Server
+              Key Features of Microsoft SQL Server
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -217,7 +216,7 @@ function MsSQL() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our SQL Server Services
+             Our Microsoft SQL Server Integration Services
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -237,7 +236,7 @@ function MsSQL() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Benefits of SQL Server
+              Benefits of Microsoft SQL Server Development
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -257,7 +256,7 @@ function MsSQL() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Us?
+              Why Choose BTJ Alpha Technology for Microsoft SQL Server Development?
             </h2>
           </div>
           <div className="grid md:grid-cols-4 gap-8 container mx-auto px-4">
@@ -280,10 +279,10 @@ function MsSQL() {
         </div>
         <div className="container mx-auto relative z-10 text-center" data-aos="fade-up">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Ready for Enterprise Data?
+            Ready for Enterprise Data Solutions?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to leverage the power of Microsoft SQL Server for your enterprise applications.
+            Partner with BTJ Alpha Technology, your trusted Microsoft SQL Server Integration Services.
           </p>
           <button
             onClick={openForm}
@@ -291,6 +290,7 @@ function MsSQL() {
           >
             Get Started Today
           </button>
+
         </div>
       </section>
 

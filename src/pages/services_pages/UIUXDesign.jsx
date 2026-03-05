@@ -156,24 +156,24 @@ function UIUXDesign() {
 
   const faqs = [
     {
-      question: "What is UI/UX Design important for Businesses?",
-      answer: "UI/UX design is crucial for businesses because it directly impacts user satisfaction, engagement, and conversion rates. Good design creates intuitive, enjoyable experiences that keep users coming back, reduces support costs, builds brand loyalty, and gives you a competitive advantage. In today's digital landscape, users expect seamless experiences, and poor design can drive them to competitors. Investment in UI/UX design delivers measurable ROI through increased conversions, reduced bounce rates, and improved customer retention."
+      question: "What does a UI/UX Design Company do?",
+      answer: "A UI/UX Design Company focuses on creating user-friendly, visually appealing, and functional digital products. At BTJ Alpha Technology, we design websites, mobile apps, and software interfaces that improve usability, engagement, and overall digital experience."
     },
     {
-      question: "Can you Design a Custom Interface for my Business?",
-      answer: "Absolutely! We specialize in creating custom interfaces tailored to your specific business needs, brand identity, and target audience. Our design process begins with understanding your business goals, user requirements, and competitive landscape. We then create unique design solutions that reflect your brand personality while ensuring optimal usability. Every element is crafted specifically for your project, from color schemes and typography to layouts and interactions."
+      question: "What UI/UX design services do you offer?",
+      answer: "We provide complete UI design services and UX design services, including:User research and analysis,Wireframing and prototyping,User interface design,User experience design,Responsive web and mobile app design,Usability testing,Product design and optimization"
     },
     {
-      question: "How do you Ensure the Security of User Data in your Design Process?",
-      answer: "We prioritize data security throughout the design process by following industry best practices and compliance standards (GDPR, CCPA, etc.). We implement secure design patterns, ensure encrypted data transmission, design clear privacy controls for users, incorporate secure authentication flows, follow the principle of least privilege in access design, and work closely with development teams to ensure security measures are properly implemented. All design files and client information are handled with strict confidentiality."
+      question: "Do you design both websites and mobile apps?",
+      answer: "Yes. As a professional web design company and mobile app design provider, we create responsive and user-friendly designs that work smoothly across all devices."
     },
     {
-      question: "How Long Does it take to Complete a UI/UX Design Project?",
-      answer: "Project timelines vary based on scope and complexity. A simple website redesign might take 4-6 weeks, while a comprehensive mobile app design could take 8-12 weeks or more. The timeline includes research (1-2 weeks), wireframing and information architecture (1-2 weeks), visual design (2-4 weeks), prototyping and testing (1-2 weeks), and revisions (ongoing). We provide detailed timelines during the proposal phase and maintain transparent communication throughout to ensure timely delivery."
+      question: "What tools do you use for UI/UX design?",
+      answer: "We use modern tools and technologies such as:Figma,Adobe X,Sketch,Adobe Illustrator,Adobe Photoshop,Blender,Tailwind CSS,Bootstrap."
     },
     {
-      question: "How much does it Cost and Charges for the UI/UX Design Process?",
-      answer: "Design costs vary based on project complexity, scope, timeline, and deliverables. Factors affecting pricing include: project size (number of screens/pages), design complexity and customization level, research and testing requirements, revision rounds, and additional services needed. We offer flexible pricing models including fixed-price projects, hourly rates for ongoing work, and retainer arrangements for continuous support. Contact us for a detailed quote tailored to your specific requirements and budget."
+      question: "What is your UI/UX design process?",
+      answer: "Our UI/UX design process includes:Research and analysis,Wireframe creation,Prototyping,Testing and refinement,Final design delivery and updates. This ensures we create effective and user-centered digital experience design solutions."
     }
   ];
 
@@ -184,9 +184,10 @@ function UIUXDesign() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right" className="lg:pl-16">
+            <div data-aos="fade-right"className="lg:pl-16">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                UI/UX Design Company 
+                UI/UX
+                Design Company
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
                 At BTJ Alpha Technology, we create simple and beautiful user experiences. 

@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaTruck, FaMapMarkedAlt, FaWarehouse, FaRoute, FaMobileAlt, FaChartLine,
-  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync, 
+  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync,
   FaDatabase, FaTools, FaCogs, FaServer, FaLayerGroup, FaUsers
 } from "react-icons/fa";
 
@@ -115,16 +115,28 @@ function LogisticsTransport() {
 
   const faqs = [
     {
-      question: "What is logistics and transport technology?",
-      answer: "Logistics and transport technology includes digital platforms for fleet management, GPS tracking, warehouse operations, and supply chain optimization."
+      question: "What is BTJ Alpha Technology?",
+      answer: "BTJ Alpha Technology is a technology-driven company specializing in logistics and transport solutions. We provide innovative digital platforms and smart systems that help businesses streamline operations, improve efficiency, and enhance supply chain visibility."
     },
     {
-      question: "How can logistics tech benefit my business?",
-      answer: "Logistics technology can reduce costs, improve delivery times, enhance visibility, and optimize operations across your supply chain."
+      question: "What services does BTJ Alpha Technology offer?",
+      answer: "We offer a range of solutions including:Logistics management systems,Transport tracking and fleet management,Supply chain optimization tools,Custom software development,Business process automation,Data analytics and reporting solutions"
     },
     {
-      question: "Can logistics platforms be customized to my business needs?",
-      answer: "Yes, our logistics solutions are fully customizable to match your specific business requirements and operations."
+      question: "How can your technology benefit my business?",
+      answer: "Our solutions help businesses:Reduce operational costs,Improve delivery speed and accuracy,Enhance real-time tracking and transparency,Automate manual processes,Make data-driven decisions,Increase overall productivity"
+    },
+    {
+      question: "Can your platform be customized to our business needs?",
+      answer: "Yes. BTJ Alpha Technology provides flexible and scalable solutions that can be customized to meet your specific operational requirements, industry standards, and growth plans."
+    },
+    {
+      question: "Do you support integration with existing systems?",
+      answer: "Absolutely. Our technology is designed to integrate seamlessly with existing ERP systems, accounting software, warehouse management systems, and third-party platforms."
+    },
+    {
+      question: "Is your system suitable for small businesses or only large enterprises?",
+      answer: "Our solutions are scalable and suitable for startups, SMEs, and large enterprises. We tailor our services based on the size and complexity of your operations."
     }
   ];
 
@@ -136,14 +148,13 @@ function LogisticsTransport() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Logistics & Transport
+            <div data-aos="fade-right" className="lg:pl-16">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                Logistics Software Development for Smart Transportation
               </h1>
               <h4 className="text-2xl md:text-3xl lg:text-3xl font-semibold text-gray-900 mb-6 leading-tight">Logistics Software Development for Smart Transportation</h4>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
                 We provide professional Logistics Software Development services to help businesses streamline transportation, fleet operations, and warehouse management. Our smart systems are designed to improve delivery speed, reduce operational costs, and increase overall efficiency.
-                <br></br>With our customized Transport Management System Development, businesses can automate workflows, track shipments in real time, and manage fleets with complete visibility. Whether you are a startup or an enterprise, our scalable solutions grow with your logistics needs.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button

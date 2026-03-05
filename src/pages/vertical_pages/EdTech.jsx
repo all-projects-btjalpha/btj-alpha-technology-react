@@ -2,11 +2,12 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaGraduationCap, FaBook, FaVideo, FaCertificate, FaMobileAlt, FaChartLine,
-  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync, 
+  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync,
   FaDatabase, FaTools, FaCogs, FaServer, FaLayerGroup, FaUsers
 } from "react-icons/fa";
+import { Quote } from "lucide-react";
 
 function EdTech() {
   useEffect(() => {
@@ -115,16 +116,32 @@ function EdTech() {
 
   const faqs = [
     {
-      question: "What is EdTech?",
-      answer: "EdTech (Educational Technology) refers to the use of technology to enhance learning, teaching, and education management."
+      question: "What does an Ed-Tech solutions development company do?",
+      answer: "An Ed-Tech solutions development company builds digital learning platforms such as LMS systems, online course platforms, virtual classrooms, and mobile learning apps. At BTJ Alpha Technology, we specialize in Ed-Tech development in India, delivering scalable and user-friendly education technology solutions. "
     },
     {
-      question: "How can EdTech benefit educational institutions?",
-      answer: "EdTech can increase accessibility, improve engagement, provide personalized learning experiences, and offer valuable analytics on student performance."
+      question: "What types of EdTech solutions do you develop?",
+      answer: "At BTJ Alpha Technology, our EdTech Software Development services include: Custom LMS Development,Online Course & E-Learning Platforms,Virtual Classroom & Live Streaming Systems,Online Test & Exam Management Software,Student Progress Tracking Systems,Certification & Course Management Tools,Mobile Learning Applications,Subscription-Based Learning Platforms"
     },
     {
-      question: "Can EdTech platforms be customized to specific educational needs?",
-      answer: "Yes, our EdTech solutions are fully customizable to match specific curriculum requirements and institutional needs."
+      question: "Can you build a custom Learning Management System (LMS)?",
+      answer: "Yes. BTJ Alpha Technology specializes in custom LMS development with features like course management, video hosting, quizzes, performance tracking, analytics dashboards, and multi-user role management for students, teachers, and administrators."
+    },
+    {
+      question: "Is your EdTech software scalable for large numbers of students?",
+      answer: "Absolutely. As a trusted EdTech Software Development Company in India, BTJ Alpha Technology builds cloud-based platforms that support thousands of concurrent users, live sessions, and real-time content delivery without performance issues."
+    },
+    {
+      question: "Do you provide mobile apps for online learning platforms?",
+      answer: "Yes. We develop Android and iOS mobile learning applications that allow students to access courses, attend live classes, submit assignments, and track progress anytime, anywhere."
+    },
+    {
+      question:"How secure is your EdTech software?",
+      answer:"Security is a top priority at BTJ Alpha Technology. We implement encrypted data storage, secure login systems, role-based access control, content protection mechanisms, and cloud security standards to protect student and institutional data."
+    },
+    {
+      question:"Why choose BTJ Alpha Technology for EdTech Software Development in India?",
+      answer:"BTJ Alpha Technology combines technical expertise, scalable architecture, user-focused design, and industry knowledge to deliver high-performance digital learning platforms. We focus on innovation, security, reliability, and long-term digital growth for educational institutions and EdTech startups."
     }
   ];
 
@@ -136,14 +153,14 @@ function EdTech() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Ed-Tech Solutions
+            <div data-aos="fade-right"className="lg:pl-16">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+               EdTech Software Development Company in India – Custom LMS, E-Learning & Online Education Platforms
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Revolutionize digital learning with our advanced Ed-Tech Solutions designed to build powerful, scalable, and user-friendly education platforms. As a trusted provider of Ed-Tech development in India, we create innovative e-learning systems, LMS platforms, and mobile learning apps that make education accessible, engaging, and effective.
-                <br></br>If you are looking for reliable and cost-effective Ed-Tech development in India, our expert team is here to transform your ideas into a high-performing digital learning platform.
-              </p>
+                BTJ Alpha Technology is a trusted EdTech Software Development Company in India, building powerful, scalable, and user-friendly digital learning platforms for modern education providers.
+We design and develop custom LMS systems, e-learning portals, virtual classroom platforms, and mobile education apps that help schools, universities, coaching institutes, training centers, and EdTech startups deliver engaging and seamless online learning experiences.
+</p>
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={openForm}

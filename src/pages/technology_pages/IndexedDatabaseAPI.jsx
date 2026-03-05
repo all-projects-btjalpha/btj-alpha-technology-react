@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaDatabase, FaRocket, FaLayerGroup, FaCode, FaServer,
   FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaUsers,
   FaLaptop, FaSync, FaChartLine, FaTools, FaCogs, FaMobileAlt, FaShieldAlt
@@ -25,50 +25,50 @@ function IndexedDatabaseAPI() {
     {
       icon: <FaDatabase className="text-5xl text-[#4285f4]" />,
       title: "Client-Side Database",
-      description: "Browser-based database for storing large amounts of structured data locally."
+      description: "IndexedDB is a powerful browser-based database that stores large amounts of structured data directly on the user’s device."
     },
     {
       icon: <FaRocket className="text-5xl text-[#4285f4]" />,
       title: "High Performance",
-      description: "Asynchronous operations for non-blocking database transactions."
+      description: "Asynchronous operations ensure non-blocking database transactions for smooth user experience."
     },
     {
       icon: <FaLayerGroup className="text-5xl text-[#4285f4]" />,
       title: "Index-Based Queries",
-      description: "Efficient data retrieval through indexed key-value pairs and cursors."
+      description: "Efficient data retrieval using indexed key-value pairs and advanced query methods."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#4285f4]" />,
       title: "Persistent Storage",
-      description: "Data persists even after browser restarts and tab closures."
+      description: "Data remains stored even after browser restarts or tab closures."
     },
     {
       icon: <FaCode className="text-5xl text-[#4285f4]" />,
       title: "JavaScript Integration",
-      description: "Native JavaScript API for seamless client-side data management."
+      description: "Native JavaScript API support for seamless client-side data management."
     },
     {
       icon: <FaServer className="text-5xl text-[#4285f4]" />,
       title: "Offline Capabilities",
-      description: "Enable offline functionality with local data storage and synchronization."
+      description: "Enable web applications to function without internet connectivity."
     }
   ];
 
   const indexedDBServices = [
     {
       icon: <FaCode className="text-5xl text-[#4285f4]" />,
-      title: "IndexedDB Development",
-      description: "Building offline-capable web applications with client-side data storage solutions."
+      title: "Custom IndexedDB Development",
+      description: "We design and implement customized IndexedDB API solutions for web applications requiring local data storage and offline access."
     },
     {
       icon: <FaDatabase className="text-5xl text-[#10B981]" />,
-      title: "Data Architecture",
-      description: "Designing efficient database schemas and query optimization strategies."
+      title: "Data Architecture & Optimization",
+      description: "Design efficient database schemas, indexing strategies, and query optimization for maximum performance."
     },
     {
       icon: <FaServer className="text-5xl text-[#8B5CF6]" />,
-      title: "Synchronization",
-      description: "Implementing data sync between client-side storage and backend services."
+      title: "Data Synchronization Solutions",
+      description: "Implement real-time data synchronization between client-side storage and backend servers."
     }
   ];
 
@@ -80,36 +80,36 @@ function IndexedDatabaseAPI() {
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
-      title: "Performance",
-      description: "Fast local data access without network latency."
+      title: "Improved Performance",
+      description: "Fast local data access reduces server load and network latency."
     },
     {
       icon: <FaLayerGroup className="text-5xl text-[#10B981]" />,
       title: "Scalability",
-      description: "Handle large datasets efficiently with indexed queries."
+      description: "Handle large datasets efficiently with advanced indexing and querying."
     }
   ];
 
   const whyChooseUs = [
     {
       icon: <FaUsers className="text-5xl text-[#4285f4]" />,
-      title: "Frontend Experts",
-      description: "Specialists with extensive experience in client-side database implementation."
+      title: "Experienced Frontend Experts",
+      description: "Our developers have deep expertise in client-side database architecture and modern JavaScript technologies."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Best Practices",
-      description: "Following IndexedDB best practices for optimal performance and reliability."
+      title: "Best  Development Practices",
+      description: "We follow IndexedDB best practices for optimal performance, security, and reliability."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
-      title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      title: "Agile & On-Time Delivery",
+      description: "Efficient project management ensures timely completion."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
       title: "Quality Assurance",
-      description: "Comprehensive testing and best coding practices."
+      description: "Comprehensive testing ensures your IndexedDB implementation works flawlessly across browsers."
     }
   ];
 
@@ -136,13 +136,13 @@ function IndexedDatabaseAPI() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                IndexedDB<br />
-                API Development
+            <div data-aos="fade-right"className="lg:pl-16">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                IndexedDB API  Development 
+                Services BTJ Alpha Technology
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Build offline-capable web applications with IndexedDB. Our developers create efficient client-side data storage solutions for modern web applications.
+                BTJ Alpha Technology is a trusted IndexedDB API Development Company in India, delivering powerful client-side database solutions for modern web applications. We specialize in building offline-capable, high-performance web apps using IndexedDB API development services tailored to your business needs.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
@@ -197,7 +197,7 @@ function IndexedDatabaseAPI() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Key Features of IndexedDB
+              Key Features of IndexedDB API
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -217,7 +217,7 @@ function IndexedDatabaseAPI() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our IndexedDB Services
+              Our IndexedDB API Development Services
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -237,7 +237,7 @@ function IndexedDatabaseAPI() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Benefits of IndexedDB
+              Benefits of IndexedDB API Development
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -257,7 +257,7 @@ function IndexedDatabaseAPI() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Us?
+           Why Choose BTJ Alpha Technology for IndexedDB API Development?
             </h2>
           </div>
           <div className="grid md:grid-cols-4 gap-8 container mx-auto px-4">
@@ -280,10 +280,10 @@ function IndexedDatabaseAPI() {
         </div>
         <div className="container mx-auto relative z-10 text-center" data-aos="fade-up">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Ready to Implement IndexedDB?
+            Ready to Implement IndexedDB in Your Web Application?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to leverage the power of IndexedDB for your web applications.
+            Partner with BTJ Alpha Technology, a leading IndexedDB API Development Company in India, and create fast, offline-ready, and performance-driven web applications.
           </p>
           <button
             onClick={openForm}

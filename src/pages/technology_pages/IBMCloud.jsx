@@ -25,86 +25,86 @@ function IBMCloud() {
     {
       icon: <FaCloud className="text-5xl text-[#1261fe]" />,
       title: "Enterprise Cloud Platform",
-      description: "IBM's enterprise-grade cloud platform with Red Hat OpenShift integration."
+      description: "IBM Cloud provides enterprise-grade infrastructure designed for mission-critical workloads and high-performance applications."
     },
     {
       icon: <FaServer className="text-5xl text-[#1261fe]" />,
       title: "Hybrid Cloud Solutions",
-      description: "Seamless integration between on-premises and cloud environments."
+      description: "Seamless integration between on-premise systems and IBM Cloud for flexible hybrid deployments."
     },
     {
       icon: <FaDatabase className="text-5xl text-[#1261fe]" />,
-      title: "Database Services",
-      description: "Db2, Cloudant, and other enterprise database solutions for critical workloads."
+      title: "Advanced Database Services",
+      description: "Robust database solutions including Db2, Cloudant, and managed database services for secure data managemen."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#1261fe]" />,
       title: "Enterprise Security",
-      description: "Advanced security with IBM Security solutions and compliance certifications."
+      description: "Built-in security, encryption, compliance certifications, and identity management tools to protect your business data."
     },
     {
       icon: <FaCogs className="text-5xl text-[#1261fe]" />,
       title: "AI & Watson Services",
-      description: "Built-in AI capabilities with IBM Watson for intelligent applications."
+      description: "Leverage IBM Watson AI capabilities to build intelligent applications and automate business processes."
     },
     {
       icon: <FaGlobe className="text-5xl text-[#1261fe]" />,
       title: "Global Infrastructure",
-      description: "Deploy applications globally with IBM's secure data center network."
+      description: "Deploy applications worldwide using IBM’s secure and reliable global data center network."
     }
   ];
 
   const ibmServices = [
     {
       icon: <FaCode className="text-5xl text-[#1261fe]" />,
-      title: "Cloud Migration",
-      description: "Migrate enterprise workloads to IBM Cloud with zero business disruption."
+      title: "IBM Cloud Migration Services",
+      description: "We help businesses migrate applications, workloads, and databases to IBM Cloud with minimal downtime and zero data loss."
     },
     {
       icon: <FaCloud className="text-5xl text-[#10B981]" />,
       title: "Hybrid Cloud Integration",
-      description: "Connect on-premises infrastructure with IBM Cloud for seamless operations."
+      description: "Connect your on-premise infrastructure with IBM Cloud for secure and scalable hybrid cloud environments."
     },
     {
       icon: <FaServer className="text-5xl text-[#8B5CF6]" />,
       title: "Enterprise Solutions",
-      description: "IBM Cloud Pak solutions for containers, data, integration, and automation."
+      description: "Deploy containerized applications using Red Hat OpenShift and IBM Cloud Pak solutions."
     }
   ];
 
   const benefits = [
     {
       icon: <FaCloud className="text-5xl text-[#1261fe]" />,
-      title: "Enterprise Grade",
-      description: "Built for enterprise workloads with unmatched reliability and performance."
+      title: "Enterprise Grade Reliability",
+      description: "Built for high availability and mission-critical enterprise workloads."
     },
     {
       icon: <FaRocket className="text-5xl text-[#fb9c24]" />,
       title: "Global Reach",
-      description: "Deploy applications worldwide with IBM's extensive global infrastructure."
+      description: "Expand your business globally with IBM’s international cloud infrastructure."
     },
     {
       icon: <FaShieldAlt className="text-5xl text-[#10B981]" />,
-      title: "Enterprise Security",
-      description: "Top-tier security with IBM Security solutions and compliance certifications."
+      title: "Strong Security Framework",
+      description: "Advanced security solutions designed for regulated industries and enterprise environments."
     }
   ];
 
   const whyChooseUs = [
     {
       icon: <FaUsers className="text-5xl text-[#1261fe]" />,
-      title: "IBM Experts",
-      description: "Certified IBM Cloud professionals with extensive enterprise architecture experience."
+      title: "Certified IBM Cloud Experts",
+      description: "Our team has extensive experience in deploying and managing IBM Cloud enterprise solutions."
     },
     {
       icon: <FaChartLine className="text-5xl text-[#10B981]" />,
-      title: "Best Practices",
-      description: "We follow IBM Cloud best practices for secure, efficient enterprise deployments."
+      title: "Best Industry Practices",
+      description: "We follow proven cloud architecture and security best practices to ensure optimal performance."
     },
     {
       icon: <FaClock className="text-5xl text-[#fb9c24]" />,
       title: "On-Time Delivery",
-      description: "Agile development ensuring timely project completion."
+      description: "Structured implementation process ensuring timely project completion."
     },
     {
       icon: <FaCheckCircle className="text-5xl text-[#8B5CF6]" />,
@@ -136,14 +136,14 @@ function IBMCloud() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                IBM Cloud<br />
-                Platform
+            <div data-aos="fade-right"className="lg:pl-16">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                IBM Cloud Platform 
+                Services Provider in India | BTJ Alpha Technology
+
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Build enterprise solutions on IBM Cloud. Our certified IBM Cloud experts help you leverage IBM's hybrid cloud platform for secure, scalable enterprise applications.
-              </p>
+               BTJ Alpha Technology is a leading IBM Cloud Platform services provider in India, delivering secure, scalable, and enterprise-grade cloud solutions. We help businesses modernize applications, migrate workloads, and build hybrid cloud environments using the power of the IBM Cloud Platform.</p>
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={openForm}
@@ -197,7 +197,7 @@ function IBMCloud() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Key Features of IBM Cloud
+             Key Features of IBM Cloud Platform services provider
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -237,7 +237,7 @@ function IBMCloud() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Benefits of IBM Cloud
+              Benefits of IBM Cloud Platform
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 container mx-auto px-4">
@@ -257,7 +257,7 @@ function IBMCloud() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Us?
+             Why Choose BTJ Alpha Technology for IBM Cloud Platform services provider?
             </h2>
           </div>
           <div className="grid md:grid-cols-4 gap-8 container mx-auto px-4">
@@ -280,10 +280,10 @@ function IBMCloud() {
         </div>
         <div className="container mx-auto relative z-10 text-center" data-aos="fade-up">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Ready for Enterprise Cloud?
+            Ready to Transform Your Enterprise with IBM Cloud?
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Partner with us to leverage the power of IBM Cloud for your enterprise solutions.
+           Partner with BTJ Alpha Technology, your trusted IBM Cloud Platform services provider in India, and unlock the full potential of hybrid and enterprise cloud solutions.
           </p>
           <button
             onClick={openForm}

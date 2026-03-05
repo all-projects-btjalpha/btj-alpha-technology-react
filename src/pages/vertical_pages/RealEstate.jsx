@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaHome, FaSearch, FaKey, FaMapMarkerAlt, FaMobileAlt, FaChartLine,
-  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync, 
+  FaCheckCircle, FaChevronDown, FaChevronUp, FaClock, FaLaptop, FaSync,
   FaDatabase, FaTools, FaCogs, FaServer, FaLayerGroup, FaUsers
 } from "react-icons/fa";
 
@@ -115,16 +115,24 @@ function RealEstate() {
 
   const faqs = [
     {
-      question: "What is real estate technology?",
-      answer: "Real estate technology includes digital platforms for property listings, CRM systems, virtual tours, and market analytics."
+      question: "How can real estate software improve property business operations?",
+      answer: "A real estate software development company builds digital platforms for property listings, CRM systems, virtual tours, and mobile applications. At BTJ Alpha Technology, we specialize in Real Estate Development in India, delivering secure and scalable solutions for agents, brokers, and property businesses."
     },
     {
-      question: "How can PropTech benefit real estate businesses?",
-      answer: "PropTech can increase efficiency, improve customer experience, provide market insights, and automate routine tasks."
+      question: "Do you develop custom real estate CRM systems?",
+      answer: "Yes. BTJ Alpha Technology builds fully customized Real Estate CRM systems that help manage leads, schedule site visits, automate follow-ups, and track deal closures. Our CRM solutions are designed to improve agent productivity and increase conversion rates."
     },
     {
-      question: "Can real estate platforms be customized to specific business needs?",
-      answer: "Yes, our real estate solutions are fully customizable to match specific business models and requirements."
+      question: "Can you build property listing websites with advanced search features?",
+      answer: "Absolutely. BTJ Alpha Technology develops modern property portals with smart filters, location-based search, image galleries, virtual tours, and secure inquiry forms to enhance user experience."
+    },
+    {
+      question: "Do you provide mobile app development for real estate businesses?",
+      answer: "Yes. We build high-performance mobile applications for agents, brokers, and customers. BTJ Alpha Technology ensures seamless property browsing, booking, notifications, and real-time communication through secure mobile platforms."
+    },
+    {
+      question: "Is your real estate software secure and scalable?",
+      answer: "Yes. BTJ Alpha Technology develops real estate systems using secure coding practices, encrypted data management, and scalable cloud infrastructure to support growing user traffic and expanding property databases."
     }
   ];
 
@@ -136,13 +144,13 @@ function RealEstate() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
+            <div data-aos="fade-right" className="lg:pl-16">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                Real Estate Solutions – Smart & Scalable Development in India
+                Real Estate Software Development Company in India – Smart Digital Solutions for Property Businesses
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                BTJ Alpha Technology delivers advanced Real Estate Solutions designed to transform property businesses with modern digital platforms. We build powerful property listing websites, real estate CRMs, virtual tour systems, and mobile applications for agents and brokers.
-                <br></br>With strong expertise in Real Estate Development in India, we help real estate companies streamline operations, improve customer engagement, and increase sales through secure and scalable technology.
+                BTJ Alpha Technology is a leading Real Estate Software Development Company in India delivering secure, scalable, and high-performance digital solutions for property businesses.
+                We design and develop advanced real estate software that helps developers, agents, brokers, and property management companies streamline operations, manage listings, and improve customer engagement.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button

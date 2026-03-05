@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import UserForm from "../../components/UserForm";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { 
+import {
   FaPalette, FaCode, FaMobileAlt, FaDesktop, FaPlug, FaCheckCircle, FaChevronDown, FaChevronUp,
   FaUsers, FaClock, FaLaptop, FaSync, FaChartLine, FaCog, FaShieldAlt, FaLightbulb
 } from "react-icons/fa";
@@ -22,46 +22,46 @@ function Daisy() {
   const daisyServices = [
     {
       icon: <FaPalette className="text-5xl text-[#fb9c24]" />,
-      title: "DaisyUI Component Library",
-      description: "We create stunning, responsive user interfaces using DaisyUI's comprehensive component library. Our team specializes in building beautiful, accessible designs that enhance user experience across all devices."
+      title: "Custom DaisyUI Web Development",
+      description: "We develop fully customized web applications using DaisyUI components tailored to your business requirements."
     },
     {
       icon: <FaCode className="text-5xl text-[#10B981]" />,
       title: "Custom Theme Development",
-      description: "Our designers create custom DaisyUI themes that perfectly reflect your brand identity while ensuring optimal performance and user experience across all platforms."
+      description: "Our designers build unique DaisyUI themes that match your brand identity while ensuring high performance and consistency."
     },
     {
       icon: <FaMobileAlt className="text-5xl text-[#4285F4]" />,
-      title: "Responsive Design Implementation",
-      description: "We implement fully responsive designs using DaisyUI's utility-first approach, ensuring your application looks perfect on all screen sizes and devices."
+      title: "Responsive UI Implementation",
+      description: "We implement mobile-first and fully responsive designs using DaisyUI and Tailwind CSS."
     },
     {
       icon: <FaPlug className="text-5xl text-[#8B5CF6]" />,
-      title: "Integration Services",
-      description: "Seamlessly integrate DaisyUI with your existing tech stack, including React, Vue, Angular, and other frameworks for enhanced functionality."
+      title: " DaisyUI Integration Services",
+      description: "We seamlessly integrate DaisyUI with modern frameworks like React, Next.js, Vue, Angular, and other front-end technologies."
     }
   ];
 
   const whyDaisy = [
     {
       icon: <FaChartLine className="text-4xl text-[#fb9c24]" />,
-      title: "Rapid Development",
-      description: "DaisyUI's component library enables faster development cycles, allowing you to build beautiful interfaces in record time without compromising on quality."
+      title: " Faster Development",
+      description: "DaisyUI provides ready-made components that reduce development time and cost."
     },
     {
       icon: <FaShieldAlt className="text-4xl text-[#10B981]" />,
       title: "Consistent Design System",
-      description: "Maintain design consistency across your entire application with DaisyUI's comprehensive component library and theming capabilities."
+      description: "Maintain uniform styling across your entire application."
     },
     {
       icon: <FaCode className="text-4xl text-[#4285F4]" />,
       title: "Highly Customizable",
-      description: "Access over 50+ components that can be easily customized to match your specific design requirements and brand guidelines."
+      description: "Easily customize themes, colors, layouts, and components according to your brand."
     },
     {
       icon: <FaMobileAlt className="text-4xl text-[#8B5CF6]" />,
       title: "Mobile First Approach",
-      description: "Built with mobile-first principles, ensuring your applications look and function perfectly on all devices and screen sizes."
+      description: "Build responsive interfaces that work perfectly on mobile, tablet, and desktop devices."
     },
     {
       icon: <FaUsers className="text-4xl text-[#F59E0B]" />,
@@ -73,28 +73,28 @@ function Daisy() {
   const whyChooseUs = [
     {
       icon: <FaUsers className="text-4xl text-[#fb9c24]" />,
-      title: "Expert DaisyUI Developers",
-      description: "Our team consists of certified UI/UX developers with extensive experience in creating stunning interfaces using DaisyUI and modern design principles."
+      title: "Expert DaisyUI Developers ",
+      description: "Our skilled UI/UX developers have extensive experience in DaisyUI and Tailwind-based interface development."
     },
     {
       icon: <FaClock className="text-4xl text-[#10B981]" />,
-      title: "Fast Delivery",
-      description: "We understand the importance of timely delivery. Our streamlined process ensures rapid development without compromising on quality or design excellence."
+      title: " Fast & On-Time Delivery",
+      description: "We follow agile development processes to deliver projects on time without compromising quality. "
     },
     {
       icon: <FaChartLine className="text-4xl text-[#4285F4]" />,
-      title: "Custom Solutions",
-      description: "Every business is unique, and we create customized DaisyUI solutions that align with your specific requirements and brand identity."
+      title: "Custom UI Solutions",
+      description: "Every business is unique. We create tailored UI solutions that align with your specific goals. "
     },
     {
       icon: <FaShieldAlt className="text-4xl text-[#8B5CF6]" />,
-      title: "Ongoing Support",
-      description: "Our support doesn't end after delivery. We provide continuous support, updates, and optimization to ensure your interfaces perform at their best."
+      title: "Ongoing Support  & Maintenance",
+      description: "We provide continuous support, updates, and performance optimization services."
     },
     {
       icon: <FaCog className="text-4xl text-[#F59E0B]" />,
-      title: "Competitive Pricing",
-      description: "We offer transparent pricing models that provide exceptional value without compromising on quality, ensuring your investment delivers maximum ROI."
+      title: "Cost-Effective Pricing",
+      description: "Get high-quality DaisyUI development services at competitive pricing."
     }
   ];
 
@@ -132,15 +132,14 @@ function Daisy() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#1c438d] mb-6 leading-tight">
-                DaisyUI<br />
-                Development<br />
+            <div data-aos="fade-right"className="lg:pl-16">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1c438d] mb-6 leading-tight">
+                DaisyUI
+                Development
                 Services
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                Step2gen Technologies Pvt. Ltd. is a leading DaisyUI Development Company specializing in creating beautiful, responsive, and accessible user interfaces. Our team of experienced UI/UX developers builds stunning applications using DaisyUI's comprehensive component library, helping businesses deliver exceptional user experiences. We deliver high-quality DaisyUI development services that enable our clients to create modern, engaging interfaces that drive user satisfaction and business growth.
-              </p>
+                BTJ Alpha Technology is a leading DaisyUI Development Company in India delivering modern, responsive, and scalable UI solutions. We specialize in building beautiful user interfaces using DaisyUI and Tailwind CSS to create fast, interactive, and visually appealing web applications.</p>
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={openForm}
@@ -227,13 +226,10 @@ function Daisy() {
                 Transform Your User Interface with DaisyUI
               </h2>
               <p className="text-gray-600 leading-relaxed mb-6">
-                In today's digital landscape, having a beautiful and functional user interface is crucial for user engagement and business success. Our team of expert UI/UX developers brings years of experience in building stunning interfaces using DaisyUI's powerful component library. Using best practices and modern design principles, our team excels in creating beautiful interfaces that enhance user experience and drive engagement.
+                In today’s competitive digital world, your user interface plays a crucial role in user engagement and business success. DaisyUI is a powerful component library built on Tailwind CSS that helps create consistent and attractive UI designs faster.
               </p>
-              <p className="text-gray-600 leading-relaxed mb-6">
-                DaisyUI provides developers with a comprehensive library of pre-built components that can be easily customized to create beautiful, consistent interfaces. Our DaisyUI development services ensure you get interfaces that not only look professional but also provide excellent user experience, fast loading times, and seamless interactions across all devices.
-              </p>
-              <p className="text-gray-600 leading-relaxed">
-                Whether you're building a new application or enhancing an existing one with modern UI components, our team can help you leverage the full power of DaisyUI. As a leading DaisyUI development company, we have the expertise to create stunning interfaces that users will love. Let's make your user interface exceptional with Step2gen Technologies.
+              <p className="text-gray-600 leading-relaxed mb-6">At BTJ Alpha Technology, we use DaisyUI to: Build responsive web applications,Create reusable UI components,Maintain consistent design systems,Improve loading speed and performance,Deliver mobile-friendly interfaces
+                Our DaisyUI experts ensure your application looks professional and works smoothly across all devices.
               </p>
             </div>
           </div>
@@ -319,10 +315,10 @@ function Daisy() {
         <div className="container mx-auto">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-[#1c438d] mb-4">
-              Why Choose Step2gen for DaisyUI Development
+              Why Choose BTJ Alpha Technology for DaisyUI Development
             </h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
-              When you need a reliable partner for DaisyUI development, Step2gen Technologies stands out as a top choice. Here are some of the reasons why you should work with us.
+              When you need a reliable partner for DaisyUI development, BTJ Alpha Technologies stands out as a top choice. Here are some of the reasons why you should work with us.
             </p>
           </div>
 
@@ -351,7 +347,7 @@ function Daisy() {
         </div>
         <div className="container mx-auto relative z-10 text-center" data-aos="fade-up">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Partner with Step2gen Technologies for Exceptional DaisyUI Development.
+            Partner with BTJ Alpha Technology, your trusted DaisyUI Development
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
             Let's create beautiful, responsive interfaces that delight your users and drive business success.
@@ -391,9 +387,8 @@ function Daisy() {
                   )}
                 </button>
                 <div
-                  className={`transition-all duration-300 overflow-hidden ${
-                    openFAQ === index ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
-                  }`}
+                  className={`transition-all duration-300 overflow-hidden ${openFAQ === index ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+                    }`}
                 >
                   <p className="p-5 pt-0 text-gray-600 leading-relaxed border-t border-gray-100">
                     {faq.answer}

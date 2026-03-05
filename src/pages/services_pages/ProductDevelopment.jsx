@@ -113,16 +113,16 @@ function ProductDevelopment() {
 
   const faqs = [
     {
-      question: "Why Does My Organization Need a Custom Product Software?",
-      answer: "Custom product software is tailored specifically to your business needs, providing unique features that off-the-shelf solutions cannot offer. It helps streamline operations, improve efficiency, scale with your business, and gives you a competitive advantage in the market."
+      question: "What is product development?",
+      answer: "Product development is the complete process of turning an idea into a market-ready digital product. It includes idea validation, planning, design, development, testing, deployment, and ongoing improvements."
     },
     {
-      question: "How Much Would It Cost to Build a Custom Digital Product for My Organization?",
-      answer: "The cost varies based on project complexity, features, technology stack, development time, and team size. We provide detailed estimates after understanding your requirements. Generally, projects can range from $10,000 for simple MVPs to $100,000+ for complex enterprise solutions."
+      question: "What product development services do you offer?",
+      answer: "At BTJ Alpha Technology, we provide end-to-end product development services, including: Idea validation,Product planning,Product design and development,MVP development,API development,Cloud integration,Deployment and maintenance"
     },
     {
-      question: "Which Technologies do you use to Design Enterprise Products?",
-      answer: "We use modern technologies including React, Angular, Vue.js for frontend; Node.js, Python, Java for backend; MongoDB, PostgreSQL for databases; AWS, Azure for cloud; and incorporate AI/ML, blockchain, and IoT based on project requirements."
+      question: "Do you offer end-to-end product development?",
+      answer: "Yes. We manage the entire product development process — from concept to launch — ensuring your product is scalable, secure, and aligned with your business goals. "
     }
   ];
 
@@ -133,9 +133,11 @@ function ProductDevelopment() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right" className="lg:pl-16">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Product Development Services India
+            <div data-aos="fade-right"className="lg:pl-16">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                Product
+                Development<br />
+                Services India
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
                 Turn your innovative ideas into successful, market-ready products.
@@ -273,6 +275,7 @@ function ProductDevelopment() {
           </div>
         </div>
       </section>
+      
 
       {/* Software Product Vision CTA */}
       <section className="py-16 px-4 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] relative overflow-hidden">

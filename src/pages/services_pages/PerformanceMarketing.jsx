@@ -10,22 +10,22 @@ import { FaChartLine, FaBullseye, FaAd, FaGoogle, FaUsers, FaMoneyBillWave } fro
 const features = [
   {
     title: "ROI-Focused Campaigns",
-    description: "Data-driven campaigns designed to maximize return on investment and revenue.",
+    description: "We design data-driven campaigns aimed at increasing revenue and delivering measurable business growth.",
     icon: <FaChartLine className="text-4xl text-[#fb9c24]" />,
   },
   {
     title: "Multi-Channel Strategy",
-    description: "Integrated campaigns across Google, Facebook, Instagram, and LinkedIn.",
+    description: "Integrated campaigns across:Google Ads,Facebook & Instagram,LinkedIn,YouTube,Display Networks",
     icon: <FaGoogle className="text-4xl text-[#fb9c24]" />,
   },
   {
     title: "Conversion Optimization",
-    description: "A/B testing and optimization to improve conversion rates continuously.",
+    description: "Continuous A/B testing and funnel optimization to improve conversion rates and lower acquisition costs.",
     icon: <FaBullseye className="text-4xl text-[#fb9c24]" />,
   },
   {
     title: "Audience Targeting",
-    description: "Precise targeting to reach your ideal customers at the right time.",
+    description: "Precise targeting based on demographics, behavior, interests, and intent signals to reach the right customers at the right time.",
     icon: <FaUsers className="text-4xl text-[#fb9c24]" />,
   },
 ];
@@ -33,22 +33,22 @@ const features = [
 const services = [
   {
     title: "Data-Driven Marketing",
-    description: "Leverage analytics and insights to create high-impact marketing campaigns.",
+    description: "We leverage analytics and performance insights to create high-impact marketing campaigns that generate real business results.",
     icon: "https://img.icons8.com/color/96/data-configuration.png",
   },
   {
     title: "Customer Acquisition",
-    description: "Strategic approaches to attract and convert new customers effectively.",
+    description: "Strategic campaigns focused on attracting and converting new customers effectively.",
     icon: "https://img.icons8.com/color/96/user-male.png",
   },
   {
     title: "Brand Awareness",
-    description: "Build strong brand presence across digital channels and platforms.",
+    description: "Build strong brand presence across digital platforms through performance-based branding strategies.",
     icon: "https://img.icons8.com/color/96/branding.png",
   },
   {
     title: "Lead Generation",
-    description: "Generate high-quality leads through targeted marketing strategies.",
+    description: "Generate high-quality leads through optimized paid marketing strategies and conversion-focused landing pages.",
     icon: "https://img.icons8.com/color/96/sales.png",
   },
 ];
@@ -57,7 +57,7 @@ const steps = [
   {
     number: "01",
     title: "Strategy Development",
-    answer: "Define clear objectives and KPIs for your performance marketing campaigns.",
+    answer: "Define clear goals, KPIs, and campaign roadmap aligned with your business objectives.",
   },
   {
     number: "02",
@@ -77,7 +77,7 @@ const steps = [
   {
     number: "05",
     title: "Optimize & Scale",
-    answer: "Continuously optimize based on data and scale successful strategies.",
+    answer: "Continuously optimize based on data insights and scale high-performing campaigns.",
   },
 ];
 
@@ -120,11 +120,11 @@ function PerformanceMarketing() {
             </div>
             <h1 className="text-4xl md:text-6xl max-md:text-3xl font-bold leading-tight mb-6">
               Performance <br/>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#fb9c24] to-[#ff8c00]">Marketing</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#fb9c24] to-[#ff8c00]">Marketing Services in India
+</span>
             </h1>
             <p className="text-lg md:text-xl max-md:text-base mb-8 text-gray-200">
-              Drive measurable results with data-driven performance marketing campaigns. 
-              Pay for results, not just impressions. Maximize ROI with our expert strategies.
+             Drive measurable results with expert Performance Marketing Services from BTJ Alpha Technology.
             </p>
             <Link to="/contact">
               <button className="bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] hover:from-[#ff8c00] hover:to-[#fb9c24] transition-all duration-300 text-white font-semibold text-lg px-8 py-4 rounded-lg shadow-xl hover:shadow-2xl hover:scale-105 transform">
@@ -159,9 +159,9 @@ function PerformanceMarketing() {
               
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  In today's competitive digital landscape, businesses need marketing strategies that deliver 
-                  tangible results. Performance marketing focuses on measurable outcomes, ensuring every 
-                  dollar spent generates a positive return on investment.
+                 In today’s competitive digital landscape, businesses need marketing strategies that deliver tangible results.
+                  At BTJ Alpha Technology, we specialize in ROI-focused performance marketing solutions that combine: Advanced analytics,Strategic campaign planning,Conversion optimization,Audience targeting,Multi-channel advertising
+
                 </p>
                 <p>
                   BTJ Alpha Technology specializes in performance marketing solutions that drive real business growth. 
@@ -173,11 +173,7 @@ function PerformanceMarketing() {
                   precise audience segmentation, and continuous optimization. Our team of experts 
                   stays ahead of industry trends to deliver cutting-edge performance marketing solutions.
                 </p>
-                <p>
-                  From lead generation to customer acquisition, our performance marketing services 
-                  are designed to deliver measurable results that impact your bottom line. 
-                  We focus on KPIs that matter most to your business success.
-                </p>
+              
               </div>
             </div>
 
@@ -317,7 +313,7 @@ function PerformanceMarketing() {
             </div>
             <div className="lg:w-2/5 mt-4">
               <p className="text-gray-600 text-lg leading-relaxed">
-                We follow a proven methodology to ensure your performance marketing campaigns deliver maximum results and ROI.
+               We follow a proven step-by-step methodology to ensure maximum ROI.
               </p>
             </div>
           </div>

@@ -23,14 +23,12 @@ const Hostinger = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               {/* Left Content */}
               <div data-aos="fade-right" data-aos-once="false">
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                  Hostinger<br />
-                  <span className="text-[#fb9c24]">Web Hosting</span>
+                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                  Best Hosting in India – Fast & Affordable Web Hosting
+                  <span className="text-[#fb9c24]">| BTJ Alpha Technology</span>
                 </h1>
                 <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                  Reliable, fast, and affordable web hosting solutions for businesses of all sizes. 
-                  With Hostinger, experience premium performance, 99.9% uptime guarantee, and exceptional customer support.
-                </p>
+                 At BTJ Alpha Technology, we provide professional Hostinger web hosting in India for businesses of all sizes. Our hosting solutions are fast, secure, and budget-friendly, helping you build a strong and reliable online presence.</p>
                 <div className="flex flex-wrap gap-4">
                   <Link to="/contact">
                     <button className="bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] hover:from-[#ff8c00] hover:to-[#fb9c24] text-white font-semibold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg">
@@ -121,7 +119,7 @@ const Hostinger = () => {
                   Global Network
                 </h3>
                 <p className="text-gray-600">
-                  Fast servers located worldwide for optimal performance and reduced latency.
+                 Fast servers located worldwide ensure optimal website performance and reduced latency. Your website loads quickly for visitors in India and across the globe.
                 </p>
               </div>
 
@@ -142,7 +140,7 @@ const Hostinger = () => {
                   99.9% Uptime
                 </h3>
                 <p className="text-gray-600">
-                  Reliable hosting with industry-leading uptime guarantee for your peace of mind.
+                  Reliable hosting with an industry-leading uptime guarantee ensures your website stays online without interruptions.
                 </p>
               </div>
 
@@ -163,7 +161,7 @@ const Hostinger = () => {
                   Security
                 </h3>
                 <p className="text-gray-600">
-                  Advanced security features including SSL certificates and DDoS protection.
+                  Advanced security features including SSL certificates and DDoS protection keep your website safe from cyber threats.
                 </p>
               </div>
 
@@ -184,7 +182,7 @@ const Hostinger = () => {
                   Affordable Pricing
                 </h3>
                 <p className="text-gray-600">
-                  Competitive pricing plans that grow with your business needs.
+                  Competitive pricing plans that grow with your business. Perfect for startups, small businesses, and growing companies in India.
                 </p>
               </div>
             </div>
@@ -211,9 +209,8 @@ const Hostinger = () => {
                   Lightning Fast <span className="text-[#fb9c24]">Performance</span>
                 </h3>
                 <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-                  Experience superior loading speeds with Hostinger's optimized infrastructure. 
-                  Our SSD-powered servers and advanced caching mechanisms ensure your website loads instantly, 
-                  providing an exceptional user experience.
+                  Experience superior loading speeds with Hostinger’s optimized infrastructure.
+                   Our Hostinger web hosting in India ensure your website loads instantly and delivers an excellent user experience.
                 </p>
                 
                 <div className="space-y-6">
@@ -224,7 +221,7 @@ const Hostinger = () => {
                     <div>
                       <h4 className="text-xl font-bold text-gray-900 mb-2">Advanced Caching</h4>
                       <p className="text-gray-600">
-                        Built-in caching solutions to accelerate your website's performance.
+                       Built-in caching solutions accelerate your website performance and improve loading speed.
                       </p>
                     </div>
                   </div>
@@ -236,7 +233,7 @@ const Hostinger = () => {
                     <div>
                       <h4 className="text-xl font-bold text-gray-900 mb-2">SSD Storage</h4>
                       <p className="text-gray-600">
-                        Premium SSD storage for faster data access and improved reliability.
+                        Premium SSD storage ensures faster data access and improved reliability for your website.
                       </p>
                     </div>
                   </div>
@@ -248,7 +245,7 @@ const Hostinger = () => {
                     <div>
                       <h4 className="text-xl font-bold text-gray-900 mb-2">Optimized Infrastructure</h4>
                       <p className="text-gray-600">
-                        Custom-built server configurations optimized for web hosting.
+                       Custom-built server configurations designed specifically for high-performance web hosting.
                       </p>
                     </div>
                   </div>
@@ -296,7 +293,7 @@ const Hostinger = () => {
                     <div className="bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] p-6 rounded-xl text-white">
                       <h4 className="text-lg font-bold mb-2">Performance Guarantee</h4>
                       <p className="text-sm">
-                        We guarantee 99.9% uptime and lightning-fast loading speeds for your websites.
+                       We guarantee 99.9% uptime and lightning-fast loading speeds for your website.
                       </p>
                     </div>
                   </div>
@@ -322,7 +319,7 @@ const Hostinger = () => {
               data-aos-delay="200"
               data-aos-once="false"
             >
-              Join thousands of satisfied customers who trust Hostinger for their web hosting needs.
+              Join thousands of satisfied customers who trust Hostinger for their web hosting needs. With BTJ Alpha Technology, you get expert support and reliable Hostinger web hosting in India tailored to your business.
             </p>
             <Link to="/contact">
               <button 
