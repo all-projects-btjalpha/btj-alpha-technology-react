@@ -460,7 +460,7 @@ function MetaAds() {
                 ))}
               </ul>
 
-              <Link to="/contact">
+              <Link to="/contact" onClick={() => window.scrollTo(0, 0)}>
                 <button className="bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] text-white px-8 py-3 rounded-lg font-bold hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center gap-2">
                   Know More
                   <svg
@@ -569,7 +569,7 @@ function MetaAds() {
           </div>
 
           <div className="text-center" data-aos="fade-up">
-            <Link to="/contact">
+            <Link to="/contact" onClick={() => window.scrollTo(0, 0)}>
               <button className="bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] text-white px-10 py-4 rounded-lg font-bold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300">
                 Contact Us
               </button>
