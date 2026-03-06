@@ -150,7 +150,7 @@ function SaaS() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
             <div data-aos="fade-right" className="lg:pl-16">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
                 SaaS Application Development Company – Scalable & Secure Cloud-Based Software Platforms
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">

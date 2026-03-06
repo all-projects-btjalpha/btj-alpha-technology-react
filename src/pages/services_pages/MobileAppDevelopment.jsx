@@ -161,7 +161,7 @@ const MobileAppDevelopment = () => {
     });
   }, []);
   return (
-    <main className="bg-gradient-to-b from-gray-50 to-white">
+    <main className="bg-gradient-to-b from-gray-50 to-white overflow-x-hidden">
       {/* Hero Section - Enhanced */}
       <section className="relative py-20 px-6 max-md:px-4 mt-20 max-md:mt-16 bg-gradient-to-br from-white via-gray-50 to-orange-50/20 overflow-hidden">
         {/* Background Elements */}
@@ -452,7 +452,7 @@ const MobileAppDevelopment = () => {
                     Looking for skilled developers for your next project?
                     Our experienced team designs, develops, and delivers modern digital solutions tailored to your business needs.
                   </p>
-                  <Link to="/contact">
+                  <Link to="/contact" onClick={() => window.scrollTo({ top: 0, behavior: 'instant' })}>
                     <button className="bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] hover:from-[#ff8c00] hover:to-[#fb9c24] text-white font-bold py-3 px-8 rounded-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300">
                       Hire Developers →
                     </button>

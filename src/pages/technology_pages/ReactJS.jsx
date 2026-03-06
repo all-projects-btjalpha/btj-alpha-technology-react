@@ -138,9 +138,7 @@ function ReactJS() {
             {/* Left Content */}
             <div data-aos="fade-right"className="lg:pl-16">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-               Leading ReactJS<br />
-                Development
-                Company in India
+                Leading ReactJS Development Company in India
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
                 Build Fast, Scalable & High-Performance Web Applications with Expert ReactJS Developers 

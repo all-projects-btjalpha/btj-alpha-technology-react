@@ -209,7 +209,7 @@ function WebsiteDevelopment() {
   }, []);
   
   return (
-    <main className="bg-gradient-to-b from-gray-50 to-white">
+    <main className="bg-gradient-to-b from-gray-50 to-white overflow-x-hidden">
       {/* Hero Section - Enhanced */}
       <section className="relative w-full h-screen overflow-hidden flex items-end bg-black">
         {/* Background Video */}

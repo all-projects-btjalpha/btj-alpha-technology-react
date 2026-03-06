@@ -140,8 +140,7 @@ function TailwindCSS() {
             {/* Left Content */}
             <div data-aos="fade-right"className="lg:pl-16">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                Tailwind CSS<br />
-                Development
+                Tailwind CSS Development
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
               We create fast, maintainable, and beautiful interfaces using Tailwind’s utility-first approach and powerful design system.</p>

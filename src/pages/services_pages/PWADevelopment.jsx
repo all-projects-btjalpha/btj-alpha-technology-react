@@ -221,9 +221,7 @@ function PWADevelopment() {
             {/* Left Content */}
             <div data-aos="fade-right"className="lg:pl-16">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                Progressive Web App<br />
-                Development<br />
-                Company
+                Progressive Web App Development Company
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
 
@@ -532,7 +530,7 @@ function PWADevelopment() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 px-4 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] relative overflow-hidden">
+      <section className="py-16 px-32 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] relative overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-0 left-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>
           <div className="absolute bottom-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>

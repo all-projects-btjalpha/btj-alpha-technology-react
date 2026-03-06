@@ -187,7 +187,7 @@ function Home() {
 
   return (
     <>
-      <main className=" w-[100%]  mt-[65px]">
+      <main className="w-[100%] mt-[65px] overflow-x-hidden">
         {/* Banner Section Start here */}
 
         <div className="relative h-[100vh] bg-cover bg-center overflow-hidden max-md:h-auto max-md:min-h-[70vh]">
@@ -400,7 +400,7 @@ function Home() {
                   <span className="font-semibold text-gray-900">Our mission is simple — </span> empower businesses with innovative digital systems that drive measurable results.
                   <br></br>We continuously evolve with technology trends to ensure our clients stay ahead of the competition. From web platforms to enterprise automation, we provide end-to-end digital services under one roof.
                 </p>
-                <Link to="/about">
+                <Link to="/about" onClick={() => window.scrollTo({ top: 0, behavior: 'instant' })}>
                   <button className="group relative inline-flex items-center px-8 py-4 font-semibold bg-gradient-to-r from-[#fb9c24] to-orange-600 rounded-lg text-white text-[18px] shadow-lg hover:shadow-[0_20px_50px_rgba(251,156,36,0.5)] transform hover:scale-105 transition-all duration-300 overflow-hidden max-md:px-6 max-md:py-3 max-md:text-[16px]">
                     <span className="relative z-10 flex items-center gap-2">
                       About Us
@@ -876,22 +876,22 @@ function Home() {
                 {/* Default Content */}
                 <div className="absolute bottom-0 left-0 right-0 p-6 text-white opacity-100 group-hover:opacity-0 transition-opacity duration-500">
                   <h3 className="text-[1.5rem] max-md:text-[1.3rem] font-bold mb-2">
-                    Digital Marketing Services
+                    Email Marketing
                   </h3>
                   <p className="text-[0.95rem] leading-relaxed">
-                    Comprehensive digital marketing solutions to boost your online presence
+                    Connect with your audience and drive conversions with effective email marketing campaigns.
                   </p>
                 </div>
 
                 {/* Expanded Content */}
                 <div className="absolute bottom-0 left-0 right-0 p-6 text-white bg-gradient-to-t from-black/95 via-black/90 to-transparent transform translate-y-full group-hover:translate-y-0 transition-all duration-700 ease-in-out">
                   <h3 className="text-[1.8rem] max-md:text-[1.5rem] font-bold mb-4 text-[#fb9c24]">
-                    Digital Marketing Services
+                    Email Marketing
                   </h3>
                   <p className="text-[1rem] max-md:text-[0.9rem] leading-relaxed mb-6">
-                    Grow your brand and generate leads with result-driven digital marketing strategies.
+                    Strategic email marketing solutions to engage customers and grow your business online.
                   </p>
-                  <Link to="/digital-marketing">
+                  <Link to="/email-marketing-services-in-india">
                     <button className="px-6 py-3 bg-[#fb9c24] hover:bg-[#e88a15] text-white font-bold rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center gap-2">
                       Learn More <GoArrowRight className="text-xl" />
                     </button>
@@ -906,7 +906,7 @@ function Home() {
 
 
         {/* Software Product Vision CTA */}
-      <section className="py-16 px-4 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] relative overflow-hidden">
+      <section className="py-16 px-32 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] relative overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-0 left-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>
           <div className="absolute bottom-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>
@@ -1461,16 +1461,15 @@ With over a decade of industry expertise, we help businesses adapt, innovate, an
                   <div className="flex w-20 h-20 bg-gradient-to-br from-[#fb9c24] to-[#ff8c00] group-hover:from-white group-hover:to-white rounded-2xl items-center justify-center mb-4 shadow-md transition-all duration-300">
                     <img
                       src={settings}
-                      alt="Social Media Marketing"
+                      alt="PWA Development"
                       className="h-10 w-10 filter brightness-0 invert group-hover:brightness-100 group-hover:invert-0 group-hover:scale-110 transition-all duration-300"
                     />
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 group-hover:text-white mb-3 transition-colors duration-300">
-                    Social Media Marketing (SMM)
+                    PWA Development
                   </h3>
                   <p className="text-gray-600 group-hover:text-white/90 text-sm leading-relaxed transition-colors duration-300">
-                    Strategic social media campaigns that build brand awareness, 
-                    engage audiences, and drive targeted traffic.
+                    We use frameworks and the latest web technologies, we create fast, responsive, and reliable web apps that work smoothly across all devices.
                   </p>
                 </div>
               </div>
@@ -2105,7 +2104,7 @@ Our SMO Strategy Includes:
         {/* Offering Section End here */}
 
           {/* Software Product Vision CTA */}
-      <section className="py-16 px-4 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] relative overflow-hidden">
+      <section className="py-16 px-32 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] relative overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-0 left-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>
           <div className="absolute bottom-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>

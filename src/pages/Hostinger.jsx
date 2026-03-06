@@ -29,7 +29,7 @@ const Hostinger = () => {
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               {/* Left Content */}
-              <div data-aos="fade-right" data-aos-once="false">
+              <div data-aos="fade-right" data-aos-once="false" className="lg:pl-16">
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
                   Best Hosting in India – Fast & Affordable Web Hosting
                   <span className="text-[#fb9c24]">| BTJ Alpha Technology</span>

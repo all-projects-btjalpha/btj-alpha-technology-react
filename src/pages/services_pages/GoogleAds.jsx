@@ -57,7 +57,7 @@ function GoogleAds() {
   ];
 
   return (
-    <main className="bg-gradient-to-b from-gray-50 to-white">
+    <main className="bg-gradient-to-b from-gray-50 to-white overflow-x-hidden">
       {/* Hero Banner Section - Enhanced */}
       <section className="relative py-8 px-6 max-md:px-4 mt-20 max-md:mt-16 bg-gradient-to-br from-[#f7f0ff] via-[#fef5ff] to-[#f7f0ff] overflow-hidden">
         {/* Background Decorative Elements */}

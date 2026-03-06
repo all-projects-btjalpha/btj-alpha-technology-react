@@ -103,7 +103,7 @@ const Contact = () => {
   };
 
   return (
-    <main className="bg-gradient-to-b from-gray-50 to-white">
+    <main className="bg-gradient-to-b from-gray-50 to-white overflow-x-hidden">
       {/* Hero Section */}
       <section className="relative py-16 px-6 max-md:px-4 mt-20 max-md:mt-16 bg-gradient-to-br from-orange-50 via-white to-orange-50/30 overflow-hidden">
         {/* Background Decorative Elements */}

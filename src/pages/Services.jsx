@@ -356,7 +356,7 @@ const Services = () => {
           >
             Let's discuss how our services can help you achieve your business goals and drive sustainable growth.
           </p>
-          <Link to="/contact">
+          <Link to="/contact" onClick={() => window.scrollTo({ top: 0, behavior: 'instant' })}>
             <button 
               className="group relative inline-flex items-center px-8 py-4 bg-white text-[#fb9c24] font-bold text-xl rounded-xl shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-300 overflow-hidden"
               data-aos="fade-up"

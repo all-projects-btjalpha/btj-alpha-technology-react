@@ -28,7 +28,7 @@ function MetaAds() {
   }, []);
 
   return (
-    <main className="bg-gradient-to-b from-gray-50 to-white">
+    <main className="bg-gradient-to-b from-gray-50 to-white overflow-x-hidden">
       {/* Hero Banner Section - Enhanced */}
       <section className="relative py-8 px-6 max-md:px-4 mt-20 max-md:mt-16 bg-gradient-to-br from-[#0A192F] via-[#0e2339] to-[#0A192F] overflow-hidden">
         {/* Background Image with Overlay */}
@@ -104,10 +104,10 @@ function MetaAds() {
               </ul>
 
               <a
-                href="tel:01204525483"
+                href="tel:+91-93102 28489"
                 className="inline-block bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] text-white py-3 px-8 rounded-lg font-bold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 mb-8"
               >
-                Call 0120 4525483
+                Call +91-93102 28489
               </a>
 
               {/* Certifications */}

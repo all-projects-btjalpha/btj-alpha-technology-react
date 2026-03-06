@@ -35,7 +35,7 @@ function Portfolio() {
       description: "Corporate website"
     },
     { 
-      src: "/portfolio/p5.webp", 
+      src: "/admirer1.png", 
       alt: "Portfolio Project", 
       category: "app",
       title: "Mobile Application",
@@ -56,11 +56,32 @@ function Portfolio() {
       description: "Online shopping solution"
     },
     { 
-      src: "/portfolio/just2.webp", 
+      src: "/khan app.png", 
       alt: "Portfolio Project", 
       category: "app",
-      title: "App Development",
+      title: "Mobile Application",
       description: "Native mobile app"
+    },
+    { 
+      src: "/unbox app.png", 
+      alt: "Portfolio Project", 
+      category: "app",
+      title: "Mobile Application",
+      description: "Native mobile app"
+    },
+    { 
+      src: "/khan web.png", 
+      alt: "Portfolio Project", 
+      category: "app",
+      title: "Web Application",
+      description: "Khan's Air Condition"
+    },
+    { 
+      src: "/unbox web.png", 
+      alt: "Portfolio Project", 
+      category: "app",
+      title: "Web Application",
+      description: "unbox Website"
     },
     { 
       src: "/portfolio/p3.webp", 

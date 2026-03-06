@@ -136,9 +136,7 @@ function SaaS() {
             {/* Left Content */}
             <div data-aos="fade-right"className="lg:pl-16">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                SaaS<br />
-                Development<br />
-                Company
+                SaaS Development Company
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
                 Step2gen Technologies Pvt. Ltd. is a top SaaS Development Company in India specializing in creating scalable, secure, and innovative Software as a Service solutions. Our team of experienced developers builds enterprise-grade SaaS applications that help businesses streamline operations, reduce costs, and accelerate growth. We deliver high-quality SaaS development services that enable our clients to stay ahead of the competition in today's digital landscape.

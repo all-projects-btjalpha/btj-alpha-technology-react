@@ -161,10 +161,9 @@ const Technologies = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
-            <div data-aos="fade-right" data-aos-once="false">
+            <div data-aos="fade-right" data-aos-once="false" className="lg:pl-16">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Our<br />
-                <span className="text-[#fb9c24]">Technologies</span>
+                Our <span className="text-[#fb9c24]"> Technologies</span>
               </h1>
               <p className="text-gray-600 text-lg mb-8 leading-relaxed">
                 We leverage the latest and most powerful technologies to build innovative, scalable, and high-performance solutions. 
