@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
 import { Select } from "antd";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const UserForm = () => {
   const navigate = useNavigate();
@@ -10,6 +11,7 @@ const UserForm = () => {
   const [loading, setLoading] = useState(false);
   const [errors, setErrors] = useState({});
   const [phone, setPhone] = useState("");
+  const [captchaVerified, setCaptchaVerified] = useState(false);
   const formRef = useRef(null);
   const { Option } = Select;
 
@@ -29,6 +31,10 @@ const UserForm = () => {
 
     if (selected === "") {
       newErrors.service = "Please select a service";
+    }
+
+    if (!captchaVerified) {
+      newErrors.captcha = "Please complete the reCAPTCHA verification";
     }
 
     setErrors(newErrors);
@@ -62,6 +68,13 @@ const UserForm = () => {
       .finally(() => {
         setLoading(false);
       });
+  };
+
+  const handleCaptchaChange = (value) => {
+    setCaptchaVerified(!!value);
+    if (value && errors.captcha) {
+      setErrors({ ...errors, captcha: null });
+    }
   };
 
   return (
@@ -176,6 +189,14 @@ const UserForm = () => {
     transition-colors duration-150  h-32 text-black"
         required
       ></textarea>
+
+      <div className="flex justify-center my-4">
+        <ReCAPTCHA
+          sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+          onChange={handleCaptchaChange}
+          theme="light"
+        />
+      </div>
 
       <button
         type="submit"

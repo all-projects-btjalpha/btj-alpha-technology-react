@@ -72,14 +72,14 @@ function Portfolio() {
     { 
       src: "/khan web.png", 
       alt: "Portfolio Project", 
-      category: "app",
+      category: "web",
       title: "Web Application",
       description: "Khan's Air Condition"
     },
     { 
       src: "/unbox web.png", 
       alt: "Portfolio Project", 
-      category: "app",
+      category: "web",
       title: "Web Application",
       description: "unbox Website"
     },
