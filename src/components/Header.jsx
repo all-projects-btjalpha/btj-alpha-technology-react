@@ -253,7 +253,7 @@ const Header = () => {
   ];
 
   const menuItems = (
-    <ul className="flex-col gap-6 flex text-lg font-semibold md:flex-row md:items-center md:gap-8">
+    <ul className="flex-col gap-6 flex text-lg font-semibold lg:flex-row lg:items-center lg:gap-8">
       <Link to="/">
         <li
           onClick={() => handleTabClick("home")}
@@ -297,22 +297,22 @@ const Header = () => {
               }`}
             >
               Services
-              <IoIosArrowDown className="hidden md:inline" />
+              <IoIosArrowDown className="hidden lg:inline" />
             </span>
           </Link>
 
           {/* Mobile toggle */}
           <button
-            className="md:hidden text-xl"
-            onClick={() => setTechnologiesOpen((t) => !t)}
+            className="lg:hidden text-xl"
+            onClick={() => setServicesOpen((s) => !s)}
           >
-            {technologiesOpen ? "-" : "+"}
+            {servicesOpen ? "-" : "+"}
           </button>
         </div>
 
         {/* Desktop Mega Menu: also listens for mouse enter/leave so it doesn't close when moving pointer */}
         <div
-          className={`absolute left-1/2 -translate-x-[34%] bg-white shadow-2xl w-[95vw] max-w-[1400px] z-50 transition-all duration-200 ease-in-out hidden md:block rounded-lg border border-gray-200 ${
+          className={`absolute left-1/2 -translate-x-[34%] bg-white shadow-2xl w-[95vw] max-w-[1400px] z-50 transition-all duration-200 ease-in-out hidden lg:block rounded-lg border border-gray-200 ${
             servicesOpen ? "opacity-100 translate-y-2 visible" : "opacity-0 invisible -translate-y-1"
           }`}
           onMouseEnter={() => setServicesOpen(true)}
@@ -410,7 +410,7 @@ const Header = () => {
 
         {/* Mobile Dropdown */}
         {servicesOpen && (
-          <div className="md:hidden mt-2 pl-4 max-h-[400px] overflow-y-auto pr-2">
+          <div className="lg:hidden mt-2 pl-4 max-h-[400px] overflow-y-auto pr-2">
             {/* Scroll indicator */}
             <div className="absolute right-2 top-2 bottom-2 w-1 bg-gray-200 rounded-full">
               <div className="w-full bg-[#fb9c24] rounded-full h-1/3"></div>
@@ -474,13 +474,13 @@ const Header = () => {
               }`}
             >
               Technologies
-              <IoIosArrowDown className="hidden md:inline" />
+              <IoIosArrowDown className="hidden lg:inline" />
             </span>
           </Link>
 
           {/* Mobile toggle */}
           <button
-            className="md:hidden text-xl"
+            className="lg:hidden text-xl"
             onClick={() => setTechnologiesOpen((t) => !t)}
           >
             {technologiesOpen ? "-" : "+"}
@@ -489,7 +489,7 @@ const Header = () => {
 
         {/* Desktop Mega Menu for Technologies */}
         <div
-          className={`absolute left-1/2 -translate-x-[43%] bg-white shadow-2xl w-[95vw] max-w-[1400px] z-50 transition-all duration-200 ease-in-out hidden md:block rounded-lg border border-gray-200 ${
+          className={`absolute left-1/2 -translate-x-[43%] bg-white shadow-2xl w-[95vw] max-w-[1400px] z-50 transition-all duration-200 ease-in-out hidden lg:block rounded-lg border border-gray-200 ${
             technologiesOpen ? "opacity-100 translate-y-2 visible" : "opacity-0 invisible -translate-y-1"
           }`}
           onMouseEnter={() => setTechnologiesOpen(true)}
@@ -688,7 +688,7 @@ const Header = () => {
 
         {/* Mobile Dropdown for Technologies */}
         {technologiesOpen && (
-          <div className="md:hidden mt-2 pl-4 max-h-[400px] overflow-y-auto pr-2">
+          <div className="lg:hidden mt-2 pl-4 max-h-[400px] overflow-y-auto pr-2">
             {/* Scroll indicator */}
             <div className="absolute right-2 top-2 bottom-2 w-1 bg-gray-200 rounded-full">
               <div className="w-full bg-[#fb9c24] rounded-full h-1/4"></div>
@@ -806,12 +806,12 @@ const Header = () => {
             }`}
           >
             Verticals
-            <IoIosArrowDown className="hidden md:inline" />
+            <IoIosArrowDown className="hidden lg:inline" />
           </span>
 
           {/* Mobile toggle */}
           <button
-            className="md:hidden text-xl"
+            className="lg:hidden text-xl"
             onClick={() => setVerticalsOpen((v) => !v)}
           >
             {verticalsOpen ? "-" : "+"}
@@ -820,7 +820,7 @@ const Header = () => {
 
         {/* Desktop Mega Menu for Verticals */}
         <div
-          className={`absolute left-1/2 -translate-x-[54%] bg-white shadow-2xl w-[95vw] max-w-[1400px] z-50 transition-all duration-200 ease-in-out hidden md:block rounded-lg border border-gray-200 ${
+          className={`absolute left-1/2 -translate-x-[54%] bg-white shadow-2xl w-[95vw] max-w-[1400px] z-50 transition-all duration-200 ease-in-out hidden lg:block rounded-lg border border-gray-200 ${
             verticalsOpen ? "opacity-100 translate-y-2 visible" : "opacity-0 invisible -translate-y-1"
           }`}
           onMouseEnter={() => setVerticalsOpen(true)}
@@ -857,7 +857,7 @@ const Header = () => {
 
         {/* Mobile Dropdown for Verticals */}
         {verticalsOpen && (
-          <div className="md:hidden mt-2 pl-4 max-h-[400px] overflow-y-auto pr-2">
+          <div className="lg:hidden mt-2 pl-4 max-h-[400px] overflow-y-auto pr-2">
             {/* Scroll indicator */}
             <div className="absolute right-2 top-2 bottom-2 w-1 bg-gray-200 rounded-full">
               <div className="w-full bg-[#fb9c24] rounded-full h-1/3"></div>
@@ -937,7 +937,7 @@ const Header = () => {
       <div
         className={`fixed top-0 left-0 z-[1000] bg-white h-full w-[310px] px-[30px] py-[40px] flex-col transition-all duration-500 ease-in-out border transform ${
           show ? "translate-x-0 opacity-100" : "-translate-x-full opacity-0"
-        } md:hidden`}
+        } lg:hidden`}
       >
         <IoClose
           className="text-2xl absolute right-3 top-5 cursor-pointer"
@@ -966,7 +966,7 @@ const Header = () => {
             />
           </Link>
 
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <div
               className="w-5 h-[14px] flex flex-col justify-between cursor-pointer"
               onClick={handleClick}
@@ -981,9 +981,9 @@ const Header = () => {
             </div>
           </div>
 
-          <div className="hidden md:flex">{menuItems}</div>
+          <div className="hidden lg:flex">{menuItems}</div>
 
-          <div className="hidden md:flex">
+          <div className="hidden lg:flex">
             <Link to="/contact">
               <button className="w-[170px] flex font-semibold bg-[#fb9c24] justify-center h-12 rounded-lg text-white text-lg items-center">
                 Get In Touch

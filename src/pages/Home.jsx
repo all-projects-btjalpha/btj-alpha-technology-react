@@ -190,7 +190,7 @@ function Home() {
       <main className="w-[100%] mt-[65px] overflow-x-hidden">
         {/* Banner Section Start here */}
 
-        <div className="relative h-[100vh] bg-cover bg-center overflow-hidden max-md:h-auto max-md:min-h-[70vh]">
+        <div className="relative min-h-[120vh] bg-cover bg-center overflow-hidden max-lg:h-auto max-lg:min-h-[100vh] max-md:min-h-[90vh] max-sm:min-h-[85vh]">
           {/* Background Video */}
           <div className="absolute inset-0">
             <video
@@ -209,67 +209,73 @@ function Home() {
           </div>
 
           {/* Content */}
-          <div className="relative flex flex-col md:flex-row px-8 py-16 items-center justify-center h-full text-white max-lg:px-6 max-md:py-10 max-md:flex-col gap-8">
-            <div className="text-white md:w-1/2 max-md:w-full">
-              <div className="inline-flex items-center gap-3 bg-gradient-to-r from-[#fb9c24] to-orange-600 px-6 py-3 rounded-full shadow-lg mb-6 animate-pulse">
-                <span className="text-2xl">🚀</span>
-                <h2 className="text-white text-xl max-md:text-lg font-bold uppercase tracking-wider">
+          <div className="relative flex flex-col lg:flex-row px-4 sm:px-6 md:px-8 lg:px-10 xl:px-8 py-8 sm:py-12 md:py-14 lg:py-16 items-center justify-center h-full text-white gap-6 md:gap-8 lg:gap-10">
+            <div className="text-white w-full lg:w-1/2 max-lg:text-center">
+              <div className="inline-flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-[#fb9c24] to-orange-600 px-4 sm:px-5 md:px-6 py-2 sm:py-2.5 md:py-3 rounded-full shadow-lg mb-4 sm:mb-5 md:mb-6 animate-pulse">
+                <span className="text-lg sm:text-xl md:text-2xl">🚀</span>
+                <h2 className="text-white text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl font-bold uppercase tracking-wider">
                   GET STARTED WITH US
                 </h2>
               </div>
-              <h1 className="text-5xl max-lg:text-5xl max-md:text-4xl font-extrabold mt-4 leading-tight">
-                Transform Your Business <br className="max-md:hidden" />
+              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold mt-3 sm:mt-4 leading-tight">
+                Transform Your Business <br className="hidden sm:block" />
                 with Digital{" "}
                 <span className="inline-block bg-gradient-to-r from-[#fb9c24] via-yellow-400 to-orange-500 bg-clip-text text-transparent">
                   {currentText}
                   <span className="typewriter-cursor">|</span>
                 </span>
               </h1>
-              <p className="mt-6 text-lg max-md:text-base leading-relaxed w-[90%] max-md:w-full text-gray-100">
+              <p className="mt-4 sm:mt-5 md:mt-6 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed text-gray-100">
                 BTJ Alpha Technology Pvt Ltd <span className="text-[#fb9c24] font-bold">is a trusted digital transformation company delivering innovative IT </span>  and marketing solutions to startups, enterprises, and global brands.
                 <span className="text-yellow-300 font-semibold"> We help businesses modernize operations,</span>enhance digital presence, and achieve sustainable growth 
                 <span className="text-[#fb9c24] font-bold"> through advanced technologies.</span>
               </p>
-              <p className="mt-6 text-lg max-md:text-base leading-relaxed w-[90%] max-md:w-full text-gray-100">Partner with certified professionals who combine strategy, creativity, and technical expertise to accelerate your digital success.</p>
+              <p className="mt-3 sm:mt-4 md:mt-5 lg:mt-6 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed text-gray-100">Partner with certified professionals who combine strategy, creativity, and technical expertise to accelerate your digital success.</p>
               
               {/* Partner Logos Section */}
-              <div className="mt-8 pt-6 border-t border-white/20">
-                <p className="text-sm text-gray-300 mb-4 font-semibold uppercase tracking-wider">Trusted & Certified By</p>
-                <div className="flex flex-nowrap items-center gap-2 md:gap-3 overflow-x-auto justify-start">
-                  <div className="group relative bg-white/10 backdrop-blur-sm rounded-lg p-2 hover:bg-white/20 transition-all duration-300 group-hover:scale-110 flex-shrink-0">
-                    <img src="/clutch.png" alt="Clutch" className="h-8 md:h-11 w-auto object-contain group-hover:scale-110 transition-all duration-300" />
+              <div className="mt-6 sm:mt-7 md:mt-8 pt-4 sm:pt-5 md:pt-6 border-t border-white/20">
+                <p className="text-xs sm:text-sm md:text-base text-gray-300 mb-3 sm:mb-4 md:mb-5 font-semibold uppercase tracking-wider">Trusted & Certified By</p>
+                
+                {/* First Row - 4 Logos */}
+                <div className="flex flex-wrap items-center justify-center lg:justify-start gap-2 sm:gap-3 md:gap-4 mb-2 sm:mb-3 md:mb-4">
+                  <div className="group relative bg-white/10 backdrop-blur-sm rounded-lg p-1.5 sm:p-2 md:p-2.5 lg:p-3 hover:bg-white/20 transition-all duration-300 group-hover:scale-110 flex-shrink-0">
+                    <img src="/clutch.png" alt="Clutch" className="h-6 sm:h-7 md:h-9 lg:h-11 w-auto object-contain group-hover:scale-110 transition-all duration-300" />
                   </div>
-                  <div className="group relative bg-white/10 backdrop-blur-sm rounded-lg p-2 hover:bg-white/20 transition-all duration-300 group-hover:scale-110 flex-shrink-0">
-                    <img src="/good firm.jfif" alt="GoodFirms" className="h-8 md:h-11 w-auto object-contain group-hover:scale-110 transition-all duration-300" />
+                  <div className="group relative bg-white/10 backdrop-blur-sm rounded-lg p-1.5 sm:p-2 md:p-2.5 lg:p-3 hover:bg-white/20 transition-all duration-300 group-hover:scale-110 flex-shrink-0">
+                    <img src="/good firm.jfif" alt="GoodFirms" className="h-6 sm:h-7 md:h-9 lg:h-11 w-auto object-contain group-hover:scale-110 transition-all duration-300" />
                   </div>
-                  <div className="group relative bg-white/10 backdrop-blur-sm rounded-lg p-2 hover:bg-white/20 transition-all duration-300 group-hover:scale-110 flex-shrink-0">
-                    <img src="/Google__G__logo.svg-removebg-preview.png" alt="Google" className="h-8 md:h-11 w-auto object-contain group-hover:scale-110 transition-all duration-300" />
+                  <div className="group relative bg-white/10 backdrop-blur-sm rounded-lg p-1.5 sm:p-2 md:p-2.5 lg:p-3 hover:bg-white/20 transition-all duration-300 group-hover:scale-110 flex-shrink-0">
+                    <img src="/Google__G__logo.svg-removebg-preview.png" alt="Google" className="h-6 sm:h-7 md:h-9 lg:h-11 w-auto object-contain group-hover:scale-110 transition-all duration-300" />
                   </div>
-                  <div className="group relative bg-white/10 backdrop-blur-sm rounded-lg p-2 hover:bg-white/20 transition-all duration-300 group-hover:scale-110 flex-shrink-0">
-                    <img src="/msme.png" alt="MSME" className="h-8 md:h-11 w-auto object-contain group-hover:scale-110 transition-all duration-300" />
+                  <div className="group relative bg-white/10 backdrop-blur-sm rounded-lg p-1.5 sm:p-2 md:p-2.5 lg:p-3 hover:bg-white/20 transition-all duration-300 group-hover:scale-110 flex-shrink-0">
+                    <img src="/msme.png" alt="MSME" className="h-6 sm:h-7 md:h-9 lg:h-11 w-auto object-contain group-hover:scale-110 transition-all duration-300" />
                   </div>
-                  <div className="group relative bg-white/10 backdrop-blur-sm rounded-lg p-2 hover:bg-white/20 transition-all duration-300 group-hover:scale-110 flex-shrink-0">
-                    <img src="/Startup-removebg-preview.png" alt="Startup India" className="h-8 md:h-11 w-auto object-contain group-hover:scale-105 transition-all duration-300" />
+                </div>
+                
+                {/* Second Row - 2 Logos */}
+                <div className="flex flex-wrap items-center justify-center lg:justify-start gap-2 sm:gap-3 md:gap-4">
+                  <div className="group relative bg-white/10 backdrop-blur-sm rounded-lg p-2 sm:p-2.5 md:p-3.5 lg:p-4 hover:bg-white/20 transition-all duration-300 group-hover:scale-110 flex-shrink-0">
+                    <img src="/Startup-removebg-preview.png" alt="Startup India" className="h-6 sm:h-7 md:h-9 lg:h-11 w-auto object-contain group-hover:scale-105 transition-all duration-300" />
                   </div>
-                  <div className="group relative bg-white/10 backdrop-blur-sm rounded-lg p-2 hover:bg-white/20 transition-all duration-300 group-hover:scale-110 flex-shrink-0">
-                    <img src="/upwork.png" alt="Upwork" className="h-8 md:h-11 w-auto object-contain group-hover:scale-105 transition-all duration-300" />
+                  <div className="group relative bg-white/10 backdrop-blur-sm rounded-lg p-2 sm:p-2.5 md:p-3.5 lg:p-4 hover:bg-white/20 transition-all duration-300 group-hover:scale-110 flex-shrink-0">
+                    <img src="/upwork.png" alt="Upwork" className="h-6 sm:h-7 md:h-9 lg:h-11 w-auto object-contain group-hover:scale-105 transition-all duration-300" />
                   </div>
                 </div>
               </div>
 
               <Link to="contact">
                 <button 
-                className="group relative inline-flex items-center px-10 py-3 font-bold mt-8 bg-gradient-to-r from-[#fb9c24] to-orange-600 rounded-2xl text-white text-lg shadow-2xl hover:shadow-[0_20px_50px_rgba(251,156,36,0.5)] transform hover:scale-105 transition-all duration-300 overflow-hidden">
+                className="group relative inline-flex items-center px-6 sm:px-7 md:px-8 lg:px-10 py-2.5 sm:py-3 md:py-3.5 lg:py-4 font-bold mt-6 sm:mt-7 md:mt-8 bg-gradient-to-r from-[#fb9c24] to-orange-600 rounded-2xl text-white text-sm sm:text-base md:text-lg lg:text-xl shadow-2xl hover:shadow-[0_20px_50px_rgba(251,156,36,0.5)] transform hover:scale-105 transition-all duration-300 overflow-hidden">
                   <span className="relative z-10 flex items-center gap-2">
                     Contact Us
-                    <span className="text-xl group-hover:translate-x-2 transition-transform duration-300">→</span>
+                    <span className="text-lg sm:text-xl md:text-2xl group-hover:translate-x-2 transition-transform duration-300">→</span>
                   </span>
                   <div className="absolute inset-0 bg-gradient-to-r from-orange-600 to-[#fb9c24] transform translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-500"></div>
                 </button>
               </Link>
             </div>
-            <div className="bg-white p-8 rounded-[24px] shadow-2xl md:w-[420px] w-full max-md:w-full max-md:mx-4">
-              <h2 className="text-2xl max-md:text-xl font-bold mb-6 text-black text-center leading-snug">
+            <div className="bg-white p-4 sm:p-6 md:p-7 lg:p-8 rounded-[20px] sm:rounded-[22px] md:rounded-[24px] shadow-2xl w-full max-w-md md:max-w-lg lg:max-w-[420px] mx-auto lg:mx-0">
+              <h2 className="text-lg sm:text-xl md:text-2xl lg:text-2xl font-bold mb-4 sm:mb-5 md:mb-6 text-black text-center leading-snug">
                 Get A Free Consultation With Our Marketing Expert
               </h2>
               <UserForm />
@@ -280,24 +286,24 @@ function Home() {
         {/* Banner Section End here  */}
 
         {/* Statistics Section Start here */}
-        <div id="stats-section" className="bg-gradient-to-r from-gray-50 via-white to-gray-50 py-16 px-6 max-md:py-12">
+        <div id="stats-section" className="bg-gradient-to-r from-gray-50 via-white to-gray-50 py-12 sm:py-14 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8">
           <div className="max-w-7xl mx-auto">
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 max-md:gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 sm:gap-5 md:gap-6 lg:gap-8">
               {/* Stat 1 - Projects Delivered */}
               <div 
                 data-aos="fade-up" 
                 data-aos-duration="800"
                 data-aos-delay="100"
-                className="group relative overflow-hidden bg-white rounded-2xl p-8 max-md:p-6 text-center shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 border-t-4 border-[#fb9c24] cursor-pointer"
+                className="group relative overflow-hidden bg-white rounded-2xl p-4 sm:p-5 md:p-6 lg:p-7 xl:p-8 text-center shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 border-t-4 border-[#fb9c24] cursor-pointer"
               >
                 <div className="absolute inset-0 w-full h-full bg-[#fb9c24] opacity-0 group-hover:opacity-20 transition-opacity duration-700"></div>
                 <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-[#fb9c24] to-transparent opacity-40 transform -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-in-out"></div>
                 <div className="relative z-10">
-                  <h2 className="text-6xl max-md:text-5xl font-black text-[#fb9c24] mb-3 group-hover:scale-110 transition-transform duration-300">
-                    {counters.projects}<span className="text-4xl align-top">+</span>
+                  <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-[#fb9c24] mb-2 sm:mb-3 md:mb-4 group-hover:scale-110 transition-transform duration-300">
+                    {counters.projects}<span className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl align-top">+</span>
                   </h2>
                 </div>
-                <p className="relative z-10 text-gray-700 font-bold text-base max-md:text-sm">Projects Delivered</p>
+                <p className="relative z-10 text-gray-700 font-bold text-sm sm:text-base md:text-lg">Projects Delivered</p>
               </div>
 
               {/* Stat 2 - Positive Feedback */}
@@ -305,16 +311,16 @@ function Home() {
                 data-aos="fade-up" 
                 data-aos-duration="800"
                 data-aos-delay="200"
-                className="group relative overflow-hidden bg-white rounded-2xl p-8 max-md:p-6 text-center shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 border-t-4 border-[#fb9c24] cursor-pointer"
+                className="group relative overflow-hidden bg-white rounded-2xl p-4 sm:p-5 md:p-6 lg:p-7 xl:p-8 text-center shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 border-t-4 border-[#fb9c24] cursor-pointer"
               >
                 <div className="absolute inset-0 w-full h-full bg-[#fb9c24] opacity-0 group-hover:opacity-20 transition-opacity duration-700"></div>
                 <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-[#fb9c24] to-transparent opacity-40 transform -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-in-out"></div>
                 <div className="relative z-10">
-                  <h2 className="text-6xl max-md:text-5xl font-black text-[#fb9c24] mb-3 group-hover:scale-110 transition-transform duration-300">
-                    {counters.feedback}<span className="text-4xl align-top">%</span>
+                  <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-[#fb9c24] mb-2 sm:mb-3 md:mb-4 group-hover:scale-110 transition-transform duration-300">
+                    {counters.feedback}<span className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl align-top">%</span>
                   </h2>
                 </div>
-                <p className="relative z-10 text-gray-700 font-bold text-base max-md:text-sm">Positive Feedback</p>
+                <p className="relative z-10 text-gray-700 font-bold text-sm sm:text-base md:text-lg">Positive Feedback</p>
               </div>
 
               {/* Stat 3 - Happy Clients */}
@@ -322,16 +328,16 @@ function Home() {
                 data-aos="fade-up" 
                 data-aos-duration="800"
                 data-aos-delay="300"
-                className="group relative overflow-hidden bg-white rounded-2xl p-8 max-md:p-6 text-center shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 border-t-4 border-[#fb9c24] cursor-pointer"
+                className="group relative overflow-hidden bg-white rounded-2xl p-4 sm:p-5 md:p-6 lg:p-7 xl:p-8 text-center shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 border-t-4 border-[#fb9c24] cursor-pointer"
               >
                 <div className="absolute inset-0 w-full h-full bg-[#fb9c24] opacity-0 group-hover:opacity-20 transition-opacity duration-700"></div>
                 <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-[#fb9c24] to-transparent opacity-40 transform -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-in-out"></div>
                 <div className="relative z-10">
-                  <h2 className="text-6xl max-md:text-5xl font-black text-[#fb9c24] mb-3 group-hover:scale-110 transition-transform duration-300">
-                    {counters.clients}<span className="text-4xl align-top">+</span>
+                  <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-[#fb9c24] mb-2 sm:mb-3 md:mb-4 group-hover:scale-110 transition-transform duration-300">
+                    {counters.clients}<span className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl align-top">+</span>
                   </h2>
                 </div>
-                <p className="relative z-10 text-gray-700 font-bold text-base max-md:text-sm">Happy Clients</p>
+                <p className="relative z-10 text-gray-700 font-bold text-sm sm:text-base md:text-lg">Happy Clients</p>
               </div>
 
               {/* Stat 4 - Technology Experts */}
@@ -339,33 +345,33 @@ function Home() {
                 data-aos="fade-up" 
                 data-aos-duration="800"
                 data-aos-delay="400"
-                className="group relative overflow-hidden bg-white rounded-2xl p-8 max-md:p-6 text-center shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 border-t-4 border-[#fb9c24] cursor-pointer"
+                className="group relative overflow-hidden bg-white rounded-2xl p-4 sm:p-5 md:p-6 lg:p-7 xl:p-8 text-center shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 border-t-4 border-[#fb9c24] cursor-pointer"
               >
                 <div className="absolute inset-0 w-full h-full bg-[#fb9c24] opacity-0 group-hover:opacity-20 transition-opacity duration-700"></div>
                 <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-[#fb9c24] to-transparent opacity-40 transform -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-in-out"></div>
                 <div className="relative z-10">
-                  <h2 className="text-6xl max-md:text-5xl font-black text-[#fb9c24] mb-3 group-hover:scale-110 transition-transform duration-300">
-                    {counters.experts}<span className="text-4xl align-top">+</span>
+                  <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-[#fb9c24] mb-2 sm:mb-3 md:mb-4 group-hover:scale-110 transition-transform duration-300">
+                    {counters.experts}<span className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl align-top">+</span>
                   </h2>
                 </div>
-                <p className="relative z-10 text-gray-700 font-bold text-base max-md:text-sm">Technology Experts</p>
+                <p className="relative z-10 text-gray-700 font-bold text-sm sm:text-base md:text-lg">Technology Experts</p>
               </div>
 
-              {/* Stat 5 - Coding Hours */}
+              {/* Stat 5 - Coding Hours - This will be in 3rd row alone on tablets */}
               <div 
                 data-aos="fade-up" 
                 data-aos-duration="800"
                 data-aos-delay="500"
-                className="group relative overflow-hidden bg-white rounded-2xl p-8 max-md:p-6 text-center shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 border-t-4 border-[#fb9c24] col-span-2 md:col-span-3 lg:col-span-1 cursor-pointer"
+                className="group relative overflow-hidden bg-white rounded-2xl p-4 sm:p-5 md:p-6 lg:p-7 xl:p-8 text-center shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 border-t-4 border-[#fb9c24] cursor-pointer sm:col-span-2 lg:col-span-1"
               >
                 <div className="absolute inset-0 w-full h-full bg-[#fb9c24] opacity-0 group-hover:opacity-20 transition-opacity duration-700"></div>
                 <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-[#fb9c24] to-transparent opacity-40 transform -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-in-out"></div>
                 <div className="relative z-10">
-                  <h2 className="text-6xl max-md:text-5xl font-black text-[#fb9c24] mb-3 group-hover:scale-110 transition-transform duration-300">
-                    {counters.hours}<span className="text-4xl align-top">K+</span>
+                  <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-[#fb9c24] mb-2 sm:mb-3 md:mb-4 group-hover:scale-110 transition-transform duration-300">
+                    {counters.hours}<span className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl align-top">K+</span>
                   </h2>
                 </div>
-                <p className="relative z-10 text-gray-700 font-bold text-base max-md:text-sm">Coding Hours</p>
+                <p className="relative z-10 text-gray-700 font-bold text-sm sm:text-base md:text-lg">Coding Hours</p>
               </div>
             </div>
           </div>
@@ -374,38 +380,38 @@ function Home() {
 
         {/* Who-we-are Section Start here */}
 
-        <div className="py-20 px-6 bg-gradient-to-b from-gray-50 to-white max-lg:py-12 max-md:px-4">
+        <div className="py-12 sm:py-14 md:py-16 lg:py-18 xl:py-20 px-4 sm:px-6 md:px-8 bg-gradient-to-b from-gray-50 to-white">
           <div className="max-w-7xl mx-auto">
             {/* Section Header */}
-            <div className="text-center mb-16 max-lg:mb-10" data-aos="fade-up" data-aos-duration="800">
-              <h3 className="text-[16px] text-[#fb9c24] font-bold tracking-[0.3em] mb-4 uppercase">
+            <div className="text-center mb-10 sm:mb-12 md:mb-14 lg:mb-16 xl:mb-20" data-aos="fade-up" data-aos-duration="800">
+              <h3 className="text-sm sm:text-base md:text-lg text-[#fb9c24] font-bold tracking-[0.3em] mb-3 sm:mb-4 md:mb-5 uppercase">
                 ABOUT US
               </h3>
-              <h1 className="text-[48px] font-black mb-0 leading-tight max-lg:text-[38px] max-md:text-[32px] text-gray-900">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-black mb-0 leading-tight text-gray-900">
                 Know About Us
               </h1>
             </div>
 
             {/* Content Section */}
-            <div className="flex flex-col lg:flex-row items-center gap-12 max-lg:gap-8">
+            <div className="flex flex-col lg:flex-row items-center gap-8 sm:gap-10 md:gap-12 lg:gap-14 xl:gap-16">
               {/* Left Content */}
               <div className="w-full lg:w-[50%]" data-aos="fade-right" data-aos-duration="1000">
-                <h2 className="text-[32px] font-bold mb-6 leading-tight max-lg:text-[28px] max-md:text-[24px] text-gray-900">
+                <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold mb-4 sm:mb-5 md:mb-6 lg:mb-7 leading-tight text-gray-900">
                   Hey, We're A Team Of Creators
                 </h2>
-                <p className="text-[18px] leading-relaxed text-gray-700 mb-8 max-lg:text-[16px] max-md:text-[15px]">
+                <p className="text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed text-gray-700 mb-6 sm:mb-7 md:mb-8">
                   <span className="font-semibold text-gray-900">BTJ Alpha Technology Pvt Ltd is a professionally managed full-service IT and digital solutions company based in India.</span> We specialize in delivering scalable, secure, and performance-driven technology solutions.
                 </p>
-                <p className="text-[18px] leading-relaxed text-gray-700 mb-8 max-lg:text-[16px] max-md:text-[15px]">
+                <p className="text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed text-gray-700 mb-6 sm:mb-7 md:mb-8 lg:mb-10">
                   <span className="font-semibold text-gray-900">Our mission is simple — </span> empower businesses with innovative digital systems that drive measurable results.
                   <br></br>We continuously evolve with technology trends to ensure our clients stay ahead of the competition. From web platforms to enterprise automation, we provide end-to-end digital services under one roof.
                 </p>
                 <Link to="/about" onClick={() => window.scrollTo({ top: 0, behavior: 'instant' })}>
-                  <button className="group relative inline-flex items-center px-8 py-4 font-semibold bg-gradient-to-r from-[#fb9c24] to-orange-600 rounded-lg text-white text-[18px] shadow-lg hover:shadow-[0_20px_50px_rgba(251,156,36,0.5)] transform hover:scale-105 transition-all duration-300 overflow-hidden max-md:px-6 max-md:py-3 max-md:text-[16px]">
+                  <button className="group relative inline-flex items-center px-6 sm:px-7 md:px-8 lg:px-9 xl:px-10 py-3 sm:py-3.5 md:py-4 lg:py-4.5 xl:py-5 font-semibold bg-gradient-to-r from-[#fb9c24] to-orange-600 rounded-lg text-white text-sm sm:text-base md:text-lg lg:text-xl shadow-lg hover:shadow-[0_20px_50px_rgba(251,156,36,0.5)] transform hover:scale-105 transition-all duration-300 overflow-hidden">
                     <span className="relative z-10 flex items-center gap-2">
                       About Us
                       <svg 
-                        className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" 
+                        className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 group-hover:translate-x-1 transition-transform duration-300" 
                         fill="none" 
                         stroke="currentColor" 
                         viewBox="0 0 24 24"
@@ -546,51 +552,51 @@ function Home() {
 
         {/* Why Choose Us Section Start here */}
 
-        <div className="py-20 px-6 bg-gradient-to-br from-gray-50 via-white to-orange-50 max-md:py-12 relative overflow-hidden">
+        <div className="py-12 sm:py-14 md:py-16 lg:py-18 xl:py-20 px-4 sm:px-6 md:px-8 bg-gradient-to-br from-gray-50 via-white to-orange-50 relative overflow-hidden">
           {/* Decorative Background Elements */}
-          <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-[#fb9c24]/10 to-transparent rounded-full blur-3xl"></div>
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-blue-500/10 to-transparent rounded-full blur-3xl"></div>
+          <div className="absolute top-0 right-0 w-64 sm:w-80 md:w-96 lg:w-[28rem] xl:w-[32rem] h-64 sm:h-80 md:h-96 lg:h-[28rem] xl:h-[32rem] bg-gradient-to-br from-[#fb9c24]/10 to-transparent rounded-full blur-3xl"></div>
+          <div className="absolute bottom-0 left-0 w-64 sm:w-80 md:w-96 lg:w-[28rem] xl:w-[32rem] h-64 sm:h-80 md:h-96 lg:h-[28rem] xl:h-[32rem] bg-gradient-to-tr from-blue-500/10 to-transparent rounded-full blur-3xl"></div>
           
           <div className="max-w-7xl mx-auto relative z-10">
             {/* Section Header */}
-            <div className="text-center mb-16 max-md:mb-10" data-aos="fade-up" data-aos-duration="800">
+            <div className="text-center mb-10 sm:mb-12 md:mb-14 lg:mb-16 xl:mb-20" data-aos="fade-up" data-aos-duration="800">
               {/* Badge */}
-              <div className="inline-flex items-center px-6 py-2 bg-gradient-to-r from-[#fb9c24]/20 to-orange-500/20 rounded-full mb-6 border border-[#fb9c24]/30">
+              <div className="inline-flex items-center px-4 sm:px-5 md:px-6 py-2 sm:py-2.5 bg-gradient-to-r from-[#fb9c24]/20 to-orange-500/20 rounded-full mb-4 sm:mb-5 md:mb-6 border border-[#fb9c24]/30">
                 <span className="w-2 h-2 bg-[#fb9c24] rounded-full mr-2 animate-pulse"></span>
-                <span className="text-[14px] font-semibold text-[#fb9c24] uppercase tracking-wider">Our Services</span>
+                <span className="text-xs sm:text-sm md:text-base font-semibold text-[#fb9c24] uppercase tracking-wider">Our Services</span>
               </div>
 
               {/* Main Heading */}
-              <h1 className="text-[3.5rem] font-black mb-6 max-lg:text-[3rem] max-md:text-[2.5rem] text-gray-900 leading-tight">
-                Your Trusted Partner for<br></br> <span className="text-transparent bg-gradient-to-r from-[#fb9c24] to-orange-600 bg-clip-text">IT Development</span> & <span className="text-transparent bg-gradient-to-r from-[#fb9c24] to-orange-600 bg-clip-text">Digital Services</span>
+              <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-black mb-4 sm:mb-5 md:mb-6 lg:mb-8 text-gray-900 leading-tight">
+                Your Trusted Partner for<br className="hidden sm:block"></br> <span className="text-transparent bg-gradient-to-r from-[#fb9c24] to-orange-600 bg-clip-text">IT Development</span> & <span className="text-transparent bg-gradient-to-r from-[#fb9c24] to-orange-600 bg-clip-text">Digital Services</span>
               </h1>
 
-               <p className="text-[1.15rem] text-gray-700 leading-relaxed max-md:text-[1rem] text-center mb-6">
+               <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-700 leading-relaxed text-center mb-4 sm:mb-5 md:mb-6 lg:mb-8 max-w-4xl mx-auto">
                     We provide complete Digital Solutions to help businesses grow online, improve efficiency, and increase revenue. From website and software development to digital marketing and branding — we build powerful digital experiences that deliver real results.
                   </p>
                   
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-7 md:gap-8 lg:gap-10 xl:gap-12 max-w-6xl mx-auto">
                 {/* Part 1: IT Development Card */}
-                <div data-aos="fade-right" data-aos-duration="800" className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-lg border border-gray-100 max-md:p-6">
-                  <h2 className="text-[2rem] font-bold text-center mb-4 text-[#fb9c24] max-md:text-[1.5rem]">IT Development Services</h2>
-                  <p className="text-[1.15rem] text-gray-700 leading-relaxed max-md:text-[1rem] text-center mb-6">
+                <div data-aos="fade-right" data-aos-duration="800" className="bg-white/80 backdrop-blur-sm rounded-2xl sm:rounded-3xl p-4 sm:p-5 md:p-6 lg:p-7 xl:p-8 shadow-lg border border-gray-100">
+                  <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-center mb-3 sm:mb-4 md:mb-5 text-[#fb9c24]">IT Development Services</h2>
+                  <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-700 leading-relaxed text-center mb-4 sm:mb-5 md:mb-6">
                     We offer cutting-edge software development services to build robust, scalable, and innovative technology solutions.
                   </p>
-                  <div className="space-y-4">
+                  <div className="space-y-3 sm:space-y-4 md:space-y-5">
                     {/* IT Development Sub-Cards */}
-                    <div className="group flex items-start gap-4 p-4 rounded-2xl bg-blue-50 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-transparent hover:border-[#fb9c24] cursor-pointer" onClick={() => window.location.href="/website-design-services-in-india"}>
-                      <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-br from-[#fb9c24] to-[#e88a15] flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                    <div className="group flex items-start gap-3 sm:gap-4 md:gap-5 p-3 sm:p-4 md:p-5 rounded-xl sm:rounded-2xl bg-blue-50 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-transparent hover:border-[#fb9c24] cursor-pointer" onClick={() => window.location.href="/website-design-services-in-india"}>
+                      <div className="flex-shrink-0 w-10 sm:w-11 md:w-12 lg:w-14 h-10 sm:h-11 md:h-12 lg:h-14 rounded-lg sm:rounded-xl bg-gradient-to-br from-[#fb9c24] to-[#e88a15] flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                         <img
                           src={web}
                           alt="Website Design & Development"
-                          className="h-6 w-6 filter brightness-0 invert"
+                          className="h-5 sm:h-6 md:h-7 lg:h-8 w-5 sm:w-6 md:w-7 lg:w-8 filter brightness-0 invert"
                         />
                       </div>
-                      <div className="flex-1">
-                        <h3 className="text-[1.05rem] font-bold text-gray-900 mb-1 group-hover:text-[#fb9c24] transition-colors duration-300">
+                      <div className="flex-1 min-w-0">
+                        <h3 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-gray-900 mb-1 sm:mb-2 group-hover:text-[#fb9c24] transition-colors duration-300">
                           Website Design & Development
                         </h3>
-                        <p className="text-gray-600 text-sm">
+                        <p className="text-gray-600 text-xs sm:text-sm md:text-base leading-relaxed">
                           We create fast, secure, and mobile-friendly websites that convert visitors into customers.
                         </p>
                       </div>
