@@ -43,6 +43,10 @@ const UserForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    
+    // Prevent double submission
+    if (loading) return;
+    
     if (!validate()) return;
 
     setLoading(true);
@@ -60,6 +64,7 @@ const UserForm = () => {
         setSelected("");
         setPhone("");
         setErrors({});
+        setCaptchaVerified(false);
         navigate("/thank-you");
       })
       .catch(() => {
