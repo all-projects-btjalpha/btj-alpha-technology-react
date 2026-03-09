@@ -83,11 +83,21 @@ const Contact = () => {
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
+    
+    // Prevent horizontal scroll
+    document.body.style.overflowX = "hidden";
+    document.documentElement.style.overflowX = "hidden";
+    
     AOS.init({
       duration: 1000,
       once: false,
       mirror: true,
     });
+
+    return () => {
+      document.body.style.overflowX = "";
+      document.documentElement.style.overflowX = "";
+    };
   }, []);
 
   useEffect(() => {
@@ -103,9 +113,9 @@ const Contact = () => {
   };
 
   return (
-    <main className="bg-gradient-to-b from-gray-50 to-white overflow-x-hidden">
+    <main className="bg-gradient-to-b from-gray-50 to-white overflow-x-hidden w-full max-w-[100vw]">
       {/* Hero Section */}
-      <section className="relative py-16 px-6 max-md:px-4 mt-20 max-md:mt-16 bg-gradient-to-br from-orange-50 via-white to-orange-50/30 overflow-hidden">
+      <section className="relative py-16 px-6 max-md:px-4 mt-20 max-md:mt-16 bg-gradient-to-br from-orange-50 via-white to-orange-50/30 overflow-hidden w-full">
         {/* Background Decorative Elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute top-20 -left-10 w-64 h-64 bg-[#fb9c24]/10 rounded-full blur-3xl"></div>
@@ -135,11 +145,11 @@ const Contact = () => {
       </section>
 
       {/* Map & Form Section */}
-      <section className="py-20 px-6 max-md:px-4 bg-gradient-to-br from-gray-50 via-white to-orange-50/20">
-        <div className="max-w-7xl mx-auto">
+      <section className="py-20 px-6 max-md:px-4 bg-gradient-to-br from-gray-50 via-white to-orange-50/20 overflow-hidden">
+        <div className="max-w-7xl mx-auto w-full">
           <div className="grid lg:grid-cols-2 gap-12 items-start">
-            {/* Map */}
-            <div data-aos="fade-right">
+            {/* Map - Order 2 on mobile/tablet, Order 1 on desktop */}
+            <div data-aos="fade-right" className="order-2 lg:order-1">
               <div className="relative group">
                 <div className="absolute -inset-1 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] rounded-2xl opacity-20 group-hover:opacity-30 transition-opacity duration-500 blur-xl"></div>
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
@@ -156,8 +166,8 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Form */}
-            <div data-aos="fade-left">
+            {/* Form - Order 1 on mobile/tablet, Order 2 on desktop */}
+            <div data-aos="fade-left" className="order-1 lg:order-2">
               <div className="bg-white rounded-2xl p-8 max-md:p-6 shadow-2xl border-2 border-gray-100">
                 <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] px-4 py-2 rounded-full mb-6 shadow-lg">
                   <span className="text-xs font-bold text-white tracking-[0.2em] uppercase">
@@ -179,8 +189,8 @@ const Contact = () => {
       </section>
 
       {/* Contact Cards Section */}
-      <section className="py-16 px-6 max-md:px-4 bg-white">
-        <div className="max-w-6xl mx-auto">
+      <section className="py-16 px-6 max-md:px-4 bg-white overflow-hidden">
+        <div className="max-w-6xl mx-auto w-full">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Visit Us Card */}
             <a
@@ -295,8 +305,8 @@ const Contact = () => {
       </section> */}
 
       {/* FAQ Section */}
-      <section className="py-20 px-6 max-md:px-4 bg-white">
-        <div className="max-w-7xl mx-auto">
+      <section className="py-20 px-6 max-md:px-4 bg-white overflow-hidden">
+        <div className="max-w-7xl mx-auto w-full">
           <div className="text-center mb-12" data-aos="fade-up">
             <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#fb9c24] to-[#ff8c00] px-4 py-2 rounded-full mb-6 shadow-lg">
               <span className="text-xs font-bold text-white tracking-[0.2em] uppercase">
