@@ -15,6 +15,11 @@ const UserForm = () => {
   const formRef = useRef(null);
   const { Option } = Select;
 
+  // Use test key for localhost, production key for live site
+  const RECAPTCHA_SITE_KEY = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+    ? '6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI' // Test key for localhost
+    : '6LcYfYUsAAAAABrBX8OhHYcvQYAY8u-EcPgVAZDh'; // Production key
+
   const handlePhoneChange = (e) => {
     const value = e.target.value.replace(/\D/g, ""); // remove non-digits
     if (value.length <= 10) {
@@ -197,7 +202,7 @@ const UserForm = () => {
 
       <div className="flex justify-center my-4">
         <ReCAPTCHA
-          sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+          sitekey={RECAPTCHA_SITE_KEY}
           onChange={handleCaptchaChange}
           theme="light"
         />

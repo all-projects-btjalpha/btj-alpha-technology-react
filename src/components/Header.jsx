@@ -937,7 +937,7 @@ const Header = () => {
       <div
         className={`fixed top-0 left-0 z-[1000] bg-white h-full w-[310px] px-[30px] py-[40px] flex-col transition-all duration-500 ease-in-out border transform ${
           show ? "translate-x-0 opacity-100" : "-translate-x-full opacity-0"
-        } lg:hidden`}
+        } lg:hidden overflow-y-auto`}
       >
         <IoClose
           className="text-2xl absolute right-3 top-5 cursor-pointer"
@@ -947,6 +947,22 @@ const Header = () => {
           <img src="/logo.jpg" className="w-[80px]" alt="Admirer Logo" />
         </div>
         {menuItems}
+        
+        {/* Mobile Call Button */}
+        <div className="mt-8 space-y-6 px-3">
+          <a href="tel:+919310228489" onClick={() => setShow(false)}>
+            <button className="w-full flex font-semibold bg-green-500 hover:bg-green-600 justify-center h-12 rounded-lg text-white text-lg items-center gap-2 transition-all duration-300 shadow-md">
+              <FaPhone className="text-xl" />
+              +91 93102-28489
+            </button>
+          </a> <br></br>
+          <Link to="/contact" onClick={() => setShow(false)}>
+            <button className="w-full flex font-semibold bg-[#fb9c24] hover:bg-[#e58a15] justify-center h-12 rounded-lg text-white text-lg items-center gap-2 transition-all duration-300 shadow-md">
+              Get In Touch
+              <FiArrowRightCircle className="text-xl" />
+            </button>
+          </Link>
+        </div>
       </div>
 
       {/* Header */}
@@ -966,9 +982,18 @@ const Header = () => {
             />
           </Link>
 
-          <div className="lg:hidden">
+          <div className="lg:hidden flex items-center justify-center flex-1 gap-3">
+            {/* Mobile/Tablet Call Button - Centered */}
+            <a href="tel:+919310228489">
+              <button className="px-5 h-[45px] flex font-semibold bg-green-500 hover:bg-green-600 justify-center rounded-lg text-white text-base items-center gap-2 transition-all duration-300 shadow-lg hover:scale-105">
+                <FaPhone />
+                +91 93102-28489
+              </button>
+            </a>
+            
+            {/* Hamburger Icon */}
             <div
-              className="w-5 h-[14px] flex flex-col justify-between cursor-pointer"
+              className="w-5 h-[14px] flex flex-col justify-between cursor-pointer absolute right-4"
               onClick={handleClick}
             >
               <span className="w-full h-[2px] bg-black"></span>
@@ -983,9 +1008,18 @@ const Header = () => {
 
           <div className="hidden lg:flex">{menuItems}</div>
 
-          <div className="hidden lg:flex">
+          <div className="hidden lg:flex items-center gap-3">
+            {/* Call Button */}
+            <a href="tel:+919310228489">
+              <button className="px-5 h-[50px] flex font-semibold bg-green-500 hover:bg-green-600 justify-center rounded-lg text-white text-lg items-center gap-2 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105">
+                <FaPhone />
+                +91 93102-28489
+              </button>
+            </a>
+            
+            {/* Get In Touch Button */}
             <Link to="/contact">
-              <button className="w-[170px] flex font-semibold bg-[#fb9c24] justify-center h-12 rounded-lg text-white text-lg items-center">
+              <button className="w-[170px] flex font-semibold bg-[#fb9c24] hover:bg-[#e58a15] justify-center h-12 rounded-lg text-white text-lg items-center transition-all duration-300 shadow-md hover:shadow-lg">
                 Get In Touch
                 <span className="text-xl ml-2">
                   <FiArrowRightCircle />
