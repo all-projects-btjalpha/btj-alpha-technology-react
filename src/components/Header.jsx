@@ -253,7 +253,7 @@ const Header = () => {
   ];
 
   const menuItems = (
-    <ul className="flex-col gap-6 flex text-lg font-semibold lg:flex-row lg:items-center lg:gap-8">
+    <ul className="flex-col gap-4 flex text-sm font-semibold lg:flex-row lg:items-center lg:gap-4 xl:gap-7 xl:text-base 2xl:text-lg">
       <Link to="/home">
         <li
           onClick={() => handleTabClick("home")}
@@ -312,19 +312,19 @@ const Header = () => {
 
         {/* Desktop Mega Menu: also listens for mouse enter/leave so it doesn't close when moving pointer */}
         <div
-          className={`absolute left-1/2 -translate-x-[26%] bg-white shadow-2xl w-[95vw] max-w-[1400px] z-50 transition-all duration-200 ease-in-out hidden lg:block rounded-lg border border-gray-200 ${
+          className={`absolute left-1/2 -translate-x-[26%] bg-white shadow-2xl w-[90vw] max-w-[1200px] z-50 transition-all duration-200 ease-in-out hidden lg:block rounded-lg border border-gray-200 ${
             servicesOpen ? "opacity-100 translate-y-2 visible" : "opacity-0 invisible -translate-y-1"
           }`}
           onMouseEnter={() => setServicesOpen(true)}
           onMouseLeave={() => setServicesOpen(false)}
         >
-          <div className="grid grid-cols-3 gap-6 p-6">
+          <div className="grid grid-cols-3 gap-4 p-5">
             {/* IT Services Column 1 */}
             <div>
-              <h3 className="text-lg font-bold text-gray-800 mb-4 pb-2 border-b-2 border-[#fb9c24]">
+              <h3 className="text-base font-bold text-gray-800 mb-3 pb-2 border-b-2 border-[#fb9c24]">
                 IT Services
               </h3>
-              <ul className="space-y-2">
+              <ul className="space-y-1.5">
                 {itServices.slice(0, 7).map((service, i) => (
                   <Link
                     key={i}
@@ -335,11 +335,11 @@ const Header = () => {
                       setServicesOpen(false);
                     }}
                   >
-                    <li className="flex items-center gap-3 px-3 py-3 hover:bg-orange-50 rounded-lg transition-all duration-200 group cursor-pointer">
+                    <li className="flex items-center gap-2 px-2 py-2 hover:bg-orange-50 rounded-lg transition-all duration-200 group cursor-pointer">
                       <div className="flex-shrink-0">
                         {service.icon}
                       </div>
-                      <span className="text-gray-700 group-hover:text-[#fb9c24] font-medium text-sm">
+                      <span className="text-gray-700 group-hover:text-[#fb9c24] font-medium text-xs xl:text-sm">
                         {service.name}
                       </span>
                     </li>
@@ -350,10 +350,10 @@ const Header = () => {
 
             {/* IT Services Column 2 */}
             <div>
-              <h3 className="text-lg font-bold text-gray-800 mb-4 pb-2 border-b-2 border-[#fb9c24] opacity-0">
+              <h3 className="text-base font-bold text-gray-800 mb-3 pb-2 border-b-2 border-[#fb9c24] opacity-0">
                 IT Services
               </h3>
-              <ul className="space-y-2">
+              <ul className="space-y-1.5">
                 {itServices.slice(7).map((service, i) => (
                   <Link
                     key={i}
@@ -364,11 +364,11 @@ const Header = () => {
                       setServicesOpen(false);
                     }}
                   >
-                    <li className="flex items-center gap-3 px-3 py-3 hover:bg-orange-50 rounded-lg transition-all duration-200 group cursor-pointer">
+                    <li className="flex items-center gap-2 px-2 py-2 hover:bg-orange-50 rounded-lg transition-all duration-200 group cursor-pointer">
                       <div className="flex-shrink-0">
                         {service.icon}
                       </div>
-                      <span className="text-gray-700 group-hover:text-[#fb9c24] font-medium text-sm">
+                      <span className="text-gray-700 group-hover:text-[#fb9c24] font-medium text-xs xl:text-sm">
                         {service.name}
                       </span>
                     </li>
@@ -379,10 +379,10 @@ const Header = () => {
 
             {/* Digital Services Column */}
             <div>
-              <h3 className="text-lg font-bold text-gray-800 mb-4 pb-2 border-b-2 border-[#fb9c24]">
+              <h3 className="text-base font-bold text-gray-800 mb-3 pb-2 border-b-2 border-[#fb9c24]">
                 Digital Services
               </h3>
-              <ul className="space-y-2">
+              <ul className="space-y-1.5">
                 {digitalServices.map((service, i) => (
                   <Link
                     key={i}
@@ -393,11 +393,11 @@ const Header = () => {
                       setServicesOpen(false);
                     }}
                   >
-                    <li className="flex items-center gap-3 px-3 py-3 hover:bg-orange-50 rounded-lg transition-all duration-200 group cursor-pointer">
+                    <li className="flex items-center gap-2 px-2 py-2 hover:bg-orange-50 rounded-lg transition-all duration-200 group cursor-pointer">
                       <div className="flex-shrink-0">
                         {service.icon}
                       </div>
-                      <span className="text-gray-700 group-hover:text-[#fb9c24] font-medium text-sm">
+                      <span className="text-gray-700 group-hover:text-[#fb9c24] font-medium text-xs xl:text-sm">
                         {service.name}
                       </span>
                     </li>
@@ -489,13 +489,13 @@ const Header = () => {
 
         {/* Desktop Mega Menu for Technologies */}
         <div
-          className={`absolute left-1/2 -translate-x-[36%] bg-white shadow-2xl w-[95vw] max-w-[1400px] z-50 transition-all duration-200 ease-in-out hidden lg:block rounded-lg border border-gray-200 ${
+          className={`absolute left-1/2 -translate-x-[36%] bg-white shadow-2xl w-[90vw] max-w-[1200px] z-50 transition-all duration-200 ease-in-out hidden lg:block rounded-lg border border-gray-200 ${
             technologiesOpen ? "opacity-100 translate-y-2 visible" : "opacity-0 invisible -translate-y-1"
           }`}
           onMouseEnter={() => setTechnologiesOpen(true)}
           onMouseLeave={() => setTechnologiesOpen(false)}
         >
-          <div className="grid grid-cols-6 gap-6 p-8">
+          <div className="grid grid-cols-6 gap-4 p-5">
             {/* Frontend Technologies Column */}
             <div>
               <h3 className="text-base font-bold text-gray-800 mb-4 pb-2 border-b-2 border-[#fb9c24]">
@@ -820,17 +820,17 @@ const Header = () => {
 
         {/* Desktop Mega Menu for Verticals */}
         <div
-          className={`absolute left-1/2 -translate-x-[46%] bg-white shadow-2xl w-[95vw] max-w-[1400px] z-50 transition-all duration-200 ease-in-out hidden lg:block rounded-lg border border-gray-200 ${
+          className={`absolute left-1/2 -translate-x-[46%] bg-white shadow-2xl w-[90vw] max-w-[1200px] z-50 transition-all duration-200 ease-in-out hidden lg:block rounded-lg border border-gray-200 ${
             verticalsOpen ? "opacity-100 translate-y-2 visible" : "opacity-0 invisible -translate-y-1"
           }`}
           onMouseEnter={() => setVerticalsOpen(true)}
           onMouseLeave={() => setVerticalsOpen(false)}
         >
-          <div className="p-6">
-            <h3 className="text-xl font-bold text-gray-800 mb-6 pb-3 border-b-2 border-[#fb9c24] text-center">
+          <div className="p-5">
+            <h3 className="text-lg font-bold text-gray-800 mb-4 pb-2 border-b-2 border-[#fb9c24] text-center">
               Industry Verticals
             </h3>
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid grid-cols-3 gap-3">
               {verticals.map((vertical, i) => (
                 <Link
                   key={i}
@@ -973,11 +973,11 @@ const Header = () => {
             : "bg-white shadow-md"
         }`}
       >
-        <div className="w-[95%] px-4 flex justify-between items-center">
+        <div className="w-full max-w-[1920px] mx-auto px-3 lg:px-4 xl:px-6 flex justify-between items-center">
           <Link to="/">
             <img
               src="/btlogo.png"
-              className="w-[50px] max-md:w-[50px] ml-8 max-md:ml-0 my-3"
+              className="w-[45px] lg:w-[45px] xl:w-[50px] ml-4 lg:ml-2 xl:ml-4 max-md:ml-0 my-3"
               alt="Admirer Logo"
             />
           </Link>
@@ -1008,20 +1008,22 @@ const Header = () => {
 
           <div className="hidden lg:flex">{menuItems}</div>
 
-          <div className="hidden lg:flex items-center gap-3">
+          <div className="hidden lg:flex items-center gap-1.5 xl:gap-2 2xl:gap-3">
             {/* Call Button */}
             <a href="tel:+919310228489">
-              <button className="px-5 h-[50px] flex font-semibold bg-green-500 hover:bg-green-600 justify-center rounded-lg text-white text-lg items-center gap-2 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105">
-                <FaPhone />
-                +91 93102-28489
+              <button className="px-3 xl:px-4 2xl:px-5 h-[42px] xl:h-[45px] 2xl:h-[50px] flex font-semibold bg-green-500 hover:bg-green-600 justify-center rounded-lg text-white text-sm xl:text-base 2xl:text-lg items-center gap-1.5 xl:gap-2 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 whitespace-nowrap">
+                <FaPhone className="text-sm xl:text-base" />
+                <span className="hidden xl:inline">+91 93102-28489</span>
+                <span className="xl:hidden">Call</span>
               </button>
             </a>
             
             {/* Get In Touch Button */}
             <Link to="/contact">
-              <button className="w-[170px] flex font-semibold bg-[#fb9c24] hover:bg-[#e58a15] justify-center h-12 rounded-lg text-white text-lg items-center transition-all duration-300 shadow-md hover:shadow-lg">
-                Get In Touch
-                <span className="text-xl ml-2">
+              <button className="w-[120px] xl:w-[140px] 2xl:w-[170px] flex font-semibold bg-[#fb9c24] hover:bg-[#e58a15] justify-center h-[42px] xl:h-[45px] 2xl:h-12 rounded-lg text-white text-sm xl:text-base 2xl:text-lg items-center transition-all duration-300 shadow-md hover:shadow-lg whitespace-nowrap">
+                <span className="hidden xl:inline">Get In Touch</span>
+                <span className="xl:hidden">Contact</span>
+                <span className="text-base xl:text-lg 2xl:text-xl ml-1.5 xl:ml-2">
                   <FiArrowRightCircle />
                 </span>
               </button>

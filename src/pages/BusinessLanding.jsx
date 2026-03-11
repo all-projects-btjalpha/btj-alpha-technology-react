@@ -118,42 +118,42 @@ function BusinessLanding() {
   return (
     <div className="bg-white overflow-hidden">
       {/* Hero Section with Form */}
-      <section className="relative bg-gradient-to-r from-[#fff4e6] to-[#ffe8cc] min-h-screen flex items-center overflow-hidden">
+      <section className="relative bg-gradient-to-r from-[#fff4e6] to-[#ffe8cc] min-h-screen overflow-hidden">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-0 left-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>
           <div className="absolute bottom-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>
         </div>
 
-        <div className="w-full px-4 md:px-8 lg:px-12 mx-auto relative z-10 py-8 md:py-12">
-          <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center max-w-7xl mx-auto">
+        <div className="w-full px-4 md:px-8 lg:px-8 xl:px-12 mx-auto relative z-10 pt-24 md:pt-28 pb-12 lg:pt-32 lg:pb-12 lg:flex lg:items-center lg:min-h-screen">
+          <div className="flex flex-col lg:grid lg:grid-cols-[1.2fr_1fr] xl:grid-cols-2 gap-8 lg:gap-8 xl:gap-12 items-center max-w-7xl mx-auto w-full">
             {/* Left Content */}
-            <div className="text-center md:text-left">
-              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black mb-4 mt-16 md:mb-6 leading-tight">
+            <div className="text-center lg:text-left w-full lg:pl-20 xl:pl-8 2xl:pl-0">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl font-bold text-black mb-4 lg:mb-6 leading-tight">
                 Professional Website Design & Custom Software Development
               </h1>
-              <p className="text-base sm:text-lg md:text-xl text-balck/90 mb-6 md:mb-8">
+              <p className="text-base sm:text-lg md:text-xl lg:text-lg xl:text-xl text-black/90 mb-6 lg:mb-8">
                 Get a fast, SEO-friendly website or business software to grow your business online.
               </p>
 
               {/* 3 Key Points */}
-              <div className="space-y-3 md:space-y-4 mb-6 md:mb-8">
-                <div className="flex items-center justify-center md:justify-start gap-2 md:gap-3">
-                  <FaCheckCircle className="text-black text-lg md:text-2xl flex-shrink-0" />
-                  <span className="text-black text-sm sm:text-base md:text-lg font-medium">Responsive Website Design</span>
+              <div className="space-y-3 lg:space-y-3 xl:space-y-4 mb-6 lg:mb-8">
+                <div className="flex items-center justify-center lg:justify-start gap-2 md:gap-3">
+                  <FaCheckCircle className="text-black text-lg lg:text-xl xl:text-2xl flex-shrink-0" />
+                  <span className="text-black text-sm sm:text-base lg:text-base xl:text-lg font-medium">Responsive Website Design</span>
                 </div>
-                <div className="flex items-center justify-center md:justify-start gap-2 md:gap-3">
-                  <FaCheckCircle className="text-black text-lg md:text-2xl flex-shrink-0" />
-                  <span className="text-black text-sm sm:text-base md:text-lg font-medium">Custom Business Software</span>
+                <div className="flex items-center justify-center lg:justify-start gap-2 md:gap-3">
+                  <FaCheckCircle className="text-black text-lg lg:text-xl xl:text-2xl flex-shrink-0" />
+                  <span className="text-black text-sm sm:text-base lg:text-base xl:text-lg font-medium">Custom Business Software</span>
                 </div>
-                <div className="flex items-center justify-center md:justify-start gap-2 md:gap-3">
-                  <FaCheckCircle className="text-black text-lg md:text-2xl flex-shrink-0" />
-                  <span className="text-black text-sm sm:text-base md:text-lg font-medium">Affordable Pricing</span>
+                <div className="flex items-center justify-center lg:justify-start gap-2 md:gap-3">
+                  <FaCheckCircle className="text-black text-lg lg:text-xl xl:text-2xl flex-shrink-0" />
+                  <span className="text-black text-sm sm:text-base lg:text-base xl:text-lg font-medium">Affordable Pricing</span>
                 </div>
               </div>
 
               {/* CTA Buttons */}
-              <div className="flex flex-wrap justify-center md:justify-start gap-3 md:gap-4">
+              <div className="flex flex-wrap justify-center lg:justify-start gap-3 md:gap-4">
                 <button
                   onClick={openForm}
                   className="bg-white text-[#fb9c24] hover:bg-gray-100 font-bold py-3 px-6 md:py-4 md:px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg text-sm md:text-base"
@@ -170,8 +170,8 @@ function BusinessLanding() {
             </div>
 
             {/* Right Form */}
-            <div className="bg-white p-6 md:p-8 rounded-2xl shadow-2xl">
-              <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-4 md:mb-6 text-center">
+            <div className="bg-white p-5 md:p-8 rounded-2xl shadow-2xl w-full max-w-md mx-auto lg:max-w-none lg:mx-0">
+              <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-4 lg:mb-6 text-center">
                 Get Free Quote
               </h2>
               <UserForm />
