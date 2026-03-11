@@ -254,7 +254,7 @@ const Header = () => {
 
   const menuItems = (
     <ul className="flex-col gap-6 flex text-lg font-semibold lg:flex-row lg:items-center lg:gap-8">
-      <Link to="/">
+      <Link to="/home">
         <li
           onClick={() => handleTabClick("home")}
           className={`cursor-pointer hover:underline hover:underline-offset-8 hover:decoration-2 hover:decoration-[#fb9c24] ${
@@ -312,7 +312,7 @@ const Header = () => {
 
         {/* Desktop Mega Menu: also listens for mouse enter/leave so it doesn't close when moving pointer */}
         <div
-          className={`absolute left-1/2 -translate-x-[34%] bg-white shadow-2xl w-[95vw] max-w-[1400px] z-50 transition-all duration-200 ease-in-out hidden lg:block rounded-lg border border-gray-200 ${
+          className={`absolute left-1/2 -translate-x-[26%] bg-white shadow-2xl w-[95vw] max-w-[1400px] z-50 transition-all duration-200 ease-in-out hidden lg:block rounded-lg border border-gray-200 ${
             servicesOpen ? "opacity-100 translate-y-2 visible" : "opacity-0 invisible -translate-y-1"
           }`}
           onMouseEnter={() => setServicesOpen(true)}
@@ -489,7 +489,7 @@ const Header = () => {
 
         {/* Desktop Mega Menu for Technologies */}
         <div
-          className={`absolute left-1/2 -translate-x-[43%] bg-white shadow-2xl w-[95vw] max-w-[1400px] z-50 transition-all duration-200 ease-in-out hidden lg:block rounded-lg border border-gray-200 ${
+          className={`absolute left-1/2 -translate-x-[36%] bg-white shadow-2xl w-[95vw] max-w-[1400px] z-50 transition-all duration-200 ease-in-out hidden lg:block rounded-lg border border-gray-200 ${
             technologiesOpen ? "opacity-100 translate-y-2 visible" : "opacity-0 invisible -translate-y-1"
           }`}
           onMouseEnter={() => setTechnologiesOpen(true)}
@@ -820,7 +820,7 @@ const Header = () => {
 
         {/* Desktop Mega Menu for Verticals */}
         <div
-          className={`absolute left-1/2 -translate-x-[54%] bg-white shadow-2xl w-[95vw] max-w-[1400px] z-50 transition-all duration-200 ease-in-out hidden lg:block rounded-lg border border-gray-200 ${
+          className={`absolute left-1/2 -translate-x-[46%] bg-white shadow-2xl w-[95vw] max-w-[1400px] z-50 transition-all duration-200 ease-in-out hidden lg:block rounded-lg border border-gray-200 ${
             verticalsOpen ? "opacity-100 translate-y-2 visible" : "opacity-0 invisible -translate-y-1"
           }`}
           onMouseEnter={() => setVerticalsOpen(true)}

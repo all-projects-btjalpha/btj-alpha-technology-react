@@ -16,6 +16,7 @@ import TermsAndConditions from "./pages/TermsConditions";
 import Services from "./pages/Services";
 import Technologies from "./pages/Technologies";
 import Hostinger from "./pages/Hostinger";
+import BusinessLanding from "./pages/BusinessLanding";
 
 import MobileAppDevelopment from "./pages/services_pages/MobileAppDevelopment";
 import SocialMediaMarketing from "./pages/services_pages/SMM";
@@ -122,6 +123,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
+          {/* <Route path="/" element={<BusinessLanding />} /> */}
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
@@ -130,6 +132,7 @@ function App() {
           <Route path="services" element={<Services />} />
           <Route path="technologies" element={<Technologies />} />
           <Route path="best-hosting-in-india" element={<Hostinger />} />
+          <Route path="business-landing" element={<BusinessLanding />} />
           <Route path="technologies/saas" element={<SaaS />} />
           <Route path="meta-ads" element={<MetaAds />} />
           <Route path="google-ads" element={<GoogleAds />} />
@@ -154,8 +157,7 @@ function App() {
           />
           <Route
             path="progressive-web-app-development-company-in-india"
-            element={<PWADevelopment />}
-          />
+            element={<PWADevelopment />} />
           <Route path="api-development-company-in-india" element={<WebAPI />} />
           <Route
             path="software-architecture-services-in-india"
